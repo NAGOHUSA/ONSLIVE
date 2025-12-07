@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Space Weather - ournightsky.us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body>
+    <div class="dashboard">
+        <!-- Header -->
+        <header class="dashboard-header">
+            <h1><i class="fas fa-satellite"></i> live.ournightsky.us</h1>
+            <p class="subtitle">Real-time Space Weather Dashboard</p>
+            <div class="last-updated">
+                Last updated: <span id="update-time">--:--</span>
+                <button id="refresh-btn"><i class="fas fa-sync-alt"></i> Refresh</button>
+            </div>
+        </header>
+
+        <!-- Main Grid -->
+        <div class="dashboard-grid">
+            <!-- Solar Activity -->
+            <div class="card solar-card">
+                <h2><i class="fas fa-sun"></i> Solar Activity</h2>
+                <div class="solar-status">
+                    <div class="flare-indicator">
+                        <h3>Recent Solar Flares</h3>
+                        <div id="flare-list"></div>
+                    </div>
+                    <div class="solar-wind">
+                        <h3>Solar Wind</h3>
+                        <div class="metric">
+                            <span class="label">Speed:</span>
+                            <span id="wind-speed">--- km/s</span>
+                        </div>
+                        <div class="metric">
+                            <span class="label">Density:</span>
+                            <span id="wind-density">--- p/cm³</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Aurora Forecast -->
+            <div class="card aurora-card">
+                <h2><i class="fas fa-compass"></i> Aurora Forecast</h2>
+                <div id="kp-index" class="kp-display">
+                    Current Kp: <span id="current-kp">--</span>
+                </div>
+                <div class="aurora-map">
+                    <div id="map"></div>
+                </div>
+                <div class="forecast-text" id="aurora-forecast">
+                    Loading forecast...
+                </div>
+            </div>
+
+            <!-- Space Weather Alerts -->
+            <div class="card alerts-card">
+                <h2><i class="fas fa-exclamation-triangle"></i> Alerts</h2>
+                <div id="alerts-list"></div>
+            </div>
+
+            <!-- Space News -->
+            <div class="card news-card">
+                <h2><i class="fas fa-newspaper"></i> Space News</h2>
+                <div id="news-feed"></div>
+            </div>
+
+            <!-- Data Sources -->
+            <div class="card sources-card">
+                <h2><i class="fas fa-database"></i> Data Sources</h2>
+                <div class="sources-list">
+                    <p><i class="fas fa-check-circle"></i> NOAA SWPC</p>
+                    <p><i class="fas fa-check-circle"></i> NASA DONKI</p>
+                    <p><i class="fas fa-check-circle"></i> Space Weather Live</p>
+                    <p><i class="fas fa-check-circle"></i> Aurora Service</p>
+                </div>
+                <div class="update-frequency">
+                    <small>Auto-updates every 15 minutes</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <p>Part of <a href="https://ournightsky.us">ournightsky.us</a> | Data provided by NOAA, NASA, and other space agencies</p>
+        </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="src/js/data-fetcher.js"></script>
+    <script src="src/js/dashboard.js"></script>
+    <script src="src/js/visualizations.js"></script>
+</body>
+</html>
