@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Access Test</title>
+</head>
+<body>
+    <h1>Data Access Test</h1>
+    <div id="results"></div>
+    
+    <script>
+        const files = [
+            'data/noaa-data.json',
+            'data/news.json',
+            'data/aurora.json',
+            'data/update-status.json'
+        ];
+        
+        async function testFile(url) {
+            try {
+                const response = await fetch(url);
+                if (response.ok) {
+                    const data = await response.json();
+                    return `<div style="color: green;">✓ ${url} - OK (${JSON.stringify(data).length} bytes)</div>`;
+                } else {
+                    return `<div style="color: red;">✗ ${url} - HTTP ${response.status}</div>`;
+                }
+            } catch (error) {
+                return `<div style="color: red;">✗ ${url} - ERROR: ${error.message}</div>`;
+            }
+        }
+        
+        async function runTests() {
+            const resultsDiv = document.getElementById('results');
+            resultsDiv.innerHTML = '<p>Testing...</p>';
+            
+            let results = '';
+            for (const file of files) {
+                results += await testFile(file) + '<br>';
+            }
+            
+            resultsDiv.innerHTML = results;
+        }
+        
+        runTests();
+    </script>
+</body>
+</html>
