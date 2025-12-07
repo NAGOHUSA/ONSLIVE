@@ -5,50 +5,67 @@ on:
     - cron: '*/15 * * * *'  # Every 15 minutes
   workflow_dispatch:        # Manual trigger
 
+permissions:
+  contents: write
+
 jobs:
   update-data:
     runs-on: ubuntu-latest
     
     steps:
-    - uses: actions/checkout@v3
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
+    - name: Checkout repository
+      uses: actions/checkout@v4
     
     - name: Setup Node.js
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4
       with:
         node-version: '18'
     
-    - name: Cache npm dependencies
-      uses: actions/cache@v3
-      with:
-        path: ~/.npm
-        key: ${{ runner.os }}-node-${{ hashFiles('**/package.json') }}
-        restore-keys: |
-          ${{ runner.os }}-node-
-    
     - name: Install dependencies
       run: |
+        if [ ! -f "package.json" ]; then
+          echo '{
+            "name": "live-ournightsky",
+            "version": "1.0.0",
+            "dependencies": {
+              "axios": "^1.6.0"
+            }
+          }' > package.json
+        fi
         npm install
     
     - name: Ensure data directory exists
       run: |
         mkdir -p data
+        # Create initial files if they don't exist
+        if [ ! -f "data/noaa-data.json" ]; then
+          echo '{"solarFlares":[],"kpIndex":[],"solarWind":{},"updated":"2024-01-01T00:00:00.000Z","source":"NOAA SWPC"}' > data/noaa-data.json
+        fi
+        if [ ! -f "data/news.json" ]; then
+          echo '[]' > data/news.json
+        fi
+        if [ ! -f "data/aurora.json" ]; then
+          echo '{"forecast":"Initializing...","updated":"2024-01-01T00:00:00.000Z","source":"Dashboard"}' > data/aurora.json
+        fi
+        if [ ! -f "data/update-status.json" ]; then
+          echo '{"lastUpdate":"2024-01-01T00:00:00.000Z","status":"pending","message":"Initial setup"}' > data/update-status.json
+        fi
     
-    - name: Fetch and update data
+    - name: Update data
       run: |
         node scripts/update-data.js
     
-    - name: Commit data updates
+    - name: Commit and push updates
       run: |
-        git config --local user.email "github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
+        git config user.name "GitHub Actions"
+        git config user.email "actions@github.com"
         
         # Check if data files have changed
         if git status --porcelain data/ | grep -q '^[ MAD]'; then
+          echo "Changes detected in data files"
           git add data/
           git commit -m "🌌 Update space weather data [$(date -u +'%Y-%m-%d %H:%M UTC')]"
           git push
         else
-          echo "No changes to data files"
+          echo "No changes in data files"
         fi
