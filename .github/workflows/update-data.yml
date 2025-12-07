@@ -18,22 +18,18 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: '18'
-        cache: 'npm'
+    
+    - name: Cache npm dependencies
+      uses: actions/cache@v3
+      with:
+        path: ~/.npm
+        key: ${{ runner.os }}-node-${{ hashFiles('**/package.json') }}
+        restore-keys: |
+          ${{ runner.os }}-node-
     
     - name: Install dependencies
       run: |
-        # Check if package.json exists, if not create it
-        if [ ! -f "package.json" ]; then
-          echo '{
-            "name": "space-weather-dashboard",
-            "version": "1.0.0",
-            "dependencies": {
-              "axios": "^1.6.0",
-              "rss-parser": "^3.13.0"
-            }
-          }' > package.json
-        fi
-        npm ci --only=production --ignore-scripts
+        npm install
     
     - name: Ensure data directory exists
       run: |
