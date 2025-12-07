@@ -1,0 +1,58 @@
+name: Update Space Weather Data
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'  # Every 15 minutes
+  workflow_dispatch:        # Manual trigger
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+        cache: 'npm'
+    
+    - name: Install dependencies
+      run: |
+        # Check if package.json exists, if not create it
+        if [ ! -f "package.json" ]; then
+          echo '{
+            "name": "space-weather-dashboard",
+            "version": "1.0.0",
+            "dependencies": {
+              "axios": "^1.6.0",
+              "rss-parser": "^3.13.0"
+            }
+          }' > package.json
+        fi
+        npm ci --only=production --ignore-scripts
+    
+    - name: Ensure data directory exists
+      run: |
+        mkdir -p data
+    
+    - name: Fetch and update data
+      run: |
+        node scripts/update-data.js
+    
+    - name: Commit data updates
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        
+        # Check if data files have changed
+        if git status --porcelain data/ | grep -q '^[ MAD]'; then
+          git add data/
+          git commit -m "🌌 Update space weather data [$(date -u +'%Y-%m-%d %H:%M UTC')]"
+          git push
+        else
+          echo "No changes to data files"
+        fi
