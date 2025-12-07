@@ -4,13 +4,9 @@
   "description": "Space weather dashboard for live.ournightsky.us",
   "main": "scripts/update-data.js",
   "scripts": {
-    "update-data": "node scripts/update-data.js"
+    "update": "node scripts/update-data.js"
   },
   "dependencies": {
-    "axios": "^1.6.0",
-    "rss-parser": "^3.13.0"
-  },
-  "engines": {
-    "node": ">=18.0.0"
+    "axios": "^1.6.0"
   }
 }
