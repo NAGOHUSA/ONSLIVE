@@ -5,15 +5,194 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Live Space Weather - ournightsky.us</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="src/css/style.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <style>
+        :root {
+            --space-blue: #0a1a2d;
+            --aurora-green: #00ff9d;
+            --solar-orange: #ff6b35;
+            --alert-red: #ff3860;
+            --card-bg: rgba(255, 255, 255, 0.05);
+            --text-light: #e6f1ff;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0a1a2d 0%, #1a3a5f 100%);
+            color: var(--text-light);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .dashboard-header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: var(--card-bg);
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+        }
+
+        .dashboard-header h1 {
+            color: var(--aurora-green);
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #8da2b5;
+            font-size: 1.1rem;
+        }
+
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: 15px;
+            padding: 20px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h2 {
+            color: var(--aurora-green);
+            margin-bottom: 20px;
+            font-size: 1.4rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        #map {
+            height: 200px;
+            width: 100%;
+            border-radius: 10px;
+            margin: 15px 0;
+        }
+
+        .metric {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .data-item {
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .flare-item {
+            border-left: 4px solid var(--solar-orange);
+        }
+
+        .alert-item {
+            border-left: 4px solid var(--alert-red);
+        }
+
+        .news-item {
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .news-item:hover {
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .last-updated {
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+
+        #refresh-btn {
+            background: var(--aurora-green);
+            color: var(--space-blue);
+            border: none;
+            padding: 8px 20px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: opacity 0.3s ease;
+        }
+
+        #refresh-btn:hover {
+            opacity: 0.9;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #8da2b5;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        footer a {
+            color: var(--aurora-green);
+            text-decoration: none;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 20px;
+            color: #8da2b5;
+        }
+
+        .error {
+            color: var(--alert-red);
+            padding: 10px;
+            background: rgba(255, 56, 96, 0.1);
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+
+        .success {
+            color: var(--aurora-green);
+            padding: 10px;
+            background: rgba(0, 255, 157, 0.1);
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+
+        @media (max-width: 768px) {
+            .dashboard-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .dashboard-header h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
 </head>
 <body>
     <div class="dashboard">
         <!-- Header -->
         <header class="dashboard-header">
             <h1><i class="fas fa-satellite"></i> live.ournightsky.us</h1>
-            <p class="subtitle">Real-time Space Weather Dashboard</p>
+            <p class="subtitle">Real-time Space Weather Dashboard 1.0</p>
             <div class="last-updated">
                 Last updated: <span id="update-time">--:--</span>
                 <button id="refresh-btn"><i class="fas fa-sync-alt"></i> Refresh</button>
@@ -25,77 +204,317 @@
             <!-- Solar Activity -->
             <div class="card solar-card">
                 <h2><i class="fas fa-sun"></i> Solar Activity</h2>
-                <div class="solar-status">
-                    <div class="flare-indicator">
-                        <h3>Recent Solar Flares</h3>
-                        <div id="flare-list"></div>
-                    </div>
-                    <div class="solar-wind">
-                        <h3>Solar Wind</h3>
-                        <div class="metric">
-                            <span class="label">Speed:</span>
-                            <span id="wind-speed">--- km/s</span>
-                        </div>
-                        <div class="metric">
-                            <span class="label">Density:</span>
-                            <span id="wind-density">--- p/cm³</span>
-                        </div>
-                    </div>
+                <div id="solar-data" class="loading">
+                    Loading solar data...
                 </div>
             </div>
 
             <!-- Aurora Forecast -->
             <div class="card aurora-card">
                 <h2><i class="fas fa-compass"></i> Aurora Forecast</h2>
-                <div id="kp-index" class="kp-display">
-                    Current Kp: <span id="current-kp">--</span>
+                <div id="kp-display" class="loading">
+                    Loading Kp index...
                 </div>
-                <div class="aurora-map">
-                    <div id="map"></div>
-                </div>
-                <div class="forecast-text" id="aurora-forecast">
-                    Loading forecast...
+                <div id="aurora-forecast" class="loading">
+                    Loading aurora forecast...
                 </div>
             </div>
 
             <!-- Space Weather Alerts -->
             <div class="card alerts-card">
                 <h2><i class="fas fa-exclamation-triangle"></i> Alerts</h2>
-                <div id="alerts-list"></div>
+                <div id="alerts-list" class="loading">
+                    Loading alerts...
+                </div>
             </div>
 
             <!-- Space News -->
             <div class="card news-card">
                 <h2><i class="fas fa-newspaper"></i> Space News</h2>
-                <div id="news-feed"></div>
+                <div id="news-feed" class="loading">
+                    Loading news...
+                </div>
             </div>
 
-            <!-- Data Sources -->
-            <div class="card sources-card">
-                <h2><i class="fas fa-database"></i> Data Sources</h2>
-                <div class="sources-list">
-                    <p><i class="fas fa-check-circle"></i> NOAA SWPC</p>
-                    <p><i class="fas fa-check-circle"></i> NASA DONKI</p>
-                    <p><i class="fas fa-check-circle"></i> Space Weather Live</p>
-                    <p><i class="fas fa-check-circle"></i> Aurora Service</p>
-                </div>
-                <div class="update-frequency">
-                    <small>Auto-updates every 15 minutes</small>
+            <!-- Status -->
+            <div class="card status-card">
+                <h2><i class="fas fa-info-circle"></i> System Status</h2>
+                <div id="system-status" class="loading">
+                    Checking status...
                 </div>
             </div>
         </div>
 
         <!-- Footer -->
         <footer>
-            <p>Part of <a href="https://ournightsky.us">ournightsky.us</a> | Data provided by NOAA, NASA, and other space agencies</p>
+            <p>Part of <a href="https://ournightsky.us">ournightsky.us</a> | Data provided by NOAA, NASA</p>
+            <p>Auto-updated every 15 minutes | Last GitHub Actions run: <span id="last-run">--:--</span></p>
         </footer>
     </div>
 
-    <!-- Scripts -->
+    <!-- JavaScript -->
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="src/js/data-fetcher.js"></script>
-    <script src="src/js/dashboard.js"></script>
-    <script src="src/js/visualizations.js"></script>
+    <script>
+        // DOM Elements
+        const updateTime = document.getElementById('update-time');
+        const refreshBtn = document.getElementById('refresh-btn');
+        const solarDataEl = document.getElementById('solar-data');
+        const kpDisplayEl = document.getElementById('kp-display');
+        const auroraForecastEl = document.getElementById('aurora-forecast');
+        const alertsListEl = document.getElementById('alerts-list');
+        const newsFeedEl = document.getElementById('news-feed');
+        const systemStatusEl = document.getElementById('system-status');
+        const lastRunEl = document.getElementById('last-run');
+
+        // Data URLs - using relative paths for GitHub Pages
+        const DATA_URLS = {
+            noaa: 'data/noaa-data.json',
+            news: 'data/news.json',
+            aurora: 'data/aurora.json',
+            status: 'data/update-status.json'
+        };
+
+        // Format date
+        function formatDate(dateString) {
+            const date = new Date(dateString);
+            return date.toLocaleString();
+        }
+
+        // Load data from URL
+        async function loadData(url) {
+            try {
+                const response = await fetch(url);
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}`);
+                }
+                return await response.json();
+            } catch (error) {
+                console.error(`Failed to load ${url}:`, error);
+                return null;
+            }
+        }
+
+        // Display solar data
+        function displaySolarData(data) {
+            if (!data || !data.solarFlares || !data.solarWind) {
+                solarDataEl.innerHTML = '<div class="error">Solar data unavailable</div>';
+                return;
+            }
+
+            let html = '<div class="solar-status">';
+            
+            // Solar wind
+            html += '<div class="metric-group">';
+            html += '<h3>Solar Wind</h3>';
+            if (data.solarWind.speed) {
+                html += `<div class="metric"><span>Speed:</span> <strong>${data.solarWind.speed} km/s</strong></div>`;
+            }
+            if (data.solarWind.density) {
+                html += `<div class="metric"><span>Density:</span> <strong>${data.solarWind.density} p/cm³</strong></div>`;
+            }
+            html += '</div>';
+
+            // Solar flares
+            html += '<div class="metric-group">';
+            html += '<h3>Recent Solar Flares</h3>';
+            if (data.solarFlares.length > 0) {
+                data.solarFlares.forEach(flare => {
+                    html += `<div class="data-item flare-item">
+                        <strong>${flare.class_type || 'Unknown'}</strong> 
+                        <small>${formatDate(flare.begin_time)}</small>
+                    </div>`;
+                });
+            } else {
+                html += '<div class="data-item">No recent flares detected</div>';
+            }
+            html += '</div>';
+
+            html += '</div>';
+            solarDataEl.innerHTML = html;
+        }
+
+        // Display Kp index and aurora data
+        function displayAuroraData(kpData, auroraData) {
+            // Kp display
+            if (kpData && kpData.length > 0) {
+                const latestKp = kpData[kpData.length - 1];
+                kpDisplayEl.innerHTML = `
+                    <div class="success">
+                        <h3>Current Kp Index: ${latestKp.kp || 'N/A'}</h3>
+                        <small>Updated: ${formatDate(latestKp.time_tag)}</small>
+                    </div>
+                `;
+            } else {
+                kpDisplayEl.innerHTML = '<div class="error">Kp data unavailable</div>';
+            }
+
+            // Aurora forecast
+            if (auroraData && auroraData.forecast) {
+                auroraForecastEl.innerHTML = `
+                    <div class="data-item">
+                        <p>${auroraData.forecast.substring(0, 200)}...</p>
+                        <small>Source: ${auroraData.source || 'Unknown'}</small>
+                    </div>
+                `;
+            } else {
+                auroraForecastEl.innerHTML = '<div class="error">Aurora forecast unavailable</div>';
+            }
+        }
+
+        // Display alerts
+        function displayAlerts(flareData) {
+            if (!flareData || flareData.length === 0) {
+                alertsListEl.innerHTML = '<div class="success">No active alerts</div>';
+                return;
+            }
+
+            let html = '<h3>Recent Solar Activity</h3>';
+            flareData.slice(0, 3).forEach(flare => {
+                const flareClass = flare.class_type || 'Unknown';
+                const isMajor = ['M', 'X'].includes(flareClass.charAt(0));
+                
+                html += `
+                    <div class="data-item ${isMajor ? 'alert-item' : ''}">
+                        <strong>${flareClass} Class Flare</strong>
+                        <p>Peak: ${formatDate(flare.peak_time || flare.begin_time)}</p>
+                        ${isMajor ? '<small><i class="fas fa-exclamation-circle"></i> Significant event</small>' : ''}
+                    </div>
+                `;
+            });
+            
+            alertsListEl.innerHTML = html;
+        }
+
+        // Display news
+        function displayNews(newsData) {
+            if (!newsData || newsData.length === 0) {
+                newsFeedEl.innerHTML = '<div class="error">News feed unavailable</div>';
+                return;
+            }
+
+            let html = '';
+            newsData.slice(0, 5).forEach(item => {
+                html += `
+                    <div class="news-item">
+                        <h4>${item.title || 'Untitled'}</h4>
+                        <p>${item.summary || ''}</p>
+                        <div style="display: flex; justify-content: space-between; margin-top: 8px;">
+                            <small>${item.source || 'Unknown source'}</small>
+                            <small>${formatDate(item.date)}</small>
+                        </div>
+                        <a href="${item.link || '#'}" target="_blank" style="color: var(--aurora-green); text-decoration: none;">
+                            Read more →
+                        </a>
+                    </div>
+                `;
+            });
+            
+            newsFeedEl.innerHTML = html;
+        }
+
+        // Display system status
+        function displaySystemStatus(statusData) {
+            if (!statusData) {
+                systemStatusEl.innerHTML = '<div class="error">Status unavailable</div>';
+                return;
+            }
+
+            const isSuccess = statusData.status === 'success';
+            const lastUpdate = statusData.lastUpdate ? formatDate(statusData.lastUpdate) : 'Never';
+            
+            systemStatusEl.innerHTML = `
+                <div class="${isSuccess ? 'success' : 'error'}">
+                    <h3>${isSuccess ? '✓ System Online' : '⚠️ System Issue'}</h3>
+                    <p>${statusData.message || 'No status message'}</p>
+                    <small>Last update: ${lastUpdate}</small>
+                </div>
+                <div style="margin-top: 15px;">
+                    <h4>Data Sources</h4>
+                    <p><i class="fas fa-check-circle" style="color: var(--aurora-green);"></i> NOAA Space Weather</p>
+                    <p><i class="fas fa-check-circle" style="color: var(--aurora-green);"></i> NASA News Feed</p>
+                    <p><i class="fas fa-check-circle" style="color: var(--aurora-green);"></i> Aurora Forecast</p>
+                </div>
+            `;
+
+            // Update last run time
+            if (lastRunEl && statusData.lastUpdate) {
+                lastRunEl.textContent = formatDate(statusData.lastUpdate);
+            }
+        }
+
+        // Update all data
+        async function updateAllData() {
+            try {
+                // Show loading states
+                solarDataEl.innerHTML = '<div class="loading">Loading...</div>';
+                kpDisplayEl.innerHTML = '<div class="loading">Loading...</div>';
+                auroraForecastEl.innerHTML = '<div class="loading">Loading...</div>';
+                alertsListEl.innerHTML = '<div class="loading">Loading...</div>';
+                newsFeedEl.innerHTML = '<div class="loading">Loading...</div>';
+                systemStatusEl.innerHTML = '<div class="loading">Loading...</div>';
+
+                // Load all data
+                const [noaaData, newsData, auroraData, statusData] = await Promise.all([
+                    loadData(DATA_URLS.noaa),
+                    loadData(DATA_URLS.news),
+                    loadData(DATA_URLS.aurora),
+                    loadData(DATA_URLS.status)
+                ]);
+
+                // Display data
+                displaySolarData(noaaData);
+                displayAuroraData(noaaData?.kpIndex, auroraData);
+                displayAlerts(noaaData?.solarFlares);
+                displayNews(newsData?.items || newsData);
+                displaySystemStatus(statusData);
+
+                // Update timestamp
+                if (statusData?.lastUpdate) {
+                    updateTime.textContent = formatDate(statusData.lastUpdate);
+                } else {
+                    updateTime.textContent = new Date().toLocaleTimeString();
+                }
+
+            } catch (error) {
+                console.error('Error updating data:', error);
+                
+                // Show error state
+                const errorHtml = `<div class="error">Failed to load data: ${error.message}</div>`;
+                solarDataEl.innerHTML = errorHtml;
+                kpDisplayEl.innerHTML = errorHtml;
+                auroraForecastEl.innerHTML = errorHtml;
+                alertsListEl.innerHTML = errorHtml;
+                newsFeedEl.innerHTML = errorHtml;
+                systemStatusEl.innerHTML = errorHtml;
+            }
+        }
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', () => {
+            updateAllData();
+            
+            // Setup refresh button
+            refreshBtn.addEventListener('click', updateAllData);
+            
+            // Auto-refresh every 5 minutes
+            setInterval(updateAllData, 5 * 60 * 1000);
+        });
+
+        // Check if we can access the data files
+        async function checkDataAccess() {
+            console.log('Checking data access...');
+            for (const [name, url] of Object.entries(DATA_URLS)) {
+                try {
+                    const response = await fetch(url);
+                    console.log(`${name}: ${response.ok ? 'OK' : 'FAILED'} (${response.status})`);
+                } catch (error) {
+                    console.error(`${name}: ERROR - ${error.message}`);
+                }
+            }
+        }
+
+        // Run accessibility check on load
+        window.addEventListener('load', checkDataAccess);
+    </script>
 </body>
 </html>
