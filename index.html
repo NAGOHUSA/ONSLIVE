@@ -78,7 +78,37 @@
       gap: 1rem;
       margin-top: 1rem;
     }
-    @media(max-width:768px){.grid{grid-template-columns:1fr}}
+    
+    /* NEW: Improved main grid layout */
+    .main-content-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    
+    /* Make certain cards span full width */
+    .card.full-width {
+      grid-column: 1 / -1;
+    }
+    
+    /* Adjust gauge containers for better fit */
+    .card .gauge-container {
+      width: min(100%, 280px);
+    }
+    
+    @media(max-width:1100px) {
+      .main-content-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    
+    @media(max-width:768px){
+      .grid{grid-template-columns:1fr}
+      .main-content-grid {
+        grid-template-columns: 1fr;
+      }
+    }
   </style>
 </head>
 <body>
@@ -92,11 +122,10 @@
     </div>
   </header>
 
-
-
+  <div class="container">
     <div class="grid">
       <!-- Aurora Map Card -->
-      <div class="card" style="grid-column:1/-1;position:relative">
+      <div class="card full-width">
         <h2><i class="fas fa-map"></i> Live Aurora Oval Map</h2>
         <div style="position:relative">
           <div class="map-controls">
@@ -117,10 +146,13 @@
       </div>
 
       <!-- News Feed Card (Full Width) -->
-      <div class="card" style="grid-column:1/-1">
+      <div class="card full-width">
         <h2><i class="fas fa-newspaper"></i> Latest Space News</h2>
         <div id="news-feed" class="loading">Loading...</div>
       </div>
+    </div>
+  </div>
+
   <main class="container">
     <!-- Current Space Weather Activity (Hero Section) -->
     <section class="hero">
@@ -139,6 +171,9 @@
       </div>
       <p id="aurora-message" style="margin-top:1rem;color:var(--text-muted)">Loading aurora summary...</p>
     </section>
+
+    <!-- NEW: Main content grid with 2-column layout -->
+    <div class="main-content-grid">
       <!-- Solar Activity Card -->
       <div class="card">
         <h2><i class="fas fa-sun"></i> Solar Activity</h2>
@@ -213,7 +248,7 @@
       </div>
 
       <!-- System Status Card -->
-      <div class="card" style="grid-column:1/-1">
+      <div class="card full-width">
         <h2><i class="fas fa-info-circle"></i> System Status</h2>
         <div id="system-status" class="loading">Checking...</div>
       </div>
