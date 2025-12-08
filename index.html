@@ -160,7 +160,28 @@
         <div id="iss-map" style="height:300px;border-radius:12px;background:#000"></div>
         <small style="display:block;margin-top:8px;color:var(--text-muted)">Real-time International Space Station tracking</small>
       </div>
-
+      
+      <!-- Meteor Shower Activity Card -->
+      <div class="card">
+        <h2><i class="fas fa-star-shooting"></i> Meteor Activity</h2>
+        <div class="gauge-container" id="meteor-gauge">
+          <svg viewBox="0 0 200 120">
+            <defs>
+              <linearGradient id="meteor-grad">
+                <stop offset="0%" stop-color="#10b981"/>
+                <stop offset="50%" stop-color="#fbbf24"/>
+                <stop offset="100%" stop-color="#ef4444"/>
+              </linearGradient>
+            </defs>
+            <path d="M20 100 A80 80 0 1 1 180 100" fill="none" stroke="#334155" stroke-width="16"/>
+            <path id="meteor-arc" d="M20 100 A80 80 0 1 1 180 100" fill="none" stroke="url(#meteor-grad)" stroke-width="16" stroke-linecap="round" stroke-dasharray="0 251.3"></path>
+            <circle cx="100" cy="100" r="8" fill="#fff"></circle>
+            <text x="100" y="65" text-anchor="middle" class="gauge-value" id="meteor-value">--</text>
+          </svg>
+          <div class="needle" id="meteor-needle"></div>
+        </div>
+        <div id="meteor-info" class="loading"></div>
+      </div>
       <!-- Aurora Forecast Card -->
       <div class="card">
         <h2><i class="fas fa-cloud-aurora"></i> Aurora Forecast</h2>
@@ -217,19 +238,151 @@
     const newsFeedEl = document.getElementById('news-feed');
     const systemStatusEl = document.getElementById('system-status');
 
+    const meteorValueEl = document.getElementById('meteor-value');
+    const meteorArc = document.getElementById('meteor-arc');
+    const meteorNeedle = document.getElementById('meteor-needle');
+    const meteorInfoEl = document.getElementById('meteor-info');
+
     // Leaflet maps
     let mapAurora, mapISS, issMarker;
     let auroraCircles = [];
 
     // Data URLs
-    const DATA_URLS = {
-      noaa: 'data/noaa-data.json',
-      aurora: 'data/aurora.json',
-      news: 'data/news.json',
-      status: 'data/update-status.json',
-      xray: 'data/xray-data.json',
-      dst: 'data/dst-data.json'
-    };
+
+const DATA_URLS = {
+  noaa: 'data/noaa-data.json',
+  aurora: 'data/aurora.json',
+  news: 'data/news.json',
+  status: 'data/update-status.json',
+  xray: 'data/xray-data.json',
+  dst: 'data/dst-data.json',
+  meteor: 'data/meteor.json'  
+};
+function renderMeteorData(meteorData) {
+  try {
+    if (meteorData && typeof meteorData.current === 'number') {
+      const meteorValue = meteorData.current;
+      const maxValue = meteorData.max || 10;
+      
+      updateGauge(meteorValueEl, meteorArc, meteorNeedle, meteorValue, 0, maxValue);
+      
+      let activityClass = 'success-item';
+      let activityIcon = '🌠';
+      let activityColor = 'var(--green)';
+      
+      if (meteorValue >= 7) {
+        activityClass = 'alert-item';
+        activityIcon = '🌌';
+        activityColor = 'var(--red)';
+      } else if (meteorValue >= 5) {
+        activityClass = 'warning-item';
+        activityIcon = '✨';
+        activityColor = 'var(--gold)';
+      } else if (meteorValue >= 3) {
+        activityIcon = '💫';
+        activityColor = 'var(--cyan)';
+      }
+      
+      let activeShowersHtml = '';
+      if (meteorData.activeShowers && Array.isArray(meteorData.activeShowers) && meteorData.activeShowers.length > 0) {
+        activeShowersHtml = `
+          <div style="margin-top: 1rem;">
+            <strong>Active Showers:</strong>
+            ${meteorData.activeShowers.map(shower => `
+              <div class="data-item" style="margin-top: 0.5rem; border-left-color: ${activityColor}">
+                <strong>${shower.name}</strong>
+                <div>Peak: ${shower.peak}</div>
+                <div>ZHR: ${shower.zhr} meteors/hour</div>
+                <div style="font-size: 0.9rem; color: var(--text-muted)">${shower.description}</div>
+              </div>
+            `).join('')}
+          </div>
+        `;
+      }
+      
+      let nextShowerHtml = '';
+      if (meteorData.nextMajorShower) {
+        nextShowerHtml = `
+          <div style="margin-top: 1rem;">
+            <strong>Next Major Shower:</strong>
+            <div class="data-item" style="margin-top: 0.5rem;">
+              <strong>${meteorData.nextMajorShower.name}</strong>
+              <div>Peak: ${meteorData.nextMajorShower.date}</div>
+              <div>ZHR: ${meteorData.nextMajorShower.zhr} meteors/hour</div>
+              <div style="font-size: 0.9rem; color: var(--text-muted)">${meteorData.nextMajorShower.description}</div>
+            </div>
+          </div>
+        `;
+      }
+      async function updateAll() {
+  refreshBtn.disabled = true;
+  refreshBtn.innerHTML = '<i class="fas fa-sync-alt fa-spin"></i> Updating...';
+
+  try {
+    // Load all data files - ADD meteorData to the array
+    const [noaaData, auroraData, newsData, statusData, xrayData, dstData, meteorData] = await Promise.all([
+      fetchLocalOrRemote(DATA_URLS.noaa),
+      fetchLocalOrRemote(DATA_URLS.aurora),
+      fetchLocalOrRemote(DATA_URLS.news),
+      fetchLocalOrRemote(DATA_URLS.status),
+      fetchLocalOrRemote(DATA_URLS.xray),
+      fetchLocalOrRemote(DATA_URLS.dst),
+      fetchLocalOrRemote(DATA_URLS.meteor)  // Add this line
+    ]);
+
+    // Render all data - ADD renderMeteorData call
+    renderNOAAData(noaaData, xrayData, dstData);
+    renderXrayData(xrayData);
+    renderDstData(dstData);
+    renderAuroraData(auroraData);
+    renderNewsData(newsData);
+    renderStatusData(statusData);
+    renderMeteorData(meteorData);  // Add this line
+    
+    // Update ISS position
+    await updateISS();
+
+  } catch (error) {
+    console.error('Error updating data:', error);
+    
+    // Show error state - ADD meteorInfoEl to error display
+    const errorHtml = `<div class="error">
+      <strong>⚠️ Data Loading Error</strong>
+      <div>Failed to load some data: ${error.message || 'Network error'}</div>
+      <div style="font-size:0.9rem; margin-top:0.5rem">Check console for details or try refreshing</div>
+    </div>`;
+    
+    solarDataEl.innerHTML = errorHtml;
+    xrayInfoEl.innerHTML = errorHtml;
+    dstInfoEl.innerHTML = errorHtml;
+    auroraForecastEl.innerHTML = errorHtml;
+    newsFeedEl.innerHTML = errorHtml;
+    systemStatusEl.innerHTML = errorHtml;
+    meteorInfoEl.innerHTML = errorHtml;  // Add this line
+  } finally {
+    refreshBtn.innerHTML = '<i class="fas fa-sync-alt"></i> Refresh';
+    refreshBtn.disabled = false;
+  }
+}
+      meteorInfoEl.classList.remove('loading');
+      meteorInfoEl.innerHTML = `
+        <div class="data-item ${activityClass}" style="border-left-color: ${activityColor}">
+          <strong>${activityIcon} Current Activity: ${meteorData.activity || 'Normal'}</strong>
+          <div>${meteorData.description || 'Background meteor activity'}</div>
+          <div class="data-source">Updated: ${formatDateString(meteorData.updated)}</div>
+        </div>
+        ${activeShowersHtml}
+        ${nextShowerHtml}
+      `;
+    } else {
+      meteorInfoEl.classList.remove('loading');
+      meteorInfoEl.innerHTML = '<div class="data-item">Meteor data updating...</div>';
+    }
+  } catch (e) {
+    console.error('Error rendering meteor data:', e);
+    meteorInfoEl.innerHTML = '<div class="error">Error loading meteor data</div>';
+  }
+}
 
     // Utility Functions
     function formatTime(date = new Date()) {
