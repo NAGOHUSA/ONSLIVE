@@ -86,24 +86,6 @@
     </div>
   </header>
 
-  <main class="container">
-    <section class="hero">
-      <h2><i class="fas fa-compass"></i> Current Space Weather Activity</h2>
-      <div class="gauge-container" id="kp-gauge">
-        <svg viewBox="0 0 200 120" preserveAspectRatio="xMidYMid meet">
-          <defs>
-            <linearGradient id="kp-grad"><stop offset="0%" stop-color="#10b981"/><stop offset="50%" stop-color="#fbbf24"/><stop offset="100%" stop-color="#ef4444"/></linearGradient>
-          </defs>
-          <path d="M20 100 A80 80 0 1 1 180 100" fill="none" stroke="#334155" stroke-width="16"></path>
-          <path id="kp-arc" d="M20 100 A80 80 0 1 1 180 100" fill="none" stroke="url(#kp-grad)" stroke-width="16" stroke-linecap="round" stroke-dasharray="0 251.3"></path>
-          <circle cx="100" cy="100" r="8" fill="#fff"></circle>
-          <text x="100" y="65" text-anchor="middle" class="gauge-value" id="kp-value">--</text>
-        </svg>
-        <div class="needle" id="kp-needle"></div>
-      </div>
-      <p id="aurora-message" style="margin-top:1rem;color:var(--text-muted)">Loading aurora summary...</p>
-    </section>
-
     <div class="grid">
       <!-- Aurora Map Card -->
       <div class="card" style="grid-column:1/-1;position:relative">
@@ -204,6 +186,24 @@
         <h2><i class="fas fa-newspaper"></i> Latest Space News</h2>
         <div id="news-feed" class="loading">Loading...</div>
       </div>
+        <main class="container">
+          
+    <section class="hero">
+      <h2><i class="fas fa-compass"></i> Current Space Weather Activity</h2>
+      <div class="gauge-container" id="kp-gauge">
+        <svg viewBox="0 0 200 120" preserveAspectRatio="xMidYMid meet">
+          <defs>
+            <linearGradient id="kp-grad"><stop offset="0%" stop-color="#10b981"/><stop offset="50%" stop-color="#fbbf24"/><stop offset="100%" stop-color="#ef4444"/></linearGradient>
+          </defs>
+          <path d="M20 100 A80 80 0 1 1 180 100" fill="none" stroke="#334155" stroke-width="16"></path>
+          <path id="kp-arc" d="M20 100 A80 80 0 1 1 180 100" fill="none" stroke="url(#kp-grad)" stroke-width="16" stroke-linecap="round" stroke-dasharray="0 251.3"></path>
+          <circle cx="100" cy="100" r="8" fill="#fff"></circle>
+          <text x="100" y="65" text-anchor="middle" class="gauge-value" id="kp-value">--</text>
+        </svg>
+        <div class="needle" id="kp-needle"></div>
+      </div>
+      <p id="aurora-message" style="margin-top:1rem;color:var(--text-muted)">Loading aurora summary...</p>
+
 
       <!-- System Status Card -->
       <div class="card" style="grid-column:1/-1">
