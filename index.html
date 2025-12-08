@@ -8,12 +8,17 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <style>
         :root {
-            --space-blue: #0a1a2d;
-            --aurora-green: #00ff9d;
-            --solar-orange: #ff6b35;
-            --alert-red: #ff3860;
-            --card-bg: rgba(255, 255, 255, 0.05);
-            --text-light: #e6f1ff;
+            --deep-space: #0d1117;
+            --space-purple: #1a1b3d;
+            --nebula-blue: #2d3561;
+            --aurora-cyan: #00d4ff;
+            --aurora-purple: #a855f7;
+            --star-white: #e6edf3;
+            --solar-gold: #fbbf24;
+            --alert-red: #ef4444;
+            --success-green: #10b981;
+            --card-bg: rgba(26, 27, 61, 0.6);
+            --card-border: rgba(168, 85, 247, 0.2);
         }
 
         * {
@@ -23,175 +28,382 @@
         }
 
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #0a1a2d 0%, #1a3a5f 100%);
-            color: var(--text-light);
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+            background: linear-gradient(135deg, var(--deep-space) 0%, var(--space-purple) 50%, var(--nebula-blue) 100%);
+            color: var(--star-white);
             min-height: 100vh;
             padding: 20px;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        /* Animated starfield background */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                radial-gradient(2px 2px at 20% 30%, white, transparent),
+                radial-gradient(2px 2px at 60% 70%, white, transparent),
+                radial-gradient(1px 1px at 50% 50%, white, transparent),
+                radial-gradient(1px 1px at 80% 10%, white, transparent),
+                radial-gradient(2px 2px at 90% 60%, white, transparent),
+                radial-gradient(1px 1px at 33% 80%, white, transparent);
+            background-size: 200% 200%;
+            animation: twinkle 8s ease-in-out infinite;
+            opacity: 0.4;
+            z-index: -1;
+        }
+
+        @keyframes twinkle {
+            0%, 100% { opacity: 0.3; }
+            50% { opacity: 0.6; }
+        }
+
+        .dashboard {
+            max-width: 1400px;
+            margin: 0 auto;
         }
 
         .dashboard-header {
             text-align: center;
-            margin-bottom: 30px;
-            padding: 20px;
+            margin-bottom: 40px;
+            padding: 30px;
             background: var(--card-bg);
-            border-radius: 15px;
-            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            backdrop-filter: blur(20px);
+            border: 1px solid var(--card-border);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .dashboard-header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 200%;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, var(--aurora-cyan), var(--aurora-purple), transparent);
+            animation: shimmer 3s infinite;
+        }
+
+        @keyframes shimmer {
+            0% { left: -100%; }
+            100% { left: 100%; }
         }
 
         .dashboard-header h1 {
-            color: var(--aurora-green);
-            font-size: 2.5rem;
+            background: linear-gradient(135deg, var(--aurora-cyan), var(--aurora-purple));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-size: 2.8rem;
+            font-weight: 700;
             margin-bottom: 10px;
+            letter-spacing: -0.5px;
+        }
+
+        .dashboard-header h1 i {
+            -webkit-text-fill-color: var(--aurora-cyan);
+            margin-right: 15px;
         }
 
         .subtitle {
-            color: #8da2b5;
+            color: rgba(230, 237, 243, 0.7);
             font-size: 1.1rem;
+            font-weight: 300;
+            letter-spacing: 1px;
+        }
+
+        .last-updated {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            color: rgba(230, 237, 243, 0.6);
+            font-size: 0.95rem;
+        }
+
+        #refresh-btn {
+            background: linear-gradient(135deg, var(--aurora-cyan), var(--aurora-purple));
+            color: white;
+            border: none;
+            padding: 10px 24px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(168, 85, 247, 0.3);
+        }
+
+        #refresh-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(168, 85, 247, 0.5);
+        }
+
+        #refresh-btn:active {
+            transform: translateY(0);
         }
 
         .dashboard-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
+            grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+            gap: 25px;
             margin-bottom: 30px;
         }
 
         .card {
             background: var(--card-bg);
-            border-radius: 15px;
-            padding: 20px;
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            transition: transform 0.3s ease;
+            border-radius: 20px;
+            padding: 25px;
+            backdrop-filter: blur(20px);
+            border: 1px solid var(--card-border);
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
         }
 
         .card:hover {
             transform: translateY(-5px);
+            box-shadow: 0 8px 30px rgba(168, 85, 247, 0.3);
+            border-color: rgba(168, 85, 247, 0.4);
         }
 
         .card h2 {
-            color: var(--aurora-green);
+            background: linear-gradient(135deg, var(--aurora-cyan), var(--aurora-purple));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
             margin-bottom: 20px;
             font-size: 1.4rem;
+            font-weight: 600;
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 12px;
+        }
+
+        .card h2 i {
+            -webkit-text-fill-color: var(--aurora-cyan);
+            font-size: 1.3rem;
+        }
+
+        .card h3 {
+            color: var(--star-white);
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin: 15px 0 10px 0;
+        }
+
+        .card h4 {
+            color: var(--star-white);
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 8px;
         }
 
         #map {
             height: 200px;
             width: 100%;
-            border-radius: 10px;
+            border-radius: 12px;
             margin: 15px 0;
+            border: 1px solid var(--card-border);
         }
 
         .metric {
             display: flex;
             justify-content: space-between;
-            padding: 8px 0;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 12px 0;
+            border-bottom: 1px solid rgba(168, 85, 247, 0.1);
+        }
+
+        .metric:last-child {
+            border-bottom: none;
+        }
+
+        .metric span {
+            color: rgba(230, 237, 243, 0.7);
+        }
+
+        .metric strong {
+            color: var(--aurora-cyan);
+            font-weight: 600;
+        }
+
+        .metric em {
+            color: rgba(230, 237, 243, 0.5);
+        }
+
+        .metric-group {
+            margin-bottom: 20px;
         }
 
         .data-item {
-            padding: 10px;
-            background: rgba(255, 255, 255, 0.05);
-            border-radius: 5px;
-            margin-bottom: 10px;
+            padding: 15px;
+            background: rgba(168, 85, 247, 0.05);
+            border-radius: 12px;
+            margin-bottom: 12px;
+            border-left: 3px solid transparent;
+            transition: all 0.2s ease;
+        }
+
+        .data-item:hover {
+            background: rgba(168, 85, 247, 0.1);
         }
 
         .flare-item {
-            border-left: 4px solid var(--solar-orange);
+            border-left-color: var(--solar-gold);
+            background: rgba(251, 191, 36, 0.05);
+        }
+
+        .flare-item:hover {
+            background: rgba(251, 191, 36, 0.1);
         }
 
         .alert-item {
-            border-left: 4px solid var(--alert-red);
+            border-left-color: var(--alert-red);
+            background: rgba(239, 68, 68, 0.05);
+        }
+
+        .alert-item:hover {
+            background: rgba(239, 68, 68, 0.1);
         }
 
         .news-item {
-            padding: 10px;
-            background: rgba(255, 255, 255, 0.05);
-            border-radius: 5px;
-            margin-bottom: 10px;
+            padding: 15px;
+            background: rgba(168, 85, 247, 0.05);
+            border-radius: 12px;
+            margin-bottom: 12px;
+            transition: all 0.2s ease;
+            border: 1px solid transparent;
         }
 
         .news-item:hover {
-            background: rgba(255, 255, 255, 0.1);
+            background: rgba(168, 85, 247, 0.1);
+            border-color: rgba(168, 85, 247, 0.3);
         }
 
-        .last-updated {
-            margin-top: 15px;
-            display: flex;
-            justify-content: center;
+        .news-item a {
+            color: var(--aurora-cyan);
+            text-decoration: none;
+            display: inline-flex;
             align-items: center;
-            gap: 20px;
+            gap: 5px;
+            margin-top: 8px;
+            font-weight: 500;
+            transition: all 0.2s ease;
         }
 
-        #refresh-btn {
-            background: var(--aurora-green);
-            color: var(--space-blue);
-            border: none;
-            padding: 8px 20px;
-            border-radius: 20px;
-            cursor: pointer;
-            font-weight: bold;
-            transition: opacity 0.3s ease;
-        }
-
-        #refresh-btn:hover {
-            opacity: 0.9;
+        .news-item a:hover {
+            color: var(--aurora-purple);
+            gap: 8px;
         }
 
         footer {
             text-align: center;
-            padding: 20px;
-            color: #8da2b5;
-            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 30px 20px;
+            color: rgba(230, 237, 243, 0.5);
+            border-top: 1px solid rgba(168, 85, 247, 0.2);
+            margin-top: 40px;
         }
 
         footer a {
-            color: var(--aurora-green);
+            color: var(--aurora-cyan);
             text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s ease;
+        }
+
+        footer a:hover {
+            color: var(--aurora-purple);
+        }
+
+        footer p {
+            margin: 8px 0;
         }
 
         .loading {
             text-align: center;
             padding: 20px;
-            color: #8da2b5;
+            color: rgba(230, 237, 243, 0.6);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
         }
 
         .error {
             color: var(--alert-red);
-            padding: 10px;
-            background: rgba(255, 56, 96, 0.1);
-            border-radius: 5px;
+            padding: 15px;
+            background: rgba(239, 68, 68, 0.1);
+            border-radius: 12px;
             margin: 10px 0;
+            border-left: 3px solid var(--alert-red);
         }
 
         .success {
-            color: var(--aurora-green);
-            padding: 10px;
-            background: rgba(0, 255, 157, 0.1);
-            border-radius: 5px;
+            color: var(--success-green);
+            padding: 15px;
+            background: rgba(16, 185, 129, 0.1);
+            border-radius: 12px;
             margin: 10px 0;
+            border-left: 3px solid var(--success-green);
         }
 
         .warning {
-            color: var(--solar-orange);
-            padding: 10px;
-            background: rgba(255, 107, 53, 0.1);
-            border-radius: 5px;
+            color: var(--solar-gold);
+            padding: 15px;
+            background: rgba(251, 191, 36, 0.1);
+            border-radius: 12px;
             margin: 10px 0;
+            border-left: 3px solid var(--solar-gold);
+        }
+
+        small {
+            color: rgba(230, 237, 243, 0.5);
+            font-size: 0.85rem;
         }
 
         @media (max-width: 768px) {
+            body {
+                padding: 15px;
+            }
+
             .dashboard-grid {
                 grid-template-columns: 1fr;
+                gap: 20px;
             }
             
+            .dashboard-header {
+                padding: 20px;
+            }
+
             .dashboard-header h1 {
                 font-size: 2rem;
             }
+
+            .subtitle {
+                font-size: 1rem;
+            }
+
+            .last-updated {
+                font-size: 0.9rem;
+            }
+
+            .card {
+                padding: 20px;
+            }
+        }
+
+        /* Smooth scrolling */
+        html {
+            scroll-behavior: smooth;
         }
     </style>
 </head>
@@ -213,7 +425,7 @@
             <div class="card solar-card">
                 <h2><i class="fas fa-sun"></i> Solar Activity</h2>
                 <div id="solar-data" class="loading">
-                    Loading solar data...
+                    <i class="fas fa-spinner fa-spin"></i> Loading solar data...
                 </div>
             </div>
 
@@ -221,10 +433,10 @@
             <div class="card aurora-card">
                 <h2><i class="fas fa-compass"></i> Aurora Forecast</h2>
                 <div id="kp-display" class="loading">
-                    Loading Kp index...
+                    <i class="fas fa-spinner fa-spin"></i> Loading Kp index...
                 </div>
                 <div id="aurora-forecast" class="loading">
-                    Loading aurora forecast...
+                    <i class="fas fa-spinner fa-spin"></i> Loading aurora forecast...
                 </div>
             </div>
 
@@ -232,7 +444,7 @@
             <div class="card alerts-card">
                 <h2><i class="fas fa-exclamation-triangle"></i> Alerts</h2>
                 <div id="alerts-list" class="loading">
-                    Loading alerts...
+                    <i class="fas fa-spinner fa-spin"></i> Loading alerts...
                 </div>
             </div>
 
@@ -240,7 +452,7 @@
             <div class="card news-card">
                 <h2><i class="fas fa-newspaper"></i> Space News</h2>
                 <div id="news-feed" class="loading">
-                    Loading news...
+                    <i class="fas fa-spinner fa-spin"></i> Loading news...
                 </div>
             </div>
 
@@ -248,7 +460,7 @@
             <div class="card status-card">
                 <h2><i class="fas fa-info-circle"></i> System Status</h2>
                 <div id="system-status" class="loading">
-                    Checking status...
+                    <i class="fas fa-spinner fa-spin"></i> Checking status...
                 </div>
             </div>
         </div>
@@ -494,7 +706,7 @@
                             <small><i class="fas fa-newspaper"></i> ${source}</small>
                             <small>${formatDate(date)}</small>
                         </div>
-                        <a href="${link}" target="_blank" rel="noopener" style="color: var(--aurora-green); text-decoration: none; display: inline-block; margin-top: 5px;">
+                        <a href="${link}" target="_blank" rel="noopener">
                             Read more <i class="fas fa-external-link-alt"></i>
                         </a>
                     </div>
@@ -522,7 +734,7 @@
             
             systemStatusEl.innerHTML = `
                 <div class="${statusClass}">
-                    <h3>${isSuccess ? '✓ System Online' : isError ? '⚠️ System Error' : '⟳ System Updating'}</h3>
+                    <h3>${isSuccess ? '✓ System Online' : isError ? '⚠️ System Error' : '⏳ System Updating'}</h3>
                     <p>${message}</p>
                     <small>Last update: ${lastUpdate}</small>
                 </div>
@@ -593,61 +805,3 @@
 
             } catch (error) {
                 console.error('Error updating data:', error);
-                
-                // Show error state
-                const errorHtml = `<div class="error">
-                    <h3>⚠️ Data Loading Error</h3>
-                    <p>Failed to load data: ${error.message || 'Network error'}</p>
-                    <small>Check console for details</small>
-                </div>`;
-                
-                solarDataEl.innerHTML = errorHtml;
-                kpDisplayEl.innerHTML = errorHtml;
-                auroraForecastEl.innerHTML = errorHtml;
-                alertsListEl.innerHTML = errorHtml;
-                newsFeedEl.innerHTML = errorHtml;
-                systemStatusEl.innerHTML = errorHtml;
-                
-                updateTime.textContent = 'Error';
-            }
-        }
-
-        // Initialize
-        document.addEventListener('DOMContentLoaded', () => {
-            // First update
-            updateAllData();
-            
-            // Setup refresh button
-            refreshBtn.addEventListener('click', () => {
-                refreshBtn.innerHTML = '<i class="fas fa-sync-alt fa-spin"></i> Refreshing...';
-                updateAllData().finally(() => {
-                    setTimeout(() => {
-                        refreshBtn.innerHTML = '<i class="fas fa-sync-alt"></i> Refresh';
-                    }, 1000);
-                });
-            });
-            
-            // Auto-refresh every 2 minutes
-            setInterval(updateAllData, 2 * 60 * 1000);
-        });
-
-        // Check data file accessibility on load
-        window.addEventListener('load', () => {
-            console.log('Checking data file accessibility...');
-            
-            // Quick test to see if data files exist
-            fetch('data/update-status.json')
-                .then(response => {
-                    if (response.ok) {
-                        console.log('✓ Data files are accessible');
-                    } else {
-                        console.warn('✗ Data files may not exist yet');
-                    }
-                })
-                .catch(error => {
-                    console.error('✗ Cannot access data files:', error.message);
-                });
-        });
-    </script>
-</body>
-</html>
