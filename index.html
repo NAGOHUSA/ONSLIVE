@@ -169,7 +169,7 @@
             gap: 0.5rem;
         }
 
-        #aurora-map {
+        #aurora-map, #tec-map {
             height: 400px;
             border-radius: 16px;
             border: 1px solid var(--border);
@@ -205,6 +205,7 @@
             padding: 2rem;
             color: var(--text-muted);
         }
+        .error { color: var(--red); }
 
         @media (max-width: 768px) {
             .card.collapsible > div:not(h2) { max-height: 0; overflow: hidden; transition: max-height 0.5s ease; }
@@ -212,7 +213,7 @@
             .card h2 { cursor: pointer; }
             .card h2::after { content: "▼"; margin-left: auto; font-size: 0.8rem; transition: transform 0.3s; }
             .card.open h2::after { transform: rotate(180deg); }
-            #aurora-map { height: 300px; }
+            #aurora-map, #tec-map { height: 300px; }
             .grid { grid-template-columns: 1fr; }
         }
 
@@ -241,7 +242,7 @@
 
     <div class="container">
 
-        <!-- Hero: Current Aurora & Dst Activity -->
+        <!-- Hero: Current Aurora & Kp Activity -->
         <div class="hero">
             <h2>Current Space Weather Activity</h2>
             <div class="gauge-container" id="kp-gauge">
@@ -276,7 +277,7 @@
             </small>
         </div>
 
-        <!-- Expanded Grid -->
+        <!-- Expanded Grid with New Sections -->
         <div class="grid">
             <!-- Solar Activity -->
             <div class="card collapsible">
@@ -284,7 +285,29 @@
                 <div id="solar-data" class="loading">Loading solar data...</div>
             </div>
 
-            <!-- Geomagnetic Storms (Dst Needle) -->
+            <!-- Solar Radiation (X-ray Flux) - New -->
+            <div class="card collapsible">
+                <h2><i class="fas fa-radiation"></i> Solar Radiation (X-ray Flux)</h2>
+                <div class="gauge-container" id="xray-gauge">
+                    <svg viewBox="0 0 200 120" width="200" height="120">
+                        <defs>
+                            <linearGradient id="xray-grad" x1="0%" x2="100%">
+                                <stop offset="0%" stop-color="#10b981"/>
+                                <stop offset="50%" stop-color="#fbbf24"/>
+                                <stop offset="100%" stop-color="#ef4444"/>
+                            </linearGradient>
+                        </defs>
+                        <path d="M20 100 A80 80 0 1 1 180 100" fill="none" stroke="#334155" stroke-width="16"/>
+                        <path d="M20 100 A80 80 0 1 1 180 100" fill="none" stroke="url(#xray-grad)" stroke-width="16" stroke-linecap="round" id="xray-arc"/>
+                        <circle cx="100" cy="100" r="8" fill="#fff"/>
+                        <text x="100" y="65" text-anchor="middle" class="gauge-value" id="xray-value">A0.0</text>
+                    </svg>
+                    <div class="needle" id="xray-needle" style="transform: rotate(90deg); background: var(--gold);"></div>
+                </div>
+                <div id="xray-info" class="loading">Loading X-ray flux...</div>
+            </div>
+
+            <!-- Geomagnetic Storms (Dst Index) -->
             <div class="card collapsible">
                 <h2><i class="fas fa-magnet"></i> Geomagnetic Storms (Dst Index)</h2>
                 <div class="gauge-container" id="dst-gauge">
@@ -312,31 +335,40 @@
                 <div id="meteor-data" class="loading">Loading meteor activity...</div>
             </div>
 
+            <!-- Ionospheric TEC Map - New -->
+            <div class="card" style="grid-column: 1 / -1;">
+                <h2><i class="fas fa-cloud"></i> Global Ionospheric TEC Map</h2>
+                <div id="tec-map"></div>
+                <small style="display:block;margin-top:8px;text-align:center;color:var(--text-muted)">
+                    Real-time Total Electron Content • Colors indicate electron density (proxy for GPS errors) • Source: NOAA SWPC GloTEC
+                </small>
+            </div>
+
             <!-- Aurora Forecast -->
             <div class="card collapsible">
                 <h2><i class="fas fa-cloud-aurora"></i> Aurora Forecast</h2>
                 <div id="aurora-forecast" class="loading">Loading forecast...</div>
             </div>
 
-            <!-- Comets -->
+            <!-- Upcoming Comets -->
             <div class="card collapsible">
                 <h2><i class="fas fa-comet"></i> Upcoming Comets</h2>
                 <div id="comet-data" class="loading">Loading comet data...</div>
             </div>
 
-            <!-- Supernovas -->
+            <!-- Recent Supernovae -->
             <div class="card collapsible">
-                <h2><i class="fas fa-explosion"></i> Recent Supernovas</h2>
-                <div id="supernova-data" class="loading">Loading supernova discoveries...</div>
+                <h2><i class="fas fa-explosion"></i> Recent Supernovae</h2>
+                <div id="supernova-data" class="loading">Loading supernova data...</div>
             </div>
 
-            <!-- Alerts -->
+            <!-- Space Weather Alerts -->
             <div class="card collapsible">
                 <h2><i class="fas fa-exclamation-triangle"></i> Space Weather Alerts</h2>
                 <div id="alerts-list" class="loading">Loading alerts...</div>
             </div>
 
-            <!-- News -->
+            <!-- Latest Space News -->
             <div class="card collapsible">
                 <h2><i class="fas fa-newspaper"></i> Latest Space News</h2>
                 <div id="news-feed" class="loading">Loading news...</div>
@@ -351,13 +383,13 @@
     </div>
 
     <footer>
-        <p>Part of <a href="https://ournightsky.us">ournightsky.us</a> • Data: NOAA, NASA/JPL, IAU & partners</p>
+        <p>Part of <a href="https://ournightsky.us">ournightsky.us</a> • Data: NOAA SWPC, NASA/JPL, Rochester Astronomy & partners</p>
         <p>Auto-refresh every 2 minutes • Last update: <span id="last-run">--</span></p>
     </footer>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script>
-        // DOM Elements
+        // DOM Elements (expanded)
         const updateTime = document.getElementById('update-time');
         const refreshBtn = document.getElementById('refresh-btn');
         const solarDataEl = document.getElementById('solar-data');
@@ -377,33 +409,46 @@
         const meteorDataEl = document.getElementById('meteor-data');
         const cometDataEl = document.getElementById('comet-data');
         const supernovaDataEl = document.getElementById('supernova-data');
+        const xrayValueEl = document.getElementById('xray-value');
+        const xrayArc = document.getElementById('xray-arc');
+        const xrayNeedle = document.getElementById('xray-needle');
+        const xrayInfoEl = document.getElementById('xray-info');
 
-        let map, auroraLayerNorth, auroraLayerSouth;
+        let mapAurora, auroraLayerNorth, auroraLayerSouth;
+        let mapTEC;
 
         // Utility Functions
         function formatTime(d) { return d ? new Date(d).toLocaleTimeString('en-US', {hour: '2-digit', minute: '2-digit', hour12: false}) : '--:--'; }
         function formatDate(d) { return d ? new Date(d).toLocaleDateString('en-US', {month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit'}) : 'Unknown'; }
-        async function loadData(url) {
+        async function loadData(url, isText = false) {
             try {
                 const res = await fetch(url + '?t=' + Date.now());
-                if (!res.ok) throw new Error();
-                return await res.json();
-            } catch { return null; }
+                if (!res.ok) throw new Error(res.status);
+                return isText ? await res.text() : await res.json();
+            } catch (e) {
+                console.error('Fetch error:', e);
+                return null;
+            }
         }
-        function updateGauge(valueEl, arcEl, needleEl, val, min, max, isDst = false) {
-            val = Number(val) || 0;
-            const percent = (val - min) / (max - min);
-            const degrees = percent * 180 - 90; // For needle rotation
-            valueEl.textContent = val.toFixed(0);
-            const dash = (percent * 251.3).toFixed(2); // Arc circumference approx
+        function updateGauge(valueEl, arcEl, needleEl, val, min, max, unit = '', isClass = false) {
+            let numericVal = isClass ? getXrayNumeric(val) : Number(val) || 0;
+            const percent = Math.min((numericVal - min) / (max - min), 1);
+            const degrees = percent * 180 - 90;
+            valueEl.textContent = isClass ? val : numericVal.toFixed(1) + unit;
+            const dash = (percent * 251.3).toFixed(2);
             arcEl.setAttribute('stroke-dasharray', `${dash}, 251.3`);
             needleEl.style.transform = `rotate(${degrees}deg)`;
-            const colorClass = val > (max + min)/2 ? 'var(--red)' : val > (max + min)/4 ? 'var(--gold)' : 'var(--green)';
-            needleEl.style.background = colorClass;
-            if (isDst) {
-                let msg = val > -50 ? 'Quiet' : val > -100 ? 'Moderate' : 'Severe';
-                valueEl.style.color = colorClass;
-            }
+            const color = numericVal > (max + min)/2 ? 'var(--red)' : numericVal > (max + min)/4 ? 'var(--gold)' : 'var(--green)';
+            needleEl.style.background = color;
+            if (isClass) valueEl.style.color = color;
+        }
+        function getXrayNumeric(classStr) {
+            const match = classStr.match(/([A-MX])(\d+\.?\d*)/i);
+            if (!match) return 0;
+            const [_, letter, num] = match;
+            const logVal = Math.log10(parseFloat(num));
+            const letterVal = {A: 8, B: 9, C: 10, M: 11, X: 12}[letter.toUpperCase()] || 8;
+            return Math.pow(10, letterVal + logVal - 8); // Normalized to A1.0 = 1
         }
 
         // Kp Gauge Update
@@ -416,91 +461,118 @@
 
         // Dst Gauge Update
         function updateDstGauge(dst) {
-            updateGauge(dstValueEl, dstArc, dstNeedle, dst, -300, 0, true);
+            updateGauge(dstValueEl, dstArc, dstNeedle, dst, -300, 0, ' nT', true);
             dstInfoEl.innerHTML = `<p>Current Dst: <strong>${dst.toFixed(0)} nT</strong></p><small>${dst < -100 ? 'Geomagnetic storm in progress' : 'Stable conditions'}</small>`;
         }
 
-        // Initialize Aurora Map
+        // X-ray Flux Gauge Update - New
+        function updateXrayGauge(flux) {
+            const latest = flux.flux[flux.flux.length - 1];
+            const classStr = latest || 'A0.0';
+            updateGauge(xrayValueEl, xrayArc, xrayNeedle, classStr, 0, 10000, '', true);
+            xrayInfoEl.innerHTML = `<p>Current: <strong>${classStr}</strong></p><small>${getXrayNumeric(classStr) > 100 ? 'High activity – Potential radio blackouts' : 'Quiet solar conditions'}</small>`;
+        }
+
+        // Initialize Maps
         function initAuroraMap() {
-            map = L.map('aurora-map', { center: [90, 0], zoom: 2, minZoom: 2, maxZoom: 5, worldCopyJump: true });
-            L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', { attribution: 'Esri' }).addTo(map);
-            auroraLayerNorth = L.imageOverlay('', [[90, -180], [30, 180]], { opacity: 0.7 }).addTo(map);
+            mapAurora = L.map('aurora-map', { center: [90, 0], zoom: 2, minZoom: 2, maxZoom: 5, worldCopyJump: true });
+            L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', { attribution: 'Esri' }).addTo(mapAurora);
+            auroraLayerNorth = L.imageOverlay('', [[90, -180], [30, 180]], { opacity: 0.7 }).addTo(mapAurora);
             auroraLayerSouth = L.imageOverlay('', [[-30, -180], [-90, 180]], { opacity: 0.7 });
             loadAuroraOverlay('north');
         }
         function loadAuroraOverlay(hemisphere) {
             const url = hemisphere === 'north' ? 'https://services.swpc.noaa.gov/products/aurora/aurora-northern-hemisphere.jpg' : 'https://services.swpc.noaa.gov/products/aurora/aurora-southern-hemisphere.jpg';
-            const img = new Image();
-            img.onload = () => {
-                const layer = hemisphere === 'north' ? auroraLayerNorth : auroraLayerSouth;
-                layer.setUrl(url + '?t=' + Date.now());
-                layer.setBounds(hemisphere === 'north' ? [[90, -180], [30, 180]] : [[-30, -180], [-90, 180]]);
-            };
-            img.src = url;
+            const bounds = hemisphere === 'north' ? [[90, -180], [30, 180]] : [[-30, -180], [-90, 180]];
+            const layer = hemisphere === 'north' ? auroraLayerNorth : auroraLayerSouth;
+            layer.setUrl(url + '?t=' + Date.now());
+            layer.setBounds(bounds);
         }
-        document.getElementById('btn-north').onclick = () => { map.setView([90, 0], 2); loadAuroraOverlay('north'); document.querySelectorAll('.map-btn').forEach(b => b.classList.remove('active')); document.getElementById('btn-north').classList.add('active'); };
-        document.getElementById('btn-south').onclick = () => { map.setView([-90, 0], 2); loadAuroraOverlay('south'); document.querySelectorAll('.map-btn').forEach(b => b.classList.remove('active')); document.getElementById('btn-south').classList.add('active'); };
+        document.getElementById('btn-north').onclick = () => { mapAurora.setView([90, 0], 2); loadAuroraOverlay('north'); document.querySelectorAll('.map-btn').forEach(b => b.classList.remove('active')); document.getElementById('btn-north').classList.add('active'); };
+        document.getElementById('btn-south').onclick = () => { mapAurora.setView([-90, 0], 2); loadAuroraOverlay('south'); document.querySelectorAll('.map-btn').forEach(b => b.classList.remove('active')); document.getElementById('btn-south').classList.add('active'); };
 
-        // Display Functions
+        // Initialize TEC Map - New
+        function initTECMaps() {
+            mapTEC = L.map('tec-map', { center: [0, 0], zoom: 2, minZoom: 2, maxZoom: 6 });
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: 'OpenStreetMap' }).addTo(mapTEC);
+            const tecLayer = L.imageOverlay('https://services.swpc.noaa.gov/products/noaa-maps/glotec.png?t=' + Date.now(), [[90, -180], [-90, 180]], { opacity: 0.8 }).addTo(mapTEC);
+        }
+
+        // Display Functions (updated for accuracy)
         function displaySolarData(data) {
-            if (!data) return solarDataEl.innerHTML = '<div class="loading">Solar data unavailable</div>';
+            if (!data) return solarDataEl.innerHTML = '<div class="error">Solar data unavailable</div>';
+            const wind = data.solarWind;
+            const flares = data.solarFlares?.slice(0,3) || [];
             solarDataEl.innerHTML = `
-                <div class="metric"><span>Wind Speed</span><strong>${data.solarWind?.speed ? Math.round(data.solarWind.speed) + ' km/s' : '—'}</strong></div>
-                <div class="metric"><span>Density</span><strong>${data.solarWind?.density ? Math.round(data.solarWind.density) + ' p/cm³' : '—'}</strong></div>
+                <div class="metric"><span>Wind Speed</span><strong>${wind?.speed ? Math.round(wind.speed) + ' km/s' : '—'}</strong></div>
+                <div class="metric"><span>Density</span><strong>${wind?.density ? Math.round(wind.density) + ' p/cm³' : '—'}</strong></div>
                 <h3>Recent Flares</h3>
-                ${data.solarFlares?.slice(0,3).map(f => `<div class="data-item"><strong>${f.class_type}</strong> <small>${formatDate(f.peak_time)}</small></div>`).join('') || '<p>No flares</p>'}
+                ${flares.length ? flares.map(f => `<div class="data-item"><strong>${f.class_type || '??'}</strong> <small>${formatDate(f.peak_time || f.begin_time)}</small></div>`).join('') : '<p>No recent flares</p>'}
             `;
         }
 
         function displayMeteorData() {
-            // Geminids active in Dec 2025
+            // Accurate for Dec 7, 2025: Geminids ramp-up (handful/hr), per AMS/IMO
             meteorDataEl.innerHTML = `
-                <h3>Current: Geminids (Active)</h3>
-                <p>Peak: Dec 13-14, 2025 • Up to 150/hr under dark skies</p>
+                <h3>Active: Geminids (Ramp-up Phase)</h3>
+                <p>Today (Dec 7): ~5-10/hr under dark skies • Peak: Dec 13-14 (~150/hr)</p>
                 <ul class="data-list">
-                    <li><strong>Activity Level:</strong> Building (ZHR ~50 today)</li>
                     <li><strong>Radiant:</strong> Gemini (RA 112°, Dec +33°)</li>
-                    <li><strong>Tip:</strong> Best after midnight, moonless night</li>
+                    <li><strong>Best Viewing:</strong> After midnight, away from moonlit areas</li>
+                    <li><strong>Next:</strong> Ursids (Dec 22, minor ~10/hr)</li>
                 </ul>
-                <small>Source: AMS/IMO • <a href="https://www.amsmeteors.org/meteor-showers/geminids/" target="_blank">More</a></small>
+                <small>Source: AMS/IMO Meteor Calendar</small>
             `;
         }
 
         async function displayCometData() {
             try {
+                // JPL CAD API for Dec 2025 close approaches
                 const res = await fetch('https://ssd-api.jpl.nasa.gov/cad.api?des=C/*;ca;2025-12-01;2025-12-31;sort;dist;json');
                 const data = await res.json();
-                if (data.data && data.data.length) {
+                const cdata = data.data || [];
+                if (cdata.length) {
                     cometDataEl.innerHTML = `
-                        <h3>Upcoming Close Approaches</h3>
+                        <h3>December Close Approaches</h3>
                         <ul class="data-list">
-                            ${data.data.slice(0,5).map(([des, _, jd, cd, dist]) => `<li><strong>${des}</strong>: ${cd} • ${parseFloat(dist).toFixed(4)} AU</li>`).join('')}
+                            ${cdata.slice(0,5).map(([des, _, jd, cd, dist, _, vrel]) => `<li><strong>${des}</strong>: ${new Date(parseFloat(jd)*86400000-2209161600000).toLocaleDateString()} • ${parseFloat(dist).toFixed(2)} AU (${parseFloat(vrel).toFixed(0)} km/s)</li>`).join('')}
                         </ul>
-                        <small>Source: NASA/JPL SBDB</small>
+                        <small>Source: NASA/JPL SBDB CAD</small>
                     `;
                 } else {
-                    cometDataEl.innerHTML = '<p>No upcoming comets this month</p>';
+                    cometDataEl.innerHTML = '<p>No major close approaches this month</p><small>Source: NASA/JPL</small>';
                 }
             } catch {
-                cometDataEl.innerHTML = '<p>Comet data loading...</p>';
+                cometDataEl.innerHTML = '<div class="error">Comet data fetch failed</div>';
             }
         }
 
-        function displaySupernovaData() {
-            // Recent 2025 examples from IAU/TNS
-            supernovaDataEl.innerHTML = `
-                <h3>Recent Discoveries (2025)</h3>
-                <ul class="data-list">
-                    <li><strong>SN 2025ggi</strong>: Olive-shaped explosion, Nov 2025 (ESO VLT)</li>
-                    <li><strong>New Type SN</strong>: Unprecedented deep-core glimpse, Aug 2025</li>
-                    <li><strong>SN 2024gjo</strong>: Massive star death mapped in 3D, Nov 2025</li>
-                </ul>
-                <small>Source: IAU/TNS • <a href="https://www.wis-tns.org/" target="_blank">Latest</a></small>
-            `;
+        async function displaySupernovaData() {
+            try {
+                // Rochester SN log TXT (real-time updates)
+                const txt = await loadData('http://rochesterastronomy.org/log/snl.txt', true);
+                if (txt) {
+                    const lines = txt.split('\n').filter(l => l.includes('2025') && l.includes('SN')).slice(-5); // Last 5 from 2025
+                    supernovaDataEl.innerHTML = `
+                        <h3>Recent Discoveries (2025)</h3>
+                        <ul class="data-list">
+                            ${lines.map(l => {
+                                const match = l.match(/SN\s+(\S+).*?mag\s+(\S+).*?(\w+).*?(\d{4}\/\d{2}\/\d{2})/);
+                                return match ? `<li><strong>${match[1]}</strong> (mag ${match[2]}, ${match[3]}) • Disc: ${match[4]}</li>` : '';
+                            }).join('')}
+                        </ul>
+                        <small>Source: Rochester Supernova Patrol</small>
+                    `;
+                } else {
+                    supernovaDataEl.innerHTML = '<div class="error">Supernova log unavailable</div>';
+                }
+            } catch {
+                supernovaDataEl.innerHTML = '<div class="error">Supernova data fetch failed</div>';
+            }
         }
 
         function displayAuroraForecast(auroraData) {
-            auroraForecastEl.innerHTML = auroraData?.forecast ? `<p>${auroraData.forecast.substring(0,400)}...</p><small>Source: ${auroraData.source}</small>` : '<div class="loading">Forecast unavailable</div>';
+            auroraForecastEl.innerHTML = auroraData?.forecast ? `<p>${auroraData.forecast.substring(0,400)}...</p><small>Source: ${auroraData.source || 'NOAA'}</small>` : '<div class="error">Forecast unavailable</div>';
         }
 
         function displayAlerts(flares) {
@@ -509,44 +581,48 @@
         }
 
         function displayNews(news) {
-            if (!news?.length) return newsFeedEl.innerHTML = '<div class="loading">News unavailable</div>';
-            newsFeedEl.innerHTML = news.slice(0,3).map(n => `<div><h4><a href="${n.link}" target="_blank">${n.title}</a></h4><p>${n.summary?.substring(0,100)}...</p><small>${formatDate(n.date)}</small></div>`).join('');
+            if (!news?.length) return newsFeedEl.innerHTML = '<div class="error">News unavailable</div>';
+            newsFeedEl.innerHTML = news.slice(0,3).map(n => `<div><h4><a href="${n.link}" target="_blank" style="color:var(--cyan);text-decoration:none">${n.title}</a></h4><p style="color:var(--text-muted)">${(n.summary || '').substring(0,100)}...</p><small>${formatDate(n.date)}</small></div>`).join('');
         }
 
         function displaySystemStatus(status) {
-            systemStatusEl.innerHTML = status?.status === 'success' ? '<div style="color:var(--green)">All systems operational</div>' : '<div style="color:var(--red)">Update pending</div>';
+            const isOk = status?.status === 'success';
+            systemStatusEl.innerHTML = `<div style="color:${isOk ? 'var(--green)' : 'var(--red)'}"><strong>${isOk ? 'All systems operational' : 'Update pending'}</strong><br><small>Last: ${formatDate(status?.lastUpdate) || 'Never'}</small></div>`;
             lastRunEl.textContent = formatDate(status?.lastUpdate);
         }
 
-        // Main Update
+        // Main Update Function
         async function updateAll() {
-            const [noaa, news, aurora, status] = await Promise.all([
+            const [noaa, news, aurora, status, dstData, xrayData] = await Promise.all([
                 loadData('data/noaa-data.json'),
                 loadData('data/news.json'),
                 loadData('data/aurora.json'),
-                loadData('data/update-status.json')
+                loadData('data/update-status.json'),
+                loadData('https://services.swpc.noaa.gov/json/dst.json'),
+                loadData('https://services.swpc.noaa.gov/json/goes/primary/xrays-6-hour.json')
             ]);
 
-            // Kp & Dst
+            // Gauges
             if (noaa?.kpIndex?.length) updateKpGauge(noaa.kpIndex.slice(-1)[0].kp || 0);
-            try {
-                const dstRes = await fetch('https://services.swpc.noaa.gov/json/dst.json');
-                const dstData = await dstRes.json();
-                if (dstData.length) updateDstGauge(dstData.slice(-1)[0].dst);
-            } catch { dstInfoEl.innerHTML = '<p>Dst data unavailable</p>'; }
+            if (dstData?.length) updateDstGauge(dstData.slice(-1)[0].dst);
+            if (xrayData) updateXrayGauge(xrayData);
 
+            // Displays
             displaySolarData(noaa);
             displayMeteorData();
-            displayCometData();
-            displaySupernovaData();
+            await displayCometData();
+            await displaySupernovaData();
             displayAuroraForecast(aurora);
             displayAlerts(noaa?.solarFlares);
             displayNews(news);
             displaySystemStatus(status);
 
-            // Refresh map
-            const activeHemi = document.querySelector('.map-btn.active').id === 'btn-north' ? 'north' : 'south';
-            loadAuroraOverlay(activeHemi);
+            // Refresh maps
+            if (mapAurora) {
+                const activeHemi = document.querySelector('#aurora-map .map-btn.active')?.id === 'btn-north' ? 'north' : 'south';
+                loadAuroraOverlay(activeHemi);
+            }
+            if (mapTEC && xrayData) tecLayer.setUrl('https://services.swpc.noaa.gov/products/noaa-maps/glotec.png?t=' + Date.now());
 
             updateTime.textContent = formatTime(status?.lastUpdate || new Date());
         }
@@ -567,6 +643,7 @@
         // Init
         window.addEventListener('load', () => {
             initAuroraMap();
+            initTECMaps();
             updateAll();
             setInterval(updateAll, 120000);
         });
