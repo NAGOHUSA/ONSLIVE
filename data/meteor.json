@@ -1,0 +1,65 @@
+{
+    "current": 3.5,
+    "max": 10,
+    "activity": "Moderate",
+    "description": "Typical background meteor activity",
+    "updated": "2024-01-15T12:30:00Z",
+    "showers": [
+      {
+        "name": "Quadrantids",
+        "peak": "Jan 3-4",
+        "zhr": 120,
+        "active": true,
+        "rating": 8
+      },
+      {
+        "name": "Lyrids",
+        "peak": "Apr 21-22",
+        "zhr": 18,
+        "active": false,
+        "rating": 4
+      },
+      {
+        "name": "Perseids",
+        "peak": "Aug 12-13",
+        "zhr": 100,
+        "active": false,
+        "rating": 7
+      },
+      {
+        "name": "Orionids",
+        "peak": "Oct 21-22",
+        "zhr": 20,
+        "active": false,
+        "rating": 5
+      },
+      {
+        "name": "Leonids",
+        "peak": "Nov 17-18",
+        "zhr": 15,
+        "active": false,
+        "rating": 3
+      },
+      {
+        "name": "Geminids",
+        "peak": "Dec 13-14",
+        "zhr": 150,
+        "active": true,
+        "rating": 9
+      }
+    ],
+    "activeShowers": [
+      {
+        "name": "Geminids",
+        "zhr": 150,
+        "peak": "Active Now",
+        "description": "One of the best showers of the year, producing up to 150 meteors/hour at peak."
+      }
+    ],
+    "nextMajorShower": {
+      "name": "Quadrantids",
+      "date": "Jan 3-4, 2024",
+      "zhr": 120,
+      "description": "First major shower of the year, known for bright fireballs."
+    }
+  }
