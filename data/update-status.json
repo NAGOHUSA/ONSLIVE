@@ -1,8 +1,8 @@
 {
-  "lastUpdate": "2025-12-08T15:06:14.564Z",
+  "lastUpdate": "2025-12-08T15:29:19.816Z",
   "status": "success",
   "message": "All space weather data updated successfully",
-  "timestamp": 1765206374564,
+  "timestamp": 1765207759816,
   "dataSources": [
     "NOAA Space Weather Prediction Center",
     "NASA GOES Satellite Data",
@@ -11,7 +11,7 @@
   ],
   "metrics": {
     "kpIndex": 0,
-    "xrayFlux": "X3.0",
+    "xrayFlux": "X2.6",
     "dstIndex": -13,
     "solarWindSpeed": 0,
     "flareCount": 0
