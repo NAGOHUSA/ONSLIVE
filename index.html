@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Ezoic - incontent_5 - incontent_5 -->
-<div id="ezoic-pub-ad-placeholder-115"></div>
-<!-- End Ezoic - incontent_5 - incontent_5 -->
-  
   <script src="https://cmp.gatekeeperconsent.com/min.js" data-cfasync="false"></script>
   <script src="https://the.gatekeeperconsent.com/cmp.min.js" data-cfasync="false"></script>
+  <script async src="//www.ezojs.com/ezoic/sa.min.js"></script>
+  <script>
+    window.ezstandalone = window.ezstandalone || {};
+    ezstandalone.cmd = ezstandalone.cmd || [];
+  </script>
+  <!-- Ezoic - incontent_5 - incontent_5 -->
+  <div id="ezoic-pub-ad-placeholder-115"></div>
+  <!-- End Ezoic - incontent_5 - incontent_5 -->
+  <!-- Ezoic - long_content - long_content -->
+  <div id="ezoic-pub-ad-placeholder-112"></div>
+  <!-- End Ezoic - long_content - long_content -->
+  
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-0901537229802149" crossorigin="anonymous"></script>
+  
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Live Space Weather • ournightsky.us</title>
@@ -68,7 +78,7 @@
 <body>
   <header>
     <div class="container header-content">
-      <h1><i class="fas fa-satellite"></i> live.ournightsky.us 1.6</h1>
+      <h1><i class="fas fa-satellite"></i> live.ournightsky.us 1.5</h1>
       <div style="display:flex;gap:1rem;align-items:center;color:var(--text-muted)">
         <span>Last updated: <strong id="update-time">--:--</strong></span>
         <button id="refresh-btn"><i class="fas fa-sync-alt"></i> Refresh</button>
@@ -182,6 +192,7 @@
         </div>
         <div id="meteor-info" class="loading"></div>
       </div>
+      
       <!-- Aurora Forecast Card -->
       <div class="card">
         <h2><i class="fas fa-cloud-aurora"></i> Aurora Forecast</h2>
@@ -247,142 +258,94 @@
     let mapAurora, mapISS, issMarker;
     let auroraCircles = [];
 
-    // Data URLs
+    // Data URLs - FIXED: Added correct meteor.json URL
+    const DATA_URLS = {
+      noaa: 'data/noaa-data.json',
+      aurora: 'data/aurora.json',
+      news: 'data/news.json',
+      status: 'data/update-status.json',
+      xray: 'data/xray-data.json',
+      dst: 'data/dst-data.json',
+      meteor: 'https://raw.githubusercontent.com/NAGOHUSA/ONSLIVE/main/data/meteor.json'  
+    };
 
-const DATA_URLS = {
-  noaa: 'data/noaa-data.json',
-  aurora: 'data/aurora.json',
-  news: 'data/news.json',
-  status: 'data/update-status.json',
-  xray: 'data/xray-data.json',
-  dst: 'data/dst-data.json',
-  meteor: 'data/meteor.json'  
-};
-function renderMeteorData(meteorData) {
-  try {
-    if (meteorData && typeof meteorData.current === 'number') {
-      const meteorValue = meteorData.current;
-      const maxValue = meteorData.max || 10;
-      
-      updateGauge(meteorValueEl, meteorArc, meteorNeedle, meteorValue, 0, maxValue);
-      
-      let activityClass = 'success-item';
-      let activityIcon = '🌠';
-      let activityColor = 'var(--green)';
-      
-      if (meteorValue >= 7) {
-        activityClass = 'alert-item';
-        activityIcon = '🌌';
-        activityColor = 'var(--red)';
-      } else if (meteorValue >= 5) {
-        activityClass = 'warning-item';
-        activityIcon = '✨';
-        activityColor = 'var(--gold)';
-      } else if (meteorValue >= 3) {
-        activityIcon = '💫';
-        activityColor = 'var(--cyan)';
-      }
-      
-      let activeShowersHtml = '';
-      if (meteorData.activeShowers && Array.isArray(meteorData.activeShowers) && meteorData.activeShowers.length > 0) {
-        activeShowersHtml = `
-          <div style="margin-top: 1rem;">
-            <strong>Active Showers:</strong>
-            ${meteorData.activeShowers.map(shower => `
-              <div class="data-item" style="margin-top: 0.5rem; border-left-color: ${activityColor}">
-                <strong>${shower.name}</strong>
-                <div>Peak: ${shower.peak}</div>
-                <div>ZHR: ${shower.zhr} meteors/hour</div>
-                <div style="font-size: 0.9rem; color: var(--text-muted)">${shower.description}</div>
+    // Meteor Data Rendering Function - FIXED VERSION
+    function renderMeteorData(meteorData) {
+      try {
+        if (meteorData && typeof meteorData.current === 'number') {
+          const meteorValue = meteorData.current;
+          const maxValue = meteorData.max || 10;
+          
+          updateGauge(meteorValueEl, meteorArc, meteorNeedle, meteorValue, 0, maxValue);
+          
+          let activityClass = 'success-item';
+          let activityIcon = '🌠';
+          let activityColor = 'var(--green)';
+          
+          if (meteorValue >= 7) {
+            activityClass = 'alert-item';
+            activityIcon = '🌌';
+            activityColor = 'var(--red)';
+          } else if (meteorValue >= 5) {
+            activityClass = 'warning-item';
+            activityIcon = '✨';
+            activityColor = 'var(--gold)';
+          } else if (meteorValue >= 3) {
+            activityIcon = '💫';
+            activityColor = 'var(--cyan)';
+          }
+          
+          let activeShowersHtml = '';
+          if (meteorData.activeShowers && Array.isArray(meteorData.activeShowers) && meteorData.activeShowers.length > 0) {
+            activeShowersHtml = `
+              <div style="margin-top: 1rem;">
+                <strong>Active Showers:</strong>
+                ${meteorData.activeShowers.map(shower => `
+                  <div class="data-item" style="margin-top: 0.5rem; border-left-color: ${activityColor}">
+                    <strong>${shower.name}</strong>
+                    <div>Peak: ${shower.peak}</div>
+                    <div>ZHR: ${shower.zhr} meteors/hour</div>
+                    <div style="font-size: 0.9rem; color: var(--text-muted)">${shower.description}</div>
+                  </div>
+                `).join('')}
               </div>
-            `).join('')}
-          </div>
-        `;
-      }
-      
-      let nextShowerHtml = '';
-      if (meteorData.nextMajorShower) {
-        nextShowerHtml = `
-          <div style="margin-top: 1rem;">
-            <strong>Next Major Shower:</strong>
-            <div class="data-item" style="margin-top: 0.5rem;">
-              <strong>${meteorData.nextMajorShower.name}</strong>
-              <div>Peak: ${meteorData.nextMajorShower.date}</div>
-              <div>ZHR: ${meteorData.nextMajorShower.zhr} meteors/hour</div>
-              <div style="font-size: 0.9rem; color: var(--text-muted)">${meteorData.nextMajorShower.description}</div>
+            `;
+          }
+          
+          let nextShowerHtml = '';
+          if (meteorData.nextMajorShower) {
+            nextShowerHtml = `
+              <div style="margin-top: 1rem;">
+                <strong>Next Major Shower:</strong>
+                <div class="data-item" style="margin-top: 0.5rem;">
+                  <strong>${meteorData.nextMajorShower.name}</strong>
+                  <div>Peak: ${meteorData.nextMajorShower.date}</div>
+                  <div>ZHR: ${meteorData.nextMajorShower.zhr} meteors/hour</div>
+                  <div style="font-size: 0.9rem; color: var(--text-muted)">${meteorData.nextMajorShower.description}</div>
+                </div>
+              </div>
+            `;
+          }
+          
+          meteorInfoEl.classList.remove('loading');
+          meteorInfoEl.innerHTML = `
+            <div class="data-item ${activityClass}" style="border-left-color: ${activityColor}">
+              <strong>${activityIcon} Current Activity: ${meteorData.activity || 'Normal'}</strong>
+              <div>${meteorData.description || 'Background meteor activity'}</div>
+              <div class="data-source">Updated: ${formatDateString(meteorData.updated)}</div>
             </div>
-          </div>
-        `;
+            ${activeShowersHtml}
+            ${nextShowerHtml}
+          `;
+        } else {
+          meteorInfoEl.classList.remove('loading');
+          meteorInfoEl.innerHTML = '<div class="data-item">Meteor data updating...</div>';
+        }
+      } catch (e) {
+        console.error('Error rendering meteor data:', e);
+        meteorInfoEl.innerHTML = '<div class="error">Error loading meteor data</div>';
       }
-async function updateAll() {
-  refreshBtn.disabled = true;
-  refreshBtn.innerHTML = '<i class="fas fa-sync-alt fa-spin"></i> Updating...';
-
-  try {
-    // Load all data files - INCLUDING meteorData
-    const [noaaData, auroraData, newsData, statusData, xrayData, dstData, meteorData] = await Promise.all([
-      fetchLocalOrRemote(DATA_URLS.noaa),
-      fetchLocalOrRemote(DATA_URLS.aurora),
-      fetchLocalOrRemote(DATA_URLS.news),
-      fetchLocalOrRemote(DATA_URLS.status),
-      fetchLocalOrRemote(DATA_URLS.xray),
-      fetchLocalOrRemote(DATA_URLS.dst),
-      fetchLocalOrRemote(DATA_URLS.meteor)  // ✅ Add this line
-    ]);
-
-    // Render all data - INCLUDING meteor data
-    renderNOAAData(noaaData, xrayData, dstData);
-    renderXrayData(xrayData);
-    renderDstData(dstData);
-    renderAuroraData(auroraData);
-    renderNewsData(newsData);
-    renderStatusData(statusData);
-    renderMeteorData(meteorData);  // ✅ Add this line
-    
-    // Update ISS position
-    await updateISS();
-
-  } catch (error) {
-    console.error('Error updating data:', error);
-    
-    // Show error state - INCLUDING meteorInfoEl
-    const errorHtml = `<div class="error">
-      <strong>⚠️ Data Loading Error</strong>
-      <div>Failed to load some data: ${error.message || 'Network error'}</div>
-      <div style="font-size:0.9rem; margin-top:0.5rem">Check console for details or try refreshing</div>
-    </div>`;
-    
-    solarDataEl.innerHTML = errorHtml;
-    xrayInfoEl.innerHTML = errorHtml;
-    dstInfoEl.innerHTML = errorHtml;
-    auroraForecastEl.innerHTML = errorHtml;
-    newsFeedEl.innerHTML = errorHtml;
-    systemStatusEl.innerHTML = errorHtml;
-    meteorInfoEl.innerHTML = errorHtml;  // ✅ Add this line
-  } finally {
-    refreshBtn.innerHTML = '<i class="fas fa-sync-alt"></i> Refresh';
-    refreshBtn.disabled = false;
-  }
-}
-      meteorInfoEl.classList.remove('loading');
-      meteorInfoEl.innerHTML = `
-        <div class="data-item ${activityClass}" style="border-left-color: ${activityColor}">
-          <strong>${activityIcon} Current Activity: ${meteorData.activity || 'Normal'}</strong>
-          <div>${meteorData.description || 'Background meteor activity'}</div>
-          <div class="data-source">Updated: ${formatDateString(meteorData.updated)}</div>
-        </div>
-        ${activeShowersHtml}
-        ${nextShowerHtml}
-      `;
-    } else {
-      meteorInfoEl.classList.remove('loading');
-      meteorInfoEl.innerHTML = '<div class="data-item">Meteor data updating...</div>';
     }
-  } catch (e) {
-    console.error('Error rendering meteor data:', e);
-    meteorInfoEl.innerHTML = '<div class="error">Error loading meteor data</div>';
-  }
-}
 
     // Utility Functions
     function formatTime(date = new Date()) {
@@ -414,7 +377,7 @@ async function updateAll() {
     // Data Fetching
     async function fetchLocalOrRemote(localPath, remoteUrl = null) {
       // Try local first with cache busting
-      if (localPath) {
+      if (localPath && !localPath.startsWith('http')) {
         try {
           const res = await fetch(localPath + '?t=' + Date.now());
           if (res.ok) {
@@ -428,6 +391,22 @@ async function updateAll() {
           }
         } catch (e) {
           console.debug('Local fetch failed', localPath, e);
+        }
+      } else if (localPath && localPath.startsWith('http')) {
+        // Direct URL
+        try {
+          const res = await fetch(localPath + '?t=' + Date.now());
+          if (res.ok) {
+            const txt = await res.text();
+            try {
+              return JSON.parse(txt);
+            } catch (e) {
+              console.warn('JSON parse failed for direct URL', localPath, e);
+              return txt;
+            }
+          }
+        } catch (e) {
+          console.debug('Direct URL fetch failed', localPath, e);
         }
       }
       
@@ -983,33 +962,39 @@ async function updateAll() {
       }
     }
 
-    // Main Update Function
+    // Main Update Function - FIXED: Now includes meteor data
     async function updateAll() {
       refreshBtn.disabled = true;
       refreshBtn.innerHTML = '<i class="fas fa-sync-alt fa-spin"></i> Updating...';
 
       try {
-        const [noaaData, auroraData, newsData, statusData, xrayData, dstData] = await Promise.all([
+        // Load all data files - INCLUDING meteorData
+        const [noaaData, auroraData, newsData, statusData, xrayData, dstData, meteorData] = await Promise.all([
           fetchLocalOrRemote(DATA_URLS.noaa),
           fetchLocalOrRemote(DATA_URLS.aurora),
           fetchLocalOrRemote(DATA_URLS.news),
           fetchLocalOrRemote(DATA_URLS.status),
           fetchLocalOrRemote(DATA_URLS.xray),
-          fetchLocalOrRemote(DATA_URLS.dst)
+          fetchLocalOrRemote(DATA_URLS.dst),
+          fetchLocalOrRemote(DATA_URLS.meteor)  // ✅ Meteor data included
         ]);
 
+        // Render all data - INCLUDING meteor data
         renderNOAAData(noaaData, xrayData, dstData);
         renderXrayData(xrayData);
         renderDstData(dstData);
         renderAuroraData(auroraData);
         renderNewsData(newsData);
         renderStatusData(statusData);
+        renderMeteorData(meteorData);  // ✅ Meteor rendering included
         
+        // Update ISS position
         await updateISS();
 
       } catch (error) {
         console.error('Error updating data:', error);
         
+        // Show error state - INCLUDING meteorInfoEl
         const errorHtml = `<div class="error">
           <strong>⚠️ Data Loading Error</strong>
           <div>Failed to load some data: ${error.message || 'Network error'}</div>
@@ -1022,6 +1007,7 @@ async function updateAll() {
         auroraForecastEl.innerHTML = errorHtml;
         newsFeedEl.innerHTML = errorHtml;
         systemStatusEl.innerHTML = errorHtml;
+        meteorInfoEl.innerHTML = errorHtml;  // ✅ Meteor error included
       } finally {
         refreshBtn.innerHTML = '<i class="fas fa-sync-alt"></i> Refresh';
         refreshBtn.disabled = false;
@@ -1053,13 +1039,6 @@ async function updateAll() {
 
     // Start the app when DOM is loaded
     document.addEventListener('DOMContentLoaded', init);
-  </script>
-  
-  <!-- External ad scripts -->
-  <script async src="//www.ezojs.com/ezoic/sa.min.js"></script>
-  <script>
-    window.ezstandalone = window.ezstandalone || {};
-    ezstandalone.cmd = ezstandalone.cmd || [];
   </script>
 </body>
 </html>
