@@ -805,3 +805,61 @@
 
             } catch (error) {
                 console.error('Error updating data:', error);
+                
+                // Show error state
+                const errorHtml = `<div class="error">
+                    <h3>⚠️ Data Loading Error</h3>
+                    <p>Failed to load data: ${error.message || 'Network error'}</p>
+                    <small>Check console for details</small>
+                </div>`;
+                
+                solarDataEl.innerHTML = errorHtml;
+                kpDisplayEl.innerHTML = errorHtml;
+                auroraForecastEl.innerHTML = errorHtml;
+                alertsListEl.innerHTML = errorHtml;
+                newsFeedEl.innerHTML = errorHtml;
+                systemStatusEl.innerHTML = errorHtml;
+                
+                updateTime.textContent = 'Error';
+            }
+        }
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', () => {
+            // First update
+            updateAllData();
+            
+            // Setup refresh button
+            refreshBtn.addEventListener('click', () => {
+                refreshBtn.innerHTML = '<i class="fas fa-sync-alt fa-spin"></i> Refreshing...';
+                updateAllData().finally(() => {
+                    setTimeout(() => {
+                        refreshBtn.innerHTML = '<i class="fas fa-sync-alt"></i> Refresh';
+                    }, 1000);
+                });
+            });
+            
+            // Auto-refresh every 2 minutes
+            setInterval(updateAllData, 2 * 60 * 1000);
+        });
+
+        // Check data file accessibility on load
+        window.addEventListener('load', () => {
+            console.log('Checking data file accessibility...');
+            
+            // Quick test to see if data files exist
+            fetch('data/update-status.json')
+                .then(response => {
+                    if (response.ok) {
+                        console.log('✓ Data files are accessible');
+                    } else {
+                        console.warn('✗ Data files may not exist yet');
+                    }
+                })
+                .catch(error => {
+                    console.error('✗ Cannot access data files:', error.message);
+                });
+        });
+    </script>
+</body>
+</html>
