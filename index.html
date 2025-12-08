@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Live Space Weather • ournightsky.us</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
@@ -437,7 +437,7 @@
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script>
-        // Optimized JS: async fetches, lazy load, minimal DOM updates
+        // Elements
         const updateTime = document.getElementById('update-time');
         const refreshBtn = document.getElementById('refresh-btn');
         const solarDataEl = document.getElementById('solar-data');
@@ -463,31 +463,73 @@
         const xrayInfoEl = document.getElementById('xray-info');
         const flarePredictionsEl = document.getElementById('flare-predictions');
 
+        // Maps & layers
         let mapAurora, auroraLayerNorth, auroraLayerSouth;
         let mapTEC, tecLayer;
         let mapISS, issMarker;
 
-        function formatTime(d = new Date()) { return d.toLocaleTimeString('en-US', {hour: '2-digit', minute: '2-digit', hour12: false}); }
-        function formatDate(d = new Date()) { return d.toLocaleDateString('en-US', {month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit'}); }
+        function formatTime(d = new Date()) {
+            return d.toLocaleTimeString('en-US', {hour: '2-digit', minute: '2-digit', hour12: false});
+        }
+        function formatDate(d = new Date()) {
+            return d.toLocaleDateString('en-US', {month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit'});
+        }
 
+        // Robust fetch wrapper:
+        // Try local data path first (./data/...), then fallback to original URL
         async function fetchData(url) {
+            // map known remote endpoints to local filenames (best-effort)
+            const localMapping = [
+                { remoteContains: 'planetary_k_index_1m.json', local: './data/planetary_k_index_1m.json' },
+                { remoteContains: 'plasma-5-minute.json', local: './data/plasma-5-minute.json' },
+                { remoteContains: '/goes/primary/xray-flares-latest.json', local: './data/xray-flares-latest.json' },
+                { remoteContains: 'dst.json', local: './data/dst.json' },
+                { remoteContains: 'xrays-6-hour.json', local: './data/xrays-6-hour.json' },
+                { remoteContains: 'solar-probabilities.json', local: './data/solar-probabilities.json' }
+            ];
+
+            const mapping = localMapping.find(m => url.includes(m.remoteContains));
+            const localUrl = mapping ? mapping.local : null;
+
+            // If local path exists (try it first)
+            if (localUrl) {
+                try {
+                    const resLocal = await fetch(localUrl + '?t=' + Date.now());
+                    if (resLocal.ok) {
+                        const json = await resLocal.json();
+                        return json;
+                    }
+                } catch (e) {
+                    // local failed — fall through to remote
+                    console.debug('Local fetch failed for', localUrl, e);
+                }
+            }
+
+            // Try remote URL
             try {
                 const res = await fetch(url + '?t=' + Date.now());
-                if (!res.ok) throw new Error('Fetch failed');
-                return await res.json();
+                if (!res.ok) throw new Error('Fetch failed: ' + res.status);
+                // sometimes remote endpoints return JSON arrays or text
+                const text = await res.text();
+                try {
+                    return JSON.parse(text);
+                } catch (e) {
+                    // not JSON — return raw text
+                    return text;
+                }
             } catch (e) {
-                console.error(e);
+                console.error('Remote fetch failed for', url, e);
                 return null;
             }
         }
 
+        // simple text fetch (with local fallback)
         async function fetchText(url) {
             try {
                 const res = await fetch(url + '?t=' + Date.now());
                 if (!res.ok) throw new Error('Fetch failed');
                 return await res.text();
             } catch (e) {
-                console.error(e);
                 return null;
             }
         }
@@ -498,7 +540,15 @@
             if (reverse) percent = 1 - percent;
             percent = Math.max(0, Math.min(1, percent));
             const degrees = percent * 180 - 90;
-            valueEl.textContent = numericVal.toFixed(0) + unit;
+            // value formatting: if unit is ' nT' or other show accordingly
+            if (Math.abs(numericVal) >= 1000 || Math.abs(numericVal) < 0.001) {
+                // scientific-ish formatting for very small/large
+                valueEl.textContent = numericVal.toExponential(1) + (unit || '');
+            } else {
+                const fixed = (Math.round(numericVal * 10) / 10);
+                valueEl.textContent = fixed + (unit || '');
+            }
+            // arc length out of 251.3 (approx half circumference)
             arcEl.setAttribute('stroke-dasharray', `${percent * 251.3}, 251.3`);
             needleEl.style.transform = `translateX(-50%) rotate(${degrees}deg)`;
             needleEl.style.background = percent > 0.66 ? 'var(--red)' : percent > 0.33 ? 'var(--gold)' : 'var(--green)';
@@ -532,7 +582,7 @@
         document.getElementById('btn-north').addEventListener('click', () => {
             mapAurora.setView([90, 0], 2);
             auroraLayerNorth.addTo(mapAurora);
-            auroraLayerSouth.remove();
+            try { auroraLayerSouth.remove(); } catch(e){}
             document.querySelectorAll('.map-btn').forEach(b => b.classList.remove('active'));
             document.getElementById('btn-north').classList.add('active');
         });
@@ -540,33 +590,247 @@
         document.getElementById('btn-south').addEventListener('click', () => {
             mapAurora.setView([-90, 0], 2);
             auroraLayerSouth.addTo(mapAurora);
-            auroraLayerNorth.remove();
+            try { auroraLayerNorth.remove(); } catch(e){}
             document.querySelectorAll('.map-btn').forEach(b => b.classList.remove('active'));
             document.getElementById('btn-south').classList.add('active');
         });
 
+        // --- Display / parsing functions (robust, fallback-first) ---
+
         async function updateSolarFlarePredictions() {
             const data = await fetchData('https://services.swpc.noaa.gov/json/solar-probabilities.json');
-            if (data) {
-                flarePredictionsEl.innerHTML = data.map(d => `<div class="data-item"><strong>${d.date}</strong> M-Class: ${d.m_class}% • X-Class: ${d.x_class}%</div>`).join('');
+            if (data && Array.isArray(data) && data.length) {
+                // data elements may be objects with date, m_class, x_class or similar keys
+                flarePredictionsEl.innerHTML = data.map(d => `<div class="data-item"><strong>${d.date || d.timestamp || d[0] || '—'}</strong> M-Class: ${d.m_class ?? d.m ?? d.m_class_pct ?? '—'} • X-Class: ${d.x_class ?? d.x ?? d.x_class_pct ?? '—'}</div>`).join('');
+            } else if (data && typeof data === 'object') {
+                flarePredictionsEl.innerHTML = `<div class="data-item"><strong>${data.date ?? 'Predictions'}</strong> M: ${data.m_class ?? '—'} • X: ${data.x_class ?? '—'}</div>`;
             } else {
                 flarePredictionsEl.innerHTML = '<div class="error">Predictions unavailable</div>';
             }
         }
 
         async function updateISSTracking() {
+            // Try local file first (where available), else API
             const data = await fetchData('https://api.wheretheiss.at/v1/satellites/25544');
-            if (data) {
-                issMarker.setLatLng([data.latitude, data.longitude]);
-                mapISS.setView([data.latitude, data.longitude], 3);
+            if (data && data.latitude && data.longitude) {
+                try {
+                    issMarker.setLatLng([data.latitude, data.longitude]);
+                    mapISS.setView([data.latitude, data.longitude], 3);
+                } catch (e) { console.debug(e); }
+            } else if (data && typeof data === 'object' && data.latitude === undefined) {
+                // maybe local file with different keys — attempt to find lat/lon
+                const lat = data.lat || data.latitude || (Array.isArray(data) && data[0]?.latitude);
+                const lon = data.lon || data.longitude || (Array.isArray(data) && data[0]?.longitude);
+                if (lat && lon) {
+                    issMarker.setLatLng([lat, lon]);
+                    mapISS.setView([lat, lon], 3);
+                }
             }
         }
 
+        function safeLast(arr) {
+            if (!arr) return null;
+            return Array.isArray(arr) && arr.length ? arr[arr.length - 1] : (typeof arr === 'object' ? arr : null);
+        }
+
+        function buildSystemStatusSummary(status) {
+            // status is an object of boolean flags / messages
+            const lines = Object.keys(status).map(k => {
+                const v = status[k];
+                const ok = v === true || (typeof v === 'string' && v.length);
+                return `<div class="metric"><span>${k}</span><strong style="color:${ok ? 'var(--green)' : 'var(--red)'}">${ok ? 'OK' : 'Unavailable'}</strong></div>`;
+            });
+            return `<div>${lines.join('')}</div>`;
+        }
+
+        // Display solar data (solar wind + flares)
+        function displaySolarData(solarWind, flares) {
+            try {
+                let html = '';
+                if (solarWind && Array.isArray(solarWind) && solarWind.length > 0) {
+                    // many NOAA data files are arrays of arrays or objects; try flexible parsing
+                    const last = solarWind[solarWind.length - 1];
+                    // if entries are arrays, try to index common columns (time, speed, density, bz)
+                    if (Array.isArray(last)) {
+                        const time = last[0] || '';
+                        const speed = last[3] ?? last[2] ?? '—';
+                        const density = last[6] ?? '—';
+                        const bz = last[4] ?? '—';
+                        html += `<div class="data-item"><strong>Last sample:</strong> ${time}</div>`;
+                        html += `<div class="data-item">Speed: ${speed} km/s • Density: ${density} /cm³ • Bz: ${bz} nT</div>`;
+                    } else {
+                        // object-like
+                        const time = last.time_tag || last.time || last.date || '';
+                        const speed = last.speed ?? last.solar_wind_speed ?? '—';
+                        const density = last.density ?? last.proton_density ?? '—';
+                        const bz = last.bz_gsm ?? last.bz ?? '—';
+                        html += `<div class="data-item"><strong>Last sample:</strong> ${time}</div>`;
+                        html += `<div class="data-item">Speed: ${speed} km/s • Density: ${density} /cm³ • Bz: ${bz} nT</div>`;
+                    }
+                } else {
+                    html += '<div class="error">Solar wind data unavailable</div>';
+                }
+
+                // flares: try array or object
+                if (flares && Array.isArray(flares) && flares.length) {
+                    const fl = flares[flares.length - 1];
+                    if (Array.isArray(fl)) {
+                        // try common positions
+                        html += `<div class="data-item">Latest flare: ${fl[0] ?? '—'} magnitude: ${fl[1] ?? '—'}</div>`;
+                    } else {
+                        html += `<div class="data-item">Latest flare: ${fl.event ?? fl.flux ?? fl.class ?? JSON.stringify(fl)}</div>`;
+                    }
+                } else {
+                    html += '<div class="data-item">No recent flares reported</div>';
+                }
+
+                solarDataEl.classList.remove('loading');
+                solarDataEl.innerHTML = html;
+            } catch (e) {
+                solarDataEl.innerHTML = '<div class="error">Error rendering solar data</div>';
+                console.error(e);
+            }
+        }
+
+        // Minimal meteor display (fallback)
+        async function displayMeteorData() {
+            try {
+                const data = await fetchData('https://raw.githubusercontent.com/NAGOHUSA/ONSLIVE/main/data/meteors.json');
+                if (data && Array.isArray(data) && data.length) {
+                    meteorDataEl.innerHTML = data.map(m => `<div class="data-item"><strong>${m.name || m.shower}</strong> peak: ${m.peak || m.date || '—'}</div>`).join('');
+                } else {
+                    meteorDataEl.innerHTML = '<div class="data-item">No meteor shower data available locally.</div>';
+                }
+            } catch (e) {
+                meteorDataEl.innerHTML = '<div class="data-item">No meteor shower data found.</div>';
+            }
+        }
+
+        // Comets
+        async function displayCometData() {
+            try {
+                const data = await fetchData('https://raw.githubusercontent.com/NAGOHUSA/ONSLIVE/main/data/comets.json');
+                if (data && Array.isArray(data) && data.length) {
+                    cometDataEl.innerHTML = data.map(c => `<div class="data-item"><strong>${c.name}</strong> - ${c.peak || c.closest_approach || c.note || ''}</div>`).join('');
+                } else {
+                    cometDataEl.innerHTML = '<div class="data-item">No upcoming comets in local data.</div>';
+                }
+            } catch (e) {
+                cometDataEl.innerHTML = '<div class="data-item">No comet data available.</div>';
+            }
+        }
+
+        // Supernovae
+        async function displaySupernovaData() {
+            try {
+                const data = await fetchData('https://raw.githubusercontent.com/NAGOHUSA/ONSLIVE/main/data/supernovae.json');
+                if (data && Array.isArray(data) && data.length) {
+                    supernovaDataEl.innerHTML = data.map(s => `<div class="data-item"><strong>${s.name}</strong> - ${s.type || s.discovered || ''}</div>`).join('');
+                } else {
+                    supernovaDataEl.innerHTML = '<div class="data-item">No recent supernovae in local data.</div>';
+                }
+            } catch (e) {
+                supernovaDataEl.innerHTML = '<div class="data-item">No supernova data available.</div>';
+            }
+        }
+
+        // Aurora Forecast (try local forecast JSON)
+        async function displayAuroraForecast() {
+            try {
+                const data = await fetchData('https://raw.githubusercontent.com/NAGOHUSA/ONSLIVE/main/data/aurora_forecast.json');
+                if (data && (Array.isArray(data) ? data.length : Object.keys(data).length)) {
+                    let html = '';
+                    if (Array.isArray(data)) {
+                        html = data.slice(-6).reverse().map(d => `<div class="data-item"><strong>${d.date || d.time || d.timestamp}</strong> ${d.description ?? JSON.stringify(d)}</div>`).join('');
+                    } else {
+                        html = `<div class="data-item"><strong>Forecast:</strong> ${JSON.stringify(data)}</div>`;
+                    }
+                    auroraForecastEl.innerHTML = html;
+                    auroraMessageEl.textContent = `Aurora forecast loaded (local).`;
+                } else {
+                    auroraForecastEl.innerHTML = '<div class="data-item">No local aurora forecast; using map overlays.</div>';
+                    auroraMessageEl.textContent = 'Aurora map overlays available.';
+                }
+            } catch (e) {
+                auroraForecastEl.innerHTML = '<div class="error">Aurora forecast unavailable</div>';
+                auroraMessageEl.textContent = 'Aurora forecast unavailable';
+            }
+        }
+
+        // Alerts
+        async function displayAlerts() {
+            try {
+                // try local alerts then live
+                const local = await fetchData('https://raw.githubusercontent.com/NAGOHUSA/ONSLIVE/main/data/alerts.json');
+                if (local && Array.isArray(local) && local.length) {
+                    alertsListEl.innerHTML = local.map(a => `<div class="alert-item"><strong>${a.headline || a.type || 'Alert'}</strong><div>${a.description || a.message || JSON.stringify(a)}</div></div>`).join('');
+                } else {
+                    // fallback to NOAA feed
+                    const remote = await fetchData('https://services.swpc.noaa.gov/json/alerts.json');
+                    if (remote && Array.isArray(remote) && remote.length) {
+                        alertsListEl.innerHTML = remote.map(a => `<div class="alert-item"><strong>${a.headline || a.message || 'Alert'}</strong><div>${a.description || a.message || ''}</div></div>`).join('');
+                    } else {
+                        alertsListEl.innerHTML = '<div class="data-item">No active space weather alerts</div>';
+                    }
+                }
+            } catch (e) {
+                alertsListEl.innerHTML = '<div class="error">Alerts unavailable</div>';
+            }
+        }
+
+        // News feed (local news.json fallback)
+        async function displayNews() {
+            try {
+                const local = await fetchData('https://raw.githubusercontent.com/NAGOHUSA/ONSLIVE/main/data/news.json');
+                if (local && Array.isArray(local) && local.length) {
+                    newsFeedEl.innerHTML = local.map(n => `<div class="data-item"><a style="color:var(--cyan)" href="${n.link || '#'}" target="_blank" rel="noopener">${n.title || n.headline}</a><div style="color:var(--text-muted);font-size:0.9rem">${n.date || n.published || ''}</div></div>`).join('');
+                } else {
+                    newsFeedEl.innerHTML = '<div class="data-item">No local news. Try running the site with network access for live news.</div>';
+                }
+            } catch (e) {
+                newsFeedEl.innerHTML = '<div class="error">News unavailable</div>';
+            }
+        }
+
+        // System status aggregator
+        async function displaySystemStatus() {
+            const status = {};
+            try {
+                const kpLocal = await fetchData('https://raw.githubusercontent.com/NAGOHUSA/ONSLIVE/main/data/planetary_k_index_1m.json');
+                status['KP local'] = kpLocal ? true : false;
+            } catch (e) { status['KP local'] = false; }
+
+            try {
+                const aurLocal = await fetchData('https://raw.githubusercontent.com/NAGOHUSA/ONSLIVE/main/data/aurora_forecast.json');
+                status['Aurora forecast local'] = aurLocal ? true : false;
+            } catch (e) { status['Aurora forecast local'] = false; }
+
+            try {
+                const alertsLocal = await fetchData('https://raw.githubusercontent.com/NAGOHUSA/ONSLIVE/main/data/alerts.json');
+                status['Alerts local'] = alertsLocal ? true : false;
+            } catch (e) { status['Alerts local'] = false; }
+
+            try {
+                const newsLocal = await fetchData('https://raw.githubusercontent.com/NAGOHUSA/ONSLIVE/main/data/news.json');
+                status['News local'] = newsLocal ? true : false;
+            } catch (e) { status['News local'] = false; }
+
+            systemStatusEl.innerHTML = buildSystemStatusSummary(status);
+        }
+
+        // --- Main update loop ---
         async function updateAll() {
             refreshBtn.disabled = true;
             refreshBtn.innerHTML = '<i class="fas fa-sync-alt fa-spin"></i> Updating...';
 
-            const [kp, solarWind, flares, dst, xray] = await Promise.all([
+            // Fetch set of sources concurrently (local-first)
+            const [
+                kp,
+                solarWind,
+                flares,
+                dst,
+                xray
+            ] = await Promise.all([
                 fetchData('https://services.swpc.noaa.gov/json/planetary_k_index_1m.json'),
                 fetchData('https://services.swpc.noaa.gov/products/solar-wind/plasma-5-minute.json'),
                 fetchData('https://services.swpc.noaa.gov/json/goes/primary/xray-flares-latest.json'),
@@ -574,25 +838,71 @@
                 fetchData('https://services.swpc.noaa.gov/json/goes/primary/xrays-6-hour.json')
             ]);
 
-            if (kp?.length) updateGauge(kpValueEl, kpArc, kpNeedle, kp[kp.length - 1].kp, 0, 9);
-            if (dst?.length) updateGauge(dstValueEl, dstArc, dstNeedle, dst[dst.length - 1].dst, -300, 0, ' nT', true);
-            if (xray?.length) {
-                const flux = xray[xray.length - 1].flux;
-                xrayValueEl.textContent = fluxToClass(flux);
-                updateGauge(xrayValueEl, xrayArc, xrayNeedle, parseFloat(flux), 1e-8, 1e-3, '', false);
-            }
+            // KP
+            try {
+                // many KP feeds are arrays; try to read last available entry's kp property
+                const kpLast = safeLast(kp);
+                let kpVal = null;
+                if (kpLast) {
+                    if (typeof kpLast === 'object') kpVal = kpLast.kp ?? kpLast.Kp ?? kpLast[1] ?? (Array.isArray(kpLast) ? kpLast[kpLast.length-1] : null);
+                    else kpVal = Number(kpLast);
+                }
+                if (kpVal !== null && kpVal !== undefined) {
+                    updateGauge(kpValueEl, kpArc, kpNeedle, Number(kpVal), 0, 9);
+                } else {
+                    kpValueEl.textContent = '—';
+                }
+            } catch (e) { kpValueEl.textContent = '—'; }
 
+            // Dst
+            try {
+                const dstLast = safeLast(dst);
+                let dstVal = null;
+                if (dstLast) {
+                    dstVal = dstLast.dst ?? dstLast.Dst ?? dstLast[1] ?? null;
+                }
+                if (dstVal !== null && dstVal !== undefined) {
+                    updateGauge(dstValueEl, dstArc, dstNeedle, Number(dstVal), -300, 0, ' nT', true);
+                    dstInfoEl.innerHTML = `<div class="data-item">Dst: ${dstVal} nT</div>`;
+                } else {
+                    dstInfoEl.innerHTML = `<div class="data-item">Dst unavailable</div>`;
+                }
+            } catch (e) { dstInfoEl.innerHTML = `<div class="error">Dst parse error</div>`; }
+
+            // X-ray
+            try {
+                // xray may be objects/arrays; attempt to extract a numeric flux
+                const xrLast = safeLast(xray);
+                let flux = null;
+                if (xrLast) {
+                    if (typeof xrLast === 'object') {
+                        flux = xrLast.flux ?? xrLast[1] ?? xrLast.xray_flux ?? null;
+                    } else {
+                        flux = Number(xrLast);
+                    }
+                }
+                if (flux !== null && flux !== undefined) {
+                    xrayValueEl.textContent = fluxToClass(flux);
+                    updateGauge(xrayValueEl, xrayArc, xrayNeedle, Number(flux), 1e-8, 1e-3, '', false);
+                } else {
+                    xrayInfoEl.innerHTML = `<div class="data-item">X-ray flux unavailable</div>`;
+                }
+            } catch (e) { xrayInfoEl.innerHTML = `<div class="error">X-ray parse error</div>`; }
+
+            // Display sections (use existing fetched variables where possible)
             displaySolarData(solarWind, flares);
-            displayMeteorData();
+            await displayMeteorData();
             await displayCometData();
             await displaySupernovaData();
             await displayAuroraForecast();
             await displayAlerts();
             await displayNews();
-            displaySystemStatus();
+            await displaySystemStatus();
             await updateSolarFlarePredictions();
             await updateISSTracking();
-            tecLayer.setUrl('https://services.swpc.noaa.gov/products/noaa-maps/glotec.png?t=' + Date.now());
+
+            // refresh the TEC overlay (forces bypass cache)
+            try { tecLayer.setUrl('https://services.swpc.noaa.gov/products/noaa-maps/glotec.png?t=' + Date.now()); } catch (e) { console.debug(e); }
 
             updateTime.textContent = formatTime();
             lastRunEl.textContent = formatDate();
@@ -600,10 +910,19 @@
             refreshBtn.disabled = false;
         }
 
+        // Init
         initMaps();
         updateAll();
         setInterval(updateAll, 120000);
         refreshBtn.addEventListener('click', updateAll);
+
+        // Collapsible cards behavior on small screens
+        document.querySelectorAll('.card.collapsible h2').forEach(h2 => {
+            h2.addEventListener('click', () => {
+                const card = h2.parentElement;
+                card.classList.toggle('open');
+            });
+        });
 
     </script>
 </body>
