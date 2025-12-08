@@ -73,7 +73,7 @@
             background-clip: text;
             -webkit-text-fill-color: transparent;
         }
-        h1 i { -webkit-text-fill-color: var(--cyan); }
+        h1 i { -webkit-text-fill-color: var(--cyan); margin-right: 0.5rem; }
 
         .last-updated {
             font-size: 0.95rem;
@@ -103,17 +103,32 @@
             border: 1px solid var(--border);
             backdrop-filter: blur(20px);
         }
-        .kp-gauge {
+        .gauge-container {
             width: 220px;
             height: 130px;
             margin: 1rem auto;
+            position: relative;
         }
-        .kp-value {
+        .gauge-value {
             font-size: 4rem;
             font-weight: 800;
             background: linear-gradient(135deg, var(--cyan), var(--purple));
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .needle {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            width: 2px;
+            height: 60px;
+            background: var(--red);
+            transform-origin: bottom;
+            transition: transform 1s ease;
         }
         .aurora-message {
             margin-top: 1rem;
@@ -181,6 +196,10 @@
         }
         .map-btn.active { background: var(--purple); }
 
+        .data-list { list-style: none; }
+        .data-list li { padding: 0.5rem 0; border-bottom: 1px solid rgba(100,120,255,0.1); }
+        .data-list li:last-child { border-bottom: none; }
+
         .loading {
             text-align: center;
             padding: 2rem;
@@ -194,6 +213,7 @@
             .card h2::after { content: "▼"; margin-left: auto; font-size: 0.8rem; transition: transform 0.3s; }
             .card.open h2::after { transform: rotate(180deg); }
             #aurora-map { height: 300px; }
+            .grid { grid-template-columns: 1fr; }
         }
 
         footer {
@@ -211,40 +231,41 @@
 
     <header id="header">
         <div class="container header-content">
-            <h1>live.ournightsky.us</h1>
+            <h1><i class="fas fa-satellite"></i> live.ournightsky.us</h1>
             <div class="last-updated">
                 <span>Last updated: <span id="update-time">--:--</span></span>
-                <button id="refresh-btn">Refresh</button>
+                <button id="refresh-btn"><i class="fas fa-sync-alt"></i> Refresh</button>
             </div>
         </div>
     </header>
 
     <div class="container">
 
-        <!-- Current Aurora Status -->
+        <!-- Hero: Current Aurora & Dst Activity -->
         <div class="hero">
-            <h2>Current Aurora Activity</h2>
-            <div class="kp-gauge">
+            <h2>Current Space Weather Activity</h2>
+            <div class="gauge-container" id="kp-gauge">
                 <svg viewBox="0 0 200 120" width="200" height="120">
                     <defs>
-                        <linearGradient id="grad" x1="0%" x2="100%">
+                        <linearGradient id="kp-grad" x1="0%" x2="100%">
                             <stop offset="0%" stop-color="#10b981"/>
                             <stop offset="50%" stop-color="#fbbf24"/>
                             <stop offset="100%" stop-color="#ef4444"/>
                         </linearGradient>
                     </defs>
                     <path d="M20 100 A80 80 0 1 1 180 100" fill="none" stroke="#334155" stroke-width="16"/>
-                    <path d="M20 100 A80 80 0 1 1 180 100" fill="none" stroke="url(#grad)" stroke-width="16" stroke-linecap="round" id="kp-arc"/>
+                    <path d="M20 100 A80 80 0 1 1 180 100" fill="none" stroke="url(#kp-grad)" stroke-width="16" stroke-linecap="round" id="kp-arc"/>
                     <circle cx="100" cy="100" r="8" fill="#fff"/>
-                    <text x="100" y="65" text-anchor="middle" class="kp-value" id="kp-value">?</text>
+                    <text x="100" y="65" text-anchor="middle" class="gauge-value" id="kp-value">?</text>
                 </svg>
+                <div class="needle" id="kp-needle" style="transform: rotate(-90deg);"></div>
             </div>
             <div class="aurora-message" id="aurora-message">Loading real-time conditions...</div>
         </div>
 
         <!-- Interactive Aurora Map -->
         <div class="card" style="grid-column: 1 / -1;">
-            <h2>Live Aurora Oval Map</h2>
+            <h2><i class="fas fa-map"></i> Live Aurora Oval Map</h2>
             <div class="map-controls">
                 <button class="map-btn active" id="btn-north">Northern</button>
                 <button class="map-btn" id="btn-south">Southern</button>
@@ -255,46 +276,88 @@
             </small>
         </div>
 
-        <!-- Main Grid -->
+        <!-- Expanded Grid -->
         <div class="grid">
-            <div class="card collapsible" id="solar-card">
-                <h2>Solar Activity</h2>
+            <!-- Solar Activity -->
+            <div class="card collapsible">
+                <h2><i class="fas fa-sun"></i> Solar Activity</h2>
                 <div id="solar-data" class="loading">Loading solar data...</div>
             </div>
 
+            <!-- Geomagnetic Storms (Dst Needle) -->
             <div class="card collapsible">
-                <h2>Aurora Forecast</h2>
+                <h2><i class="fas fa-magnet"></i> Geomagnetic Storms (Dst Index)</h2>
+                <div class="gauge-container" id="dst-gauge">
+                    <svg viewBox="0 0 200 120" width="200" height="120">
+                        <defs>
+                            <linearGradient id="dst-grad" x1="0%" x2="100%">
+                                <stop offset="0%" stop-color="#10b981"/>
+                                <stop offset="50%" stop-color="#fbbf24"/>
+                                <stop offset="100%" stop-color="#ef4444"/>
+                            </linearGradient>
+                        </defs>
+                        <path d="M20 100 A80 80 0 1 1 180 100" fill="none" stroke="#334155" stroke-width="16"/>
+                        <path d="M20 100 A80 80 0 1 1 180 100" fill="none" stroke="url(#dst-grad)" stroke-width="16" stroke-linecap="round" id="dst-arc"/>
+                        <circle cx="100" cy="100" r="8" fill="#fff"/>
+                        <text x="100" y="65" text-anchor="middle" class="gauge-value" id="dst-value">0</text>
+                    </svg>
+                    <div class="needle" id="dst-needle" style="transform: rotate(90deg); background: var(--gold);"></div>
+                </div>
+                <div id="dst-info" class="loading">Loading Dst data...</div>
+            </div>
+
+            <!-- Meteor Showers -->
+            <div class="card collapsible">
+                <h2><i class="fas fa-meteor"></i> Meteor Shower Activity</h2>
+                <div id="meteor-data" class="loading">Loading meteor activity...</div>
+            </div>
+
+            <!-- Aurora Forecast -->
+            <div class="card collapsible">
+                <h2><i class="fas fa-cloud-aurora"></i> Aurora Forecast</h2>
                 <div id="aurora-forecast" class="loading">Loading forecast...</div>
             </div>
 
+            <!-- Comets -->
             <div class="card collapsible">
-                <h2>Space Weather Alerts</h2>
+                <h2><i class="fas fa-comet"></i> Upcoming Comets</h2>
+                <div id="comet-data" class="loading">Loading comet data...</div>
+            </div>
+
+            <!-- Supernovas -->
+            <div class="card collapsible">
+                <h2><i class="fas fa-explosion"></i> Recent Supernovas</h2>
+                <div id="supernova-data" class="loading">Loading supernova discoveries...</div>
+            </div>
+
+            <!-- Alerts -->
+            <div class="card collapsible">
+                <h2><i class="fas fa-exclamation-triangle"></i> Space Weather Alerts</h2>
                 <div id="alerts-list" class="loading">Loading alerts...</div>
             </div>
 
+            <!-- News -->
             <div class="card collapsible">
-                <h2>Latest Space News</h2>
+                <h2><i class="fas fa-newspaper"></i> Latest Space News</h2>
                 <div id="news-feed" class="loading">Loading news...</div>
             </div>
 
+            <!-- System Status -->
             <div class="card" style="grid-column: 1 / -1;">
-                <h2>System Status</h2>
+                <h2><i class="fas fa-info-circle"></i> System Status</h2>
                 <div id="system-status" class="loading">Checking status...</div>
             </div>
         </div>
     </div>
 
     <footer>
-        <p>Part of <a href="https://ournightsky.us">ournightsky.us</a> • Data: NOAA, NASA, SWPC</p>
+        <p>Part of <a href="https://ournightsky.us">ournightsky.us</a> • Data: NOAA, NASA/JPL, IAU & partners</p>
         <p>Auto-refresh every 2 minutes • Last update: <span id="last-run">--</span></p>
     </footer>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script>
         // DOM Elements
-        const kpValueEl = document.getElementById('kp-value');
-        const kpArc = document.getElementById('kp-arc');
-        const auroraMessageEl = document.getElementById('aurora-message');
         const updateTime = document.getElementById('update-time');
         const refreshBtn = document.getElementById('refresh-btn');
         const solarDataEl = document.getElementById('solar-data');
@@ -303,76 +366,23 @@
         const newsFeedEl = document.getElementById('news-feed');
         const systemStatusEl = document.getElementById('system-status');
         const lastRunEl = document.getElementById('last-run');
+        const kpValueEl = document.getElementById('kp-value');
+        const kpArc = document.getElementById('kp-arc');
+        const kpNeedle = document.getElementById('kp-needle');
+        const auroraMessageEl = document.getElementById('aurora-message');
+        const dstValueEl = document.getElementById('dst-value');
+        const dstArc = document.getElementById('dst-arc');
+        const dstNeedle = document.getElementById('dst-needle');
+        const dstInfoEl = document.getElementById('dst-info');
+        const meteorDataEl = document.getElementById('meteor-data');
+        const cometDataEl = document.getElementById('comet-data');
+        const supernovaDataEl = document.getElementById('supernova-data');
 
         let map, auroraLayerNorth, auroraLayerSouth;
 
-        // Initialize Aurora Map
-        function initAuroraMap() {
-            map = L.map('aurora-map', {
-                center: [90, 0],
-                zoom: 2,
-                minZoom: 2,
-                maxZoom: 5,
-                worldCopyJump: true,
-                zoomControl: true
-            });
-
-            L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-                attribution: 'Esri World Imagery',
-                maxZoom: 10
-            }).addTo(map);
-
-            auroraLayerNorth = L.imageOverlay('', [[90, -180], [30, 180]], { opacity: 0.7 }).addTo(map);
-            auroraLayerSouth = L.imageOverlay('', [[-30, -180], [-90, 180]], { opacity: 0.7 });
-
-            loadAuroraOverlay('north');
-        }
-
-        function loadAuroraOverlay(hemisphere) {
-            const url = hemisphere === 'north'
-                ? 'https://services.swpc.noaa.gov/products/aurora/aurora-northern-hemisphere.jpg'
-                : 'https://services.swpc.noaa.gov/products/aurora/aurora-southern-hemisphere.jpg';
-
-            const img = new Image();
-            img.onload = () => {
-                const layer = hemisphere === 'north' ? auroraLayerNorth : auroraLayerSouth;
-                layer.setUrl(url + '?t=' + Date.now());
-                layer.setBounds(hemisphere === 'north' ? [[90, -180], [30, 180]] : [[-30, -180], [-90, 180]]);
-            };
-            img.src = url + '?t=' + Date.now();
-        }
-
-        document.getElementById('btn-north').onclick = () => {
-            map.setView([90, 0], 2);
-            loadAuroraOverlay('north');
-            document.querySelectorAll('.map-btn').forEach(b => b.classList.remove('active'));
-            document.getElementById('btn-north').classList.add('active');
-        };
-
-        document.getElementById('btn-south').onclick = () => {
-            map.setView([-90, 0], 2);
-            loadAuroraOverlay('south');
-            document.querySelectorAll('.map-btn').forEach(b => b.classList.remove('active'));
-            document.getElementById('btn-south').classList.add('active');
-        };
-
-        // Kp Gauge Update
-        function updateKpGauge(kp) {
-            kp = Number(kp) || 0;
-            kpValueEl.textContent = kp.toFixed(1);
-            const percent = Math.min(kp / 9, 1);
-            const dash = (percent * 180 * Math.PI / 180 * 80).toFixed(2);
-            kpArc.setAttribute('stroke-dasharray', `${dash}, 1000`);
-
-            let msg = "";
-            if (kp < 3) msg = "Quiet – High latitudes only";
-            else if (kp < 5) msg = "Active – Good chance in Canada/Alaska";
-            else if (kp < 7) msg = "Strong Storm – Visible in northern US!";
-            else msg = "Severe G4/G5 – Extremely rare & bright!";
-            auroraMessageEl.textContent = msg;
-        }
-
-        // Your existing data functions (shortened for clarity — same logic)
+        // Utility Functions
+        function formatTime(d) { return d ? new Date(d).toLocaleTimeString('en-US', {hour: '2-digit', minute: '2-digit', hour12: false}) : '--:--'; }
+        function formatDate(d) { return d ? new Date(d).toLocaleDateString('en-US', {month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit'}) : 'Unknown'; }
         async function loadData(url) {
             try {
                 const res = await fetch(url + '?t=' + Date.now());
@@ -380,10 +390,135 @@
                 return await res.json();
             } catch { return null; }
         }
+        function updateGauge(valueEl, arcEl, needleEl, val, min, max, isDst = false) {
+            val = Number(val) || 0;
+            const percent = (val - min) / (max - min);
+            const degrees = percent * 180 - 90; // For needle rotation
+            valueEl.textContent = val.toFixed(0);
+            const dash = (percent * 251.3).toFixed(2); // Arc circumference approx
+            arcEl.setAttribute('stroke-dasharray', `${dash}, 251.3`);
+            needleEl.style.transform = `rotate(${degrees}deg)`;
+            const colorClass = val > (max + min)/2 ? 'var(--red)' : val > (max + min)/4 ? 'var(--gold)' : 'var(--green)';
+            needleEl.style.background = colorClass;
+            if (isDst) {
+                let msg = val > -50 ? 'Quiet' : val > -100 ? 'Moderate' : 'Severe';
+                valueEl.style.color = colorClass;
+            }
+        }
 
-        function formatTime(d) { return d ? new Date(d).toLocaleTimeString('en-US', {hour: '2-digit', minute: '2-digit', hour12: false}) : '--:--'; }
-        function formatDate(d) { return d ? new Date(d).toLocaleDateString('en-US', {month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit'}) : 'Unknown'; }
+        // Kp Gauge Update
+        function updateKpGauge(kp) {
+            updateGauge(kpValueEl, kpArc, kpNeedle, kp, 0, 9);
+            let msg = kp < 3 ? "Quiet – High latitudes only" : kp < 5 ? "Active – Good in Canada/Alaska" : kp < 7 ? "Strong – Northern US visible!" : "Severe G4/G5 – Rare spectacle!";
+            auroraMessageEl.textContent = msg;
+            auroraMessageEl.style.color = kp > 5 ? 'var(--red)' : kp > 3 ? 'var(--gold)' : 'var(--green)';
+        }
 
+        // Dst Gauge Update
+        function updateDstGauge(dst) {
+            updateGauge(dstValueEl, dstArc, dstNeedle, dst, -300, 0, true);
+            dstInfoEl.innerHTML = `<p>Current Dst: <strong>${dst.toFixed(0)} nT</strong></p><small>${dst < -100 ? 'Geomagnetic storm in progress' : 'Stable conditions'}</small>`;
+        }
+
+        // Initialize Aurora Map
+        function initAuroraMap() {
+            map = L.map('aurora-map', { center: [90, 0], zoom: 2, minZoom: 2, maxZoom: 5, worldCopyJump: true });
+            L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', { attribution: 'Esri' }).addTo(map);
+            auroraLayerNorth = L.imageOverlay('', [[90, -180], [30, 180]], { opacity: 0.7 }).addTo(map);
+            auroraLayerSouth = L.imageOverlay('', [[-30, -180], [-90, 180]], { opacity: 0.7 });
+            loadAuroraOverlay('north');
+        }
+        function loadAuroraOverlay(hemisphere) {
+            const url = hemisphere === 'north' ? 'https://services.swpc.noaa.gov/products/aurora/aurora-northern-hemisphere.jpg' : 'https://services.swpc.noaa.gov/products/aurora/aurora-southern-hemisphere.jpg';
+            const img = new Image();
+            img.onload = () => {
+                const layer = hemisphere === 'north' ? auroraLayerNorth : auroraLayerSouth;
+                layer.setUrl(url + '?t=' + Date.now());
+                layer.setBounds(hemisphere === 'north' ? [[90, -180], [30, 180]] : [[-30, -180], [-90, 180]]);
+            };
+            img.src = url;
+        }
+        document.getElementById('btn-north').onclick = () => { map.setView([90, 0], 2); loadAuroraOverlay('north'); document.querySelectorAll('.map-btn').forEach(b => b.classList.remove('active')); document.getElementById('btn-north').classList.add('active'); };
+        document.getElementById('btn-south').onclick = () => { map.setView([-90, 0], 2); loadAuroraOverlay('south'); document.querySelectorAll('.map-btn').forEach(b => b.classList.remove('active')); document.getElementById('btn-south').classList.add('active'); };
+
+        // Display Functions
+        function displaySolarData(data) {
+            if (!data) return solarDataEl.innerHTML = '<div class="loading">Solar data unavailable</div>';
+            solarDataEl.innerHTML = `
+                <div class="metric"><span>Wind Speed</span><strong>${data.solarWind?.speed ? Math.round(data.solarWind.speed) + ' km/s' : '—'}</strong></div>
+                <div class="metric"><span>Density</span><strong>${data.solarWind?.density ? Math.round(data.solarWind.density) + ' p/cm³' : '—'}</strong></div>
+                <h3>Recent Flares</h3>
+                ${data.solarFlares?.slice(0,3).map(f => `<div class="data-item"><strong>${f.class_type}</strong> <small>${formatDate(f.peak_time)}</small></div>`).join('') || '<p>No flares</p>'}
+            `;
+        }
+
+        function displayMeteorData() {
+            // Geminids active in Dec 2025
+            meteorDataEl.innerHTML = `
+                <h3>Current: Geminids (Active)</h3>
+                <p>Peak: Dec 13-14, 2025 • Up to 150/hr under dark skies</p>
+                <ul class="data-list">
+                    <li><strong>Activity Level:</strong> Building (ZHR ~50 today)</li>
+                    <li><strong>Radiant:</strong> Gemini (RA 112°, Dec +33°)</li>
+                    <li><strong>Tip:</strong> Best after midnight, moonless night</li>
+                </ul>
+                <small>Source: AMS/IMO • <a href="https://www.amsmeteors.org/meteor-showers/geminids/" target="_blank">More</a></small>
+            `;
+        }
+
+        async function displayCometData() {
+            try {
+                const res = await fetch('https://ssd-api.jpl.nasa.gov/cad.api?des=C/*;ca;2025-12-01;2025-12-31;sort;dist;json');
+                const data = await res.json();
+                if (data.data && data.data.length) {
+                    cometDataEl.innerHTML = `
+                        <h3>Upcoming Close Approaches</h3>
+                        <ul class="data-list">
+                            ${data.data.slice(0,5).map(([des, _, jd, cd, dist]) => `<li><strong>${des}</strong>: ${cd} • ${parseFloat(dist).toFixed(4)} AU</li>`).join('')}
+                        </ul>
+                        <small>Source: NASA/JPL SBDB</small>
+                    `;
+                } else {
+                    cometDataEl.innerHTML = '<p>No upcoming comets this month</p>';
+                }
+            } catch {
+                cometDataEl.innerHTML = '<p>Comet data loading...</p>';
+            }
+        }
+
+        function displaySupernovaData() {
+            // Recent 2025 examples from IAU/TNS
+            supernovaDataEl.innerHTML = `
+                <h3>Recent Discoveries (2025)</h3>
+                <ul class="data-list">
+                    <li><strong>SN 2025ggi</strong>: Olive-shaped explosion, Nov 2025 (ESO VLT)</li>
+                    <li><strong>New Type SN</strong>: Unprecedented deep-core glimpse, Aug 2025</li>
+                    <li><strong>SN 2024gjo</strong>: Massive star death mapped in 3D, Nov 2025</li>
+                </ul>
+                <small>Source: IAU/TNS • <a href="https://www.wis-tns.org/" target="_blank">Latest</a></small>
+            `;
+        }
+
+        function displayAuroraForecast(auroraData) {
+            auroraForecastEl.innerHTML = auroraData?.forecast ? `<p>${auroraData.forecast.substring(0,400)}...</p><small>Source: ${auroraData.source}</small>` : '<div class="loading">Forecast unavailable</div>';
+        }
+
+        function displayAlerts(flares) {
+            const strong = (flares || []).filter(f => f.class_type?.match(/^[MX]/));
+            alertsListEl.innerHTML = strong.length ? strong.slice(0,3).map(f => `<div class="alert-item"><strong>${f.class_type}</strong> <small>${formatDate(f.peak_time)}</small></div>`).join('') : '<div style="color:var(--green)">No active alerts</div>';
+        }
+
+        function displayNews(news) {
+            if (!news?.length) return newsFeedEl.innerHTML = '<div class="loading">News unavailable</div>';
+            newsFeedEl.innerHTML = news.slice(0,3).map(n => `<div><h4><a href="${n.link}" target="_blank">${n.title}</a></h4><p>${n.summary?.substring(0,100)}...</p><small>${formatDate(n.date)}</small></div>`).join('');
+        }
+
+        function displaySystemStatus(status) {
+            systemStatusEl.innerHTML = status?.status === 'success' ? '<div style="color:var(--green)">All systems operational</div>' : '<div style="color:var(--red)">Update pending</div>';
+            lastRunEl.textContent = formatDate(status?.lastUpdate);
+        }
+
+        // Main Update
         async function updateAll() {
             const [noaa, news, aurora, status] = await Promise.all([
                 loadData('data/noaa-data.json'),
@@ -392,38 +527,41 @@
                 loadData('data/update-status.json')
             ]);
 
-            if (noaa?.kpIndex?.length) {
-                const latest = noaa.kpIndex.slice(-1)[0];
-                updateKpGauge(latest.kp || latest.Kp || 0);
-            }
+            // Kp & Dst
+            if (noaa?.kpIndex?.length) updateKpGauge(noaa.kpIndex.slice(-1)[0].kp || 0);
+            try {
+                const dstRes = await fetch('https://services.swpc.noaa.gov/json/dst.json');
+                const dstData = await dstRes.json();
+                if (dstData.length) updateDstGauge(dstData.slice(-1)[0].dst);
+            } catch { dstInfoEl.innerHTML = '<p>Dst data unavailable</p>'; }
 
-            // Refresh aurora map overlay
+            displaySolarData(noaa);
+            displayMeteorData();
+            displayCometData();
+            displaySupernovaData();
+            displayAuroraForecast(aurora);
+            displayAlerts(noaa?.solarFlares);
+            displayNews(news);
+            displaySystemStatus(status);
+
+            // Refresh map
             const activeHemi = document.querySelector('.map-btn.active').id === 'btn-north' ? 'north' : 'south';
             loadAuroraOverlay(activeHemi);
 
-            // Update other sections (simplified — same as before)
-            solarDataEl.innerHTML = noaa?.solarWind ? `Wind: ${Math.round(noaa.solarWind.speed)} km/s • Density: ${Math.round(noaa.solarWind.density)} p/cm³` : 'No solar data';
-            auroraForecastEl.innerHTML = aurora?.forecast ? aurora.forecast.substring(0,400) + '...' : 'No forecast';
-            alertsListEl.innerHTML = (noaa?.solarFlares || []).some(f => f.class_type?.match(/^[MX]/)) ? 'Active solar flares detected' : 'No active alerts';
-            newsFeedEl.innerHTML = news?.slice(0,3).map(n => `<p><strong>${n.title}</strong></p>`).join('') || 'No news';
-            systemStatusEl.innerHTML = status?.status === 'success' ? 'All systems operational' : 'Update pending';
             updateTime.textContent = formatTime(status?.lastUpdate || new Date());
-            lastRunEl.textContent = formatDate(status?.lastUpdate);
         }
 
-        // Mobile collapsible cards
-        document.querySelectorAll('.collapsible h2').forEach(h => {
-            h.addEventListener('click', () => {
-                if (window.innerWidth <= 768) h.parentElement.classList.toggle('open');
-            });
-        });
-
-        // Header hide on scroll
-        let last = 0;
+        // Event Listeners
+        document.querySelectorAll('.collapsible h2').forEach(h => h.addEventListener('click', () => { if (window.innerWidth <= 768) h.parentElement.classList.toggle('open'); }));
+        let lastScroll = 0;
         window.addEventListener('scroll', () => {
             const current = window.scrollY;
-            document.getElementById('header').classList.toggle('hidden', current > last && current > 100);
-            last = current;
+            document.getElementById('header').classList.toggle('hidden', current > lastScroll && current > 100);
+            lastScroll = current;
+        });
+        refreshBtn.addEventListener('click', () => {
+            refreshBtn.innerHTML = '<i class="fas fa-sync-alt fa-spin"></i> Updating...';
+            updateAll().finally(() => refreshBtn.innerHTML = '<i class="fas fa-sync-alt"></i> Refresh');
         });
 
         // Init
@@ -431,11 +569,6 @@
             initAuroraMap();
             updateAll();
             setInterval(updateAll, 120000);
-        });
-
-        refreshBtn.addEventListener('click', () => {
-            refreshBtn.innerHTML = 'Updating...';
-            updateAll().finally(() => refreshBtn.innerHTML = 'Refresh');
         });
     </script>
 </body>
