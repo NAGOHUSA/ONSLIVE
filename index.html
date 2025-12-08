@@ -23,30 +23,43 @@
     h1{font-size:clamp(1.8rem,6vw,2.5rem);background:linear-gradient(135deg,var(--cyan),var(--purple));
       -webkit-background-clip:text;background-clip:text;color:transparent}
     #refresh-btn{background:linear-gradient(135deg,var(--cyan),var(--purple));border:none;color:#fff;
-      padding:0.6rem 1.2rem;border-radius:40px;cursor:pointer;font-weight:600}
+      padding:0.6rem 1.2rem;border-radius:40px;cursor:pointer;font-weight:600;transition:opacity 0.3s}
+    #refresh-btn:hover{opacity:0.9}
+    #refresh-btn:disabled{opacity:0.5;cursor:not-allowed}
     .hero{margin:2rem auto;text-align:center;padding:clamp(1.5rem,5vw,2.5rem);background:var(--card);
       border-radius:24px;border:1px solid var(--border);backdrop-filter:blur(20px)}
     .gauge-container{width:min(90vw,300px);height:min(50vw,170px);margin:1.5rem auto;position:relative}
-    .gauge-value{font-weight:800;position:absolute;top:50%;left:50%;transform:translate(-50%,-60%);pointer-events:none}
+    .gauge-value{font-weight:800;position:absolute;top:50%;left:50%;transform:translate(-50%,-60%);pointer-events:none;font-size:2rem}
     .needle{position:absolute;bottom:12%;left:50%;width:2px;height:38%;background:var(--red);
       transform-origin:bottom center;transform:translateX(-50%) rotate(-90deg);transition:transform 1s,background .4s}
     .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:1.5rem;margin-top:2rem}
     .card{background:var(--card);border-radius:20px;padding:1.5rem;border:1px solid var(--border);backdrop-filter:blur(20px)}
     .map-controls{position:absolute;top:12px;right:12px;z-index:1000;display:flex;gap:8px}
-    .map-btn{background:rgba(0,0,0,0.7);color:#fff;border:none;padding:8px 14px;border-radius:10px;cursor:pointer}
+    .map-btn{background:rgba(0,0,0,0.7);color:#fff;border:none;padding:8px 14px;border-radius:10px;cursor:pointer;transition:background 0.3s}
+    .map-btn:hover{background:rgba(0,0,0,0.9)}
     .map-btn.active{background:var(--purple)}
     .data-item{padding:0.8rem;border-radius:8px;margin:0.5rem 0;background:rgba(255,255,255,0.03);border-left:4px solid var(--gold)}
     .alert-item{border-left-color:var(--red)}
+    .warning-item{border-left-color:var(--gold)}
+    .success-item{border-left-color:var(--green)}
     .loading{padding:2rem;text-align:center;color:var(--text-muted)}
-    .error{color:var(--red)}
+    .error{color:var(--red);padding:1rem;border-radius:8px;background:rgba(239,68,68,0.1)}
+    .success{color:var(--green)}
     footer{text-align:center;padding:3rem 1rem;margin-top:4rem;color:var(--text-muted);border-top:1px solid var(--border)}
+    .data-source{font-size:0.8rem;color:var(--text-muted);margin-top:0.5rem}
+    .flare-badge{display:inline-block;padding:2px 8px;border-radius:12px;font-size:0.75rem;margin-left:8px}
+    .flare-a{background:#10b981;color:white}
+    .flare-b{background:#3b82f6;color:white}
+    .flare-c{background:#f59e0b;color:white}
+    .flare-m{background:#ef4444;color:white}
+    .flare-x{background:#7c3aed;color:white}
     @media(max-width:768px){.grid{grid-template-columns:1fr}}
   </style>
 </head>
 <body>
   <header>
     <div class="container header-content">
-      <h1><i class="fas fa-satellite"></i> live.ournightsky.us 1.0</h1>
+      <h1><i class="fas fa-satellite"></i> live.ournightsky.us 1.1</h1>
       <div style="display:flex;gap:1rem;align-items:center;color:var(--text-muted)">
         <span>Last updated: <strong id="update-time">--:--</strong></span>
         <button id="refresh-btn"><i class="fas fa-sync-alt"></i> Refresh</button>
@@ -81,7 +94,7 @@
         </div>
         <div id="aurora-map" style="height:360px;border-radius:12px;background:#000"></div>
       </div>
-      <small style="display:block;margin-top:8px;text-align:center;color:var(--text-muted)">Real-time aurora forecast overlays</small>
+      <small style="display:block;margin-top:8px;text-align:center;color:var(--text-muted)">Real-time aurora forecast overlays • NOAA SWPC</small>
     </section>
 
     <div class="grid">
@@ -150,7 +163,7 @@
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script>
-    // Elements
+    // DOM Elements
     const updateTime = document.getElementById('update-time');
     const refreshBtn = document.getElementById('refresh-btn');
     const lastRunEl = document.getElementById('last-run');
@@ -178,252 +191,600 @@
     // Leaflet maps
     let mapAurora, auroraLayerNorth, auroraLayerSouth;
     let mapISS, issMarker;
-    let tecLayer, mapTEC;
 
-    function formatTime(d=new Date()){
-      return d.toLocaleTimeString('en-US',{hour:'2-digit',minute:'2-digit',hour12:false});
-    }
-    function formatDate(d=new Date()){
-      return d.toLocaleString('en-US',{month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'});
+    // Data URLs
+    const DATA_URLS = {
+      noaa: 'data/noaa-data.json',
+      aurora: 'data/aurora.json',
+      news: 'data/news.json',
+      status: 'data/update-status.json',
+      xray: 'data/xray-data.json',
+      dst: 'data/dst-data.json'
+    };
+
+    // Utility Functions
+    function formatTime(date = new Date()) {
+      return date.toLocaleTimeString('en-US', {hour: '2-digit', minute: '2-digit', hour12: false});
     }
 
-    // Local-first fetch helper
-    async function fetchLocalOrRemote(localPath, remoteUrl=null) {
-      // Try local first (use caching-busting query)
+    function formatDate(date = new Date()) {
+      return date.toLocaleString('en-US', {month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit'});
+    }
+
+    function formatDateString(dateString) {
+      if (!dateString || dateString.includes('2024-01-01') || dateString.includes('never')) {
+        return 'Never';
+      }
+      try {
+        const date = new Date(dateString);
+        if (isNaN(date.getTime())) return 'Invalid date';
+        return date.toLocaleDateString('en-US', {
+          month: 'short',
+          day: 'numeric',
+          hour: '2-digit',
+          minute: '2-digit'
+        });
+      } catch (e) {
+        return 'Date error';
+      }
+    }
+
+    // Data Fetching
+    async function fetchLocalOrRemote(localPath, remoteUrl = null) {
+      // Try local first with cache busting
       if (localPath) {
         try {
           const res = await fetch(localPath + '?t=' + Date.now());
           if (res.ok) {
             const txt = await res.text();
-            try { return JSON.parse(txt); } catch(e) { return txt; }
+            try {
+              return JSON.parse(txt);
+            } catch (e) {
+              console.warn('JSON parse failed for', localPath, e);
+              return txt;
+            }
           }
-        } catch(e) { console.debug('local fetch failed', localPath, e); }
+        } catch (e) {
+          console.debug('Local fetch failed', localPath, e);
+        }
       }
-      if (!remoteUrl) return null;
-      try {
-        const res2 = await fetch(remoteUrl + '?t=' + Date.now());
-        if (!res2.ok) return null;
-        const txt = await res2.text();
-        try { return JSON.parse(txt); } catch(e) { return txt; }
-      } catch(e){ console.debug('remote fetch failed', remoteUrl, e); return null; }
+      
+      // Fallback to remote
+      if (remoteUrl) {
+        try {
+          const res2 = await fetch(remoteUrl + '?t=' + Date.now());
+          if (res2.ok) {
+            const txt = await res2.text();
+            try {
+              return JSON.parse(txt);
+            } catch (e) {
+              console.warn('JSON parse failed for remote', remoteUrl, e);
+              return txt;
+            }
+          }
+        } catch (e) {
+          console.debug('Remote fetch failed', remoteUrl, e);
+        }
+      }
+      
+      return null;
     }
 
-    // Gauge helper
-    function updateGauge(valueEl, arcEl, needleEl, val, min=0, max=9, unit='', reverse=false) {
+    // Gauge Helper
+    function updateGauge(valueEl, arcEl, needleEl, val, min = 0, max = 9, unit = '', reverse = false) {
       const numeric = Number(val);
       let percent = Number.isFinite(numeric) ? (numeric - min) / (max - min) : 0;
       if (reverse) percent = 1 - percent;
       percent = Math.max(0, Math.min(1, percent));
       const deg = percent * 180 - 90;
-      valueEl.textContent = (Number.isFinite(numeric) ? (Math.round(numeric*10)/10) : '--') + (unit || '');
+      
+      if (Number.isFinite(numeric)) {
+        valueEl.textContent = Math.round(numeric * 10) / 10 + (unit || '');
+      } else {
+        valueEl.textContent = '--';
+      }
+      
       arcEl.setAttribute('stroke-dasharray', `${percent * 251.3}, 251.3`);
       needleEl.style.transform = `translateX(-50%) rotate(${deg}deg)`;
       needleEl.style.background = percent > 0.66 ? 'var(--red)' : percent > 0.33 ? 'var(--gold)' : 'var(--green)';
     }
 
-    // Convert GOES-like flux number to human class (A/B/C/M/X)
-    function fluxToClass(flux) {
-      const f = parseFloat(flux);
-      if (!Number.isFinite(f) || f <= 0) return 'A0.0';
-      const exponent = Math.floor(Math.log10(f));
-      const mantissa = f / Math.pow(10, exponent);
-      const classes = { -8: 'A', -7: 'B', -6: 'C', -5: 'M', -4: 'X' };
-      const letter = classes[exponent] || 'X';
-      return letter + mantissa.toFixed(1);
-    }
-
-    // Initialize maps
+    // Initialize Maps
     function initMaps() {
-      mapAurora = L.map('aurora-map', { center:[80,0], zoom:2, minZoom:2, maxZoom:5, worldCopyJump:true });
-      L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', { attribution: 'Esri' }).addTo(mapAurora);
-      auroraLayerNorth = L.imageOverlay('https://services.swpc.noaa.gov/products/aurora/aurora-northern-hemisphere.jpg', [[90,-180],[30,180]], { opacity:0.7 }).addTo(mapAurora);
-      auroraLayerSouth = L.imageOverlay('https://services.swpc.noaa.gov/products/aurora/aurora-southern-hemisphere.jpg', [[-30,-180],[-90,180]], { opacity:0.7 });
+      // Aurora Map
+      mapAurora = L.map('aurora-map', {
+        center: [80, 0],
+        zoom: 2,
+        minZoom: 2,
+        maxZoom: 5,
+        worldCopyJump: true,
+        attributionControl: false
+      });
+      
+      L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+        attribution: 'Esri'
+      }).addTo(mapAurora);
+      
+      auroraLayerNorth = L.imageOverlay(
+        'https://services.swpc.noaa.gov/products/aurora/aurora-northern-hemisphere.jpg',
+        [[90, -180], [30, 180]],
+        { opacity: 0.7 }
+      ).addTo(mapAurora);
+      
+      auroraLayerSouth = L.imageOverlay(
+        'https://services.swpc.noaa.gov/products/aurora/aurora-southern-hemisphere.jpg',
+        [[-30, -180], [-90, 180]],
+        { opacity: 0.7 }
+      );
 
-      mapISS = L.map('iss-map', { center:[0,0], zoom:3, minZoom:2, maxZoom:8 });
-      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution:'OpenStreetMap' }).addTo(mapISS);
-      const issIcon = L.icon({ iconUrl:'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/ISS_insignia.svg/120px-ISS_insignia.svg.png', iconSize:[48,48] });
-      issMarker = L.marker([0,0], { icon: issIcon }).addTo(mapISS);
-
-      mapTEC = L.map('tec-map', { center:[0,0], zoom:2, minZoom:1, maxZoom:6, attributionControl:false });
-      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution:'OpenStreetMap' }).addTo(mapTEC);
-      tecLayer = L.imageOverlay('https://services.swpc.noaa.gov/products/noaa-maps/glotec.png', [[90,-180],[-90,180]], { opacity:0.8 }).addTo(mapTEC);
+      // ISS Map
+      mapISS = L.map('iss-map', {
+        center: [0, 0],
+        zoom: 2,
+        minZoom: 2,
+        maxZoom: 8,
+        attributionControl: false
+      });
+      
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: 'OpenStreetMap'
+      }).addTo(mapISS);
+      
+      const issIcon = L.icon({
+        iconUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/ISS_insignia.svg/120px-ISS_insignia.svg.png',
+        iconSize: [48, 48]
+      });
+      
+      issMarker = L.marker([0, 0], { icon: issIcon }).addTo(mapISS);
     }
 
-    // Buttons to switch north/south
-    document.getElementById('btn-north').addEventListener('click', () => {
-      try { mapAurora.setView([80,0],2); auroraLayerNorth.addTo(mapAurora); auroraLayerSouth.remove(); } catch(e){}
-      document.querySelectorAll('.map-btn').forEach(b => b.classList.remove('active')); document.getElementById('btn-north').classList.add('active');
-    });
-    document.getElementById('btn-south').addEventListener('click', () => {
-      try { mapAurora.setView([-80,0],2); auroraLayerSouth.addTo(mapAurora); auroraLayerNorth.remove(); } catch(e){}
-      document.querySelectorAll('.map-btn').forEach(b => b.classList.remove('active')); document.getElementById('btn-south').classList.add('active');
-    });
+    // Map Controls
+    function setupMapControls() {
+      document.getElementById('btn-north').addEventListener('click', () => {
+        try {
+          mapAurora.setView([80, 0], 2);
+          auroraLayerNorth.addTo(mapAurora);
+          auroraLayerSouth.remove();
+        } catch (e) {}
+        document.querySelectorAll('.map-btn').forEach(b => b.classList.remove('active'));
+        document.getElementById('btn-north').classList.add('active');
+      });
 
-    // Display helpers
-    function showError(el, msg) { el.classList.remove('loading'); el.innerHTML = '<div class="error">' + msg + '</div>'; }
-
-    // Parse and render noaa-data.json (local file)
-    function renderNOAAData(noaa) {
-      // KP (noaa.kpIndex is array-of-arrays; pick last)
-      try {
-        if (noaa && Array.isArray(noaa.kpIndex) && noaa.kpIndex.length) {
-          const last = noaa.kpIndex[noaa.kpIndex.length - 1];
-          // Example row: [ "2025-12-05 00:00:00.000", "3.33", "18", "7" ]
-          const kp = parseFloat(last[1]);
-          updateGauge(kpValueEl, kpArc, kpNeedle, kp, 0, 9);
-        } else {
-          kpValueEl.textContent = '—';
-        }
-      } catch(e){ kpValueEl.textContent = '—'; }
-
-      // Solar wind (sample is an array)
-      try {
-        if (noaa && noaa.solarWind && Array.isArray(noaa.solarWind)) {
-          // sample: ["2025-12-08 01:15:00.000","0.63","420.6","181889"]
-          const sample = noaa.solarWind;
-          const time = sample[0] || '';
-          // best-effort: speed likely at index 2, density maybe index 3 or 6 in other formats
-          const speed = sample[2] ?? sample[1] ?? '—';
-          const other = sample[1] ?? sample[3] ?? '';
-          solarDataEl.classList.remove('loading');
-          solarDataEl.innerHTML = `<div class="data-item"><strong>Solar wind sample:</strong> ${time}</div>
-            <div class="data-item">Speed: ${speed} km/s • Extra: ${other}</div>`;
-        } else {
-          solarDataEl.classList.remove('loading');
-          solarDataEl.innerHTML = '<div class="data-item">Solar wind data unavailable locally.</div>';
-        }
-      } catch(e){ showError(solarDataEl, 'Solar parse error'); }
-
-      // Flares (noaa.solarFlares expected array)
-      try {
-        if (noaa && Array.isArray(noaa.solarFlares) && noaa.solarFlares.length) {
-          const items = noaa.solarFlares.slice(-5).reverse().map(f => `<div class="data-item">${JSON.stringify(f)}</div>`).join('');
-          xrayInfoEl.classList.remove('loading'); xrayInfoEl.innerHTML = items;
-        } else {
-          xrayInfoEl.classList.remove('loading'); xrayInfoEl.innerHTML = '<div class="data-item">No recent solar flares reported.</div>';
-        }
-      } catch(e){ xrayInfoEl.innerHTML = '<div class="error">Flare parse error</div>'; }
-
-      // Dst - not present in your noaa-data.json sample -> show unavailable
-      dstInfoEl.classList.remove('loading');
-      dstInfoEl.innerHTML = '<div class="data-item">Dst not provided in local feed.</div>';
-      dstValueEl.textContent = '--';
+      document.getElementById('btn-south').addEventListener('click', () => {
+        try {
+          mapAurora.setView([-80, 0], 2);
+          auroraLayerSouth.addTo(mapAurora);
+          auroraLayerNorth.remove();
+        } catch (e) {}
+        document.querySelectorAll('.map-btn').forEach(b => b.classList.remove('active'));
+        document.getElementById('btn-south').classList.add('active');
+      });
     }
 
-    // Render aurora.json (you supplied the sample)
-    function renderAurora(aurora) {
+    // Data Rendering Functions
+    function renderNOAAData(noaaData, xrayData, dstData) {
       try {
-        if (!aurora) { auroraForecastEl.innerHTML = '<div class="data-item">Aurora forecast unavailable.</div>'; auroraMessageEl.textContent = 'Aurora forecast unavailable'; return; }
-        // If aurora is an object with a forecast string
-        if (typeof aurora === 'object' && aurora.forecast) {
+        // Kp Gauge
+        if (noaaData && Array.isArray(noaaData.kpIndex) && noaaData.kpIndex.length > 0) {
+          const lastKp = noaaData.kpIndex[noaaData.kpIndex.length - 1];
+          const kpValue = parseFloat(lastKp[1]) || parseFloat(lastKp.kp) || 0;
+          
+          updateGauge(kpValueEl, kpArc, kpNeedle, kpValue, 0, 9);
+          
+          // Aurora message based on Kp
+          if (kpValue >= 6) {
+            auroraMessageEl.innerHTML = `<span style="color:var(--red)">🌌 AURORA ALERT! Kp ${kpValue.toFixed(1)} - Visible at mid-latitudes!</span>`;
+          } else if (kpValue >= 5) {
+            auroraMessageEl.innerHTML = `<span style="color:var(--gold)">✨ Aurora likely at high latitudes (Kp ${kpValue.toFixed(1)})</span>`;
+          } else if (kpValue >= 4) {
+            auroraMessageEl.innerHTML = `<span style="color:var(--cyan)">💫 Aurora possible at polar regions (Kp ${kpValue.toFixed(1)})</span>`;
+          } else {
+            auroraMessageEl.innerHTML = `<span style="color:var(--text-muted)">Quiet aurora conditions (Kp ${kpValue.toFixed(1)})</span>`;
+          }
+        } else {
+          kpValueEl.textContent = '--';
+          auroraMessageEl.textContent = 'Kp data unavailable';
+        }
+
+        // Solar Wind
+        let solarWindHtml = '';
+        if (noaaData && Array.isArray(noaaData.solarWind) && noaaData.solarWind.length >= 3) {
+          const [timestamp, density, speed, temperature] = noaaData.solarWind;
+          solarWindHtml = `
+            <div class="data-item success-item">
+              <strong><i class="fas fa-wind"></i> Solar Wind</strong>
+              <div style="margin-top: 8px;">
+                <div>Speed: <strong style="color:var(--cyan)">${speed} km/s</strong></div>
+                <div>Density: ${density} p/cm³</div>
+                ${temperature ? `<div>Temperature: ${temperature} K</div>` : ''}
+              </div>
+              <div class="data-source">Updated: ${formatDateString(timestamp)}</div>
+            </div>
+          `;
+        } else if (noaaData && noaaData.solarWind && typeof noaaData.solarWind === 'object') {
+          solarWindHtml = `
+            <div class="data-item success-item">
+              <strong><i class="fas fa-wind"></i> Solar Wind</strong>
+              <div style="margin-top: 8px;">
+                <div>Speed: <strong style="color:var(--cyan)">${noaaData.solarWind.speed || '--'} km/s</strong></div>
+                <div>Density: ${noaaData.solarWind.density || '--'} p/cm³</div>
+              </div>
+            </div>
+          `;
+        }
+
+        // Solar Flares
+        let flaresHtml = '';
+        if (noaaData && Array.isArray(noaaData.solarFlares) && noaaData.solarFlares.length > 0) {
+          const flares = noaaData.solarFlares.slice(-3).reverse();
+          flaresHtml = '<div style="margin-top: 1rem;"><strong>Recent Solar Flares:</strong></div>';
+          
+          flares.forEach(flare => {
+            const flareClass = flare.class_type || flare.class || 'Unknown';
+            const flareTime = flare.begin_time || flare.peak_time || '';
+            const flareLetter = flareClass.charAt(0).toUpperCase();
+            const flareBadgeClass = `flare-${flareLetter.toLowerCase()}`;
+            const isMajor = ['M', 'X'].includes(flareLetter);
+            
+            flaresHtml += `
+              <div class="data-item ${isMajor ? 'alert-item' : 'warning-item'}">
+                <strong>
+                  ${flareClass} Class Flare
+                  <span class="flare-badge ${flareBadgeClass}">${flareLetter}</span>
+                </strong>
+                <div>${formatDateString(flareTime)}</div>
+              </div>
+            `;
+          });
+        } else {
+          flaresHtml = '<div class="data-item">No recent solar flares detected</div>';
+        }
+
+        solarDataEl.classList.remove('loading');
+        solarDataEl.innerHTML = solarWindHtml + flaresHtml;
+
+      } catch (e) {
+        console.error('Error rendering NOAA data:', e);
+        solarDataEl.innerHTML = '<div class="error">Error loading solar data</div>';
+      }
+    }
+
+    function renderXrayData(xrayData) {
+      try {
+        if (xrayData && xrayData.current) {
+          const numericValue = xrayData.numeric || 0;
+          const xrayClass = xrayData.class || 'A';
+          
+          // Scale for gauge (A0.0 to X10.0)
+          let gaugeValue = numericValue;
+          let maxValue = 10;
+          
+          if (xrayClass === 'A') {
+            maxValue = 1;
+          } else if (xrayClass === 'B') {
+            maxValue = 1;
+            gaugeValue = numericValue * 10;
+          } else if (xrayClass === 'C') {
+            maxValue = 10;
+          } else if (xrayClass === 'M') {
+            maxValue = 10;
+          } else if (xrayClass === 'X') {
+            maxValue = 20;
+          }
+          
+          updateGauge(xrayValueEl, xrayArc, xrayNeedle, gaugeValue, 0, maxValue);
+          
+          let statusColor = 'var(--green)';
+          let statusIcon = '✓';
+          if (xrayClass === 'M' || xrayClass === 'X') {
+            statusColor = 'var(--red)';
+            statusIcon = '⚠️';
+          } else if (xrayClass === 'C') {
+            statusColor = 'var(--gold)';
+            statusIcon = '⚠️';
+          }
+          
+          xrayInfoEl.classList.remove('loading');
+          xrayInfoEl.innerHTML = `
+            <div class="data-item" style="border-left-color: ${statusColor}">
+              <strong>${statusIcon} X-ray Flux: ${xrayData.current}</strong>
+              <div>${xrayData.description || 'Normal solar activity'}</div>
+              <div class="data-source">Updated: ${formatDateString(xrayData.updated)}</div>
+            </div>
+          `;
+        } else {
+          xrayInfoEl.classList.remove('loading');
+          xrayInfoEl.innerHTML = '<div class="data-item">X-ray data updating...</div>';
+        }
+      } catch (e) {
+        console.error('Error rendering X-ray data:', e);
+        xrayInfoEl.innerHTML = '<div class="error">Error loading X-ray data</div>';
+      }
+    }
+
+    function renderDstData(dstData) {
+      try {
+        if (dstData && typeof dstData.current === 'number') {
+          const dstValue = dstData.current;
+          
+          // For Dst, we use reverse gauge (higher negative = worse storm)
+          const absValue = Math.abs(dstValue);
+          updateGauge(dstValueEl, dstArc, dstNeedle, absValue, 0, 100, '', true);
+          
+          let stormLevel = dstData.stormLevel || 'Quiet';
+          let statusClass = 'success-item';
+          
+          if (stormLevel === 'Severe') {
+            statusClass = 'alert-item';
+          } else if (stormLevel === 'Strong') {
+            statusClass = 'alert-item';
+          } else if (stormLevel === 'Moderate') {
+            statusClass = 'warning-item';
+          } else if (stormLevel === 'Minor') {
+            statusClass = 'warning-item';
+          }
+          
+          dstInfoEl.classList.remove('loading');
+          dstInfoEl.innerHTML = `
+            <div class="data-item ${statusClass}">
+              <strong><i class="fas fa-magnet"></i> Dst Index: ${dstValue} nT</strong>
+              <div><strong>${stormLevel}</strong> geomagnetic conditions</div>
+              <div>${dstData.description || 'Normal geomagnetic activity'}</div>
+              <div class="data-source">Updated: ${formatDateString(dstData.updated)}</div>
+            </div>
+          `;
+        } else {
+          dstInfoEl.classList.remove('loading');
+          dstInfoEl.innerHTML = '<div class="data-item">Dst data updating...</div>';
+        }
+      } catch (e) {
+        console.error('Error rendering Dst data:', e);
+        dstInfoEl.innerHTML = '<div class="error">Error loading Dst data</div>';
+      }
+    }
+
+    function renderAuroraData(auroraData) {
+      try {
+        if (!auroraData) {
+          auroraForecastEl.innerHTML = '<div class="data-item">Aurora forecast unavailable</div>';
+          return;
+        }
+
+        if (typeof auroraData === 'object' && auroraData.forecast) {
+          let statusColor = 'var(--text-muted)';
+          let statusIcon = '🌌';
+          
+          if (auroraData.kpIndex >= 5) {
+            statusColor = 'var(--gold)';
+            statusIcon = '✨';
+          } else if (auroraData.kpIndex >= 4) {
+            statusColor = 'var(--cyan)';
+            statusIcon = '💫';
+          }
+          
           auroraForecastEl.classList.remove('loading');
-          auroraForecastEl.innerHTML = `<div class="data-item"><strong>Updated:</strong> ${aurora.updated || ''}</div>
-            <div class="data-item">${aurora.forecast}</div>
-            <div style="color:var(--text-muted);font-size:0.9rem;margin-top:6px">Source: ${aurora.source || 'local'}</div>`;
-          auroraMessageEl.textContent = aurora.forecast.split('.').slice(0,1)[0] + '.';
-        } else if (Array.isArray(aurora) && aurora.length) {
-          auroraForecastEl.classList.remove('loading');
-          auroraForecastEl.innerHTML = aurora.slice(0,6).map(a => `<div class="data-item">${a.forecast || JSON.stringify(a)}</div>`).join('');
-          auroraMessageEl.textContent = 'Aurora forecast loaded (local).';
+          auroraForecastEl.innerHTML = `
+            <div class="data-item" style="border-left-color: ${statusColor}">
+              <strong>${statusIcon} Aurora Forecast (Kp ${auroraData.kpIndex || '?'})</strong>
+              <div style="margin: 0.5rem 0">${auroraData.forecast}</div>
+              <div><strong>Probability:</strong> ${auroraData.probability || 'Unknown'}</div>
+              <div><strong>Best Viewing:</strong> ${auroraData.bestViewing || 'Unknown'}</div>
+              <div class="data-source">Source: ${auroraData.source || 'NOAA'} • Updated: ${formatDateString(auroraData.updated)}</div>
+            </div>
+          `;
         } else {
-          auroraForecastEl.classList.remove('loading'); auroraForecastEl.innerHTML = '<div class="data-item">No aurora data</div>';
+          auroraForecastEl.classList.remove('loading');
+          auroraForecastEl.innerHTML = '<div class="data-item">Aurora data updating...</div>';
         }
-      } catch(e){ auroraForecastEl.innerHTML = '<div class="error">Aurora parse error</div>'; auroraMessageEl.textContent = 'Aurora unavailable'; }
+      } catch (e) {
+        console.error('Error rendering aurora data:', e);
+        auroraForecastEl.innerHTML = '<div class="error">Error loading aurora data</div>';
+      }
     }
 
-    // Render news.json (array)
-    function renderNews(news) {
+    function renderNewsData(newsData) {
       try {
-        if (!news || !Array.isArray(news) || news.length === 0) { newsFeedEl.classList.remove('loading'); newsFeedEl.innerHTML = '<div class="data-item">No local news.</div>'; return; }
+        if (!newsData || !Array.isArray(newsData) || newsData.length === 0) {
+          newsFeedEl.classList.remove('loading');
+          newsFeedEl.innerHTML = '<div class="data-item">No recent space news</div>';
+          return;
+        }
+
+        const newsItems = newsData.slice(0, 5).map(item => `
+          <div class="data-item">
+            <a href="${item.link || '#'}" target="_blank" rel="noopener" style="color:var(--cyan); text-decoration: none;">
+              <strong>${item.title || 'Untitled'}</strong>
+            </a>
+            <div style="color:var(--text-muted); font-size: 0.9rem; margin: 0.25rem 0">
+              <i class="fas fa-newspaper"></i> ${item.source || 'Unknown'} • ${formatDateString(item.date)}
+            </div>
+            <div style="color:var(--text-muted); font-size: 0.95rem">
+              ${item.summary || ''}
+            </div>
+          </div>
+        `).join('');
+
         newsFeedEl.classList.remove('loading');
-        newsFeedEl.innerHTML = news.map(n => `<div class="data-item"><a href="${n.link || '#'}" target="_blank" style="color:var(--cyan)">${n.title || n.headline}</a>
-          <div style="color:var(--text-muted);font-size:0.9rem">${n.date || n.published || ''} • ${n.source || ''}</div>
-          <div style="color:var(--text-muted);font-size:0.95rem">${n.summary || ''}</div></div>`).join('');
-      } catch(e){ newsFeedEl.innerHTML = '<div class="error">News parse error</div>'; }
+        newsFeedEl.innerHTML = newsItems;
+      } catch (e) {
+        console.error('Error rendering news data:', e);
+        newsFeedEl.innerHTML = '<div class="error">Error loading news</div>';
+      }
     }
 
-    // Render system status from update-status.json
-    function renderStatus(statusObj) {
+    function renderStatusData(statusData) {
       try {
-        if (!statusObj) { systemStatusEl.classList.remove('loading'); systemStatusEl.innerHTML = '<div class="data-item">No status file found.</div>'; return; }
+        if (!statusData) {
+          systemStatusEl.classList.remove('loading');
+          systemStatusEl.innerHTML = '<div class="data-item">Status unavailable</div>';
+          return;
+        }
+
+        const isSuccess = statusData.status === 'success';
+        const isError = statusData.status === 'error';
+        
+        let statusHtml = '';
+        
+        if (isSuccess) {
+          statusHtml = `
+            <div class="data-item success-item">
+              <strong><i class="fas fa-check-circle"></i> System Online</strong>
+              <div>${statusData.message || 'All systems operational'}</div>
+              <div class="data-source">Last update: ${formatDateString(statusData.lastUpdate)}</div>
+            </div>
+          `;
+        } else if (isError) {
+          statusHtml = `
+            <div class="data-item alert-item">
+              <strong><i class="fas fa-exclamation-triangle"></i> System Error</strong>
+              <div>${statusData.message || 'Unknown error'}</div>
+              <div class="data-source">Last attempt: ${formatDateString(statusData.lastUpdate)}</div>
+            </div>
+          `;
+        } else {
+          statusHtml = `
+            <div class="data-item warning-item">
+              <strong><i class="fas fa-sync-alt fa-spin"></i> System Updating</strong>
+              <div>${statusData.message || 'Fetching latest data'}</div>
+              <div class="data-source">Last update: ${formatDateString(statusData.lastUpdate)}</div>
+            </div>
+          `;
+        }
+
+        // Add data sources if available
+        if (statusData.dataSources && Array.isArray(statusData.dataSources) && statusData.dataSources.length > 0) {
+          statusHtml += `
+            <div class="data-item" style="margin-top: 1rem">
+              <strong>Active Data Sources:</strong>
+              <div style="margin-top: 0.5rem">
+                ${statusData.dataSources.map(source => `
+                  <div style="color:var(--text-muted); font-size: 0.9rem">
+                    <i class="fas fa-check" style="color:var(--green)"></i> ${source}
+                  </div>
+                `).join('')}
+              </div>
+            </div>
+          `;
+        }
+
         systemStatusEl.classList.remove('loading');
-        const lines = [];
-        lines.push(`<div class="data-item"><strong>LastUpdate:</strong> ${statusObj.lastUpdate || statusObj.updated || ''}</div>`);
-        lines.push(`<div class="data-item"><strong>Status:</strong> ${statusObj.status || ''} • ${statusObj.message || ''}</div>`);
-        if (Array.isArray(statusObj.dataSources)) lines.push(`<div class="data-item">Sources: ${statusObj.dataSources.join(', ')}</div>`);
-        systemStatusEl.innerHTML = lines.join('');
-      } catch(e){ systemStatusEl.innerHTML = '<div class="error">Status parse error</div>'; }
+        systemStatusEl.innerHTML = statusHtml;
+
+        // Update last run time
+        if (lastRunEl && statusData.lastUpdate) {
+          lastRunEl.textContent = formatDateString(statusData.lastUpdate);
+        }
+        
+        // Update main timestamp
+        updateTime.textContent = formatTime(new Date(statusData.lastUpdate));
+      } catch (e) {
+        console.error('Error rendering status data:', e);
+        systemStatusEl.innerHTML = '<div class="error">Error loading system status</div>';
+      }
     }
 
-    // ISS update (try local if present, else remote)
+    // ISS Tracking
     async function updateISS() {
-      // Try remote API (no local sample provided)
       try {
         const data = await fetchLocalOrRemote(null, 'https://api.wheretheiss.at/v1/satellites/25544');
         if (data && data.latitude && data.longitude) {
           issMarker.setLatLng([data.latitude, data.longitude]);
-          // keep map centered but don't jump if user moved
-          try { mapISS.setView([data.latitude, data.longitude], 3); } catch(e){}
+          try {
+            mapISS.setView([data.latitude, data.longitude], 3);
+          } catch (e) {}
+          
+          // Update ISS marker tooltip
+          issMarker.bindPopup(`
+            <strong>International Space Station</strong><br>
+            Latitude: ${data.latitude.toFixed(2)}°<br>
+            Longitude: ${data.longitude.toFixed(2)}°<br>
+            Altitude: ${(data.altitude || 0).toFixed(0)} km<br>
+            Velocity: ${(data.velocity || 0).toFixed(0)} km/h
+          `).openPopup();
         }
-      } catch(e){ console.debug('ISS update error', e); }
+      } catch (e) {
+        console.debug('ISS update error:', e);
+      }
     }
 
-    // Main update function
+    // Main Update Function
     async function updateAll() {
       refreshBtn.disabled = true;
       refreshBtn.innerHTML = '<i class="fas fa-sync-alt fa-spin"></i> Updating...';
 
-      // Load local files (exact filenames you provided)
-      const [noaa, aurora, news, status] = await Promise.all([
-        fetchLocalOrRemote('./data/noaa-data.json'),
-        fetchLocalOrRemote('./data/aurora.json'),
-        fetchLocalOrRemote('./data/news.json'),
-        fetchLocalOrRemote('./data/update-status.json')
-      ]);
+      try {
+        // Load all data files
+        const [noaaData, auroraData, newsData, statusData, xrayData, dstData] = await Promise.all([
+          fetchLocalOrRemote(DATA_URLS.noaa),
+          fetchLocalOrRemote(DATA_URLS.aurora),
+          fetchLocalOrRemote(DATA_URLS.news),
+          fetchLocalOrRemote(DATA_URLS.status),
+          fetchLocalOrRemote(DATA_URLS.xray),
+          fetchLocalOrRemote(DATA_URLS.dst)
+        ]);
 
-      // Render loaded data
-      try { renderNOAAData(noaa); } catch(e){ console.debug(e); }
-      try { renderAurora(aurora); } catch(e){ console.debug(e); }
-      try { renderNews(news); } catch(e){ console.debug(e); }
-      try { renderStatus(status); } catch(e){ console.debug(e); }
-
-      // If some critical pieces missing, attempt remote fallbacks (gentle)
-      // e.g., if noaa data missing, try NOAA endpoints (best-effort)
-      if (!noaa) {
-        // try to fetch KP from NOAA remote endpoint as fallback
+        // Render all data
+        renderNOAAData(noaaData, xrayData, dstData);
+        renderXrayData(xrayData);
+        renderDstData(dstData);
+        renderAuroraData(auroraData);
+        renderNewsData(newsData);
+        renderStatusData(statusData);
+        
+        // Update ISS position
+        await updateISS();
+        
+        // Refresh aurora map images to bypass cache
         try {
-          const kpRemote = await fetchLocalOrRemote(null, 'https://services.swpc.noaa.gov/json/planetary_k_index_1m.json');
-          if (kpRemote && Array.isArray(kpRemote) && kpRemote.length) {
-            const last = kpRemote[kpRemote.length-1];
-            const kpVal = last.kp ?? last[1] ?? last[0];
-            updateGauge(kpValueEl, kpArc, kpNeedle, Number(kpVal),0,9);
-          }
-        } catch(e){ console.debug('kp fallback failed', e); }
+          const timestamp = Date.now();
+          auroraLayerNorth.setUrl(`https://services.swpc.noaa.gov/products/aurora/aurora-northern-hemisphere.jpg?t=${timestamp}`);
+          auroraLayerSouth.setUrl(`https://services.swpc.noaa.gov/products/aurora/aurora-southern-hemisphere.jpg?t=${timestamp}`);
+        } catch (e) {}
+
+      } catch (error) {
+        console.error('Error updating data:', error);
+        
+        // Show error state
+        const errorHtml = `<div class="error">
+          <strong>⚠️ Data Loading Error</strong>
+          <div>Failed to load some data: ${error.message || 'Network error'}</div>
+          <div style="font-size:0.9rem; margin-top:0.5rem">Check console for details or try refreshing</div>
+        </div>`;
+        
+        solarDataEl.innerHTML = errorHtml;
+        xrayInfoEl.innerHTML = errorHtml;
+        dstInfoEl.innerHTML = errorHtml;
+        auroraForecastEl.innerHTML = errorHtml;
+        newsFeedEl.innerHTML = errorHtml;
+        systemStatusEl.innerHTML = errorHtml;
+      } finally {
+        refreshBtn.innerHTML = '<i class="fas fa-sync-alt"></i> Refresh';
+        refreshBtn.disabled = false;
       }
-
-      // ISS update
-      await updateISS();
-
-      // refresh TEC overlay to bypass cache
-      try { tecLayer.setUrl('https://services.swpc.noaa.gov/products/noaa-maps/glotec.png?t=' + Date.now()); } catch(e){}
-
-      // Finish UI
-      updateTime.textContent = formatTime();
-      lastRunEl.textContent = formatDate();
-      refreshBtn.innerHTML = '<i class="fas fa-sync-alt"></i> Refresh';
-      refreshBtn.disabled = false;
     }
 
-    // Init
-    initMaps();
-    updateAll();
-    setInterval(updateAll, 120000);
-    refreshBtn.addEventListener('click', updateAll);
+    // Initialize everything
+    function init() {
+      // Initialize maps
+      initMaps();
+      setupMapControls();
+      
+      // Set up refresh button
+      refreshBtn.addEventListener('click', updateAll);
+      
+      // Auto-refresh every 2 minutes
+      setInterval(updateAll, 120000);
+      
+      // Initial data load
+      updateAll();
+      
+      // Show loading states
+      updateTime.textContent = 'Loading...';
+      lastRunEl.textContent = '--';
+    }
 
-    // make sure small-screen interactions are present (collapsible not necessary here but keep safe)
-    document.addEventListener('DOMContentLoaded', () => {
-      // Already initialized above
-    });
+    // Start the app when DOM is loaded
+    document.addEventListener('DOMContentLoaded', init);
   </script>
 </body>
 </html>
