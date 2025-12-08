@@ -176,6 +176,14 @@
             margin: 10px 0;
         }
 
+        .warning {
+            color: var(--solar-orange);
+            padding: 10px;
+            background: rgba(255, 107, 53, 0.1);
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+
         @media (max-width: 768px) {
             .dashboard-grid {
                 grid-template-columns: 1fr;
@@ -192,7 +200,7 @@
         <!-- Header -->
         <header class="dashboard-header">
             <h1><i class="fas fa-satellite"></i> live.ournightsky.us</h1>
-            <p class="subtitle">Real-time Space Weather Dashboard 1.0</p>
+            <p class="subtitle">Real-time Space Weather Dashboard</p>
             <div class="last-updated">
                 Last updated: <span id="update-time">--:--</span>
                 <button id="refresh-btn"><i class="fas fa-sync-alt"></i> Refresh</button>
@@ -274,30 +282,74 @@
             status: 'data/update-status.json'
         };
 
-        // Format date
+        // Format date with better error handling
         function formatDate(dateString) {
-            const date = new Date(dateString);
-            return date.toLocaleString();
+            if (!dateString || dateString === "2024-01-01T00:00:00.000Z" || dateString.includes("never")) {
+                return "Never";
+            }
+            try {
+                const date = new Date(dateString);
+                if (isNaN(date.getTime())) {
+                    return "Invalid date";
+                }
+                // Format as: Jan 1, 2024 12:00 PM
+                return date.toLocaleDateString('en-US', { 
+                    month: 'short', 
+                    day: 'numeric',
+                    year: 'numeric',
+                    hour: '2-digit',
+                    minute: '2-digit'
+                });
+            } catch (error) {
+                return "Date error";
+            }
         }
 
-        // Load data from URL
-        async function loadData(url) {
+        // Format time only
+        function formatTime(dateString) {
+            if (!dateString || dateString === "2024-01-01T00:00:00.000Z" || dateString.includes("never")) {
+                return "--:--";
+            }
             try {
-                const response = await fetch(url);
-                if (!response.ok) {
-                    throw new Error(`HTTP ${response.status}`);
+                const date = new Date(dateString);
+                if (isNaN(date.getTime())) {
+                    return "--:--";
                 }
-                return await response.json();
+                return date.toLocaleTimeString('en-US', { 
+                    hour: '2-digit',
+                    minute: '2-digit',
+                    hour12: false
+                });
             } catch (error) {
-                console.error(`Failed to load ${url}:`, error);
-                return null;
+                return "--:--";
+            }
+        }
+
+        // Load data from URL with retry
+        async function loadData(url, retries = 3) {
+            for (let i = 0; i < retries; i++) {
+                try {
+                    const response = await fetch(`${url}?t=${Date.now()}`);
+                    if (!response.ok) {
+                        throw new Error(`HTTP ${response.status}`);
+                    }
+                    const data = await response.json();
+                    return data;
+                } catch (error) {
+                    if (i === retries - 1) {
+                        console.error(`Failed to load ${url}:`, error);
+                        return null;
+                    }
+                    // Wait before retrying
+                    await new Promise(resolve => setTimeout(resolve, 1000 * (i + 1)));
+                }
             }
         }
 
         // Display solar data
         function displaySolarData(data) {
-            if (!data || !data.solarFlares || !data.solarWind) {
-                solarDataEl.innerHTML = '<div class="error">Solar data unavailable</div>';
+            if (!data || (!data.solarFlares && !data.solarWind)) {
+                solarDataEl.innerHTML = '<div class="warning">Solar data currently unavailable</div>';
                 return;
             }
 
@@ -306,22 +358,29 @@
             // Solar wind
             html += '<div class="metric-group">';
             html += '<h3>Solar Wind</h3>';
-            if (data.solarWind.speed) {
-                html += `<div class="metric"><span>Speed:</span> <strong>${data.solarWind.speed} km/s</strong></div>`;
+            if (data.solarWind && data.solarWind.speed) {
+                html += `<div class="metric"><span>Speed:</span> <strong>${Math.round(data.solarWind.speed)} km/s</strong></div>`;
+            } else {
+                html += '<div class="metric"><span>Speed:</span> <em>No data</em></div>';
             }
-            if (data.solarWind.density) {
-                html += `<div class="metric"><span>Density:</span> <strong>${data.solarWind.density} p/cm³</strong></div>`;
+            
+            if (data.solarWind && data.solarWind.density) {
+                html += `<div class="metric"><span>Density:</span> <strong>${Math.round(data.solarWind.density)} p/cm³</strong></div>`;
+            } else {
+                html += '<div class="metric"><span>Density:</span> <em>No data</em></div>';
             }
             html += '</div>';
 
             // Solar flares
             html += '<div class="metric-group">';
             html += '<h3>Recent Solar Flares</h3>';
-            if (data.solarFlares.length > 0) {
-                data.solarFlares.forEach(flare => {
+            if (data.solarFlares && data.solarFlares.length > 0) {
+                data.solarFlares.slice(0, 5).forEach(flare => {
+                    const flareTime = flare.begin_time || flare.peak_time || data.updated;
+                    const flareClass = flare.class_type || 'Unknown';
                     html += `<div class="data-item flare-item">
-                        <strong>${flare.class_type || 'Unknown'}</strong> 
-                        <small>${formatDate(flare.begin_time)}</small>
+                        <strong>${flareClass} Class</strong> 
+                        <small>${formatDate(flareTime)}</small>
                     </div>`;
                 });
             } else {
@@ -338,46 +397,65 @@
             // Kp display
             if (kpData && kpData.length > 0) {
                 const latestKp = kpData[kpData.length - 1];
+                const kpValue = latestKp.kp || latestKp.Kp || 0;
+                const kpTime = latestKp.time_tag || latestKp.timestamp || new Date().toISOString();
+                
+                let kpClass = "success";
+                if (kpValue >= 6) kpClass = "alert-item";
+                else if (kpValue >= 4) kpClass = "warning";
+                
                 kpDisplayEl.innerHTML = `
-                    <div class="success">
-                        <h3>Current Kp Index: ${latestKp.kp || 'N/A'}</h3>
-                        <small>Updated: ${formatDate(latestKp.time_tag)}</small>
+                    <div class="${kpClass}">
+                        <h3>Current Kp Index: ${kpValue}</h3>
+                        <small>Updated: ${formatDate(kpTime)}</small>
+                        <p>${kpValue >= 5 ? '🌌 Aurora may be visible at mid-latitudes' : 'Normal aurora activity'}</p>
                     </div>
                 `;
             } else {
-                kpDisplayEl.innerHTML = '<div class="error">Kp data unavailable</div>';
+                kpDisplayEl.innerHTML = '<div class="warning">Kp data updating...</div>';
             }
 
             // Aurora forecast
             if (auroraData && auroraData.forecast) {
                 auroraForecastEl.innerHTML = `
                     <div class="data-item">
-                        <p>${auroraData.forecast.substring(0, 200)}...</p>
-                        <small>Source: ${auroraData.source || 'Unknown'}</small>
+                        <p>${auroraData.forecast.substring(0, 250)}...</p>
+                        <small>Source: ${auroraData.source || 'NOAA'}</small>
                     </div>
                 `;
             } else {
-                auroraForecastEl.innerHTML = '<div class="error">Aurora forecast unavailable</div>';
+                auroraForecastEl.innerHTML = '<div class="warning">Aurora forecast updating...</div>';
             }
         }
 
         // Display alerts
         function displayAlerts(flareData) {
             if (!flareData || flareData.length === 0) {
-                alertsListEl.innerHTML = '<div class="success">No active alerts</div>';
+                alertsListEl.innerHTML = '<div class="success">No active space weather alerts</div>';
                 return;
             }
 
-            let html = '<h3>Recent Solar Activity</h3>';
-            flareData.slice(0, 3).forEach(flare => {
+            // Check for M or X class flares (significant)
+            const significantFlares = flareData.filter(flare => {
+                const flareClass = flare.class_type || '';
+                return flareClass.startsWith('M') || flareClass.startsWith('X');
+            });
+
+            if (significantFlares.length === 0) {
+                alertsListEl.innerHTML = '<div class="success">Normal solar activity</div>';
+                return;
+            }
+
+            let html = '<h3>Active Alerts</h3>';
+            significantFlares.slice(0, 3).forEach(flare => {
                 const flareClass = flare.class_type || 'Unknown';
-                const isMajor = ['M', 'X'].includes(flareClass.charAt(0));
+                const flareTime = flare.begin_time || flare.peak_time || 'Recent';
                 
                 html += `
-                    <div class="data-item ${isMajor ? 'alert-item' : ''}">
-                        <strong>${flareClass} Class Flare</strong>
-                        <p>Peak: ${formatDate(flare.peak_time || flare.begin_time)}</p>
-                        ${isMajor ? '<small><i class="fas fa-exclamation-circle"></i> Significant event</small>' : ''}
+                    <div class="data-item alert-item">
+                        <strong><i class="fas fa-exclamation-triangle"></i> ${flareClass} Class Solar Flare</strong>
+                        <p>Detected: ${formatDate(flareTime)}</p>
+                        <small>Significant space weather event</small>
                     </div>
                 `;
             });
@@ -387,23 +465,37 @@
 
         // Display news
         function displayNews(newsData) {
-            if (!newsData || newsData.length === 0) {
-                newsFeedEl.innerHTML = '<div class="error">News feed unavailable</div>';
+            if (!newsData || (Array.isArray(newsData) && newsData.length === 0)) {
+                newsFeedEl.innerHTML = '<div class="warning">News feed updating...</div>';
+                return;
+            }
+
+            // Handle both array format and object with items property
+            const newsItems = Array.isArray(newsData) ? newsData : (newsData.items || []);
+            
+            if (newsItems.length === 0) {
+                newsFeedEl.innerHTML = '<div class="warning">No recent news</div>';
                 return;
             }
 
             let html = '';
-            newsData.slice(0, 5).forEach(item => {
+            newsItems.slice(0, 5).forEach(item => {
+                const title = item.title || 'Untitled';
+                const link = item.link || '#';
+                const summary = item.summary || item.description || '';
+                const source = item.source || 'Unknown';
+                const date = item.date || item.pubDate || item.updated || '';
+                
                 html += `
                     <div class="news-item">
-                        <h4>${item.title || 'Untitled'}</h4>
-                        <p>${item.summary || ''}</p>
+                        <h4>${title}</h4>
+                        <p>${summary.substring(0, 100)}${summary.length > 100 ? '...' : ''}</p>
                         <div style="display: flex; justify-content: space-between; margin-top: 8px;">
-                            <small>${item.source || 'Unknown source'}</small>
-                            <small>${formatDate(item.date)}</small>
+                            <small><i class="fas fa-newspaper"></i> ${source}</small>
+                            <small>${formatDate(date)}</small>
                         </div>
-                        <a href="${item.link || '#'}" target="_blank" style="color: var(--aurora-green); text-decoration: none;">
-                            Read more →
+                        <a href="${link}" target="_blank" rel="noopener" style="color: var(--aurora-green); text-decoration: none; display: inline-block; margin-top: 5px;">
+                            Read more <i class="fas fa-external-link-alt"></i>
                         </a>
                     </div>
                 `;
@@ -420,19 +512,25 @@
             }
 
             const isSuccess = statusData.status === 'success';
+            const isError = statusData.status === 'error';
             const lastUpdate = statusData.lastUpdate ? formatDate(statusData.lastUpdate) : 'Never';
+            const message = statusData.message || 'No status message';
+            
+            let statusClass = "warning";
+            if (isSuccess) statusClass = "success";
+            if (isError) statusClass = "error";
             
             systemStatusEl.innerHTML = `
-                <div class="${isSuccess ? 'success' : 'error'}">
-                    <h3>${isSuccess ? '✓ System Online' : '⚠️ System Issue'}</h3>
-                    <p>${statusData.message || 'No status message'}</p>
+                <div class="${statusClass}">
+                    <h3>${isSuccess ? '✓ System Online' : isError ? '⚠️ System Error' : '⟳ System Updating'}</h3>
+                    <p>${message}</p>
                     <small>Last update: ${lastUpdate}</small>
                 </div>
                 <div style="margin-top: 15px;">
                     <h4>Data Sources</h4>
-                    <p><i class="fas fa-check-circle" style="color: var(--aurora-green);"></i> NOAA Space Weather</p>
-                    <p><i class="fas fa-check-circle" style="color: var(--aurora-green);"></i> NASA News Feed</p>
-                    <p><i class="fas fa-check-circle" style="color: var(--aurora-green);"></i> Aurora Forecast</p>
+                    <p><i class="fas fa-satellite"></i> NOAA Space Weather</p>
+                    <p><i class="fas fa-rocket"></i> NASA News Feed</p>
+                    <p><i class="fas fa-globe-americas"></i> Aurora Forecast</p>
                 </div>
             `;
 
@@ -446,12 +544,13 @@
         async function updateAllData() {
             try {
                 // Show loading states
-                solarDataEl.innerHTML = '<div class="loading">Loading...</div>';
-                kpDisplayEl.innerHTML = '<div class="loading">Loading...</div>';
-                auroraForecastEl.innerHTML = '<div class="loading">Loading...</div>';
-                alertsListEl.innerHTML = '<div class="loading">Loading...</div>';
-                newsFeedEl.innerHTML = '<div class="loading">Loading...</div>';
-                systemStatusEl.innerHTML = '<div class="loading">Loading...</div>';
+                updateTime.textContent = 'Loading...';
+                solarDataEl.innerHTML = '<div class="loading"><i class="fas fa-spinner fa-spin"></i> Loading solar data...</div>';
+                kpDisplayEl.innerHTML = '<div class="loading"><i class="fas fa-spinner fa-spin"></i> Loading Kp index...</div>';
+                auroraForecastEl.innerHTML = '<div class="loading"><i class="fas fa-spinner fa-spin"></i> Loading aurora forecast...</div>';
+                alertsListEl.innerHTML = '<div class="loading"><i class="fas fa-spinner fa-spin"></i> Checking alerts...</div>';
+                newsFeedEl.innerHTML = '<div class="loading"><i class="fas fa-spinner fa-spin"></i> Loading news...</div>';
+                systemStatusEl.innerHTML = '<div class="loading"><i class="fas fa-spinner fa-spin"></i> Checking status...</div>';
 
                 // Load all data
                 const [noaaData, newsData, auroraData, statusData] = await Promise.all([
@@ -465,56 +564,90 @@
                 displaySolarData(noaaData);
                 displayAuroraData(noaaData?.kpIndex, auroraData);
                 displayAlerts(noaaData?.solarFlares);
-                displayNews(newsData?.items || newsData);
+                displayNews(newsData);
                 displaySystemStatus(statusData);
 
                 // Update timestamp
                 if (statusData?.lastUpdate) {
-                    updateTime.textContent = formatDate(statusData.lastUpdate);
+                    updateTime.textContent = formatTime(statusData.lastUpdate);
+                } else if (noaaData?.updated) {
+                    updateTime.textContent = formatTime(noaaData.updated);
                 } else {
-                    updateTime.textContent = new Date().toLocaleTimeString();
+                    updateTime.textContent = new Date().toLocaleTimeString('en-US', { 
+                        hour: '2-digit', 
+                        minute: '2-digit',
+                        hour12: false 
+                    });
+                }
+
+                // Check if data is placeholder (initial setup)
+                if (noaaData && noaaData.updated && noaaData.updated.includes("2024-01-01")) {
+                    systemStatusEl.innerHTML = `
+                        <div class="warning">
+                            <h3>⚠️ Initial Setup Required</h3>
+                            <p>Data files need to be populated. The GitHub Actions workflow should run automatically.</p>
+                            <small>Check the Actions tab in your repository</small>
+                        </div>
+                    `;
                 }
 
             } catch (error) {
                 console.error('Error updating data:', error);
                 
                 // Show error state
-                const errorHtml = `<div class="error">Failed to load data: ${error.message}</div>`;
+                const errorHtml = `<div class="error">
+                    <h3>⚠️ Data Loading Error</h3>
+                    <p>Failed to load data: ${error.message || 'Network error'}</p>
+                    <small>Check console for details</small>
+                </div>`;
+                
                 solarDataEl.innerHTML = errorHtml;
                 kpDisplayEl.innerHTML = errorHtml;
                 auroraForecastEl.innerHTML = errorHtml;
                 alertsListEl.innerHTML = errorHtml;
                 newsFeedEl.innerHTML = errorHtml;
                 systemStatusEl.innerHTML = errorHtml;
+                
+                updateTime.textContent = 'Error';
             }
         }
 
         // Initialize
         document.addEventListener('DOMContentLoaded', () => {
+            // First update
             updateAllData();
             
             // Setup refresh button
-            refreshBtn.addEventListener('click', updateAllData);
+            refreshBtn.addEventListener('click', () => {
+                refreshBtn.innerHTML = '<i class="fas fa-sync-alt fa-spin"></i> Refreshing...';
+                updateAllData().finally(() => {
+                    setTimeout(() => {
+                        refreshBtn.innerHTML = '<i class="fas fa-sync-alt"></i> Refresh';
+                    }, 1000);
+                });
+            });
             
-            // Auto-refresh every 5 minutes
-            setInterval(updateAllData, 5 * 60 * 1000);
+            // Auto-refresh every 2 minutes
+            setInterval(updateAllData, 2 * 60 * 1000);
         });
 
-        // Check if we can access the data files
-        async function checkDataAccess() {
-            console.log('Checking data access...');
-            for (const [name, url] of Object.entries(DATA_URLS)) {
-                try {
-                    const response = await fetch(url);
-                    console.log(`${name}: ${response.ok ? 'OK' : 'FAILED'} (${response.status})`);
-                } catch (error) {
-                    console.error(`${name}: ERROR - ${error.message}`);
-                }
-            }
-        }
-
-        // Run accessibility check on load
-        window.addEventListener('load', checkDataAccess);
+        // Check data file accessibility on load
+        window.addEventListener('load', () => {
+            console.log('Checking data file accessibility...');
+            
+            // Quick test to see if data files exist
+            fetch('data/update-status.json')
+                .then(response => {
+                    if (response.ok) {
+                        console.log('✓ Data files are accessible');
+                    } else {
+                        console.warn('✗ Data files may not exist yet');
+                    }
+                })
+                .catch(error => {
+                    console.error('✗ Cannot access data files:', error.message);
+                });
+        });
     </script>
 </body>
 </html>
