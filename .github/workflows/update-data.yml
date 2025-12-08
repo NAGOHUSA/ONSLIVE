@@ -1,9 +1,11 @@
-name: Update Space Weather Data
+name: Update Enhanced Space Weather Data
 
 on:
   schedule:
-    - cron: '*/15 * * * *'  # Every 15 minutes
+    - cron: '*/10 * * * *'  # Every 10 minutes for more frequent updates
   workflow_dispatch:        # Manual trigger
+  push:
+    branches: [ main ]
 
 permissions:
   contents: write
@@ -15,6 +17,8 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
     
     - name: Setup Node.js
       uses: actions/setup-node@v4
@@ -25,8 +29,8 @@ jobs:
       run: |
         if [ ! -f "package.json" ]; then
           echo '{
-            "name": "live-ournightsky",
-            "version": "1.0.0",
+            "name": "enhanced-space-weather",
+            "version": "2.0.0",
             "dependencies": {
               "axios": "^1.6.0"
             }
@@ -39,19 +43,25 @@ jobs:
         mkdir -p data
         # Create initial files if they don't exist
         if [ ! -f "data/noaa-data.json" ]; then
-          echo '{"solarFlares":[],"kpIndex":[],"solarWind":{},"updated":"2024-01-01T00:00:00.000Z","source":"NOAA SWPC"}' > data/noaa-data.json
-        fi
-        if [ ! -f "data/news.json" ]; then
-          echo '[]' > data/news.json
+          echo '{"kpIndex":[],"solarWind":[],"solarFlares":[],"updated":"2024-01-01T00:00:00.000Z","source":"NOAA SWPC"}' > data/noaa-data.json
         fi
         if [ ! -f "data/aurora.json" ]; then
           echo '{"forecast":"Initializing...","updated":"2024-01-01T00:00:00.000Z","source":"Dashboard"}' > data/aurora.json
         fi
+        if [ ! -f "data/news.json" ]; then
+          echo '[]' > data/news.json
+        fi
         if [ ! -f "data/update-status.json" ]; then
           echo '{"lastUpdate":"2024-01-01T00:00:00.000Z","status":"pending","message":"Initial setup"}' > data/update-status.json
         fi
+        if [ ! -f "data/xray-data.json" ]; then
+          echo '{"current":"A0.0","numeric":0,"class":"A","updated":"2024-01-01T00:00:00.000Z","description":"Background solar activity"}' > data/xray-data.json
+        fi
+        if [ ! -f "data/dst-data.json" ]; then
+          echo '{"current":0,"updated":"2024-01-01T00:00:00.000Z","stormLevel":"Quiet","description":"Geomagnetic conditions quiet"}' > data/dst-data.json
+        fi
     
-    - name: Update data
+    - name: Update enhanced data
       run: |
         node scripts/update-data.js
     
@@ -62,9 +72,9 @@ jobs:
         
         # Check if data files have changed
         if git status --porcelain data/ | grep -q '^[ MAD]'; then
-          echo "Changes detected in data files"
+          echo "🌌 Changes detected in data files"
           git add data/
-          git commit -m "🌌 Update space weather data [$(date -u +'%Y-%m-%d %H:%M UTC')]"
+          git commit -m "🌠 Update enhanced space weather data [$(date -u +'%Y-%m-%d %H:%M UTC')]"
           git push
         else
           echo "No changes in data files"
