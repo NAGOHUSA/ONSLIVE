@@ -1,16 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  
-<script src="https://cmp.gatekeeperconsent.com/min.js" data-cfasync="false"></script>
+  <script src="https://cmp.gatekeeperconsent.com/min.js" data-cfasync="false"></script>
 <script src="https://the.gatekeeperconsent.com/cmp.min.js" data-cfasync="false"></script>
 
-<script async src="//www.ezojs.com/ezoic/sa.min.js"></script>
-<script>
-    window.ezstandalone = window.ezstandalone || {};
-    ezstandalone.cmd = ezstandalone.cmd || [];
-</script>
-  
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Live Space Weather • ournightsky.us</title>
@@ -72,7 +65,7 @@
 <body>
   <header>
     <div class="container header-content">
-      <h1><i class="fas fa-satellite"></i> live.ournightsky.us 1.3</h1>
+      <h1><i class="fas fa-satellite"></i> live.ournightsky.us 1.4</h1>
       <div style="display:flex;gap:1rem;align-items:center;color:var(--text-muted)">
         <span>Last updated: <strong id="update-time">--:--</strong></span>
         <button id="refresh-btn"><i class="fas fa-sync-alt"></i> Refresh</button>
@@ -319,12 +312,12 @@
       needleEl.style.background = percent > 0.66 ? 'var(--red)' : percent > 0.33 ? 'var(--gold)' : 'var(--green)';
     }
 
-    // Initialize Maps - SIMPLIFIED VERSION WITHOUT IMAGE OVERLAYS
+    // Initialize Maps - FIXED: Changed initial view to show more of the auroral region
     function initMaps() {
-      // Aurora Map - Just a base map with no image overlays
+      // Aurora Map - Adjusted to show more of the northern hemisphere
       mapAurora = L.map('aurora-map', {
-        center: [80, 0],
-        zoom: 2,
+        center: [65, 0],  // Changed from [80, 0] to [65, 0] to show more of the auroral region
+        zoom: 3,          // Increased zoom from 2 to 3 to fill more space
         minZoom: 2,
         maxZoom: 5,
         worldCopyJump: true,
@@ -392,8 +385,8 @@
       const baseRadius = 15 + (kpValue * 3); // Scale with Kp
       const ovalRadius = baseRadius * 100000; // Convert to meters
       
-      // Create main aurora oval
-      const centerLat = isNorthern ? 80 : -80;
+      // Create main aurora oval - adjust position based on hemisphere
+      const centerLat = isNorthern ? 65 : -65;  // Adjusted from 80 to 65 to match map center
       const mainOval = L.circle([centerLat, 0], {
         radius: ovalRadius,
         fillColor: primaryColor,
@@ -409,10 +402,10 @@
       const patchCount = Math.min(15, 5 + Math.floor(kpValue * 2));
       
       for (let i = 0; i < patchCount; i++) {
-        // Random position within the auroral zone
+        // Random position within the auroral zone - adjusted for better visibility
         const patchLat = isNorthern ? 
-          (70 + Math.random() * 20) : 
-          (-70 - Math.random() * 20);
+          (55 + Math.random() * 20) :  // Adjusted from 70 to 55
+          (-55 - Math.random() * 20);  // Adjusted from -70 to -55
         const patchLng = -180 + Math.random() * 360;
         
         // Size varies with Kp
@@ -447,11 +440,11 @@
       }
     }
 
-    // Map Controls - SIMPLIFIED
+    // Map Controls - FIXED: Updated view coordinates to match new center
     function setupMapControls() {
       document.getElementById('btn-north').addEventListener('click', () => {
         try {
-          mapAurora.setView([80, 0], 2);
+          mapAurora.setView([65, 0], 3);  // Changed from [80, 0], 2
           createAuroraVisualization(parseFloat(kpValueEl.textContent) || 3);
         } catch (e) {
           console.error('Error switching to northern view:', e);
@@ -462,7 +455,7 @@
 
       document.getElementById('btn-south').addEventListener('click', () => {
         try {
-          mapAurora.setView([-80, 0], 2);
+          mapAurora.setView([-65, 0], 3);  // Changed from [-80, 0], 2
           createAuroraVisualization(parseFloat(kpValueEl.textContent) || 3);
         } catch (e) {
           console.error('Error switching to southern view:', e);
@@ -917,9 +910,16 @@
 
     // Start the app when DOM is loaded
     document.addEventListener('DOMContentLoaded', init);
-  </script>
+    <script async src="//www.ezojs.com/ezoic/sa.min.js"></script>
+<script>
+    window.ezstandalone = window.ezstandalone || {};
+    ezstandalone.cmd = ezstandalone.cmd || [];
+</script>
+
   <!-- Ezoic - incontent_5 - incontent_5 -->
 <div id="ezoic-pub-ad-placeholder-115"></div>
 <!-- End Ezoic - incontent_5 - incontent_5 -->
+  
+  </script>
 </body>
 </html>
