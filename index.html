@@ -68,7 +68,7 @@
 <body>
   <header>
     <div class="container header-content">
-      <h1><i class="fas fa-satellite"></i> live.ournightsky.us 1.5</h1>
+      <h1><i class="fas fa-satellite"></i> live.ournightsky.us 1.6</h1>
       <div style="display:flex;gap:1rem;align-items:center;color:var(--text-muted)">
         <span>Last updated: <strong id="update-time">--:--</strong></span>
         <button id="refresh-btn"><i class="fas fa-sync-alt"></i> Refresh</button>
@@ -314,12 +314,12 @@ function renderMeteorData(meteorData) {
           </div>
         `;
       }
-      async function updateAll() {
+async function updateAll() {
   refreshBtn.disabled = true;
   refreshBtn.innerHTML = '<i class="fas fa-sync-alt fa-spin"></i> Updating...';
 
   try {
-    // Load all data files - ADD meteorData to the array
+    // Load all data files - INCLUDING meteorData
     const [noaaData, auroraData, newsData, statusData, xrayData, dstData, meteorData] = await Promise.all([
       fetchLocalOrRemote(DATA_URLS.noaa),
       fetchLocalOrRemote(DATA_URLS.aurora),
@@ -327,17 +327,17 @@ function renderMeteorData(meteorData) {
       fetchLocalOrRemote(DATA_URLS.status),
       fetchLocalOrRemote(DATA_URLS.xray),
       fetchLocalOrRemote(DATA_URLS.dst),
-      fetchLocalOrRemote(DATA_URLS.meteor)  // Add this line
+      fetchLocalOrRemote(DATA_URLS.meteor)  // ✅ Add this line
     ]);
 
-    // Render all data - ADD renderMeteorData call
+    // Render all data - INCLUDING meteor data
     renderNOAAData(noaaData, xrayData, dstData);
     renderXrayData(xrayData);
     renderDstData(dstData);
     renderAuroraData(auroraData);
     renderNewsData(newsData);
     renderStatusData(statusData);
-    renderMeteorData(meteorData);  // Add this line
+    renderMeteorData(meteorData);  // ✅ Add this line
     
     // Update ISS position
     await updateISS();
@@ -345,7 +345,7 @@ function renderMeteorData(meteorData) {
   } catch (error) {
     console.error('Error updating data:', error);
     
-    // Show error state - ADD meteorInfoEl to error display
+    // Show error state - INCLUDING meteorInfoEl
     const errorHtml = `<div class="error">
       <strong>⚠️ Data Loading Error</strong>
       <div>Failed to load some data: ${error.message || 'Network error'}</div>
@@ -358,7 +358,7 @@ function renderMeteorData(meteorData) {
     auroraForecastEl.innerHTML = errorHtml;
     newsFeedEl.innerHTML = errorHtml;
     systemStatusEl.innerHTML = errorHtml;
-    meteorInfoEl.innerHTML = errorHtml;  // Add this line
+    meteorInfoEl.innerHTML = errorHtml;  // ✅ Add this line
   } finally {
     refreshBtn.innerHTML = '<i class="fas fa-sync-alt"></i> Refresh';
     refreshBtn.disabled = false;
