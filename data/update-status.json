@@ -1,8 +1,8 @@
 {
-  "lastUpdate": "2025-12-08T05:14:45.066Z",
+  "lastUpdate": "2025-12-08T05:38:35.150Z",
   "status": "success",
   "message": "Data updated successfully from NOAA and NASA",
-  "timestamp": 1765170885066,
+  "timestamp": 1765172315150,
   "dataSources": [
     "NOAA SWPC",
     "NASA"
