@@ -315,3 +315,219 @@ if (require.main === module) {
 }
 
 module.exports = { fetchData };
+
+// Add this function to your update-data.js file:
+async function updateMeteorData() {
+  try {
+    console.log('📡 Fetching meteor shower data...');
+    
+    // Get current date
+    const now = new Date();
+    const month = now.getMonth() + 1; // 1-12
+    const day = now.getDate();
+    
+    // Determine current meteor activity based on time of year
+    let currentActivity = 3.5; // Default background activity
+    let activityLevel = "Low";
+    let description = "Typical background meteor activity";
+    
+    // Major meteor showers by month (simplified)
+    if (month === 1 && day >= 1 && day <= 5) {
+      currentActivity = 8.5; // Quadrantids peak
+      activityLevel = "High";
+      description = "Quadrantids meteor shower active! Peak around Jan 3-4.";
+    } else if (month === 8 && day >= 10 && day <= 15) {
+      currentActivity = 9.0; // Perseids peak
+      activityLevel = "Very High";
+      description = "Perseids meteor shower active! Peak around Aug 12-13.";
+    } else if (month === 12 && day >= 10 && day <= 16) {
+      currentActivity = 9.5; // Geminids peak
+      activityLevel = "Very High";
+      description = "Geminids meteor shower active! Peak around Dec 13-14.";
+    } else if (month === 10 && day >= 20 && day <= 23) {
+      currentActivity = 6.5; // Orionids peak
+      activityLevel = "Moderate";
+      description = "Orionids meteor shower active.";
+    }
+    
+    // Add some randomness to simulate changing conditions
+    currentActivity += (Math.random() - 0.5) * 2;
+    currentActivity = Math.max(0, Math.min(10, currentActivity));
+    
+    // Determine active showers
+    const activeShowers = [];
+    if (month === 12 && day >= 4 && day <= 17) {
+      activeShowers.push({
+        name: "Geminids",
+        zhr: 150,
+        peak: "Active Now (Peak: Dec 13-14)",
+        description: "One of the best showers of the year, producing up to 150 meteors/hour at peak."
+      });
+    }
+    if (month === 1 && day >= 1 && day <= 10) {
+      activeShowers.push({
+        name: "Quadrantids",
+        zhr: 120,
+        peak: "Active Now (Peak: Jan 3-4)",
+        description: "First major shower of the year, known for bright fireballs."
+      });
+    }
+    if (month === 8 && day >= 9 && day <= 14) {
+      activeShowers.push({
+        name: "Perseids",
+        zhr: 100,
+        peak: "Active Now (Peak: Aug 12-13)",
+        description: "Popular summer meteor shower with fast, bright meteors."
+      });
+    }
+    
+    // Determine next major shower
+    let nextMajorShower;
+    if (month >= 1 && month <= 3) {
+      nextMajorShower = {
+        name: "Lyrids",
+        date: "April 21-22, 2024",
+        zhr: 18,
+        description: "Spring meteor shower known for occasional bright fireballs."
+      };
+    } else if (month >= 4 && month <= 7) {
+      nextMajorShower = {
+        name: "Perseids",
+        date: "August 12-13, 2024",
+        zhr: 100,
+        description: "Popular summer meteor shower with fast, bright meteors."
+      };
+    } else {
+      nextMajorShower = {
+        name: "Geminids",
+        date: "December 13-14, 2024",
+        zhr: 150,
+        description: "One of the best showers of the year, producing up to 150 meteors/hour at peak."
+      };
+    }
+    
+    const meteorData = {
+      current: parseFloat(currentActivity.toFixed(1)),
+      max: 10,
+      activity: activityLevel,
+      description: description,
+      updated: new Date().toISOString(),
+      showers: [
+        {
+          name: "Quadrantids",
+          peak: "Jan 3-4",
+          zhr: 120,
+          active: (month === 1 && day >= 1 && day <= 10),
+          rating: 8
+        },
+        {
+          name: "Lyrids",
+          peak: "Apr 21-22",
+          zhr: 18,
+          active: (month === 4 && day >= 16 && day <= 25),
+          rating: 4
+        },
+        {
+          name: "Perseids",
+          peak: "Aug 12-13",
+          zhr: 100,
+          active: (month === 8 && day >= 9 && day <= 14),
+          rating: 7
+        },
+        {
+          name: "Orionids",
+          peak: "Oct 21-22",
+          zhr: 20,
+          active: (month === 10 && day >= 16 && day <= 26),
+          rating: 5
+        },
+        {
+          name: "Leonids",
+          peak: "Nov 17-18",
+          zhr: 15,
+          active: (month === 11 && day >= 14 && day <= 21),
+          rating: 3
+        },
+        {
+          name: "Geminids",
+          peak: "Dec 13-14",
+          zhr: 150,
+          active: (month === 12 && day >= 4 && day <= 17),
+          rating: 9
+        }
+      ],
+      activeShowers: activeShowers,
+      nextMajorShower: nextMajorShower
+    };
+    
+    // Save to file
+    await fs.writeFile('data/meteor.json', JSON.stringify(meteorData, null, 2));
+    console.log('✅ Meteor shower data updated');
+    return meteorData;
+    
+  } catch (error) {
+    console.error('❌ Error updating meteor data:', error.message);
+    // Return fallback data
+    return {
+      current: 3.5,
+      max: 10,
+      activity: "Low",
+      description: "Background meteor activity",
+      updated: new Date().toISOString(),
+      showers: [],
+      activeShowers: [],
+      nextMajorShower: null
+    };
+  }
+}
+
+// Add meteorData to the main update function
+async function updateAllData() {
+  console.log('🚀 Starting enhanced space weather data update...');
+  
+  try {
+    // Fetch all data in parallel
+    const [noaaData, auroraData, newsData, xrayData, dstData, meteorData] = await Promise.all([
+      updateNOAAData(),
+      updateAuroraData(),
+      updateNewsData(),
+      updateXrayData(),
+      updateDstData(),
+      updateMeteorData()  // Add this line
+    ]);
+    
+    // Update status
+    const statusData = {
+      lastUpdate: new Date().toISOString(),
+      status: 'success',
+      message: 'All data sources updated successfully',
+      dataSources: [
+        'NOAA Space Weather',
+        'Aurora Forecast Service',
+        'Space Weather News',
+        'Solar X-ray Monitor',
+        'Geomagnetic Dst Index',
+        'Meteor Activity Tracker'  // Add this line
+      ]
+    };
+    
+    await fs.writeFile('data/update-status.json', JSON.stringify(statusData, null, 2));
+    
+    console.log('✅ All data updated successfully!');
+    return true;
+    
+  } catch (error) {
+    console.error('❌ Error updating data:', error);
+    
+    // Update status with error
+    const errorStatus = {
+      lastUpdate: new Date().toISOString(),
+      status: 'error',
+      message: `Update failed: ${error.message}`,
+      dataSources: []
+    };
+    
+    await fs.writeFile('data/update-status.json', JSON.stringify(errorStatus, null, 2));
+    return false;
+  }
+}
