@@ -1,5 +1,8 @@
 {
-  "forecast": "Current Kp index is undefined. Aurora activity is low. The Kp index needs to reach at least 5 for visible aurora at mid-latitudes.",
-  "updated": "2025-12-08T13:08:32.926Z",
-  "source": "NOAA Space Weather"
+  "forecast": "Initializing aurora forecast system. First real data update in progress...",
+  "kpIndex": 3.33,
+  "updated": "2024-01-01T00:00:00.000Z",
+  "source": "NOAA Aurora Forecast",
+  "probability": "Low",
+  "bestViewing": "Not favorable"
 }
