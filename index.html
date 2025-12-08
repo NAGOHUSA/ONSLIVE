@@ -70,77 +70,6 @@
     </div>
   </header>
 
-  <section class="card" style="grid-column:1/-1;position:relative">
-      <h2><i class="fas fa-map"></i> Live Aurora Oval Map</h2>
-      <div style="position:relative">
-        <div class="map-controls">
-          <button class="map-btn active" id="btn-north">Northern</button>
-          <button class="map-btn" id="btn-south">Southern</button>
-          <button class="map-btn" id="btn-refresh-map"><i class="fas fa-redo"></i></button>
-        </div>
-        <div id="aurora-map" style="height:360px;border-radius:12px;background:#000;position:relative"></div>
-        <div class="aurora-legend">
-          <div style="font-weight:bold;margin-bottom:6px;color:#00ffaa">Aurora Intensity</div>
-          <div class="aurora-intensity"><span style="background:#ff0066"></span> Extreme (Kp ≥ 8)</div>
-          <div class="aurora-intensity"><span style="background:#ff5500"></span> Strong (Kp 6-7)</div>
-          <div class="aurora-intensity"><span style="background:#ffff00"></span> Moderate (Kp 4-5)</div>
-          <div class="aurora-intensity"><span style="background:#00ffaa"></span> Low (Kp 0-3)</div>
-        </div>
-      </div>
-      <small style="display:block;margin-top:8px;text-align:center;color:var(--text-muted)">Dynamic aurora visualization based on real-time Kp index</small>
-    </section>
- <div class="grid">
-      <div class="card">
-        <h2><i class="fas fa-sun"></i> Solar Activity</h2>
-        <div id="solar-data" class="loading"><i class="fas fa-spinner fa-spin"></i> Loading...</div>
-      </div>
-
-      <div class="card">
-        <h2><i class="fas fa-radiation"></i> Solar Radiation (X-ray)</h2>
-        <div class="gauge-container" id="xray-gauge">
-          <svg viewBox="0 0 200 120">
-            <defs><linearGradient id="xray-grad"><stop offset="0%" stop-color="#10b981"/><stop offset="50%" stop-color="#fbbf24"/><stop offset="100%" stop-color="#ef4444"/></linearGradient></defs>
-            <path d="M20 100 A80 80 0 1 1 180 100" fill="none" stroke="#334155" stroke-width="16"/>
-            <path id="xray-arc" d="M20 100 A80 80 0 1 1 180 100" fill="none" stroke="url(#xray-grad)" stroke-width="16" stroke-linecap="round" stroke-dasharray="0 251.3"></path>
-            <circle cx="100" cy="100" r="8" fill="#fff"></circle>
-            <text x="100" y="65" text-anchor="middle" class="gauge-value" id="xray-value">--</text>
-          </svg>
-          <div class="needle" id="xray-needle"></div>
-        </div>
-        <div id="xray-info" class="loading"></div>
-      </div>
-
-      <div class="card">
-        <h2><i class="fas fa-magnet"></i> Geomagnetic Storms (Dst)</h2>
-        <div class="gauge-container" id="dst-gauge">
-          <svg viewBox="0 0 200 120">
-            <defs><linearGradient id="dst-grad"><stop offset="0%" stop-color="#ef4444"/><stop offset="50%" stop-color="#fbbf24"/><stop offset="100%" stop-color="#10b981"/></linearGradient></defs>
-            <path d="M20 100 A80 80 0 1 1 180 100" fill="none" stroke="#334155" stroke-width="16"/>
-            <path id="dst-arc" d="M20 100 A80 80 0 1 1 180 100" fill="none" stroke="url(#dst-grad)" stroke-width="16" stroke-linecap="round" stroke-dasharray="0 251.3"></path>
-            <circle cx="100" cy="100" r="8" fill="#fff"></circle>
-            <text x="100" y="65" text-anchor="middle" class="gauge-value" id="dst-value">--</text>
-          </svg>
-          <div class="needle" id="dst-needle"></div>
-        </div>
-        <div id="dst-info" class="loading"></div>
-      </div> 
-
-         <div class="card">
-        <h2><i class="fas fa-satellite-dish"></i> ISS Tracking</h2>
-        <div id="iss-map" style="height:300px;border-radius:12px;background:#000"></div>
-        <small style="display:block;margin-top:8px;color:var(--text-muted)">Real-time International Space Station tracking</small>
-      </div>
-
-      <div class="card">
-        <h2><i class="fas fa-cloud-aurora"></i> Aurora Forecast</h2>
-        <div id="aurora-forecast" class="loading">Loading...</div>
-      </div>
-
-      <div class="card">
-        <h2><i class="fas fa-newspaper"></i> Latest Space News</h2>
-        <div id="news-feed" class="loading">Loading...</div>
-      </div>
-
   <main class="container">
     <section class="hero">
       <h2><i class="fas fa-compass"></i> Current Space Weather Activity</h2>
@@ -157,14 +86,93 @@
         <div class="needle" id="kp-needle"></div>
       </div>
       <p id="aurora-message" style="margin-top:1rem;color:var(--text-muted)">Loading aurora summary...</p>
-  
+    </section>
 
-          <div class="card" style="grid-column:1/-1">
+    <div class="grid">
+      <!-- Aurora Map Card -->
+      <div class="card" style="grid-column:1/-1;position:relative">
+        <h2><i class="fas fa-map"></i> Live Aurora Oval Map</h2>
+        <div style="position:relative">
+          <div class="map-controls">
+            <button class="map-btn active" id="btn-north">Northern</button>
+            <button class="map-btn" id="btn-south">Southern</button>
+            <button class="map-btn" id="btn-refresh-map"><i class="fas fa-redo"></i></button>
+          </div>
+          <div id="aurora-map" style="height:360px;border-radius:12px;background:#000;position:relative"></div>
+          <div class="aurora-legend">
+            <div style="font-weight:bold;margin-bottom:6px;color:#00ffaa">Aurora Intensity</div>
+            <div class="aurora-intensity"><span style="background:#ff0066"></span> Extreme (Kp ≥ 8)</div>
+            <div class="aurora-intensity"><span style="background:#ff5500"></span> Strong (Kp 6-7)</div>
+            <div class="aurora-intensity"><span style="background:#ffff00"></span> Moderate (Kp 4-5)</div>
+            <div class="aurora-intensity"><span style="background:#00ffaa"></span> Low (Kp 0-3)</div>
+          </div>
+        </div>
+        <small style="display:block;margin-top:8px;text-align:center;color:var(--text-muted)">Dynamic aurora visualization based on real-time Kp index</small>
+      </div>
+
+      <!-- Solar Activity Card -->
+      <div class="card">
+        <h2><i class="fas fa-sun"></i> Solar Activity</h2>
+        <div id="solar-data" class="loading"><i class="fas fa-spinner fa-spin"></i> Loading...</div>
+      </div>
+
+      <!-- X-ray Gauge Card -->
+      <div class="card">
+        <h2><i class="fas fa-radiation"></i> Solar Radiation (X-ray)</h2>
+        <div class="gauge-container" id="xray-gauge">
+          <svg viewBox="0 0 200 120">
+            <defs><linearGradient id="xray-grad"><stop offset="0%" stop-color="#10b981"/><stop offset="50%" stop-color="#fbbf24"/><stop offset="100%" stop-color="#ef4444"/></linearGradient></defs>
+            <path d="M20 100 A80 80 0 1 1 180 100" fill="none" stroke="#334155" stroke-width="16"/>
+            <path id="xray-arc" d="M20 100 A80 80 0 1 1 180 100" fill="none" stroke="url(#xray-grad)" stroke-width="16" stroke-linecap="round" stroke-dasharray="0 251.3"></path>
+            <circle cx="100" cy="100" r="8" fill="#fff"></circle>
+            <text x="100" y="65" text-anchor="middle" class="gauge-value" id="xray-value">--</text>
+          </svg>
+          <div class="needle" id="xray-needle"></div>
+        </div>
+        <div id="xray-info" class="loading"></div>
+      </div>
+
+      <!-- Dst Gauge Card -->
+      <div class="card">
+        <h2><i class="fas fa-magnet"></i> Geomagnetic Storms (Dst)</h2>
+        <div class="gauge-container" id="dst-gauge">
+          <svg viewBox="0 0 200 120">
+            <defs><linearGradient id="dst-grad"><stop offset="0%" stop-color="#ef4444"/><stop offset="50%" stop-color="#fbbf24"/><stop offset="100%" stop-color="#10b981"/></linearGradient></defs>
+            <path d="M20 100 A80 80 0 1 1 180 100" fill="none" stroke="#334155" stroke-width="16"/>
+            <path id="dst-arc" d="M20 100 A80 80 0 1 1 180 100" fill="none" stroke="url(#dst-grad)" stroke-width="16" stroke-linecap="round" stroke-dasharray="0 251.3"></path>
+            <circle cx="100" cy="100" r="8" fill="#fff"></circle>
+            <text x="100" y="65" text-anchor="middle" class="gauge-value" id="dst-value">--</text>
+          </svg>
+          <div class="needle" id="dst-needle"></div>
+        </div>
+        <div id="dst-info" class="loading"></div>
+      </div> 
+
+      <!-- ISS Tracking Card -->
+      <div class="card">
+        <h2><i class="fas fa-satellite-dish"></i> ISS Tracking</h2>
+        <div id="iss-map" style="height:300px;border-radius:12px;background:#000"></div>
+        <small style="display:block;margin-top:8px;color:var(--text-muted)">Real-time International Space Station tracking</small>
+      </div>
+
+      <!-- Aurora Forecast Card -->
+      <div class="card">
+        <h2><i class="fas fa-cloud-aurora"></i> Aurora Forecast</h2>
+        <div id="aurora-forecast" class="loading">Loading...</div>
+      </div>
+
+      <!-- News Feed Card -->
+      <div class="card">
+        <h2><i class="fas fa-newspaper"></i> Latest Space News</h2>
+        <div id="news-feed" class="loading">Loading...</div>
+      </div>
+
+      <!-- System Status Card -->
+      <div class="card" style="grid-column:1/-1">
         <h2><i class="fas fa-info-circle"></i> System Status</h2>
         <div id="system-status" class="loading">Checking...</div>
       </div>
     </div>
-  </section>
   </main>
 
   <footer>
