@@ -1,10 +1,14 @@
 {
-  "lastUpdate": "2025-12-08T13:08:32.926Z",
-  "status": "success",
-  "message": "Data updated successfully from NOAA and NASA",
-  "timestamp": 1765199312926,
-  "dataSources": [
-    "NOAA SWPC",
-    "NASA"
-  ]
+  "lastUpdate": "2024-01-01T00:00:00.000Z",
+  "status": "pending",
+  "message": "Initial setup. First data update scheduled.",
+  "timestamp": 1704067200000,
+  "dataSources": [],
+  "metrics": {
+    "kpIndex": 0,
+    "xrayFlux": "A0.0",
+    "dstIndex": 0,
+    "solarWindSpeed": 0,
+    "flareCount": 0
+  }
 }
