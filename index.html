@@ -276,17 +276,50 @@
         }
 
         .news-item {
-            padding: 15px;
-            background: rgba(168, 85, 247, 0.05);
-            border-radius: 12px;
-            margin-bottom: 12px;
+            padding: 16px;
+            background: rgba(168, 85, 247, 0.03);
+            border-radius: 10px;
+            margin-bottom: 10px;
             transition: all 0.2s ease;
-            border: 1px solid transparent;
+            border-left: 2px solid rgba(0, 212, 255, 0.3);
         }
 
         .news-item:hover {
-            background: rgba(168, 85, 247, 0.1);
-            border-color: rgba(168, 85, 247, 0.3);
+            background: rgba(168, 85, 247, 0.08);
+            border-left-color: var(--aurora-cyan);
+            transform: translateX(4px);
+        }
+
+        .news-item h4 {
+            font-size: 0.95rem;
+            margin-bottom: 6px;
+            line-height: 1.4;
+        }
+
+        .news-item p {
+            color: rgba(230, 237, 243, 0.7);
+            font-size: 0.88rem;
+            line-height: 1.5;
+            margin-bottom: 10px;
+        }
+
+        .news-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 8px;
+            font-size: 0.82rem;
+        }
+
+        .news-source {
+            color: rgba(230, 237, 243, 0.5);
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .news-date {
+            color: rgba(230, 237, 243, 0.4);
         }
 
         .news-item a {
@@ -294,8 +327,8 @@
             text-decoration: none;
             display: inline-flex;
             align-items: center;
-            gap: 5px;
-            margin-top: 8px;
+            gap: 6px;
+            font-size: 0.85rem;
             font-weight: 500;
             transition: all 0.2s ease;
         }
@@ -303,6 +336,10 @@
         .news-item a:hover {
             color: var(--aurora-purple);
             gap: 8px;
+        }
+
+        .news-item a i {
+            font-size: 0.75rem;
         }
 
         footer {
@@ -701,13 +738,13 @@
                 html += `
                     <div class="news-item">
                         <h4>${title}</h4>
-                        <p>${summary.substring(0, 100)}${summary.length > 100 ? '...' : ''}</p>
-                        <div style="display: flex; justify-content: space-between; margin-top: 8px;">
-                            <small><i class="fas fa-newspaper"></i> ${source}</small>
-                            <small>${formatDate(date)}</small>
+                        <p>${summary.substring(0, 120)}${summary.length > 120 ? '...' : ''}</p>
+                        <div class="news-meta">
+                            <span class="news-source"><i class="fas fa-newspaper"></i> ${source}</span>
+                            <span class="news-date">${formatDate(date)}</span>
                         </div>
                         <a href="${link}" target="_blank" rel="noopener">
-                            Read more <i class="fas fa-external-link-alt"></i>
+                            Read more <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
                 `;
