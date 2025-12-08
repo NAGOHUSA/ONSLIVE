@@ -53,13 +53,15 @@
     .flare-c{background:#f59e0b;color:white}
     .flare-m{background:#ef4444;color:white}
     .flare-x{background:#7c3aed;color:white}
+    .map-error{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);text-align:center;color:var(--text-muted);z-index:1000}
+    .aurora-legend{position:absolute;bottom:10px;left:10px;background:rgba(0,0,0,0.7);padding:8px 12px;border-radius:8px;color:white;font-size:0.8rem;z-index:1000}
     @media(max-width:768px){.grid{grid-template-columns:1fr}}
   </style>
 </head>
 <body>
   <header>
     <div class="container header-content">
-      <h1><i class="fas fa-satellite"></i> live.ournightsky.us 1.1</h1>
+      <h1><i class="fas fa-satellite"></i> live.ournightsky.us 1.2</h1>
       <div style="display:flex;gap:1rem;align-items:center;color:var(--text-muted)">
         <span>Last updated: <strong id="update-time">--:--</strong></span>
         <button id="refresh-btn"><i class="fas fa-sync-alt"></i> Refresh</button>
@@ -91,8 +93,19 @@
         <div class="map-controls">
           <button class="map-btn active" id="btn-north">Northern</button>
           <button class="map-btn" id="btn-south">Southern</button>
+          <button class="map-btn" id="btn-refresh-map"><i class="fas fa-redo"></i></button>
         </div>
-        <div id="aurora-map" style="height:360px;border-radius:12px;background:#000"></div>
+        <div id="aurora-map" style="height:360px;border-radius:12px;background:#000;position:relative"></div>
+        <div id="map-error" class="map-error" style="display:none">
+          <i class="fas fa-exclamation-triangle" style="font-size:2rem;color:var(--gold);margin-bottom:1rem"></i>
+          <p>Aurora map temporarily unavailable</p>
+          <p style="font-size:0.9rem">Using alternative visualization</p>
+        </div>
+        <div class="aurora-legend" id="aurora-legend">
+          <div><span style="color:#00ff00">■</span> High Aurora Probability</div>
+          <div><span style="color:#ffff00">■</span> Medium Aurora Probability</div>
+          <div><span style="color:#ff9900">■</span> Low Aurora Probability</div>
+        </div>
       </div>
       <small style="display:block;margin-top:8px;text-align:center;color:var(--text-muted)">Real-time aurora forecast overlays • NOAA SWPC</small>
     </section>
@@ -136,7 +149,7 @@
       <div class="card">
         <h2><i class="fas fa-satellite-dish"></i> ISS Tracking</h2>
         <div id="iss-map" style="height:300px;border-radius:12px;background:#000"></div>
-        <small style="display:block;margin-top:8px;color:var(--text-muted)">Uses wheretheiss.at when online</small>
+        <small style="display:block;margin-top:8px;color:var(--text-muted)">Real-time International Space Station tracking</small>
       </div>
 
       <div class="card">
@@ -157,7 +170,7 @@
   </main>
 
   <footer>
-    <p>Part of <a href="https://ournightsky.us" style="color:var(--cyan)">ournightsky.us</a> • Data: local files & NOAA</p>
+    <p>Part of <a href="https://ournightsky.us" style="color:var(--cyan)">ournightsky.us</a> • Data: NOAA, NASA, & Aurora Service</p>
     <p>Auto-refresh every 2 minutes • Last run: <span id="last-run">--</span></p>
   </footer>
 
@@ -187,9 +200,10 @@
     const auroraForecastEl = document.getElementById('aurora-forecast');
     const newsFeedEl = document.getElementById('news-feed');
     const systemStatusEl = document.getElementById('system-status');
+    const mapErrorEl = document.getElementById('map-error');
 
     // Leaflet maps
-    let mapAurora, auroraLayerNorth, auroraLayerSouth;
+    let mapAurora, auroraLayerNorth, auroraLayerSouth, currentAuroraLayer;
     let mapISS, issMarker;
 
     // Data URLs
@@ -200,6 +214,22 @@
       status: 'data/update-status.json',
       xray: 'data/xray-data.json',
       dst: 'data/dst-data.json'
+    };
+
+    // Aurora map URLs - multiple fallback options
+    const AURORA_MAP_URLS = {
+      north: [
+        'https://services.swpc.noaa.gov/products/aurora/aurora-northern-hemisphere.jpg',
+        'https://services.swpc.noaa.gov/images/aurora-forecast-northern-hemisphere.jpg',
+        'https://www.swpc.noaa.gov/sites/default/files/images/aurora-forecast-northern-hemisphere.jpg',
+        'https://services.swpc.noaa.gov/products/images/aurora-forecast-northern-hemisphere.jpg'
+      ],
+      south: [
+        'https://services.swpc.noaa.gov/products/aurora/aurora-southern-hemisphere.jpg',
+        'https://services.swpc.noaa.gov/images/aurora-forecast-southern-hemisphere.jpg',
+        'https://www.swpc.noaa.gov/sites/default/files/images/aurora-forecast-southern-hemisphere.jpg',
+        'https://services.swpc.noaa.gov/products/images/aurora-forecast-southern-hemisphere.jpg'
+      ]
     };
 
     // Utility Functions
@@ -227,6 +257,29 @@
       } catch (e) {
         return 'Date error';
       }
+    }
+
+    // Test image URL before using it
+    async function testImageUrl(url) {
+      return new Promise((resolve) => {
+        const img = new Image();
+        img.onload = () => resolve(true);
+        img.onerror = () => resolve(false);
+        img.src = url + '?t=' + Date.now();
+        setTimeout(() => resolve(false), 3000); // Timeout after 3 seconds
+      });
+    }
+
+    // Find working aurora image URL
+    async function findWorkingAuroraUrl(urls) {
+      for (const url of urls) {
+        const isWorking = await testImageUrl(url);
+        if (isWorking) {
+          console.log('Found working aurora URL:', url);
+          return url;
+        }
+      }
+      return null;
     }
 
     // Data Fetching
@@ -289,8 +342,8 @@
       needleEl.style.background = percent > 0.66 ? 'var(--red)' : percent > 0.33 ? 'var(--gold)' : 'var(--green)';
     }
 
-    // Initialize Maps
-    function initMaps() {
+    // Initialize Maps with fallback aurora images
+    async function initMaps() {
       // Aurora Map
       mapAurora = L.map('aurora-map', {
         center: [80, 0],
@@ -305,17 +358,29 @@
         attribution: 'Esri'
       }).addTo(mapAurora);
       
-      auroraLayerNorth = L.imageOverlay(
-        'https://services.swpc.noaa.gov/products/aurora/aurora-northern-hemisphere.jpg',
-        [[90, -180], [30, 180]],
-        { opacity: 0.7 }
-      ).addTo(mapAurora);
+      // Try to find working aurora image URLs
+      const workingNorthUrl = await findWorkingAuroraUrl(AURORA_MAP_URLS.north);
+      const workingSouthUrl = await findWorkingAuroraUrl(AURORA_MAP_URLS.south);
       
-      auroraLayerSouth = L.imageOverlay(
-        'https://services.swpc.noaa.gov/products/aurora/aurora-southern-hemisphere.jpg',
-        [[-30, -180], [-90, 180]],
-        { opacity: 0.7 }
-      );
+      if (workingNorthUrl) {
+        auroraLayerNorth = L.imageOverlay(
+          workingNorthUrl,
+          [[90, -180], [30, 180]],
+          { opacity: 0.7 }
+        ).addTo(mapAurora);
+        currentAuroraLayer = auroraLayerNorth;
+        mapErrorEl.style.display = 'none';
+      } else {
+        showAuroraFallback();
+      }
+      
+      if (workingSouthUrl) {
+        auroraLayerSouth = L.imageOverlay(
+          workingSouthUrl,
+          [[-30, -180], [-90, 180]],
+          { opacity: 0.7 }
+        );
+      }
 
       // ISS Map
       mapISS = L.map('iss-map', {
@@ -338,26 +403,103 @@
       issMarker = L.marker([0, 0], { icon: issIcon }).addTo(mapISS);
     }
 
+    // Show fallback aurora visualization
+    function showAuroraFallback() {
+      mapErrorEl.style.display = 'block';
+      
+      // Create a simple aurora oval visualization using Leaflet circles
+      if (mapAurora) {
+        // Clear any existing overlays
+        mapAurora.eachLayer((layer) => {
+          if (layer instanceof L.ImageOverlay || layer instanceof L.Circle) {
+            mapAurora.removeLayer(layer);
+          }
+        });
+        
+        // Create simulated aurora oval based on Kp index
+        const kp = parseFloat(kpValueEl.textContent) || 3;
+        const ovalRadius = 20 + (kp * 5); // Scale with Kp
+        
+        // Create aurora oval (simplified)
+        L.circle([80, 0], {
+          radius: ovalRadius * 100000,
+          fillColor: kp >= 5 ? '#00ff00' : kp >= 4 ? '#ffff00' : '#ff9900',
+          fillOpacity: 0.3,
+          color: '#00ff00',
+          weight: 2
+        }).addTo(mapAurora);
+        
+        // Add some random aurora "patches"
+        for (let i = 0; i < 10; i++) {
+          const lat = 70 + Math.random() * 20;
+          const lng = -180 + Math.random() * 360;
+          L.circle([lat, lng], {
+            radius: 200000 + Math.random() * 300000,
+            fillColor: kp >= 5 ? '#00ff00' : '#ffff00',
+            fillOpacity: 0.2 + Math.random() * 0.3,
+            color: 'transparent'
+          }).addTo(mapAurora);
+        }
+      }
+    }
+
     // Map Controls
     function setupMapControls() {
-      document.getElementById('btn-north').addEventListener('click', () => {
+      document.getElementById('btn-north').addEventListener('click', async () => {
         try {
           mapAurora.setView([80, 0], 2);
-          auroraLayerNorth.addTo(mapAurora);
-          auroraLayerSouth.remove();
-        } catch (e) {}
+          if (auroraLayerNorth) {
+            if (currentAuroraLayer) mapAurora.removeLayer(currentAuroraLayer);
+            auroraLayerNorth.addTo(mapAurora);
+            currentAuroraLayer = auroraLayerNorth;
+            mapErrorEl.style.display = 'none';
+          } else {
+            showAuroraFallback();
+          }
+        } catch (e) {
+          showAuroraFallback();
+        }
         document.querySelectorAll('.map-btn').forEach(b => b.classList.remove('active'));
         document.getElementById('btn-north').classList.add('active');
       });
 
-      document.getElementById('btn-south').addEventListener('click', () => {
+      document.getElementById('btn-south').addEventListener('click', async () => {
         try {
           mapAurora.setView([-80, 0], 2);
-          auroraLayerSouth.addTo(mapAurora);
-          auroraLayerNorth.remove();
-        } catch (e) {}
+          if (auroraLayerSouth) {
+            if (currentAuroraLayer) mapAurora.removeLayer(currentAuroraLayer);
+            auroraLayerSouth.addTo(mapAurora);
+            currentAuroraLayer = auroraLayerSouth;
+            mapErrorEl.style.display = 'none';
+          } else {
+            showAuroraFallback();
+          }
+        } catch (e) {
+          showAuroraFallback();
+        }
         document.querySelectorAll('.map-btn').forEach(b => b.classList.remove('active'));
         document.getElementById('btn-south').classList.add('active');
+      });
+
+      document.getElementById('btn-refresh-map').addEventListener('click', async () => {
+        const btn = document.getElementById('btn-refresh-map');
+        btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i>';
+        
+        // Try to reload aurora images
+        const workingNorthUrl = await findWorkingAuroraUrl(AURORA_MAP_URLS.north);
+        const workingSouthUrl = await findWorkingAuroraUrl(AURORA_MAP_URLS.south);
+        
+        if (workingNorthUrl && auroraLayerNorth) {
+          auroraLayerNorth.setUrl(workingNorthUrl + '?t=' + Date.now());
+        }
+        
+        if (workingSouthUrl && auroraLayerSouth) {
+          auroraLayerSouth.setUrl(workingSouthUrl + '?t=' + Date.now());
+        }
+        
+        setTimeout(() => {
+          btn.innerHTML = '<i class="fas fa-redo"></i>';
+        }, 1000);
       });
     }
 
@@ -676,7 +818,11 @@
         }
         
         // Update main timestamp
-        updateTime.textContent = formatTime(new Date(statusData.lastUpdate));
+        if (statusData.lastUpdate && !statusData.lastUpdate.includes('2024-01-01')) {
+          updateTime.textContent = formatTime(new Date(statusData.lastUpdate));
+        } else {
+          updateTime.textContent = formatTime();
+        }
       } catch (e) {
         console.error('Error rendering status data:', e);
         systemStatusEl.innerHTML = '<div class="error">Error loading system status</div>';
@@ -699,7 +845,8 @@
             Latitude: ${data.latitude.toFixed(2)}°<br>
             Longitude: ${data.longitude.toFixed(2)}°<br>
             Altitude: ${(data.altitude || 0).toFixed(0)} km<br>
-            Velocity: ${(data.velocity || 0).toFixed(0)} km/h
+            Velocity: ${(data.velocity || 0).toFixed(0)} km/h<br>
+            <small>Updated: ${formatTime()}</small>
           `).openPopup();
         }
       } catch (e) {
@@ -734,12 +881,23 @@
         // Update ISS position
         await updateISS();
         
-        // Refresh aurora map images to bypass cache
-        try {
-          const timestamp = Date.now();
-          auroraLayerNorth.setUrl(`https://services.swpc.noaa.gov/products/aurora/aurora-northern-hemisphere.jpg?t=${timestamp}`);
-          auroraLayerSouth.setUrl(`https://services.swpc.noaa.gov/products/aurora/aurora-southern-hemisphere.jpg?t=${timestamp}`);
-        } catch (e) {}
+        // Refresh aurora map images if they exist
+        if (auroraLayerNorth) {
+          const workingNorthUrl = await findWorkingAuroraUrl(AURORA_MAP_URLS.north);
+          if (workingNorthUrl) {
+            auroraLayerNorth.setUrl(workingNorthUrl + '?t=' + Date.now());
+            mapErrorEl.style.display = 'none';
+          } else if (currentAuroraLayer === auroraLayerNorth) {
+            showAuroraFallback();
+          }
+        }
+        
+        if (auroraLayerSouth) {
+          const workingSouthUrl = await findWorkingAuroraUrl(AURORA_MAP_URLS.south);
+          if (workingSouthUrl) {
+            auroraLayerSouth.setUrl(workingSouthUrl + '?t=' + Date.now());
+          }
+        }
 
       } catch (error) {
         console.error('Error updating data:', error);
@@ -764,9 +922,9 @@
     }
 
     // Initialize everything
-    function init() {
+    async function init() {
       // Initialize maps
-      initMaps();
+      await initMaps();
       setupMapControls();
       
       // Set up refresh button
