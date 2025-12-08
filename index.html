@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
   <script src="https://cmp.gatekeeperconsent.com/min.js" data-cfasync="false"></script>
-<script src="https://the.gatekeeperconsent.com/cmp.min.js" data-cfasync="false"></script>
-
+  <script src="https://the.gatekeeperconsent.com/cmp.min.js" data-cfasync="false"></script>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Live Space Weather • ournightsky.us</title>
@@ -65,7 +64,7 @@
 <body>
   <header>
     <div class="container header-content">
-      <h1><i class="fas fa-satellite"></i> live.ournightsky.us 1.4</h1>
+      <h1><i class="fas fa-satellite"></i> live.ournightsky.us 1.5</h1>
       <div style="display:flex;gap:1rem;align-items:center;color:var(--text-muted)">
         <span>Last updated: <strong id="update-time">--:--</strong></span>
         <button id="refresh-btn"><i class="fas fa-sync-alt"></i> Refresh</button>
@@ -75,6 +74,21 @@
 
   <main class="container">
     <section class="hero">
+      <h2><i class="fas fa-compass"></i> Current Space Weather Activity</h2>
+      <div class="gauge-container" id="kp-gauge">
+        <svg viewBox="0 0 200 120" preserveAspectRatio="xMidYMid meet">
+          <defs>
+            <linearGradient id="kp-grad"><stop offset="0%" stop-color="#10b981"/><stop offset="50%" stop-color="#fbbf24"/><stop offset="100%" stop-color="#ef4444"/></linearGradient>
+          </defs>
+          <path d="M20 100 A80 80 0 1 1 180 100" fill="none" stroke="#334155" stroke-width="16"></path>
+          <path id="kp-arc" d="M20 100 A80 80 0 1 1 180 100" fill="none" stroke="url(#kp-grad)" stroke-width="16" stroke-linecap="round" stroke-dasharray="0 251.3"></path>
+          <circle cx="100" cy="100" r="8" fill="#fff"></circle>
+          <text x="100" y="65" text-anchor="middle" class="gauge-value" id="kp-value">--</text>
+        </svg>
+        <div class="needle" id="kp-needle"></div>
+      </div>
+      <p id="aurora-message" style="margin-top:1rem;color:var(--text-muted)">Loading aurora summary...</p>
+    </section>
 
     <div class="grid">
       <!-- Aurora Map Card -->
@@ -154,23 +168,7 @@
         <h2><i class="fas fa-newspaper"></i> Latest Space News</h2>
         <div id="news-feed" class="loading">Loading...</div>
       </div>
-      
-      <h2><i class="fas fa-compass"></i> Current Space Weather Activity</h2>
-      <div class="gauge-container" id="kp-gauge">
-        <svg viewBox="0 0 200 120" preserveAspectRatio="xMidYMid meet">
-          <defs>
-            <linearGradient id="kp-grad"><stop offset="0%" stop-color="#10b981"/><stop offset="50%" stop-color="#fbbf24"/><stop offset="100%" stop-color="#ef4444"/></linearGradient>
-          </defs>
-          <path d="M20 100 A80 80 0 1 1 180 100" fill="none" stroke="#334155" stroke-width="16"></path>
-          <path id="kp-arc" d="M20 100 A80 80 0 1 1 180 100" fill="none" stroke="url(#kp-grad)" stroke-width="16" stroke-linecap="round" stroke-dasharray="0 251.3"></path>
-          <circle cx="100" cy="100" r="8" fill="#fff"></circle>
-          <text x="100" y="65" text-anchor="middle" class="gauge-value" id="kp-value">--</text>
-        </svg>
-        <div class="needle" id="kp-needle"></div>
-      </div>
-      
-      <p id="aurora-message" style="margin-top:1rem;color:var(--text-muted)">Loading aurora summary...</p>
-    </section>
+
       <!-- System Status Card -->
       <div class="card" style="grid-column:1/-1">
         <h2><i class="fas fa-info-circle"></i> System Status</h2>
@@ -178,6 +176,10 @@
       </div>
     </div>
   </main>
+
+  <!-- Ezoic - incontent_5 - incontent_5 -->
+  <div id="ezoic-pub-ad-placeholder-115"></div>
+  <!-- End Ezoic - incontent_5 - incontent_5 -->
 
   <footer>
     <p>Part of <a href="https://ournightsky.us" style="color:var(--cyan)">ournightsky.us</a> • Data: NOAA, NASA, & Aurora Service</p>
@@ -312,12 +314,12 @@
       needleEl.style.background = percent > 0.66 ? 'var(--red)' : percent > 0.33 ? 'var(--gold)' : 'var(--green)';
     }
 
-    // Initialize Maps - FIXED: Changed initial view to show more of the auroral region
+    // Initialize Maps
     function initMaps() {
-      // Aurora Map - Adjusted to show more of the northern hemisphere
+      // Aurora Map
       mapAurora = L.map('aurora-map', {
-        center: [65, 0],  // Changed from [80, 0] to [65, 0] to show more of the auroral region
-        zoom: 3,          // Increased zoom from 2 to 3 to fill more space
+        center: [65, 0],
+        zoom: 3,
         minZoom: 2,
         maxZoom: 5,
         worldCopyJump: true,
@@ -349,7 +351,7 @@
       issMarker = L.marker([0, 0], { icon: issIcon }).addTo(mapISS);
     }
 
-    // Create Aurora Visualization - SIMPLIFIED VERSION
+    // Create Aurora Visualization
     function createAuroraVisualization(kpValue = 3) {
       // Clear any existing aurora circles
       auroraCircles.forEach(circle => {
@@ -368,25 +370,25 @@
       // Determine colors based on Kp value
       let primaryColor, secondaryColor;
       if (kpValue >= 8) {
-        primaryColor = '#ff0066'; // Extreme - bright pink
+        primaryColor = '#ff0066';
         secondaryColor = '#ff3399';
       } else if (kpValue >= 6) {
-        primaryColor = '#ff5500'; // Strong - orange
+        primaryColor = '#ff5500';
         secondaryColor = '#ff9900';
       } else if (kpValue >= 4) {
-        primaryColor = '#ffff00'; // Moderate - yellow
+        primaryColor = '#ffff00';
         secondaryColor = '#ffff99';
       } else {
-        primaryColor = '#00ffaa'; // Low - cyan
+        primaryColor = '#00ffaa';
         secondaryColor = '#66ffcc';
       }
       
       // Base oval size based on Kp value
-      const baseRadius = 15 + (kpValue * 3); // Scale with Kp
-      const ovalRadius = baseRadius * 100000; // Convert to meters
+      const baseRadius = 15 + (kpValue * 3);
+      const ovalRadius = baseRadius * 100000;
       
-      // Create main aurora oval - adjust position based on hemisphere
-      const centerLat = isNorthern ? 65 : -65;  // Adjusted from 80 to 65 to match map center
+      // Create main aurora oval
+      const centerLat = isNorthern ? 65 : -65;
       const mainOval = L.circle([centerLat, 0], {
         radius: ovalRadius,
         fillColor: primaryColor,
@@ -398,20 +400,15 @@
       
       auroraCircles.push(mainOval);
       
-      // Create aurora "patches" for more realistic look
+      // Create aurora "patches"
       const patchCount = Math.min(15, 5 + Math.floor(kpValue * 2));
       
       for (let i = 0; i < patchCount; i++) {
-        // Random position within the auroral zone - adjusted for better visibility
         const patchLat = isNorthern ? 
-          (55 + Math.random() * 20) :  // Adjusted from 70 to 55
-          (-55 - Math.random() * 20);  // Adjusted from -70 to -55
+          (55 + Math.random() * 20) : 
+          (-55 - Math.random() * 20);
         const patchLng = -180 + Math.random() * 360;
-        
-        // Size varies with Kp
         const patchSize = (200000 + Math.random() * 400000) * (1 + kpValue / 10);
-        
-        // Opacity varies
         const patchOpacity = 0.2 + Math.random() * 0.4;
         
         const auroraPatch = L.circle([patchLat, patchLng], {
@@ -425,7 +422,7 @@
         auroraCircles.push(auroraPatch);
       }
       
-      // Add pulsating effect to some patches
+      // Add pulsating effect
       if (kpValue >= 5) {
         setTimeout(() => {
           auroraCircles.forEach((circle, index) => {
@@ -440,11 +437,11 @@
       }
     }
 
-    // Map Controls - FIXED: Updated view coordinates to match new center
+    // Map Controls
     function setupMapControls() {
       document.getElementById('btn-north').addEventListener('click', () => {
         try {
-          mapAurora.setView([65, 0], 3);  // Changed from [80, 0], 2
+          mapAurora.setView([65, 0], 3);
           createAuroraVisualization(parseFloat(kpValueEl.textContent) || 3);
         } catch (e) {
           console.error('Error switching to northern view:', e);
@@ -455,7 +452,7 @@
 
       document.getElementById('btn-south').addEventListener('click', () => {
         try {
-          mapAurora.setView([-65, 0], 3);  // Changed from [-80, 0], 2
+          mapAurora.setView([-65, 0], 3);
           createAuroraVisualization(parseFloat(kpValueEl.textContent) || 3);
         } catch (e) {
           console.error('Error switching to southern view:', e);
@@ -468,7 +465,6 @@
         const btn = document.getElementById('btn-refresh-map');
         btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i>';
         
-        // Recreate aurora visualization with current Kp
         const currentKp = parseFloat(kpValueEl.textContent) || 3;
         createAuroraVisualization(currentKp);
         
@@ -506,7 +502,7 @@
         } else {
           kpValueEl.textContent = '--';
           auroraMessageEl.textContent = 'Kp data unavailable';
-          createAuroraVisualization(3); // Default visualization
+          createAuroraVisualization(3);
         }
 
         // Solar Wind
@@ -569,7 +565,7 @@
       } catch (e) {
         console.error('Error rendering NOAA data:', e);
         solarDataEl.innerHTML = '<div class="error">Error loading solar data</div>';
-        createAuroraVisualization(3); // Default visualization on error
+        createAuroraVisualization(3);
       }
     }
 
@@ -579,7 +575,6 @@
           const numericValue = xrayData.numeric || 0;
           const xrayClass = xrayData.class || 'A';
           
-          // Scale for gauge (A0.0 to X10.0)
           let gaugeValue = numericValue;
           let maxValue = 10;
           
@@ -631,7 +626,6 @@
         if (dstData && typeof dstData.current === 'number') {
           const dstValue = dstData.current;
           
-          // For Dst, we use reverse gauge (higher negative = worse storm)
           const absValue = Math.abs(dstValue);
           updateGauge(dstValueEl, dstArc, dstNeedle, absValue, 0, 100, '', true);
           
@@ -775,7 +769,6 @@
           `;
         }
 
-        // Add data sources if available
         if (statusData.dataSources && Array.isArray(statusData.dataSources) && statusData.dataSources.length > 0) {
           statusHtml += `
             <div class="data-item" style="margin-top: 1rem">
@@ -794,12 +787,10 @@
         systemStatusEl.classList.remove('loading');
         systemStatusEl.innerHTML = statusHtml;
 
-        // Update last run time
         if (lastRunEl && statusData.lastUpdate) {
           lastRunEl.textContent = formatDateString(statusData.lastUpdate);
         }
         
-        // Update main timestamp
         if (statusData.lastUpdate && !statusData.lastUpdate.includes('2024-01-01')) {
           updateTime.textContent = formatTime(new Date(statusData.lastUpdate));
         } else {
@@ -821,7 +812,6 @@
             mapISS.setView([data.latitude, data.longitude], 3);
           } catch (e) {}
           
-          // Update ISS marker tooltip
           issMarker.bindPopup(`
             <strong>International Space Station</strong><br>
             Latitude: ${data.latitude.toFixed(2)}°<br>
@@ -842,7 +832,6 @@
       refreshBtn.innerHTML = '<i class="fas fa-sync-alt fa-spin"></i> Updating...';
 
       try {
-        // Load all data files
         const [noaaData, auroraData, newsData, statusData, xrayData, dstData] = await Promise.all([
           fetchLocalOrRemote(DATA_URLS.noaa),
           fetchLocalOrRemote(DATA_URLS.aurora),
@@ -852,7 +841,6 @@
           fetchLocalOrRemote(DATA_URLS.dst)
         ]);
 
-        // Render all data
         renderNOAAData(noaaData, xrayData, dstData);
         renderXrayData(xrayData);
         renderDstData(dstData);
@@ -860,13 +848,11 @@
         renderNewsData(newsData);
         renderStatusData(statusData);
         
-        // Update ISS position
         await updateISS();
 
       } catch (error) {
         console.error('Error updating data:', error);
         
-        // Show error state
         const errorHtml = `<div class="error">
           <strong>⚠️ Data Loading Error</strong>
           <div>Failed to load some data: ${error.message || 'Network error'}</div>
@@ -892,7 +878,7 @@
       setupMapControls();
       
       // Create initial aurora visualization
-      createAuroraVisualization(3); // Default Kp 3
+      createAuroraVisualization(3);
       
       // Set up refresh button
       refreshBtn.addEventListener('click', updateAll);
@@ -910,16 +896,13 @@
 
     // Start the app when DOM is loaded
     document.addEventListener('DOMContentLoaded', init);
-    <script async src="//www.ezojs.com/ezoic/sa.min.js"></script>
-<script>
+  </script>
+  
+  <!-- External ad scripts -->
+  <script async src="//www.ezojs.com/ezoic/sa.min.js"></script>
+  <script>
     window.ezstandalone = window.ezstandalone || {};
     ezstandalone.cmd = ezstandalone.cmd || [];
-</script>
-
-  <!-- Ezoic - incontent_5 - incontent_5 -->
-<div id="ezoic-pub-ad-placeholder-115"></div>
-<!-- End Ezoic - incontent_5 - incontent_5 -->
-  
   </script>
 </body>
 </html>
