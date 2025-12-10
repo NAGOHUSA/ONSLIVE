@@ -1,8 +1,8 @@
 {
-  "lastUpdate": "2025-12-10T16:45:12.241Z",
+  "lastUpdate": "2025-12-10T17:00:04.594Z",
   "status": "success",
   "message": "All space weather data updated successfully",
-  "timestamp": 1765385112241,
+  "timestamp": 1765386004594,
   "dataSources": [
     "NOAA Space Weather Prediction Center",
     "NASA GOES Satellite Data",
