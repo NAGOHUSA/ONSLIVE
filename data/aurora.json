@@ -1,7 +1,7 @@
 {
-  "forecast": "Current Kp index is 2.0 (LOW). Aurora activity is quiet. The auroral oval is near normal size. Next 3 hours forecast: Kp 2.5.",
-  "kpIndex": 2,
-  "updated": "2025-12-10T08:59:58.992Z",
+  "forecast": "Current Kp index is 3.3 (LOW). Aurora activity is quiet. The auroral oval is near normal size. Next 3 hours forecast: Kp 3.8.",
+  "kpIndex": 3.33,
+  "updated": "2025-12-10T09:25:02.687Z",
   "source": "NOAA Aurora Forecast",
   "probability": "Low",
   "bestViewing": "Not favorable"
