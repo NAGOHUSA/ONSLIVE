@@ -1,7 +1,9 @@
+name: Update Space Weather Data
+
 on:
   schedule:
-    - cron: '*/10 * * * *'  # Every 10 minutes for more frequent updates
-  workflow_dispatch:        # Manual trigger
+    - cron: '*/10 * * * *'  # Every 10 minutes
+  workflow_dispatch:  # Manual trigger
   push:
     branches: [ main ]
 
@@ -25,122 +27,26 @@ jobs:
     
     - name: Install dependencies
       run: |
-        if [ ! -f "package.json" ]; then
-          echo '{
-            "name": "enhanced-space-weather",
-            "version": "2.0.0",
-            "dependencies": {
-              "axios": "^1.6.0"
-            }
-          }' > package.json
-        fi
-        npm install
+        npm init -y
+        npm install axios
     
-    - name: Ensure data directory exists
-      run: |
-        mkdir -p data
-        # Create initial files if they don't exist
-        if [ ! -f "data/noaa-data.json" ]; then
-          echo '{"kpIndex":[],"solarWind":[],"solarFlares":[],"updated":"2024-01-01T00:00:00.000Z","source":"NOAA SWPC"}' > data/noaa-data.json
-        fi
-        if [ ! -f "data/aurora.json" ]; then
-          echo '{"forecast":"Initializing...","updated":"2024-01-01T00:00:00.000Z","source":"Dashboard"}' > data/aurora.json
-        fi
-        if [ ! -f "data/news.json" ]; then
-          echo '[]' > data/news.json
-        fi
-        if [ ! -f "data/update-status.json" ]; then
-          echo '{"lastUpdate":"2024-01-01T00:00:00.000Z","status":"pending","message":"Initial setup"}' > data/update-status.json
-        fi
-        if [ ! -f "data/xray-data.json" ]; then
-          echo '{"current":"A0.0","numeric":0,"class":"A","updated":"2024-01-01T00:00:00.000Z","description":"Background solar activity"}' > data/xray-data.json
-        fi
-        if [ ! -f "data/dst-data.json" ]; then
-          echo '{"current":0,"updated":"2024-01-01T00:00:00.000Z","stormLevel":"Quiet","description":"Geomagnetic conditions quiet"}' > data/dst-data.json
-        fi
-        # Add meteor data file
-        if [ ! -f "data/meteor.json" ]; then
-          echo '{
-            "current": 3.5,
-            "max": 10,
-            "activity": "Moderate",
-            "description": "Typical background meteor activity",
-            "updated": "2024-01-15T12:30:00Z",
-            "showers": [
-              {
-                "name": "Quadrantids",
-                "peak": "Jan 3-4",
-                "zhr": 120,
-                "active": true,
-                "rating": 8
-              },
-              {
-                "name": "Lyrids",
-                "peak": "Apr 21-22",
-                "zhr": 18,
-                "active": false,
-                "rating": 4
-              },
-              {
-                "name": "Perseids",
-                "peak": "Aug 12-13",
-                "zhr": 100,
-                "active": false,
-                "rating": 7
-              },
-              {
-                "name": "Orionids",
-                "peak": "Oct 21-22",
-                "zhr": 20,
-                "active": false,
-                "rating": 5
-              },
-              {
-                "name": "Leonids",
-                "peak": "Nov 17-18",
-                "zhr": 15,
-                "active": false,
-                "rating": 3
-              },
-              {
-                "name": "Geminids",
-                "peak": "Dec 13-14",
-                "zhr": 150,
-                "active": true,
-                "rating": 9
-              }
-            ],
-            "activeShowers": [
-              {
-                "name": "Geminids",
-                "zhr": 150,
-                "peak": "Active Now",
-                "description": "One of the best showers of the year, producing up to 150 meteors/hour at peak."
-              }
-            ],
-            "nextMajorShower": {
-              "name": "Quadrantids",
-              "date": "Jan 3-4, 2024",
-              "zhr": 120,
-              "description": "First major shower of the year, known for bright fireballs."
-            }
-          }' > data/meteor.json
-        fi
+    - name: Create data directory
+      run: mkdir -p data
     
-    - name: Update enhanced data
+    - name: Update space weather data
       run: |
-        node scripts/update-data.js
+        node update-data.js
     
     - name: Commit and push updates
       run: |
         git config user.name "GitHub Actions"
         git config user.email "actions@github.com"
         
-        # Check if data files have changed
-        if git status --porcelain data/ | grep -q '^[ MAD]'; then
+        # Check if there are changes to commit
+        if git status --porcelain | grep -q '^[ MAD]'; then
           echo "🌌 Changes detected in data files"
           git add data/
-          git commit -m "🌠 Update enhanced space weather data [$(date -u +'%Y-%m-%d %H:%M UTC')]"
+          git commit -m "🌠 Update space weather data [$(date -u +'%Y-%m-%d %H:%M UTC')]"
           git push
         else
           echo "No changes in data files"
