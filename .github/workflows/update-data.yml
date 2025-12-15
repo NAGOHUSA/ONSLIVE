@@ -2,52 +2,32 @@ name: Update Space Weather Data
 
 on:
   schedule:
-    - cron: '*/10 * * * *'  # Every 10 minutes
+    - cron: '*/5 * * * *'  # Every 5 minutes
   workflow_dispatch:  # Manual trigger
-  push:
-    branches: [ main ]
-
-permissions:
-  contents: write
 
 jobs:
-  update-data:
+  update:
     runs-on: ubuntu-latest
     
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
+    - uses: actions/checkout@v4
     
     - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
         node-version: '18'
+        cache: 'npm'
     
     - name: Install dependencies
-      run: |
-        npm init -y
-        npm install axios
+      run: npm install
     
-    - name: Create data directory
-      run: mkdir -p data
+    - name: Run data update
+      run: node scripts/update-data.js
     
-    - name: Update space weather data
+    - name: Commit and push if changed
       run: |
-        node update-data.js
-    
-    - name: Commit and push updates
-      run: |
-        git config user.name "GitHub Actions"
-        git config user.email "actions@github.com"
-        
-        # Check if there are changes to commit
-        if git status --porcelain | grep -q '^[ MAD]'; then
-          echo "🌌 Changes detected in data files"
-          git add data/
-          git commit -m "🌠 Update space weather data [$(date -u +'%Y-%m-%d %H:%M UTC')]"
-          git push
-        else
-          echo "No changes in data files"
-        fi
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add data/
+        git diff --quiet && git diff --staged --quiet || git commit -m "Update space weather data"
+        git push
