@@ -3,6 +3,8 @@ const path = require('path');
 const axios = require('axios');
 
 const dataDir = path.join(__dirname, 'data');
+
+// Create data directory if it doesn't exist (synchronous check)
 if (!fs.existsSync) {
     const fsSync = require('fs');
     if (!fsSync.existsSync(dataDir)) {
