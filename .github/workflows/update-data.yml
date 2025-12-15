@@ -10,16 +10,25 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - uses: actions/checkout@v4
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0  # Fetches all history for proper versioning
     
     - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
         node-version: '18'
         cache: 'npm'
+        # 🔧 FIX: This tells the action to look for package-lock.json in ANY directory
+        cache-dependency-path: '**/package-lock.json'
     
     - name: Install dependencies
-      run: npm install
+      run: |
+        # Use npm ci for clean, reproducible installs (requires package-lock.json)
+        npm ci
+        # If the above fails, fall back to regular install
+        # npm install
     
     - name: Run data update
       run: node scripts/update-data.js
@@ -29,5 +38,10 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add data/
-        git diff --quiet && git diff --staged --quiet || git commit -m "Update space weather data"
-        git push
+        # Only commit if there are actual changes
+        if git diff --staged --quiet; then
+          echo "No changes to commit."
+        else
+          git commit -m "Auto-update: $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
+        fi
