@@ -20,28 +20,35 @@ jobs:
       with:
         node-version: '18'
         cache: 'npm'
-        # 🔧 FIX: This tells the action to look for package-lock.json in ANY directory
+        # Looks for package-lock.json in ANY directory
         cache-dependency-path: '**/package-lock.json'
     
     - name: Install dependencies
       run: |
-        # Use npm ci for clean, reproducible installs (requires package-lock.json)
-        npm ci
-        # If the above fails, fall back to regular install
-        # npm install
+        # 🔧 FIX: Real fallback if package-lock.json is missing
+        if [ -f package-lock.json ]; then
+          npm ci
+        else
+          echo "No package-lock.json found. Running 'npm install' instead."
+          npm install
+        fi
     
     - name: Run data update
       run: node scripts/update-data.js
     
     - name: Commit and push if changed
+      env:
+        # 🔧 CRITICAL FIX: Token for authentication
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
         git add data/
         # Only commit if there are actual changes
         if git diff --staged --quiet; then
           echo "No changes to commit."
         else
           git commit -m "Auto-update: $(date -u +'%Y-%m-%d %H:%M UTC')"
-          git push
+          # Push using the authenticated token
+          git push "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git"
         fi
