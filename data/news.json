@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Live coverage: SpaceX preps sunrise Starlink from Kennedy Space Center",
+      "link": "https://spaceflightnow.com/2025/12/16/live-coverage-spacex-preps-sunrise-starlink-from-kennedy-space-center/",
+      "source": "Spaceflight Now",
+      "date": "2025-12-16T23:14:15Z",
+      "summary": "The Starlink 6-99 mission represents SpaceX’s 125th launch to date from Launch Complex 39A at NASA’s Kennedy Space Center. Liftoff is scheduled during a window that opens at 7:19 a.m. EST (1219 UTC). "
+    },
+    {
       "title": "Launch Roundup: Ariane 6, Falcon 9, Atlas V, and Electron launches highlight busy week",
       "link": "https://www.nasaspaceflight.com/2025/12/launch-roundup-121625/",
       "source": "NASASpaceflight",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2025-12-16T20:35:35Z",
       "summary": "After 25 years of continuous human presence in space, the International Space Station remains a training and proving ground for deep space missions, enabling NASA to focus on Artemis missions to the Moon and Mars. The orbiting laboratory is also a living archive of human experience, culture, and connection.   Creating community With 290 visitors from […]"
-    },
-    {
-      "title": "NASA Ignites New Golden Age of Exploration, Innovation in 2025",
-      "link": "https://www.nasa.gov/news-release/nasa-ignites-new-golden-age-of-exploration-innovation-in-2025/",
-      "source": "NASA",
-      "date": "2025-12-16T19:48:18Z",
-      "summary": "With a second Trump Administration at the helm in 2025, NASA marked significant progress toward the Artemis II test flight early next year, which is the first crewed mission around the Moon in more than 50 years, as well as built upon its momentum toward a human return to the lunar surface in preparation to […]"
     }
   ],
-  "updated": "2025-12-16T22:59:39.301Z"
+  "updated": "2025-12-16T23:20:29.699Z"
 }
