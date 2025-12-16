@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA IXPE’s Longest Observation Solves Black Hole Jets Mystery",
+      "link": "https://www.nasa.gov/missions/ixpe/nasa-ixpes-longest-observation-solves-black-hole-jets-mystery/",
+      "source": "NASA",
+      "date": "2025-12-16T21:23:13Z",
+      "summary": "Written by Michael Allen An international team of astronomers using NASA’s IXPE (Imaging X-ray Polarimetry Explorer) has identified the origin of X-rays in a supermassive black hole’s jet, answering a question that has been unresolved since the earliest days of X-ray astronomy. Their findings are described in a paper published in The Astrophysical Journal Letters, […]"
+    },
+    {
       "title": "NASA Launches Research Program for Students to Explore Big Ideas",
       "link": "https://www.nasa.gov/learning-resources/research-program-for-students/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2025-12-16T19:45:41Z",
       "summary": "Volunteers participating in the Lake Observations by Citizen Scientists and Satellites (LOCSS) project have been collecting water level data in lakes since 2017. Now, the LOCSS team has used these data to examine the accuracy of water level measurements made from space."
-    },
-    {
-      "title": "NASA JPL Shakes Things Up Testing Future Commercial Lunar Spacecraft",
-      "link": "https://www.nasa.gov/centers-and-facilities/jpl/nasa-jpl-shakes-things-up-testing-future-commercial-lunar-spacecraft/",
-      "source": "NASA",
-      "date": "2025-12-16T19:43:07Z",
-      "summary": "The same historic facilities that some 50 years ago prepared NASA’s twin Voyager probes for their ongoing interstellar odyssey are helping to ready a towering commercial spacecraft for a journey to the Moon. Launches involve brutal shaking and astonishingly loud noises, and testing in these facilities mimics those conditions to help ensure mission hardware can […]"
     }
   ],
-  "updated": "2025-12-16T21:18:06.617Z"
+  "updated": "2025-12-16T21:34:16.973Z"
 }

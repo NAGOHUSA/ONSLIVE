@@ -387,20 +387,6 @@
   ],
   "solarFlares": [
     {
-      "time_tag": "2025-12-09T21:30:00Z",
-      "begin_time": "2025-12-09T21:30:00Z",
-      "begin_class": "C2.6",
-      "max_time": "2025-12-09T21:42:00Z",
-      "max_class": "C5.0",
-      "max_xrlong": 0.000005092853825772181,
-      "max_ratio": 0.09638460913946482,
-      "max_ratio_time": "2025-12-09T21:38:51Z",
-      "current_int_xrlong": 0.008785774931311607,
-      "end_time": "2025-12-09T22:03:00Z",
-      "end_class": "C3.8",
-      "satellite": 18
-    },
-    {
       "time_tag": "2025-12-09T22:32:00Z",
       "begin_time": "2025-12-09T22:32:00Z",
       "begin_class": "C2.2",
@@ -1325,5 +1311,5 @@
       "satellite": 18
     }
   ],
-  "lastUpdated": "2025-12-16T21:18:06.442Z"
+  "lastUpdated": "2025-12-16T21:34:16.906Z"
 }
