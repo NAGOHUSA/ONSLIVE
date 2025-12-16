@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA Launches Research Program for Students to Explore Big Ideas",
+      "link": "https://www.nasa.gov/learning-resources/research-program-for-students/",
+      "source": "NASA",
+      "date": "2025-12-16T21:01:46Z",
+      "summary": "NASA is now accepting concepts for a new research challenge. The Opportunities in Research, Business, Innovation, and Technology (ORBIT) challenge is a multi-phase innovation competition designed to empower university and college students to develop next-generation solutions that benefit life on Earth and deep-space exploration. With up to $380,000 in total prize funding, NASA’s ORBIT challenges […]"
+    },
+    {
       "title": "Through Astronaut Eyes: 25 Years of Life in Orbit",
       "link": "https://www.nasa.gov/centers-and-facilities/johnson/through-astronaut-eyes-25-years-of-life-in-orbit/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2025-12-16T19:43:07Z",
       "summary": "The same historic facilities that some 50 years ago prepared NASA’s twin Voyager probes for their ongoing interstellar odyssey are helping to ready a towering commercial spacecraft for a journey to the Moon. Launches involve brutal shaking and astonishingly loud noises, and testing in these facilities mimics those conditions to help ensure mission hardware can […]"
-    },
-    {
-      "title": "Peekaboo!",
-      "link": "https://www.nasa.gov/image-article/peekaboo-2/",
-      "source": "NASA",
-      "date": "2025-12-16T17:27:30Z",
-      "summary": "Clockwise from left, JAXA (Japan Aerospace Exploration Agency) astronaut Kimiya Yui and NASA astronauts Jonny Kim, Zena Cardman, and Mike Fincke pose for a playful portrait through a circular opening in a hatch thermal cover aboard the International Space Station on Sept. 18, 2025. The cover provides micrometeoroid and orbital debris protection while maintaining cleanliness […]"
     }
   ],
-  "updated": "2025-12-16T21:03:27.913Z"
+  "updated": "2025-12-16T21:18:06.617Z"
 }
