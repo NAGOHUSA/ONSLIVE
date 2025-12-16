@@ -1,1 +1,82 @@
-{}
+{
+  "starlink": [
+    {
+      "name": "STARLINK-1008",
+      "id": "2019-074B",
+      "epoch": "2025-12-16T07:21:54.933984",
+      "meanMotion": 15.06399033,
+      "inclination": 53.0559
+    },
+    {
+      "name": "STARLINK-1012",
+      "id": "2019-074F",
+      "epoch": "2025-12-15T21:16:50.678688",
+      "meanMotion": 15.06398101,
+      "inclination": 53.0533
+    },
+    {
+      "name": "STARLINK-1017",
+      "id": "2019-074L",
+      "epoch": "2025-12-16T06:43:47.474112",
+      "meanMotion": 15.17891655,
+      "inclination": 53.0488
+    },
+    {
+      "name": "STARLINK-1019",
+      "id": "2019-074M",
+      "epoch": "2025-12-16T06:36:11.500704",
+      "meanMotion": 15.56401802,
+      "inclination": 53.0519
+    },
+    {
+      "name": "STARLINK-1020",
+      "id": "2019-074N",
+      "epoch": "2025-12-15T22:55:02.619552",
+      "meanMotion": 15.06412452,
+      "inclination": 53.0526
+    },
+    {
+      "name": "STARLINK-1031",
+      "id": "2019-074Z",
+      "epoch": "2025-12-15T19:52:25.051008",
+      "meanMotion": 15.59905706,
+      "inclination": 53.0473
+    },
+    {
+      "name": "STARLINK-1036",
+      "id": "2019-074AE",
+      "epoch": "2025-12-15T22:01:56.820000",
+      "meanMotion": 15.06401655,
+      "inclination": 53.0529
+    },
+    {
+      "name": "STARLINK-1039",
+      "id": "2019-074AH",
+      "epoch": "2025-12-16T01:48:52.662528",
+      "meanMotion": 15.15369871,
+      "inclination": 53.0494
+    },
+    {
+      "name": "STARLINK-1042",
+      "id": "2019-074AL",
+      "epoch": "2025-12-15T16:46:18.924096",
+      "meanMotion": 15.45484868,
+      "inclination": 53.0439
+    },
+    {
+      "name": "STARLINK-1043",
+      "id": "2019-074AM",
+      "epoch": "2025-12-16T01:49:14.530368",
+      "meanMotion": 15.44393818,
+      "inclination": 53.0548
+    }
+  ],
+  "iss": {
+    "latitude": 51.640842205644,
+    "longitude": 164.51735046333,
+    "altitude": 425.97200679393,
+    "velocity": 27579.73092465,
+    "visibility": "daylight"
+  },
+  "updated": "2025-12-16T21:03:29.202Z"
+}

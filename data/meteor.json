@@ -1,1 +1,79 @@
-{}
+{
+  "majorShowers": [
+    {
+      "name": "Quadrantids",
+      "peakDate": "2025-01-03",
+      "zhr": "120",
+      "activePeriod": "Dec 28 - Jan 12",
+      "constellation": "Boötes",
+      "description": "Known for bright fireballs"
+    },
+    {
+      "name": "Lyrids",
+      "peakDate": "2025-04-22",
+      "zhr": "18",
+      "activePeriod": "Apr 16 - Apr 25",
+      "constellation": "Lyra",
+      "description": "Medium brightness, fast meteors"
+    },
+    {
+      "name": "Eta Aquariids",
+      "peakDate": "2025-05-06",
+      "zhr": "50",
+      "activePeriod": "Apr 19 - May 28",
+      "constellation": "Aquarius",
+      "description": "Fast and bright, from Halley's Comet"
+    },
+    {
+      "name": "Perseids",
+      "peakDate": "2025-08-12",
+      "zhr": "100",
+      "activePeriod": "Jul 17 - Aug 24",
+      "constellation": "Perseus",
+      "description": "Most popular shower, bright and numerous"
+    },
+    {
+      "name": "Orionids",
+      "peakDate": "2025-10-21",
+      "zhr": "20",
+      "activePeriod": "Oct 2 - Nov 7",
+      "constellation": "Orion",
+      "description": "Fast meteors from Halley's Comet"
+    },
+    {
+      "name": "Leonids",
+      "peakDate": "2025-11-17",
+      "zhr": "15",
+      "activePeriod": "Nov 6 - Nov 30",
+      "constellation": "Leo",
+      "description": "Known for meteor storms every 33 years"
+    },
+    {
+      "name": "Geminids",
+      "peakDate": "2025-12-14",
+      "zhr": "150",
+      "activePeriod": "Dec 4 - Dec 17",
+      "constellation": "Gemini",
+      "description": "Most reliable and active shower"
+    },
+    {
+      "name": "Ursids",
+      "peakDate": "2025-12-22",
+      "zhr": "10",
+      "activePeriod": "Dec 17 - Dec 26",
+      "constellation": "Ursa Minor",
+      "description": "Minor shower, sometimes produces outbursts"
+    }
+  ],
+  "upcoming": [
+    {
+      "name": "Ursids",
+      "peakDate": "2025-12-22",
+      "zhr": "10",
+      "activePeriod": "Dec 17 - Dec 26",
+      "constellation": "Ursa Minor",
+      "description": "Minor shower, sometimes produces outbursts"
+    }
+  ],
+  "updated": "2025-12-16T21:03:27.259Z"
+}

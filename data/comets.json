@@ -1,1 +1,29 @@
-{}
+{
+  "comets": [
+    {
+      "name": "12P/Pons-Brooks",
+      "period": "71 years",
+      "nextPerihelion": "2024-04-21",
+      "magnitude": "4.5",
+      "constellation": "Andromeda",
+      "description": "Periodic comet known for outbursts"
+    },
+    {
+      "name": "C/2023 A3 (Tsuchinshan-ATLAS)",
+      "period": "~80,000 years",
+      "nextPerihelion": "2024-09-27",
+      "magnitude": "0.5",
+      "constellation": "Leo",
+      "description": "Potentially bright comet in 2024"
+    },
+    {
+      "name": "144P/Kushida",
+      "period": "7.6 years",
+      "nextPerihelion": "2024-01-25",
+      "magnitude": "8.5",
+      "constellation": "Taurus",
+      "description": "Periodic comet visible in telescopes"
+    }
+  ],
+  "updated": "2025-12-16T21:03:27.260Z"
+}
