@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Launch Roundup: Ariane 6, Falcon 9, Atlas V, and Electron launches highlight busy week",
+      "link": "https://www.nasaspaceflight.com/2025/12/launch-roundup-121625/",
+      "source": "NASASpaceflight",
+      "date": "2025-12-16T21:57:58Z",
+      "summary": "Global launch activity is set to surge over the next week, with 13 missions scheduled…\nThe post Launch Roundup: Ariane 6, Falcon 9, Atlas V, and Electron launches highlight busy week appeared first on NASASpaceFlight.com."
+    },
+    {
       "title": "NASA IXPE’s Longest Observation Solves Black Hole Jets Mystery",
       "link": "https://www.nasa.gov/missions/ixpe/nasa-ixpes-longest-observation-solves-black-hole-jets-mystery/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2025-12-16T19:48:18Z",
       "summary": "With a second Trump Administration at the helm in 2025, NASA marked significant progress toward the Artemis II test flight early next year, which is the first crewed mission around the Moon in more than 50 years, as well as built upon its momentum toward a human return to the lunar surface in preparation to […]"
-    },
-    {
-      "title": "How Small Is Too Small? Volunteers Help NASA Test Lake Monitoring From Space",
-      "link": "https://science.nasa.gov/get-involved/citizen-science/how-small-is-too-small-volunteers-help-nasa-test-lake-monitoring-from-space/",
-      "source": "NASA",
-      "date": "2025-12-16T19:45:41Z",
-      "summary": "Volunteers participating in the Lake Observations by Citizen Scientists and Satellites (LOCSS) project have been collecting water level data in lakes since 2017. Now, the LOCSS team has used these data to examine the accuracy of water level measurements made from space."
     }
   ],
-  "updated": "2025-12-16T21:58:39.410Z"
+  "updated": "2025-12-16T22:18:14.859Z"
 }
