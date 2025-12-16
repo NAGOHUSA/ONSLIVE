@@ -351,12 +351,6 @@
       background: rgba(255, 255, 255, 0.03);
       border-radius: 10px;
       border-left: 4px solid var(--blue);
-      transition: all 0.3s;
-    }
-
-    .news-item:hover {
-      background: rgba(255, 255, 255, 0.05);
-      border-left-color: var(--cyan);
     }
 
     .news-title {
@@ -365,7 +359,6 @@
       display: block;
       color: var(--text);
       text-decoration: none;
-      font-size: 0.95rem;
     }
 
     .news-title:hover {
@@ -379,310 +372,57 @@
       gap: 1rem;
     }
 
-    .shower-badge {
+    .flare-badge {
       display: inline-block;
-      padding: 4px 10px;
+      padding: 2px 8px;
       border-radius: 12px;
       font-size: 0.75rem;
       font-weight: 600;
       margin-left: 8px;
     }
 
-    .peak-badge { background: rgba(239, 68, 68, 0.2); color: var(--red); }
-    .active-badge { background: rgba(251, 191, 36, 0.2); color: var(--gold); }
-    .low-badge { background: rgba(59, 130, 246, 0.2); color: var(--blue); }
-
-    /* Alert Styles */
-    .alert-banner {
-      padding: 0.8rem;
-      border-radius: 10px;
-      margin-bottom: 1rem;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      animation: pulse 2s infinite;
-    }
-
-    .alert-critical { background: rgba(239, 68, 68, 0.2); border-left: 4px solid var(--red); }
-    .alert-warning { background: rgba(251, 191, 36, 0.2); border-left: 4px solid var(--gold); }
-    .alert-info { background: rgba(59, 130, 246, 0.2); border-left: 4px solid var(--blue); }
-
-    @keyframes pulse {
-      0% { opacity: 1; }
-      50% { opacity: 0.7; }
-      100% { opacity: 1; }
-    }
-
-    /* Satellite marker styles */
-    .sat-marker {
-      background: none !important;
-      border: none !important;
-    }
-
-    .iss-marker {
-      background: var(--cyan) !important;
-      border: 2px solid white !important;
-      box-shadow: 0 0 15px var(--cyan) !important;
-    }
-
-    footer {
-      text-align: center;
-      padding: 2rem 1rem;
-      margin-top: 2rem;
-      color: var(--text-muted);
-      border-top: 1px solid var(--border);
-      background: rgba(0, 0, 0, 0.2);
-    }
-
-    /* Responsive adjustments */
-    @media (max-width: 1400px) {
-      .dashboard {
-        grid-template-columns: repeat(3, 1fr);
-      }
-      .hero-card { grid-column: 1 / -1; }
-      .aurora-map { grid-column: 1 / 3; }
-      .satellite-map { grid-column: 3; }
-      .news-feed { grid-column: 1 / 3; }
-      .graphs { grid-column: 3; }
-      .iss-tracking, .solar-wind, .radiation, .system-status,
-      .forecast, .satellite-list, .weather-alerts, .space-weather {
-        grid-column: auto;
-        grid-row: auto;
-      }
-    }
-
-    @media (max-width: 1024px) {
-      .dashboard {
-        grid-template-columns: repeat(2, 1fr);
-      }
-      .hero-card,
-      .aurora-map,
-      .satellite-map,
-      .news-feed,
-      .graphs {
-        grid-column: 1 / -1;
-      }
-    }
-
-    @media (max-width: 768px) {
-      .dashboard {
-        grid-template-columns: 1fr;
-      }
-      .header-content {
-        flex-direction: column;
-        text-align: center;
-      }
-      .compact-gauge {
-        flex-direction: column;
-        text-align: center;
-      }
-      .map-container {
-        height: 250px;
-      }
-    }
-
-    ::-webkit-scrollbar {
-      width: 8px;
-      height: 8px;
-    }
-
-    ::-webkit-scrollbar-track {
-      background: rgba(255, 255, 255, 0.05);
-      border-radius: 4px;
-    }
-
-    ::-webkit-scrollbar-thumb {
-      background: linear-gradient(135deg, var(--cyan), var(--purple));
-      border-radius: 4px;
-    }
+    .flare-a { background: rgba(16, 185, 129, 0.2); color: var(--green); }
+    .flare-b { background: rgba(59, 130, 246, 0.2); color: var(--blue); }
+    .flare-c { background: rgba(245, 158, 11, 0.2); color: var(--gold); }
+    .flare-m { background: rgba(239, 68, 68, 0.2); color: var(--red); }
+    .flare-x { background: rgba(139, 92, 246, 0.2); color: var(--purple); }
 
     .loading {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100px;
+      text-align: center;
       color: var(--text-muted);
+      font-style: italic;
     }
 
-    .loading::after {
-      content: '';
-      width: 20px;
-      height: 20px;
-      border: 3px solid var(--border);
-      border-top-color: var(--cyan);
-      border-radius: 50%;
-      animation: spin 1s linear infinite;
-      margin-left: 10px;
-    }
-
-    @keyframes spin {
-      to { transform: rotate(360deg); }
-    }
-
-    /* Value change animations */
-    .value-up {
-      color: var(--green) !important;
-      animation: valueUp 0.5s ease;
-    }
-
-    .value-down {
-      color: var(--red) !important;
-      animation: valueDown 0.5s ease;
-    }
-
-    @keyframes valueUp {
-      0% { transform: translateY(0); }
-      50% { transform: translateY(-5px); }
-      100% { transform: translateY(0); }
-    }
-
-    @keyframes valueDown {
-      0% { transform: translateY(0); }
-      50% { transform: translateY(5px); }
-      100% { transform: translateY(0); }
-    }
-
-    /* Tooltip */
-    [data-tooltip] {
-      position: relative;
-      cursor: help;
-    }
-
-    [data-tooltip]:hover::before {
-      content: attr(data-tooltip);
-      position: absolute;
-      bottom: 100%;
-      left: 50%;
-      transform: translateX(-50%);
-      background: rgba(0, 0, 0, 0.9);
-      color: white;
-      padding: 8px 12px;
-      border-radius: 8px;
-      font-size: 0.9rem;
-      white-space: nowrap;
-      z-index: 1000;
-      border: 1px solid var(--border);
-    }
   </style>
 </head>
 <body>
   <header>
-    <div class="container header-content">
-      <h1>
-        <i class="fas fa-satellite"></i>
-        Live Space Weather
-        <small style="font-size: 0.6em; color: var(--cyan)">v3.0</small>
-      </h1>
-      
-      <div class="header-actions">
-        <div style="color: var(--text-muted); display: flex; align-items: center; gap: 1rem;">
-          <span><i class="fas fa-clock"></i> Updated: <strong id="update-time">--:--</strong></span>
-          <span><i class="fas fa-sync-alt"></i> Auto: <strong>2 min</strong></span>
-          <span id="alert-indicator" style="display: none;">
-            <i class="fas fa-exclamation-triangle" style="color: var(--gold);"></i>
-            <span id="alert-count">0</span> alerts
-          </span>
-        </div>
-        
-        <div class="controls">
-          <button id="refresh-btn" class="btn">
-            <i class="fas fa-sync-alt"></i> Refresh
-          </button>
-          <button id="fullscreen-btn" class="btn btn-outline" title="Fullscreen">
-            <i class="fas fa-expand"></i>
-          </button>
+    <div class="container">
+      <div class="header-content">
+        <h1><i class="fas fa-rocket"></i> Live Space Weather</h1>
+        <div class="header-actions">
+          <div class="controls">
+            <button class="btn" id="refresh-all">
+              <i class="fas fa-sync"></i> Refresh
+            </button>
+            <span style="color: var(--text-muted); font-size: 0.9rem;">
+              Next update: <span id="next-update">--:--</span>
+            </span>
+          </div>
         </div>
       </div>
     </div>
   </header>
 
-  <!-- Global Alerts Banner -->
-  <div id="global-alerts" class="container" style="margin-top: 1rem; display: none;"></div>
-
-  <main class="container">
+  <div class="container">
     <div class="dashboard">
-      <!-- Hero Overview -->
-      <div class="card hero-card">
-        <div class="card-header">
-          <h2><i class="fas fa-chart-line"></i> Space Weather Overview</h2>
-          <div id="aurora-alert" style="color: var(--cyan); font-weight: 600;"></div>
-        </div>
-        <div class="card-content">
-          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem;">
-            <div class="compact-gauge">
-              <div class="gauge-mini">
-                <svg viewBox="0 0 100 100">
-                  <circle cx="50" cy="50" r="45" fill="none" stroke="#334155" stroke-width="8"/>
-                  <circle id="kp-circle" cx="50" cy="50" r="45" fill="none" stroke="var(--cyan)" stroke-width="8" stroke-linecap="round" stroke-dasharray="0 283"/>
-                </svg>
-                <div class="gauge-value-mini" id="kp-value">--</div>
-              </div>
-              <div class="gauge-info">
-                <h3>Kp Index</h3>
-                <div id="kp-status" class="gauge-status status-good">Quiet</div>
-                <div style="font-size: 0.8rem; color: var(--text-muted); margin-top: 0.5rem;">Aurora visibility</div>
-              </div>
-            </div>
-
-            <div class="compact-gauge">
-              <div class="gauge-mini">
-                <svg viewBox="0 0 100 100">
-                  <circle cx="50" cy="50" r="45" fill="none" stroke="#334155" stroke-width="8"/>
-                  <circle id="xray-circle" cx="50" cy="50" r="45" fill="none" stroke="var(--gold)" stroke-width="8" stroke-linecap="round" stroke-dasharray="0 283"/>
-                </svg>
-                <div class="gauge-value-mini" id="xray-value">--</div>
-              </div>
-              <div class="gauge-info">
-                <h3>X-ray Flux</h3>
-                <div id="xray-status" class="gauge-status status-good">Normal</div>
-                <div style="font-size: 0.8rem; color: var(--text-muted); margin-top: 0.5rem;">Solar radiation</div>
-              </div>
-            </div>
-
-            <div class="compact-gauge">
-              <div class="gauge-mini">
-                <svg viewBox="0 0 100 100">
-                  <circle cx="50" cy="50" r="45" fill="none" stroke="#334155" stroke-width="8"/>
-                  <circle id="dst-circle" cx="50" cy="50" r="45" fill="none" stroke="var(--purple)" stroke-width="8" stroke-linecap="round" stroke-dasharray="0 283"/>
-                </svg>
-                <div class="gauge-value-mini" id="dst-value">--</div>
-              </div>
-              <div class="gauge-info">
-                <h3>Dst Index</h3>
-                <div id="dst-status" class="gauge-status status-good">Stable</div>
-                <div style="font-size: 0.8rem; color: var(--text-muted); margin-top: 0.5rem;">Geomagnetic storm</div>
-              </div>
-            </div>
-
-            <div class="compact-gauge">
-              <div class="gauge-mini">
-                <svg viewBox="0 0 100 100">
-                  <circle cx="50" cy="50" r="45" fill="none" stroke="#334155" stroke-width="8"/>
-                  <circle id="wind-circle" cx="50" cy="50" r="45" fill="none" stroke="var(--orange)" stroke-width="8" stroke-linecap="round" stroke-dasharray="0 283"/>
-                </svg>
-                <div class="gauge-value-mini" id="wind-value">--</div>
-              </div>
-              <div class="gauge-info">
-                <h3>Solar Wind</h3>
-                <div id="wind-status" class="gauge-status status-good">Calm</div>
-                <div style="font-size: 0.8rem; color: var(--text-muted); margin-top: 0.5rem;">Particle speed</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <!-- Hero Card (if any) -->
 
       <!-- Aurora Map -->
       <div class="card aurora-map">
         <div class="card-header">
-          <h2><i class="fas fa-globe-americas"></i> Aurora Oval</h2>
-          <div style="display: flex; gap: 0.5rem;">
-            <button class="btn-outline" style="padding: 4px 10px; border-radius: 8px; cursor: pointer;" id="btn-north">North</button>
-            <button class="btn-outline" style="padding: 4px 10px; border-radius: 8px; cursor: pointer;" id="btn-south">South</button>
-            <button class="btn-outline" style="padding: 4px 10px; border-radius: 8px; cursor: pointer;" id="btn-refresh-aurora">
-              <i class="fas fa-redo"></i>
-            </button>
-          </div>
+          <h2><i class="fas fa-cloud-moon"></i> Aurora Map</h2>
+          <span id="aurora-status" class="gauge-status status-good">Quiet</span>
         </div>
         <div class="card-content">
           <div class="map-container">
@@ -824,7 +564,20 @@
           <span id="iss-status" class="gauge-status status-good">Online</span>
         </div>
         <div class="card-content">
-          <div id="iss-data" class="loading">Loading...</div>
+          <div id="iss-data" class="data-list">
+            <div class="data-item">
+              <span class="data-label">Altitude</span>
+              <span class="data-value" id="iss-alt">-- km</span>
+            </div>
+            <div class="data-item">
+              <span class="data-label">Velocity</span>
+              <span class="data-value" id="iss-vel">-- km/h</span>
+            </div>
+            <div class="data-item">
+              <span class="data-label">Visibility</span>
+              <span class="data-value" id="iss-vis">--</span>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -898,3 +651,507 @@
       <div class="card space-weather">
         <div class="card-header">
           <h2><i class="fas fa-cloud-sun"></i> Space Weather</h2>
+          <span id="space-weather-status" class="gauge-status status-good">Quiet</span>
+        </div>
+        <div class="card-content">
+          <div id="space-weather" class="loading">Loading...</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const elements = {
+      solarData: document.getElementById('solar-data'),
+      geomagneticData: document.getElementById('geomagnetic-data'),
+      radiationData: document.getElementById('radiation-data'),
+      newsFeed: document.getElementById('news-feed'),
+      auroraForecast: document.getElementById('aurora-forecast'),
+      meteorData: document.getElementById('meteor-data'),
+      systemStatus: document.getElementById('system-status'),
+      moonIcon: document.getElementById('moon-icon'),
+      moonPhaseName: document.getElementById('moon-phase-name'),
+      moonAge: document.getElementById('moon-age'),
+      moonNextFull: document.getElementById('moon-next-full'),
+      moonTimes: document.getElementById('moon-times'),
+      moonIllumination: document.getElementById('moon-illumination'),
+      issAlt: document.getElementById('iss-alt'),
+      issVel: document.getElementById('iss-vel'),
+      issVis: document.getElementById('iss-vis'),
+      satelliteList: document.getElementById('satellite-list'),
+      spaceWeather: document.getElementById('space-weather'),
+      auroraKpValue: document.getElementById('aurora-kp-value'),
+      nextUpdate: document.getElementById('next-update'),
+      // Add more as needed for solar-wind-data, weather-alerts, etc.
+    };
+
+    const DATA_URLS = {
+      noaa: 'data/noaa.json',
+      aurora: 'data/aurora.json',
+      xray: 'data/xray.json',
+      dst: 'data/dst.json',
+      news: 'data/news.json',
+      meteor: 'data/meteor.json',
+      status: 'data/status.json',
+      moon: 'data/moon.json',
+      satellites: 'data/satellites.json',
+      comets: 'data/comets.json'
+    };
+
+    async function fetchData(url) {
+      try {
+        const res = await fetch(url + '?' + new Date().getTime()); // Cache buster
+        if (!res.ok) throw new Error('Failed to fetch');
+        return await res.json();
+      } catch (error) {
+        console.warn('Failed to fetch ' + url, error);
+        showError('Failed to load data from ' + url);
+        return null;
+      }
+    }
+
+    function updateSolarData(data) {
+      if (!data) return;
+      
+      let html = '<div class="data-list">';
+      if (data.solarFlares && data.solarFlares.length > 0) {
+        const recentFlare = data.solarFlares[data.solarFlares.length - 1];
+        const flareClass = recentFlare.class_type || 'A0.0';
+        html += `
+          <div class="data-item">
+            <span class="data-label">Recent Flare</span>
+            <span class="data-value">${flareClass} <span class="flare-badge flare-${flareClass.charAt(0).toLowerCase()}">${flareClass.charAt(0)}</span></span>
+          </div>
+        `;
+      }
+      if (data.solarWind) {
+        html += `
+          <div class="data-item">
+            <span class="data-label">Wind Speed</span>
+            <span class="data-value">${data.solarWind[2] || '--'} km/s</span>
+          </div>
+          <div class="data-item">
+            <span class="data-label">Density</span>
+            <span class="data-value">${data.solarWind[1] || '--'} p/cm³</span>
+          </div>
+        `;
+      }
+      html += '</div>';
+      elements.solarData.innerHTML = html;
+    }
+
+    function updateGeomagneticData(data) {
+      if (!data) return;
+      
+      let html = '<div class="data-list">';
+      html += `
+        <div class="data-item">
+          <span class="data-label">Current Dst</span>
+          <span class="data-value">${data.current || '--'} nT</span>
+        </div>
+        <div class="data-item">
+          <span class="data-label">Storm Level</span>
+          <span class="data-value">${data.stormLevel || 'Quiet'}</span>
+        </div>
+      `;
+      
+      if (data.history && data.history.length > 0) {
+        const min = Math.min(...data.history.map(d => d.value));
+        const max = Math.max(...data.history.map(d => d.value));
+        html += `
+          <div class="data-item">
+            <span class="data-label">Range (24h)</span>
+            <span class="data-value">${min} to ${max} nT</span>
+          </div>
+        `;
+      }
+      
+      html += '</div>';
+      elements.geomagneticData.innerHTML = html;
+    }
+
+    function updateRadiationData(data) {
+      if (!data) return;
+      
+      elements.radiationData.innerHTML = `
+        <div class="data-list">
+          <div class="data-item">
+            <span class="data-label">X-ray Flux</span>
+            <span class="data-value">${data.current || '--'}</span>
+          </div>
+          <div class="data-item">
+            <span class="data-label">Class</span>
+            <span class="data-value">${data.class || '--'}</span>
+          </div>
+          <div class="data-item">
+            <span class="data-label">Numeric</span>
+            <span class="data-value">${data.numeric || '--'}</span>
+          </div>
+        </div>
+      `;
+    }
+
+    function updateNewsData(data) {
+      if (!data || !Array.isArray(data)) return;
+      
+      let html = '';
+      data.slice(0, 5).forEach(item => {
+        html += `
+          <div class="news-item">
+            <a href="${item.link || '#'}" target="_blank" class="news-title">
+              ${item.title || 'Untitled'}
+            </a>
+            <div class="news-meta">
+              <span>${item.source || 'Unknown'}</span>
+              <span>${formatDate(item.date)}</span>
+            </div>
+          </div>
+        `;
+      });
+      
+      elements.newsFeed.innerHTML = html;
+    }
+
+    async function fetchAndRenderNews() {
+      const newsData = await fetchData(DATA_URLS.news);
+      updateNewsData(newsData);
+    }
+
+    function updateAuroraForecast(data) {
+      if (!data) return;
+      
+      elements.auroraForecast.innerHTML = `
+        <div class="data-list">
+          <div class="data-item success">
+            <span class="data-label">Forecast Kp</span>
+            <span class="data-value">${data.kpIndex || '--'}</span>
+          </div>
+          <div class="data-item">
+            <span class="data-label">Probability</span>
+            <span class="data-value">${data.probability || '--'}</span>
+          </div>
+          <div class="data-item">
+            <span class="data-label">Best Viewing</span>
+            <span class="data-value">${data.bestViewing || '--'}</span>
+          </div>
+        </div>
+      `;
+    }
+
+    function updateMeteorData(data) {
+      if (!data) return;
+      
+      let html = '<div class="data-list">';
+      if (data.current !== undefined) {
+        html += `
+          <div class="data-item">
+            <span class="data-label">Activity Level</span>
+            <span class="data-value">${data.activity || data.current}/10</span>
+          </div>
+        `;
+      }
+      
+      if (data.activeShowers && data.activeShowers.length > 0) {
+        html += `<div style="margin-top: 1rem; color: var(--text-muted);">Active Showers:</div>`;
+        data.activeShowers.slice(0, 2).forEach(shower => {
+          html += `
+            <div class="data-item warning">
+              <span class="data-label">${shower.name}</span>
+              <span class="data-value">${shower.zhr || '--'} ZHR</span>
+            </div>
+          `;
+        });
+      }
+      
+      html += '</div>';
+      elements.meteorData.innerHTML = html;
+    }
+
+    function updateSystemStatus(data) {
+      if (!data) return;
+      
+      let statusClass = 'success';
+      let statusText = 'Online';
+      
+      if (data.status === 'error') {
+        statusClass = 'alert';
+        statusText = 'Error';
+      } else if (data.status === 'updating') {
+        statusClass = 'warning';
+        statusText = 'Updating';
+      }
+      
+      document.getElementById('system-status-badge').className = `gauge-status status-${statusClass}`;
+      document.getElementById('system-status-badge').textContent = statusText;
+      
+      elements.systemStatus.innerHTML = `
+        <div class="data-list">
+          <div class="data-item ${statusClass}">
+            <span class="data-label">Status</span>
+            <span class="data-value">${statusText}</span>
+          </div>
+          <div class="data-item">
+            <span class="data-label">Last Update</span>
+            <span class="data-value">${formatDate(data.lastUpdate)}</span>
+          </div>
+        </div>
+      `;
+    }
+
+    function updateChartData(historyData) {
+      if (!historyData) return;
+      
+      // Update Kp history
+      if (historyData.kp && Array.isArray(historyData.kp)) {
+        chartData.kp = historyData.kp.slice(-24).map(point => point[1]);
+        chartData.labels = historyData.kp.slice(-24).map(point => 
+          new Date(point[0]).getHours() + ':00'
+        );
+      }
+      
+      // Update Dst history
+      if (historyData.dst && Array.isArray(historyData.dst)) {
+        chartData.dst = historyData.dst.slice(-24).map(point => point[1]);
+      }
+      
+      // Update X-ray history
+      if (historyData.xray && Array.isArray(historyData.xray)) {
+        chartData.xray = historyData.xray.slice(-24).map(point => point[1]);
+      }
+      
+      // Update chart
+      updateChart('kp');
+    }
+
+    async function updateISS() {
+      try {
+        const data = await fetchData(DATA_URLS.satellites);
+        if (!data || !data.iss) return;
+        
+        const iss = data.iss;
+        issMarker.setLatLng([iss.latitude, iss.longitude]);
+        mapISS.setView([iss.latitude, iss.longitude], 3);
+        
+        elements.issAlt.textContent = `${(iss.altitude || 0).toFixed(0)} km`;
+        elements.issVel.textContent = `${(iss.velocity || 0).toFixed(0)} km/h`;
+        
+        // Calculate visibility
+        const sunPosition = calculateSunPosition();
+        const issPosition = { lat: iss.latitude, lng: iss.longitude };
+        const isVisible = isISSVisible(issPosition, sunPosition);
+        elements.issVis.textContent = isVisible ? 'Visible' : 'Not Visible';
+        elements.issVis.style.color = isVisible ? 'var(--green)' : 'var(--text-muted)';
+        
+      } catch (error) {
+        console.warn('ISS update failed:', error);
+      }
+    }
+
+    function calculateSunPosition() {
+      // Simplified sun position calculation
+      const now = new Date();
+      const hours = now.getUTCHours();
+      const dayOfYear = Math.floor((now - new Date(now.getFullYear(), 0, 0)) / (1000 * 60 * 60 * 24));
+      
+      // Approximate sun declination
+      const declination = 23.44 * Math.sin((2 * Math.PI / 365) * (dayOfYear - 81));
+      
+      // Approximate sun hour angle
+      const hourAngle = (hours - 12) * 15;
+      
+      return {
+        lat: declination,
+        lng: hourAngle
+      };
+    }
+
+    function isISSVisible(issPos, sunPos) {
+      // Simplified visibility check
+      const nightLat = 90 - Math.abs(sunPos.lat);
+      return Math.abs(issPos.lat) > nightLat;
+    }
+
+    function formatDate(dateString) {
+      if (!dateString) return '--';
+      try {
+        const date = new Date(dateString);
+        return date.toLocaleTimeString('en-US', {
+          hour: '2-digit',
+          minute: '2-digit',
+          hour12: false
+        });
+      } catch (e) {
+        return '--';
+      }
+    }
+
+    function updateNextUpdateTime() {
+      const now = new Date();
+      const next = new Date(now.getTime() + 2 * 60000); // 2 minutes from now
+      elements.nextUpdate.textContent = next.toLocaleTimeString('en-US', {
+        hour: '2-digit',
+        minute: '2-digit',
+        hour12: false
+      });
+    }
+
+    function showError(message) {
+      const errorDiv = document.createElement('div');
+      errorDiv.style.cssText = `
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        background: var(--red);
+        color: white;
+        padding: 1rem;
+        border-radius: 8px;
+        z-index: 10000;
+        box-shadow: var(--shadow);
+      `;
+      errorDiv.innerHTML = `<strong>⚠️ Error:</strong> ${message}`;
+      document.body.appendChild(errorDiv);
+      
+      setTimeout(() => errorDiv.remove(), 5000);
+    }
+
+    function updateMoonData(data) {
+      if (!data) return;
+      elements.moonIcon.textContent = data.emoji || '🌑';
+      elements.moonPhaseName.textContent = data.phase || 'Unknown';
+      elements.moonAge.textContent = `${data.ageDays || '--'} days`;
+      elements.moonNextFull.textContent = data.nextFullMoon || '--';
+      elements.moonTimes.textContent = '--:-- / --:--'; // Add logic if data has rise/set
+      elements.moonIllumination.textContent = data.illumination || '--%';
+    }
+
+    function updateSatellitesData(data) {
+      if (!data) return;
+
+      // Update ISS data
+      const iss = data.iss;
+      if (iss) {
+        elements.issAlt.textContent = `${iss.altitude.toFixed(0)} km`;
+        elements.issVel.textContent = `${iss.velocity.toFixed(0)} km/h`;
+        const sunPosition = calculateSunPosition();
+        const issPosition = { lat: iss.latitude, lng: iss.longitude };
+        const isVisible = isISSVisible(issPosition, sunPosition);
+        elements.issVis.textContent = isVisible ? 'Visible' : 'Not Visible';
+        elements.issVis.style.color = isVisible ? 'var(--green)' : 'var(--text-muted)';
+      }
+
+      // Update satellite list
+      let html = '<div class="data-list">';
+      data.notable.forEach(sat => {
+        html += `
+          <div class="data-item">
+            <span class="data-label">${sat.name}</span>
+            <span class="data-value">${sat.altitude || sat.note || '--'}</span>
+          </div>
+        `;
+      });
+      html += '</div>';
+      elements.satelliteList.innerHTML = html;
+      elements.satCountNum.textContent = data.notable.length;
+    }
+
+    function updateCometsData(data) {
+      if (!data) return;
+
+      let html = '<div class="data-list">';
+      data.visibleComets.forEach(comet => {
+        const className = comet.magnitude < 6 ? 'success' : 'warning';
+        html += `
+          <div class="data-item ${className}">
+            <span class="data-label">${comet.name}</span>
+            <span class="data-value">Mag ${comet.magnitude} (${comet.visibility})</span>
+          </div>
+        `;
+      });
+      html += '</div>';
+      elements.spaceWeather.innerHTML = html;
+    }
+
+    // Assume other update functions like updateSolarWindData, updateAlerts if needed
+    // For solar-wind, perhaps use noaa.solarWind
+    function updateSolarWindData(data) {
+      if (!data) return;
+      let html = '<div class="data-list">';
+      html += `
+        <div class="data-item">
+          <span class="data-label">Speed</span>
+          <span class="data-value">${data.solarWind[2] || '--'} km/s</span>
+        </div>
+        <div class="data-item">
+          <span class="data-label">Density</span>
+          <span class="data-value">${data.solarWind[1] || '--'} p/cm³</span>
+        </div>
+      `;
+      html += '</div>';
+      document.getElementById('solar-wind-data').innerHTML = html;
+    }
+
+    // For weather-alerts, if no data, leave as 0
+    // Add if you have alerts in noaa or another file
+
+    async function init() {
+      // Assume initMaps(), initChart() if defined for maps and charts
+
+      const [
+        noaaData,
+        auroraData,
+        xrayData,
+        dstData,
+        meteorData,
+        statusData,
+        moonData,
+        satellitesData,
+        cometsData
+      ] = await Promise.all([
+        fetchData(DATA_URLS.noaa),
+        fetchData(DATA_URLS.aurora),
+        fetchData(DATA_URLS.xray),
+        fetchData(DATA_URLS.dst),
+        fetchData(DATA_URLS.meteor),
+        fetchData(DATA_URLS.status),
+        fetchData(DATA_URLS.moon),
+        fetchData(DATA_URLS.satellites),
+        fetchData(DATA_URLS.comets)
+      ]);
+
+      updateSolarData(noaaData);
+      updateGeomagneticData(dstData);
+      updateRadiationData(xrayData);
+      updateAuroraForecast(auroraData);
+      updateMeteorData(meteorData);
+      updateSystemStatus(statusData);
+      updateMoonData(moonData);
+      updateSatellitesData(satellitesData);
+      updateCometsData(cometsData);
+      updateSolarWindData(noaaData); // Reuse noaa for solar wind
+      fetchAndRenderNews();
+
+      // Update charts if history data available
+      updateChartData({
+        kp: noaaData ? noaaData.kpIndex : [],
+        dst: dstData ? dstData : [], // Assume dst has history if added in script
+        xray: xrayData ? xrayData : []
+      });
+
+      updateNextUpdateTime();
+
+      // Intervals
+      setInterval(updateISS, 60000);
+      setInterval(async () => {
+        // Refetch all
+        const newNoaa = await fetchData(DATA_URLS.noaa);
+        updateSolarData(newNoaa);
+        updateSolarWindData(newNoaa);
+        // Similarly for others
+      }, 120000);
+      setInterval(updateNextUpdateTime, 60000);
+    }
+
+    document.addEventListener('DOMContentLoaded', init);
+  </script>
+</body>
+</html>
