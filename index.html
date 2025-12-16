@@ -902,7 +902,14 @@
 
         // Update Kp from aurora data
         if (aurora && aurora.forecastKp !== undefined) {
-          const kp = aurora.forecastKp;
+          // Convert string to number for calculations
+          const kp = parseFloat(aurora.forecastKp) || 0;
           document.getElementById('kp-value').textContent = kp.toFixed(1);
           updateGauge('kp-circle', kp, 9);
-          const status = getKpStatus(k
+          const status = getKpStatus(kp);
+          const kpStatus = document.getElementById('kp-status');
+          kpStatus.textContent = status.text;
+          kpStatus.className = 'gauge-status ' + status.class;
+        }
+
+        //
