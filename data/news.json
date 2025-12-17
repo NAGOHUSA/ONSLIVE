@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Ariane 6 launches Galileo navigation satellites",
+      "link": "https://spacenews.com/ariane-6-launches-galileo-navigation-satellites/",
+      "source": "SpaceNews",
+      "date": "2025-12-17T12:58:46Z",
+      "summary": "\nAn Ariane 6 rocket placed two satellites for Europe’s Galileo navigation system into orbit Dec. 17.\nThe post Ariane 6 launches Galileo navigation satellites appeared first on SpaceNews."
+    },
+    {
       "title": "Galileo’s first Ariane 6 launch strengthens European resilience",
       "link": "https://www.esa.int/Applications/Satellite_navigation/Galileo_s_first_Ariane_6_launch_strengthens_European_resilience",
       "source": "ESA",
@@ -27,14 +34,7 @@
       "source": "ESA",
       "date": "2025-12-17T06:00:00Z",
       "summary": "From the ESA Blogs."
-    },
-    {
-      "title": "Galileo L14 liftoff on Ariane 6",
-      "link": "https://www.esa.int/ESA_Multimedia/Videos/2025/12/Galileo_L14_liftoff_on_Ariane_6",
-      "source": "ESA",
-      "date": "2025-12-17T05:02:00Z",
-      "summary": "On 17 December, two new Galileo satellites lifted off from Europe’s Spaceport in French Guiana aboard an Ariane 6 rocket. This marked the 14th launch for Europe’s satellite navigation operational satellite programme, reinforcing Europe’s resilience and autonomy."
     }
   ],
-  "updated": "2025-12-17T12:36:22.306Z"
+  "updated": "2025-12-17T13:20:49.606Z"
 }
