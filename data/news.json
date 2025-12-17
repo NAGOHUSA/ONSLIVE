@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Massive Stars Make Their Mark in Hubble Image",
+      "link": "https://www.nasa.gov/image-article/massive-stars-make-their-mark-in-hubble-image/",
+      "source": "NASA",
+      "date": "2025-12-17T17:29:09Z",
+      "summary": "This NASA/ESA Hubble Space Telescope image features a glittering blue dwarf galaxy called Markarian 178 (Mrk 178). The galaxy, which is substantially smaller than our own Milky Way, lies 13 million light-years away in the constellation Ursa Major (the Great Bear). Mrk 178 is one of more than 1,500 Markarian galaxies. These galaxies get their name from […]"
+    },
+    {
+      "title": "NASA’s Two-in-One Satellite Propulsion Demo Begins In-Space Test",
+      "link": "https://www.nasa.gov/centers-and-facilities/ames/nasas-two-in-one-satellite-propulsion-demo-begins-in-space-test/",
+      "source": "NASA",
+      "date": "2025-12-17T17:25:10Z",
+      "summary": "NASA is working with commercial partners to create high-performing, reliable propulsion systems that will help small spacecraft safely maneuver in orbit, reach intended destinations across the solar system, and accomplish mission operations.    Two new micropropulsion technologies are being tested in space onboard a CubeSat called DUPLEX (Dual Propulsion Experiment) that deployed into low Earth orbit […]"
+    },
+    {
       "title": "NASA’s Push Toward Commercial Space Communications Gains Momentum",
       "link": "https://www.nasa.gov/technology/space-comms/nasas-push-toward-commercial-space-communications-gains-momentum/",
       "source": "NASA",
@@ -20,21 +34,7 @@
       "source": "NASA",
       "date": "2025-12-17T15:36:20Z",
       "summary": "The U.S. Geological Survey, in cooperation with NASA, has named the new Landsat Science Team that will support the world’s longest-running Earth observation mission for a planned 2026-2030 term."
-    },
-    {
-      "title": "NASA Langley Research Center: 2025 Year in Review",
-      "link": "https://www.nasa.gov/centers-and-facilities/langley/nasa-langley-research-center-2025-year-in-review/",
-      "source": "NASA",
-      "date": "2025-12-17T14:58:09Z",
-      "summary": "The future of flight, space exploration, and science starts at NASA’s Langley Research Center in Hampton, Virginia, where we have been advancing innovation for more than 100 years. Join us as we look back at NASA Langley’s achievements in 2025 that continued our storied legacy of pushing the boundaries of what is possible.  Langley Researchers […]"
-    },
-    {
-      "title": "DiskSat flat satellite platform targets high power missions and very low Earth orbit",
-      "link": "https://www.spacedaily.com/reports/DiskSat_flat_satellite_platform_targets_high_power_missions_and_very_low_Earth_orbit_999.html",
-      "source": "SpaceDaily",
-      "date": "2025-12-17T14:53:44Z",
-      "summary": "Los Angeles CA (SPX) Dec 17, 2025\n\n\nThe Aerospace Corporation's DiskSat concept introduces a flat, disk-shaped small satellite bus designed to provide more power, surface area, and payload volume than a traditional CubeSat while keeping a standardized, containerized launch interface. A representative DiskSat demonstrator measures about 1 meter in diameter and roughly 2.5 centimeters thick, with an internal volume comparable to a 2"
     }
   ],
-  "updated": "2025-12-17T17:03:14.730Z"
+  "updated": "2025-12-17T17:31:27.014Z"
 }
