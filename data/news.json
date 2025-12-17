@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Live coverage: SpaceX to fly Starlink mission using Falcon 9 booster flying for a 30th time",
+      "link": "https://spaceflightnow.com/2025/12/17/live-coverage-spacex-to-fly-starlink-mission-using-falcon-9-booster-flying-for-a-30th-time/",
+      "source": "Spaceflight Now",
+      "date": "2025-12-17T03:01:46Z",
+      "summary": "The Falcon 9 rocket launching the Starlink 15-13 mission will fly on a south-easterly trajectory upon leaving pad 4E at Vandenberg Space Force Base. Liftoff is for 7:22 a.m. PST (10:22 a.m. EST / 1522 UTC). "
+    },
+    {
       "title": "Rocket Lab set to launch Space Force and NASA ‘DiskSat’ experiment",
       "link": "https://spacenews.com/rocket-lab-set-to-launch-space-force-and-nasa-disksat-experiment/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASASpaceflight",
       "date": "2025-12-16T21:57:58Z",
       "summary": "Global launch activity is set to surge over the next week, with 13 missions scheduled…\nThe post Launch Roundup: Ariane 6, Falcon 9, Atlas V, and Electron launches highlight busy week appeared first on NASASpaceFlight.com."
-    },
-    {
-      "title": "NASA IXPE’s Longest Observation Solves Black Hole Jets Mystery",
-      "link": "https://www.nasa.gov/missions/ixpe/nasa-ixpes-longest-observation-solves-black-hole-jets-mystery/",
-      "source": "NASA",
-      "date": "2025-12-16T21:23:13Z",
-      "summary": "Written by Michael Allen An international team of astronomers using NASA’s IXPE (Imaging X-ray Polarimetry Explorer) has identified the origin of X-rays in a supermassive black hole’s jet, answering a question that has been unresolved since the earliest days of X-ray astronomy. Their findings are described in a paper published in The Astrophysical Journal Letters, […]"
     }
   ],
-  "updated": "2025-12-17T02:56:57.462Z"
+  "updated": "2025-12-17T03:52:02.016Z"
 }
