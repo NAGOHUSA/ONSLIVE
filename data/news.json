@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "A Siberian Snowman in Billings",
+      "link": "https://science.nasa.gov/earth/earth-observatory/a-siberian-snowman-in-billings/",
+      "source": "NASA",
+      "date": "2025-12-17T05:01:00Z",
+      "summary": "Winds, waves, and ice near a remote town on the Chukchi Peninsula have sculpted a series of coastal inshore lagoons that resemble an icon of winter."
+    },
+    {
       "title": "Live coverage: SpaceX to fly Starlink mission using Falcon 9 booster flying for a 30th time",
       "link": "https://spaceflightnow.com/2025/12/17/live-coverage-spacex-to-fly-starlink-mission-using-falcon-9-booster-flying-for-a-30th-time/",
       "source": "Spaceflight Now",
@@ -27,14 +34,7 @@
       "source": "Spaceflight Now",
       "date": "2025-12-16T23:14:15Z",
       "summary": "The Starlink 6-99 mission represents SpaceX’s 125th launch to date from Launch Complex 39A at NASA’s Kennedy Space Center. Liftoff is scheduled during a window that opens at 7:19 a.m. EST (1219 UTC). "
-    },
-    {
-      "title": "Launch Roundup: Ariane 6, Falcon 9, Atlas V, and Electron launches highlight busy week",
-      "link": "https://www.nasaspaceflight.com/2025/12/launch-roundup-121625/",
-      "source": "NASASpaceflight",
-      "date": "2025-12-16T21:57:58Z",
-      "summary": "Global launch activity is set to surge over the next week, with 13 missions scheduled…\nThe post Launch Roundup: Ariane 6, Falcon 9, Atlas V, and Electron launches highlight busy week appeared first on NASASpaceFlight.com."
     }
   ],
-  "updated": "2025-12-17T05:01:11.325Z"
+  "updated": "2025-12-17T05:28:18.434Z"
 }
