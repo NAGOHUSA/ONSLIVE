@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Galileo’s first Ariane 6 launch strengthens European resilience",
+      "link": "https://www.esa.int/Applications/Satellite_navigation/Galileo_s_first_Ariane_6_launch_strengthens_European_resilience",
+      "source": "ESA",
+      "date": "2025-12-17T10:00:00Z",
+      "summary": "On 17 December, two Galileo satellites lifted off from Europe’s Spaceport in French Guiana aboard an Ariane 6 rocket. This marked the 14th launch for Europe’s Galileo constellation, reinforcing Europe’s satellite navigation capabilities, resilience and autonomy. "
+    },
+    {
+      "title": "Galileo L14 launch highlights",
+      "link": "https://www.esa.int/ESA_Multimedia/Videos/2025/12/Galileo_L14_launch_highlights",
+      "source": "ESA",
+      "date": "2025-12-17T10:00:00Z",
+      "summary": "On 17 December, two new Galileo satellites lifted off from Europe’s Spaceport in French Guiana aboard an Ariane 6 rocket. This marked the 14th launch for Europe’s satellite navigation operational satellite programme, reinforcing Europe’s resilience and autonomy."
+    },
+    {
       "title": "OQ Technology links commercial IoT chipset to LEO satellite",
       "link": "https://spacenews.com/oq-technology-links-commercial-iot-chipset-to-leo-satellite/",
       "source": "SpaceNews",
@@ -20,21 +34,7 @@
       "source": "ESA",
       "date": "2025-12-17T05:02:00Z",
       "summary": "On 17 December, two new Galileo satellites lifted off from Europe’s Spaceport in French Guiana aboard an Ariane 6 rocket. This marked the 14th launch for Europe’s satellite navigation operational satellite programme, reinforcing Europe’s resilience and autonomy."
-    },
-    {
-      "title": "A Siberian Snowman in Billings",
-      "link": "https://science.nasa.gov/earth/earth-observatory/a-siberian-snowman-in-billings/",
-      "source": "NASA",
-      "date": "2025-12-17T05:01:00Z",
-      "summary": "Winds, waves, and ice near a remote town on the Chukchi Peninsula have sculpted a series of coastal inshore lagoons that resemble an icon of winter."
-    },
-    {
-      "title": "ESA Member States Fund €100M Ariane 6 ASTRIS Kick Stage Evolution",
-      "link": "https://europeanspaceflight.com/esa-member-states-fund-e100m-ariane-6-astris-kick-stage-evolution/",
-      "source": "European Spaceflight",
-      "date": "2025-12-17T05:00:20Z",
-      "summary": "European Spaceflight has learned from the European Space Agency that a contract awarded to ArianeGroup in 2021 for the development of an Ariane 6 kick stage will be adapted to cover its evolution into an orbital transfer vehicle. ESA awarded ArianeGroup’s German subsidiary the €90 million contract in July 2021 to develop the ASTRIS kick […]\nThe post ESA Member States Fund €100M Ariane 6 ASTRIS Kick Stage Evolution appeared first on European Spaceflight."
     }
   ],
-  "updated": "2025-12-17T09:59:24.483Z"
+  "updated": "2025-12-17T10:25:11.301Z"
 }
