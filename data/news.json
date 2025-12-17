@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Senate confirms Isaacman as NASA administrator",
+      "link": "https://spacenews.com/senate-confirms-isaacman-as-nasa-administrator/",
+      "source": "SpaceNews",
+      "date": "2025-12-17T21:03:43Z",
+      "summary": "\nThe Senate confirmed Jared Isaacman as NASA administrator Dec. 17, concluding arguably the most unusual effort to select a leader in the space agency’s history.\nThe post Senate confirms Isaacman as NASA administrator appeared first on SpaceNews."
+    },
+    {
       "title": "NASA’s Perseverance Mars Rover Ready to Roll for Miles in Years Ahead",
       "link": "https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-mars-rover-ready-to-roll-for-miles-in-years-ahead/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2025-12-17T17:25:10Z",
       "summary": "NASA is working with commercial partners to create high-performing, reliable propulsion systems that will help small spacecraft safely maneuver in orbit, reach intended destinations across the solar system, and accomplish mission operations.    Two new micropropulsion technologies are being tested in space onboard a CubeSat called DUPLEX (Dual Propulsion Experiment) that deployed into low Earth orbit […]"
-    },
-    {
-      "title": "NASA’s Push Toward Commercial Space Communications Gains Momentum",
-      "link": "https://www.nasa.gov/technology/space-comms/nasas-push-toward-commercial-space-communications-gains-momentum/",
-      "source": "NASA",
-      "date": "2025-12-17T16:05:26Z",
-      "summary": "NASA’s commercial partners are actively demonstrating next-generation satellite relay capabilities for spaceflight missions, marking a significant step toward retiring the agency’s Tracking and Data Relay Satellite (TDRS) system and adopting commercial services. The demonstrations – ranging from real-time spacecraft tracking during launch to transmitting mission commands and scientific data – are part of NASA’s Communications […]"
     }
   ],
-  "updated": "2025-12-17T20:59:46.577Z"
+  "updated": "2025-12-17T21:21:31.103Z"
 }
