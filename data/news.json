@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Things to come: Important bellwethers for space exploration in 2026",
+      "link": "https://spacenews.com/things-to-come-important-bellwethers-for-space-exploration-in-2026/",
+      "source": "SpaceNews",
+      "date": "2025-12-17T21:57:07Z",
+      "summary": "\nNASA is at an inflection point. 2026 will now begin with a newly-confirmed Jared Isaacman as a NASA Administrator with the White House directive to beat China back to the moon with astronauts. On the science side, we hope that NASA will continue its in-depth exploration of the Earth, solar system and universe. While the […]\nThe post Things to come: Important bellwethers for space exploration in 2026 appeared first on SpaceNews."
+    },
+    {
       "title": "Senate confirms Isaacman as NASA administrator",
       "link": "https://spacenews.com/senate-confirms-isaacman-as-nasa-administrator/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2025-12-17T17:29:09Z",
       "summary": "This NASA/ESA Hubble Space Telescope image features a glittering blue dwarf galaxy called Markarian 178 (Mrk 178). The galaxy, which is substantially smaller than our own Milky Way, lies 13 million light-years away in the constellation Ursa Major (the Great Bear). Mrk 178 is one of more than 1,500 Markarian galaxies. These galaxies get their name from […]"
-    },
-    {
-      "title": "NASA’s Two-in-One Satellite Propulsion Demo Begins In-Space Test",
-      "link": "https://www.nasa.gov/centers-and-facilities/ames/nasas-two-in-one-satellite-propulsion-demo-begins-in-space-test/",
-      "source": "NASA",
-      "date": "2025-12-17T17:25:10Z",
-      "summary": "NASA is working with commercial partners to create high-performing, reliable propulsion systems that will help small spacecraft safely maneuver in orbit, reach intended destinations across the solar system, and accomplish mission operations.    Two new micropropulsion technologies are being tested in space onboard a CubeSat called DUPLEX (Dual Propulsion Experiment) that deployed into low Earth orbit […]"
     }
   ],
-  "updated": "2025-12-17T21:59:32.231Z"
+  "updated": "2025-12-17T22:20:38.277Z"
 }
