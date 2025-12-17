@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Europe at night from space",
+      "link": "https://www.esa.int/ESA_Multimedia/Images/2025/12/Europe_at_night_from_space",
+      "source": "ESA",
+      "date": "2025-12-17T06:00:00Z",
+      "summary": "From the ESA Blogs."
+    },
+    {
       "title": "Galileo L14 liftoff on Ariane 6",
       "link": "https://www.esa.int/ESA_Multimedia/Videos/2025/12/Galileo_L14_liftoff_on_Ariane_6",
       "source": "ESA",
@@ -26,15 +33,8 @@
       "link": "https://spaceflightnow.com/2025/12/17/live-coverage-spacex-to-fly-starlink-mission-using-falcon-9-booster-flying-for-a-30th-time/",
       "source": "Spaceflight Now",
       "date": "2025-12-17T03:01:46Z",
-      "summary": "The Falcon 9 rocket launching the Starlink 15-13 mission will fly on a south-easterly trajectory upon leaving pad 4E at Vandenberg Space Force Base. Liftoff is for 7:22 a.m. PST (10:22 a.m. EST / 1522 UTC). "
-    },
-    {
-      "title": "Rocket Lab set to launch Space Force and NASA ‘DiskSat’ experiment",
-      "link": "https://spacenews.com/rocket-lab-set-to-launch-space-force-and-nasa-disksat-experiment/",
-      "source": "SpaceNews",
-      "date": "2025-12-17T00:15:09Z",
-      "summary": "\nThe STP-S30 mission will test flat, disk-shaped smallsat design for sustained operations in very low orbit\nThe post Rocket Lab set to launch Space Force and NASA ‘DiskSat’ experiment  appeared first on SpaceNews."
+      "summary": "The Falcon 9 rocket launching the Starlink 15-13 mission will fly on a south-easterly trajectory upon leaving pad 4E at Vandenberg Space Force Base. Liftoff is for 7:22 a.m. PST (10:22 a.m. EST / 1522 UTC)."
     }
   ],
-  "updated": "2025-12-17T07:49:02.314Z"
+  "updated": "2025-12-17T07:55:33.810Z"
 }
