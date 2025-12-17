@@ -1,6 +1,27 @@
 {
   "articles": [
     {
+      "title": "NASA’s Push Toward Commercial Space Communications Gains Momentum",
+      "link": "https://www.nasa.gov/technology/space-comms/nasas-push-toward-commercial-space-communications-gains-momentum/",
+      "source": "NASA",
+      "date": "2025-12-17T16:05:26Z",
+      "summary": "NASA’s commercial partners are actively demonstrating next-generation satellite relay capabilities for spaceflight missions, marking a significant step toward retiring the agency’s Tracking and Data Relay Satellite (TDRS) system and adopting commercial services. The demonstrations – ranging from real-time spacecraft tracking during launch to transmitting mission commands and scientific data – are part of NASA’s Communications […]"
+    },
+    {
+      "title": "NASA Study Suggests Saturn’s Moon Titan May Not Have Global Ocean",
+      "link": "https://www.nasa.gov/solar-system/planets/saturn/saturn-moons/titan/nasa-study-suggests-saturns-moon-titan-may-not-have-global-ocean/",
+      "source": "NASA",
+      "date": "2025-12-17T16:01:00Z",
+      "summary": "A key discovery from NASA’s Cassini mission in 2008 was that Saturn’s largest moon Titan may have a vast water ocean below its hydrocarbon-rich surface. But reanalysis of mission data suggests a more complicated picture: Titan’s interior is more likely composed of ice, with layers of slush and small pockets of warm water that form […]"
+    },
+    {
+      "title": "New Landsat Science Team Announced",
+      "link": "https://science.nasa.gov/missions/landsat/new-landsat-science-team-announced/",
+      "source": "NASA",
+      "date": "2025-12-17T15:36:20Z",
+      "summary": "The U.S. Geological Survey, in cooperation with NASA, has named the new Landsat Science Team that will support the world’s longest-running Earth observation mission for a planned 2026-2030 term."
+    },
+    {
       "title": "NASA Langley Research Center: 2025 Year in Review",
       "link": "https://www.nasa.gov/centers-and-facilities/langley/nasa-langley-research-center-2025-year-in-review/",
       "source": "NASA",
@@ -13,28 +34,7 @@
       "source": "SpaceDaily",
       "date": "2025-12-17T14:53:44Z",
       "summary": "Los Angeles CA (SPX) Dec 17, 2025\n\n\nThe Aerospace Corporation's DiskSat concept introduces a flat, disk-shaped small satellite bus designed to provide more power, surface area, and payload volume than a traditional CubeSat while keeping a standardized, containerized launch interface. A representative DiskSat demonstrator measures about 1 meter in diameter and roughly 2.5 centimeters thick, with an internal volume comparable to a 2"
-    },
-    {
-      "title": "What General Contractors Must Know About AI-Powered Estimating Software",
-      "link": "https://www.spacedaily.com/reports/What_General_Contractors_Must_Know_About_AI_Powered_Estimating_Software_999.html",
-      "source": "SpaceDaily",
-      "date": "2025-12-17T14:53:44Z",
-      "summary": "Los Angeles CA (SPX) Dec 17, 2025\n\nThe construction industry, is long reliant on traditional methods, is undergoing a digital revolution. At the forefront of this shift is the integration of artificial intelligence (AI), particularly in the critical domain of cost estimation."
-    },
-    {
-      "title": "Arab Satellite 813 launch deepens UAE China space partnership",
-      "link": "https://www.spacedaily.com/reports/Arab_Satellite_813_launch_deepens_UAE_China_space_partnership_999.html",
-      "source": "SpaceDaily",
-      "date": "2025-12-17T14:53:44Z",
-      "summary": "Tokyo, Japan (SPX) Dec 16, 2025\n\n\nA Kinetica 1 rocket has placed the Arab Satellite 813 into orbit from the Jiuquan Satellite Launch Center, marking a new phase of cooperation between the United Arab Emirates and China in space activities, according to the Shanghai Engineering Center for Microsatellites. \n\nThe satellite, described as a multirole mission platform, was launched from the Gobi Desert site in northwestern China a"
-    },
-    {
-      "title": "JPL puts Blue Ghost Mission 2 lunar stack through launch stress tests",
-      "link": "https://www.moondaily.com/reports/JPL_puts_Blue_Ghost_Mission_2_lunar_stack_through_launch_stress_tests_999.html",
-      "source": "SpaceDaily",
-      "date": "2025-12-17T14:53:44Z",
-      "summary": "Los Angeles CA (SPX) Dec 17, 2025\n\n\nAs Firefly Aerospace plans its next lunar delivery, a full-scale engineering model of its Blue Ghost Mission 2 system has completed vibration and acoustic testing at NASA's Jet Propulsion Laboratory Environmental Test Laboratory in Southern California. The same facilities that helped qualify NASA's Voyager spacecraft are now being used to verify that the tall commercial stack can handle the load"
     }
   ],
-  "updated": "2025-12-17T15:55:49.242Z"
+  "updated": "2025-12-17T16:16:57.013Z"
 }
