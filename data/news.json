@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Galileo L14 liftoff on Ariane 6",
+      "link": "https://www.esa.int/ESA_Multimedia/Videos/2025/12/Galileo_L14_liftoff_on_Ariane_6",
+      "source": "ESA",
+      "date": "2025-12-17T05:02:00Z",
+      "summary": "On 17 December, two new Galileo satellites lifted off from Europe’s Spaceport in French Guiana aboard an Ariane 6 rocket. This marked the 14th launch for Europe’s satellite navigation operational satellite programme, reinforcing Europe’s resilience and autonomy."
+    },
+    {
       "title": "A Siberian Snowman in Billings",
       "link": "https://science.nasa.gov/earth/earth-observatory/a-siberian-snowman-in-billings/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2025-12-17T00:15:09Z",
       "summary": "\nThe STP-S30 mission will test flat, disk-shaped smallsat design for sustained operations in very low orbit\nThe post Rocket Lab set to launch Space Force and NASA ‘DiskSat’ experiment  appeared first on SpaceNews."
-    },
-    {
-      "title": "Digantara raises $50 million to expand from space surveillance to missile defense",
-      "link": "https://spacenews.com/digantara-raises-50-million-to-expand-from-space-surveillance-to-missile-defense/",
-      "source": "SpaceNews",
-      "date": "2025-12-16T23:30:48Z",
-      "summary": "\nDigantara Industries, an Indian space situational awareness company, has raised $50 million as it expands into the United States and pursues opportunities in missile defense.\nThe post Digantara raises $50 million to expand from space surveillance to missile defense appeared first on SpaceNews."
     }
   ],
-  "updated": "2025-12-17T05:54:20.102Z"
+  "updated": "2025-12-17T06:00:26.215Z"
 }
