@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "OQ Technology links commercial IoT chipset to LEO satellite",
+      "link": "https://spacenews.com/oq-technology-links-commercial-iot-chipset-to-leo-satellite/",
+      "source": "SpaceNews",
+      "date": "2025-12-17T08:00:00Z",
+      "summary": "\nLuxembourg-based OQ Technology said Dec. 17 it has connected a commercial IoT chipset directly to one of its LEO satellites, using internally developed software based on 3GPP mobile standards.\nThe post OQ Technology links commercial IoT chipset to LEO satellite appeared first on SpaceNews."
+    },
+    {
       "title": "Europe at night from space",
       "link": "https://www.esa.int/ESA_Multimedia/Images/2025/12/Europe_at_night_from_space",
       "source": "ESA",
@@ -27,14 +34,7 @@
       "source": "European Spaceflight",
       "date": "2025-12-17T05:00:20Z",
       "summary": "European Spaceflight has learned from the European Space Agency that a contract awarded to ArianeGroup in 2021 for the development of an Ariane 6 kick stage will be adapted to cover its evolution into an orbital transfer vehicle. ESA awarded ArianeGroup’s German subsidiary the €90 million contract in July 2021 to develop the ASTRIS kick […]\nThe post ESA Member States Fund €100M Ariane 6 ASTRIS Kick Stage Evolution appeared first on European Spaceflight."
-    },
-    {
-      "title": "Live coverage: SpaceX to fly Starlink mission using Falcon 9 booster flying for a 30th time",
-      "link": "https://spaceflightnow.com/2025/12/17/live-coverage-spacex-to-fly-starlink-mission-using-falcon-9-booster-flying-for-a-30th-time/",
-      "source": "Spaceflight Now",
-      "date": "2025-12-17T03:01:46Z",
-      "summary": "The Falcon 9 rocket launching the Starlink 15-13 mission will fly on a south-easterly trajectory upon leaving pad 4E at Vandenberg Space Force Base. Liftoff is for 7:22 a.m. PST (10:22 a.m. EST / 1522 UTC)."
     }
   ],
-  "updated": "2025-12-17T07:55:33.810Z"
+  "updated": "2025-12-17T08:17:42.275Z"
 }
