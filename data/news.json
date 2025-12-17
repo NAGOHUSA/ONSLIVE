@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Isaacman Confirmed at 15th NASA Administrator",
+      "link": "https://spacepolicyonline.com/news/isaacman-confirmed-at-15th-nasa-administrator/",
+      "source": "SpacePolicyOnline.com",
+      "date": "2025-12-17T23:07:07Z",
+      "summary": "The Senate confirmed Jared Isaacman as NASA’s 15th Administrator this afternoon by a vote of 67-30.  Isaacman’s path was more convoluted than usual with President Trump nominating him in January, […]"
+    },
+    {
+      "title": "Northrop Grumman tests fast-developed SMART motor, looks ahead to future applications",
+      "link": "https://www.nasaspaceflight.com/2025/12/ngc-smash22-test/",
+      "source": "NASASpaceflight",
+      "date": "2025-12-17T22:52:37Z",
+      "summary": "Northrop Grumman Corporation (NGC), one of the largest space and defense contractors in the United…\nThe post Northrop Grumman tests fast-developed SMART motor, looks ahead to future applications appeared first on NASASpaceFlight.com."
+    },
+    {
       "title": "Things to come: Important bellwethers for space exploration in 2026",
       "link": "https://spacenews.com/things-to-come-important-bellwethers-for-space-exploration-in-2026/",
       "source": "SpaceNews",
@@ -20,21 +34,7 @@
       "source": "NASA",
       "date": "2025-12-17T18:31:26Z",
       "summary": "After nearly five years on Mars, NASA’s Perseverance rover has traveled almost 25 miles (40 kilometers), and the mission team has been busy testing the rover’s durability and gathering new science findings on the way to a new region nicknamed “Lac de Charmes,” where it will be searching for rocks to sample in the coming […]"
-    },
-    {
-      "title": "Lux Aeterna to land first reusable satellite in Australia",
-      "link": "https://spacenews.com/lux-aeterna-to-land-first-reusable-satellite-in-australia/",
-      "source": "SpaceNews",
-      "date": "2025-12-17T18:04:03Z",
-      "summary": "\nDenver-based Lux Aeterna announced plans Dec. 17 to land its debut reusable satellite at the Koonibba Test Range in South Australia, shortly after launching on a SpaceX rideshare mission in early 2027.\nThe post Lux Aeterna to land first reusable satellite in Australia appeared first on SpaceNews."
-    },
-    {
-      "title": "Massive Stars Make Their Mark in Hubble Image",
-      "link": "https://www.nasa.gov/image-article/massive-stars-make-their-mark-in-hubble-image/",
-      "source": "NASA",
-      "date": "2025-12-17T17:29:09Z",
-      "summary": "This NASA/ESA Hubble Space Telescope image features a glittering blue dwarf galaxy called Markarian 178 (Mrk 178). The galaxy, which is substantially smaller than our own Milky Way, lies 13 million light-years away in the constellation Ursa Major (the Great Bear). Mrk 178 is one of more than 1,500 Markarian galaxies. These galaxies get their name from […]"
     }
   ],
-  "updated": "2025-12-17T22:56:44.331Z"
+  "updated": "2025-12-17T23:14:12.383Z"
 }
