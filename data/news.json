@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Rocket Lab set to launch Space Force and NASA ‘DiskSat’ experiment",
+      "link": "https://spacenews.com/rocket-lab-set-to-launch-space-force-and-nasa-disksat-experiment/",
+      "source": "SpaceNews",
+      "date": "2025-12-17T00:15:09Z",
+      "summary": "\nThe STP-S30 mission will test flat, disk-shaped smallsat design for sustained operations in very low orbit\nThe post Rocket Lab set to launch Space Force and NASA ‘DiskSat’ experiment  appeared first on SpaceNews."
+    },
+    {
       "title": "Digantara raises $50 million to expand from space surveillance to missile defense",
       "link": "https://spacenews.com/digantara-raises-50-million-to-expand-from-space-surveillance-to-missile-defense/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2025-12-16T21:23:13Z",
       "summary": "Written by Michael Allen An international team of astronomers using NASA’s IXPE (Imaging X-ray Polarimetry Explorer) has identified the origin of X-rays in a supermassive black hole’s jet, answering a question that has been unresolved since the earliest days of X-ray astronomy. Their findings are described in a paper published in The Astrophysical Journal Letters, […]"
-    },
-    {
-      "title": "NASA Launches Research Program for Students to Explore Big Ideas",
-      "link": "https://www.nasa.gov/learning-resources/research-program-for-students/",
-      "source": "NASA",
-      "date": "2025-12-16T21:01:46Z",
-      "summary": "NASA is now accepting concepts for a new research challenge. The Opportunities in Research, Business, Innovation, and Technology (ORBIT) challenge is a multi-phase innovation competition designed to empower university and college students to develop next-generation solutions that benefit life on Earth and deep-space exploration. With up to $380,000 in total prize funding, NASA’s ORBIT challenges […]"
     }
   ],
-  "updated": "2025-12-16T23:57:35.972Z"
+  "updated": "2025-12-17T01:13:45.019Z"
 }
