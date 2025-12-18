@@ -1,6 +1,27 @@
 {
   "articles": [
     {
+      "title": "NASA’s Hubble Sees Asteroids Colliding at Nearby Star for First Time",
+      "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-sees-asteroids-colliding-at-nearby-star-for-first-time/",
+      "source": "NASA",
+      "date": "2025-12-18T19:00:42Z",
+      "summary": "Like a game of cosmic bumper cars, scientists think the early days of our solar system were a time of violent turmoil, with planetesimals, asteroids, and comets smashing together and pelting the Earth, Moon, and the other inner planets with debris. Now, in a historical milestone, NASA’s Hubble Space Telescope has directly imaged similar catastrophic […]"
+    },
+    {
+      "title": "Hubble sees asteroids colliding around nearby star",
+      "link": "https://www.esa.int/Science_Exploration/Space_Science/Hubble_sees_asteroids_colliding_around_nearby_star",
+      "source": "ESA",
+      "date": "2025-12-18T19:00:00Z",
+      "summary": "In a historical milestone, astronomers using the NASA/ESA Hubble Space Telescope witnessed the catastrophic collisions in a nearby planetary system. As they observed the bright star Fomalhaut, scientists saw the impact of massive objects around the star. The Fomalhaut system appears to be in a dynamical upheaval, similar to what our Solar System experienced in its first few hundred million years after formation."
+    },
+    {
+      "title": "NASA, Boeing Test How to Improve Performance of Longer, Narrower Aircraft Wings",
+      "link": "https://www.nasa.gov/aeronautics/nasa-boeing-test-aircraft-wings/",
+      "source": "NASA",
+      "date": "2025-12-18T19:00:00Z",
+      "summary": "The airliner you board in the future could look a lot different from today’s, with longer, thinner wings that provide a smoother ride while saving fuel. Those wings would be a revolutionary design for commercial aircraft, but like any breakthrough technology, they come with their own development challenges – which experts from NASA and Boeing […]"
+    },
+    {
       "title": "NASA’s SPHEREx Observatory Completes First Cosmic Map Like No Other",
       "link": "https://www.nasa.gov/missions/spherex/nasas-spherex-observatory-completes-first-cosmic-map-like-no-other/",
       "source": "NASA",
@@ -13,28 +34,7 @@
       "source": "NASA",
       "date": "2025-12-18T17:56:33Z",
       "summary": "Jared Isaacman was sworn in Thursday as NASA’s 15th administrator by District Judge Timothy J. Kelly. The oath was taken during a ceremony held at the Eisenhower Executive Office Building in Washington.  As NASA administrator, Isaacman will lead the agency in bold pursuit of exploration, innovation, and scientific discovery.  “I am deeply honored to be sworn […]"
-    },
-    {
-      "title": "HawkEye 360 expands defense footprint with acquisition of Innovative Signal Analysis",
-      "link": "https://spacenews.com/hawkeye-360-expands-defense-footprint-with-acquisition-of-innovative-signal-analysis/",
-      "source": "SpaceNews",
-      "date": "2025-12-18T17:15:47Z",
-      "summary": "\nDeal backed by $150 million Series E equity and debt round\nThe post HawkEye 360 expands defense footprint with acquisition of Innovative Signal Analysis appeared first on SpaceNews."
-    },
-    {
-      "title": "Atlas V Leo 4 Turns the Page",
-      "link": "https://www.spacescout.info/2025/12/atlas-v-leo-4-turns-the-page/",
-      "source": "Space Scout",
-      "date": "2025-12-18T17:11:28Z",
-      "summary": "From Space Launch Complex 41 at Cape Canaveral Space Force Station, Florida, a United Launch Alliance Atlas V leapt into"
-    },
-    {
-      "title": "A Look Back at NASA Stennis in 2025",
-      "link": "https://www.nasa.gov/centers-and-facilities/stennis/a-look-back-2025/",
-      "source": "NASA",
-      "date": "2025-12-18T17:01:07Z",
-      "summary": "In 2025, NASA’s Stennis Space Center near Bay St. Louis, Mississippi, marked a year of progress by supporting NASA’s Artemis campaign, celebrating historic milestones, and continuing its role as a trusted propulsion test partner at America’s largest rocket propulsion test site. “For more than six decades, NASA Stennis has proudly represented the Gulf Coast region […]"
     }
   ],
-  "updated": "2025-12-18T18:57:13.487Z"
+  "updated": "2025-12-18T19:15:02.497Z"
 }
