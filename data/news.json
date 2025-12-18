@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Senate confirms Jared Isaacman as 15th NASA Administrator",
+      "link": "https://spaceflightnow.com/2025/12/18/senate-confirms-jared-isaacman-as-15th-nasa-administrator/",
+      "source": "Spaceflight Now",
+      "date": "2025-12-18T13:49:42Z",
+      "summary": "The vote on Dec. 17 closes out a year-long nomination process featuring the removal and renomination of the commercial astronaut. "
+    },
+    {
       "title": "2025 was “almost a watershed year” for the Space Development Agency",
       "link": "https://spacenews.com/2025-was-almost-a-watershed-year-for-the-space-development-agency/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "Arstechnica",
       "date": "2025-12-18T12:00:22Z",
       "summary": "\"It's hard to describe how epic this comeback was after our first Falcon 9 launch failure.\""
-    },
-    {
-      "title": "AAC Clyde Space Secures Funding for INFLECION Satellite Constellation",
-      "link": "https://europeanspaceflight.com/aac-clyde-space-secures-funding-for-inflecion-satellite-constellation/",
-      "source": "European Spaceflight",
-      "date": "2025-12-18T07:51:09Z",
-      "summary": "Swedish small satellite manufacturer AAC Clyde Space has secured up to SEK 140 million (€12.8 million) in new funding through a directed share issue, with Stockholm-based venture capital firm Bonnier Capital becoming its largest shareholder. The company will use the proceeds of the share issue to fund its commitments to the INFLECION maritime domain awareness […]\nThe post AAC Clyde Space Secures Funding for INFLECION Satellite Constellation appeared first on European Spaceflight."
     }
   ],
-  "updated": "2025-12-18T13:46:51.113Z"
+  "updated": "2025-12-18T13:59:56.674Z"
 }
