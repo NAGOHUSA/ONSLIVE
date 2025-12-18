@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "NASA’s SPHEREx Observatory Completes First Cosmic Map Like No Other",
+      "link": "https://www.nasa.gov/missions/spherex/nasas-spherex-observatory-completes-first-cosmic-map-like-no-other/",
+      "source": "NASA",
+      "date": "2025-12-18T17:56:48Z",
+      "summary": "Launched in March, NASA’s SPHEREx space telescope has completed its first infrared map of the entire sky in 102 colors. While not visible to the human eye, these 102 infrared wavelengths of light are prevalent in the cosmos, and observing the entire sky this way enables scientists to answer big questions, including how a dramatic […]"
+    },
+    {
+      "title": "NASA Welcomes 15th Administrator Jared Isaacman",
+      "link": "https://www.nasa.gov/news-release/nasa-welcomes-15th-administrator-jared-isaacman/",
+      "source": "NASA",
+      "date": "2025-12-18T17:56:33Z",
+      "summary": "Jared Isaacman was sworn in Thursday as NASA’s 15th administrator by District Judge Timothy J. Kelly. The oath was taken during a ceremony held at the Eisenhower Executive Office Building in Washington.  As NASA administrator, Isaacman will lead the agency in bold pursuit of exploration, innovation, and scientific discovery.  “I am deeply honored to be sworn […]"
+    },
+    {
       "title": "HawkEye 360 expands defense footprint with acquisition of Innovative Signal Analysis",
       "link": "https://spacenews.com/hawkeye-360-expands-defense-footprint-with-acquisition-of-innovative-signal-analysis/",
       "source": "SpaceNews",
@@ -20,21 +34,7 @@
       "source": "NASA",
       "date": "2025-12-18T17:01:07Z",
       "summary": "In 2025, NASA’s Stennis Space Center near Bay St. Louis, Mississippi, marked a year of progress by supporting NASA’s Artemis campaign, celebrating historic milestones, and continuing its role as a trusted propulsion test partner at America’s largest rocket propulsion test site. “For more than six decades, NASA Stennis has proudly represented the Gulf Coast region […]"
-    },
-    {
-      "title": "342nd Council: Media information session",
-      "link": "https://www.esa.int/ESA_Multimedia/Videos/2025/12/342nd_Council_Media_information_session",
-      "source": "ESA",
-      "date": "2025-12-18T17:00:00Z",
-      "summary": "Watch the replay of the media information session in which ESA Director General Josef Aschbacher and ESA Council Chair Renato Krpoun (CH) update journalists on key decisions taken at the ESA Council meeting, held at ESA Headquarters in Paris on 17 and 18 December 2025."
-    },
-    {
-      "title": "2025 Science Activation Opportunity",
-      "link": "https://science.nasa.gov/learning-resources/science-activation/2025-science-activation-f-6/",
-      "source": "NASA",
-      "date": "2025-12-18T16:40:02Z",
-      "summary": "NASA Science encourages all people to actively participate in science through activities and resources developed by a collaborative network of project teams drawing on NASA SMD assets (science content, experts, data, etc.). Your team can apply to be part of this program. Opportunity NASA SMD seeks a portfolio of projects that together : Projects NASA seeks a […]"
     }
   ],
-  "updated": "2025-12-18T17:59:55.190Z"
+  "updated": "2025-12-18T18:34:30.511Z"
 }
