@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Moon Mascot: NASA Artemis II ZGI Design Challenge",
+      "link": "https://www.nasa.gov/general/moonmascot/",
+      "source": "NASA",
+      "date": "2025-12-18T21:52:17Z",
+      "summary": "Whose Moon Mascot design will join the Artemis II astronauts on their historic voyage around the Moon in early 2026? Between March 7 and Jun. 16, 2025, NASA worked with crowdsourcing company Freelancer to seek design ideas from global creators for a zero gravity indicator that will fly aboard the agency’s Artemis II test flight. Zero gravity […]"
+    },
+    {
       "title": "Germany awards $1.9 billion SAR satellite deal to Rheinmetall-Iceye venture",
       "link": "https://spacenews.com/germany-awards-1-9-billion-sar-satellite-deal-to-rheinmetall-iceye-venture/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2025-12-18T19:26:40Z",
       "summary": "Justin Hall, left, controls a subscale aircraft as Justin Link holds the aircraft in place during preliminary engine tests on Friday, Sept. 12, 2025, at NASA’s Armstong Flight Research Center in Edwards, California. Hall, chief pilot at the center’s Dale Reed Subscale Flight Research Laboratory, and Link, a pilot for small uncrewed aircraft systems, are […]"
-    },
-    {
-      "title": "NASA’s Hubble Sees Asteroids Colliding at Nearby Star for First Time",
-      "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-sees-asteroids-colliding-at-nearby-star-for-first-time/",
-      "source": "NASA",
-      "date": "2025-12-18T19:00:42Z",
-      "summary": "Like a game of cosmic bumper cars, scientists think the early days of our solar system were a time of violent turmoil, with planetesimals, asteroids, and comets smashing together and pelting the Earth, Moon, and the other inner planets with debris. Now, in a historical milestone, NASA’s Hubble Space Telescope has directly imaged similar catastrophic […]"
     }
   ],
-  "updated": "2025-12-18T21:54:48.205Z"
+  "updated": "2025-12-18T22:09:34.792Z"
 }
