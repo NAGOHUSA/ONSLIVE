@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "The Army’s contribution to joint space operations",
+      "link": "https://spacenews.com/the-armys-contribution-to-joint-space-operations/",
+      "source": "SpaceNews",
+      "date": "2025-12-18T13:00:00Z",
+      "summary": "\nRecent analysis by Reeves in the Mitchell Institute’s “Charting a Path to Space Superiority: The Cross-Domain Imperative” identifies the need for centralized command and control (C2) of counterspace capabilities under U.S. Space Command to ensure unity of effort. However, Reeves’s critique of the United States Army’s development of counterspace capabilities fundamentally misunderstands the Army’s role […]\nThe post The Army’s contribution to joint space operations appeared first on SpaceNews."
+    },
+    {
       "title": "Space community celebrates Isaacman confirmation",
       "link": "https://spacenews.com/space-community-celebrates-isaacman-confirmation/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceDaily",
       "date": "2025-12-18T04:03:35Z",
       "summary": "Los Angeles CA (SPX) Dec 18, 2025\r\n\r\n\r\nCareful reanalysis of measurements gathered more than a decade ago indicates that Saturn's largest moon, Titan, likely lacks a vast liquid-water ocean beneath its ice, contrary to earlier interpretations of Cassini data. Instead, the work suggests that an icy journey downward from the surface would encounter extensive high-pressure ice, slushy layers, and pockets of meltwater closer to the rocky"
-    },
-    {
-      "title": "Europe's Ariane 6 rocket puts EU navigation satellites in orbit",
-      "link": "https://www.spacedaily.com/reports/Europes_Ariane_6_rocket_puts_EU_navigation_satellites_in_orbit_999.html",
-      "source": "SpaceDaily",
-      "date": "2025-12-18T04:03:35Z",
-      "summary": "Kourou (AFP) Dec 17, 2025\r\n\r\n\r\n Europe's new Ariane 6 rocket successfully placed two satellites into orbit to join the EU's rival to the GPS navigation system on Wednesday after the mission blasted off from French Guiana. \r\n\r\nIt was the fourth commercial mission of the Ariane 6 launch system since the long-delayed single-use rockets came into service last year. \r\n\r\nThe rocket launched into cloudy skies from Europe's spaceport"
     }
   ],
-  "updated": "2025-12-18T12:24:26.579Z"
+  "updated": "2025-12-18T13:08:09.877Z"
 }
