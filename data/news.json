@@ -1,6 +1,27 @@
 {
   "articles": [
     {
+      "title": "Trump signs sweeping executive order to assert U.S. dominance in space",
+      "link": "https://spacenews.com/trump-signs-sweeping-executive-order-to-assert-u-s-dominance-in-space/",
+      "source": "SpaceNews",
+      "date": "2025-12-18T23:15:58Z",
+      "summary": "\nThe White House issued a sweeping executive order on space policy Dec. 18 covering topics from NASA’s exploration plans to space security.\nThe post Trump signs sweeping executive order to assert U.S. dominance in space appeared first on SpaceNews."
+    },
+    {
+      "title": "What problem is charging for Space Situational Awareness supposed to solve?",
+      "link": "https://spacenews.com/what-problem-is-charging-for-space-situational-awareness-supposed-to-solve/",
+      "source": "SpaceNews",
+      "date": "2025-12-18T23:15:31Z",
+      "summary": "\nA recently issued Executive Order revises how the government implements Space Policy Directive-3, removing the longstanding expectation that basic space situational awareness (SSA) services, including conjunction warnings, would be provided without charge. This decision marks a departure not only from SPD-3, but from more than a decade of United States practice in which Congress and […]\nThe post What problem is charging for Space Situational Awareness supposed to solve? appeared first on SpaceNews."
+    },
+    {
+      "title": "Trump commits to Moon landing by 2028, followed by a lunar outpost two years later",
+      "link": "https://arstechnica.com/space/2025/12/trump-commits-to-moon-landing-by-2028-followed-by-a-lunar-outpost-two-years-later/",
+      "source": "Arstechnica",
+      "date": "2025-12-18T23:05:42Z",
+      "summary": "Also, the Trump administration wants to put some nuclear power reactors there, too."
+    },
+    {
       "title": "Moon Mascot: NASA Artemis II ZGI Design Challenge",
       "link": "https://www.nasa.gov/general/moonmascot/",
       "source": "NASA",
@@ -13,28 +34,7 @@
       "source": "SpaceNews",
       "date": "2025-12-18T21:33:03Z",
       "summary": "\nNew constellation would provide security for NATO’s eastern flank, German brigade in Lithuania\nThe post Germany awards $1.9 billion SAR satellite deal to Rheinmetall-Iceye venture appeared first on SpaceNews."
-    },
-    {
-      "title": "NASA Announces 2025 International Space Apps Challenge Global Winners",
-      "link": "https://www.nasa.gov/learning-resources/stem-engagement-at-nasa/nasa-announces-2025-international-space-apps-challenge-global-winners/",
-      "source": "NASA",
-      "date": "2025-12-18T21:00:00Z",
-      "summary": "NASA Space Apps announced Thursday 10 winners of the 2025 NASA Space Apps Challenge. During this two-day hackathon, participants gathered at 551 local events across 167 countries and territories to showcase their STEM skills and proposed ways to transform NASA’s open data into actionable tools. More than 114,000 participants came together to address challenges created […]"
-    },
-    {
-      "title": "Rocket Lab launches 4 novel DiskSat satellites for U.S. Space Force, NASA",
-      "link": "https://spaceflightnow.com/2025/12/18/rocket-lab-launches-4-novel-disksat-satellites-for-u-s-space-force-nasa/",
-      "source": "Spaceflight Now",
-      "date": "2025-12-18T19:44:16Z",
-      "summary": "The STP-S30 mission was moved up five months on the launch manifest for Rocket Lab. This was the 20th launch of an Electron rocket in 2025. "
-    },
-    {
-      "title": "NASA Lab Completes Engine Checks on New Aircraft",
-      "link": "https://www.nasa.gov/image-article/nasa-lab-completes-engine-checks-on-new-aircraft/",
-      "source": "NASA",
-      "date": "2025-12-18T19:26:40Z",
-      "summary": "Justin Hall, left, controls a subscale aircraft as Justin Link holds the aircraft in place during preliminary engine tests on Friday, Sept. 12, 2025, at NASA’s Armstong Flight Research Center in Edwards, California. Hall, chief pilot at the center’s Dale Reed Subscale Flight Research Laboratory, and Link, a pilot for small uncrewed aircraft systems, are […]"
     }
   ],
-  "updated": "2025-12-18T23:00:23.040Z"
+  "updated": "2025-12-18T23:22:29.894Z"
 }
