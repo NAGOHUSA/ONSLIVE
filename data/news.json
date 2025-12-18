@@ -1,6 +1,27 @@
 {
   "articles": [
     {
+      "title": "A Look Back at NASA Stennis in 2025",
+      "link": "https://www.nasa.gov/centers-and-facilities/stennis/a-look-back-2025/",
+      "source": "NASA",
+      "date": "2025-12-18T17:01:07Z",
+      "summary": "In 2025, NASA’s Stennis Space Center near Bay St. Louis, Mississippi, marked a year of progress by supporting NASA’s Artemis campaign, celebrating historic milestones, and continuing its role as a trusted propulsion test partner at America’s largest rocket propulsion test site. “For more than six decades, NASA Stennis has proudly represented the Gulf Coast region […]"
+    },
+    {
+      "title": "342nd Council: Media information session",
+      "link": "https://www.esa.int/ESA_Multimedia/Videos/2025/12/342nd_Council_Media_information_session",
+      "source": "ESA",
+      "date": "2025-12-18T17:00:00Z",
+      "summary": "Watch the replay of the media information session in which ESA Director General Josef Aschbacher and ESA Council Chair Renato Krpoun (CH) update journalists on key decisions taken at the ESA Council meeting, held at ESA Headquarters in Paris on 17 and 18 December 2025."
+    },
+    {
+      "title": "2025 Science Activation Opportunity",
+      "link": "https://science.nasa.gov/learning-resources/science-activation/2025-science-activation-f-6/",
+      "source": "NASA",
+      "date": "2025-12-18T16:40:02Z",
+      "summary": "NASA Science encourages all people to actively participate in science through activities and resources developed by a collaborative network of project teams drawing on NASA SMD assets (science content, experts, data, etc.). Your team can apply to be part of this program. Opportunity NASA SMD seeks a portfolio of projects that together : Projects NASA seeks a […]"
+    },
+    {
       "title": "Payroll",
       "link": "https://www.nasa.gov/centers-and-facilities/nssc/payroll/",
       "source": "NASA",
@@ -13,28 +34,7 @@
       "source": "NASA",
       "date": "2025-12-18T16:20:55Z",
       "summary": "NASA’s Ames Research Center in California’s Silicon Valley continued to make strides in research, technology, engineering, science, and innovation this past year. Join us as we take a look back at some of the highlights from 2025. From Supercomputers to Wind Tunnels: NASA’s Road to Artemis II By combining the technologies of the NASA Advanced […]"
-    },
-    {
-      "title": "NASA’s DiskSat Technology Demo Launches to Low Earth Orbit",
-      "link": "https://www.nasa.gov/general/nasas-disksat-technology-demo-launches-to-low-earth-orbit/",
-      "source": "NASA",
-      "date": "2025-12-18T16:00:29Z",
-      "summary": "NASA’s DiskSat technology demonstration mission will test the performance of a new small spacecraft platform designed to expand the capabilities of current small spacecraft. By demonstrating the advantages of a flat, disk-shaped architecture over the conventional CubeSat design, DiskSat aims to enable lower-cost space missions, broaden scientific opportunities, and increase overall access to space. At […]"
-    },
-    {
-      "title": "Congress’s SBIR standoff is slowing Space Force innovation — it must act now",
-      "link": "https://spacenews.com/congresss-sbir-standoff-is-slowing-space-force-innovation-it-must-act-now/",
-      "source": "SpaceNews",
-      "date": "2025-12-18T16:00:00Z",
-      "summary": "\nAt a time when space is unmistakably a contested warfighting domain, the United States risks slowing its own progress not because of a lack of technology or talent, but because Congress has failed to act on renewing authority for critical small business innovation funding. Senior Space Force acquisition officials have publicly warned that the lapse […]\nThe post Congress’s SBIR standoff is slowing Space Force innovation — it must act now appeared first on SpaceNews."
-    },
-    {
-      "title": "NASA eClips STEM Student Ambassadors Shine at STEM Exploration Community Event",
-      "link": "https://science.nasa.gov/learning-resources/science-activation/nasa-eclips-stem-student-ambassadors-shine-at-stem-exploration-community-event/",
-      "source": "NASA",
-      "date": "2025-12-18T15:19:50Z",
-      "summary": "The 5th Annual Science, Technology, Engineering, & Mathematics (STEM) Exploration Community Event hosted by the Coastal Virginia STEM Hub and the NASA eClips Education Team from the National Institute of Aerospace Center for Integrative STEM Education (NIA-CISE) lit up the Professional Workforce Development Center at Virginia Peninsula Community College on Saturday, November 8, 2025."
     }
   ],
-  "updated": "2025-12-18T16:56:04.999Z"
+  "updated": "2025-12-18T17:17:07.580Z"
 }
