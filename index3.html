@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONSLIVE Space Weather Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background: linear-gradient(to bottom right, #0a0e1a, #1e1b4b, #0f172a);
+            background-attachment: fixed;
+            min-height: 100vh;
+            position: relative;
+            font-family: 'Segoe UI', system-ui, sans-serif;
+        }
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: url('https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80') center/cover no-repeat;
+            opacity: 0.12;
+            z-index: -1;
+            pointer-events: none;
+        }
+        .glass {
+            background: rgba(15, 23, 42, 0.65);
+            backdrop-filter: blur(16px);
+            border: 1px solid rgba(148, 163, 184, 0.15);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+            border-radius: 1.5rem;
+            overflow: hidden;
+        }
+        .gauge {
+            position: relative;
+            width: 260px;
+            height: 150px;
+            margin: 0 auto;
+        }
+        .gauge-arc {
+            fill: none;
+            stroke-width: 26;
+            filter: drop-shadow(0 0 10px currentColor);
+        }
+        .gauge-needle {
+            transform-origin: 130px 130px;
+            transition: transform 1s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .card-title {
+            text-shadow: 0 2px 10px rgba(0,0,0,0.7);
+        }
+        .aurora-map svg, .iss-map svg {
+            filter: drop-shadow(0 0 12px currentColor);
+        }
+        .data-card {
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .data-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 40px rgba(0,0,0,0.6);
+        }
+    </style>
+</head>
+<body class="text-white p-6">
+    <div class="max-w-7xl mx-auto space-y-10">
+
+        <!-- Header -->
+        <header class="text-center py-8">
+            <h1 class="text-5xl md:text-6xl font-extrabold mb-4 flex items-center justify-center gap-5">
+                <svg class="w-14 h-14 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <circle cx="12" cy="12" r="10" stroke-width="2"/>
+                    <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" stroke-width="2"/>
+                </svg>
+                ONSLIVE Space Weather Dashboard
+            </h1>
+            <p class="text-xl text-slate-300">Real-time space weather monitoring and celestial events</p>
+            <p class="text-sm text-slate-400 mt-4" id="lastUpdate">Loading...</p>
+        </header>
+
+        <!-- System Status -->
+        <section class="glass p-8 data-card">
+            <h2 class="text-2xl font-semibold mb-6 flex items-center gap-4 card-title">
+                <svg class="w-8 h-8 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" stroke-width="2"/>
+                </svg>
+                System Status: <span id="systemStatus" class="text-green-400">Loading...</span>
+            </h2>
+            <div class="grid grid-cols-2 md:grid-cols-5 gap-5" id="dataStatus"></div>
+        </section>
+
+        <!-- Kp Index Gauge -->
+        <section class="glass p-10 data-card">
+            <h2 class="text-3xl font-semibold mb-8 text-center card-title">Geomagnetic Activity (Kp Index)</h2>
+            <svg class="gauge" viewBox="0 0 260 160">
+                <defs>
+                    <linearGradient id="kpGreen"><stop offset="0%" stop-color="#22c55e"/><stop offset="100%" stop-color="#16a34a"/></linearGradient>
+                    <linearGradient id="kpYellow"><stop offset="0%" stop-color="#eab308"/><stop offset="100%" stop-color="#ca8a04"/></linearGradient>
+                    <linearGradient id="kpOrange"><stop offset="0%" stop-color="#f97316"/><stop offset="100%" stop-color="#ea580c"/></linearGradient>
+                    <linearGradient id="kpRed"><stop offset="0%" stop-color="#ef4444"/><stop offset="100%" stop-color="#dc2626"/></linearGradient>
+                </defs>
+                <path d="M 35 130 A 95 95 0 0 1 130 35" class="gauge-arc" stroke="url(#kpGreen)" opacity="0.4"/>
+                <path d="M 130 35 A 95 95 0 0 1 180 55" class="gauge-arc" stroke="url(#kpYellow)" opacity="0.4"/>
+                <path d="M 180 55 A 95 95 0 0 1 215 95" class="gauge-arc" stroke="url(#kpOrange)" opacity="0.4"/>
+                <path d="M 215 95 A 95 95 0 0 1 225 130" class="gauge-arc" stroke="url(#kpRed)" opacity="0.4"/>
+                <g class="gauge-needle" id="kpNeedle">
+                    <line x1="130" y1="130" x2="130" y2="45" stroke="#fff" stroke-width="6" filter="drop-shadow(0 0 8px #fff)"/>
+                    <circle cx="130" cy="130" r="14" fill="#fff"/>
+                </g>
+                <text x="35" y="150" fill="#fff" font-size="18" font-weight="bold">0</text>
+                <text x="125" y="25" fill="#fff" font-size="18" font-weight="bold">5</text>
+                <text x="220" y="150" fill="#fff" font-size="18" font-weight="bold">9</text>
+            </svg>
+            <div class="text-center mt-8">
+                <div class="text-6xl font-bold" id="kpValue">--</div>
+                <div class="text-lg text-slate-300 mt-3">Current Kp Index</div>
+            </div>
+        </section>
+
+        <!-- Solar Wind & Moon Phase -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+            <!-- Solar Wind -->
+            <section class="glass p-10 data-card">
+                <h2 class="text-3xl font-semibold mb-8 text-center card-title">Solar Wind Speed</h2>
+                <svg class="gauge" viewBox="0 0 260 160">
+                    <defs>
+                        <linearGradient id="swGreen"><stop offset="0%" stop-color="#22c55e"/><stop offset="100%" stop-color="#16a34a"/></linearGradient>
+                        <linearGradient id="swYellow"><stop offset="0%" stop-color="#eab308"/><stop offset="100%" stop-color="#ca8a04"/></linearGradient>
+                        <linearGradient id="swOrange"><stop offset="0%" stop-color="#f97316"/><stop offset="100%" stop-color="#ea580c"/></linearGradient>
+                        <linearGradient id="swRed"><stop offset="0%" stop-color="#ef4444"/><stop offset="100%" stop-color="#dc2626"/></linearGradient>
+                    </defs>
+                    <path d="M 35 130 A 95 95 0 0 1 130 35" class="gauge-arc" stroke="url(#swGreen)" opacity="0.4"/>
+                    <path d="M 130 35 A 95 95 0 0 1 180 55" class="gauge-arc" stroke="url(#swYellow)" opacity="0.4"/>
+                    <path d="M 180 55 A 95 95 0 0 1 215 95" class="gauge-arc" stroke="url(#swOrange)" opacity="0.4"/>
+                    <path d="M 215 95 A 95 95 0 0 1 225 130" class="gauge-arc" stroke="url(#swRed)" opacity="0.4"/>
+                    <g class="gauge-needle" id="solarWindNeedle">
+                        <line x1="130" y1="130" x2="130" y2="45" stroke="#60a5fa" stroke-width="6" filter="drop-shadow(0 0 8px #60a5fa)"/>
+                        <circle cx="130" cy="130" r="14" fill="#60a5fa"/>
+                    </g>
+                    <text x="25" y="150" fill="#fff" font-size="18" font-weight="bold">300</text>
+                    <text x="115" y="25" fill="#fff" font-size="18" font-weight="bold">700</text>
+                    <text x="205" y="150" fill="#fff" font-size="18" font-weight="bold">1000+</text>
+                </svg>
+                <div class="text-center mt-8">
+                    <div class="text-6xl font-bold" id="solarWindValue">--</div>
+                    <div class="text-lg text-slate-300 mt-3">km/s</div>
+                </div>
+            </section>
+
+            <!-- Moon Phase -->
+            <section class="glass p-10 data-card">
+                <h2 class="text-3xl font-semibold mb-8 text-center card-title">Moon Phase</h2>
+                <div class="flex justify-center items-center mb-8">
+                    <svg width="180" height="180" viewBox="0 0 180 180">
+                        <defs>
+                            <radialGradient id="moonGrad">
+                                <stop offset="0%" stop-color="#fefce8"/>
+                                <stop offset="70%" stop-color="#fde68a"/>
+                                <stop offset="100%" stop-color="#c4b5fd"/>
+                            </radialGradient>
+                            <filter id="moonGlow"><feGaussianBlur stdDeviation="6" result="glow"/><feMerge><feMergeNode in="glow"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+                        </defs>
+                        <circle cx="90" cy="90" r="80" fill="#1e293b"/>
+                        <circle cx="90" cy="90" r="80" fill="url(#moonGrad)" opacity="0.95" filter="url(#moonGlow)"/>
+                        <circle cx="90" cy="90" r="80" fill="url(#moonGrad)" id="moonPhaseCircle"/>
+                        <circle cx="90" cy="90" r="80" fill="none" stroke="#818cf8" stroke-width="4" opacity="0.4"/>
+                    </svg>
+                </div>
+                <div class="text-center">
+                    <div class="text-6xl font-bold"><span id="moonIllumination">--</span>%</div>
+                    <div class="text-lg text-slate-300 mt-3" id="moonPhase">--</div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Aurora Forecast -->
+        <section class="glass p-10 data-card">
+            <h2 class="text-3xl font-semibold mb-8 flex items-center gap-4 card-title">
+                <svg class="w-9 h-9 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-width="2"/>
+                </svg>
+                Aurora Forecast
+            </h2>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+                <div class="aurora-map bg-slate-900/60 rounded-2xl p-6">
+                    <svg width="100%" height="400" viewBox="0 0 400 400">
+                        <circle cx="200" cy="200" r="160" fill="none" stroke="#334155" stroke-width="2"/>
+                        <circle cx="200" cy="200" r="120" fill="none" stroke="#334155" stroke-width="1" stroke-dasharray="8,6"/>
+                        <circle cx="200" cy="200" r="80" fill="none" stroke="#334155" stroke-width="1" stroke-dasharray="8,6"/>
+                        <circle cx="200" cy="200" r="40" fill="none" stroke="#334155" stroke-width="1" stroke-dasharray="6,6"/>
+                        <defs>
+                            <filter id="auroraGlow"><feGaussianBlur stdDeviation="12" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+                        </defs>
+                        <circle cx="200" cy="100" r="60" fill="#22c55e" opacity="0.5" id="auroraOval" filter="url(#auroraGlow)"/>
+                        <text x="200" y="210" text-anchor="middle" fill="#94a3b8" font-size="18">North Magnetic Pole</text>
+                        <text x="200" y="340" text-anchor="middle" fill="#94a3b8" font-size="16">Aurora Viewing Zone</text>
+                    </svg>
+                </div>
+                <div class="space-y-6">
+                    <div class="flex justify-between items-center bg-slate-900/50 rounded-xl p-5">
+                        <span class="text-slate-300 text-lg">Forecast Kp</span>
+                        <span class="text-4xl font-bold" id="forecastKp">--</span>
+                    </div>
+                    <div class="flex justify-between items-center bg-slate-900/50 rounded-xl p-5">
+                        <span class="text-slate-300 text-lg">Probability</span>
+                        <span class="text-3xl font-semibold text-green-400" id="auroraProbability">--</span>
+                    </div>
+                    <div class="flex justify-between items-center bg-slate-900/50 rounded-xl p-5">
+                        <span class="text-slate-300 text-lg">Best Viewing</span>
+                        <span class="text-2xl font-semibold" id="auroraViewing">--</span>
+                    </div>
+                    <div class="bg-slate-900/50 rounded-xl p-5 text-sm text-slate-300">
+                        <strong class="text-white">Visibility Guide:</strong><br>
+                        Kp 0-2: Polar regions only<br>
+                        Kp 3-4: Northern Canada, Scandinavia<br>
+                        Kp 5-6: Northern US, UK, Northern Europe<br>
+                        Kp 7-9: Mid-latitudes, widespread visibility
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ISS Tracker -->
+        <section class="glass p-10 data-card">
+            <h2 class="text-3xl font-semibold mb-8 flex items-center gap-4 card-title">
+                <svg class="w-9 h-9 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 2v20M2 12h20" stroke-width="2"/>
+                    <circle cx="12" cy="12" r="3" stroke-width="2"/>
+                </svg>
+                ISS Location Tracker
+            </h2>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+                <div class="iss-map bg-slate-900/60 rounded-2xl p-6">
+                    <svg width="100%" height="450" viewBox="0 0 400 450">
+                        <rect width="400" height="450" fill="#0f172a"/>
+                        <line x1="0" y1="225" x2="400" y2="225" stroke="#334155" stroke-width="2"/>
+                        <line x1="200" y1="0" x2="200" y2="450" stroke="#334155" stroke-width="2"/>
+                        <line x1="0" y1="112.5" x2="400" y2="112.5" stroke="#334155" stroke-width="1" opacity="0.5"/>
+                        <line x1="0" y1="337.5" x2="400" y2="337.5" stroke="#334155" stroke-width="1" opacity="0.5"/>
+                        <line x1="100" y1="0" x2="100" y2="450" stroke="#334155" stroke-width="1" opacity="0.5"/>
+                        <line x1="300" y1="0" x2="300" y2="450" stroke="#334155" stroke-width="1" opacity="0.5"/>
+                        <text x="10" y="20" fill="#94a3b8" font-size="12">90°N</text>
+                        <text x="10" y="235" fill="#94a3b8" font-size="12">0°</text>
+                        <text x="10" y="440" fill="#94a3b8" font-size="12">90°S</text>
+                        <text x="190" y="20" fill="#94a3b8" font-size="12">0°</text>
+                        <text x="380" y="235" fill="#94a3b8" font-size="12">180°</text>
+                        <g id="issMarker" transform="translate(200,225)">
+                            <circle r="10" fill="#3b82f6" stroke="#60a5fa" stroke-width="3"/>
+                            <circle r="20" fill="none" stroke="#3b82f6" stroke-width="2" opacity="0.6">
+                                <animate attributeName="r" from="10" to="30" dur="3s" repeatCount="indefinite"/>
+                                <animate attributeName="opacity" from="0.6" to="0" dur="3s" repeatCount="indefinite"/>
+                            </circle>
+                        </g>
+                        <ellipse cx="200" cy="225" rx="200" ry="120" fill="none" stroke="#3b82f6" stroke-width="2" stroke-dasharray="8,6" opacity="0.5" id="issOrbit"/>
+                    </svg>
+                </div>
+                <div class="space-y-6">
+                    <div class="grid grid-cols-2 gap-6">
+                        <div class="bg-slate-900/50 rounded-xl p-5">
+                            <div class="text-sm text-slate-400">Latitude</div>
+                            <div class="text-3xl font-mono font-bold" id="issLat">--</div>
+                        </div>
+                        <div class="bg-slate-900/50 rounded-xl p-5">
+                            <div class="text-sm text-slate-400">Longitude</div>
+                            <div class="text-3xl font-mono font-bold" id="issLon">--</div>
+                        </div>
+                        <div class="bg-slate-900/50 rounded-xl p-5">
+                            <div class="text-sm text-slate-400">Altitude</div>
+                            <div class="text-3xl font-mono font-bold" id="issAlt">--</div>
+                        </div>
+                        <div class="bg-slate-900/50 rounded-xl p-5">
+                            <div class="text-sm text-slate-400">Velocity</div>
+                            <div class="text-3xl font-mono font-bold" id="issVel">--</div>
+                        </div>
+                    </div>
+                    <div class="bg-slate-900/50 rounded-xl p-5">
+                        <span class="text-slate-300 text-lg">Visibility: </span>
+                        <span class="text-2xl font-semibold capitalize" id="issVis">--</span>
+                    </div>
+                    <div class="text-sm text-slate-400 bg-slate-900/50 rounded-xl p-5">
+                        The ISS orbits Earth every ~90 minutes at an altitude of approximately 420 km, traveling at ~28,000 km/h.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Solar Flares -->
+        <section class="glass p-10 data-card">
+            <h2 class="text-3xl font-semibold mb-8 flex items-center gap-4 card-title">
+                <svg class="w-9 h-9 text-orange-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" stroke-width="2"/>
+                </svg>
+                Recent Solar Flares
+            </h2>
+            <div class="overflow-x-auto">
+                <table class="w-full text-sm">
+                    <thead>
+                        <tr class="border-b border-slate-700">
+                            <th class="text-left py-3 px-4 text-slate-400">Time</th>
+                            <th class="text-left py-3 px-4 text-slate-400">Class</th>
+                            <th class="text-left py-3 px-4 text-slate-400">Max Time</th>
+                            <th class="text-left py-3 px-4 text-slate-400">Duration</th>
+                        </tr>
+                    </thead>
+                    <tbody id="solarFlares"></tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Meteor Showers & Comets -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+            <section class="glass p-10 data-card">
+                <h2 class="text-3xl font-semibold mb-8 flex items-center gap-4 card-title">
+                    <svg class="w-9 h-9 text-yellow-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-width="2"/>
+                    </svg>
+                    Upcoming Meteor Showers
+                </h2>
+                <div class="space-y-5" id="meteorShowers"></div>
+            </section>
+
+            <section class="glass p-10 data-card">
+                <h2 class="text-3xl font-semibold mb-8 flex items-center gap-4 card-title">
+                    <svg class="w-9 h-9 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-width="2"/>
+                    </svg>
+                    Notable Comets
+                </h2>
+                <div class="space-y-5" id="comets"></div>
+            </section>
+        </div>
+
+        <!-- Space News -->
+        <section class="glass p-10 data-card">
+            <h2 class="text-3xl font-semibold mb-8 flex items-center gap-4 card-title">
+                <svg class="w-9 h-9 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <circle cx="12" cy="12" r="10" stroke-width="2"/>
+                    <line x1="12" y1="8" x2="12" y2="12" stroke-width="2"/>
+                    <line x1="12" y1="16" x2="12.01" y2="16" stroke-width="2"/>
+                </svg>
+                Latest Space News
+            </h2>
+            <div class="space-y-5" id="spaceNews"></div>
+        </section>
+
+        <!-- Starlink Satellites -->
+        <section class="glass p-10 data-card">
+            <h2 class="text-3xl font-semibold mb-8 flex items-center gap-4 card-title">
+                <svg class="w-9 h-9 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 2v20M2 12h20" stroke-width="2"/>
+                    <circle cx="12" cy="12" r="3" stroke-width="2"/>
+                </svg>
+                Starlink Satellites (Sample)
+            </h2>
+            <div class="overflow-x-auto">
+                <table class="w-full text-sm">
+                    <thead>
+                        <tr class="border-b border-slate-700">
+                            <th class="text-left py-3 px-4 text-slate-400">Name</th>
+                            <th class="text-left py-3 px-4 text-slate-400">ID</th>
+                            <th class="text-left py-3 px-4 text-slate-400">Inclination</th>
+                            <th class="text-left py-3 px-4 text-slate-400">Mean Motion</th>
+                        </tr>
+                    </thead>
+                    <tbody id="starlink"></tbody>
+                </table>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        const baseUrl = 'https://raw.githubusercontent.com/NAGOHUSA/ONSLIVE/main/data/';
+        
+        function updateKpNeedle(kp) {
+            const angle = (kp / 9) * 160 - 80;
+            document.getElementById('kpNeedle').style.transform = 'rotate(' + angle + 'deg)';
+        }
+
+        function updateSolarWindNeedle(speed) {
+            const normalized = Math.min(Math.max((speed - 300) / 700, 0), 1);
+            const angle = normalized * 160 - 80;
+            document.getElementById('solarWindNeedle').style.transform = 'rotate(' + angle + 'deg)';
+        }
+
+        function updateMoonPhase(illumination) {
+            const phase = illumination / 100;
+            const moonCircle = document.getElementById('moonPhaseCircle');
+            if (phase < 0.5) {
+                const offset = (1 - phase * 2) * 50;
+                moonCircle.setAttribute('clip-path', 'inset(0 ' + offset + '% 0 0)');
+            } else {
+                const offset = (phase - 0.5) * 2 * 50;
+                moonCircle.setAttribute('clip-path', 'inset(0 0 0 ' + offset + '%)');
+            }
+        }
+
+        function updateAuroraOval(kp) {
+            const oval = document.getElementById('auroraOval');
+            const radius = 60 + (kp * 18);
+            oval.setAttribute('r', radius);
+            
+            if (kp < 3) {
+                oval.setAttribute('fill', '#22c55e');
+                oval.setAttribute('opacity', '0.5');
+            } else if (kp < 5) {
+                oval.setAttribute('fill', '#eab308');
+                oval.setAttribute('opacity', '0.55');
+            } else if (kp < 7) {
+                oval.setAttribute('fill', '#f97316');
+                oval.setAttribute('opacity', '0.6');
+            } else {
+                oval.setAttribute('fill', '#ef4444');
+                oval.setAttribute('opacity', '0.7');
+            }
+        }
+
+        function updateISSPosition(lat, lon) {
+            const x = ((lon + 180) / 360) * 400;
+            const y = ((90 - lat) / 180) * 450;
+            document.getElementById('issMarker').setAttribute('transform', 'translate(' + x + ', ' + y + ')');
+        }
+
+        async function fetchData() {
+            try {
+                const [news, noaa, satellites, status, updateStatus, aurora, comets, dst, meteor, moon] = await Promise.all([
+                    fetch(baseUrl + 'news.json').then(r => r.json()),
+                    fetch(baseUrl + 'noaa.json').then(r => r.json()),
+                    fetch(baseUrl + 'satellites.json').then(r => r.json()),
+                    fetch(baseUrl + 'status.json').then(r => r.json()),
+                    fetch(baseUrl + 'update-status.json').then(r => r.json()),
+                    fetch(baseUrl + 'aurora.json').then(r => r.json()),
+                    fetch(baseUrl + 'comets.json').then(r => r.json()),
+                    fetch(baseUrl + 'dst.json').then(r => r.json()),
+                    fetch(baseUrl + 'meteor.json').then(r => r.json()),
+                    fetch(baseUrl + 'moon.json').then(r => r.json())
+                ]);
+
+                updateDashboard({ news, noaa, satellites, status, updateStatus, aurora, comets, dst, meteor, moon });
+            } catch (error) {
+                console.error('Error fetching data:', error);
+            }
+        }
+
+        function updateDashboard(data) {
+            document.getElementById('lastUpdate').textContent = 'Last Update: ' + new Date(data.status.lastUpdate).toLocaleString();
+            document.getElementById('systemStatus').textContent = data.updateStatus.systemStatus;
+            
+            const dataStatusDiv = document.getElementById('dataStatus');
+            dataStatusDiv.innerHTML = '';
+            if (data.updateStatus.dataStatus) {
+                Object.entries(data.updateStatus.dataStatus).forEach(function(entry) {
+                    const key = entry[0];
+                    const value = entry[1];
+                    const color = value === 'OK' ? 'text-green-400' : value === 'FAILED' ? 'text-red-400' : 'text-yellow-400';
+                    dataStatusDiv.innerHTML += `<div class="bg-slate-900/50 rounded-xl px-5 py-4 flex justify-between items-center"><span class="capitalize text-lg">${key}</span><span class="font-bold text-xl ${color}">${value}</span></div>`;
+                });
+            }
+
+            const latestKp = data.noaa.kpIndex && data.noaa.kpIndex.length > 0 ? data.noaa.kpIndex[data.noaa.kpIndex.length - 1][1] : 0;
+            document.getElementById('kpValue').textContent = parseFloat(latestKp).toFixed(2);
+            updateKpNeedle(parseFloat(latestKp));
+
+            const latestSolarWind = data.noaa.solarWind || [];
+            const solarWindSpeed = parseFloat(latestSolarWind[2] || 0);
+            document.getElementById('solarWindValue').textContent = solarWindSpeed.toFixed(0);
+            updateSolarWindNeedle(solarWindSpeed);
+
+            document.getElementById('moonIllumination').textContent = data.moon.illumination || '--';
+            document.getElementById('moonPhase').textContent = data.moon.phase || '--';
+            if (data.moon.illumination) {
+                updateMoonPhase(data.moon.illumination);
+            }
+
+            document.getElementById('forecastKp').textContent = data.aurora.forecastKp || '--';
+            document.getElementById('auroraProbability').textContent = data.aurora.probability || '--';
+            document.getElementById('auroraViewing').textContent = data.aurora.bestViewing || '--';
+            if (data.aurora.forecastKp) {
+                updateAuroraOval(data.aurora.forecastKp);
+            }
+
+            document.getElementById('issLat').textContent = data.satellites.iss.latitude ? data.satellites.iss.latitude.toFixed(2) + '°' : '--';
+            document.getElementById('issLon').textContent = data.satellites.iss.longitude ? data.satellites.iss.longitude.toFixed(2) + '°' : '--';
+            document.getElementById('issAlt').textContent = data.satellites.iss.altitude ? data.satellites.iss.altitude.toFixed(0) + ' km' : '--';
+            document.getElementById('issVel').textContent = data.satellites.iss.velocity ? data.satellites.iss.velocity.toFixed(0) + ' km/h' : '--';
+            document.getElementById('issVis').textContent = data.satellites.iss.visibility || '--';
+            
+            if (data.satellites.iss.latitude && data.satellites.iss.longitude) {
+                updateISSPosition(data.satellites.iss.latitude, data.satellites.iss.longitude);
+            }
+
+            const solarFlaresDiv = document.getElementById('solarFlares');
+            solarFlaresDiv.innerHTML = '';
+            const recentFlares = data.noaa.solarFlares ? data.noaa.solarFlares.slice(-5).reverse() : [];
+            recentFlares.forEach(function(flare) {
+                const duration = Math.round((new Date(flare.end_time) - new Date(flare.begin_time)) / 60000);
+                const classColor = flare.max_class && flare.max_class.startsWith('M') ? 'text-orange-400' : flare.max_class && flare.max_class.startsWith('C') ? 'text-yellow-400' : flare.max_class && flare.max_class.startsWith('X') ? 'text-red-400' : 'text-slate-400';
+                solarFlaresDiv.innerHTML += `<tr class="border-b border-slate-700/30 hover:bg-slate-800/30 transition-colors"><td class="py-4 px-4 font-mono text-sm">${new Date(flare.begin_time).toLocaleString()}</td><td class="py-4 px-4"><span class="font-bold text-lg ${classColor}">${flare.max_class}</span></td><td class="py-4 px-4 font-mono text-sm">${new Date(flare.max_time).toLocaleTimeString()}</td><td class="py-4 px-4">${duration} min</td></tr>`;
+            });
+
+            const meteorShowersDiv = document.getElementById('meteorShowers');
+            meteorShowersDiv.innerHTML = '';
+            if (data.meteor.upcoming) {
+                data.meteor.upcoming.forEach(function(shower) {
+                    meteorShowersDiv.innerHTML += `<div class="bg-slate-900/50 rounded-xl p-6 hover:bg-slate-800/40 transition-colors"><div class="flex justify-between items-start mb-3"><h3 class="text-2xl font-semibold">${shower.name}</h3><span class="bg-blue-500/20 text-blue-300 px-4 py-2 rounded-lg text-lg">ZHR: ${shower.zhr}</span></div><div class="space-y-2 text-slate-300"><div class="text-lg">Peak: ${shower.peakDate}</div><div>Active: ${shower.activePeriod}</div><div class="text-sm mt-3">${shower.description}</div></div></div>`;
+                });
+            }
+
+            const cometsDiv = document.getElementById('comets');
+            cometsDiv.innerHTML = '';
+            if (data.comets.comets) {
+                data.comets.comets.slice(0, 3).forEach(function(comet) {
+                    cometsDiv.innerHTML += `<div class="bg-slate-900/50 rounded-xl p-6 hover:bg-slate-800/40 transition-colors"><div class="flex justify-between items-start mb-3"><h3 class="text-2xl font-semibold">${comet.name}</h3><span class="bg-purple-500/20 text-purple-300 px-4 py-2 rounded-lg text-lg">Mag: ${comet.magnitude}</span></div><div class="space-y-2 text-slate-300"><div class="text-lg">Perihelion: ${comet.nextPerihelion}</div><div class="text-sm mt-3">${comet.description}</div></div></div>`;
+                });
+            }
+
+            const spaceNewsDiv = document.getElementById('spaceNews');
+            spaceNewsDiv.innerHTML = '';
+            if (data.news.articles) {
+                data.news.articles.forEach(function(article) {
+                    spaceNewsDiv.innerHTML += `<a href="${article.link}" target="_blank" rel="noopener noreferrer" class="block bg-slate-900/50 rounded-xl p-6 hover:bg-slate-800/60 transition-all"><div class="flex flex-col md:flex-row md:justify-between gap-4"><div class="flex-1"><h3 class="text-2xl font-semibold mb-2 hover:text-blue-400 transition-colors">${article.title}</h3><p class="text-slate-400 line-clamp-3">${article.summary}</p></div><div class="text-right"><div class="text-sm text-slate-500">${article.source}</div><div class="text-sm text-slate-500">${new Date(article.date).toLocaleDateString()}</div></div></div></a>`;
+                });
+            }
+
+            const starlinkDiv = document.getElementById('starlink');
+            starlinkDiv.innerHTML = '';
+            if (data.satellites.starlink) {
+                data.satellites.starlink.slice(0, 5).forEach(function(sat) {
+                    starlinkDiv.innerHTML += `<tr class="border-b border-slate-700/30 hover:bg-slate-800/30 transition-colors"><td class="py-4 px-4 font-mono">${sat.name}</td><td class="py-4 px-4 text-slate-400">${sat.id}</td><td class="py-4 px-4">${sat.inclination.toFixed(2)}°</td><td class="py-4 px-4">${sat.meanMotion.toFixed(2)}</td></tr>`;
+                });
+            }
+        }
+
+        fetchData();
+        setInterval(fetchData, 60000); // Refresh every minute
+    </script>
+</body>
+</html>
