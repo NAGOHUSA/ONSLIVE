@@ -1055,7 +1055,21 @@
       "end_time": "2025-12-18T06:53:00Z",
       "end_class": "B6.6",
       "satellite": 18
+    },
+    {
+      "time_tag": "2025-12-18T07:44:00Z",
+      "begin_time": "2025-12-18T07:44:00Z",
+      "begin_class": "B5.5",
+      "max_time": "2025-12-18T07:50:00Z",
+      "max_class": "C3.2",
+      "max_xrlong": 0.0000032564364573772764,
+      "max_ratio": 0.13808605925336936,
+      "max_ratio_time": "2025-12-18T07:48:48Z",
+      "current_int_xrlong": 0.0016513161826878786,
+      "end_time": "2025-12-18T07:56:00Z",
+      "end_class": "C1.8",
+      "satellite": 18
     }
   ],
-  "lastUpdated": "2025-12-18T07:56:43.313Z"
+  "lastUpdated": "2025-12-18T08:20:53.599Z"
 }
