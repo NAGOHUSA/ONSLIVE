@@ -1,15 +1,29 @@
 {
   "articles": [
     {
-      "title": "Isaacman Confirmed at 15th NASA Administrator",
-      "link": "https://spacepolicyonline.com/news/isaacman-confirmed-at-15th-nasa-administrator/",
+      "title": "Hi ya! Hyha",
+      "link": "https://science.nasa.gov/blog/hi-ya-hyha/",
+      "source": "NASA",
+      "date": "2025-12-18T00:25:02Z",
+      "summary": "Written by Margaret Deahn, Ph.D. student at Purdue University  NASA’s Mars 2020 rover is currently trekking towards exciting new terrain. After roughly four months of climbing up and over the rim of Jezero crater, the rover is taking a charming tour of the plains just beyond the western crater rim, fittingly named “Lac de Charmes.” […]"
+    },
+    {
+      "title": "NASA finally—and we really do mean it this time—has a full-time leader",
+      "link": "https://arstechnica.com/space/2025/12/nasa-finally-and-we-really-do-mean-it-this-time-has-a-full-time-leader/",
+      "source": "Arstechnica",
+      "date": "2025-12-18T00:19:11Z",
+      "summary": "A long and winding road to reach NASA's headquarters in Washington, DC."
+    },
+    {
+      "title": "Isaacman Confirmed as 15th NASA Administrator",
+      "link": "https://spacepolicyonline.com/news/isaacman-confirmed-as-15th-nasa-administrator/",
       "source": "SpacePolicyOnline.com",
       "date": "2025-12-17T23:07:07Z",
       "summary": "The Senate confirmed Jared Isaacman as NASA’s 15th Administrator this afternoon by a vote of 67-30.  Isaacman’s path was more convoluted than usual with President Trump nominating him in January, […]"
     },
     {
-      "title": "Isaacman Confirmed as 15th NASA Administrator",
-      "link": "https://spacepolicyonline.com/news/isaacman-confirmed-as-15th-nasa-administrator/",
+      "title": "Isaacman Confirmed at 15th NASA Administrator",
+      "link": "https://spacepolicyonline.com/news/isaacman-confirmed-at-15th-nasa-administrator/",
       "source": "SpacePolicyOnline.com",
       "date": "2025-12-17T23:07:07Z",
       "summary": "The Senate confirmed Jared Isaacman as NASA’s 15th Administrator this afternoon by a vote of 67-30.  Isaacman’s path was more convoluted than usual with President Trump nominating him in January, […]"
@@ -20,21 +34,7 @@
       "source": "NASASpaceflight",
       "date": "2025-12-17T22:52:37Z",
       "summary": "Northrop Grumman Corporation (NGC), one of the largest space and defense contractors in the United…\nThe post Northrop Grumman tests fast-developed SMART motor, looks ahead to future applications appeared first on NASASpaceFlight.com."
-    },
-    {
-      "title": "Things to come: Important bellwethers for space exploration in 2026",
-      "link": "https://spacenews.com/things-to-come-important-bellwethers-for-space-exploration-in-2026/",
-      "source": "SpaceNews",
-      "date": "2025-12-17T21:57:07Z",
-      "summary": "\nNASA is at an inflection point. 2026 will now begin with a newly-confirmed Jared Isaacman as a NASA Administrator with the White House directive to beat China back to the moon with astronauts. On the science side, we hope that NASA will continue its in-depth exploration of the Earth, solar system and universe. While the […]\nThe post Things to come: Important bellwethers for space exploration in 2026 appeared first on SpaceNews."
-    },
-    {
-      "title": "Senate confirms Isaacman as NASA administrator",
-      "link": "https://spacenews.com/senate-confirms-isaacman-as-nasa-administrator/",
-      "source": "SpaceNews",
-      "date": "2025-12-17T21:03:43Z",
-      "summary": "\nThe Senate confirmed Jared Isaacman as NASA administrator Dec. 17, concluding arguably the most unusual effort to select a leader in the space agency’s history.\nThe post Senate confirms Isaacman as NASA administrator appeared first on SpaceNews."
     }
   ],
-  "updated": "2025-12-17T23:57:37.000Z"
+  "updated": "2025-12-18T01:14:45.315Z"
 }
