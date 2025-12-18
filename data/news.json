@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA Announces 2025 International Space Apps Challenge Global Winners",
+      "link": "https://www.nasa.gov/learning-resources/stem-engagement-at-nasa/nasa-announces-2025-international-space-apps-challenge-global-winners/",
+      "source": "NASA",
+      "date": "2025-12-18T21:00:00Z",
+      "summary": "NASA Space Apps announced Thursday 10 winners of the 2025 NASA Space Apps Challenge. During this two-day hackathon, participants gathered at 551 local events across 167 countries and territories to showcase their STEM skills and proposed ways to transform NASA’s open data into actionable tools. More than 114,000 participants came together to address challenges created […]"
+    },
+    {
       "title": "Rocket Lab launches 4 novel DiskSat satellites for U.S. Space Force, NASA",
       "link": "https://spaceflightnow.com/2025/12/18/rocket-lab-launches-4-novel-disksat-satellites-for-u-s-space-force-nasa/",
       "source": "Spaceflight Now",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2025-12-18T19:00:00Z",
       "summary": "The airliner you board in the future could look a lot different from today’s, with longer, thinner wings that provide a smoother ride while saving fuel. Those wings would be a revolutionary design for commercial aircraft, but like any breakthrough technology, they come with their own development challenges – which experts from NASA and Boeing […]"
-    },
-    {
-      "title": "Hubble sees asteroids colliding around nearby star",
-      "link": "https://www.esa.int/Science_Exploration/Space_Science/Hubble_sees_asteroids_colliding_around_nearby_star",
-      "source": "ESA",
-      "date": "2025-12-18T19:00:00Z",
-      "summary": "In a historical milestone, astronomers using the NASA/ESA Hubble Space Telescope witnessed the catastrophic collisions in a nearby planetary system. As they observed the bright star Fomalhaut, scientists saw the impact of massive objects around the star. The Fomalhaut system appears to be in a dynamical upheaval, similar to what our Solar System experienced in its first few hundred million years after formation."
     }
   ],
-  "updated": "2025-12-18T20:59:42.238Z"
+  "updated": "2025-12-18T21:18:43.902Z"
 }
