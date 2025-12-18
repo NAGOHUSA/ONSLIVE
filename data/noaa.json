@@ -344,10 +344,10 @@
     ]
   ],
   "solarWind": [
-    "time_tag",
-    "density",
-    "speed",
-    "temperature"
+    "2025-12-18 05:26:00.000",
+    "1.12",
+    "701.1",
+    "383003"
   ],
   "solarFlares": [
     {
@@ -1051,5 +1051,5 @@
       "satellite": 18
     }
   ],
-  "lastUpdated": "2025-12-18T05:01:20.101Z"
+  "lastUpdated": "2025-12-18T05:28:35.916Z"
 }
