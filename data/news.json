@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA Astronaut Lee Morin to Retire After 30 Years of Innovation",
+      "link": "https://www.nasa.gov/news-release/nasa-astronaut-lee-morin-to-retire-after-30-years-of-innovation/",
+      "source": "NASA",
+      "date": "2025-12-18T15:19:21Z",
+      "summary": "NASA astronaut and retired United States Navy Capt. Lee Morin has retired from the agency after 30 years of service. He served as a mission specialist on STS-110 and went on to oversee the Rapid Prototyping Laboratory and technology development for the International Space Station and NASA’s Commercial Crew Program, as well as its Artemis […]"
+    },
+    {
       "title": "Senate confirms Jared Isaacman as 15th NASA Administrator",
       "link": "https://spaceflightnow.com/2025/12/18/senate-confirms-jared-isaacman-as-15th-nasa-administrator/",
       "source": "Spaceflight Now",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2025-12-18T12:15:17Z",
       "summary": "\nThe space community welcomed the confirmation of Jared Isaacman as NASA’s next administrator, expressing hope he can lead the agency forward and relief that a long confirmation process is over.\nThe post Space community celebrates Isaacman confirmation appeared first on SpaceNews."
-    },
-    {
-      "title": "Ten years ago, SpaceX turned tragedy into triumph with a historic rocket landing",
-      "link": "https://arstechnica.com/space/2025/12/ten-years-ago-spacex-turned-tragedy-into-triumph-with-a-historic-rocket-landing/",
-      "source": "Arstechnica",
-      "date": "2025-12-18T12:00:22Z",
-      "summary": "\"It's hard to describe how epic this comeback was after our first Falcon 9 launch failure.\""
     }
   ],
-  "updated": "2025-12-18T15:19:15.766Z"
+  "updated": "2025-12-18T15:40:40.998Z"
 }
