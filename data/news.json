@@ -1,18 +1,18 @@
 {
   "articles": [
     {
+      "title": "NASA Lab Completes Engine Checks on New Aircraft",
+      "link": "https://www.nasa.gov/image-article/nasa-lab-completes-engine-checks-on-new-aircraft/",
+      "source": "NASA",
+      "date": "2025-12-18T19:26:40Z",
+      "summary": "Justin Hall, left, controls a subscale aircraft as Justin Link holds the aircraft in place during preliminary engine tests on Friday, Sept. 12, 2025, at NASA’s Armstong Flight Research Center in Edwards, California. Hall, chief pilot at the center’s Dale Reed Subscale Flight Research Laboratory, and Link, a pilot for small uncrewed aircraft systems, are […]"
+    },
+    {
       "title": "NASA’s Hubble Sees Asteroids Colliding at Nearby Star for First Time",
       "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-sees-asteroids-colliding-at-nearby-star-for-first-time/",
       "source": "NASA",
       "date": "2025-12-18T19:00:42Z",
       "summary": "Like a game of cosmic bumper cars, scientists think the early days of our solar system were a time of violent turmoil, with planetesimals, asteroids, and comets smashing together and pelting the Earth, Moon, and the other inner planets with debris. Now, in a historical milestone, NASA’s Hubble Space Telescope has directly imaged similar catastrophic […]"
-    },
-    {
-      "title": "Hubble sees asteroids colliding around nearby star",
-      "link": "https://www.esa.int/Science_Exploration/Space_Science/Hubble_sees_asteroids_colliding_around_nearby_star",
-      "source": "ESA",
-      "date": "2025-12-18T19:00:00Z",
-      "summary": "In a historical milestone, astronomers using the NASA/ESA Hubble Space Telescope witnessed the catastrophic collisions in a nearby planetary system. As they observed the bright star Fomalhaut, scientists saw the impact of massive objects around the star. The Fomalhaut system appears to be in a dynamical upheaval, similar to what our Solar System experienced in its first few hundred million years after formation."
     },
     {
       "title": "NASA, Boeing Test How to Improve Performance of Longer, Narrower Aircraft Wings",
@@ -22,19 +22,19 @@
       "summary": "The airliner you board in the future could look a lot different from today’s, with longer, thinner wings that provide a smoother ride while saving fuel. Those wings would be a revolutionary design for commercial aircraft, but like any breakthrough technology, they come with their own development challenges – which experts from NASA and Boeing […]"
     },
     {
+      "title": "Hubble sees asteroids colliding around nearby star",
+      "link": "https://www.esa.int/Science_Exploration/Space_Science/Hubble_sees_asteroids_colliding_around_nearby_star",
+      "source": "ESA",
+      "date": "2025-12-18T19:00:00Z",
+      "summary": "In a historical milestone, astronomers using the NASA/ESA Hubble Space Telescope witnessed the catastrophic collisions in a nearby planetary system. As they observed the bright star Fomalhaut, scientists saw the impact of massive objects around the star. The Fomalhaut system appears to be in a dynamical upheaval, similar to what our Solar System experienced in its first few hundred million years after formation."
+    },
+    {
       "title": "NASA’s SPHEREx Observatory Completes First Cosmic Map Like No Other",
       "link": "https://www.nasa.gov/missions/spherex/nasas-spherex-observatory-completes-first-cosmic-map-like-no-other/",
       "source": "NASA",
       "date": "2025-12-18T17:56:48Z",
       "summary": "Launched in March, NASA’s SPHEREx space telescope has completed its first infrared map of the entire sky in 102 colors. While not visible to the human eye, these 102 infrared wavelengths of light are prevalent in the cosmos, and observing the entire sky this way enables scientists to answer big questions, including how a dramatic […]"
-    },
-    {
-      "title": "NASA Welcomes 15th Administrator Jared Isaacman",
-      "link": "https://www.nasa.gov/news-release/nasa-welcomes-15th-administrator-jared-isaacman/",
-      "source": "NASA",
-      "date": "2025-12-18T17:56:33Z",
-      "summary": "Jared Isaacman was sworn in Thursday as NASA’s 15th administrator by District Judge Timothy J. Kelly. The oath was taken during a ceremony held at the Eisenhower Executive Office Building in Washington.  As NASA administrator, Isaacman will lead the agency in bold pursuit of exploration, innovation, and scientific discovery.  “I am deeply honored to be sworn […]"
     }
   ],
-  "updated": "2025-12-18T19:35:08.867Z"
+  "updated": "2025-12-18T19:42:40.796Z"
 }
