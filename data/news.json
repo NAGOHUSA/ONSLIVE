@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Rocket Lab launches 4 novel DiskSat satellites for U.S. Space Force, NASA",
+      "link": "https://spaceflightnow.com/2025/12/18/rocket-lab-launches-4-novel-disksat-satellites-for-u-s-space-force-nasa/",
+      "source": "Spaceflight Now",
+      "date": "2025-12-18T19:44:16Z",
+      "summary": "The STP-S30 mission was moved up five months on the launch manifest for Rocket Lab. This was the 20th launch of an Electron rocket in 2025. "
+    },
+    {
       "title": "NASA Lab Completes Engine Checks on New Aircraft",
       "link": "https://www.nasa.gov/image-article/nasa-lab-completes-engine-checks-on-new-aircraft/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "ESA",
       "date": "2025-12-18T19:00:00Z",
       "summary": "In a historical milestone, astronomers using the NASA/ESA Hubble Space Telescope witnessed the catastrophic collisions in a nearby planetary system. As they observed the bright star Fomalhaut, scientists saw the impact of massive objects around the star. The Fomalhaut system appears to be in a dynamical upheaval, similar to what our Solar System experienced in its first few hundred million years after formation."
-    },
-    {
-      "title": "NASA’s SPHEREx Observatory Completes First Cosmic Map Like No Other",
-      "link": "https://www.nasa.gov/missions/spherex/nasas-spherex-observatory-completes-first-cosmic-map-like-no-other/",
-      "source": "NASA",
-      "date": "2025-12-18T17:56:48Z",
-      "summary": "Launched in March, NASA’s SPHEREx space telescope has completed its first infrared map of the entire sky in 102 colors. While not visible to the human eye, these 102 infrared wavelengths of light are prevalent in the cosmos, and observing the entire sky this way enables scientists to answer big questions, including how a dramatic […]"
     }
   ],
-  "updated": "2025-12-18T19:49:29.862Z"
+  "updated": "2025-12-18T19:55:36.789Z"
 }
