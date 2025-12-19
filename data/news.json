@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "ICEYE and Rheinmetall Win €1.7 Billion German Armed Forces Contract",
+      "link": "https://europeanspaceflight.com/iceye-and-rheinmetall-win-e1-7-billion-german-armed-forces-contract/",
+      "source": "European Spaceflight",
+      "date": "2025-12-19T05:00:45Z",
+      "summary": "The German Armed Forces have awarded a €1.7 billion contract to Rheinmetall and ICEYE for the delivery of space-based reconnaissance data through exclusive access to a synthetic aperture radar (SAR) satellite constellation. On 7 November 2025, German technology group Rheinmetall and Finnish satellite manufacturer and Earth observation data provider ICEYE announced a joint venture called […]\nThe post ICEYE and Rheinmetall Win €1.7 Billion German Armed Forces Contract appeared first on European Spaceflight."
+    },
+    {
       "title": "Space Station Research Supports New FDA-Approved Cancer Therapy",
       "link": "https://www.nasa.gov/missions/station/iss-research/space-station-research-supports-new-fda-approved-cancer-therapy/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceDaily",
       "date": "2025-12-19T01:51:15Z",
       "summary": "Los Angeles CA (SPX) Dec 18, 2025\n\nThe selection of a web testing framework may at times not be very easy. In fact, with so many tools that claim to speed up your testing process, it often comes down to which tool best fits your team's skill sets, project scope, and long-term testing objectives. Whether you're a QA manager, SDET, tester, or engineer, you want a framework that supports quality and grows with your development process"
-    },
-    {
-      "title": "Curiosity Blog, Sols 4743-4749:  Polygons in the Hollow",
-      "link": "https://science.nasa.gov/blog/curiosity-blog-sols-4743-4749-polygons-in-the-hollow/",
-      "source": "NASA",
-      "date": "2025-12-19T01:30:38Z",
-      "summary": "Written by Lucy Lim, Planetary Scientist at NASA’s Goddard Space Flight Center Earth Planning Date: Friday, Dec. 12, 2025 The weekend drive starting from the “Nevado Sajama” drill site brought Curiosity back into the “Monte Grande” boxwork hollow. We’ve been in this hollow before for the “Valle de la Luna” drill campaign, but now that […]"
     }
   ],
-  "updated": "2025-12-19T04:58:38.923Z"
+  "updated": "2025-12-19T05:20:13.330Z"
 }
