@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Earth from Space: Manicouagan crater",
+      "link": "https://www.esa.int/ESA_Multimedia/Images/2025/12/Earth_from_Space_Manicouagan_crater",
+      "source": "ESA",
+      "date": "2025-12-19T09:00:00Z",
+      "summary": "From the ESA Blogs."
+    },
+    {
+      "title": "Dwarf stars in a glittering sky",
+      "link": "https://www.esa.int/ESA_Multimedia/Images/2025/12/Dwarf_stars_in_a_glittering_sky",
+      "source": "ESA",
+      "date": "2025-12-19T09:00:00Z",
+      "summary": "From the ESA Blogs."
+    },
+    {
       "title": "Webb: Dwarf stars in a glittering sky",
       "link": "https://www.esa.int/ESA_Multimedia/Images/2025/12/Webb_Dwarf_stars_in_a_glittering_sky",
       "source": "ESA",
@@ -20,21 +34,7 @@
       "source": "NASA",
       "date": "2025-12-19T04:00:00Z",
       "summary": "NASA opens the International Space Station for scientists and researchers, inviting them to use the benefits of microgravity for private industry research, technology demonstrations, and more. Today, half of the crew’s time aboard station is devoted to these aims, including medical research that addresses complex health challenges on Earth and prepares astronauts for future deep […]"
-    },
-    {
-      "title": "Trump Issues Executive Order to Ensure U.S. Space Superiority",
-      "link": "https://spacepolicyonline.com/news/trump-issues-executive-order-to-ensure-u-s-space-superiority/",
-      "source": "SpacePolicyOnline.com",
-      "date": "2025-12-19T02:50:13Z",
-      "summary": "President Trump issued a new Executive Order today aimed at ensuring U.S. space superiority. The order covers all three sectors — civil, national security, and commercial — and comes on […]"
-    },
-    {
-      "title": "The Quantum Age will be Powered by Fusion",
-      "link": "https://www.energy-daily.com/reports/The_Quantum_Age_will_be_Powered_by_Fusion_999.html",
-      "source": "SpaceDaily",
-      "date": "2025-12-19T01:51:15Z",
-      "summary": "Gerroa, Australia (SPX) Dec 19, 2025\n\nFusion is the cosmic process that powers stars, shapes galaxies, and enables the chemical diversity needed for life. From the earliest stars to modern planetary systems, fusion converts hydrogen into heavier elements, forging the matter that makes up worlds, atmospheres, and living organisms. The Sun's steady fusion output governs Earth's climate and underlies all biological and technological energy flows, from photosynthesis to fossil fuels."
     }
   ],
-  "updated": "2025-12-19T09:00:39.919Z"
+  "updated": "2025-12-19T09:28:37.408Z"
 }
