@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Meet NASA’s Astronaut Class of 2025 – Webby Submission",
+      "link": "https://www.nasa.gov/general/meet-nasas-astronaut-class-of-2025-webby-submission/",
+      "source": "NASA",
+      "date": "2025-12-19T22:01:06Z",
+      "summary": "NASA engineers are laying the foundation for the moonwalks the first woman and next man will conduct when they land on the lunar South Pole in 2024 as part of the Artemis program. At the agency’s Johnson Space Center in Houston, teams are testing the tools and developing training approaches for lunar surface operations. As part of […]"
+    },
+    {
       "title": "Space Development Agency awards $3.5 billion in contracts for missile-tracking satellites",
       "link": "https://spacenews.com/space-development-agency-awards-3-5-billion-in-contracts-for-missile-tracking-satellites/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2025-12-19T19:59:20Z",
       "summary": "NASA’s Johnson Space Center in Houston closed 2025 with major progress across human spaceflight, research, and exploration. From Artemis II mission preparations to science aboard the International Space Station, teams at Johnson helped prepare for future missions to the Moon and, ultimately, Mars. Orion Stacked for Artemis II, Orion Mission Evaluation Room Unveiled  As NASA […]"
-    },
-    {
-      "title": "NASA’s Wideband Technology Demo Proves Space Missions are Free to Roam",
-      "link": "https://www.nasa.gov/humans-in-space/commercial-space/nasas-wideband-technology-demo-proves-space-missions-are-free-to-roam/",
-      "source": "NASA",
-      "date": "2025-12-19T19:57:34Z",
-      "summary": "Just like your cellphone stays connected by roaming between networks, NASA’s Polylingual Experimental Terminal, or PExT, technology demonstration is proving space missions can do the same by switching seamlessly between government and commercial communications networks."
     }
   ],
-  "updated": "2025-12-19T22:01:34.185Z"
+  "updated": "2025-12-19T22:26:24.251Z"
 }
