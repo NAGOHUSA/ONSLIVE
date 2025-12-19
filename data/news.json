@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "How to pick the right web testing framework for your project",
+      "link": "https://www.spacedaily.com/reports/How_to_pick_the_right_web_testing_framework_for_your_project_999.html",
+      "source": "SpaceDaily",
+      "date": "2025-12-19T01:51:15Z",
+      "summary": "Los Angeles CA (SPX) Dec 18, 2025\n\nThe selection of a web testing framework may at times not be very easy. In fact, with so many tools that claim to speed up your testing process, it often comes down to which tool best fits your team's skill sets, project scope, and long-term testing objectives. Whether you're a QA manager, SDET, tester, or engineer, you want a framework that supports quality and grows with your development process"
+    },
+    {
+      "title": "The Quantum Age will be Powered by Fusion",
+      "link": "https://www.energy-daily.com/reports/The_Quantum_Age_will_be_Powered_by_Fusion_999.html",
+      "source": "SpaceDaily",
+      "date": "2025-12-19T01:51:15Z",
+      "summary": "Gerroa, Australia (SPX) Dec 19, 2025\n\nFusion is the cosmic process that powers stars, shapes galaxies, and enables the chemical diversity needed for life. From the earliest stars to modern planetary systems, fusion converts hydrogen into heavier elements, forging the matter that makes up worlds, atmospheres, and living organisms. The Sun's steady fusion output governs Earth's climate and underlies all biological and technological energy flows, from photosynthesis to fossil fuels."
+    },
+    {
       "title": "Trump signs sweeping executive order to assert U.S. dominance in space",
       "link": "https://spacenews.com/trump-signs-sweeping-executive-order-to-assert-u-s-dominance-in-space/",
       "source": "SpaceNews",
@@ -20,21 +34,7 @@
       "source": "Arstechnica",
       "date": "2025-12-18T23:05:42Z",
       "summary": "Also, the Trump administration wants to put some nuclear power reactors there, too."
-    },
-    {
-      "title": "Moon Mascot: NASA Artemis II ZGI Design Challenge",
-      "link": "https://www.nasa.gov/general/moonmascot/",
-      "source": "NASA",
-      "date": "2025-12-18T21:52:17Z",
-      "summary": "Whose Moon Mascot design will join the Artemis II astronauts on their historic voyage around the Moon in early 2026? Between March 7 and Jun. 16, 2025, NASA worked with crowdsourcing company Freelancer to seek design ideas from global creators for a zero gravity indicator that will fly aboard the agency’s Artemis II test flight. Zero gravity […]"
-    },
-    {
-      "title": "Germany awards $1.9 billion SAR satellite deal to Rheinmetall-Iceye venture",
-      "link": "https://spacenews.com/germany-awards-1-9-billion-sar-satellite-deal-to-rheinmetall-iceye-venture/",
-      "source": "SpaceNews",
-      "date": "2025-12-18T21:33:03Z",
-      "summary": "\nNew constellation would provide security for NATO’s eastern flank, German brigade in Lithuania\nThe post Germany awards $1.9 billion SAR satellite deal to Rheinmetall-Iceye venture appeared first on SpaceNews."
     }
   ],
-  "updated": "2025-12-18T23:59:11.962Z"
+  "updated": "2025-12-19T01:41:15.105Z"
 }
