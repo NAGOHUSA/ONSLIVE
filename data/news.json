@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "NASA Johnson’s 2025 Milestones",
+      "link": "https://www.nasa.gov/centers-and-facilities/johnson/nasa-johnsons-2025-milestones/",
+      "source": "NASA",
+      "date": "2025-12-19T19:59:20Z",
+      "summary": "NASA’s Johnson Space Center in Houston closed 2025 with major progress across human spaceflight, research, and exploration. From Artemis II mission preparations to science aboard the International Space Station, teams at Johnson helped prepare for future missions to the Moon and, ultimately, Mars. Orion Stacked for Artemis II, Orion Mission Evaluation Room Unveiled  As NASA […]"
+    },
+    {
+      "title": "NASA’s Wideband Technology Demo Proves Space Missions are Free to Roam",
+      "link": "https://www.nasa.gov/humans-in-space/commercial-space/nasas-wideband-technology-demo-proves-space-missions-are-free-to-roam/",
+      "source": "NASA",
+      "date": "2025-12-19T19:57:34Z",
+      "summary": "Just like your cellphone stays connected by roaming between networks, NASA’s Polylingual Experimental Terminal, or PExT, technology demonstration is proving space missions can do the same by switching seamlessly between government and commercial communications networks."
+    },
+    {
       "title": "ESA weighing options to address exploration funding shortfall",
       "link": "https://spacenews.com/esa-weighing-options-to-address-exploration-funding-shortfall/",
       "source": "SpaceNews",
@@ -20,21 +34,7 @@
       "source": "ESA",
       "date": "2025-12-19T16:30:00Z",
       "summary": "On 17 December 2025, two new Galileo satellites lifted off from Europe’s Spaceport in French Guiana. This was the 14th launch for Europe’s satellite navigation operational satellite programme, reinforcing Europe’s resilience and autonomy. The flight, VA266, was the first launch of Galileo satellites on Europe’s newest heavy-lift launcher Ariane 6. "
-    },
-    {
-      "title": "Post-CM25 industry event online set for 14 January",
-      "link": "https://www.esa.int/About_Us/Business_with_ESA/Post-CM25_industry_event_online_set_for_14_January",
-      "source": "ESA",
-      "date": "2025-12-19T16:05:00Z",
-      "summary": "On 14 January 2026, the European Space Agency (ESA) will hold an online post-CM25 industry event for all ESA industrial partners."
-    },
-    {
-      "title": "Russia is about to do the most Russia thing ever with its next space station",
-      "link": "https://arstechnica.com/space/2025/12/russia-is-about-to-do-the-most-russia-thing-ever-with-its-next-space-station/",
-      "source": "Arstechnica",
-      "date": "2025-12-19T16:04:35Z",
-      "summary": "\"Russia, meanwhile, will be left to carry on the legacy of the ISS, with all its problems.\""
     }
   ],
-  "updated": "2025-12-19T19:59:02.525Z"
+  "updated": "2025-12-19T20:22:32.166Z"
 }
