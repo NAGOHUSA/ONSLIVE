@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Two space startups prove you don’t need to break the bank to rendezvous in space",
+      "link": "https://arstechnica.com/space/2025/12/two-space-startups-prove-you-dont-need-to-break-the-bank-to-rendezvous-in-space/",
+      "source": "Arstechnica",
+      "date": "2025-12-19T15:02:37Z",
+      "summary": "\"We had to push the envelope a little bit here.\""
+    },
+    {
+      "title": "Metrics",
+      "link": "https://www.nasa.gov/centers-and-facilities/nssc/metrics/",
+      "source": "NASA",
+      "date": "2025-12-19T14:42:45Z",
+      "summary": "Services Catalog Click here to view the FY25 Services Catalog The catalogs provide service description, chargeback rate, unit of measure, and service level indicators for each NSSC service. Service Level Agreement (SLA) Click here to view the Service Level Agreement The SLA provides information about roles, responsibilities, rates, and service level indicators for all NASA […]"
+    },
+    {
       "title": "Week in images: 15-19 December 2025",
       "link": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_15-19_December_2025",
       "source": "ESA",
@@ -20,21 +34,7 @@
       "source": "ESA",
       "date": "2025-12-19T13:47:00Z",
       "summary": "From the ESA Blogs."
-    },
-    {
-      "title": "Astrobotic secures contracts for suborbital vehicle development",
-      "link": "https://spacenews.com/astrobotic-secures-contracts-for-suborbital-vehicle-development/",
-      "source": "SpaceNews",
-      "date": "2025-12-19T12:54:19Z",
-      "summary": "\nAstrobotic said Dec. 19 it has won $17.5 million in NASA and military contracts to develop three new reusable suborbital vehicles for technology demonstrations and other applications.\nThe post Astrobotic secures contracts for suborbital vehicle development appeared first on SpaceNews."
-    },
-    {
-      "title": "Hubble Glimpses Galactic Gas Making a Getaway",
-      "link": "https://science.nasa.gov/missions/hubble/hubble-glimpses-galactic-gas-making-a-getaway/",
-      "source": "NASA",
-      "date": "2025-12-19T12:00:00Z",
-      "summary": "A sideways spiral galaxy shines in this NASA/ESA Hubble Space Telescope image. Located about 60 million light-years away in the constellation Virgo (the Maiden), NGC 4388 is a resident of the Virgo galaxy cluster. This enormous cluster of galaxies contains more than a thousand members and is the nearest large galaxy cluster to the Milky […]"
     }
   ],
-  "updated": "2025-12-19T14:55:20.726Z"
+  "updated": "2025-12-19T15:12:21.389Z"
 }
