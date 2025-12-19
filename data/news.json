@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Space Station Research Supports New FDA-Approved Cancer Therapy",
+      "link": "https://www.nasa.gov/missions/station/iss-research/space-station-research-supports-new-fda-approved-cancer-therapy/",
+      "source": "NASA",
+      "date": "2025-12-19T04:00:00Z",
+      "summary": "NASA opens the International Space Station for scientists and researchers, inviting them to use the benefits of microgravity for private industry research, technology demonstrations, and more. Today, half of the crew’s time aboard station is devoted to these aims, including medical research that addresses complex health challenges on Earth and prepares astronauts for future deep […]"
+    },
+    {
       "title": "Trump Issues Executive Order to Ensure U.S. Space Superiority",
       "link": "https://spacepolicyonline.com/news/trump-issues-executive-order-to-ensure-u-s-space-superiority/",
       "source": "SpacePolicyOnline.com",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2025-12-19T01:30:38Z",
       "summary": "Written by Lucy Lim, Planetary Scientist at NASA’s Goddard Space Flight Center Earth Planning Date: Friday, Dec. 12, 2025 The weekend drive starting from the “Nevado Sajama” drill site brought Curiosity back into the “Monte Grande” boxwork hollow. We’ve been in this hollow before for the “Valle de la Luna” drill campaign, but now that […]"
-    },
-    {
-      "title": "Trump signs sweeping executive order to assert U.S. dominance in space",
-      "link": "https://spacenews.com/trump-signs-sweeping-executive-order-to-assert-u-s-dominance-in-space/",
-      "source": "SpaceNews",
-      "date": "2025-12-18T23:15:58Z",
-      "summary": "\nThe White House issued a sweeping executive order on space policy Dec. 18 covering topics from NASA’s exploration plans to space security.\nThe post Trump signs sweeping executive order to assert U.S. dominance in space appeared first on SpaceNews."
     }
   ],
-  "updated": "2025-12-19T04:04:29.502Z"
+  "updated": "2025-12-19T04:40:29.075Z"
 }
