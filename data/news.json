@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Astrobotic secures contracts for suborbital vehicle development",
+      "link": "https://spacenews.com/astrobotic-secures-contracts-for-suborbital-vehicle-development/",
+      "source": "SpaceNews",
+      "date": "2025-12-19T12:54:19Z",
+      "summary": "\nAstrobotic said Dec. 19 it has won $17.5 million in NASA and military contracts to develop three new reusable suborbital vehicles for technology demonstrations and other applications.\nThe post Astrobotic secures contracts for suborbital vehicle development appeared first on SpaceNews."
+    },
+    {
       "title": "Hubble Glimpses Galactic Gas Making a Getaway",
       "link": "https://science.nasa.gov/missions/hubble/hubble-glimpses-galactic-gas-making-a-getaway/",
       "source": "NASA",
@@ -12,29 +19,22 @@
       "link": "https://www.spacedaily.com/reports/Sentinel_6B_begins_sea_level_mapping_campaign_999.html",
       "source": "SpaceDaily",
       "date": "2025-12-19T11:01:57Z",
-      "summary": "Washington DC (SPX) Dec 17, 2025\n\n\nSentinel-6B has begun returning its first ocean measurements, providing initial maps of sea level across a wide area of the U.S. East Coast and the Atlantic Ocean after its November launch. The U.S.-European mission is designed to survey about 90 percent of Earth's oceans using high-precision radar altimetry to track changes in sea surface height that affect coastal communities and marine operat"
-    },
-    {
-      "title": "Trump shifts priority to Moon mission, not Mars",
-      "link": "https://www.moondaily.com/reports/Trump_shifts_priority_to_Moon_mission_not_Mars_999.html",
-      "source": "SpaceDaily",
-      "date": "2025-12-19T11:01:57Z",
-      "summary": "Washington, United States (AFP) Dec 19, 2025\n\n\n US President Donald Trump on Thursday confirmed that he wants to send astronauts back to the Moon as soon as possible, putting eventual Mars missions on the back burner. \n\nIn an executive order on his space policy, Trump said he wanted to get Americans to the Moon by 2028, under NASA's Artemis program launched during his first White House term. \n\nSuch a lunar landing would \"assert American l"
+      "summary": "Washington DC (SPX) Dec 17, 2025\r\n\r\n\r\nSentinel-6B has begun returning its first ocean measurements, providing initial maps of sea level across a wide area of the U.S. East Coast and the Atlantic Ocean after its November launch. The U.S.-European mission is designed to survey about 90 percent of Earth's oceans using high-precision radar altimetry to track changes in sea surface height that affect coastal communities and marine operat"
     },
     {
       "title": "BlackSky accelerates Gen-3 satellite into full commercial service in three weeks",
       "link": "https://www.spacewar.com/reports/BlackSky_accelerates_Gen_3_satellite_into_full_commercial_service_in_three_weeks_999.html",
       "source": "SpaceDaily",
       "date": "2025-12-19T11:01:57Z",
-      "summary": "Los Angeles CA (SPX) Dec 18, 2025\n\n\nBlackSky Technology Inc. (NYSE: BKSY) has placed its third Gen-3 imaging satellite into commercial service just three weeks after launch, marking a major reduction in commissioning time compared with the company's first Gen-3 unit. The new spacecraft adds further capacity for 35-centimeter-class very high-resolution imagery and AI-enabled analytics for BlackSky customers worldwide. \n\n\"Integr"
+      "summary": "Los Angeles CA (SPX) Dec 18, 2025\r\n\r\n\r\nBlackSky Technology Inc. (NYSE: BKSY) has placed its third Gen-3 imaging satellite into commercial service just three weeks after launch, marking a major reduction in commissioning time compared with the company's first Gen-3 unit. The new spacecraft adds further capacity for 35-centimeter-class very high-resolution imagery and AI-enabled analytics for BlackSky customers worldwide. \r\n\r\n\"Integr"
     },
     {
-      "title": "\"Robot, make me a chair\" robot-make-me-a-chair-in-six-prompts",
-      "link": "https://www.robodaily.com/reports/Robot_make_me_a_chair_999.html",
+      "title": "New NASA Sensor Goes Hunting for Critical Minerals",
+      "link": "https://www.spacedaily.com/reports/New_NASA_Sensor_Goes_Hunting_for_Critical_Minerals_999.html",
       "source": "SpaceDaily",
       "date": "2025-12-19T11:01:57Z",
-      "summary": "Boston MA (SPX) Dec 17, 2025\n\n\nComputer-aided design (CAD) systems are tried-and-true tools used to design many of the physical objects we use each day. But CAD software requires extensive expertise to master, and many tools incorporate such a high level of detail they don't lend themselves to brainstorming or rapid prototyping. \n\nIn an effort to make design faster and more accessible for non-experts, researchers from MIT"
+      "summary": "Pasadena CA (JPL) Dec 09, 2025\r\n\r\n\r\nCradled in the nose of a high-altitude research airplane, a new NASA sensor has taken to the skies to help geoscientists map rocks hosting lithium and other critical minerals on Earth's surface some 60,000 feet below. In collaboration with the U.S. Geological Survey (USGS), the flights are part of the largest airborne campaign of its kind in the country's history. \r\n\r\nBut that's just one of ma"
     }
   ],
-  "updated": "2025-12-19T12:29:11.711Z"
+  "updated": "2025-12-19T13:09:21.200Z"
 }
