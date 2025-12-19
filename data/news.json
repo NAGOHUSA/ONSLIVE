@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Galileo: the journey of satellites 33 and 34",
+      "link": "https://www.esa.int/ESA_Multimedia/Videos/2025/12/Galileo_the_journey_of_satellites_33_and_34",
+      "source": "ESA",
+      "date": "2025-12-19T16:30:00Z",
+      "summary": "On 17 December 2025, two new Galileo satellites lifted off from Europe’s Spaceport in French Guiana. This was the 14th launch for Europe’s satellite navigation operational satellite programme, reinforcing Europe’s resilience and autonomy. The flight, VA266, was the first launch of Galileo satellites on Europe’s newest heavy-lift launcher Ariane 6. "
+    },
+    {
+      "title": "Post-CM25 industry event online set for 14 January",
+      "link": "https://www.esa.int/About_Us/Business_with_ESA/Post-CM25_industry_event_online_set_for_14_January",
+      "source": "ESA",
+      "date": "2025-12-19T16:05:00Z",
+      "summary": "On 14 January 2026, the European Space Agency (ESA) will hold an online post-CM25 industry event for all ESA industrial partners."
+    },
+    {
       "title": "Russia is about to do the most Russia thing ever with its next space station",
       "link": "https://arstechnica.com/space/2025/12/russia-is-about-to-do-the-most-russia-thing-ever-with-its-next-space-station/",
       "source": "Arstechnica",
@@ -20,21 +34,7 @@
       "source": "SpaceNews",
       "date": "2025-12-19T15:37:58Z",
       "summary": "\nParis, December 2025 — The Ministry of Transport, Communications and Information Technology of the Sultanate of Oman (MTCIT) and Novaspace announce the second Edition of the Middle East Space Conference […]\nThe post Middle East Space Conference 2026 Returns to Muscat as a Strategic Platform for Regional Growth appeared first on SpaceNews."
-    },
-    {
-      "title": "Two space startups prove you don’t need to break the bank to rendezvous in space",
-      "link": "https://arstechnica.com/space/2025/12/two-space-startups-prove-you-dont-need-to-break-the-bank-to-rendezvous-in-space/",
-      "source": "Arstechnica",
-      "date": "2025-12-19T15:02:37Z",
-      "summary": "\"We had to push the envelope a little bit here.\""
-    },
-    {
-      "title": "Metrics",
-      "link": "https://www.nasa.gov/centers-and-facilities/nssc/metrics/",
-      "source": "NASA",
-      "date": "2025-12-19T14:42:45Z",
-      "summary": "Services Catalog Click here to view the FY25 Services Catalog The catalogs provide service description, chargeback rate, unit of measure, and service level indicators for each NSSC service. Service Level Agreement (SLA) Click here to view the Service Level Agreement The SLA provides information about roles, responsibilities, rates, and service level indicators for all NASA […]"
     }
   ],
-  "updated": "2025-12-19T16:17:19.820Z"
+  "updated": "2025-12-19T16:45:10.930Z"
 }
