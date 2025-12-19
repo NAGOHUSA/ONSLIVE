@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Week in images: 15-19 December 2025",
+      "link": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_15-19_December_2025",
+      "source": "ESA",
+      "date": "2025-12-19T14:15:00Z",
+      "summary": "Week in images: 15-19 December 2025"
+    },
+    {
       "title": "The hidden backbone of space security: how to keep satellites safe through proper logistics",
       "link": "https://spacenews.com/the-hidden-backbone-of-space-security-how-to-keep-satellites-safe-through-proper-logistics/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2025-12-19T12:00:00Z",
       "summary": "A sideways spiral galaxy shines in this NASA/ESA Hubble Space Telescope image. Located about 60 million light-years away in the constellation Virgo (the Maiden), NGC 4388 is a resident of the Virgo galaxy cluster. This enormous cluster of galaxies contains more than a thousand members and is the nearest large galaxy cluster to the Milky […]"
-    },
-    {
-      "title": "Sentinel 6B begins sea level mapping campaign",
-      "link": "https://www.spacedaily.com/reports/Sentinel_6B_begins_sea_level_mapping_campaign_999.html",
-      "source": "SpaceDaily",
-      "date": "2025-12-19T11:01:57Z",
-      "summary": "Washington DC (SPX) Dec 17, 2025\r\n\r\n\r\nSentinel-6B has begun returning its first ocean measurements, providing initial maps of sea level across a wide area of the U.S. East Coast and the Atlantic Ocean after its November launch. The U.S.-European mission is designed to survey about 90 percent of Earth's oceans using high-precision radar altimetry to track changes in sea surface height that affect coastal communities and marine operat"
     }
   ],
-  "updated": "2025-12-19T14:28:11.809Z"
+  "updated": "2025-12-19T14:45:31.154Z"
 }
