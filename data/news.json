@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Webb: Dwarf stars in a glittering sky",
+      "link": "https://www.esa.int/ESA_Multimedia/Images/2025/12/Webb_Dwarf_stars_in_a_glittering_sky",
+      "source": "ESA",
+      "date": "2025-12-19T09:00:00Z",
+      "summary": "From the ESA Blogs."
+    },
+    {
       "title": "ICEYE and Rheinmetall Win €1.7 Billion German Armed Forces Contract",
       "link": "https://europeanspaceflight.com/iceye-and-rheinmetall-win-e1-7-billion-german-armed-forces-contract/",
       "source": "European Spaceflight",
@@ -27,14 +34,7 @@
       "source": "SpaceDaily",
       "date": "2025-12-19T01:51:15Z",
       "summary": "Gerroa, Australia (SPX) Dec 19, 2025\n\nFusion is the cosmic process that powers stars, shapes galaxies, and enables the chemical diversity needed for life. From the earliest stars to modern planetary systems, fusion converts hydrogen into heavier elements, forging the matter that makes up worlds, atmospheres, and living organisms. The Sun's steady fusion output governs Earth's climate and underlies all biological and technological energy flows, from photosynthesis to fossil fuels."
-    },
-    {
-      "title": "How to pick the right web testing framework for your project",
-      "link": "https://www.spacedaily.com/reports/How_to_pick_the_right_web_testing_framework_for_your_project_999.html",
-      "source": "SpaceDaily",
-      "date": "2025-12-19T01:51:15Z",
-      "summary": "Los Angeles CA (SPX) Dec 18, 2025\n\nThe selection of a web testing framework may at times not be very easy. In fact, with so many tools that claim to speed up your testing process, it often comes down to which tool best fits your team's skill sets, project scope, and long-term testing objectives. Whether you're a QA manager, SDET, tester, or engineer, you want a framework that supports quality and grows with your development process"
     }
   ],
-  "updated": "2025-12-19T08:46:34.107Z"
+  "updated": "2025-12-19T09:00:39.919Z"
 }
