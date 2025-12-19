@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "The hidden backbone of space security: how to keep satellites safe through proper logistics",
+      "link": "https://spacenews.com/the-hidden-backbone-of-space-security-how-to-keep-satellites-safe-through-proper-logistics/",
+      "source": "SpaceNews",
+      "date": "2025-12-19T14:00:00Z",
+      "summary": "\nThe modern space economy is increasingly powered by dual-use satellites that support both civilian services and national security needs. These assets deliver critical capabilities, from communications to Earth observation, but they also face growing risks. Protecting them, along with the intellectual property they carry, requires an integrated end-to-end approach that connects logistics, compliance and mission […]\nThe post The hidden backbone of space security: how to keep satellites safe through proper logistics appeared first on SpaceNews."
+    },
+    {
+      "title": "Europe’s next solid propellant rocket motor passes review",
+      "link": "https://www.esa.int/Enabling_Support/Space_Transportation/Europe_s_Spaceport/Europe_s_next_solid_propellant_rocket_motor_passes_review",
+      "source": "ESA",
+      "date": "2025-12-19T13:47:00Z",
+      "summary": "From the ESA Blogs."
+    },
+    {
       "title": "Astrobotic secures contracts for suborbital vehicle development",
       "link": "https://spacenews.com/astrobotic-secures-contracts-for-suborbital-vehicle-development/",
       "source": "SpaceNews",
@@ -20,21 +34,7 @@
       "source": "SpaceDaily",
       "date": "2025-12-19T11:01:57Z",
       "summary": "Washington DC (SPX) Dec 17, 2025\r\n\r\n\r\nSentinel-6B has begun returning its first ocean measurements, providing initial maps of sea level across a wide area of the U.S. East Coast and the Atlantic Ocean after its November launch. The U.S.-European mission is designed to survey about 90 percent of Earth's oceans using high-precision radar altimetry to track changes in sea surface height that affect coastal communities and marine operat"
-    },
-    {
-      "title": "BlackSky accelerates Gen-3 satellite into full commercial service in three weeks",
-      "link": "https://www.spacewar.com/reports/BlackSky_accelerates_Gen_3_satellite_into_full_commercial_service_in_three_weeks_999.html",
-      "source": "SpaceDaily",
-      "date": "2025-12-19T11:01:57Z",
-      "summary": "Los Angeles CA (SPX) Dec 18, 2025\r\n\r\n\r\nBlackSky Technology Inc. (NYSE: BKSY) has placed its third Gen-3 imaging satellite into commercial service just three weeks after launch, marking a major reduction in commissioning time compared with the company's first Gen-3 unit. The new spacecraft adds further capacity for 35-centimeter-class very high-resolution imagery and AI-enabled analytics for BlackSky customers worldwide. \r\n\r\n\"Integr"
-    },
-    {
-      "title": "New NASA Sensor Goes Hunting for Critical Minerals",
-      "link": "https://www.spacedaily.com/reports/New_NASA_Sensor_Goes_Hunting_for_Critical_Minerals_999.html",
-      "source": "SpaceDaily",
-      "date": "2025-12-19T11:01:57Z",
-      "summary": "Pasadena CA (JPL) Dec 09, 2025\r\n\r\n\r\nCradled in the nose of a high-altitude research airplane, a new NASA sensor has taken to the skies to help geoscientists map rocks hosting lithium and other critical minerals on Earth's surface some 60,000 feet below. In collaboration with the U.S. Geological Survey (USGS), the flights are part of the largest airborne campaign of its kind in the country's history. \r\n\r\nBut that's just one of ma"
     }
   ],
-  "updated": "2025-12-19T14:01:38.578Z"
+  "updated": "2025-12-19T14:28:11.809Z"
 }
