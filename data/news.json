@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Blue Origin flies first wheelchair user to space",
+      "link": "https://spacenews.com/blue-origin-flies-first-wheelchair-user-to-space/",
+      "source": "SpaceNews",
+      "date": "2025-12-20T17:02:48Z",
+      "summary": "\nBlue Origin flew its final New Shepard suborbital mission of the year Dec. 20, carrying six people, including the first person who uses a wheelchair to travel to space.\nThe post Blue Origin flies first wheelchair user to space appeared first on SpaceNews."
+    },
+    {
       "title": "First Wheelchair User Flies to Space",
       "link": "https://spacepolicyonline.com/news/first-wheelchair-user-flies-to-space/",
       "source": "SpacePolicyOnline.com",
@@ -27,14 +34,7 @@
       "source": "Spaceflight Now",
       "date": "2025-12-20T01:16:26Z",
       "summary": "This batch of satellites will populate what the SDA calls the Tracking Layer of its Proliferated Warfighter Space Architecture (PWSA) constellation in low Earth orbit. The work will be divided evenly, with each company building 18 spacecraft. "
-    },
-    {
-      "title": "NASA safety panel recommends review of Artemis plans",
-      "link": "https://spacenews.com/nasa-safety-panel-recommends-review-of-artemis-plans/",
-      "source": "SpaceNews",
-      "date": "2025-12-19T23:53:46Z",
-      "summary": "\nNASA’s safety advisers are recommending that the agency reconsider its Artemis lunar landing architecture as well as how it handles incidents such as the flawed Starliner test flight.\nThe post NASA safety panel recommends review of Artemis plans appeared first on SpaceNews."
     }
   ],
-  "updated": "2025-12-20T17:09:32.653Z"
+  "updated": "2025-12-20T17:28:08.376Z"
 }
