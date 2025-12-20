@@ -17,14 +17,14 @@
     {
       "name": "STARLINK-1017",
       "id": "2019-074L",
-      "epoch": "2025-12-19T20:03:32.565312",
-      "meanMotion": 15.1803728,
-      "inclination": 53.047
+      "epoch": "2025-12-19T21:38:20.925312",
+      "meanMotion": 15.18038101,
+      "inclination": 53.0468
     },
     {
       "name": "STARLINK-1019",
       "id": "2019-074M",
-      "epoch": "2025-12-19T22:00:01.998720",
+      "epoch": "2025-12-19T22:00:01.999584",
       "meanMotion": 15.57431392,
       "inclination": 53.0506
     },
@@ -38,23 +38,23 @@
     {
       "name": "STARLINK-1031",
       "id": "2019-074Z",
-      "epoch": "2025-12-19T22:00:01.998720",
-      "meanMotion": 15.61247237,
+      "epoch": "2025-12-19T22:00:01.999584",
+      "meanMotion": 15.61247238,
       "inclination": 53.0469
     },
     {
       "name": "STARLINK-1036",
       "id": "2019-074AE",
-      "epoch": "2025-12-19T19:58:46.352352",
-      "meanMotion": 15.06403004,
+      "epoch": "2025-12-19T21:34:18.670944",
+      "meanMotion": 15.06403432,
       "inclination": 53.0537
     },
     {
       "name": "STARLINK-1039",
       "id": "2019-074AH",
-      "epoch": "2025-12-19T20:02:01.218048",
-      "meanMotion": 15.15509487,
-      "inclination": 53.0478
+      "epoch": "2025-12-19T21:36:59.065632",
+      "meanMotion": 15.15511367,
+      "inclination": 53.0479
     },
     {
       "name": "STARLINK-1042",
@@ -66,17 +66,17 @@
     {
       "name": "STARLINK-1043",
       "id": "2019-074AM",
-      "epoch": "2025-12-19T19:53:07.495008",
-      "meanMotion": 15.44941072,
+      "epoch": "2025-12-19T21:26:16.692000",
+      "meanMotion": 15.44949858,
       "inclination": 53.0534
     }
   ],
   "iss": {
-    "latitude": 44.237390071691,
-    "longitude": 8.4434686322634,
-    "altitude": 423.87042256827,
-    "velocity": 27581.883853118,
-    "visibility": "eclipsed"
+    "latitude": 25.569258455401,
+    "longitude": 110.74595716853,
+    "altitude": 419.84349745832,
+    "velocity": 27584.028740569,
+    "visibility": "daylight"
   },
-  "updated": "2025-12-20T03:53:20.556Z"
+  "updated": "2025-12-20T04:15:03.348Z"
 }
