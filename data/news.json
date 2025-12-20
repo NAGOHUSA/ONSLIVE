@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Artemis II Crew Rehearse Launch Day Demonstration",
+      "link": "https://www.nasa.gov/image-article/artemis-ii-crew-rehearse-launch-day-demonstration/",
+      "source": "NASA",
+      "date": "2025-12-20T20:31:20Z",
+      "summary": "The four astronauts set to fly around the Moon during NASA’s Artemis II test flight depart the Neil A. Armstrong Operations and Checkout Building at the agency’s Kennedy Space Center in Florida, during a dress rehearsal for launch day on Dec. 20, 2025. From left are CSA (Canadian Space Agency) astronaut Jeremy Hansen NASA astronauts Victor Glover, Reid Wiseman, […]"
+    },
+    {
       "title": "Blue Origin flies first wheelchair user to space",
       "link": "https://spacenews.com/blue-origin-flies-first-wheelchair-user-to-space/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2025-12-20T01:19:24Z",
       "summary": "Written by Noah Martin, Ph.D. student and Candice Bedford, Research Scientist at Purdue University While much of Perseverance’s work focuses on ancient rocks that record Mars’ long-lost rivers and lakes, megaripples offer a rare opportunity to examine processes that are still shaping the surface today. Megaripples are sand ripples up to 2 meters (about 6.5 […]"
-    },
-    {
-      "title": "Space Development Agency awards roughly $3.5 billion to 4 companies for 72 missile tracking and warning satellites",
-      "link": "https://spaceflightnow.com/2025/12/20/space-development-agency-awards-roughly-3-5-billion-to-4-companies-for-72-missile-tracking-and-warning-satellites/",
-      "source": "Spaceflight Now",
-      "date": "2025-12-20T01:16:26Z",
-      "summary": "This batch of satellites will populate what the SDA calls the Tracking Layer of its Proliferated Warfighter Space Architecture (PWSA) constellation in low Earth orbit. The work will be divided evenly, with each company building 18 spacecraft. "
     }
   ],
-  "updated": "2025-12-20T20:47:06.669Z"
+  "updated": "2025-12-20T20:53:33.096Z"
 }
