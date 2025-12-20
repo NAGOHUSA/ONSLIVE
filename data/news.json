@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "First Wheelchair User Flies to Space",
+      "link": "https://spacepolicyonline.com/news/first-wheelchair-user-flies-to-space/",
+      "source": "SpacePolicyOnline.com",
+      "date": "2025-12-20T15:45:19Z",
+      "summary": "The first wheelchair user flew into space today on Blue Origin’s New Shepard rocket. Michi Benthaus, who was injured in a mountain biking accident in 2018, achieved her dream of […]"
+    },
+    {
       "title": "Redwire Tapped to Provide Docking Mechanisms for Nyx Earth Capsule",
       "link": "https://europeanspaceflight.com/redwire-tapped-to-provide-docking-mechanisms-for-nyx-earth-capsule/",
       "source": "European Spaceflight",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2025-12-19T23:53:46Z",
       "summary": "\nNASA’s safety advisers are recommending that the agency reconsider its Artemis lunar landing architecture as well as how it handles incidents such as the flawed Starliner test flight.\nThe post NASA safety panel recommends review of Artemis plans appeared first on SpaceNews."
-    },
-    {
-      "title": "Meet NASA’s Astronaut Class of 2025 – Webby Submission",
-      "link": "https://www.nasa.gov/general/meet-nasas-astronaut-class-of-2025-webby-submission/",
-      "source": "NASA",
-      "date": "2025-12-19T22:01:06Z",
-      "summary": "NASA engineers are laying the foundation for the moonwalks the first woman and next man will conduct when they land on the lunar South Pole in 2024 as part of the Artemis program. At the agency’s Johnson Space Center in Houston, teams are testing the tools and developing training approaches for lunar surface operations. As part of […]"
     }
   ],
-  "updated": "2025-12-20T15:47:53.711Z"
+  "updated": "2025-12-20T15:54:44.205Z"
 }
