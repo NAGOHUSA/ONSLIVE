@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Wind-Sculpted Landscapes: Investigating the Martian Megaripple ‘Hazyview’",
+      "link": "https://science.nasa.gov/blog/wind-sculpted-landscapes-investigating-the-martian-megaripple-hazyview/",
+      "source": "NASA",
+      "date": "2025-12-20T01:19:24Z",
+      "summary": "Written by Noah Martin, Ph.D. student and Candice Bedford, Research Scientist at Purdue University While much of Perseverance’s work focuses on ancient rocks that record Mars’ long-lost rivers and lakes, megaripples offer a rare opportunity to examine processes that are still shaping the surface today. Megaripples are sand ripples up to 2 meters (about 6.5 […]"
+    },
+    {
       "title": "Space Development Agency awards roughly $3.5 billion to 4 companies for 72 missile tracking and warning satellites",
       "link": "https://spaceflightnow.com/2025/12/20/space-development-agency-awards-roughly-3-5-billion-to-4-companies-for-72-missile-tracking-and-warning-satellites/",
       "source": "Spaceflight Now",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2025-12-19T20:59:50Z",
       "summary": "\nL3Harris, Lockheed Martin, Rocket Lab and Northrop Grumman won contracts to build 72 satellites\nThe post Space Development Agency awards $3.5 billion in contracts for missile-tracking satellites appeared first on SpaceNews."
-    },
-    {
-      "title": "Hungary’s 4iG commits to $100 million Axiom Space investment",
-      "link": "https://spacenews.com/hungarys-4ig-commits-to-100-million-axiom-space-investment/",
-      "source": "SpaceNews",
-      "date": "2025-12-19T20:59:39Z",
-      "summary": "\nHungarian communications provider 4iG has agreed to invest $100 million in U.S.-based space station developer Axiom Space, broadening its footprint in the space industry amid a broader push toward vertically integrated capabilities in the industry.\nThe post Hungary’s 4iG commits to $100 million Axiom Space investment appeared first on SpaceNews."
     }
   ],
-  "updated": "2025-12-20T01:43:19.203Z"
+  "updated": "2025-12-20T03:05:29.581Z"
 }
