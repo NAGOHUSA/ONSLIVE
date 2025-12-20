@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA Meets New Administrator Jared Isaacman",
+      "link": "https://spacepolicyonline.com/news/nasa-meets-new-administrator-jared-isaacman/",
+      "source": "SpacePolicyOnline.com",
+      "date": "2025-12-20T22:47:56Z",
+      "summary": "One day after being sworn in as NASA Administrator, Jared Isaacman held a Town Hall meeting with the NASA workforce to introduce himself and answer questions. He praised President Trump’s […]"
+    },
+    {
       "title": "Artemis II Crew Rehearse Launch Day Demonstration",
       "link": "https://www.nasa.gov/image-article/artemis-ii-crew-rehearse-launch-day-demonstration/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "European Spaceflight",
       "date": "2025-12-20T05:00:36Z",
       "summary": "The Exploration Company has awarded Redwire a contract to provide two International Berthing and Docking Mechanisms (IBDM) for its Nyx cargo spacecraft. Developed by QinetiQ Space under a European Space Agency contract awarded in 2014, the International Berthing and Docking Mechanism was designed as a standardised interface to support docking and berthing for the next […]\nThe post Redwire Tapped to Provide Docking Mechanisms for Nyx Earth Capsule appeared first on European Spaceflight."
-    },
-    {
-      "title": "Wind-Sculpted Landscapes: Investigating the Martian Megaripple ‘Hazyview’",
-      "link": "https://science.nasa.gov/blog/wind-sculpted-landscapes-investigating-the-martian-megaripple-hazyview/",
-      "source": "NASA",
-      "date": "2025-12-20T01:19:24Z",
-      "summary": "Written by Noah Martin, Ph.D. student and Candice Bedford, Research Scientist at Purdue University While much of Perseverance’s work focuses on ancient rocks that record Mars’ long-lost rivers and lakes, megaripples offer a rare opportunity to examine processes that are still shaping the surface today. Megaripples are sand ripples up to 2 meters (about 6.5 […]"
     }
   ],
-  "updated": "2025-12-20T22:51:03.624Z"
+  "updated": "2025-12-20T22:57:18.692Z"
 }
