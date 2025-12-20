@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Redwire Tapped to Provide Docking Mechanisms for Nyx Earth Capsule",
+      "link": "https://europeanspaceflight.com/redwire-tapped-to-provide-docking-mechanisms-for-nyx-earth-capsule/",
+      "source": "European Spaceflight",
+      "date": "2025-12-20T05:00:36Z",
+      "summary": "The Exploration Company has awarded Redwire a contract to provide two International Berthing and Docking Mechanisms (IBDM) for its Nyx cargo spacecraft. Developed by QinetiQ Space under a European Space Agency contract awarded in 2014, the International Berthing and Docking Mechanism was designed as a standardised interface to support docking and berthing for the next […]\nThe post Redwire Tapped to Provide Docking Mechanisms for Nyx Earth Capsule appeared first on European Spaceflight."
+    },
+    {
       "title": "Wind-Sculpted Landscapes: Investigating the Martian Megaripple ‘Hazyview’",
       "link": "https://science.nasa.gov/blog/wind-sculpted-landscapes-investigating-the-martian-megaripple-hazyview/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2025-12-19T22:01:06Z",
       "summary": "NASA engineers are laying the foundation for the moonwalks the first woman and next man will conduct when they land on the lunar South Pole in 2024 as part of the Artemis program. At the agency’s Johnson Space Center in Houston, teams are testing the tools and developing training approaches for lunar surface operations. As part of […]"
-    },
-    {
-      "title": "Space Development Agency awards $3.5 billion in contracts for missile-tracking satellites",
-      "link": "https://spacenews.com/space-development-agency-awards-3-5-billion-in-contracts-for-missile-tracking-satellites/",
-      "source": "SpaceNews",
-      "date": "2025-12-19T20:59:50Z",
-      "summary": "\nL3Harris, Lockheed Martin, Rocket Lab and Northrop Grumman won contracts to build 72 satellites\nThe post Space Development Agency awards $3.5 billion in contracts for missile-tracking satellites appeared first on SpaceNews."
     }
   ],
-  "updated": "2025-12-20T04:59:27.635Z"
+  "updated": "2025-12-20T05:21:03.071Z"
 }
