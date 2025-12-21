@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA loses contact with MAVEN, Perseverance continues roving around Jezero",
+      "link": "https://www.nasaspaceflight.com/2025/12/maven-perseverance-update/",
+      "source": "NASASpaceflight",
+      "date": "2025-12-21T22:19:33Z",
+      "summary": "In early December, NASA lost contact with its MAVEN spacecraft, which has been orbiting Mars…\nThe post NASA loses contact with MAVEN, Perseverance continues roving around Jezero appeared first on NASASpaceFlight.com."
+    },
+    {
       "title": "Isaacman emphasizes accelerating NASA programs as he takes agency’s reins",
       "link": "https://spacenews.com/isaacman-emphasizes-accelerating-nasa-programs-as-he-takes-agencys-reins/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpacePolicyOnline.com",
       "date": "2025-12-20T22:47:56Z",
       "summary": "One day after being sworn in as NASA Administrator, Jared Isaacman held a Town Hall meeting with the NASA workforce to introduce himself and answer questions. He praised President Trump’s […]"
-    },
-    {
-      "title": "Artemis II Crew Rehearse Launch Day Demonstration",
-      "link": "https://www.nasa.gov/image-article/artemis-ii-crew-rehearse-launch-day-demonstration/",
-      "source": "NASA",
-      "date": "2025-12-20T20:31:20Z",
-      "summary": "The four astronauts set to fly around the Moon during NASA’s Artemis II test flight depart the Neil A. Armstrong Operations and Checkout Building at the agency’s Kennedy Space Center in Florida, during a dress rehearsal for launch day on Dec. 20, 2025. From left are CSA (Canadian Space Agency) astronaut Jeremy Hansen NASA astronauts Victor Glover, Reid Wiseman, […]"
     }
   ],
-  "updated": "2025-12-21T22:14:13.803Z"
+  "updated": "2025-12-21T22:33:57.806Z"
 }
