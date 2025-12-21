@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Astronauts, launch teams practice Artemis 2 countdown",
+      "link": "https://spaceflightnow.com/2025/12/21/astronauts-launch-teams-practice-artemis-2-countdown/",
+      "source": "Spaceflight Now",
+      "date": "2025-12-21T00:15:32Z",
+      "summary": "The run-through simulated day-of-launch activities, included suit up, ingress into the Orion spacecraft and a countdown that stopped just shy of T-0. "
+    },
+    {
       "title": "NASA Meets New Administrator Jared Isaacman",
       "link": "https://spacepolicyonline.com/news/nasa-meets-new-administrator-jared-isaacman/",
       "source": "SpacePolicyOnline.com",
@@ -27,14 +34,7 @@
       "source": "SpacePolicyOnline.com",
       "date": "2025-12-20T15:45:19Z",
       "summary": "The first wheelchair user flew into space today on Blue Origin’s New Shepard rocket. Michi Benthaus, who was injured in a mountain biking accident in 2018, achieved her dream of […]"
-    },
-    {
-      "title": "Redwire Tapped to Provide Docking Mechanisms for Nyx Earth Capsule",
-      "link": "https://europeanspaceflight.com/redwire-tapped-to-provide-docking-mechanisms-for-nyx-earth-capsule/",
-      "source": "European Spaceflight",
-      "date": "2025-12-20T05:00:36Z",
-      "summary": "The Exploration Company has awarded Redwire a contract to provide two International Berthing and Docking Mechanisms (IBDM) for its Nyx cargo spacecraft. Developed by QinetiQ Space under a European Space Agency contract awarded in 2014, the International Berthing and Docking Mechanism was designed as a standardised interface to support docking and berthing for the next […]\nThe post Redwire Tapped to Provide Docking Mechanisms for Nyx Earth Capsule appeared first on European Spaceflight."
     }
   ],
-  "updated": "2025-12-20T23:59:00.280Z"
+  "updated": "2025-12-21T01:45:53.152Z"
 }
