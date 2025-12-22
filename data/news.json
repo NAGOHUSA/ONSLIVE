@@ -1,11 +1,18 @@
 {
   "articles": [
     {
-      "title": "Clues to the migration path of hot Jupiters in their orbits",
-      "link": "https://www.spacedaily.com/reports/Clues_to_the_migration_path_of_hot_Jupiters_in_their_orbits_999.html",
-      "source": "SpaceDaily",
-      "date": "2025-12-22T09:44:24Z",
-      "summary": "Tokyo, Japan (SPX) Dec 16, 2025\n\n\nThe first exoplanet discovered in 1995 was a hot Jupiter, a Jupiter mass planet orbiting its star every few days. Today, models indicate that hot Jupiters form far from their stars, similar to Jupiter in the Solar System, and later move inward. Two main migration channels are considered: high-eccentricity migration, in which gravitational perturbations excite the orbit before tidal forces circul"
+      "title": "Japan’s H3 suffers second-stage anomaly, QZS-5 satellite lost",
+      "link": "https://spacenews.com/japans-h3-suffers-second-stage-anomaly-qzs-5-satellite-lost/",
+      "source": "SpaceNews",
+      "date": "2025-12-22T10:09:38Z",
+      "summary": "\nJapan’s flagship H3 rocket suffered an issue with its second stage late Sunday resulting in the loss of the Michibiki 5 (QZS-5) navigation satellite.\nThe post Japan’s H3 suffers second-stage anomaly, QZS-5 satellite lost appeared first on SpaceNews."
+    },
+    {
+      "title": "Hungary’s 4iG to Invest $100 Million in Axiom Space",
+      "link": "https://europeanspaceflight.com/hungarys-4ig-to-invest-100-million-in-axiom-space/",
+      "source": "European Spaceflight",
+      "date": "2025-12-22T10:00:19Z",
+      "summary": "Budapest-based 4iG Space and Defence (4iG SDT) has committed to investing $100 million in US space infrastructure company Axiom Space. In early October, 4iG SDT and Axiom Space signed a preliminary, non-binding commitment letter to pursue a $100 million equity investment in the US space infrastructure company. At the time, 4iG SDT explained that the […]\nThe post Hungary’s 4iG to Invest $100 Million in Axiom Space appeared first on European Spaceflight."
     },
     {
       "title": "Smart modeling framework targets 6G spectrum chaos in space air and ground networks",
@@ -15,13 +22,6 @@
       "summary": "Tokyo, Japan (SPX) Dec 16, 2025\n\n\nAs wireless systems evolve from 5G to 6G, engineers are working toward networks that connect satellites in orbit, airborne platforms such as drones, and dense constellations of ground devices into a single space air ground integrated network or SAGIN. This convergence creates a complex electromagnetic environment where large numbers of signals overlap and interfere, making spectrum control and p"
     },
     {
-      "title": "Proba-3 mission closes gap in inner solar corona monitoring",
-      "link": "https://www.spacedaily.com/reports/Proba_3_mission_closes_gap_in_inner_solar_corona_monitoring_999.html",
-      "source": "SpaceDaily",
-      "date": "2025-12-22T09:44:24Z",
-      "summary": "Berlin, Germany (SPX) Dec 19, 2025\n\n\nProba-3 has spent its first year in orbit generating more than 50 artificial solar eclipses, giving scientists sustained access to the inner solar corona that previously could only be studied intermittently during brief total eclipses on Earth. The two-satellite ESA mission is designed to supply the missing observations between the solar disc and the well-studied outer corona, and recent data co"
-    },
-    {
       "title": "Possible \"superkilonova\" exploded not once but twice",
       "link": "https://www.spacedaily.com/reports/Possible_superkilonova_exploded_not_once_but_twice_999.html",
       "source": "SpaceDaily",
@@ -29,12 +29,12 @@
       "summary": "Pasadena CA (SPX) Dec 17, 2025\n\n\nWhen the most massive stars reach the ends of their lives, they blow up in spectacular supernova explosions, which seed the universe with heavy elements such as carbon and iron. Another type of explosion - the kilonova - occurs when a pair of dense dead stars, called neutron stars, smash together, forging even heavier elements such as gold and uranium. Such heavy elements are among the basic bui"
     },
     {
-      "title": "Search for life should be top science priority for first human landing on Mars report says",
-      "link": "https://www.marsdaily.com/reports/Search_for_life_should_be_top_science_priority_for_first_human_landing_on_Mars_report_says_999.html",
+      "title": "Proba-3 mission closes gap in inner solar corona monitoring",
+      "link": "https://www.spacedaily.com/reports/Proba_3_mission_closes_gap_in_inner_solar_corona_monitoring_999.html",
       "source": "SpaceDaily",
       "date": "2025-12-22T09:44:24Z",
-      "summary": "Los Angeles CA (SPX) Dec 22, 2025\n\n\nThe search for evidence of past or present life on Mars should be the highest scientific priority for the first human missions to the planet, according to a new report from the National Academies of Sciences Engineering and Medicine that assesses long term goals for crewed exploration. \n\nThe report concludes that human explorers offer scientific capabilities that cannot be replicated by robo"
+      "summary": "Berlin, Germany (SPX) Dec 19, 2025\n\n\nProba-3 has spent its first year in orbit generating more than 50 artificial solar eclipses, giving scientists sustained access to the inner solar corona that previously could only be studied intermittently during brief total eclipses on Earth. The two-satellite ESA mission is designed to supply the missing observations between the solar disc and the well-studied outer corona, and recent data co"
     }
   ],
-  "updated": "2025-12-22T09:59:12.582Z"
+  "updated": "2025-12-22T10:22:56.747Z"
 }
