@@ -3,9 +3,9 @@
     {
       "name": "STARLINK-1008",
       "id": "2019-074B",
-      "epoch": "2025-12-21T22:42:46.697184",
-      "meanMotion": 15.06393786,
-      "inclination": 53.0551
+      "epoch": "2025-12-22T11:27:05.578560",
+      "meanMotion": 15.06396125,
+      "inclination": 53.0554
     },
     {
       "name": "STARLINK-1012",
@@ -17,16 +17,16 @@
     {
       "name": "STARLINK-1017",
       "id": "2019-074L",
-      "epoch": "2025-12-22T04:56:32.276832",
-      "meanMotion": 15.18090453,
-      "inclination": 53.0468
+      "epoch": "2025-12-22T11:15:44.703360",
+      "meanMotion": 15.18115011,
+      "inclination": 53.0471
     },
     {
       "name": "STARLINK-1019",
       "id": "2019-074M",
-      "epoch": "2025-12-22T06:00:02.000160",
-      "meanMotion": 15.58119676,
-      "inclination": 53.0509
+      "epoch": "2025-12-22T14:00:01.999872",
+      "meanMotion": 15.58250126,
+      "inclination": 53.0508
     },
     {
       "name": "STARLINK-1020",
@@ -38,9 +38,9 @@
     {
       "name": "STARLINK-1031",
       "id": "2019-074Z",
-      "epoch": "2025-12-22T06:00:02.000160",
-      "meanMotion": 15.61913765,
-      "inclination": 53.0468
+      "epoch": "2025-12-22T14:00:01.999872",
+      "meanMotion": 15.62057206,
+      "inclination": 53.047
     },
     {
       "name": "STARLINK-1036",
@@ -59,8 +59,8 @@
     {
       "name": "STARLINK-1042",
       "id": "2019-074AL",
-      "epoch": "2025-12-22T07:03:56.299104",
-      "meanMotion": 15.45730255,
+      "epoch": "2025-12-22T11:43:15.419424",
+      "meanMotion": 15.45738513,
       "inclination": 53.0458
     },
     {
@@ -72,11 +72,11 @@
     }
   ],
   "iss": {
-    "latitude": -17.466231204112,
-    "longitude": -103.93788417535,
-    "altitude": 421.89240668359,
-    "velocity": 27570.87855104,
+    "latitude": -51.300994191457,
+    "longitude": -22.484358220415,
+    "altitude": 432.99067796434,
+    "velocity": 27550.373880185,
     "visibility": "daylight"
   },
-  "updated": "2025-12-22T19:56:38.633Z"
+  "updated": "2025-12-22T20:15:49.135Z"
 }
