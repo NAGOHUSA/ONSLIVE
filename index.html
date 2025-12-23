@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ONSLIVE Space Weather Dashboard v4.1</title>
+    <title>ONSLIVE Space Weather Dashboard v4.0</title>
     
     <!-- CSS Dependencies -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -283,7 +283,6 @@
         .map-container {
             position: relative;
             height: 300px;
-            width: 100%;
             border-radius: 12px;
             overflow: hidden;
             background: #1a1a2e;
@@ -455,16 +454,10 @@
             border-radius: 4px;
         }
 
-        /* Map specific styles */
+        /* ISS Tracker specific */
         #issMap, #auroraMap {
             height: 100%;
-            width: 100%;
             border-radius: 8px;
-        }
-
-        .leaflet-container {
-            background: #0a1628 !important;
-            height: 100% !important;
         }
 
         .iss-tracker-grid {
@@ -756,3 +749,485 @@
                         <div class="data-item">
                             <span class="data-label">Velocity</span>
                             <span class="data-value" id="iss-velocity">-- km/h</span>
+                        </div>
+                        <div class="data-item">
+                            <span class="data-label">Visibility</span>
+                            <span class="data-value" id="iss-visibility">--</span>
+                        </div>
+                        <div class="data-item">
+                            <span class="data-label">Orbit #</span>
+                            <span class="data-value" id="iss-orbit">--</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Aurora Forecast -->
+            <div class="card forecast">
+                <div class="card-header">
+                    <h2><i class="fas fa-cloud-moon"></i> Aurora Forecast</h2>
+                    <span id="forecast-status" class="gauge-status status-info">24h</span>
+                </div>
+                <div class="card-content">
+                    <div id="aurora-forecast" class="data-list">
+                        <div class="data-item info">
+                            <span class="data-label">Next 3h</span>
+                            <span class="data-value" id="forecast-3h">--</span>
+                        </div>
+                        <div class="data-item">
+                            <span class="data-label">Next 6h</span>
+                            <span class="data-value" id="forecast-6h">--</span>
+                        </div>
+                        <div class="data-item">
+                            <span class="data-label">Next 12h</span>
+                            <span class="data-value" id="forecast-12h">--</span>
+                        </div>
+                        <div class="data-item">
+                            <span class="data-label">Peak Time</span>
+                            <span class="data-value" id="forecast-peak">--</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Meteor Showers -->
+            <div class="card meteor-showers">
+                <div class="card-header">
+                    <h2><i class="fas fa-meteor"></i> Meteor Showers</h2>
+                    <span id="meteor-status" class="gauge-status status-info">--</span>
+                </div>
+                <div class="card-content">
+                    <div id="meteor-showers" class="data-list">
+                        <div class="loading">Loading...</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Comets -->
+            <div class="card comets">
+                <div class="card-header">
+                    <h2><i class="fas fa-star"></i> Notable Comets</h2>
+                    <span id="comets-count" class="gauge-status status-info">0</span>
+                </div>
+                <div class="card-content">
+                    <div id="comets-list" class="data-list">
+                        <div class="loading">Loading...</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- System Status -->
+            <div class="card system-status">
+                <div class="card-header">
+                    <h2><i class="fas fa-server"></i> System Status</h2>
+                    <span id="system-status-badge" class="gauge-status status-good">Online</span>
+                </div>
+                <div class="card-content">
+                    <div id="system-status-data" class="data-list">
+                        <div class="data-item success">
+                            <span class="data-label">Data Sources</span>
+                            <span class="data-value" id="data-sources">--</span>
+                        </div>
+                        <div class="data-item">
+                            <span class="data-label">Last Update</span>
+                            <span class="data-value" id="last-update">--</span>
+                        </div>
+                        <div class="data-item">
+                            <span class="data-label">Uptime</span>
+                            <span class="data-value" id="uptime">--</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 ONSLIVE Space Weather Dashboard | Data from NOAA, NASA, and space weather sources</p>
+        <p style="font-size: 0.9rem; margin-top: 0.5rem; color: var(--text-muted);">
+            Real-time space weather monitoring and celestial events tracking
+        </p>
+    </footer>
+
+    <script>
+        const baseUrl = 'https://raw.githubusercontent.com/NAGOHUSA/ONSLIVE/main/data/';
+        let issMap = null;
+        let auroraMap = null;
+        let issMarker = null;
+        let auroraLayer = null;
+        let updateInterval = null;
+
+        // Initialize maps
+        function initMaps() {
+            // ISS Map
+            issMap = L.map('issMap').setView([0, 0], 2);
+            L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+                attribution: '©OpenStreetMap, ©CartoDB',
+                maxZoom: 8,
+                minZoom: 1
+            }).addTo(issMap);
+
+            // Aurora Map
+            auroraMap = L.map('auroraMap').setView([90, 0], 2);
+            L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+                attribution: '©OpenStreetMap, ©CartoDB',
+                maxZoom: 4,
+                minZoom: 1
+            }).addTo(auroraMap);
+
+            // Add Aurora oval (will be updated with data)
+            auroraLayer = L.circle([90, 0], {
+                radius: 1000000,
+                color: '#22c55e',
+                fillColor: '#22c55e',
+                fillOpacity: 0.3,
+                weight: 2
+            }).addTo(auroraMap);
+
+            // Add ISS marker
+            issMarker = L.marker([0, 0], {
+                icon: L.divIcon({
+                    className: 'iss-marker',
+                    html: '<div style="background: #3b82f6; width: 15px; height: 15px; border-radius: 50%; border: 3px solid white; box-shadow: 0 0 10px #3b82f6;"></div>',
+                    iconSize: [20, 20]
+                })
+            }).addTo(issMap);
+        }
+
+        // Update gauge visualization
+        function updateGauge(circleId, value, max) {
+            const circle = document.getElementById(circleId);
+            if (!circle) return;
+            
+            const circumference = 283;
+            const percent = Math.min(value / max, 1);
+            const offset = circumference - (percent * circumference);
+            circle.style.strokeDasharray = `${circumference} ${circumference}`;
+            circle.style.strokeDashoffset = offset;
+        }
+
+        // Get Kp status with color coding
+        function getKpStatus(kp) {
+            if (kp >= 7) return { text: 'Severe Storm', class: 'status-alert' };
+            if (kp >= 5) return { text: 'Strong Storm', class: 'status-warning' };
+            if (kp >= 4) return { text: 'Minor Storm', class: 'status-warning' };
+            if (kp >= 3) return { text: 'Unsettled', class: 'status-info' };
+            return { text: 'Quiet', class: 'status-good' };
+        }
+
+        // Get Aurora probability status
+        function getAuroraStatus(probability) {
+            if (probability >= 70) return { text: 'High Chance', class: 'status-alert' };
+            if (probability >= 40) return { text: 'Moderate', class: 'status-warning' };
+            if (probability >= 20) return { text: 'Low Chance', class: 'status-info' };
+            return { text: 'Unlikely', class: 'status-good' };
+        }
+
+        // Get solar wind status
+        function getSolarWindStatus(speed) {
+            if (speed >= 700) return { text: 'Fast', class: 'status-alert' };
+            if (speed >= 500) return { text: 'Moderate', class: 'status-warning' };
+            if (speed >= 400) return { text: 'Normal', class: 'status-info' };
+            return { text: 'Slow', class: 'status-good' };
+        }
+
+        // Get moon phase emoji and name
+        function getMoonPhase(illumination) {
+            if (illumination < 0.1) return { emoji: '🌑', name: 'New Moon' };
+            if (illumination < 0.25) return { emoji: '🌒', name: 'Waxing Crescent' };
+            if (illumination < 0.35) return { emoji: '🌓', name: 'First Quarter' };
+            if (illumination < 0.65) return { emoji: '🌔', name: 'Waxing Gibbous' };
+            if (illumination < 0.75) return { emoji: '🌕', name: 'Full Moon' };
+            if (illumination < 0.85) return { emoji: '🌖', name: 'Waning Gibbous' };
+            if (illumination < 0.95) return { emoji: '🌗', name: 'Last Quarter' };
+            return { emoji: '🌘', name: 'Waning Crescent' };
+        }
+
+        // Update aurora oval on map
+        function updateAuroraOval(kp) {
+            if (!auroraLayer) return;
+            
+            const radius = 1000000 + (kp * 200000);
+            let color = '#22c55e';
+            
+            if (kp < 3) color = '#22c55e';
+            else if (kp < 5) color = '#eab308';
+            else if (kp < 7) color = '#f97316';
+            else color = '#ef4444';
+            
+            auroraLayer.setRadius(radius);
+            auroraLayer.setStyle({
+                fillColor: color,
+                color: color
+            });
+            
+            // Update intensity text
+            const intensityText = kp < 3 ? 'Low' : kp < 5 ? 'Moderate' : kp < 7 ? 'High' : 'Extreme';
+            document.getElementById('aurora-intensity').textContent = `Kp ${kp.toFixed(1)} (${intensityText})`;
+        }
+
+        // Update ISS position on map
+        function updateISSPosition(lat, lon) {
+            if (!issMarker || !issMap) return;
+            
+            issMarker.setLatLng([lat, lon]);
+            issMap.setView([lat, lon], issMap.getZoom());
+        }
+
+        // Fetch all data
+        async function fetchData() {
+            try {
+                const [
+                    news, noaa, satellites, status, 
+                    updateStatus, aurora, comets, 
+                    dst, meteor, moon
+                ] = await Promise.all([
+                    fetch(baseUrl + 'news.json').then(r => r.json()),
+                    fetch(baseUrl + 'noaa.json').then(r => r.json()),
+                    fetch(baseUrl + 'satellites.json').then(r => r.json()),
+                    fetch(baseUrl + 'status.json').then(r => r.json()),
+                    fetch(baseUrl + 'update-status.json').then(r => r.json()),
+                    fetch(baseUrl + 'aurora.json').then(r => r.json()),
+                    fetch(baseUrl + 'comets.json').then(r => r.json()),
+                    fetch(baseUrl + 'dst.json').then(r => r.json()),
+                    fetch(baseUrl + 'meteor.json').then(r => r.json()),
+                    fetch(baseUrl + 'moon.json').then(r => r.json())
+                ]);
+
+                updateDashboard({
+                    news, noaa, satellites, status,
+                    updateStatus, aurora, comets,
+                    dst, meteor, moon
+                });
+                
+                // Update timestamp
+                document.getElementById('update-time').textContent = 
+                    new Date().toLocaleTimeString('en-US', { 
+                        hour: '2-digit', 
+                        minute: '2-digit' 
+                    });
+                    
+            } catch (error) {
+                console.error('Error fetching data:', error);
+                document.getElementById('system-status-badge').className = 'gauge-status status-alert';
+                document.getElementById('system-status-badge').textContent = 'Offline';
+            }
+        }
+
+        // Update the entire dashboard
+        function updateDashboard(data) {
+            // System Status
+            document.getElementById('system-status-badge').textContent = 
+                data.updateStatus.systemStatus || 'Online';
+            document.getElementById('last-update').textContent = 
+                new Date(data.status.lastUpdate).toLocaleString();
+            
+            const dataSources = Object.values(data.updateStatus.dataStatus || {})
+                .filter(status => status === 'OK').length;
+            document.getElementById('data-sources').textContent = 
+                `${dataSources} active`;
+            
+            // Kp Index
+            const latestKp = data.noaa.kpIndex && data.noaa.kpIndex.length > 0 
+                ? parseFloat(data.noaa.kpIndex[data.noaa.kpIndex.length - 1][1]) 
+                : 0;
+            
+            document.getElementById('kp-value').textContent = latestKp.toFixed(1);
+            updateGauge('kp-circle', latestKp, 9);
+            
+            const kpStatus = getKpStatus(latestKp);
+            document.getElementById('kp-status').textContent = kpStatus.text;
+            document.getElementById('kp-status').className = 'gauge-status ' + kpStatus.class;
+            document.getElementById('current-kp').textContent = latestKp.toFixed(1);
+            
+            // Calculate max Kp
+            const maxKp = data.noaa.kpIndex 
+                ? Math.max(...data.noaa.kpIndex.slice(-24).map(k => parseFloat(k[1])))
+                : latestKp;
+            document.getElementById('max-kp').textContent = maxKp.toFixed(1);
+            document.getElementById('storm-level').textContent = kpStatus.text;
+            
+            // Solar Wind
+            const solarWindSpeed = parseFloat(data.noaa.solarWind?.[2] || 400);
+            document.getElementById('solar-wind-value').textContent = solarWindSpeed.toFixed(0);
+            updateGauge('solar-wind-circle', solarWindSpeed, 1000);
+            
+            const windStatus = getSolarWindStatus(solarWindSpeed);
+            document.getElementById('solar-wind-status').textContent = windStatus.text;
+            document.getElementById('solar-wind-status').className = 'gauge-status ' + windStatus.class;
+            document.getElementById('solar-wind-speed').textContent = solarWindSpeed.toFixed(0) + ' km/s';
+            
+            // Aurora Data
+            const forecastKp = parseFloat(data.aurora.forecastKp || latestKp);
+            const auroraProbability = parseFloat(data.aurora.probability || 0);
+            
+            document.getElementById('aurora-probability').textContent = auroraProbability + '%';
+            updateGauge('aurora-circle', auroraProbability, 100);
+            
+            const auroraStatus = getAuroraStatus(auroraProbability);
+            document.getElementById('aurora-status').textContent = auroraStatus.text;
+            document.getElementById('aurora-status').className = 'gauge-status ' + auroraStatus.class;
+            
+            document.getElementById('forecastKp').textContent = forecastKp.toFixed(1);
+            document.getElementById('auroraProbability').textContent = auroraProbability + '%';
+            document.getElementById('auroraViewing').textContent = data.aurora.bestViewing || '--';
+            document.getElementById('auroraVisibility').textContent = 
+                forecastKp < 3 ? 'Polar Only' : 
+                forecastKp < 5 ? 'High Latitudes' : 
+                forecastKp < 7 ? 'Mid Latitudes' : 'Widespread';
+            
+            updateAuroraOval(forecastKp);
+            
+            // Moon Data
+            const moonIllumination = parseFloat(data.moon.illumination || 0);
+            document.getElementById('moon-illumination-value').textContent = moonIllumination.toFixed(0) + '%';
+            updateGauge('moon-circle', moonIllumination, 100);
+            
+            const moonPhase = getMoonPhase(moonIllumination / 100);
+            document.getElementById('moon-icon').textContent = moonPhase.emoji;
+            document.getElementById('moon-phase-name').textContent = moonPhase.name;
+            document.getElementById('moon-phase').textContent = moonPhase.name;
+            document.getElementById('moon-illumination-display').textContent = moonIllumination.toFixed(0) + '%';
+            document.getElementById('moon-phase-display').textContent = data.moon.phase || moonPhase.name;
+            
+            // ISS Data
+            const iss = data.satellites.iss || {};
+            document.getElementById('iss-latitude').textContent = iss.latitude ? iss.latitude.toFixed(2) + '°' : '--';
+            document.getElementById('iss-longitude').textContent = iss.longitude ? iss.longitude.toFixed(2) + '°' : '--';
+            document.getElementById('iss-altitude').textContent = iss.altitude ? iss.altitude.toFixed(0) + ' km' : '--';
+            document.getElementById('iss-velocity').textContent = iss.velocity ? iss.velocity.toFixed(0) + ' km/h' : '--';
+            document.getElementById('iss-visibility').textContent = iss.visibility || '--';
+            document.getElementById('iss-orbit').textContent = '~' + Math.floor((iss.velocity || 28000) / 28000 * 90) + '';
+            
+            if (iss.latitude && iss.longitude) {
+                updateISSPosition(iss.latitude, iss.longitude);
+            }
+            
+            // Solar Flares
+            const flares = data.noaa.solarFlares || [];
+            document.getElementById('flares-count').textContent = flares.length;
+            
+            let flareActivity = 'None';
+            if (flares.length > 0) {
+                const latest = flares[flares.length - 1];
+                const flareClass = latest.max_class || 'C';
+                flareActivity = flareClass + '-Class';
+                document.getElementById('latest-flare').textContent = flareClass + '-Class';
+                document.getElementById('solar-status').textContent = flareClass.startsWith('X') ? 'Active' : 
+                    flareClass.startsWith('M') ? 'Moderate' : 'Quiet';
+                document.getElementById('solar-status').className = flareClass.startsWith('X') ? 'gauge-status status-alert' :
+                    flareClass.startsWith('M') ? 'gauge-status status-warning' : 'gauge-status status-good';
+            }
+            document.getElementById('flare-activity').textContent = flareActivity;
+            
+            // Display recent flares
+            const flaresDiv = document.getElementById('solar-flares');
+            if (flares.length > 0) {
+                flaresDiv.innerHTML = '';
+                flares.slice(-3).forEach(flare => {
+                    const flareClass = flare.max_class || 'C';
+                    const classColor = flareClass.startsWith('X') ? 'flare-x' : 
+                                     flareClass.startsWith('M') ? 'flare-m' : 'flare-c';
+                    const duration = Math.round((new Date(flare.end_time) - new Date(flare.begin_time)) / 60000);
+                    
+                    flaresDiv.innerHTML += `
+                        <div class="data-item ${flareClass.startsWith('X') ? 'alert' : flareClass.startsWith('M') ? 'warning' : 'success'}">
+                            <span class="data-label">
+                                <span class="flare-indicator ${classColor}"></span>
+                                ${flareClass}
+                            </span>
+                            <span class="data-value">${duration} min</span>
+                        </div>
+                    `;
+                });
+            }
+            
+            // News Feed
+            const newsItems = data.news.articles || [];
+            document.getElementById('news-count').textContent = newsItems.length;
+            
+            const newsDiv = document.getElementById('news-feed');
+            newsDiv.innerHTML = '';
+            newsItems.slice(0, 5).forEach(article => {
+                newsDiv.innerHTML += `
+                    <a href="${article.link}" target="_blank" class="news-item">
+                        <div class="news-title">${article.title}</div>
+                        <div class="news-meta">
+                            <span>${article.source}</span>
+                            <span>${new Date(article.date).toLocaleDateString()}</span>
+                        </div>
+                    </a>
+                `;
+            });
+            
+            // Meteor Showers
+            const meteorShowers = data.meteor.upcoming || [];
+            document.getElementById('meteor-status').textContent = meteorShowers.length > 0 ? 'Active' : 'None';
+            
+            const meteorDiv = document.getElementById('meteor-showers');
+            meteorDiv.innerHTML = '';
+            if (meteorShowers.length > 0) {
+                meteorShowers.slice(0, 2).forEach(shower => {
+                    meteorDiv.innerHTML += `
+                        <div class="data-item purple">
+                            <span class="data-label">${shower.name}</span>
+                            <span class="data-value">ZHR: ${shower.zhr}</span>
+                        </div>
+                    `;
+                });
+            }
+            
+            // Comets
+            const cometsList = data.comets.comets || [];
+            document.getElementById('comets-count').textContent = cometsList.length;
+            
+            const cometsDiv = document.getElementById('comets-list');
+            cometsDiv.innerHTML = '';
+            if (cometsList.length > 0) {
+                cometsList.slice(0, 2).forEach(comet => {
+                    cometsDiv.innerHTML += `
+                        <div class="data-item info">
+                            <span class="data-label">${comet.name}</span>
+                            <span class="data-value">Mag: ${comet.magnitude}</span>
+                        </div>
+                    `;
+                });
+            }
+            
+            // Aurora Forecast
+            document.getElementById('forecast-3h').textContent = forecastKp >= 5 ? 'Likely' : forecastKp >= 3 ? 'Possible' : 'Unlikely';
+            document.getElementById('forecast-6h').textContent = forecastKp >= 4 ? 'Possible' : 'Unlikely';
+            document.getElementById('forecast-12h').textContent = forecastKp >= 3 ? 'Possible' : 'Unlikely';
+            document.getElementById('forecast-peak').textContent = data.aurora.bestViewing || '--';
+        }
+
+        // Initialize the dashboard
+        document.addEventListener('DOMContentLoaded', () => {
+            initMaps();
+            fetchData();
+            
+            // Set up auto-refresh
+            updateInterval = setInterval(fetchData, 60000);
+            
+            // Manual refresh button
+            document.getElementById('refresh-btn').addEventListener('click', fetchData);
+            
+            // Fullscreen button
+            document.getElementById('fullscreen-btn').addEventListener('click', () => {
+                if (!document.fullscreenElement) {
+                    document.documentElement.requestFullscreen();
+                } else {
+                    document.exitFullscreen();
+                }
+            });
+        });
+
+        // Clean up on page unload
+        window.addEventListener('beforeunload', () => {
+            if (updateInterval) {
+                clearInterval(updateInterval);
+            }
+        });
+    </script>
+</body>
+</html>
