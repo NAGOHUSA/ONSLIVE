@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA Astronaut Nick Hague Retires",
+      "link": "https://www.nasa.gov/news-release/nasa-astronaut-nick-hague-retires/",
+      "source": "NASA",
+      "date": "2025-12-23T14:50:46Z",
+      "summary": "NASA astronaut Brig. Gen. Nick Hague has retired from the agency, concluding a distinguished career that included two spaceflight missions, 374 days in space, and multiple spacewalks in support of the International Space Station. Hague continues service in the U.S. Space Force. Hague launched aboard the Soyuz MS-12 spacecraft in March 2019 from the Baikonur Cosmodrome in […]"
+    },
+    {
       "title": "How physics AI is transforming the future of space engineering",
       "link": "https://spacenews.com/how-physics-ai-is-transforming-the-future-of-space-engineering/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "European Spaceflight",
       "date": "2025-12-23T05:00:26Z",
       "summary": "The European Space Agency has completed the qualification review of the P160C solid-fuel booster upgrade for Ariane 6 and Vega C, confirming that it is ready for operational use. The booster is expected to be used for the first time next year aboard an Ariane 6 rocket. In March 2022, ESA announced that it would […]\r\nThe post Ariane 6 and Vega C P160C Booster Upgrade Fully Qualified appeared first on European Spaceflight."
-    },
-    {
-      "title": "Long March 12A reaches orbit in first reusable launch attempt, but landing fails",
-      "link": "https://spacenews.com/long-march-12a-reaches-orbit-in-first-reusable-launch-attempt-but-landing-fails/",
-      "source": "SpaceNews",
-      "date": "2025-12-23T04:57:45Z",
-      "summary": "A first launch of the Long March 12A Chinese state-owned reusable rocket reached orbit late Monday, but attempted recovery of the first stage downrange failed. \r\nThe post Long March 12A reaches orbit in first reusable launch attempt, but landing fails appeared first on SpaceNews."
     }
   ],
-  "updated": "2025-12-23T14:59:01.386Z"
+  "updated": "2025-12-23T15:21:14.841Z"
 }
