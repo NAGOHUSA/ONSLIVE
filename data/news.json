@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Flight 12 vehicles readying for 2026 opener",
+      "link": "https://www.nasaspaceflight.com/2025/12/flight-12-vehicles-2026/",
+      "source": "NASASpaceflight",
+      "date": "2025-12-23T23:43:44Z",
+      "summary": "SpaceX is rapidly advancing the assembly of Super Heavy Booster 19 at its Starbase facility,…\nThe post Flight 12 vehicles readying for 2026 opener appeared first on NASASpaceFlight.com."
+    },
+    {
       "title": "ESA to hire 520 new staff as workforce expansion begins in 2026",
       "link": "https://spacenews.com/esa-to-hire-520-new-staff-as-workforce-expansion-begins-in-2026/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2025-12-23T16:18:41Z",
       "summary": "From left to right, CSA (Canadian Space Agency) astronaut Jeremy Hansen and NASA astronauts Christina Koch, Victor Glover, and Reid Wiseman stand outside before boarding their Orion spacecraft inside the Vehicle Assembly Building at NASA’s Kennedy Space Center in Florida as part of the Artemis II countdown demonstration test, Saturday, Dec. 20, 2025. Because the […]"
-    },
-    {
-      "title": "Artemis II Flight Crew, Teams Conduct Demonstration Ahead of Launch",
-      "link": "https://www.nasa.gov/missions/artemis/artemis-2/artemis-ii-flight-crew-teams-conduct-demonstration-ahead-of-launch/",
-      "source": "NASA",
-      "date": "2025-12-23T16:00:31Z",
-      "summary": "NASA’s launch and mission teams, along with the Artemis II crew, completed a key test Dec. 20, a countdown demonstration test, ahead of the Artemis II flight around the Moon early next year. The astronauts, supported by launch and flight control teams, dressed in their launch and entry suits, boarded their spacecraft on top of […]"
     }
   ],
-  "updated": "2025-12-23T23:50:08.791Z"
+  "updated": "2025-12-23T23:56:45.485Z"
 }
