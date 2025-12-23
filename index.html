@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ONSLIVE Space Weather Dashboard v4.0</title>
+    <title>ONSLIVE Space Weather Dashboard v4.1</title>
     
     <!-- CSS Dependencies -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -393,6 +393,33 @@
             background: rgba(255, 255, 255, 0.03);
         }
 
+        /* Aurora oval specific styles */
+        .aurora-oval {
+            stroke-width: 2;
+            fill-opacity: 0.3;
+            stroke-linejoin: round;
+        }
+
+        .aurora-low {
+            fill: #22c55e;
+            stroke: #22c55e;
+        }
+
+        .aurora-medium {
+            fill: #eab308;
+            stroke: #eab308;
+        }
+
+        .aurora-high {
+            fill: #f97316;
+            stroke: #f97316;
+        }
+
+        .aurora-extreme {
+            fill: #ef4444;
+            stroke: #ef4444;
+        }
+
         @media (max-width: 1400px) {
             .dashboard {
                 grid-template-columns: repeat(3, 1fr);
@@ -590,6 +617,7 @@
                 <div class="card-content">
                     <div class="map-container">
                         <div id="auroraMap"></div>
+                        <div id="auroraOvalOverlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;"></div>
                     </div>
                     <div class="iss-tracker-grid" style="margin-top: 1rem;">
                         <div class="data-item info">
@@ -854,7 +882,7 @@
         let issMap = null;
         let auroraMap = null;
         let issMarker = null;
-        let auroraLayer = null;
+        let auroraLayers = [];
         let updateInterval = null;
 
         // Initialize maps
@@ -867,21 +895,12 @@
                 minZoom: 1
             }).addTo(issMap);
 
-            // Aurora Map
-            auroraMap = L.map('auroraMap').setView([90, 0], 2);
+            // Aurora Map - Changed to show Northern Hemisphere properly
+            auroraMap = L.map('auroraMap').setView([70, 0], 2);
             L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
                 attribution: '©OpenStreetMap, ©CartoDB',
                 maxZoom: 4,
                 minZoom: 1
-            }).addTo(auroraMap);
-
-            // Add Aurora oval (will be updated with data)
-            auroraLayer = L.circle([90, 0], {
-                radius: 1000000,
-                color: '#22c55e',
-                fillColor: '#22c55e',
-                fillOpacity: 0.3,
-                weight: 2
             }).addTo(auroraMap);
 
             // Add ISS marker
@@ -943,27 +962,94 @@
             return { emoji: '🌘', name: 'Waning Crescent' };
         }
 
+        // Create aurora oval polygon
+        function createAuroraOval(kp, color) {
+            // Calculate oval parameters based on Kp
+            const baseRadius = 1000000; // 1000km in meters
+            const kpFactor = 1 + (kp * 0.1);
+            const ovalRadius = baseRadius * kpFactor;
+            
+            // Create oval shape (more elliptical than circular)
+            const points = [];
+            const steps = 36;
+            
+            for (let i = 0; i <= steps; i++) {
+                const angle = (i / steps) * Math.PI * 2;
+                // Make it more oval-shaped (wider in east-west direction)
+                const x = Math.cos(angle) * ovalRadius * 0.8;
+                const y = Math.sin(angle) * ovalRadius * 1.2;
+                
+                // Convert to geographic coordinates
+                // Center around magnetic north pole (approximate location)
+                const centerLat = 86.5;
+                const centerLng = 164.04;
+                
+                // Simple projection (for demo purposes)
+                const lat = centerLat + (y / 111000);
+                const lng = centerLng + (x / (111000 * Math.cos(centerLat * Math.PI / 180)));
+                
+                points.push([lat, lng]);
+            }
+            
+            return L.polygon(points, {
+                color: color,
+                fillColor: color,
+                fillOpacity: 0.2,
+                weight: 2
+            });
+        }
+
         // Update aurora oval on map
         function updateAuroraOval(kp) {
-            if (!auroraLayer) return;
-            
-            const radius = 1000000 + (kp * 200000);
-            let color = '#22c55e';
-            
-            if (kp < 3) color = '#22c55e';
-            else if (kp < 5) color = '#eab308';
-            else if (kp < 7) color = '#f97316';
-            else color = '#ef4444';
-            
-            auroraLayer.setRadius(radius);
-            auroraLayer.setStyle({
-                fillColor: color,
-                color: color
+            // Clear previous layers
+            auroraLayers.forEach(layer => {
+                if (auroraMap.hasLayer(layer)) {
+                    auroraMap.removeLayer(layer);
+                }
             });
+            auroraLayers = [];
+            
+            let color = '#22c55e';
+            let intensityText = 'Low';
+            
+            if (kp < 3) {
+                color = '#22c55e';
+                intensityText = 'Low';
+            } else if (kp < 5) {
+                color = '#eab308';
+                intensityText = 'Moderate';
+            } else if (kp < 7) {
+                color = '#f97316';
+                intensityText = 'High';
+            } else {
+                color = '#ef4444';
+                intensityText = 'Extreme';
+            }
+            
+            // Create main oval
+            const mainOval = createAuroraOval(kp, color);
+            mainOval.addTo(auroraMap);
+            auroraLayers.push(mainOval);
+            
+            // Add smaller inner oval for lower intensity
+            if (kp > 3) {
+                const innerOval = createAuroraOval(kp - 2, '#22c55e');
+                innerOval.addTo(auroraMap);
+                auroraLayers.push(innerOval);
+            }
+            
+            // Add outer oval for higher intensity (if Kp is high)
+            if (kp > 5) {
+                const outerOval = createAuroraOval(kp + 1, '#f97316');
+                outerOval.addTo(auroraMap);
+                auroraLayers.push(outerOval);
+            }
             
             // Update intensity text
-            const intensityText = kp < 3 ? 'Low' : kp < 5 ? 'Moderate' : kp < 7 ? 'High' : 'Extreme';
             document.getElementById('aurora-intensity').textContent = `Kp ${kp.toFixed(1)} (${intensityText})`;
+            document.getElementById('aurora-intensity').className = kp < 3 ? 'gauge-status status-good' : 
+                kp < 5 ? 'gauge-status status-warning' : 
+                kp < 7 ? 'gauge-status status-alert' : 'gauge-status status-alert';
         }
 
         // Update ISS position on map
