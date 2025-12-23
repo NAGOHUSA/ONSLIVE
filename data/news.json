@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Get In, We’re Going to the Moon: Meet NASA’s Artemis Closeout Crew",
+      "link": "https://www.nasa.gov/centers-and-facilities/kennedy/get-in-were-going-to-the-moon-meet-nasas-artemis-closeout-crew/",
+      "source": "NASA",
+      "date": "2025-12-23T18:44:07Z",
+      "summary": "For most, getting into a car is a task that can be done without assistance. Yet for those whose destination is the Moon, the process of getting inside and secured – in this case, in NASA’s Orion spacecraft – requires help. That’s the role of the Artemis closeout crew. Trained to support Artemis II and […]"
+    },
+    {
       "title": "Artemis II Crew Launch Day Rehearsal",
       "link": "https://www.nasa.gov/image-article/artemis-ii-crew-launch-day-rehearsal/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2025-12-23T14:41:46Z",
       "summary": "\nIn this episode of Space Minds, host David Ariosto speaks with Juan Alonso — CTO and Co-founder of Luminary Cloud and professor at Stanford University — about the rapid transformation underway in aerospace engineering. \nThe post How physics AI is transforming the future of space engineering appeared first on SpaceNews."
-    },
-    {
-      "title": "NASA’s Hubble Reveals Largest Found Chaotic Birthplace of Planets",
-      "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-reveals-largest-found-chaotic-birthplace-of-planets/",
-      "source": "NASA",
-      "date": "2025-12-23T14:00:20Z",
-      "summary": "Astronomers using NASA’s Hubble Space Telescope have imaged the largest protoplanetary disk ever observed circling a young star. For the first time in visible light, Hubble has revealed the disk is unexpectedly chaotic and turbulent, with wisps of material stretching much farther above and below the disk than astronomers have seen in any similar system. […]"
     }
   ],
-  "updated": "2025-12-23T18:49:22.118Z"
+  "updated": "2025-12-23T19:01:12.680Z"
 }
