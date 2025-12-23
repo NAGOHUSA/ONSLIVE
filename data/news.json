@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "NASA’s Hubble Reveals Largest Found Chaotic Birthplace of Planets",
+      "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-reveals-largest-found-chaotic-birthplace-of-planets/",
+      "source": "NASA",
+      "date": "2025-12-23T14:00:20Z",
+      "summary": "Astronomers using NASA’s Hubble Space Telescope have imaged the largest protoplanetary disk ever observed circling a young star. For the first time in visible light, Hubble has revealed the disk is unexpectedly chaotic and turbulent, with wisps of material stretching much farther above and below the disk than astronomers have seen in any similar system. […]"
+    },
+    {
+      "title": "I Am Artemis: Grace Lauderdale",
+      "link": "https://www.nasa.gov/missions/artemis/i-am-artemis/i-am-artemis-grace-lauderdale/",
+      "source": "NASA",
+      "date": "2025-12-23T14:00:00Z",
+      "summary": "Listen to this audio excerpt from Grace Lauderdale, exploration project manager for the Training Systems Office at NASA Johnson: In preparation for their mission around the Moon inside NASA’s Orion spacecraft, the Artemis II crew will spend countless hours training inside the Orion Mission Simulator. The simulator replicates what the crew will experience inside the spacecraft and […]"
+    },
+    {
       "title": "Ariane 6 and Vega C P160C Booster Upgrade Fully Qualified",
       "link": "https://europeanspaceflight.com/ariane-6-and-vega-c-p160c-booster-upgrade-fully-qualified/",
       "source": "European Spaceflight",
@@ -20,21 +34,7 @@
       "source": "NASA",
       "date": "2025-12-23T01:37:40Z",
       "summary": "Written by Lucy Thompson, Planetary Scientist and APXS team member, University of New Brunswick, Canada Earth planning date: Monday, Dec. 22, 2025 As we all prepare for the holiday season here on Earth, we have been planning a few last activities before Curiosity and the team of scientists and engineers take a well-deserved, extended break. […]"
-    },
-    {
-      "title": "Launch Roundup: International launches fill manifest during last full week of 2025",
-      "link": "https://www.nasaspaceflight.com/2025/12/launch-roundup-122225/",
-      "source": "NASASpaceflight",
-      "date": "2025-12-23T01:00:10Z",
-      "summary": "The last full week of 2025 will be a busy one, with nine launches scheduled…\r\nThe post Launch Roundup: International launches fill manifest during last full week of 2025 appeared first on NASASpaceFlight.com."
-    },
-    {
-      "title": "Tory Bruno Leaves ULA, John Elbon Takes Over As Interim CEO",
-      "link": "https://spacepolicyonline.com/news/tory-bruno-leaves-ula-john-elbon-takes-over-as-interim-ceo/",
-      "source": "SpacePolicyOnline.com",
-      "date": "2025-12-22T23:53:48Z",
-      "summary": "The owners of the United Launch Alliance rocket company announced today that CEO Tory Bruno has left the company to pursue another opportunity. In the surprise statement, Lockheed Martin and […]"
     }
   ],
-  "updated": "2025-12-23T13:57:27.275Z"
+  "updated": "2025-12-23T14:16:42.014Z"
 }
