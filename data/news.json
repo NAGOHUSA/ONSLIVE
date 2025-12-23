@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Artemis II Crew Launch Day Rehearsal",
+      "link": "https://www.nasa.gov/image-article/artemis-ii-crew-launch-day-rehearsal/",
+      "source": "NASA",
+      "date": "2025-12-23T16:18:41Z",
+      "summary": "From left to right, CSA (Canadian Space Agency) astronaut Jeremy Hansen and NASA astronauts Christina Koch, Victor Glover, and Reid Wiseman stand outside before boarding their Orion spacecraft inside the Vehicle Assembly Building at NASA’s Kennedy Space Center in Florida as part of the Artemis II countdown demonstration test, Saturday, Dec. 20, 2025. Because the […]"
+    },
+    {
+      "title": "Artemis II Flight Crew, Teams Conduct Demonstration Ahead of Launch",
+      "link": "https://www.nasa.gov/missions/artemis/artemis-2/artemis-ii-flight-crew-teams-conduct-demonstration-ahead-of-launch/",
+      "source": "NASA",
+      "date": "2025-12-23T16:00:31Z",
+      "summary": "NASA’s launch and mission teams, along with the Artemis II crew, completed a key test Dec. 20, a countdown demonstration test, ahead of the Artemis II flight around the Moon early next year. The astronauts, supported by launch and flight control teams, dressed in their launch and entry suits, boarded their spacecraft on top of […]"
+    },
+    {
       "title": "NASA Astronaut Nick Hague Retires",
       "link": "https://www.nasa.gov/news-release/nasa-astronaut-nick-hague-retires/",
       "source": "NASA",
@@ -20,21 +34,7 @@
       "source": "NASA",
       "date": "2025-12-23T14:00:20Z",
       "summary": "Astronomers using NASA’s Hubble Space Telescope have imaged the largest protoplanetary disk ever observed circling a young star. For the first time in visible light, Hubble has revealed the disk is unexpectedly chaotic and turbulent, with wisps of material stretching much farther above and below the disk than astronomers have seen in any similar system. […]"
-    },
-    {
-      "title": "I Am Artemis: Grace Lauderdale",
-      "link": "https://www.nasa.gov/missions/artemis/i-am-artemis/i-am-artemis-grace-lauderdale/",
-      "source": "NASA",
-      "date": "2025-12-23T14:00:00Z",
-      "summary": "Listen to this audio excerpt from Grace Lauderdale, exploration project manager for the Training Systems Office at NASA Johnson: In preparation for their mission around the Moon inside NASA’s Orion spacecraft, the Artemis II crew will spend countless hours training inside the Orion Mission Simulator. The simulator replicates what the crew will experience inside the spacecraft and […]"
-    },
-    {
-      "title": "Ariane 6 and Vega C P160C Booster Upgrade Fully Qualified",
-      "link": "https://europeanspaceflight.com/ariane-6-and-vega-c-p160c-booster-upgrade-fully-qualified/",
-      "source": "European Spaceflight",
-      "date": "2025-12-23T05:00:26Z",
-      "summary": "The European Space Agency has completed the qualification review of the P160C solid-fuel booster upgrade for Ariane 6 and Vega C, confirming that it is ready for operational use. The booster is expected to be used for the first time next year aboard an Ariane 6 rocket. In March 2022, ESA announced that it would […]\r\nThe post Ariane 6 and Vega C P160C Booster Upgrade Fully Qualified appeared first on European Spaceflight."
     }
   ],
-  "updated": "2025-12-23T15:58:24.239Z"
+  "updated": "2025-12-23T16:25:00.816Z"
 }
