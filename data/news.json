@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "How physics AI is transforming the future of space engineering",
+      "link": "https://spacenews.com/how-physics-ai-is-transforming-the-future-of-space-engineering/",
+      "source": "SpaceNews",
+      "date": "2025-12-23T14:41:46Z",
+      "summary": "\nIn this episode of Space Minds, host David Ariosto speaks with Juan Alonso — CTO and Co-founder of Luminary Cloud and professor at Stanford University — about the rapid transformation underway in aerospace engineering. \nThe post How physics AI is transforming the future of space engineering appeared first on SpaceNews."
+    },
+    {
       "title": "NASA’s Hubble Reveals Largest Found Chaotic Birthplace of Planets",
       "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-reveals-largest-found-chaotic-birthplace-of-planets/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2025-12-23T04:57:45Z",
       "summary": "A first launch of the Long March 12A Chinese state-owned reusable rocket reached orbit late Monday, but attempted recovery of the first stage downrange failed. \r\nThe post Long March 12A reaches orbit in first reusable launch attempt, but landing fails appeared first on SpaceNews."
-    },
-    {
-      "title": "Curiosity Blog, Sols 4750-4762: See You on the Other Side of the Sun",
-      "link": "https://science.nasa.gov/blog/curiosity-blog-sols-4750-4762-see-you-on-the-other-side-of-the-sun/",
-      "source": "NASA",
-      "date": "2025-12-23T01:37:40Z",
-      "summary": "Written by Lucy Thompson, Planetary Scientist and APXS team member, University of New Brunswick, Canada Earth planning date: Monday, Dec. 22, 2025 As we all prepare for the holiday season here on Earth, we have been planning a few last activities before Curiosity and the team of scientists and engineers take a well-deserved, extended break. […]"
     }
   ],
-  "updated": "2025-12-23T14:40:23.632Z"
+  "updated": "2025-12-23T14:52:50.220Z"
 }
