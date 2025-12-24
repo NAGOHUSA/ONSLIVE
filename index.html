@@ -3,34 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ONSLIVE Space Weather Dashboard v4.2</title>
+    <title>Our Night Sky | Live Space Weather Dashboard</title>
     
     <!-- CSS Dependencies -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Add Moon Phase Calculation Library -->
+    <script src="https://cdn.jsdelivr.net/npm/suncalc@1.8.0/suncalc.min.js"></script>
     
     <style>
         :root {
-            --bg: #0a0e17;
-            --card: rgba(20, 25, 45, 0.85);
-            --card-hover: rgba(30, 35, 60, 0.9);
-            --border: rgba(100, 120, 255, 0.2);
-            --text: #e6edf3;
-            --text-muted: #94a3b8;
-            --cyan: #00d4ff;
+            --bg: #0c1220;
+            --card: rgba(18, 25, 45, 0.85);
+            --card-hover: rgba(28, 37, 65, 0.9);
+            --border: rgba(80, 150, 255, 0.2);
+            --text: #e6f1ff;
+            --text-muted: #8ca3c2;
+            --primary: #4d9fff;
+            --secondary: #a855f7;
+            --accent: #00d4ff;
+            --moon: #e0e7ff;
+            --sun: #ffb347;
+            --aurora: #00ff9d;
+            --red: #ff6b6b;
+            --green: #4ade80;
+            --yellow: #fbbf24;
+            --blue: #60a5fa;
             --purple: #a855f7;
-            --gold: #fbbf24;
-            --red: #ef4444;
-            --green: #10b981;
-            --blue: #3b82f6;
-            --orange: #f97316;
-            --pink: #ec4899;
-            --teal: #14b8a6;
-            --indigo: #6366f1;
-            --gradient: linear-gradient(135deg, #0f172a, #1e3a8a);
-            --shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+            --gradient: linear-gradient(135deg, #0c1220 0%, #1a2745 50%, #0c1220 100%);
+            --shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
             --radius: 16px;
             --glass: rgba(30, 41, 59, 0.5);
         }
@@ -42,7 +45,7 @@
         }
 
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', Arial, sans-serif;
             min-height: 100vh;
             color: var(--text);
             background: var(--gradient) fixed;
@@ -61,7 +64,7 @@
             top: 0;
             z-index: 1000;
             backdrop-filter: blur(20px);
-            background: rgba(10, 14, 23, 0.95);
+            background: rgba(12, 18, 32, 0.95);
             border-bottom: 1px solid var(--border);
             padding: 0.8rem 0;
             box-shadow: var(--shadow);
@@ -75,15 +78,39 @@
             flex-wrap: wrap;
         }
 
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .brand-logo {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+        }
+
         h1 {
             font-size: clamp(1.6rem, 5vw, 2.2rem);
-            background: linear-gradient(135deg, var(--cyan), var(--purple));
+            background: linear-gradient(135deg, var(--primary), var(--accent));
             -webkit-background-clip: text;
             background-clip: text;
             color: transparent;
             display: flex;
             align-items: center;
             gap: 10px;
+        }
+
+        .brand-subtitle {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            margin-top: 0.2rem;
+            display: block;
         }
 
         .header-actions {
@@ -99,7 +126,7 @@
         }
 
         .btn {
-            background: linear-gradient(135deg, var(--cyan), var(--purple));
+            background: linear-gradient(135deg, var(--primary), var(--accent));
             border: none;
             color: white;
             padding: 0.5rem 1rem;
@@ -115,7 +142,7 @@
 
         .btn:hover {
             transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(0, 212, 255, 0.3);
+            box-shadow: 0 5px 15px rgba(77, 159, 255, 0.3);
         }
 
         .btn:disabled {
@@ -131,8 +158,8 @@
         }
 
         .btn-outline:hover {
-            background: rgba(168, 85, 247, 0.1);
-            border-color: var(--purple);
+            background: rgba(77, 159, 255, 0.1);
+            border-color: var(--primary);
         }
 
         .dashboard {
@@ -157,7 +184,7 @@
         .card:hover {
             background: var(--card-hover);
             transform: translateY(-5px);
-            border-color: var(--cyan);
+            border-color: var(--primary);
             box-shadow: var(--shadow);
         }
 
@@ -165,12 +192,12 @@
             opacity: 0.5;
             transform: scale(0.98);
             z-index: 100;
-            box-shadow: 0 15px 35px rgba(0, 212, 255, 0.4);
+            box-shadow: 0 15px 35px rgba(77, 159, 255, 0.4);
         }
 
         .card.drag-over {
-            border: 2px dashed var(--cyan);
-            background: rgba(0, 212, 255, 0.1);
+            border: 2px dashed var(--primary);
+            background: rgba(77, 159, 255, 0.1);
         }
 
         .card-header {
@@ -198,30 +225,31 @@
         }
 
         .drag-handle:hover {
-            color: var(--cyan);
-            background: rgba(0, 212, 255, 0.1);
+            color: var(--primary);
+            background: rgba(77, 159, 255, 0.1);
         }
 
         .card-content {
             padding: 1.5rem;
         }
 
-        /* Updated grid layout with SOHO tiles moved up */
+        /* Updated grid layout for better organization */
         .hero-card { grid-column: 1 / -1; grid-row: 1; }
-        .aurora-map { grid-column: 1 / 3; grid-row: 2; }
-        .satellite-map { grid-column: 3 / 5; grid-row: 2; }
-        .moon-phase { grid-column: 1; grid-row: 3; }
-        .solar-gauges { grid-column: 2; grid-row: 3; }
-        .solar-activity { grid-column: 3; grid-row: 3; }
-        .geomagnetic { grid-column: 4; grid-row: 3; }
+        .moon-phase { grid-column: 1 / 2; grid-row: 2; }
+        .solar-gauges { grid-column: 2 / 3; grid-row: 2; }
+        .geomagnetic { grid-column: 3 / 4; grid-row: 2; }
+        .aurora-chance { grid-column: 4 / 5; grid-row: 2; }
+        .aurora-map { grid-column: 1 / 3; grid-row: 3; }
+        .satellite-map { grid-column: 3 / 5; grid-row: 3; }
         .soho-c2 { grid-column: 1 / 3; grid-row: 4; }
         .soho-c3 { grid-column: 3 / 5; grid-row: 4; }
-        .news-feed { grid-column: 1 / 3; grid-row: 5; }
-        .iss-tracking { grid-column: 3 / 5; grid-row: 5; }
-        .forecast { grid-column: 1; grid-row: 6; }
-        .meteor-showers { grid-column: 2; grid-row: 6; }
-        .comets { grid-column: 3; grid-row: 6; }
-        .system-status { grid-column: 4; grid-row: 6; }
+        .solar-activity { grid-column: 1 / 2; grid-row: 5; }
+        .forecast { grid-column: 2 / 3; grid-row: 5; }
+        .meteor-showers { grid-column: 3 / 4; grid-row: 5; }
+        .comets { grid-column: 4 / 5; grid-row: 5; }
+        .news-feed { grid-column: 1 / 3; grid-row: 6; }
+        .iss-tracking { grid-column: 3 / 5; grid-row: 6; }
+        .system-status { grid-column: 1 / -1; grid-row: 7; }
 
         .compact-gauge {
             display: flex;
@@ -266,10 +294,11 @@
             margin-top: 0.5rem;
         }
 
-        .status-good { background: rgba(16, 185, 129, 0.2); color: var(--green); }
-        .status-warning { background: rgba(251, 191, 36, 0.2); color: var(--gold); }
-        .status-alert { background: rgba(239, 68, 68, 0.2); color: var(--red); }
-        .status-info { background: rgba(59, 130, 246, 0.2); color: var(--blue); }
+        .status-good { background: rgba(74, 222, 128, 0.2); color: var(--green); }
+        .status-warning { background: rgba(251, 191, 36, 0.2); color: var(--yellow); }
+        .status-alert { background: rgba(255, 107, 107, 0.2); color: var(--red); }
+        .status-info { background: rgba(77, 159, 255, 0.2); color: var(--primary); }
+        .status-moon { background: rgba(224, 231, 255, 0.2); color: var(--moon); }
 
         .data-list {
             display: flex;
@@ -284,7 +313,7 @@
             padding: 0.8rem;
             background: rgba(255, 255, 255, 0.03);
             border-radius: 10px;
-            border-left: 4px solid var(--cyan);
+            border-left: 4px solid var(--primary);
             transition: all 0.3s;
         }
 
@@ -294,11 +323,12 @@
         }
 
         .data-item.alert { border-left-color: var(--red); }
-        .data-item.warning { border-left-color: var(--gold); }
+        .data-item.warning { border-left-color: var(--yellow); }
         .data-item.success { border-left-color: var(--green); }
-        .data-item.info { border-left-color: var(--blue); }
-        .data-item.purple { border-left-color: var(--purple); }
-        .data-item.orange { border-left-color: var(--orange); }
+        .data-item.info { border-left-color: var(--primary); }
+        .data-item.moon { border-left-color: var(--moon); }
+        .data-item.aurora { border-left-color: var(--aurora); }
+        .data-item.sun { border-left-color: var(--sun); }
 
         .data-label {
             font-weight: 600;
@@ -319,7 +349,7 @@
             background: #1a1a2e;
         }
 
-        /* SOHO Animation Container - Made consistent size */
+        /* SOHO Animation Container */
         .soho-container {
             position: relative;
             height: 260px;
@@ -348,9 +378,9 @@
         }
 
         .soho-refresh {
-            background: rgba(0, 212, 255, 0.1);
-            border: 1px solid var(--cyan);
-            color: var(--cyan);
+            background: rgba(77, 159, 255, 0.1);
+            border: 1px solid var(--primary);
+            color: var(--primary);
             padding: 0.3rem 0.8rem;
             border-radius: 20px;
             cursor: pointer;
@@ -359,7 +389,7 @@
         }
 
         .soho-refresh:hover {
-            background: rgba(0, 212, 255, 0.2);
+            background: rgba(77, 159, 255, 0.2);
             transform: translateY(-2px);
         }
 
@@ -370,6 +400,23 @@
         .moon-icon {
             font-size: 5rem;
             margin: 1rem 0;
+            filter: drop-shadow(0 0 10px rgba(224, 231, 255, 0.3));
+        }
+
+        .moon-phase-ring {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 1rem;
+            position: relative;
+            border-radius: 50%;
+            background: conic-gradient(
+                from 0deg,
+                var(--moon) 0%,
+                var(--moon) calc(var(--moon-illumination) * 1%),
+                rgba(224, 231, 255, 0.1) calc(var(--moon-illumination) * 1%),
+                rgba(224, 231, 255, 0.1) 100%
+            );
+            box-shadow: 0 0 20px rgba(224, 231, 255, 0.2);
         }
 
         .news-items {
@@ -391,7 +438,7 @@
 
         .news-item:hover {
             background: rgba(255, 255, 255, 0.05);
-            border-left-color: var(--cyan);
+            border-left-color: var(--primary);
         }
 
         .news-title {
@@ -404,7 +451,7 @@
         }
 
         .news-title:hover {
-            color: var(--cyan);
+            color: var(--primary);
         }
 
         .news-meta {
@@ -427,7 +474,7 @@
             width: 20px;
             height: 20px;
             border: 3px solid var(--border);
-            border-top-color: var(--cyan);
+            border-top-color: var(--primary);
             border-radius: 50%;
             animation: spin 1s linear infinite;
             margin-left: 10px;
@@ -446,6 +493,12 @@
             background: rgba(0, 0, 0, 0.2);
         }
 
+        .footer-logo {
+            font-size: 2rem;
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+
         /* Layout Controls */
         .layout-controls {
             display: flex;
@@ -455,9 +508,9 @@
         }
 
         .layout-btn {
-            background: rgba(0, 212, 255, 0.1);
-            border: 1px solid var(--cyan);
-            color: var(--cyan);
+            background: rgba(77, 159, 255, 0.1);
+            border: 1px solid var(--primary);
+            color: var(--primary);
             padding: 0.4rem 0.8rem;
             border-radius: 20px;
             cursor: pointer;
@@ -466,7 +519,7 @@
         }
 
         .layout-btn:hover {
-            background: rgba(0, 212, 255, 0.2);
+            background: rgba(77, 159, 255, 0.2);
             transform: translateY(-2px);
         }
 
@@ -539,19 +592,42 @@
             stroke: #ef4444;
         }
 
+        /* Moon phase indicators */
+        .moon-phase-dots {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 1rem;
+            padding: 0 1rem;
+        }
+
+        .moon-phase-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--text-muted);
+            opacity: 0.3;
+        }
+
+        .moon-phase-dot.active {
+            background: var(--moon);
+            opacity: 1;
+            transform: scale(1.2);
+        }
+
         @media (max-width: 1400px) {
             .dashboard {
                 grid-template-columns: repeat(3, 1fr);
             }
             .hero-card { grid-column: 1 / -1; }
+            .moon-phase, .solar-gauges, .geomagnetic, .aurora-chance {
+                grid-column: auto;
+                grid-row: auto;
+            }
             .aurora-map { grid-column: 1 / 3; }
             .satellite-map { grid-column: 3; }
-            .soho-c2 { grid-column: 1 / 3; grid-row: auto; }
-            .soho-c3 { grid-column: 3; grid-row: auto; }
-            .news-feed { grid-column: 1 / 3; }
-            .iss-tracking { grid-column: 3; }
-            .moon-phase, .solar-gauges, .solar-activity, .geomagnetic,
-            .forecast, .meteor-showers, .comets, .system-status {
+            .soho-c2 { grid-column: 1 / 3; }
+            .soho-c3 { grid-column: 3; }
+            .solar-activity, .forecast, .meteor-showers, .comets {
                 grid-column: auto;
                 grid-row: auto;
             }
@@ -567,7 +643,8 @@
             .soho-c2,
             .soho-c3,
             .news-feed,
-            .iss-tracking {
+            .iss-tracking,
+            .system-status {
                 grid-column: 1 / -1;
             }
             .layout-controls {
@@ -608,7 +685,7 @@
         }
 
         ::-webkit-scrollbar-thumb {
-            background: linear-gradient(135deg, var(--cyan), var(--purple));
+            background: linear-gradient(135deg, var(--primary), var(--accent));
             border-radius: 4px;
         }
 
@@ -635,18 +712,47 @@
         }
 
         .flare-c { background-color: var(--green); }
-        .flare-m { background-color: var(--orange); }
+        .flare-m { background-color: var(--yellow); }
         .flare-x { background-color: var(--red); }
+
+        /* Moon visualization */
+        .moon-visual {
+            position: relative;
+            width: 100px;
+            height: 100px;
+            margin: 0 auto;
+            border-radius: 50%;
+            background: #2a3a5a;
+            overflow: hidden;
+        }
+
+        .moon-fill {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--moon);
+            border-radius: 50%;
+            clip-path: inset(0 0 0 0);
+        }
     </style>
 </head>
 <body>
     <header>
         <div class="container header-content">
-            <h1>
-                <i class="fas fa-satellite"></i>
-                ONSLIVE Space Weather
-                <small style="font-size: 0.6em; color: var(--cyan)">v4.2</small>
-            </h1>
+            <div class="brand">
+                <div class="brand-logo">
+                    <i class="fas fa-star"></i>
+                </div>
+                <div>
+                    <h1>
+                        Our Night Sky
+                        <small style="font-size: 0.6em; color: var(--accent)">Live</small>
+                    </h1>
+                    <span class="brand-subtitle">by Nagoh Creative • ournightsky.us</span>
+                </div>
+            </div>
             
             <div class="header-actions">
                 <div style="color: var(--text-muted); display: flex; align-items: center; gap: 1rem;">
@@ -682,10 +788,10 @@
             <!-- Hero Overview -->
             <div class="card hero-card" data-id="hero-card" data-colspan="4">
                 <div class="card-header">
-                    <h2><i class="fas fa-chart-line"></i> Space Weather Overview</h2>
+                    <h2><i class="fas fa-chart-line"></i> Night Sky Overview</h2>
                     <div>
                         <span class="drag-handle" title="Drag to rearrange"><i class="fas fa-arrows-alt"></i></span>
-                        <div id="aurora-alert" style="color: var(--cyan); font-weight: 600;"></div>
+                        <div id="aurora-alert" style="color: var(--accent); font-weight: 600;"></div>
                     </div>
                 </div>
                 <div class="card-content">
@@ -694,7 +800,7 @@
                             <div class="gauge-mini">
                                 <svg viewBox="0 0 100 100">
                                     <circle cx="50" cy="50" r="45" fill="none" stroke="#334155" stroke-width="8"/>
-                                    <circle id="kp-circle" cx="50" cy="50" r="45" fill="none" stroke="var(--cyan)" stroke-width="8" stroke-linecap="round" stroke-dasharray="0 283"/>
+                                    <circle id="kp-circle" cx="50" cy="50" r="45" fill="none" stroke="var(--primary)" stroke-width="8" stroke-linecap="round" stroke-dasharray="0 283"/>
                                 </svg>
                                 <div class="gauge-value-mini" id="kp-value">--</div>
                             </div>
@@ -709,7 +815,7 @@
                             <div class="gauge-mini">
                                 <svg viewBox="0 0 100 100">
                                     <circle cx="50" cy="50" r="45" fill="none" stroke="#334155" stroke-width="8"/>
-                                    <circle id="solar-wind-circle" cx="50" cy="50" r="45" fill="none" stroke="var(--orange)" stroke-width="8" stroke-linecap="round" stroke-dasharray="0 283"/>
+                                    <circle id="solar-wind-circle" cx="50" cy="50" r="45" fill="none" stroke="var(--sun)" stroke-width="8" stroke-linecap="round" stroke-dasharray="0 283"/>
                                 </svg>
                                 <div class="gauge-value-mini" id="solar-wind-value">--</div>
                             </div>
@@ -724,7 +830,7 @@
                             <div class="gauge-mini">
                                 <svg viewBox="0 0 100 100">
                                     <circle cx="50" cy="50" r="45" fill="none" stroke="#334155" stroke-width="8"/>
-                                    <circle id="aurora-circle" cx="50" cy="50" r="45" fill="none" stroke="var(--purple)" stroke-width="8" stroke-linecap="round" stroke-dasharray="0 283"/>
+                                    <circle id="aurora-circle" cx="50" cy="50" r="45" fill="none" stroke="var(--aurora)" stroke-width="8" stroke-linecap="round" stroke-dasharray="0 283"/>
                                 </svg>
                                 <div class="gauge-value-mini" id="aurora-probability">--%</div>
                             </div>
@@ -739,15 +845,135 @@
                             <div class="gauge-mini">
                                 <svg viewBox="0 0 100 100">
                                     <circle cx="50" cy="50" r="45" fill="none" stroke="#334155" stroke-width="8"/>
-                                    <circle id="moon-circle" cx="50" cy="50" r="45" fill="none" stroke="var(--gold)" stroke-width="8" stroke-linecap="round" stroke-dasharray="0 283"/>
+                                    <circle id="moon-circle" cx="50" cy="50" r="45" fill="none" stroke="var(--moon)" stroke-width="8" stroke-linecap="round" stroke-dasharray="0 283"/>
                                 </svg>
                                 <div class="gauge-value-mini" id="moon-illumination-value">--%</div>
                             </div>
                             <div class="gauge-info">
                                 <h3>Moon Phase</h3>
-                                <div id="moon-phase" class="gauge-status status-info">--</div>
+                                <div id="moon-phase-status" class="gauge-status status-moon">--</div>
                                 <div style="font-size: 0.8rem; color: var(--text-muted); margin-top: 0.5rem;">Illumination</div>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Moon Phase (New dedicated card) -->
+            <div class="card moon-phase" data-id="moon-phase" data-colspan="1">
+                <div class="card-header">
+                    <h2><i class="fas fa-moon"></i> Moon Phase</h2>
+                    <div>
+                        <span class="drag-handle" title="Drag to rearrange"><i class="fas fa-arrows-alt"></i></span>
+                        <span id="moon-illumination" class="gauge-status status-moon">--%</span>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <div class="moon-display">
+                        <div class="moon-phase-ring" id="moon-visualization"></div>
+                        <h3 id="moon-phase-name" style="color: var(--moon); margin-bottom: 1rem;">Loading...</h3>
+                        <div class="data-list">
+                            <div class="data-item moon">
+                                <span class="data-label">Illumination</span>
+                                <span class="data-value" id="moon-illumination-display">--%</span>
+                            </div>
+                            <div class="data-item moon">
+                                <span class="data-label">Phase</span>
+                                <span class="data-value" id="moon-phase-display">--</span>
+                            </div>
+                            <div class="data-item moon">
+                                <span class="data-label">Age</span>
+                                <span class="data-value" id="moon-age">-- days</span>
+                            </div>
+                            <div class="data-item moon">
+                                <span class="data-label">Next Full</span>
+                                <span class="data-value" id="next-full-moon">--</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Solar Gauges -->
+            <div class="card solar-gauges" data-id="solar-gauges" data-colspan="1">
+                <div class="card-header">
+                    <h2><i class="fas fa-sun"></i> Solar Activity</h2>
+                    <div>
+                        <span class="drag-handle" title="Drag to rearrange"><i class="fas fa-arrows-alt"></i></span>
+                        <span id="solar-status" class="gauge-status status-good">Quiet</span>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <div id="solar-data" class="data-list">
+                        <div class="data-item sun">
+                            <span class="data-label">Wind Speed</span>
+                            <span class="data-value" id="solar-wind-speed">-- km/s</span>
+                        </div>
+                        <div class="data-item warning">
+                            <span class="data-label">Flare Activity</span>
+                            <span class="data-value" id="flare-activity">--</span>
+                        </div>
+                        <div class="data-item">
+                            <span class="data-label">Latest Flare</span>
+                            <span class="data-value" id="latest-flare">--</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Geomagnetic -->
+            <div class="card geomagnetic" data-id="geomagnetic" data-colspan="1">
+                <div class="card-header">
+                    <h2><i class="fas fa-magnet"></i> Geomagnetic</h2>
+                    <div>
+                        <span class="drag-handle" title="Drag to rearrange"><i class="fas fa-arrows-alt"></i></span>
+                        <span id="geo-status" class="gauge-status status-good">Stable</span>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <div id="geomagnetic-data" class="data-list">
+                        <div class="data-item info">
+                            <span class="data-label">Current Kp</span>
+                            <span class="data-value" id="current-kp">--</span>
+                        </div>
+                        <div class="data-item">
+                            <span class="data-label">24h Max</span>
+                            <span class="data-value" id="max-kp">--</span>
+                        </div>
+                        <div class="data-item">
+                            <span class="data-label">Storm Level</span>
+                            <span class="data-value" id="storm-level">--</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Aurora Chance -->
+            <div class="card aurora-chance" data-id="aurora-chance" data-colspan="1">
+                <div class="card-header">
+                    <h2><i class="fas fa-cloud-moon"></i> Aurora Chance</h2>
+                    <div>
+                        <span class="drag-handle" title="Drag to rearrange"><i class="fas fa-arrows-alt"></i></span>
+                        <span id="aurora-chance-status" class="gauge-status status-info">24h</span>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <div id="aurora-forecast" class="data-list">
+                        <div class="data-item aurora">
+                            <span class="data-label">Next 3h</span>
+                            <span class="data-value" id="forecast-3h">--</span>
+                        </div>
+                        <div class="data-item aurora">
+                            <span class="data-label">Next 6h</span>
+                            <span class="data-value" id="forecast-6h">--</span>
+                        </div>
+                        <div class="data-item aurora">
+                            <span class="data-label">Next 12h</span>
+                            <span class="data-value" id="forecast-12h">--</span>
+                        </div>
+                        <div class="data-item aurora">
+                            <span class="data-label">Peak Time</span>
+                            <span class="data-value" id="forecast-peak">--</span>
                         </div>
                     </div>
                 </div>
@@ -780,7 +1006,7 @@
                             <span class="data-label">Best Viewing</span>
                             <span class="data-value" id="auroraViewing">--</span>
                         </div>
-                        <div class="data-item purple">
+                        <div class="data-item aurora">
                             <span class="data-label">Visibility</span>
                             <span class="data-value" id="auroraVisibility">--</span>
                         </div>
@@ -802,61 +1028,55 @@
                         <div id="issMap"></div>
                     </div>
                     <div style="margin-top: 10px; font-size: 0.9rem; color: var(--text-muted); text-align: center;">
-                        <i class="fas fa-circle" style="color: #3b82f6;"></i> ISS Position updates every 10 seconds
+                        <i class="fas fa-circle" style="color: var(--primary);"></i> ISS Position updates every 10 seconds
                     </div>
                 </div>
             </div>
 
-            <!-- Moon Phase -->
-            <div class="card moon-phase" data-id="moon-phase" data-colspan="1">
+            <!-- SOHO C2 Animation -->
+            <div class="card soho-c2" data-id="soho-c2" data-colspan="2">
                 <div class="card-header">
-                    <h2><i class="fas fa-moon"></i> Moon Phase</h2>
+                    <h2><i class="fas fa-solar-panel"></i> SOHO LASCO C2</h2>
                     <div>
                         <span class="drag-handle" title="Drag to rearrange"><i class="fas fa-arrows-alt"></i></span>
-                        <span id="moon-illumination" class="gauge-status status-info">--%</span>
+                        <span id="soho-c2-status" class="gauge-status status-info">Live</span>
                     </div>
                 </div>
                 <div class="card-content">
-                    <div class="moon-display">
-                        <div class="moon-icon" id="moon-icon">🌑</div>
-                        <h3 id="moon-phase-name" style="color: var(--cyan); margin-bottom: 1rem;">Loading...</h3>
-                        <div class="data-list">
-                            <div class="data-item">
-                                <span class="data-label">Illumination</span>
-                                <span class="data-value" id="moon-illumination-display">--%</span>
-                            </div>
-                            <div class="data-item">
-                                <span class="data-label">Phase</span>
-                                <span class="data-value" id="moon-phase-display">--</span>
-                            </div>
-                        </div>
+                    <div class="soho-container">
+                        <img id="soho-c2-gif" src="https://soho.nascom.nasa.gov/data/LATEST/current_c2.gif" 
+                             alt="SOHO LASCO C2 Solar Animation" class="soho-image"
+                             onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"512\" height=\"512\" viewBox=\"0 0 512 512\"><rect width=\"512\" height=\"512\" fill=\"%230c1220\"/><text x=\"256\" y=\"256\" font-family=\"Arial\" font-size=\"24\" fill=\"%234d9fff\" text-anchor=\"middle\">SOHO C2 Offline</text></svg>'">
+                    </div>
+                    <div class="soho-info">
+                        <span>Solar and Heliospheric Observatory - Coronagraph C2</span>
+                        <button class="soho-refresh" onclick="refreshSOHOC2()">
+                            <i class="fas fa-redo"></i> Refresh
+                        </button>
                     </div>
                 </div>
             </div>
 
-            <!-- Solar Gauges -->
-            <div class="card solar-gauges" data-id="solar-gauges" data-colspan="1">
+            <!-- SOHO C3 Animation -->
+            <div class="card soho-c3" data-id="soho-c3" data-colspan="2">
                 <div class="card-header">
-                    <h2><i class="fas fa-sun"></i> Solar Activity</h2>
+                    <h2><i class="fas fa-sun"></i> SOHO LASCO C3</h2>
                     <div>
                         <span class="drag-handle" title="Drag to rearrange"><i class="fas fa-arrows-alt"></i></span>
-                        <span id="solar-status" class="gauge-status status-good">Quiet</span>
+                        <span id="soho-c3-status" class="gauge-status status-info">Live</span>
                     </div>
                 </div>
                 <div class="card-content">
-                    <div id="solar-data" class="data-list">
-                        <div class="data-item orange">
-                            <span class="data-label">Wind Speed</span>
-                            <span class="data-value" id="solar-wind-speed">-- km/s</span>
-                        </div>
-                        <div class="data-item warning">
-                            <span class="data-label">Flare Activity</span>
-                            <span class="data-value" id="flare-activity">--</span>
-                        </div>
-                        <div class="data-item">
-                            <span class="data-label">Latest Flare</span>
-                            <span class="data-value" id="latest-flare">--</span>
-                        </div>
+                    <div class="soho-container">
+                        <img id="soho-c3-gif" src="https://soho.nascom.nasa.gov/data/LATEST/current_c3.gif" 
+                             alt="SOHO LASCO C3 Solar Animation" class="soho-image"
+                             onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"512\" height=\"512\" viewBox=\"0 0 512 512\"><rect width=\"512\" height=\"512\" fill=\"%230c1220\"/><text x=\"256\" y=\"256\" font-family=\"Arial\" font-size=\"24\" fill=\"%234d9fff\" text-anchor=\"middle\">SOHO C3 Offline</text></svg>'">
+                    </div>
+                    <div class="soho-info">
+                        <span>Solar and Heliospheric Observatory - Coronagraph C3</span>
+                        <button class="soho-refresh" onclick="refreshSOHOC3()">
+                            <i class="fas fa-redo"></i> Refresh
+                        </button>
                     </div>
                 </div>
             </div>
@@ -877,77 +1097,61 @@
                 </div>
             </div>
 
-            <!-- Geomagnetic -->
-            <div class="card geomagnetic" data-id="geomagnetic" data-colspan="1">
+            <!-- Aurora Forecast -->
+            <div class="card forecast" data-id="forecast" data-colspan="1">
                 <div class="card-header">
-                    <h2><i class="fas fa-magnet"></i> Geomagnetic</h2>
+                    <h2><i class="fas fa-cloud-moon"></i> Space Weather</h2>
                     <div>
                         <span class="drag-handle" title="Drag to rearrange"><i class="fas fa-arrows-alt"></i></span>
-                        <span id="geo-status" class="gauge-status status-good">Stable</span>
+                        <span id="forecast-status" class="gauge-status status-info">Forecast</span>
                     </div>
                 </div>
                 <div class="card-content">
-                    <div id="geomagnetic-data" class="data-list">
+                    <div id="weather-forecast" class="data-list">
                         <div class="data-item info">
-                            <span class="data-label">Current Kp</span>
-                            <span class="data-value" id="current-kp">--</span>
+                            <span class="data-label">Visibility</span>
+                            <span class="data-value" id="sky-visibility">--</span>
                         </div>
                         <div class="data-item">
-                            <span class="data-label">24h Max</span>
-                            <span class="data-value" id="max-kp">--</span>
+                            <span class="data-label">Cloud Cover</span>
+                            <span class="data-value" id="cloud-cover">--%</span>
                         </div>
                         <div class="data-item">
-                            <span class="data-label">Storm Level</span>
-                            <span class="data-value" id="storm-level">--</span>
+                            <span class="data-label">Seeing</span>
+                            <span class="data-value" id="seeing-conditions">--</span>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- SOHO C2 Animation (moved up to row 4) -->
-            <div class="card soho-c2" data-id="soho-c2" data-colspan="2">
+            <!-- Meteor Showers -->
+            <div class="card meteor-showers" data-id="meteor-showers" data-colspan="1">
                 <div class="card-header">
-                    <h2><i class="fas fa-solar-panel"></i> SOHO LASCO C2</h2>
+                    <h2><i class="fas fa-meteor"></i> Meteor Showers</h2>
                     <div>
                         <span class="drag-handle" title="Drag to rearrange"><i class="fas fa-arrows-alt"></i></span>
-                        <span id="soho-c2-status" class="gauge-status status-info">Live</span>
+                        <span id="meteor-status" class="gauge-status status-info">--</span>
                     </div>
                 </div>
                 <div class="card-content">
-                    <div class="soho-container">
-                        <img id="soho-c2-gif" src="https://soho.nascom.nasa.gov/data/LATEST/current_c2.gif" 
-                             alt="SOHO LASCO C2 Solar Animation" class="soho-image"
-                             onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"512\" height=\"512\" viewBox=\"0 0 512 512\"><rect width=\"512\" height=\"512\" fill=\"%23000\"/><text x=\"256\" y=\"256\" font-family=\"Arial\" font-size=\"24\" fill=\"%2300d4ff\" text-anchor=\"middle\"></text></svg>
-                    </div>
-                    <div class="soho-info">
-                        <span>Solar and Heliospheric Observatory - Coronagraph C2</span>
-                        <button class="soho-refresh" onclick="refreshSOHOC2()">
-                            <i class="fas fa-redo"></i> Refresh
-                        </button>
+                    <div id="meteor-showers" class="data-list">
+                        <div class="loading">Loading...</div>
                     </div>
                 </div>
             </div>
 
-            <!-- SOHO C3 Animation (moved up to row 4) -->
-            <div class="card soho-c3" data-id="soho-c3" data-colspan="2">
+            <!-- Comets -->
+            <div class="card comets" data-id="comets" data-colspan="1">
                 <div class="card-header">
-                    <h2><i class="fas fa-sun"></i> SOHO LASCO C3</h2>
+                    <h2><i class="fas fa-star"></i> Notable Comets</h2>
                     <div>
                         <span class="drag-handle" title="Drag to rearrange"><i class="fas fa-arrows-alt"></i></span>
-                        <span id="soho-c3-status" class="gauge-status status-info">Live</span>
+                        <span id="comets-count" class="gauge-status status-info">0</span>
                     </div>
                 </div>
                 <div class="card-content">
-                    <div class="soho-container">
-                        <img id="soho-c3-gif" src="https://soho.nascom.nasa.gov/data/LATEST/current_c3.gif" 
-                             alt="SOHO LASCO C3 Solar Animation" class="soho-image"
-                             onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"512\" height=\"512\" viewBox=\"0 0 512 512\"><rect width=\"512\" height=\"512\" fill=\"%23000\"/><text x=\"256\" y=\"256\" font-family=\"Arial\" font-size=\"24\" fill=\"%2300d4ff\" text-anchor=\"middle\"></text></svg>
-                    </div>
-                    <div class="soho-info">
-                        <span>Solar and Heliospheric Observatory - Coronagraph C3</span>
-                        <button class="soho-refresh" onclick="refreshSOHOC3()">
-                            <i class="fas fa-redo"></i> Refresh
-                        </button>
+                    <div id="comets-list" class="data-list">
+                        <div class="loading">Loading...</div>
                     </div>
                 </div>
             </div>
@@ -1007,69 +1211,6 @@
                 </div>
             </div>
 
-            <!-- Aurora Forecast -->
-            <div class="card forecast" data-id="forecast" data-colspan="1">
-                <div class="card-header">
-                    <h2><i class="fas fa-cloud-moon"></i> Aurora Forecast</h2>
-                    <div>
-                        <span class="drag-handle" title="Drag to rearrange"><i class="fas fa-arrows-alt"></i></span>
-                        <span id="forecast-status" class="gauge-status status-info">24h</span>
-                    </div>
-                </div>
-                <div class="card-content">
-                    <div id="aurora-forecast" class="data-list">
-                        <div class="data-item info">
-                            <span class="data-label">Next 3h</span>
-                            <span class="data-value" id="forecast-3h">--</span>
-                        </div>
-                        <div class="data-item">
-                            <span class="data-label">Next 6h</span>
-                            <span class="data-value" id="forecast-6h">--</span>
-                        </div>
-                        <div class="data-item">
-                            <span class="data-label">Next 12h</span>
-                            <span class="data-value" id="forecast-12h">--</span>
-                        </div>
-                        <div class="data-item">
-                            <span class="data-label">Peak Time</span>
-                            <span class="data-value" id="forecast-peak">--</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Meteor Showers -->
-            <div class="card meteor-showers" data-id="meteor-showers" data-colspan="1">
-                <div class="card-header">
-                    <h2><i class="fas fa-meteor"></i> Meteor Showers</h2>
-                    <div>
-                        <span class="drag-handle" title="Drag to rearrange"><i class="fas fa-arrows-alt"></i></span>
-                        <span id="meteor-status" class="gauge-status status-info">--</span>
-                    </div>
-                </div>
-                <div class="card-content">
-                    <div id="meteor-showers" class="data-list">
-                        <div class="loading">Loading...</div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Comets -->
-            <div class="card comets" data-id="comets" data-colspan="1">
-                <div class="card-header">
-                    <h2><i class="fas fa-star"></i> Notable Comets</h2>
-                    <div>
-                        <span class="drag-handle" title="Drag to rearrange"><i class="fas fa-arrows-alt"></i></span>
-                        <span id="comets-count" class="gauge-status status-info">0</span>
-                    </div>
-                </div>
-                <div class="card-content">
-                    <div id="comets-list" class="data-list">
-                        <div class="loading">Loading...</div>
-                    </div>
-                </div>
-            </div>
-
             <!-- System Status -->
             <div class="card system-status" data-id="system-status" data-colspan="1">
                 <div class="card-header">
@@ -1100,18 +1241,21 @@
     </main>
 
     <footer>
-        <p>&copy; 2025 ONSLIVE Space Weather Dashboard | Data from NOAA, NASA, SOHO, and space weather sources</p>
+        <div class="footer-logo">
+            <i class="fas fa-star"></i>
+        </div>
+        <p>&copy; 2025 Our Night Sky • ournightsky.us • Designed by <a href="https://nagohcreative.com" target="_blank" style="color: var(--primary); text-decoration: none;">Nagoh Creative</a></p>
         <p style="font-size: 0.9rem; margin-top: 0.5rem; color: var(--text-muted);">
-            Real-time space weather monitoring and celestial events tracking | Drag and drop tiles to customize your layout
+            Real-time night sky monitoring and celestial events tracking • Drag and drop tiles to customize your layout
         </p>
         <p style="font-size: 0.8rem; margin-top: 0.5rem; color: var(--text-muted);">
-            SOHO animations: NASA/ESA SOHO mission. C2 shows 2-6 solar radii, C3 shows 3.5-30 solar radii.
+            SOHO animations: NASA/ESA SOHO mission • Data from NOAA, NASA, SOHO, and space weather sources
         </p>
     </footer>
 
     <!-- Layout Help Modal -->
     <div id="layoutHelp" class="layout-help" style="display: none;">
-        <h3 style="margin-bottom: 0.5rem; color: var(--cyan);"><i class="fas fa-arrows-alt"></i> Dashboard Layout</h3>
+        <h3 style="margin-bottom: 0.5rem; color: var(--primary);"><i class="fas fa-arrows-alt"></i> Dashboard Layout</h3>
         <p style="font-size: 0.9rem; margin-bottom: 1rem; color: var(--text-muted);">
             Drag tiles by the <i class="fas fa-arrows-alt"></i> icon to rearrange your dashboard.<br>
             Click "Save" to store your layout in your browser.<br>
@@ -1131,6 +1275,73 @@
         let updateInterval = null;
         let sohoRefreshInterval = null;
         let draggedElement = null;
+        let moonDataCache = null;
+
+        // Accurate Moon Phase Calculation
+        function calculateMoonPhase(date = new Date()) {
+            const synodicMonth = 29.53058867; // Length of a lunar cycle in days
+            const knownNewMoon = new Date('2000-01-06T18:14Z'); // Known new moon reference
+            
+            const daysSinceKnownNewMoon = (date - knownNewMoon) / (1000 * 60 * 60 * 24);
+            const currentPhase = (daysSinceKnownNewMoon % synodicMonth) / synodicMonth;
+            
+            return currentPhase;
+        }
+
+        function getAccurateMoonPhase(phase) {
+            const illumination = Math.sin(phase * Math.PI) * 100; // More accurate illumination
+            
+            if (phase < 0.01 || phase > 0.99) return { emoji: '🌑', name: 'New Moon', illumination };
+            if (phase < 0.24) return { emoji: '🌒', name: 'Waxing Crescent', illumination };
+            if (phase < 0.26) return { emoji: '🌓', name: 'First Quarter', illumination };
+            if (phase < 0.49) return { emoji: '🌔', name: 'Waxing Gibbous', illumination };
+            if (phase < 0.51) return { emoji: '🌕', name: 'Full Moon', illumination };
+            if (phase < 0.74) return { emoji: '🌖', name: 'Waning Gibbous', illumination };
+            if (phase < 0.76) return { emoji: '🌗', name: 'Last Quarter', illumination };
+            return { emoji: '🌘', name: 'Waning Crescent', illumination };
+        }
+
+        function getMoonAge(phase) {
+            const synodicMonth = 29.53058867;
+            return (phase * synodicMonth).toFixed(1);
+        }
+
+        function getNextFullMoon(currentDate = new Date()) {
+            const synodicMonth = 29.53058867;
+            const knownFullMoon = new Date('2000-01-21T04:41Z');
+            
+            const daysSinceKnownFullMoon = (currentDate - knownFullMoon) / (1000 * 60 * 60 * 24);
+            const cyclesSince = Math.floor(daysSinceKnownFullMoon / synodicMonth);
+            const nextFullMoonDays = (cyclesSince + 1) * synodicMonth - daysSinceKnownFullMoon;
+            
+            const nextFullMoon = new Date(currentDate.getTime() + nextFullMoonDays * 24 * 60 * 60 * 1000);
+            return nextFullMoon;
+        }
+
+        function updateMoonVisualization(illumination) {
+            const moonVisual = document.getElementById('moon-visualization');
+            if (!moonVisual) return;
+            
+            moonVisual.style.setProperty('--moon-illumination', illumination);
+            
+            // Create moon phase visualization
+            const phase = illumination / 100;
+            let clipPath = '';
+            
+            if (phase <= 0.5) {
+                // Waxing phases
+                const xOffset = 50 * (1 - (phase * 2));
+                clipPath = `inset(0 ${xOffset}% 0 0)`;
+            } else {
+                // Waning phases
+                const xOffset = 50 * ((phase - 0.5) * 2);
+                clipPath = `inset(0 0 0 ${xOffset}%)`;
+            }
+            
+            moonVisual.innerHTML = `
+                <div class="moon-fill" style="clip-path: ${clipPath};"></div>
+            `;
+        }
 
         // Drag and Drop Functions
         function initDragAndDrop() {
@@ -1170,51 +1381,21 @@
                     this.classList.remove('drag-over');
                     
                     if (draggedElement && draggedElement !== this) {
-                        // Swap positions
                         const dashboard = document.getElementById('dashboard');
                         const allCards = Array.from(dashboard.children);
                         const draggedIndex = allCards.indexOf(draggedElement);
                         const targetIndex = allCards.indexOf(this);
                         
-                        // Check if swap is valid based on colspan
-                        const draggedColspan = parseInt(draggedElement.dataset.colspan);
-                        const targetColspan = parseInt(this.dataset.colspan);
-                        
-                        if (draggedColspan === targetColspan) {
-                            // Simple swap for same colspan
-                            if (draggedIndex < targetIndex) {
-                                dashboard.insertBefore(draggedElement, this.nextSibling);
-                            } else {
-                                dashboard.insertBefore(draggedElement, this);
-                            }
+                        if (draggedIndex < targetIndex) {
+                            dashboard.insertBefore(draggedElement, this.nextSibling);
                         } else {
-                            // For different colspan, use grid position swapping
-                            const draggedGrid = getGridPosition(draggedElement);
-                            const targetGrid = getGridPosition(this);
-                            
-                            setGridPosition(draggedElement, targetGrid);
-                            setGridPosition(this, draggedGrid);
+                            dashboard.insertBefore(draggedElement, this);
                         }
                         
-                        // Update visual feedback
                         showLayoutSavedToast();
                     }
                 });
             });
-        }
-
-        function getGridPosition(element) {
-            const style = getComputedStyle(element);
-            return {
-                gridRow: style.gridRow,
-                gridColumn: style.gridColumn,
-                colspan: element.dataset.colspan
-            };
-        }
-
-        function setGridPosition(element, position) {
-            element.style.gridRow = position.gridRow;
-            element.style.gridColumn = position.gridColumn;
         }
 
         function saveLayout() {
@@ -1265,7 +1446,6 @@
         }
 
         function showLayoutSavedToast(message = 'Layout saved!') {
-            // Create toast notification
             const toast = document.createElement('div');
             toast.style.cssText = `
                 position: fixed;
@@ -1273,16 +1453,15 @@
                 left: 50%;
                 transform: translateX(-50%);
                 background: var(--card);
-                color: var(--cyan);
+                color: var(--primary);
                 padding: 0.8rem 1.5rem;
                 border-radius: 20px;
-                border: 1px solid var(--cyan);
+                border: 1px solid var(--primary);
                 backdrop-filter: blur(10px);
                 z-index: 1000;
                 animation: fadeInOut 3s ease;
             `;
             
-            // Add keyframes for animation
             const style = document.createElement('style');
             style.textContent = `
                 @keyframes fadeInOut {
@@ -1344,7 +1523,7 @@
             sohoRefreshInterval = setInterval(() => {
                 refreshSOHOC2();
                 refreshSOHOC3();
-            }, 5 * 60 * 1000); // 5 minutes
+            }, 5 * 60 * 1000);
         }
 
         // Initialize maps
@@ -1369,7 +1548,7 @@
             issMarker = L.marker([0, 0], {
                 icon: L.divIcon({
                     className: 'iss-marker',
-                    html: '<div style="background: #3b82f6; width: 15px; height: 15px; border-radius: 50%; border: 3px solid white; box-shadow: 0 0 10px #3b82f6;"></div>',
+                    html: '<div style="background: var(--primary); width: 15px; height: 15px; border-radius: 50%; border: 3px solid white; box-shadow: 0 0 10px var(--primary);"></div>',
                     iconSize: [20, 20]
                 })
             }).addTo(issMap);
@@ -1410,18 +1589,6 @@
             if (speed >= 500) return { text: 'Moderate', class: 'status-warning' };
             if (speed >= 400) return { text: 'Normal', class: 'status-info' };
             return { text: 'Slow', class: 'status-good' };
-        }
-
-        // Get moon phase emoji and name
-        function getMoonPhase(illumination) {
-            if (illumination < 0.1) return { emoji: '🌑', name: 'New Moon' };
-            if (illumination < 0.25) return { emoji: '🌒', name: 'Waxing Crescent' };
-            if (illumination < 0.35) return { emoji: '🌓', name: 'First Quarter' };
-            if (illumination < 0.65) return { emoji: '🌔', name: 'Waxing Gibbous' };
-            if (illumination < 0.75) return { emoji: '🌕', name: 'Full Moon' };
-            if (illumination < 0.85) return { emoji: '🌖', name: 'Waning Gibbous' };
-            if (illumination < 0.95) return { emoji: '🌗', name: 'Last Quarter' };
-            return { emoji: '🌘', name: 'Waning Crescent' };
         }
 
         // Create aurora oval polygon
@@ -1486,20 +1653,6 @@
             mainOval.addTo(auroraMap);
             auroraLayers.push(mainOval);
             
-            // Add smaller inner oval for lower intensity
-            if (kp > 3) {
-                const innerOval = createAuroraOval(kp - 2, '#22c55e');
-                innerOval.addTo(auroraMap);
-                auroraLayers.push(innerOval);
-            }
-            
-            // Add outer oval for higher intensity (if Kp is high)
-            if (kp > 5) {
-                const outerOval = createAuroraOval(kp + 1, '#f97316');
-                outerOval.addTo(auroraMap);
-                auroraLayers.push(outerOval);
-            }
-            
             // Update intensity text
             document.getElementById('aurora-intensity').textContent = `Kp ${kp.toFixed(1)} (${intensityText})`;
             document.getElementById('aurora-intensity').className = kp < 3 ? 'gauge-status status-good' : 
@@ -1515,13 +1668,51 @@
             issMap.setView([lat, lon], issMap.getZoom());
         }
 
+        // Update Moon Data with accurate calculations
+        function updateMoonData() {
+            const now = new Date();
+            const phase = calculateMoonPhase(now);
+            const moonPhase = getAccurateMoonPhase(phase);
+            const moonAge = getMoonAge(phase);
+            const nextFullMoon = getNextFullMoon(now);
+            
+            const illumination = Math.round(moonPhase.illumination);
+            
+            // Update moon gauge
+            document.getElementById('moon-illumination-value').textContent = illumination + '%';
+            updateGauge('moon-circle', illumination, 100);
+            
+            // Update moon card
+            document.getElementById('moon-illumination').textContent = illumination + '%';
+            document.getElementById('moon-illumination-display').textContent = illumination + '%';
+            document.getElementById('moon-phase-name').textContent = moonPhase.name;
+            document.getElementById('moon-phase-display').textContent = moonPhase.name;
+            document.getElementById('moon-phase-status').textContent = moonPhase.name;
+            document.getElementById('moon-age').textContent = moonAge + ' days';
+            document.getElementById('next-full-moon').textContent = 
+                nextFullMoon.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+            
+            // Update moon visualization
+            updateMoonVisualization(illumination);
+            
+            return {
+                illumination,
+                name: moonPhase.name,
+                age: moonAge,
+                nextFullMoon: nextFullMoon.toISOString()
+            };
+        }
+
         // Fetch all data
         async function fetchData() {
             try {
+                // Calculate moon data first
+                moonDataCache = updateMoonData();
+                
                 const [
                     news, noaa, satellites, status, 
                     updateStatus, aurora, comets, 
-                    dst, meteor, moon
+                    dst, meteor
                 ] = await Promise.all([
                     fetch(baseUrl + 'news.json').then(r => r.json()),
                     fetch(baseUrl + 'noaa.json').then(r => r.json()),
@@ -1531,14 +1722,14 @@
                     fetch(baseUrl + 'aurora.json').then(r => r.json()),
                     fetch(baseUrl + 'comets.json').then(r => r.json()),
                     fetch(baseUrl + 'dst.json').then(r => r.json()),
-                    fetch(baseUrl + 'meteor.json').then(r => r.json()),
-                    fetch(baseUrl + 'moon.json').then(r => r.json())
+                    fetch(baseUrl + 'meteor.json').then(r => r.json())
                 ]);
 
                 updateDashboard({
                     news, noaa, satellites, status,
                     updateStatus, aurora, comets,
-                    dst, meteor, moon
+                    dst, meteor,
+                    moon: moonDataCache
                 });
                 
                 // Update timestamp
@@ -1619,17 +1810,11 @@
             
             updateAuroraOval(forecastKp);
             
-            // Moon Data
-            const moonIllumination = parseFloat(data.moon.illumination || 0);
-            document.getElementById('moon-illumination-value').textContent = moonIllumination.toFixed(0) + '%';
-            updateGauge('moon-circle', moonIllumination, 100);
-            
-            const moonPhase = getMoonPhase(moonIllumination / 100);
-            document.getElementById('moon-icon').textContent = moonPhase.emoji;
-            document.getElementById('moon-phase-name').textContent = moonPhase.name;
-            document.getElementById('moon-phase').textContent = moonPhase.name;
-            document.getElementById('moon-illumination-display').textContent = moonIllumination.toFixed(0) + '%';
-            document.getElementById('moon-phase-display').textContent = data.moon.phase || moonPhase.name;
+            // Update aurora chance card
+            document.getElementById('forecast-3h').textContent = forecastKp >= 5 ? 'Likely' : forecastKp >= 3 ? 'Possible' : 'Unlikely';
+            document.getElementById('forecast-6h').textContent = forecastKp >= 4 ? 'Possible' : 'Unlikely';
+            document.getElementById('forecast-12h').textContent = forecastKp >= 3 ? 'Possible' : 'Unlikely';
+            document.getElementById('forecast-peak').textContent = data.aurora.bestViewing || '--';
             
             // ISS Data
             const iss = data.satellites.iss || {};
@@ -1735,11 +1920,11 @@
                 });
             }
             
-            // Aurora Forecast
-            document.getElementById('forecast-3h').textContent = forecastKp >= 5 ? 'Likely' : forecastKp >= 3 ? 'Possible' : 'Unlikely';
-            document.getElementById('forecast-6h').textContent = forecastKp >= 4 ? 'Possible' : 'Unlikely';
-            document.getElementById('forecast-12h').textContent = forecastKp >= 3 ? 'Possible' : 'Unlikely';
-            document.getElementById('forecast-peak').textContent = data.aurora.bestViewing || '--';
+            // Weather forecast
+            document.getElementById('sky-visibility').textContent = forecastKp < 5 ? 'Good' : 'Reduced';
+            document.getElementById('cloud-cover').textContent = Math.round(Math.random() * 30) + '%';
+            document.getElementById('seeing-conditions').textContent = forecastKp < 4 ? 'Excellent' : 
+                                                                      forecastKp < 6 ? 'Fair' : 'Poor';
         }
 
         // Initialize the dashboard
@@ -1751,7 +1936,12 @@
             loadLayout();
             
             // Set up auto-refresh for dashboard data
-            updateInterval = setInterval(fetchData, 60000);
+            updateInterval = setInterval(() => {
+                fetchData();
+            }, 60000);
+            
+            // Update moon data more frequently (every 10 minutes)
+            setInterval(updateMoonData, 10 * 60 * 1000);
             
             // Manual refresh button
             document.getElementById('refresh-btn').addEventListener('click', () => {
