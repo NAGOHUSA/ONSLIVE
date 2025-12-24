@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Avio Launch Deal Highlights Uncertainty in Vega Upgrade Roadmap",
+      "link": "https://europeanspaceflight.com/avio-launch-deal-highlights-uncertainty-in-vega-upgrade-roadmap/",
+      "source": "European Spaceflight",
+      "date": "2025-12-24T06:00:54Z",
+      "summary": "With the announcement of two new launch contracts for its Vega C rocket, totalling more than €100 million, Italian rocket builder Avio appears to have revealed that the launcher could remain operational until 2031. This, in turn, raises questions about when the company plans to introduce its successor, Vega E, and how long it would […]\nThe post Avio Launch Deal Highlights Uncertainty in Vega Upgrade Roadmap appeared first on European Spaceflight."
+    },
+    {
       "title": "Indian rocket launches AST SpaceMobile’s next-gen BlueBird-6 satellite",
       "link": "https://spacenews.com/indian-rocket-launches-ast-spacemobiles-next-gen-bluebird-6-satellite/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2025-12-23T18:55:41Z",
       "summary": "Introduction The Observational Products for End-Users from Remote Sensing Analysis (OPERA) project represents a strategic initiative designed to address critical satellite data needs identified by federal agencies. Established in 2021 by the NASA/Jet Propulsion Laboratory (JPL), OPERA responds to priorities identified by the Satellite Needs Working Group (SNWG), an interagency body convened by the White […]"
-    },
-    {
-      "title": "Get In, We’re Going to the Moon: Meet NASA’s Artemis Closeout Crew",
-      "link": "https://www.nasa.gov/centers-and-facilities/kennedy/get-in-were-going-to-the-moon-meet-nasas-artemis-closeout-crew/",
-      "source": "NASA",
-      "date": "2025-12-23T18:44:07Z",
-      "summary": "For most, getting into a car is a task that can be done without assistance. Yet for those whose destination is the Moon, the process of getting inside and secured – in this case, in NASA’s Orion spacecraft – requires help. That’s the role of the Artemis closeout crew. Trained to support Artemis II and […]"
     }
   ],
-  "updated": "2025-12-24T06:00:30.159Z"
+  "updated": "2025-12-24T06:38:33.888Z"
 }
