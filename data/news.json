@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Santa Visits Artemis II Rocket",
+      "link": "https://www.nasa.gov/image-article/santa-visits-artemis-ii-rocket/",
+      "source": "NASA",
+      "date": "2025-12-24T13:59:43Z",
+      "summary": "Santa Claus (NASA engineer Guy Naylor) poses with NASA’s Artemis II Orion spacecraft and SLS (Space Launch System) rocket in the Vehicle Assembly Building at NASA’s Kennedy Space Center in Florida on Dec. 11, 2025. The Orion spacecraft was stacked atop the SLS in October 2025. Set to launch in early 2026, the Artemis II […]"
+    },
+    {
       "title": "Avio Launch Deal Highlights Uncertainty in Vega Upgrade Roadmap",
       "link": "https://europeanspaceflight.com/avio-launch-deal-highlights-uncertainty-in-vega-upgrade-roadmap/",
       "source": "European Spaceflight",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2025-12-23T20:41:32Z",
       "summary": "\nMILAN — The European Space Agency announced plans to hire approximately 520 new staff members starting in 2026, following decisions approved at ESA’s 342nd Council meeting earlier this month.  The recruitment will result in a net increase of about 400 staff, alongside the replacement of roughly 120 positions due to retirements. The move will bring […]\nThe post ESA to hire 520 new staff as workforce expansion begins in 2026 appeared first on SpaceNews."
-    },
-    {
-      "title": "OPERA: Addressing Societal Needs with Satellite Data",
-      "link": "https://science.nasa.gov/science-research/earth-science/opera-addressing-societal-needs-with-satellite-data/",
-      "source": "NASA",
-      "date": "2025-12-23T18:55:41Z",
-      "summary": "Introduction The Observational Products for End-Users from Remote Sensing Analysis (OPERA) project represents a strategic initiative designed to address critical satellite data needs identified by federal agencies. Established in 2021 by the NASA/Jet Propulsion Laboratory (JPL), OPERA responds to priorities identified by the Satellite Needs Working Group (SNWG), an interagency body convened by the White […]"
     }
   ],
-  "updated": "2025-12-24T13:58:30.090Z"
+  "updated": "2025-12-24T14:18:01.708Z"
 }
