@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Indian rocket launches AST SpaceMobile’s next-gen BlueBird-6 satellite",
+      "link": "https://spacenews.com/indian-rocket-launches-ast-spacemobiles-next-gen-bluebird-6-satellite/",
+      "source": "SpaceNews",
+      "date": "2025-12-24T04:10:09Z",
+      "summary": "\nAn Indian LVM3 rocket launched AST SpaceMobile’s next-generation direct-to-device BlueBird satellite Dec. 23, kicking off a rollout of dozens of spacecraft built around the largest commercial communications antenna ever deployed in LEO.\nThe post Indian rocket launches AST SpaceMobile’s next-gen BlueBird-6 satellite appeared first on SpaceNews."
+    },
+    {
       "title": "Flight 12 vehicles readying for 2026 opener",
       "link": "https://www.nasaspaceflight.com/2025/12/flight-12-vehicles-2026/",
       "source": "NASASpaceflight",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2025-12-23T18:44:07Z",
       "summary": "For most, getting into a car is a task that can be done without assistance. Yet for those whose destination is the Moon, the process of getting inside and secured – in this case, in NASA’s Orion spacecraft – requires help. That’s the role of the Artemis closeout crew. Trained to support Artemis II and […]"
-    },
-    {
-      "title": "Artemis II Crew Launch Day Rehearsal",
-      "link": "https://www.nasa.gov/image-article/artemis-ii-crew-launch-day-rehearsal/",
-      "source": "NASA",
-      "date": "2025-12-23T16:18:41Z",
-      "summary": "From left to right, CSA (Canadian Space Agency) astronaut Jeremy Hansen and NASA astronauts Christina Koch, Victor Glover, and Reid Wiseman stand outside before boarding their Orion spacecraft inside the Vehicle Assembly Building at NASA’s Kennedy Space Center in Florida as part of the Artemis II countdown demonstration test, Saturday, Dec. 20, 2025. Because the […]"
     }
   ],
-  "updated": "2025-12-24T03:56:13.341Z"
+  "updated": "2025-12-24T04:29:51.730Z"
 }
