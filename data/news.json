@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Fly through Webb’s cosmic vistas",
+      "link": "https://www.esa.int/ESA_Multimedia/Videos/2025/12/Fly_through_Webb_s_cosmic_vistas",
+      "source": "ESA",
+      "date": "2025-12-25T15:00:00Z",
+      "summary": "On the launch anniversary of the NASA/ESA/CSA James Webb Space Telescope, ESA presents a unique compilation of zooms into stunning cosmic views."
+    },
+    {
       "title": "Avio to Launch Four Earth Observation Satellites for Taiwan",
       "link": "https://europeanspaceflight.com/avio-to-launch-four-earth-observation-satellites-for-taiwan/",
       "source": "European Spaceflight",
@@ -27,14 +34,7 @@
       "source": "European Spaceflight",
       "date": "2025-12-24T06:00:54Z",
       "summary": "With the announcement of two new launch contracts for its Vega C rocket, totalling more than €100 million, Italian rocket builder Avio appears to have revealed that the launcher could remain operational until 2031. This, in turn, raises questions about when the company plans to introduce its successor, Vega E, and how long it would […]\nThe post Avio Launch Deal Highlights Uncertainty in Vega Upgrade Roadmap appeared first on European Spaceflight."
-    },
-    {
-      "title": "Indian rocket launches AST SpaceMobile’s next-gen BlueBird-6 satellite",
-      "link": "https://spacenews.com/indian-rocket-launches-ast-spacemobiles-next-gen-bluebird-6-satellite/",
-      "source": "SpaceNews",
-      "date": "2025-12-24T04:10:09Z",
-      "summary": "An Indian LVM3 rocket launched AST SpaceMobile’s next-generation direct-to-device BlueBird satellite Dec. 23, kicking off a rollout of dozens of spacecraft built around the largest commercial communications antenna ever deployed in LEO.\r\nThe post Indian rocket launches AST SpaceMobile’s next-gen BlueBird-6 satellite appeared first on SpaceNews."
     }
   ],
-  "updated": "2025-12-25T15:01:14.180Z"
+  "updated": "2025-12-25T15:26:18.613Z"
 }
