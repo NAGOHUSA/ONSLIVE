@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Avio to Launch Four Earth Observation Satellites for Taiwan",
+      "link": "https://europeanspaceflight.com/avio-to-launch-four-earth-observation-satellites-for-taiwan/",
+      "source": "European Spaceflight",
+      "date": "2025-12-25T05:00:30Z",
+      "summary": "The Taiwan Space Agency (TASA) has awarded Italian rocket builder Avio a launch contract for its FORMOSAT-8C and 8D, and FORMOSAT-9A and 9B Earth observation satellites. On 19 December, Avio announced that it had signed two launch contracts with undisclosed customers, with a combined value of over €100 million. While the company left it up […]\nThe post Avio to Launch Four Earth Observation Satellites for Taiwan appeared first on European Spaceflight."
+    },
+    {
       "title": "Innospace plans second launch in 2026 after failure of first Hanbit-Nano rocket",
       "link": "https://spacenews.com/innospace-plans-second-launch-in-2026-after-failure-of-first-hanbit-nano-rocket/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2025-12-24T04:10:09Z",
       "summary": "\nAn Indian LVM3 rocket launched AST SpaceMobile’s next-generation direct-to-device BlueBird satellite Dec. 23, kicking off a rollout of dozens of spacecraft built around the largest commercial communications antenna ever deployed in LEO.\nThe post Indian rocket launches AST SpaceMobile’s next-gen BlueBird-6 satellite appeared first on SpaceNews."
-    },
-    {
-      "title": "Flight 12 vehicles readying for 2026 opener",
-      "link": "https://www.nasaspaceflight.com/2025/12/flight-12-vehicles-2026/",
-      "source": "NASASpaceflight",
-      "date": "2025-12-23T23:43:44Z",
-      "summary": "SpaceX is rapidly advancing the assembly of Super Heavy Booster 19 at its Starbase facility,…\nThe post Flight 12 vehicles readying for 2026 opener appeared first on NASASpaceFlight.com."
     }
   ],
-  "updated": "2025-12-25T04:53:03.315Z"
+  "updated": "2025-12-25T05:13:30.704Z"
 }
