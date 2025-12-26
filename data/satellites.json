@@ -3,7 +3,7 @@
     {
       "name": "STARLINK-1008",
       "id": "2019-074B",
-      "epoch": "2025-12-25T20:39:36.603648",
+      "epoch": "2025-12-25T20:39:36.602784",
       "meanMotion": 15.06389027,
       "inclination": 53.0591
     },
@@ -72,11 +72,11 @@
     }
   ],
   "iss": {
-    "latitude": -37.613977041807,
-    "longitude": -176.84731567769,
-    "altitude": 427.08076158598,
-    "velocity": 27562.528125673,
-    "visibility": "daylight"
+    "latitude": 39.413319186011,
+    "longitude": -106.04586909096,
+    "altitude": 421.30835686572,
+    "velocity": 27587.400762075,
+    "visibility": "eclipsed"
   },
-  "updated": "2025-12-26T07:58:21.260Z"
+  "updated": "2025-12-26T08:25:20.865Z"
 }
