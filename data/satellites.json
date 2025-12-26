@@ -3,14 +3,14 @@
     {
       "name": "STARLINK-1008",
       "id": "2019-074B",
-      "epoch": "2025-12-25T17:28:31.923264",
-      "meanMotion": 15.06394405,
-      "inclination": 53.056
+      "epoch": "2025-12-25T20:39:36.603648",
+      "meanMotion": 15.06389027,
+      "inclination": 53.0591
     },
     {
       "name": "STARLINK-1012",
       "id": "2019-074F",
-      "epoch": "2025-12-25T18:32:14.065728",
+      "epoch": "2025-12-25T18:32:14.066592",
       "meanMotion": 15.06391479,
       "inclination": 53.0561
     },
@@ -24,9 +24,9 @@
     {
       "name": "STARLINK-1019",
       "id": "2019-074M",
-      "epoch": "2025-12-25T22:00:01.998720",
-      "meanMotion": 15.59066436,
-      "inclination": 53.0497
+      "epoch": "2025-12-26T00:00:02.000160",
+      "meanMotion": 15.59104805,
+      "inclination": 53.0496
     },
     {
       "name": "STARLINK-1020",
@@ -38,14 +38,14 @@
     {
       "name": "STARLINK-1031",
       "id": "2019-074Z",
-      "epoch": "2025-12-25T22:00:01.998720",
-      "meanMotion": 15.62930437,
+      "epoch": "2025-12-26T00:00:02.000160",
+      "meanMotion": 15.6296615,
       "inclination": 53.0453
     },
     {
       "name": "STARLINK-1036",
       "id": "2019-074AE",
-      "epoch": "2025-12-25T17:41:48.102720",
+      "epoch": "2025-12-25T17:41:48.103584",
       "meanMotion": 15.0640006,
       "inclination": 53.0556
     },
@@ -66,17 +66,17 @@
     {
       "name": "STARLINK-1043",
       "id": "2019-074AM",
-      "epoch": "2025-12-25T18:40:34.510944",
+      "epoch": "2025-12-25T18:40:34.511808",
       "meanMotion": 15.4599091,
       "inclination": 53.0546
     }
   ],
   "iss": {
-    "latitude": 46.762582084524,
-    "longitude": -19.643764773458,
-    "altitude": 423.42568177763,
-    "velocity": 27584.875895943,
-    "visibility": "eclipsed"
+    "latitude": -12.455296398033,
+    "longitude": 105.13511278017,
+    "altitude": 420.99504937172,
+    "velocity": 27571.860710485,
+    "visibility": "daylight"
   },
-  "updated": "2025-12-26T03:50:25.041Z"
+  "updated": "2025-12-26T04:23:24.637Z"
 }
