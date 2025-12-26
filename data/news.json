@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Former ULA president and CEO Tory Bruno joins Blue Origin",
+      "link": "https://spaceflightnow.com/2025/12/26/former-ula-president-and-ceo-tory-bruno-joins-blue-origin/",
+      "source": "Spaceflight Now",
+      "date": "2025-12-26T22:44:05Z",
+      "summary": "Bruno’s resignation from United Launch Alliance was announced just four days ago on Dec. 22. He led that company for nearly 12 years. "
+    },
+    {
       "title": "Former ULA chief Bruno joins Blue Origin",
       "link": "https://spacenews.com/former-ula-chief-bruno-joins-blue-origin/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2025-12-26T16:27:18Z",
       "summary": "In this Oct. 20, 2025, photo, tiny ball bearings surround a larger central bearing during the Fluid Particles experiment, conducted inside the Microgravity Science Glovebox (MSG) aboard the International Space Station’s Destiny laboratory module. A bulk container installed in the MSG, filled with viscous fluid and embedded particles, is subjected to oscillating frequencies to observe […]"
-    },
-    {
-      "title": "Curiosity Blog, Sols 4750-4762: See You on the Other Side of the Sun",
-      "link": "https://www.marsdaily.com/reports/Curiosity_Blog_Sols_4750_4762_See_You_on_the_Other_Side_of_the_Sun_999.html",
-      "source": "SpaceDaily",
-      "date": "2025-12-26T05:41:42Z",
-      "summary": "Pasadena CA (JPL) Dec 26, 2025\n\n\nAs we all prepare for the holiday season here on Earth, we have been planning a few last activities before Curiosity and the team of scientists and engineers take a well-deserved, extended break. This holiday season coincides with conjunction - every two years, because of their different orbits, Earth and Mars are obstructed from one another by the Sun; this one will last from Dec. 27 to Jan. 20"
     }
   ],
-  "updated": "2025-12-26T22:53:19.924Z"
+  "updated": "2025-12-26T22:59:56.028Z"
 }
