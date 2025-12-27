@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Live coverage: SpaceX to launch Italian Earth observation satellite on final Falcon 9 flight of 2025",
+      "link": "https://spaceflightnow.com/2025/12/27/live-coverage-spacex-to-launch-italian-earth-observation-satellite-on-final-falcon-9-flight-of-2025/",
+      "source": "Spaceflight Now",
+      "date": "2025-12-27T13:56:33Z",
+      "summary": "The planned Saturday evening flight will be SpaceX’s 166th Falcon 9 launch of the year. Liftoff is scheduled for 6:09 p.m. PST (9:09 p.m. EST / 0209 UTC). "
+    },
+    {
       "title": "Commercial neighbors Stoke Space and Relativity Space Advance make progress on Cape launch sites",
       "link": "https://www.nasaspaceflight.com/2025/12/commercial-neighbors-stoke-relativity/",
       "source": "NASASpaceflight",
@@ -27,14 +34,7 @@
       "source": "SpacePolicyOnline.com",
       "date": "2025-12-26T19:27:43Z",
       "summary": "Blue Origin announced today that Tory Bruno is joining them as head of their new National Security Group.  Until Monday, Bruno was the President and CEO of United Launch Alliance […]"
-    },
-    {
-      "title": "Perseverance continues science mission amid uncertainty about Mars Sample Return",
-      "link": "https://spacenews.com/perseverance-continues-science-mission-amid-uncertainty-about-mars-sample-return/",
-      "source": "SpaceNews",
-      "date": "2025-12-26T17:27:46Z",
-      "summary": "\nNASA’s Perseverance Mars rover is continuing its mission to collect samples despite uncertainty about how, when or even if those samples will be returned to Earth.\nThe post Perseverance continues science mission amid uncertainty about Mars Sample Return appeared first on SpaceNews."
     }
   ],
-  "updated": "2025-12-27T13:54:01.600Z"
+  "updated": "2025-12-27T14:00:39.334Z"
 }
