@@ -17,30 +17,30 @@
     {
       "name": "STARLINK-1017",
       "id": "2019-074L",
-      "epoch": "2025-12-27T16:03:44.720640",
+      "epoch": "2025-12-27T16:03:44.721504",
       "meanMotion": 15.18679676,
       "inclination": 53.0481
     },
     {
       "name": "STARLINK-1019",
       "id": "2019-074M",
-      "epoch": "2025-12-27T22:00:03.998880",
-      "meanMotion": 15.59559154,
-      "inclination": 53.049
+      "epoch": "2025-12-28T00:00:02.000160",
+      "meanMotion": 15.59589845,
+      "inclination": 53.0488
     },
     {
       "name": "STARLINK-1020",
       "id": "2019-074N",
-      "epoch": "2025-12-27T18:21:03.269952",
+      "epoch": "2025-12-27T18:21:03.270816",
       "meanMotion": 15.06400852,
       "inclination": 53.0543
     },
     {
       "name": "STARLINK-1031",
       "id": "2019-074Z",
-      "epoch": "2025-12-27T22:00:03.998880",
-      "meanMotion": 15.6350471,
-      "inclination": 53.045
+      "epoch": "2025-12-28T00:00:02.000160",
+      "meanMotion": 15.63574143,
+      "inclination": 53.0451
     },
     {
       "name": "STARLINK-1036",
@@ -52,31 +52,31 @@
     {
       "name": "STARLINK-1039",
       "id": "2019-074AH",
-      "epoch": "2025-12-27T19:31:53.986656",
+      "epoch": "2025-12-27T19:31:53.987520",
       "meanMotion": 15.15790692,
       "inclination": 53.05
     },
     {
       "name": "STARLINK-1042",
       "id": "2019-074AL",
-      "epoch": "2025-12-27T11:11:52.363392",
-      "meanMotion": 15.45972957,
-      "inclination": 53.0456
+      "epoch": "2025-12-27T22:03:30.571776",
+      "meanMotion": 15.45997726,
+      "inclination": 53.0455
     },
     {
       "name": "STARLINK-1043",
       "id": "2019-074AM",
-      "epoch": "2025-12-27T18:45:57.487968",
+      "epoch": "2025-12-27T18:45:57.488832",
       "meanMotion": 15.46450942,
       "inclination": 53.054
     }
   ],
   "iss": {
-    "latitude": -24.241839501132,
-    "longitude": 79.811864508264,
-    "altitude": 424.27198283366,
-    "velocity": 27563.916024122,
-    "visibility": "daylight"
+    "latitude": -22.734825327497,
+    "longitude": -148.03618547861,
+    "altitude": 421.25349550764,
+    "velocity": 27575.24796579,
+    "visibility": "eclipsed"
   },
-  "updated": "2025-12-28T05:58:36.769Z"
+  "updated": "2025-12-28T06:29:23.604Z"
 }
