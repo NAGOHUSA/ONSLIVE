@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "2025 Space Station Science Snapshots",
+      "link": "https://www.nasa.gov/image-article/2025-space-station-science-snapshots/",
+      "source": "NASA",
+      "date": "2025-12-29T19:00:00Z",
+      "summary": "2025 marks another year pushing the boundaries of scientific research aboard the International Space Station. This past year, over 750 investigations were conducted aboard the space station, supported by crewed missions and resupply vehicles delivering essential cargo and experiments to the orbiting laboratory. This year’s research included testing DNA’s ability to store data, producing vital […]"
+    },
+    {
       "title": "NASA to Preview US Spacewalks at Space Station in January",
       "link": "https://www.nasa.gov/news-release/nasa-to-preview-us-spacewalks-at-space-station-in-january/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2025-12-29T14:00:00Z",
       "summary": "Listen to this audio excerpt from Jen Madsen and Trey Perryman, leads of the Orion Mission Evaluation Room for the Artemis II mission: During NASA’s Artemis II mission, Jen Madsen and Trey Perryman will be leading a team monitoring the Orion spacecraft as it carries four astronauts around the Moon. The team works in the […]"
-    },
-    {
-      "title": "China hits 90 launches as Guowang deployment continues, Fengyun-4C heads to GEO",
-      "link": "https://spacenews.com/china-hits-90-launches-as-guowang-deployment-continues-fengyun-4c-heads-to-geo/",
-      "source": "SpaceNews",
-      "date": "2025-12-29T12:12:54Z",
-      "summary": "\nChina reached 90 orbital launches in 2025 with consecutive Long March missions deploying Guowang megaconstellation satellites and the advanced Fengyun-4C weather spacecraft.\nThe post China hits 90 launches as Guowang deployment continues, Fengyun-4C heads to GEO appeared first on SpaceNews."
     }
   ],
-  "updated": "2025-12-29T19:00:46.123Z"
+  "updated": "2025-12-29T19:19:17.972Z"
 }
