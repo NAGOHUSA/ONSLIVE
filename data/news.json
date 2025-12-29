@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA to Preview US Spacewalks at Space Station in January",
+      "link": "https://www.nasa.gov/news-release/nasa-to-preview-us-spacewalks-at-space-station-in-january/",
+      "source": "NASA",
+      "date": "2025-12-29T17:19:11Z",
+      "summary": "NASA astronauts will conduct a pair of spacewalks in January outside of the International Space Station to prepare for the installation of a roll-out solar array and complete other tasks. Experts from NASA will preview the spacewalks in a briefing at 2 p.m. EST Tuesday, Jan. 6, at NASA’s Johnson Space Center in Houston. Watch […]"
+    },
+    {
       "title": "A Galactic Embrace",
       "link": "https://www.nasa.gov/image-article/a-galactic-embrace/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2025-12-29T12:12:54Z",
       "summary": "\nChina reached 90 orbital launches in 2025 with consecutive Long March missions deploying Guowang megaconstellation satellites and the advanced Fengyun-4C weather spacecraft.\nThe post China hits 90 launches as Guowang deployment continues, Fengyun-4C heads to GEO appeared first on SpaceNews."
-    },
-    {
-      "title": "ESA Cancels Call to Procure Commercial Cargo Services to the ISS",
-      "link": "https://europeanspaceflight.com/esa-cancels-call-to-procure-commercial-cargo-services-to-the-iss/",
-      "source": "European Spaceflight",
-      "date": "2025-12-29T06:00:05Z",
-      "summary": "The European Space Agency has cancelled a call for proposals to procure commercial cargo transportation services to the International Space Station (ISS). The services were intended to help the agency meet its obligations under the station’s Common System Operations Costs (CSOC) framework, which defines the shared responsibility of ISS partners to contribute to the station’s […]\nThe post ESA Cancels Call to Procure Commercial Cargo Services to the ISS appeared first on European Spaceflight."
     }
   ],
-  "updated": "2025-12-29T17:17:19.001Z"
+  "updated": "2025-12-29T17:34:39.156Z"
 }
