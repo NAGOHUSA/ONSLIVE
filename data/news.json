@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Proposal to dismantle NCAR would have space science impacts",
+      "link": "https://spacenews.com/proposal-to-dismantle-ncar-would-have-space-science-impacts/",
+      "source": "SpaceNews",
+      "date": "2025-12-29T15:05:24Z",
+      "summary": "\nA proposal by the Trump administration to dismantle a leading atmospheric science center would also have implications for space science.\nThe post Proposal to dismantle NCAR would have space science impacts appeared first on SpaceNews."
+    },
+    {
       "title": "I Am Artemis: Jen Madsen and Trey Perryman",
       "link": "https://www.nasa.gov/missions/artemis/i-am-artemis/i-am-artemis-jen-madsen-and-trey-perryman/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceDaily",
       "date": "2025-12-29T05:24:23Z",
       "summary": "Berlin, Germany (SPX) Dec 17, 2025\n\n\nResearchers at Empa are refining the multilayer insulation foils that wrap many satellites and space probes, aiming to improve their mechanical robustness while maintaining thermal protection. These foils, known as multilayer insulation or superinsulation, are built from stacked layers of a strong polymer coated with thin metal, typically aluminum, and are also used on Earth in items such as sur"
-    },
-    {
-      "title": "Conventional photon entanglement reveals thousands of hidden topologies in high dimensions",
-      "link": "https://www.spacedaily.com/reports/Conventional_photon_entanglement_reveals_thousands_of_hidden_topologies_in_high_dimensions_999.html",
-      "source": "SpaceDaily",
-      "date": "2025-12-29T05:24:23Z",
-      "summary": "London, UK (SPX) Dec 18, 2025\n\n\nResearchers at the University of the Witwatersrand in South Africa, working with Huzhou University in China, have shown that a standard source of entangled photons used in quantum optics carries a rich set of hidden topological structures in high dimensions. They report entanglement across 48 dimensions with more than 17 000 distinct topological signatures, providing a large alphabet for encodin"
     }
   ],
-  "updated": "2025-12-29T14:58:43.000Z"
+  "updated": "2025-12-29T15:20:53.797Z"
 }
