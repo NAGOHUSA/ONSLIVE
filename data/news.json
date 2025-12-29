@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "A Galactic Embrace",
+      "link": "https://www.nasa.gov/image-article/a-galactic-embrace/",
+      "source": "NASA",
+      "date": "2025-12-29T16:43:24Z",
+      "summary": "Mid-infrared data from NASA’s James Webb Space Telescope (in white, gray, and red) and X-ray data from NASA’s Chandra X-ray Observatory (in blue) come together in this photo of colliding spiral galaxies released on Dec. 1, 2025. The pair grazed one another millions of years ago; billions of years in the future, they will merge […]"
+    },
+    {
       "title": "Proposal to dismantle NCAR would have space science impacts",
       "link": "https://spacenews.com/proposal-to-dismantle-ncar-would-have-space-science-impacts/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "European Spaceflight",
       "date": "2025-12-29T06:00:05Z",
       "summary": "The European Space Agency has cancelled a call for proposals to procure commercial cargo transportation services to the International Space Station (ISS). The services were intended to help the agency meet its obligations under the station’s Common System Operations Costs (CSOC) framework, which defines the shared responsibility of ISS partners to contribute to the station’s […]\nThe post ESA Cancels Call to Procure Commercial Cargo Services to the ISS appeared first on European Spaceflight."
-    },
-    {
-      "title": "Engineered interlayers boost satellite insulation and flexible electronics",
-      "link": "https://www.spacedaily.com/reports/Engineered_interlayers_boost_satellite_insulation_and_flexible_electronics_999.html",
-      "source": "SpaceDaily",
-      "date": "2025-12-29T05:24:23Z",
-      "summary": "Berlin, Germany (SPX) Dec 17, 2025\n\n\nResearchers at Empa are refining the multilayer insulation foils that wrap many satellites and space probes, aiming to improve their mechanical robustness while maintaining thermal protection. These foils, known as multilayer insulation or superinsulation, are built from stacked layers of a strong polymer coated with thin metal, typically aluminum, and are also used on Earth in items such as sur"
     }
   ],
-  "updated": "2025-12-29T16:46:05.887Z"
+  "updated": "2025-12-29T16:58:29.755Z"
 }
