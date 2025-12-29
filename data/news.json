@@ -1,6 +1,27 @@
 {
   "articles": [
     {
+      "title": "Conventional photon entanglement reveals thousands of hidden topologies in high dimensions",
+      "link": "https://www.spacedaily.com/reports/Conventional_photon_entanglement_reveals_thousands_of_hidden_topologies_in_high_dimensions_999.html",
+      "source": "SpaceDaily",
+      "date": "2025-12-29T05:24:23Z",
+      "summary": "London, UK (SPX) Dec 18, 2025\n\n\nResearchers at the University of the Witwatersrand in South Africa, working with Huzhou University in China, have shown that a standard source of entangled photons used in quantum optics carries a rich set of hidden topological structures in high dimensions. They report entanglement across 48 dimensions with more than 17 000 distinct topological signatures, providing a large alphabet for encodin"
+    },
+    {
+      "title": "Engineered interlayers boost satellite insulation and flexible electronics",
+      "link": "https://www.spacedaily.com/reports/Engineered_interlayers_boost_satellite_insulation_and_flexible_electronics_999.html",
+      "source": "SpaceDaily",
+      "date": "2025-12-29T05:24:23Z",
+      "summary": "Berlin, Germany (SPX) Dec 17, 2025\n\n\nResearchers at Empa are refining the multilayer insulation foils that wrap many satellites and space probes, aiming to improve their mechanical robustness while maintaining thermal protection. These foils, known as multilayer insulation or superinsulation, are built from stacked layers of a strong polymer coated with thin metal, typically aluminum, and are also used on Earth in items such as sur"
+    },
+    {
+      "title": "Japan's flagship H3 rocket fails to launch satellite",
+      "link": "https://www.spacedaily.com/reports/Japans_flagship_H3_rocket_fails_to_launch_satellite_999.html",
+      "source": "SpaceDaily",
+      "date": "2025-12-29T05:24:23Z",
+      "summary": "Tokyo (AFP) Dec 22, 2025\n\n\n Japan's flagship H3 rocket failed to launch a geolocation satellite into orbit on Monday due to engine failure, the country's space agency said. \n\nThe second-stage engine \"terminated prematurely\" after the rocket blasted off at 10:51 am (0151 GMT) from the Tanegashima space centre in southern Japan, according to the Japan Aerospace Exploration Agency (JAXA). \n\nIt could not release into orbit"
+    },
+    {
       "title": "SPHEREx produces first all-sky map, highlights entire universe in infrared light",
       "link": "https://www.nasaspaceflight.com/2025/12/spherex-first-map/",
       "source": "NASASpaceflight",
@@ -13,28 +34,7 @@
       "source": "SpacePolicyOnline.com",
       "date": "2025-12-28T21:30:09Z",
       "summary": "Here is SpacePolicyOnline.com’s list of space policy events for the next two weeks, December 28, 2025-January 10, 2026, and any insight we can offer about them. The House and Senate […]"
-    },
-    {
-      "title": "Synspective tapped to provide satellite imagery for Japan’s new military constellation",
-      "link": "https://spacenews.com/synspective-tapped-to-provide-satellite-imagery-for-japans-new-military-constellation/",
-      "source": "SpaceNews",
-      "date": "2025-12-28T20:30:40Z",
-      "summary": "\nThe project reflects a broader global shift toward using commercial remote-sensing satellites for national security missions\nThe post Synspective tapped to provide satellite imagery for Japan’s new military constellation appeared first on SpaceNews."
-    },
-    {
-      "title": "Live coverage: SpaceX to launch Italian Earth observation satellite on final Falcon 9 flight of 2025",
-      "link": "https://spaceflightnow.com/2025/12/27/live-coverage-spacex-to-launch-italian-earth-observation-satellite-on-final-falcon-9-flight-of-2025/",
-      "source": "Spaceflight Now",
-      "date": "2025-12-27T13:56:33Z",
-      "summary": "The planned Saturday evening flight will be SpaceX’s 166th Falcon 9 launch of the year. Liftoff is scheduled for 6:09 p.m. PST (9:09 p.m. EST / 0209 UTC). "
-    },
-    {
-      "title": "Commercial neighbors Stoke Space and Relativity Space Advance make progress on Cape launch sites",
-      "link": "https://www.nasaspaceflight.com/2025/12/commercial-neighbors-stoke-relativity/",
-      "source": "NASASpaceflight",
-      "date": "2025-12-27T00:01:52Z",
-      "summary": "Along Florida’s Space Coast, two ambitious aerospace companies are rapidly transforming historic launch sites into…\nThe post Commercial neighbors Stoke Space and Relativity Space Advance make progress on Cape launch sites appeared first on NASASpaceFlight.com."
     }
   ],
-  "updated": "2025-12-29T04:18:49.306Z"
+  "updated": "2025-12-29T05:00:35.703Z"
 }
