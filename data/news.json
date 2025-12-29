@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "The State of CERES: Updates and Highlights",
+      "link": "https://science.nasa.gov/science-research/earth-science/the-state-of-ceres-updates-and-highlights/",
+      "source": "NASA",
+      "date": "2025-12-29T22:02:37Z",
+      "summary": "Introduction The Clouds and the Earth’s Radiant Energy System (CERES) was initially designed in the late-1980s and early-1990s as a facility instrument for NASA’s Earth Observing System (EOS). Since its inception, NASA’s Langley Research Center (LaRC) has led this effort. CERES has a long history with seven different instruments flying on five different missions since […]"
+    },
+    {
       "title": "2025 Space Station Science Snapshots",
       "link": "https://www.nasa.gov/image-article/2025-space-station-science-snapshots/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2025-12-29T15:05:24Z",
       "summary": "\nA proposal by the Trump administration to dismantle a leading atmospheric science center would also have implications for space science.\nThe post Proposal to dismantle NCAR would have space science impacts appeared first on SpaceNews."
-    },
-    {
-      "title": "I Am Artemis: Jen Madsen and Trey Perryman",
-      "link": "https://www.nasa.gov/missions/artemis/i-am-artemis/i-am-artemis-jen-madsen-and-trey-perryman/",
-      "source": "NASA",
-      "date": "2025-12-29T14:00:00Z",
-      "summary": "Listen to this audio excerpt from Jen Madsen and Trey Perryman, leads of the Orion Mission Evaluation Room for the Artemis II mission: During NASA’s Artemis II mission, Jen Madsen and Trey Perryman will be leading a team monitoring the Orion spacecraft as it carries four astronauts around the Moon. The team works in the […]"
     }
   ],
-  "updated": "2025-12-29T21:57:28.788Z"
+  "updated": "2025-12-29T22:15:46.212Z"
 }
