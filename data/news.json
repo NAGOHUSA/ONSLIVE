@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "The Earth Observer: Offering Perspectives from Space through Time",
+      "link": "https://science.nasa.gov/science-research/earth-science/the-earth-observer-offering-perspectives-from-space-through-time/",
+      "source": "NASA",
+      "date": "2025-12-29T23:52:34Z",
+      "summary": "An Intertwined History: The Earth Observer and EOS The Earth Observer, a newsletter issued for more than 36 years, will release its last online content at the close of 2025. This newsletter evolved in parallel with NASA’s Earth Observing System (EOS). It is almost impossible to speak of this newsletter without mentioning EOS. As The Earth […]"
+    },
+    {
       "title": "After record-breaking 2025, Rocket Lab prepares for Neutron’s debut in 2026",
       "link": "https://www.nasaspaceflight.com/2025/12/rocket-lab-2025-overview/",
       "source": "NASASpaceflight",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2025-12-29T22:08:25Z",
       "summary": "It is with a heavy heart that I announce that NASA Earth Science Communications has directed The Earth Observer to conduct an orderly shutdown of the publication. No new content will be published after Dec. 31, 2025. While the sunset of The Earth Observer is bittersweet for our team, the good news is that all […]"
-    },
-    {
-      "title": "The State of CERES: Updates and Highlights",
-      "link": "https://science.nasa.gov/science-research/earth-science/the-state-of-ceres-updates-and-highlights/",
-      "source": "NASA",
-      "date": "2025-12-29T22:02:37Z",
-      "summary": "Introduction The Clouds and the Earth’s Radiant Energy System (CERES) was initially designed in the late-1980s and early-1990s as a facility instrument for NASA’s Earth Observing System (EOS). Since its inception, NASA’s Langley Research Center (LaRC) has led this effort. CERES has a long history with seven different instruments flying on five different missions since […]"
     }
   ],
-  "updated": "2025-12-29T23:57:53.813Z"
+  "updated": "2025-12-30T01:21:33.984Z"
 }
