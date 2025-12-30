@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Space Force offers new Vandenberg launch site",
+      "link": "https://spacenews.com/space-force-offers-new-vandenberg-launch-site/",
+      "source": "SpaceNews",
+      "date": "2025-12-30T23:05:44Z",
+      "summary": "\nVandenberg Space Force Base is offering launch providers access to a new site with conditions that could enable flights of SpaceX’s Starship.\nThe post Space Force offers new Vandenberg launch site appeared first on SpaceNews."
+    },
+    {
       "title": "ESA confirms data breach",
       "link": "https://spacenews.com/esa-confirms-data-breach/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2025-12-30T14:55:14Z",
       "summary": "\nIn this episode of Space Minds, host Mike Gruss is joined by SpaceNews journalists Jason Rainbow, Sandra Erwin, Jeff Foust and Debra Werner for a wide-ranging conversation on the space stories that will define the year ahead. \nThe post The space stories that will shape 2026 appeared first on SpaceNews."
-    },
-    {
-      "title": "ESA Says Data Breach Was Limited to Servers with Unclassified Documents",
-      "link": "https://europeanspaceflight.com/esa-says-data-breach-was-limited-to-servers-with-unclassified-documents/",
-      "source": "European Spaceflight",
-      "date": "2025-12-30T09:42:54Z",
-      "summary": "The European Space Agency (ESA) has released an initial statement regarding an alleged data breach, stating that it affected a “very limited number of science servers located outside the ESA corporate network.” On 26 December, reports began to emerge on X claiming that ESA had suffered a significant data breach, with a hacker using the […]\nThe post ESA Says Data Breach Was Limited to Servers with Unclassified Documents appeared first on European Spaceflight."
     }
   ],
-  "updated": "2025-12-30T23:01:17.070Z"
+  "updated": "2025-12-30T23:24:15.567Z"
 }
