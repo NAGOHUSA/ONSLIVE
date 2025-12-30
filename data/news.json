@@ -1,18 +1,18 @@
 {
   "articles": [
     {
+      "title": "Fireworks from space",
+      "link": "https://www.esa.int/ESA_Multimedia/Images/2025/12/Fireworks_from_space",
+      "source": "ESA",
+      "date": "2025-12-30T09:11:00Z",
+      "summary": "From the ESA Blogs."
+    },
+    {
       "title": "Isaacman opens door to alternatives to moving shuttle Discovery to Houston",
       "link": "https://spacenews.com/isaacman-opens-door-to-alternatives-to-moving-shuttle-discovery-to-houston/",
       "source": "SpaceNews",
       "date": "2025-12-30T08:55:02Z",
       "summary": "\nNASA Administrator Jared Isaacman suggested he would be open to transferring a spacecraft other than the space shuttle Discovery to Houston.\nThe post Isaacman opens door to alternatives to moving shuttle Discovery to Houston appeared first on SpaceNews."
-    },
-    {
-      "title": "Space-traveled mouse gives birth as China names pioneering \"flying mice\" crew",
-      "link": "https://www.spacedaily.com/reports/Space_traveled_mouse_gives_birth_as_China_names_pioneering_flying_mice_crew_999.html",
-      "source": "SpaceDaily",
-      "date": "2025-12-30T07:17:17Z",
-      "summary": "Tokyo, Japan (SPX) Dec 30, 2025\n\n\nOf the four mice that recently flew aboard China's space station, one female has now given birth to healthy offspring on Earth, in a mission that also saw the public help name the pioneering \"flying mice\" crew. The Technology and Engineering Center for Space Utilization (CSU) under the Chinese Academy of Sciences (CAS) said the experiment marks China's first full-cycle mammalian space study, fro"
     },
     {
       "title": "Fly through Webbs cosmic vistas celebrates four years of James Webb discoveries",
@@ -29,12 +29,12 @@
       "summary": "Tokyo, Japan (SPX) Dec 30, 2025\n\n\nChina's manned space program has used a nationwide resource mobilization system to manage a recent contingency involving the Shenzhou-20 mission and to launch its follow-on Shenzhou-22 spacecraft within 20 days. \n\nAfter the Shenzhou-20 return vehicle suffered minor window damage from space debris, the China Manned Space Agency activated its first contingency plan of this kind, coordinating e"
     },
     {
-      "title": "SSC ground stations to support NASA PExT wideband Ka band test",
-      "link": "https://www.spacedaily.com/reports/SSC_ground_stations_to_support_NASA_PExT_wideband_Ka_band_test_999.html",
+      "title": "Space-traveled mouse gives birth as China names pioneering \"flying mice\" crew",
+      "link": "https://www.spacedaily.com/reports/Space_traveled_mouse_gives_birth_as_China_names_pioneering_flying_mice_crew_999.html",
       "source": "SpaceDaily",
       "date": "2025-12-30T07:17:17Z",
-      "summary": "Berlin, Germany (SPX) Dec 30, 2025\n\n\nSwedish Space Corporation (SSC) will provide direct-to-Earth forward and return Ka-band links through its global ground station network to support NASA's Polylingual Experimental Terminal (PExT) technology demonstration. \n\nPExT, managed by NASA's Space Communications and Navigation (SCaN) Program in collaboration with the Johns Hopkins Applied Physics Laboratory, is an in-flight Ka-band wide"
+      "summary": "Tokyo, Japan (SPX) Dec 30, 2025\n\n\nOf the four mice that recently flew aboard China's space station, one female has now given birth to healthy offspring on Earth, in a mission that also saw the public help name the pioneering \"flying mice\" crew. The Technology and Engineering Center for Space Utilization (CSU) under the Chinese Academy of Sciences (CAS) said the experiment marks China's first full-cycle mammalian space study, fro"
     }
   ],
-  "updated": "2025-12-30T09:02:29.356Z"
+  "updated": "2025-12-30T09:33:31.483Z"
 }
