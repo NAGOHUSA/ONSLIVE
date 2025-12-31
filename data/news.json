@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Commission Approves New Members for Space Surveillance and Tracking Programme",
+      "link": "https://europeanspaceflight.com/commission-approves-new-members-for-space-surveillance-and-tracking-programme/",
+      "source": "European Spaceflight",
+      "date": "2025-12-31T10:18:59Z",
+      "summary": "The European Commission has officially greenlit the participation of Belgium, Bulgaria, Lithuania, and Luxembourg in the EU Space Programme’s Space Surveillance and Tracking (SST) programme. Currently comprising 15 members, the EU SST programme employs a network of sensors to survey and track space objects, providing collision avoidance, re-entry analysis, and fragmentation assessment services that, according […]\nThe post Commission Approves New Members for Space Surveillance and Tracking Programme appeared first on European Spaceflight."
+    },
+    {
       "title": "China caps record year for orbital launches with Tianhui-7 and Shijian-29 technology test missions",
       "link": "https://spacenews.com/china-caps-record-year-for-orbital-launches-with-tianhui-7-and-shijian-29-technology-test-missions/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2025-12-31T01:35:42Z",
       "summary": "247th American Astronomical Society (AAS) Meeting Join NASA in the Exhibit Hall (Booth #401 for Hyperwall Storytelling by NASA experts. Full Hyperwall Agenda below. SUNDAY, JANUARY 4 6:45 – 7:00 PMNancy Grace Roman Space TelescopeDominic Benford7:00 – 7:15 PMStorytelling with NASA: Eyes on ExoplanetsAnjali Tripathi7:15 – 7:30 PMRoman Space Telescope UpdateJulie McEnery7:30 – 7:45 PMThe […]"
-    },
-    {
-      "title": "Planet bets on orbital data centers in partnership with Google",
-      "link": "https://spacenews.com/planet-bets-on-orbital-data-centers-in-partnership-with-google/",
-      "source": "SpaceNews",
-      "date": "2025-12-30T23:58:44Z",
-      "summary": "\nPlanet, a company best known for providing geospatial intelligence through its constellation of imaging satellites, sees a significant opportunity in developing orbital data centers for artificial intelligence.\nThe post Planet bets on orbital data centers in partnership with Google appeared first on SpaceNews."
     }
   ],
-  "updated": "2025-12-31T09:59:25.180Z"
+  "updated": "2025-12-31T10:22:33.272Z"
 }
