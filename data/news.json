@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Space Forge generates plasma for LEO semiconductor material production",
+      "link": "https://spacenews.com/space-forge-generates-plasma-for-leo-semiconductor-material-production/",
+      "source": "SpaceNews",
+      "date": "2025-12-31T06:00:00Z",
+      "summary": "\nSpace Forge said Dec. 31 it generated plasma aboard its first satellite, a milestone the British startup says shows it can create and maintain conditions needed to produce valuable semiconductor materials in LEO.\nThe post Space Forge generates plasma for LEO semiconductor material production appeared first on SpaceNews."
+    },
+    {
       "title": "2025 AAS Town Hall Schedule",
       "link": "https://science.nasa.gov/uncategorized/2025-aas-town-hall-schedule/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASASpaceflight",
       "date": "2025-12-30T23:28:19Z",
       "summary": "As 2025 turns to 2026, the worldwide launch manifest is quieting down, with only four…\nThe post Launch Roundup: Worldwide launch manifest quiet as 2026 begins appeared first on NASASpaceFlight.com."
-    },
-    {
-      "title": "Space Force offers new Vandenberg launch site",
-      "link": "https://spacenews.com/space-force-offers-new-vandenberg-launch-site/",
-      "source": "SpaceNews",
-      "date": "2025-12-30T23:05:44Z",
-      "summary": "\nVandenberg Space Force Base is offering launch providers access to a new site with conditions that could enable flights of SpaceX’s Starship.\nThe post Space Force offers new Vandenberg launch site appeared first on SpaceNews."
     }
   ],
-  "updated": "2025-12-31T05:57:58.170Z"
+  "updated": "2025-12-31T06:28:43.083Z"
 }
