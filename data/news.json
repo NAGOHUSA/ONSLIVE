@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "2025 AAS Town Hall Schedule",
+      "link": "https://science.nasa.gov/uncategorized/2025-aas-town-hall-schedule/",
+      "source": "NASA",
+      "date": "2025-12-31T02:00:43Z",
+      "summary": "247th American Astronomical Society (AAS) Meeting SATURDAY, JANUARY 3 8:30AM – 6:0PM  NASA’s Exoplanet Exploration Program Analysis Group (ExoPAG) 301DJosh Pepper, Dawn Gelino, Karl Stapelfeldt, Nick Siegler, Jessie Christiansen SUNDAY, JANUARY 4 8:30AM – 12:15PM  NASA’s Exoplanet Exploration Program Analysis Group (ExoPAG) 301D9:00AM – 2:00PMNASA’s Cosmic Origins Program Analysis Group (COPAG)Peter Kurczynski7:30PM – 9:30PM  NASA’s […]"
+    },
+    {
+      "title": "2025 AAS Hyperwall Schedule",
+      "link": "https://science.nasa.gov/uncategorized/2025-aas-hyperwall-schedule/",
+      "source": "NASA",
+      "date": "2025-12-31T01:35:42Z",
+      "summary": "247th American Astronomical Society (AAS) Meeting Join NASA in the Exhibit Hall (Booth #401 for Hyperwall Storytelling by NASA experts. Full Hyperwall Agenda below. SUNDAY, JANUARY 4 6:45 – 7:00 PMNancy Grace Roman Space TelescopeDominic Benford7:00 – 7:15 PMStorytelling with NASA: Eyes on ExoplanetsAnjali Tripathi7:15 – 7:30 PMRoman Space Telescope UpdateJulie McEnery7:30 – 7:45 PMThe […]"
+    },
+    {
       "title": "Planet bets on orbital data centers in partnership with Google",
       "link": "https://spacenews.com/planet-bets-on-orbital-data-centers-in-partnership-with-google/",
       "source": "SpaceNews",
@@ -20,21 +34,7 @@
       "source": "SpaceNews",
       "date": "2025-12-30T23:05:44Z",
       "summary": "\nVandenberg Space Force Base is offering launch providers access to a new site with conditions that could enable flights of SpaceX’s Starship.\nThe post Space Force offers new Vandenberg launch site appeared first on SpaceNews."
-    },
-    {
-      "title": "ESA confirms data breach",
-      "link": "https://spacenews.com/esa-confirms-data-breach/",
-      "source": "SpaceNews",
-      "date": "2025-12-30T18:30:15Z",
-      "summary": "\nMILAN — The European Space Agency has confirmed a security breach of unclassified material from  science servers following reports on social media. A threat actor claimed to have compromised ESA systems and to have leaked roughly 200 gigabytes of data. According to screenshots shared on X by French cybersecurity professional Seb Latom, the actor alleges […]\nThe post ESA confirms data breach appeared first on SpaceNews."
-    },
-    {
-      "title": "Curiosity Sends Holiday Postcard from Mars",
-      "link": "https://www.nasa.gov/image-article/curiosity-sends-holiday-postcard-from-mars/",
-      "source": "NASA",
-      "date": "2025-12-30T18:20:49Z",
-      "summary": "Team members working with NASA’s Curiosity Mars rover created this “postcard” by commanding the rover to take images at two times of day on Nov. 18, 2025, spanning periods that occurred on both the 4,722nd and 4,723rd Martian days, or sols, of the mission. The panoramas were captured at 4:15 p.m. on Sol 4,722 and […]"
     }
   ],
-  "updated": "2025-12-31T01:41:04.406Z"
+  "updated": "2025-12-31T03:16:35.868Z"
 }
