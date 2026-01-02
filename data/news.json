@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "SpaceX to lower orbits of some Starlink satellites",
+      "link": "https://spacenews.com/spacex-to-lower-orbits-of-some-starlink-satellites/",
+      "source": "SpaceNews",
+      "date": "2026-01-02T18:27:47Z",
+      "summary": "\nSpaceX plans to lower the orbits of some of its Starlink satellites, a move the company says is intended to improve space safety following two recent incidents.\nThe post SpaceX to lower orbits of some Starlink satellites appeared first on SpaceNews."
+    },
+    {
       "title": "Hubble Glimpses Galactic Gas Making a Getaway",
       "link": "https://www.nasa.gov/image-article/hubble-glimpses-galactic-gas-making-a-getaway/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "European Spaceflight",
       "date": "2026-01-02T08:19:23Z",
       "summary": "The European Space Agency has selected to proceed with a Danish-led satellite mission as one of a number of small, relatively inexpensive missions to the Moon. Called Máni, after the Norse personification of the Moon, the mission is expected to be launched in 2029 and will conduct high-resolution mapping of the lunar surface. ESA published […]\nThe post Denmark’s First Mission to the Moon Gets ESA Greenlight appeared first on European Spaceflight."
-    },
-    {
-      "title": "Anysignal raises 24 million Series A to advance autonomous RF sensing for space and national security",
-      "link": "https://www.spacewar.com/reports/Anysignal_raises_24_million_Series_A_to_advance_autonomous_RF_sensing_for_space_and_national_security_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-02T05:50:39Z",
-      "summary": "Los Angeles CA (SPX) Jan 01, 2026\n\n\nAnysignal has raised 24 million dollars in a Series A financing round to expand development of autonomous radio frequency sensing technology aimed at mission critical space and national security applications. \n\nThe company develops software defined systems that use artificial intelligence to sense, identify, and manage radio frequency signals across contested and congested electromagnetic en"
     }
   ],
-  "updated": "2026-01-02T18:27:53.592Z"
+  "updated": "2026-01-02T18:51:12.890Z"
 }
