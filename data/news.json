@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Anysignal raises 24 million Series A to advance autonomous RF sensing for space and national security",
+      "link": "https://www.spacewar.com/reports/Anysignal_raises_24_million_Series_A_to_advance_autonomous_RF_sensing_for_space_and_national_security_999.html",
+      "source": "SpaceDaily",
+      "date": "2026-01-02T05:50:39Z",
+      "summary": "Los Angeles CA (SPX) Jan 01, 2026\n\n\nAnysignal has raised 24 million dollars in a Series A financing round to expand development of autonomous radio frequency sensing technology aimed at mission critical space and national security applications. \n\nThe company develops software defined systems that use artificial intelligence to sense, identify, and manage radio frequency signals across contested and congested electromagnetic en"
+    },
+    {
       "title": "Starship Barge identified ahead of Starbase to KSC transports",
       "link": "https://www.nasaspaceflight.com/2026/01/starship-barge-ksc-transports/",
       "source": "NASASpaceflight",
@@ -15,13 +22,6 @@
       "summary": "Berlin, Germany (SPX) Jan 01, 2026\n\n\nThe German Aerospace Center has successfully completed ground roll tests of HAP alpha, an uncrewed high altitude solar powered aircraft designed to operate in the lower stratosphere for extended periods, marking a key milestone toward future flight testing. \n\nGround roll tests verified the aircraft's steering, braking, propulsion response, and ground handling behavior under realistic operati"
     },
     {
-      "title": "Australian team maps quantum error memory over time",
-      "link": "https://www.spacedaily.com/reports/Australian_team_maps_quantum_error_memory_over_time_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-01T11:20:58Z",
-      "summary": "Sydney, Australia (SPX) Jan 01, 2026\n\n\nA collaboration led by Macquarie University has reconstructed how errors develop and spread inside working quantum computers, revealing that noise can link events across time rather than appearing as isolated random faults. \n\nThe researchers show that small inaccuracies in quantum processors can linger, evolve and correlate across different computational steps, creating a form of temporal me"
-    },
-    {
       "title": "Muon Space secures Direct to Phase II award for SDA missile warning and tracking mission",
       "link": "https://www.spacewar.com/reports/Muon_Space_secures_Direct_to_Phase_II_award_for_SDA_missile_warning_and_tracking_mission_999.html",
       "source": "SpaceDaily",
@@ -29,12 +29,12 @@
       "summary": "Los Angeles CA (SPX) Jan 01, 2026\n\n\nMuon Space has secured a Direct to Phase II award to support the Space Development Agency's missile warning and tracking mission, advancing the company's role in developing space based sensing capabilities for national defense. \n\nThe award enables Muon Space to continue development of its QuickBeam multispectral electro optical and infrared payload technology, which is designed to provide pe"
     },
     {
-      "title": "SDA expands Tracking Layer satellite awards and related missile defense contracts",
-      "link": "https://www.spacewar.com/reports/Space_Development_Agency_expands_Tracking_Layer_satellite_awards_and_related_missile_defense_contracts_999.html",
+      "title": "Australian team maps quantum error memory over time",
+      "link": "https://www.spacedaily.com/reports/Australian_team_maps_quantum_error_memory_over_time_999.html",
       "source": "SpaceDaily",
       "date": "2026-01-01T11:20:58Z",
-      "summary": "Los Angeles CA (SPX) Jan 01, 2026\n\n\nThe Space Development Agency has selected four contractor teams to build and operate 72 Tracking Layer satellites for Tranche 3 of the Proliferated Warfighter Space Architecture in low Earth orbit, under agreements valued at approximately 3.5 billion dollars. \n\nThe awards, issued under Other Transaction Authority, go to Lockheed Martin of Sunnyvale California, Rocket Lab USA of Long Beach Ca"
+      "summary": "Sydney, Australia (SPX) Jan 01, 2026\n\n\nA collaboration led by Macquarie University has reconstructed how errors develop and spread inside working quantum computers, revealing that noise can link events across time rather than appearing as isolated random faults. \n\nThe researchers show that small inaccuracies in quantum processors can linger, evolve and correlate across different computational steps, creating a form of temporal me"
     }
   ],
-  "updated": "2026-01-02T04:08:59.571Z"
+  "updated": "2026-01-02T04:50:27.981Z"
 }
