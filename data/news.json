@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Live coverage: SpaceX opens 2026 with launch of Cosmo-SkyMed Earth observation satellite for Italy",
+      "link": "https://spaceflightnow.com/2026/01/02/live-coverage-spacex-opens-2026-with-launch-of-cosmo-skymed-earth-observation-satellite-for-italy/",
+      "source": "Spaceflight Now",
+      "date": "2026-01-02T21:06:36Z",
+      "summary": "The spacecraft was originally slated to launch nearly a week prior, but SpaceX ran into ground systems issues. Liftoff from pad 4E at Vandenberg Space Force Base is scheduled for 6:09 p.m. PST (9:09 p.m. EST / 0209 UTC). "
+    },
+    {
       "title": "SpaceX to lower orbits of some Starlink satellites",
       "link": "https://spacenews.com/spacex-to-lower-orbits-of-some-starlink-satellites/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "ESA",
       "date": "2026-01-02T09:37:00Z",
       "summary": "From the ESA Blogs."
-    },
-    {
-      "title": "Denmark’s First Mission to the Moon Gets ESA Greenlight",
-      "link": "https://europeanspaceflight.com/denmarks-first-mission-to-the-moon-gets-esa-greenlight/",
-      "source": "European Spaceflight",
-      "date": "2026-01-02T08:19:23Z",
-      "summary": "The European Space Agency has selected to proceed with a Danish-led satellite mission as one of a number of small, relatively inexpensive missions to the Moon. Called Máni, after the Norse personification of the Moon, the mission is expected to be launched in 2029 and will conduct high-resolution mapping of the lunar surface. ESA published […]\nThe post Denmark’s First Mission to the Moon Gets ESA Greenlight appeared first on European Spaceflight."
     }
   ],
-  "updated": "2026-01-02T21:00:45.639Z"
+  "updated": "2026-01-02T21:19:29.517Z"
 }
