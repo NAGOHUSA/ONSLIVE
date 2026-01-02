@@ -36,6 +36,24 @@
             --shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
             --radius: 16px;
             --glass: rgba(30, 41, 59, 0.5);
+            
+            /* New Gradient Variables */
+            --gradient-hero: linear-gradient(135deg, rgba(77, 159, 255, 0.2) 0%, rgba(0, 212, 255, 0.25) 100%);
+            --gradient-moon: linear-gradient(135deg, rgba(224, 231, 255, 0.25) 0%, rgba(168, 85, 247, 0.2) 100%);
+            --gradient-solar: linear-gradient(135deg, rgba(255, 179, 71, 0.25) 0%, rgba(255, 107, 107, 0.2) 100%);
+            --gradient-geomagnetic: linear-gradient(135deg, rgba(96, 165, 250, 0.25) 0%, rgba(168, 85, 247, 0.2) 100%);
+            --gradient-aurora: linear-gradient(135deg, rgba(0, 255, 157, 0.25) 0%, rgba(77, 159, 255, 0.2) 100%);
+            --gradient-aurora-map: linear-gradient(135deg, rgba(0, 255, 157, 0.2) 0%, rgba(34, 197, 94, 0.25) 100%);
+            --gradient-satellite: linear-gradient(135deg, rgba(77, 159, 255, 0.25) 0%, rgba(0, 212, 255, 0.2) 100%);
+            --gradient-soho-c2: linear-gradient(135deg, rgba(255, 179, 71, 0.2) 0%, rgba(251, 191, 36, 0.25) 100%);
+            --gradient-soho-c3: linear-gradient(135deg, rgba(255, 179, 71, 0.25) 0%, rgba(255, 107, 107, 0.2) 100%);
+            --gradient-solar-activity: linear-gradient(135deg, rgba(255, 107, 107, 0.25) 0%, rgba(251, 191, 36, 0.2) 100%);
+            --gradient-forecast: linear-gradient(135deg, rgba(96, 165, 250, 0.2) 0%, rgba(77, 159, 255, 0.25) 100%);
+            --gradient-meteor: linear-gradient(135deg, rgba(168, 85, 247, 0.25) 0%, rgba(224, 231, 255, 0.2) 100%);
+            --gradient-comets: linear-gradient(135deg, rgba(77, 159, 255, 0.2) 0%, rgba(224, 231, 255, 0.25) 100%);
+            --gradient-news: linear-gradient(135deg, rgba(0, 212, 255, 0.25) 0%, rgba(96, 165, 250, 0.2) 100%);
+            --gradient-iss: linear-gradient(135deg, rgba(77, 159, 255, 0.25) 0%, rgba(168, 85, 247, 0.2) 100%);
+            --gradient-system: linear-gradient(135deg, rgba(74, 222, 128, 0.25) 0%, rgba(96, 165, 250, 0.2) 100%);
         }
 
         * {
@@ -181,11 +199,75 @@
             cursor: move;
         }
 
+        /* Individual Gradient Backgrounds for Each Tile */
+        .card[data-id="hero-card"] {
+            background: var(--gradient-hero);
+        }
+        
+        .card[data-id="moon-phase"] {
+            background: var(--gradient-moon);
+        }
+        
+        .card[data-id="solar-gauges"] {
+            background: var(--gradient-solar);
+        }
+        
+        .card[data-id="geomagnetic"] {
+            background: var(--gradient-geomagnetic);
+        }
+        
+        .card[data-id="aurora-chance"] {
+            background: var(--gradient-aurora);
+        }
+        
+        .card[data-id="aurora-map"] {
+            background: var(--gradient-aurora-map);
+        }
+        
+        .card[data-id="satellite-map"] {
+            background: var(--gradient-satellite);
+        }
+        
+        .card[data-id="soho-c2"] {
+            background: var(--gradient-soho-c2);
+        }
+        
+        .card[data-id="soho-c3"] {
+            background: var(--gradient-soho-c3);
+        }
+        
+        .card[data-id="solar-activity"] {
+            background: var(--gradient-solar-activity);
+        }
+        
+        .card[data-id="forecast"] {
+            background: var(--gradient-forecast);
+        }
+        
+        .card[data-id="meteor-showers"] {
+            background: var(--gradient-meteor);
+        }
+        
+        .card[data-id="comets"] {
+            background: var(--gradient-comets);
+        }
+        
+        .card[data-id="news-feed"] {
+            background: var(--gradient-news);
+        }
+        
+        .card[data-id="iss-tracking"] {
+            background: var(--gradient-iss);
+        }
+        
+        .card[data-id="system-status"] {
+            background: var(--gradient-system);
+        }
+
         .card:hover {
-            background: var(--card-hover);
             transform: translateY(-5px);
-            border-color: var(--primary);
-            box-shadow: var(--shadow);
+            border-color: rgba(255, 255, 255, 0.3);
+            box-shadow: var(--shadow), 0 0 20px rgba(255, 255, 255, 0.1);
         }
 
         .card.dragging {
@@ -202,10 +284,12 @@
 
         .card-header {
             padding: 1rem 1.5rem;
-            border-bottom: 1px solid var(--border);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
             display: flex;
             justify-content: space-between;
             align-items: center;
+            background: rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(5px);
         }
 
         .card-header h2 {
@@ -292,6 +376,9 @@
             font-size: 0.8rem;
             font-weight: 600;
             margin-top: 0.5rem;
+            backdrop-filter: blur(5px);
+            background: rgba(0, 0, 0, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.1);
         }
 
         .status-good { background: rgba(74, 222, 128, 0.2); color: var(--green); }
@@ -311,14 +398,15 @@
             justify-content: space-between;
             align-items: center;
             padding: 0.8rem;
-            background: rgba(255, 255, 255, 0.03);
+            background: rgba(255, 255, 255, 0.05);
             border-radius: 10px;
             border-left: 4px solid var(--primary);
             transition: all 0.3s;
+            backdrop-filter: blur(5px);
         }
 
         .data-item:hover {
-            background: rgba(255, 255, 255, 0.05);
+            background: rgba(255, 255, 255, 0.1);
             transform: translateX(5px);
         }
 
@@ -346,7 +434,8 @@
             height: 300px;
             border-radius: 12px;
             overflow: hidden;
-            background: #1a1a2e;
+            background: rgba(0, 0, 0, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.1);
         }
 
         /* SOHO Animation Container - Fixed */
@@ -356,10 +445,11 @@
             width: 100%;
             border-radius: 12px;
             overflow: hidden;
-            background: #000;
+            background: rgba(0, 0, 0, 0.3);
             display: flex;
             align-items: center;
             justify-content: center;
+            border: 1px solid rgba(255, 255, 255, 0.1);
         }
 
         .soho-image {
@@ -390,6 +480,7 @@
             font-size: 0.8rem;
             transition: all 0.3s;
             white-space: nowrap;
+            backdrop-filter: blur(5px);
         }
 
         .soho-refresh:hover {
@@ -413,9 +504,10 @@
             margin: 0 auto 1rem;
             position: relative;
             border-radius: 50%;
-            background: #2a3a5a;
+            background: rgba(42, 58, 90, 0.3);
             overflow: hidden;
             box-shadow: 0 0 20px rgba(224, 231, 255, 0.2);
+            border: 2px solid rgba(255, 255, 255, 0.1);
         }
 
         .moon-phase-fill {
@@ -439,14 +531,15 @@
 
         .news-item {
             padding: 0.8rem;
-            background: rgba(255, 255, 255, 0.03);
+            background: rgba(255, 255, 255, 0.05);
             border-radius: 10px;
             border-left: 4px solid var(--blue);
             transition: all 0.3s;
+            backdrop-filter: blur(5px);
         }
 
         .news-item:hover {
-            background: rgba(255, 255, 255, 0.05);
+            background: rgba(255, 255, 255, 0.1);
             border-left-color: var(--primary);
         }
 
@@ -500,6 +593,7 @@
             color: var(--text-muted);
             border-top: 1px solid var(--border);
             background: rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(10px);
         }
 
         .footer-logo {
@@ -525,6 +619,7 @@
             cursor: pointer;
             font-size: 0.8rem;
             transition: all 0.3s;
+            backdrop-filter: blur(5px);
         }
 
         .layout-btn:hover {
@@ -599,6 +694,21 @@
         .aurora-extreme {
             fill: #ef4444;
             stroke: #ef4444;
+        }
+
+        /* New Glass Effect Enhancements */
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+        }
+
+        .card-header h2 i {
+            filter: drop-shadow(0 0 5px currentColor);
         }
 
         @media (max-width: 1400px) {
@@ -764,7 +874,7 @@
                         <div class="compact-gauge">
                             <div class="gauge-mini">
                                 <svg viewBox="0 0 100 100">
-                                    <circle cx="50" cy="50" r="45" fill="none" stroke="#334155" stroke-width="8"/>
+                                    <circle cx="50" cy="50" r="45" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="8"/>
                                     <circle id="kp-circle" cx="50" cy="50" r="45" fill="none" stroke="var(--primary)" stroke-width="8" stroke-linecap="round" stroke-dasharray="0 283"/>
                                 </svg>
                                 <div class="gauge-value-mini" id="kp-value">--</div>
@@ -779,7 +889,7 @@
                         <div class="compact-gauge">
                             <div class="gauge-mini">
                                 <svg viewBox="0 0 100 100">
-                                    <circle cx="50" cy="50" r="45" fill="none" stroke="#334155" stroke-width="8"/>
+                                    <circle cx="50" cy="50" r="45" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="8"/>
                                     <circle id="solar-wind-circle" cx="50" cy="50" r="45" fill="none" stroke="var(--sun)" stroke-width="8" stroke-linecap="round" stroke-dasharray="0 283"/>
                                 </svg>
                                 <div class="gauge-value-mini" id="solar-wind-value">--</div>
@@ -794,7 +904,7 @@
                         <div class="compact-gauge">
                             <div class="gauge-mini">
                                 <svg viewBox="0 0 100 100">
-                                    <circle cx="50" cy="50" r="45" fill="none" stroke="#334155" stroke-width="8"/>
+                                    <circle cx="50" cy="50" r="45" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="8"/>
                                     <circle id="aurora-circle" cx="50" cy="50" r="45" fill="none" stroke="var(--aurora)" stroke-width="8" stroke-linecap="round" stroke-dasharray="0 283"/>
                                 </svg>
                                 <div class="gauge-value-mini" id="aurora-probability">--%</div>
@@ -809,7 +919,7 @@
                         <div class="compact-gauge">
                             <div class="gauge-mini">
                                 <svg viewBox="0 0 100 100">
-                                    <circle cx="50" cy="50" r="45" fill="none" stroke="#334155" stroke-width="8"/>
+                                    <circle cx="50" cy="50" r="45" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="8"/>
                                     <circle id="moon-circle" cx="50" cy="50" r="45" fill="none" stroke="var(--moon)" stroke-width="8" stroke-linecap="round" stroke-dasharray="0 283"/>
                                 </svg>
                                 <div class="gauge-value-mini" id="moon-illumination-value">--%</div>
@@ -1013,7 +1123,7 @@
                     <div class="soho-container">
                         <img id="soho-c2-gif" src="https://soho.nascom.nasa.gov/data/LATEST/current_c2.gif" 
                              alt="SOHO LASCO C2 Solar Animation" class="soho-image"
-                             onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"512\" height=\"512\" viewBox=\"0 0 512 512\"><rect width=\"512\" height=\"512\" fill=\"%230c1220\"/><text x=\"256\" y=\"256\" font-family=\"Arial\" font-size=\"24\" fill=\"%234d9fff\" text-anchor=\"middle\"></text></svg>
+                             onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"512\" height=\"512\" viewBox=\"0 0 512 512\"><rect width=\"512\" height=\"512\" fill=\"%230c1220\"/><text x=\"256\" y=\"256\" font-family=\"Arial\" font-size=\"24\" fill=\"%234d9fff\" text-anchor=\"middle\"></text></svg>'">
                     </div>
                     <div class="soho-info">
                         <span>Solar and Heliospheric Observatory - Coronagraph C2</span>
@@ -1037,7 +1147,7 @@
                     <div class="soho-container">
                         <img id="soho-c3-gif" src="https://soho.nascom.nasa.gov/data/LATEST/current_c3.gif" 
                              alt="SOHO LASCO C3 Solar Animation" class="soho-image"
-                             onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"512\" height=\"512\" viewBox=\"0 0 512 512\"><rect width=\"512\" height=\"512\" fill=\"%230c1220\"/><text x=\"256\" y=\"256\" font-family=\"Arial\" font-size=\"24\" fill=\"%234d9fff\" text-anchor=\"middle\"></text></svg>
+                             onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"512\" height=\"512\" viewBox=\"0 0 512 512\"><rect width=\"512\" height=\"512\" fill=\"%230c1220\"/><text x=\"256\" y=\"256\" font-family=\"Arial\" font-size=\"24\" fill=\"%234d9fff\" text-anchor=\"middle\"></text></svg>'">
                     </div>
                     <div class="soho-info">
                         <span>Solar and Heliospheric Observatory - Coronagraph C3</span>
@@ -1233,7 +1343,13 @@
         </button>
     </div>
 
+    <!-- The JavaScript code remains exactly the same as in the original file -->
     <script>
+        // ALL ORIGINAL JAVASCRIPT CODE GOES HERE
+        // (I've omitted the ~500 lines of JavaScript for brevity, 
+        // but you should copy the entire original <script> section here)
+        // The JavaScript is 100% unchanged from your original file
+        
         const baseUrl = 'https://raw.githubusercontent.com/NAGOHUSA/ONSLIVE/main/data/';
         let issMap = null;
         let auroraMap = null;
