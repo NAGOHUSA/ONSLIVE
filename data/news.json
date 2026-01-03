@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Spain’s New Communications Satellite Suffers “Space Particle” Strike",
+      "link": "https://europeanspaceflight.com/spains-new-communications-satellite-suffers-space-particle-strike/",
+      "source": "European Spaceflight",
+      "date": "2026-01-03T21:30:27Z",
+      "summary": "Indra Group has announced that the SpainSat NG II communications satellite was struck by a “space particle” as it was en route to its operational orbit. According to the company, it is currently assessing the extent of the damage. In 2019, Hisdesat selected a consortium led by Airbus, alongside Thales Alenia Space, to build two […]\nThe post Spain’s New Communications Satellite Suffers “Space Particle” Strike appeared first on European Spaceflight."
+    },
+    {
       "title": "SpaceX launches next second-generation Italian COSMO-SkyMed satellite",
       "link": "https://spacenews.com/spacex-launches-next-second-generation-italian-cosmo-skymed-satellite/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceDaily",
       "date": "2026-01-03T01:55:37Z",
       "summary": "Berlin, Germany (SPX) Jan 03, 2026\n\n\nThe University of Copenhagen will lead Denmark's first lunar mission, a European Space Agency project that will map the Moon's surface in three dimensions to support future landings and base construction. \n\nThe Mani satellite will orbit the Moon's north and south polar regions, acquiring high-resolution images that can be combined into detailed elevation models. \n\nBy imaging the same are"
-    },
-    {
-      "title": "Curiosity's Nevado Sajama postcard captures Mars on the eve of conjunction",
-      "link": "https://www.marsdaily.com/reports/Curiositys_Nevado_Sajama_postcard_captures_Mars_on_the_eve_of_conjunction_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-03T01:55:37Z",
-      "summary": "Los Angeles CA (SPX) Jan 03, 2026\n\n\nFrom its perch on a rugged ridge in Gale Crater, NASA's Curiosity rover has stitched together a holiday postcard that doubles as a science panorama, framing the Nevado Sajama drill site against a hazy Martian sky. The scene merges two Mastcam mosaics taken on Nov. 18, 2025 - late afternoon on sol 4722 and early morning on sol 4723 - then tinted in cool blues and warm golds to emphasize changing"
     }
   ],
-  "updated": "2026-01-03T21:46:00.453Z"
+  "updated": "2026-01-03T21:52:41.191Z"
 }
