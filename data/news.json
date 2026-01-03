@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "SpaceX launches next second-generation Italian COSMO-SkyMed satellite",
+      "link": "https://spacenews.com/spacex-launches-next-second-generation-italian-cosmo-skymed-satellite/",
+      "source": "SpaceNews",
+      "date": "2026-01-03T21:13:15Z",
+      "summary": "\nMILAN – A SpaceX Falcon 9 rocket lifting off from Vandenberg Space Force Base in California, successfully launched a second-generation satellite for Italy’s COSMO-SkyMed Earth observation constellation, on Jan. 2 at 6:09 p.m. Pacific time.   The Falcon 9 deployed COSMO-SkyMed CSG-FM3, the third into a sun-synchronous orbit at an altitude of 618 kilometers at 2:22 […]\nThe post SpaceX launches next second-generation Italian COSMO-SkyMed satellite appeared first on SpaceNews."
+    },
+    {
       "title": "SpaceX laying the Starship foundations for 2026 and beyond",
       "link": "https://www.nasaspaceflight.com/2026/01/starship-foundations-2026/",
       "source": "NASASpaceflight",
@@ -27,14 +34,7 @@
       "source": "SpaceDaily",
       "date": "2026-01-03T01:55:37Z",
       "summary": "Los Angeles CA (SPX) Jan 03, 2026\n\n\nFrom its perch on a rugged ridge in Gale Crater, NASA's Curiosity rover has stitched together a holiday postcard that doubles as a science panorama, framing the Nevado Sajama drill site against a hazy Martian sky. The scene merges two Mastcam mosaics taken on Nov. 18, 2025 - late afternoon on sol 4722 and early morning on sol 4723 - then tinted in cool blues and warm golds to emphasize changing"
-    },
-    {
-      "title": "Galileo satellites ride Ariane 6 to boost Europe navigation resilience",
-      "link": "https://www.spacedaily.com/reports/Galileo_satellites_ride_Ariane_6_to_boost_Europe_navigation_resilience_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-03T01:55:37Z",
-      "summary": "Berlin, Germany (SPX) Jan 03, 2026\r\n\r\n\r\nOn 17 December, two Galileo satellites lifted off from Europe's Spaceport in Kourou, French Guiana, aboard an Ariane 6 rocket, marking the 14th launch dedicated to Europe's Galileo constellation and reinforcing European satellite navigation capacity, resilience and autonomy. \r\n\r\nThe spacecraft, designated SAT 33 and SAT 34, were launched at 06:01 CET and separated from the launcher after a fli"
     }
   ],
-  "updated": "2026-01-03T21:09:01.690Z"
+  "updated": "2026-01-03T21:28:05.880Z"
 }
