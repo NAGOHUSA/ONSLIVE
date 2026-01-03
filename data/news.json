@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "New Spanish communications satellite suffers ‘space particle’ impact",
+      "link": "https://spacenews.com/new-spanish-communications-satellite-suffers-space-particle-impact/",
+      "source": "SpaceNews",
+      "date": "2026-01-03T22:06:02Z",
+      "summary": "\nA Spanish military communications satellite launched in October was struck by what its operator described as a “space particle,” an incident that could jeopardize the spacecraft’s mission.\nThe post New Spanish communications satellite suffers ‘space particle’ impact appeared first on SpaceNews."
+    },
+    {
       "title": "Spain’s New Communications Satellite Suffers “Space Particle” Strike",
       "link": "https://europeanspaceflight.com/spains-new-communications-satellite-suffers-space-particle-strike/",
       "source": "European Spaceflight",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-03T03:42:12Z",
       "summary": "\nSAN FRANCISCO – Eartheye Space will pool data from hundreds of Earth-observation satellites to provide imagery and data to a customer in the Asia-Pacific region. “All Earth observation sensors, including both imaging and non-imaging sensors, are provided under the contract,” which promises multi-sensor tasking, according to the Eartheye Space news release. The contract covers imagery […]\nThe post Eartheye Space reveals contract with Asia-Pacific customer appeared first on SpaceNews."
-    },
-    {
-      "title": "Danish Mani mission to chart lunar terrain in 3D",
-      "link": "https://www.moondaily.com/reports/Danish_Mani_mission_to_chart_lunar_terrain_in_3D_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-03T01:55:37Z",
-      "summary": "Berlin, Germany (SPX) Jan 03, 2026\n\n\nThe University of Copenhagen will lead Denmark's first lunar mission, a European Space Agency project that will map the Moon's surface in three dimensions to support future landings and base construction. \n\nThe Mani satellite will orbit the Moon's north and south polar regions, acquiring high-resolution images that can be combined into detailed elevation models. \n\nBy imaging the same are"
     }
   ],
-  "updated": "2026-01-03T21:59:05.602Z"
+  "updated": "2026-01-03T22:19:03.972Z"
 }
