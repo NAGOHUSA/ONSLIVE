@@ -67,14 +67,6 @@
   ],
   "upcoming": [
     {
-      "name": "Quadrantids",
-      "peakDate": "2026-01-03",
-      "zhr": "120",
-      "activePeriod": "Dec 28 - Jan 12",
-      "constellation": "Boötes",
-      "description": "Known for bright fireballs"
-    },
-    {
       "name": "Lyrids",
       "peakDate": "2026-04-22",
       "zhr": "18",
@@ -89,7 +81,15 @@
       "activePeriod": "Apr 19 - May 28",
       "constellation": "Aquarius",
       "description": "Fast and bright, from Halley's Comet"
+    },
+    {
+      "name": "Perseids",
+      "peakDate": "2026-08-12",
+      "zhr": "100",
+      "activePeriod": "Jul 17 - Aug 24",
+      "constellation": "Perseus",
+      "description": "Most popular shower, bright and numerous"
     }
   ],
-  "updated": "2026-01-02T23:55:15.105Z"
+  "updated": "2026-01-03T00:51:22.350Z"
 }
