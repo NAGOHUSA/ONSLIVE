@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Live coverage: SpaceX to launch first Starlink deployment mission since problem strikes satellite",
+      "link": "https://spaceflightnow.com/2026/01/04/live-coverage-spacex-to-launch-first-starlink-deployment-mission-since-problem-strikes-satellite/",
+      "source": "Spaceflight Now",
+      "date": "2026-01-04T01:01:37Z",
+      "summary": "The Starlink 6-88 will add 29 broadband internet satellites to the constellation of more than 9,300 in low Earth orbit. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for 12 a.m. EST (0500 UTC). "
+    },
+    {
       "title": "SpaceX, China drive new record for orbital launches in 2025",
       "link": "https://spacenews.com/spacex-china-drive-new-record-for-orbital-launches-in-2025/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-03T21:13:15Z",
       "summary": "\nMILAN – A SpaceX Falcon 9 rocket lifting off from Vandenberg Space Force Base in California, successfully launched a second-generation satellite for Italy’s COSMO-SkyMed Earth observation constellation, on Jan. 2 at 6:09 p.m. Pacific time.   The Falcon 9 deployed COSMO-SkyMed CSG-FM3, the third into a sun-synchronous orbit at an altitude of 618 kilometers at 2:22 […]\nThe post SpaceX launches next second-generation Italian COSMO-SkyMed satellite appeared first on SpaceNews."
-    },
-    {
-      "title": "SpaceX laying the Starship foundations for 2026 and beyond",
-      "link": "https://www.nasaspaceflight.com/2026/01/starship-foundations-2026/",
-      "source": "NASASpaceflight",
-      "date": "2026-01-03T19:47:09Z",
-      "summary": "The Starship program had an eventful year in 2025, with five full-stack test flights, of…\nThe post SpaceX laying the Starship foundations for 2026 and beyond appeared first on NASASpaceFlight.com."
     }
   ],
-  "updated": "2026-01-04T00:51:54.884Z"
+  "updated": "2026-01-04T03:01:31.478Z"
 }
