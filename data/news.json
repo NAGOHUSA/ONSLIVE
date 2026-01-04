@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "SpaceX, China drive new record for orbital launches in 2025",
+      "link": "https://spacenews.com/spacex-china-drive-new-record-for-orbital-launches-in-2025/",
+      "source": "SpaceNews",
+      "date": "2026-01-04T00:32:22Z",
+      "summary": "\nOrbital launch activity set another annual record in 2025, although future growth may depend on factors different from those that fueled the recent surge.\nThe post SpaceX, China drive new record for orbital launches in 2025 appeared first on SpaceNews."
+    },
+    {
       "title": "New Spanish communications satellite suffers ‘space particle’ impact",
       "link": "https://spacenews.com/new-spanish-communications-satellite-suffers-space-particle-impact/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASASpaceflight",
       "date": "2026-01-03T19:47:09Z",
       "summary": "The Starship program had an eventful year in 2025, with five full-stack test flights, of…\nThe post SpaceX laying the Starship foundations for 2026 and beyond appeared first on NASASpaceFlight.com."
-    },
-    {
-      "title": "Eartheye Space reveals contract with Asia-Pacific customer",
-      "link": "https://spacenews.com/eartheye-space-reveals-contract-with-asia-pacific-customer/",
-      "source": "SpaceNews",
-      "date": "2026-01-03T03:42:12Z",
-      "summary": "\nSAN FRANCISCO – Eartheye Space will pool data from hundreds of Earth-observation satellites to provide imagery and data to a customer in the Asia-Pacific region. “All Earth observation sensors, including both imaging and non-imaging sensors, are provided under the contract,” which promises multi-sensor tasking, according to the Eartheye Space news release. The contract covers imagery […]\nThe post Eartheye Space reveals contract with Asia-Pacific customer appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-03T23:54:28.395Z"
+  "updated": "2026-01-04T00:51:54.884Z"
 }
