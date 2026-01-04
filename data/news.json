@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "What’s Happening in Space Policy January 4-10, 2026",
+      "link": "https://spacepolicyonline.com/news/whats-happening-in-space-policy-january-4-10-2026/",
+      "source": "SpacePolicyOnline.com",
+      "date": "2026-01-04T21:40:26Z",
+      "summary": "Here is SpacePolicyOnline.com’s list of space policy events for the week of January 4-10, 2026 and any insight we can offer about them. The House and Senate are in session […]"
+    },
+    {
       "title": "Space Force begins base network overhaul as cybersecurity demands grow",
       "link": "https://spacenews.com/space-force-begins-base-network-overhaul-as-cybersecurity-demands-grow/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-03T22:06:02Z",
       "summary": "A Spanish military communications satellite launched in October was struck by what its operator described as a “space particle,” an incident that could jeopardize the spacecraft’s mission.\r\nThe post New Spanish communications satellite suffers ‘space particle’ impact appeared first on SpaceNews."
-    },
-    {
-      "title": "Spain’s New Communications Satellite Suffers “Space Particle” Strike",
-      "link": "https://europeanspaceflight.com/spains-new-communications-satellite-suffers-space-particle-strike/",
-      "source": "European Spaceflight",
-      "date": "2026-01-03T21:30:27Z",
-      "summary": "Indra Group has announced that the SpainSat NG II communications satellite was struck by a “space particle” as it was en route to its operational orbit. According to the company, it is currently assessing the extent of the damage. In 2019, Hisdesat selected a consortium led by Airbus, alongside Thales Alenia Space, to build two […]\r\nThe post Spain’s New Communications Satellite Suffers “Space Particle” Strike appeared first on European Spaceflight."
     }
   ],
-  "updated": "2026-01-04T21:47:16.958Z"
+  "updated": "2026-01-04T21:53:47.657Z"
 }
