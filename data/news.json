@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Cloud-9: a new celestial object found by Hubble",
+      "link": "https://www.esa.int/Science_Exploration/Space_Science/Cloud-9_a_new_celestial_object_found_by_Hubble",
+      "source": "ESA",
+      "date": "2026-01-05T17:15:00Z",
+      "summary": "A team using the NASA/ESA Hubble Space Telescope has uncovered a new type of astronomical object – a starless, gas-rich, dark-matter cloud that is considered a 'relic' or remnant of early galaxy formation. Nicknamed 'Cloud-9,' this is the first confirmed detection of such an object in the Universe."
+    },
+    {
       "title": "Scientific Balloon Begins Antarctic Ascent",
       "link": "https://www.nasa.gov/image-article/scientific-balloon-begins-antarctic-ascent/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-05T16:09:08Z",
       "summary": "\nDubai / Male’ November 18, 2025 – ARCHE ORBITAL SYSTEMS, a global space-technology company specializing in advanced mission design and in-orbit services operations, has signed a Memorandum of Understanding (MoU) […]\nThe post ARCHE ORBITAL SYSTEMS Signs Strategic MoU with MSRO to Advance National Space Capabilities for the Maldives appeared first on SpaceNews."
-    },
-    {
-      "title": "No more free rides: it’s time to pay for space safety",
-      "link": "https://spacenews.com/no-more-free-rides-its-time-to-pay-for-space-safety/",
-      "source": "SpaceNews",
-      "date": "2026-01-05T14:00:00Z",
-      "summary": "\nA small but important change can be found at the end of President Trump’s sweeping December 18, 2025, Executive Order, “Ensuring American Space Superiority.” The Executive Order removes the requirement for the United States government to make basic space situational awareness data and space traffic management services available “free of direct user fees,” instead saying […]\nThe post No more free rides: it’s time to pay for space safety appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-05T17:26:56.989Z"
+  "updated": "2026-01-05T17:45:16.790Z"
 }
