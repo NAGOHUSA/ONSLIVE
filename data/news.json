@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "I Am Artemis: Jacki Mahaffey",
+      "link": "https://www.nasa.gov/missions/artemis/i-am-artemis/i-am-artemis-jacki-mahaffey/",
+      "source": "NASA",
+      "date": "2026-01-05T20:24:31Z",
+      "summary": "Listen to this audio excerpt from Jacki Mahaffey, Artemis II chief training officer: When the Artemis II crew travels around the Moon aboard the Orion spacecraft, they will have spent countless hours training for their lunar mission, and Jacki Mahaffey will have played a role in preparing them for their journey. As the Artemis II […]"
+    },
+    {
       "title": "Array Labs raises $20 million to scale production of radar satellites for 3D Earth mapping",
       "link": "https://spacenews.com/array-labs-raises-20-million-to-scale-production-of-radar-satellites-for-3d-earth-mapping/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "ESA",
       "date": "2026-01-05T17:15:00Z",
       "summary": "A team using the NASA/ESA Hubble Space Telescope has uncovered a new type of astronomical object – a starless, gas-rich, dark-matter cloud that is considered a 'relic' or remnant of early galaxy formation. Nicknamed 'Cloud-9,' this is the first confirmed detection of such an object in the Universe."
-    },
-    {
-      "title": "Scientific Balloon Begins Antarctic Ascent",
-      "link": "https://www.nasa.gov/image-article/scientific-balloon-begins-antarctic-ascent/",
-      "source": "NASA",
-      "date": "2026-01-05T16:40:28Z",
-      "summary": "A scientific balloon starts its ascent into the air as it prepares to launch carrying NASA’s Payload for Ultrahigh Energy Observations (PUEO) mission. The mission lifted off from Antarctica at 5:56 a.m. NZST, Saturday, Dec. 20 (11:56 a.m., Friday, Dec. 19 in U.S. Eastern Time). The PUEO mission is designed to detect radio signals created […]"
     }
   ],
-  "updated": "2026-01-05T20:29:00.369Z"
+  "updated": "2026-01-05T20:46:42.763Z"
 }
