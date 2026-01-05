@@ -1,6 +1,27 @@
 {
   "articles": [
     {
+      "title": "No more free rides: it’s time to pay for space safety",
+      "link": "https://spacenews.com/no-more-free-rides-its-time-to-pay-for-space-safety/",
+      "source": "SpaceNews",
+      "date": "2026-01-05T14:00:00Z",
+      "summary": "\nA small but important change can be found at the end of President Trump’s sweeping December 18, 2025, Executive Order, “Ensuring American Space Superiority.” The Executive Order removes the requirement for the United States government to make basic space situational awareness data and space traffic management services available “free of direct user fees,” instead saying […]\nThe post No more free rides: it’s time to pay for space safety appeared first on SpaceNews."
+    },
+    {
+      "title": "Tree planting for εpsilon",
+      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/01/Tree_planting_for_epsilon2",
+      "source": "ESA",
+      "date": "2026-01-05T13:34:00Z",
+      "summary": "From the ESA Blogs."
+    },
+    {
+      "title": "Tree planting for εpsilon",
+      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/01/Tree_planting_for_epsilon",
+      "source": "ESA",
+      "date": "2026-01-05T13:27:00Z",
+      "summary": "From the ESA Blogs."
+    },
+    {
       "title": "China’s astronauts complete cave training amid preparations for moon missions",
       "link": "https://spacenews.com/chinas-astronauts-complete-cave-training-amid-preparations-for-moon-missions/",
       "source": "SpaceNews",
@@ -13,28 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-05T12:56:48Z",
       "summary": "\nPrivate equity firm to revive Rocketdyne name, L3Harris keeps RS-25 engine \nThe post L3Harris to sell majority stake in space propulsion unit to AE Industrial for $845 million appeared first on SpaceNews."
-    },
-    {
-      "title": "There’s a big shake-up near the top of our annual US launch company rankings",
-      "link": "https://arstechnica.com/space/2026/01/theres-a-big-shake-up-near-the-top-of-our-annual-us-launch-company-rankings/",
-      "source": "Arstechnica",
-      "date": "2026-01-05T12:00:58Z",
-      "summary": "There are some fresh faces entering the rankings this year."
-    },
-    {
-      "title": "Space Rider orbital ballet",
-      "link": "https://www.esa.int/ESA_Multimedia/Videos/2024/11/Space_Rider_orbital_ballet",
-      "source": "ESA",
-      "date": "2026-01-05T10:00:00Z",
-      "summary": "Animation showing a possible interoperability application in orbit of payload deployment and retrieval operations with ESA’s reusable Space Rider."
-    },
-    {
-      "title": "Space Rider drone inspection",
-      "link": "https://www.esa.int/ESA_Multimedia/Videos/2024/11/Space_Rider_drone_inspection",
-      "source": "ESA",
-      "date": "2026-01-05T10:00:00Z",
-      "summary": "Animation showing possible operations for ESA’s reusable laboratory Space Rider deploying an inspection drone."
     }
   ],
-  "updated": "2026-01-05T13:58:05.113Z"
+  "updated": "2026-01-05T14:21:41.353Z"
 }
