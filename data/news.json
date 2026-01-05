@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Array Labs raises $20 million to scale production of radar satellites for 3D Earth mapping",
+      "link": "https://spacenews.com/array-labs-raises-20-million-to-scale-production-of-radar-satellites-for-3d-earth-mapping/",
+      "source": "SpaceNews",
+      "date": "2026-01-05T19:57:58Z",
+      "summary": "\nStartup aims to mass-produce radar hardware and deploy formation-flying satellites\nThe post Array Labs raises $20 million to scale production of radar satellites for 3D Earth mapping appeared first on SpaceNews."
+    },
+    {
       "title": "NASA to Cover US Spacewalks 94, 95 at International Space Station",
       "link": "https://www.nasa.gov/news-release/nasa-to-cover-us-spacewalks-94-95-at-international-space-station/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-01-05T16:40:28Z",
       "summary": "A scientific balloon starts its ascent into the air as it prepares to launch carrying NASA’s Payload for Ultrahigh Energy Observations (PUEO) mission. The mission lifted off from Antarctica at 5:56 a.m. NZST, Saturday, Dec. 20 (11:56 a.m., Friday, Dec. 19 in U.S. Eastern Time). The PUEO mission is designed to detect radio signals created […]"
-    },
-    {
-      "title": "A Rare Orbital Electron from Wallops",
-      "link": "https://www.spacescout.info/2026/01/a-rare-orbital-electron-from-wallops/",
-      "source": "Space Scout",
-      "date": "2026-01-05T16:37:51Z",
-      "summary": "Rocket Lab’s Electron made a rare orbital flight out of Wallops Island, Virginia on December 18, 2025, lifting off just"
     }
   ],
-  "updated": "2026-01-05T20:00:17.406Z"
+  "updated": "2026-01-05T20:29:00.369Z"
 }
