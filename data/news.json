@@ -1,6 +1,27 @@
 {
   "articles": [
     {
+      "title": "Scientific Balloon Begins Antarctic Ascent",
+      "link": "https://www.nasa.gov/image-article/scientific-balloon-begins-antarctic-ascent/",
+      "source": "NASA",
+      "date": "2026-01-05T16:40:28Z",
+      "summary": "A scientific balloon starts its ascent into the air as it prepares to launch carrying NASA’s Payload for Ultrahigh Energy Observations (PUEO) mission. The mission lifted off from Antarctica at 5:56 a.m. NZST, Saturday, Dec. 20 (11:56 a.m., Friday, Dec. 19 in U.S. Eastern Time). The PUEO mission is designed to detect radio signals created […]"
+    },
+    {
+      "title": "A Rare Orbital Electron from Wallops",
+      "link": "https://www.spacescout.info/2026/01/a-rare-orbital-electron-from-wallops/",
+      "source": "Space Scout",
+      "date": "2026-01-05T16:37:51Z",
+      "summary": "Rocket Lab’s Electron made a rare orbital flight out of Wallops Island, Virginia on December 18, 2025, lifting off just"
+    },
+    {
+      "title": "Minibus provides $24.4 billion for NASA for fiscal year 2026",
+      "link": "https://spacenews.com/minibus-provides-24-4-billion-for-nasa-for-fiscal-year-2026/",
+      "source": "SpaceNews",
+      "date": "2026-01-05T16:22:38Z",
+      "summary": "\nHouse and Senate appropriators have released the text of a final appropriations bill for fiscal 2026 that largely rejects the steep cuts the Trump administration proposed for NASA.\nThe post Minibus provides $24.4 billion for NASA for fiscal year 2026 appeared first on SpaceNews."
+    },
+    {
       "title": "ARCHE ORBITAL SYSTEMS Signs Strategic MoU with MSRO to Advance National Space Capabilities for the Maldives",
       "link": "https://spacenews.com/arche-orbital-systems-signs-strategic-mou-with-msro-to-advance-national-space-capabilities-for-the-maldives/",
       "source": "SpaceNews",
@@ -13,28 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-05T14:00:00Z",
       "summary": "\nA small but important change can be found at the end of President Trump’s sweeping December 18, 2025, Executive Order, “Ensuring American Space Superiority.” The Executive Order removes the requirement for the United States government to make basic space situational awareness data and space traffic management services available “free of direct user fees,” instead saying […]\nThe post No more free rides: it’s time to pay for space safety appeared first on SpaceNews."
-    },
-    {
-      "title": "Tree planting for εpsilon",
-      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/01/Tree_planting_for_epsilon2",
-      "source": "ESA",
-      "date": "2026-01-05T13:34:00Z",
-      "summary": "From the ESA Blogs."
-    },
-    {
-      "title": "Tree planting for εpsilon",
-      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/01/Tree_planting_for_epsilon",
-      "source": "ESA",
-      "date": "2026-01-05T13:27:00Z",
-      "summary": "From the ESA Blogs."
-    },
-    {
-      "title": "China’s astronauts complete cave training amid preparations for moon missions",
-      "link": "https://spacenews.com/chinas-astronauts-complete-cave-training-amid-preparations-for-moon-missions/",
-      "source": "SpaceNews",
-      "date": "2026-01-05T13:26:06Z",
-      "summary": "\nChina’s astronaut corps has completed a near month-long underground cave training, conducted in part to prepare for future crewed lunar landing missions.\nThe post China’s astronauts complete cave training amid preparations for moon missions appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-05T16:19:41.255Z"
+  "updated": "2026-01-05T16:46:15.348Z"
 }
