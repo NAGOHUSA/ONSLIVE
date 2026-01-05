@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA Selects Tech Proposals to Advance Search-for-Life Mission",
+      "link": "https://www.nasa.gov/news-release/nasa-selects-tech-proposals-to-advance-search-for-life-mission/",
+      "source": "NASA",
+      "date": "2026-01-05T21:42:13Z",
+      "summary": "NASA announced Monday the selection of industry proposals to advance technologies for the agency’s Habitable Worlds Observatory concept – the first mission that would directly image Earth-like planets around stars like our Sun and study the chemical composition of their atmospheres for signs of life. This flagship space telescope also would enable wide-ranging studies of […]"
+    },
+    {
       "title": "I Am Artemis: Jacki Mahaffey",
       "link": "https://www.nasa.gov/missions/artemis/i-am-artemis/i-am-artemis-jacki-mahaffey/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-01-05T17:15:38Z",
       "summary": "A team using NASA’s Hubble Space Telescope has uncovered a new type of astronomical object — a starless, gas-rich, dark-matter cloud considered a “relic” or remnant of early galaxy formation. Nicknamed “Cloud-9,” this is the first confirmed detection of such an object in the universe — a finding that furthers the understanding of galaxy formation, […]"
-    },
-    {
-      "title": "Cloud-9: a new celestial object found by Hubble",
-      "link": "https://www.esa.int/Science_Exploration/Space_Science/Cloud-9_a_new_celestial_object_found_by_Hubble",
-      "source": "ESA",
-      "date": "2026-01-05T17:15:00Z",
-      "summary": "A team using the NASA/ESA Hubble Space Telescope has uncovered a new type of astronomical object – a starless, gas-rich, dark-matter cloud that is considered a 'relic' or remnant of early galaxy formation. Nicknamed 'Cloud-9,' this is the first confirmed detection of such an object in the Universe."
     }
   ],
-  "updated": "2026-01-05T21:53:29.940Z"
+  "updated": "2026-01-05T21:59:35.188Z"
 }
