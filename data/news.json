@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA to Cover US Spacewalks 94, 95 at International Space Station",
+      "link": "https://www.nasa.gov/news-release/nasa-to-cover-us-spacewalks-94-95-at-international-space-station/",
+      "source": "NASA",
+      "date": "2026-01-05T19:12:22Z",
+      "summary": "NASA astronauts will conduct two spacewalks Thursday, Jan. 8, and Thursday, Jan. 15, outside the International Space Station, and the agency will provide comprehensive coverage. The first spacewalk is scheduled to begin at 8 a.m. EST on Jan. 8 and last about six hours and 30 minutes. NASA will provide live coverage beginning at 6:30 […]"
+    },
+    {
       "title": "NASA’s Hubble Examines Cloud-9, First of New Type of Object",
       "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-examines-cloud-9-first-of-new-type-of-object/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "Space Scout",
       "date": "2026-01-05T16:37:51Z",
       "summary": "Rocket Lab’s Electron made a rare orbital flight out of Wallops Island, Virginia on December 18, 2025, lifting off just"
-    },
-    {
-      "title": "Minibus provides $24.4 billion for NASA for fiscal year 2026",
-      "link": "https://spacenews.com/minibus-provides-24-4-billion-for-nasa-for-fiscal-year-2026/",
-      "source": "SpaceNews",
-      "date": "2026-01-05T16:22:38Z",
-      "summary": "\nHouse and Senate appropriators have released the text of a final appropriations bill for fiscal 2026 that largely rejects the steep cuts the Trump administration proposed for NASA.\nThe post Minibus provides $24.4 billion for NASA for fiscal year 2026 appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-05T19:02:40.885Z"
+  "updated": "2026-01-05T19:26:59.335Z"
 }
