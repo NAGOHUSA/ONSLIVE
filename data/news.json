@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA’s Hubble Examines Cloud-9, First of New Type of Object",
+      "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-examines-cloud-9-first-of-new-type-of-object/",
+      "source": "NASA",
+      "date": "2026-01-05T17:15:38Z",
+      "summary": "A team using NASA’s Hubble Space Telescope has uncovered a new type of astronomical object — a starless, gas-rich, dark-matter cloud considered a “relic” or remnant of early galaxy formation. Nicknamed “Cloud-9,” this is the first confirmed detection of such an object in the universe — a finding that furthers the understanding of galaxy formation, […]"
+    },
+    {
       "title": "Cloud-9: a new celestial object found by Hubble",
       "link": "https://www.esa.int/Science_Exploration/Space_Science/Cloud-9_a_new_celestial_object_found_by_Hubble",
       "source": "ESA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-05T16:22:38Z",
       "summary": "\nHouse and Senate appropriators have released the text of a final appropriations bill for fiscal 2026 that largely rejects the steep cuts the Trump administration proposed for NASA.\nThe post Minibus provides $24.4 billion for NASA for fiscal year 2026 appeared first on SpaceNews."
-    },
-    {
-      "title": "ARCHE ORBITAL SYSTEMS Signs Strategic MoU with MSRO to Advance National Space Capabilities for the Maldives",
-      "link": "https://spacenews.com/arche-orbital-systems-signs-strategic-mou-with-msro-to-advance-national-space-capabilities-for-the-maldives/",
-      "source": "SpaceNews",
-      "date": "2026-01-05T16:09:08Z",
-      "summary": "\nDubai / Male’ November 18, 2025 – ARCHE ORBITAL SYSTEMS, a global space-technology company specializing in advanced mission design and in-orbit services operations, has signed a Memorandum of Understanding (MoU) […]\nThe post ARCHE ORBITAL SYSTEMS Signs Strategic MoU with MSRO to Advance National Space Capabilities for the Maldives appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-05T17:55:06.282Z"
+  "updated": "2026-01-05T18:18:02.069Z"
 }
