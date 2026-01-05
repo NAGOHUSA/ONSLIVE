@@ -1,6 +1,27 @@
 {
   "articles": [
     {
+      "title": "NASA’s science budget won’t be a train wreck after all",
+      "link": "https://arstechnica.com/space/2026/01/nasas-science-budget-wont-be-a-train-wreck-after-all/",
+      "source": "Arstechnica",
+      "date": "2026-01-05T22:14:50Z",
+      "summary": "\"There's very little to not like in this.\""
+    },
+    {
+      "title": "Great News for NASA in the House-Senate FY2026 Appropriations Report",
+      "link": "https://spacepolicyonline.com/news/great-news-for-nasa-in-the-house-senate-fy2026-appropriations-report/",
+      "source": "SpacePolicyOnline.com",
+      "date": "2026-01-05T22:08:01Z",
+      "summary": "The House and Senate Appropriations Committees released the text of their joint conference agreement on the FY2026 Commerce-Justice-Science (CJS) bill today with a wholesale rejection of the dire cuts to […]"
+    },
+    {
+      "title": "NASA’s IXPE Measures White Dwarf Star for First Time",
+      "link": "https://www.nasa.gov/missions/ixpe/nasas-ixpe-measures-white-dwarf-star-for-first-time/",
+      "source": "NASA",
+      "date": "2026-01-05T21:58:10Z",
+      "summary": "By Michael Allen  For the first time, scientists have used NASA’s IXPE (Imaging X-ray Polarization Explorer) to study a white dwarf star. Using IXPE’s unique X-ray polarization capability, astronomers examined a star called the intermediate polar EX Hydrae, unlocking the geometry of energetic binary systems.  In 2024, IXPE spent nearly one week focused on EX Hydrae, a […]"
+    },
+    {
       "title": "NASA Selects Tech Proposals to Advance Search-for-Life Mission",
       "link": "https://www.nasa.gov/news-release/nasa-selects-tech-proposals-to-advance-search-for-life-mission/",
       "source": "NASA",
@@ -8,33 +29,12 @@
       "summary": "NASA announced Monday the selection of industry proposals to advance technologies for the agency’s Habitable Worlds Observatory concept – the first mission that would directly image Earth-like planets around stars like our Sun and study the chemical composition of their atmospheres for signs of life. This flagship space telescope also would enable wide-ranging studies of […]"
     },
     {
-      "title": "I Am Artemis: Jacki Mahaffey",
-      "link": "https://www.nasa.gov/missions/artemis/i-am-artemis/i-am-artemis-jacki-mahaffey/",
+      "title": "What’s Up: January 2026 Skywatching Tips from NASA",
+      "link": "https://science.nasa.gov/solar-system/skywatching/whats-up-january-2026-skywatching-tips-from-nasa/",
       "source": "NASA",
-      "date": "2026-01-05T20:24:31Z",
-      "summary": "Listen to this audio excerpt from Jacki Mahaffey, Artemis II chief training officer: When the Artemis II crew travels around the Moon aboard the Orion spacecraft, they will have spent countless hours training for their lunar mission, and Jacki Mahaffey will have played a role in preparing them for their journey. As the Artemis II […]"
-    },
-    {
-      "title": "Array Labs raises $20 million to scale production of radar satellites for 3D Earth mapping",
-      "link": "https://spacenews.com/array-labs-raises-20-million-to-scale-production-of-radar-satellites-for-3d-earth-mapping/",
-      "source": "SpaceNews",
-      "date": "2026-01-05T19:57:58Z",
-      "summary": "\nStartup aims to mass-produce radar hardware and deploy formation-flying satellites\nThe post Array Labs raises $20 million to scale production of radar satellites for 3D Earth mapping appeared first on SpaceNews."
-    },
-    {
-      "title": "NASA to Cover US Spacewalks 94, 95 at International Space Station",
-      "link": "https://www.nasa.gov/news-release/nasa-to-cover-us-spacewalks-94-95-at-international-space-station/",
-      "source": "NASA",
-      "date": "2026-01-05T19:12:22Z",
-      "summary": "NASA astronauts will conduct two spacewalks Thursday, Jan. 8, and Thursday, Jan. 15, outside the International Space Station, and the agency will provide comprehensive coverage. The first spacewalk is scheduled to begin at 8 a.m. EST on Jan. 8 and last about six hours and 30 minutes. NASA will provide live coverage beginning at 6:30 […]"
-    },
-    {
-      "title": "NASA’s Hubble Examines Cloud-9, First of New Type of Object",
-      "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-examines-cloud-9-first-of-new-type-of-object/",
-      "source": "NASA",
-      "date": "2026-01-05T17:15:38Z",
-      "summary": "A team using NASA’s Hubble Space Telescope has uncovered a new type of astronomical object — a starless, gas-rich, dark-matter cloud considered a “relic” or remnant of early galaxy formation. Nicknamed “Cloud-9,” this is the first confirmed detection of such an object in the universe — a finding that furthers the understanding of galaxy formation, […]"
+      "date": "2026-01-05T21:37:07Z",
+      "summary": "Jupiter is at its biggest and brightest all year, the Moon and Saturn pair up, and the Beehive Cluster buzzes into view."
     }
   ],
-  "updated": "2026-01-05T21:59:35.188Z"
+  "updated": "2026-01-05T22:21:56.963Z"
 }
