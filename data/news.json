@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Supernova Remnant Video From NASA’s Chandra Is Decades in Making",
+      "link": "https://www.nasa.gov/missions/chandra/supernova-remnant-video-from-nasas-chandra-is-decades-in-making/",
+      "source": "NASA",
+      "date": "2026-01-06T21:30:45Z",
+      "summary": "A new video shows the evolution of Kepler’s Supernova Remnant using data from NASA’s Chandra X-ray Observatory captured over more than two and a half decades. Kepler’s Supernova Remnant, named after the German astronomer Johannes Kepler, was first spotted in the night sky in 1604. Today, astronomers know that a white dwarf star exploded when […]"
+    },
+    {
       "title": "NASA Awards Launch Range Contract for Wallops Flight Facility",
       "link": "https://www.nasa.gov/news-release/nasa-awards-launch-range-contract-for-wallops-flight-facility/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-01-06T17:16:00Z",
       "summary": "After combing through NASA’s James Webb Space Telescope’s archive of sweeping extragalactic cosmic fields, a small team of astronomers at the University of Missouri says they have identified a sample of galaxies that have a previously unseen combination of features. Principal investigator Haojing Yan compares the discovery to an infamous oddball in another branch of […]"
-    },
-    {
-      "title": "NASA Webb Finds Early-Universe Analog’s Unexpected Talent for Making Dust",
-      "link": "https://science.nasa.gov/missions/webb/nasa-webb-finds-early-universe-analogs-unexpected-talent-for-making-dust/",
-      "source": "NASA",
-      "date": "2026-01-06T17:14:00Z",
-      "summary": "Using NASA’s James Webb Space Telescope, astronomers have spotted two rare kinds of dust in the dwarf galaxy Sextans A, one of the most chemically primitive galaxies near the Milky Way. The finding of metallic iron dust and silicon carbide (SiC) produced by aging stars, along with tiny clumps of carbon-based molecules, shows that even […]"
     }
   ],
-  "updated": "2026-01-06T21:37:36.146Z"
+  "updated": "2026-01-06T21:48:41.093Z"
 }
