@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Diving Into Human Spaceflight Safety with NASA Johnson’s Craig Shannon",
+      "link": "https://www.nasa.gov/centers-and-facilities/johnson/diving-into-human-spaceflight-safety-with-nasa-johnsons-craig-shannon/",
+      "source": "NASA",
+      "date": "2026-01-06T09:39:00Z",
+      "summary": "Growing up in Houston, Craig Shannon was always inspired by NASA and the spirit of exploration the agency represents. Yet it was a passion for scuba diving that unexpectedly led to his more than 23-year career at NASA’s Johnson Space Center. Shannon became a certified diver and scuba instructor while earning his bachelor’s degree in […]"
+    },
+    {
       "title": "How College Students Really Afford Rent And Groceries Now",
       "link": "https://www.spacedaily.com/reports/How_College_Students_Really_Afford_Rent_And_Groceries_Now_999.html",
       "source": "SpaceDaily",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-01-06T05:01:00Z",
       "summary": "The Huíla plateau, bounded by dramatic cliffs and chasms, stands above the arid coastal plains in the country’s southwest."
-    },
-    {
-      "title": "Launch Previews: SpaceX and ISRO to launch rideshare missions into SSO",
-      "link": "https://www.nasaspaceflight.com/2026/01/launch-previews-20250501/",
-      "source": "NASASpaceflight",
-      "date": "2026-01-06T04:44:11Z",
-      "summary": "SpaceX leads the week’s launch manifest with three scheduled missions and, at the time of…\r\nThe post Launch Previews: SpaceX and ISRO to launch rideshare missions into SSO appeared first on NASASpaceFlight.com."
     }
   ],
-  "updated": "2026-01-06T09:35:35.060Z"
+  "updated": "2026-01-06T09:51:37.821Z"
 }
