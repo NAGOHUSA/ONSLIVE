@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Dept. of the Air Force opens bidding for Space Launch Complex 14 at Vandenberg SFB",
+      "link": "https://spaceflightnow.com/2026/01/06/dept-of-the-air-force-opens-bidding-for-space-launch-complex-14-at-vandenberg-sfb/",
+      "source": "Spaceflight Now",
+      "date": "2026-01-06T01:26:23Z",
+      "summary": "The U.S. Space Force aims to attract new launch capabilities for the Western Range to bolster domestic access to space. Responses are due by Feb. 12, 2026. "
+    },
+    {
       "title": "NASA’s science budget won’t be a train wreck after all",
       "link": "https://arstechnica.com/space/2026/01/nasas-science-budget-wont-be-a-train-wreck-after-all/",
       "source": "Arstechnica",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-01-05T21:42:13Z",
       "summary": "NASA announced Monday the selection of industry proposals to advance technologies for the agency’s Habitable Worlds Observatory concept – the first mission that would directly image Earth-like planets around stars like our Sun and study the chemical composition of their atmospheres for signs of life. This flagship space telescope also would enable wide-ranging studies of […]"
-    },
-    {
-      "title": "What’s Up: January 2026 Skywatching Tips from NASA",
-      "link": "https://science.nasa.gov/solar-system/skywatching/whats-up-january-2026-skywatching-tips-from-nasa/",
-      "source": "NASA",
-      "date": "2026-01-05T21:37:07Z",
-      "summary": "Jupiter is at its biggest and brightest all year, the Moon and Saturn pair up, and the Beehive Cluster buzzes into view."
     }
   ],
-  "updated": "2026-01-05T23:59:10.669Z"
+  "updated": "2026-01-06T01:44:36.043Z"
 }
