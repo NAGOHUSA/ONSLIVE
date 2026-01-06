@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Top European Launch Companies of 2025",
+      "link": "https://europeanspaceflight.com/top-european-launch-companies-of-2025/",
+      "source": "European Spaceflight",
+      "date": "2026-01-06T14:35:05Z",
+      "summary": "While 2025 saw the first attempt to launch a privately developed European rocket capable of reaching orbit, the flight ultimately failed. Isar Aerospace’s Spectrum rocket exploded in a fireball less than a minute after it left the launch pad, its engines automatically shutting down before the vehicle plummeted into the Norwegian Sea metres from the […]\nThe post Top European Launch Companies of 2025 appeared first on European Spaceflight."
+    },
+    {
       "title": "Canada’s First Commercial Spaceport clears major hurdle with Environmental Approval",
       "link": "https://www.nasaspaceflight.com/2026/01/canadas-first-commercial-spaceport-approval/",
       "source": "NASASpaceflight",
@@ -27,14 +34,7 @@
       "source": "SpaceDaily",
       "date": "2026-01-06T09:17:00Z",
       "summary": "Los Angeles CA (SPX) Jan 06, 2026\n\nMany college students say that rent and basic food costs feel harder to manage than any other part of school. It's not unusual for students to work, budget, and still feel short at the end of the month. This leaves a lot of them unsure of how to cover the gap without taking on too much stress."
-    },
-    {
-      "title": "What Makes Air Refrigeration Safer for Food Storage",
-      "link": "https://www.spacedaily.com/reports/What_Makes_Air_Refrigeration_Safer_for_Food_Storage_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-06T07:18:13Z",
-      "summary": "Los Angeles CA (SPX) Jan 06, 2026\n\nFood businesses rely on cold rooms and process chillers to keep products safe from farm to fork. When cooling systems fail or behave unpredictably, the result can be spoilage, recalls, or subtle quality drift that emerges only when products reach consumers."
     }
   ],
-  "updated": "2026-01-06T14:27:11.224Z"
+  "updated": "2026-01-06T14:47:40.583Z"
 }
