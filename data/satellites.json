@@ -72,11 +72,11 @@
     }
   ],
   "iss": {
-    "latitude": -19.548568118453,
-    "longitude": 126.32277241265,
-    "altitude": 419.48498566694,
-    "velocity": 27585.20861874,
-    "visibility": "daylight"
+    "latitude": 24.635699261955,
+    "longitude": 159.98280665351,
+    "altitude": 416.43282119698,
+    "velocity": 27600.519368438,
+    "visibility": "eclipsed"
   },
-  "updated": "2026-01-06T08:48:08.911Z"
+  "updated": "2026-01-06T09:02:50.475Z"
 }
