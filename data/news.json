@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Space Station Research Informs New FDA-Approved Cancer Therapy",
+      "link": "https://www.nasa.gov/missions/station/iss-research/space-station-research-informs-new-fda-approved-cancer-therapy/",
+      "source": "NASA",
+      "date": "2026-01-06T16:00:00Z",
+      "summary": "NASA opens the International Space Station for scientists and researchers, inviting them to use the benefits of microgravity for commercial and public research, technology demonstrations, and more. Today, a portion of the crew’s time aboard station is devoted to private industry, including medical research that addresses complex health challenges on Earth and prepares astronauts for […]"
+    },
+    {
       "title": "First Sky Map from NASA’s SPHEREx Observatory",
       "link": "https://www.nasa.gov/image-article/first-sky-map-from-nasas-spherex-observatory/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASASpaceflight",
       "date": "2026-01-06T13:00:42Z",
       "summary": "In a significant step forward for Canada’s domestic space ambitions, the Atlantic Spaceport Complex (ASX)…\nThe post Canada’s First Commercial Spaceport clears major hurdle with Environmental Approval appeared first on NASASpaceFlight.com."
-    },
-    {
-      "title": "Is the race for moon missions lunacy?",
-      "link": "https://spacenews.com/is-the-race-for-moon-missions-lunacy/",
-      "source": "SpaceNews",
-      "date": "2026-01-06T13:00:00Z",
-      "summary": "\nEven as NASA prepares for its Artemis 2 moon-circling mission, an Artemis 3 lunar-landing mission has suffered multiple delays, with no assurance of a launch before 2030. That may be a good thing because NASA still has not overcome critical risks and technological gaps of lunar exploration. These problems must be solved before we can establish a safe, productive long-term human […]\nThe post Is the race for moon missions lunacy? appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-06T16:01:00.783Z"
+  "updated": "2026-01-06T16:35:40.358Z"
 }
