@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA Marshall Prepares for Demolition of Historic Test, Simulation Facilities",
+      "link": "https://www.nasa.gov/centers-and-facilities/marshall/nasa-marshall-prepares-for-demolition-of-historic-test-simulation-facilities/",
+      "source": "NASA",
+      "date": "2026-01-06T18:44:30Z",
+      "summary": "NASA is preparing for the demolition of three iconic structures at the agency’s Marshall Space Flight Center in Huntsville, Alabama. Crews began demolition in mid-December at the Neutral Buoyancy Simulator, a facility built in the late 1960s that once enabled NASA astronauts and researchers to experience near-weightlessness. The facility was also used to conduct underwater […]"
+    },
+    {
       "title": "Willy Ley’s Long-Awaited Journey to Orbit: Honoring a Space Pioneer on Celestis’ Serenity and Destiny Flights",
       "link": "https://spacenews.com/willy-leys-long-awaited-journey-to-orbit-honoring-a-space-pioneer-on-celestis-serenity-and-destiny-flights/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-01-06T16:00:00Z",
       "summary": "NASA opens the International Space Station for scientists and researchers, inviting them to use the benefits of microgravity for commercial and public research, technology demonstrations, and more. Today, a portion of the crew’s time aboard station is devoted to private industry, including medical research that addresses complex health challenges on Earth and prepares astronauts for […]"
-    },
-    {
-      "title": "First Sky Map from NASA’s SPHEREx Observatory",
-      "link": "https://www.nasa.gov/image-article/first-sky-map-from-nasas-spherex-observatory/",
-      "source": "NASA",
-      "date": "2026-01-06T15:42:34Z",
-      "summary": "NASA’s SPHEREx Observatory has mapped the entire sky in 102 infrared colors, as seen here in this image released on Dec. 18, 2025. This image features a selection of colors emitted primarily by stars (blue, green, and white), hot hydrogen gas (blue), and cosmic dust (red). While not visible to the human eye, these 102 […]"
     }
   ],
-  "updated": "2026-01-06T18:39:31.139Z"
+  "updated": "2026-01-06T18:56:27.962Z"
 }
