@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Canada’s First Commercial Spaceport clears major hurdle with Environmental Approval",
+      "link": "https://www.nasaspaceflight.com/2026/01/canadas-first-commercial-spaceport-approval/",
+      "source": "NASASpaceflight",
+      "date": "2026-01-06T13:00:42Z",
+      "summary": "In a significant step forward for Canada’s domestic space ambitions, the Atlantic Spaceport Complex (ASX)…\nThe post Canada’s First Commercial Spaceport clears major hurdle with Environmental Approval appeared first on NASASpaceFlight.com."
+    },
+    {
+      "title": "Is the race for moon missions lunacy?",
+      "link": "https://spacenews.com/is-the-race-for-moon-missions-lunacy/",
+      "source": "SpaceNews",
+      "date": "2026-01-06T13:00:00Z",
+      "summary": "\nEven as NASA prepares for its Artemis 2 moon-circling mission, an Artemis 3 lunar-landing mission has suffered multiple delays, with no assurance of a launch before 2030. That may be a good thing because NASA still has not overcome critical risks and technological gaps of lunar exploration. These problems must be solved before we can establish a safe, productive long-term human […]\nThe post Is the race for moon missions lunacy? appeared first on SpaceNews."
+    },
+    {
       "title": "Diving Into Human Spaceflight Safety with NASA Johnson’s Craig Shannon",
       "link": "https://www.nasa.gov/centers-and-facilities/johnson/diving-into-human-spaceflight-safety-with-nasa-johnsons-craig-shannon/",
       "source": "NASA",
@@ -20,21 +34,7 @@
       "source": "SpaceDaily",
       "date": "2026-01-06T07:18:13Z",
       "summary": "Los Angeles CA (SPX) Jan 06, 2026\n\nFood businesses rely on cold rooms and process chillers to keep products safe from farm to fork. When cooling systems fail or behave unpredictably, the result can be spoilage, recalls, or subtle quality drift that emerges only when products reach consumers."
-    },
-    {
-      "title": "Nullschool launches new mobile app for popular Earth weather platform",
-      "link": "https://www.spacedaily.com/reports/Nullschool_launches_new_mobile_app_for_popular_Earth_weather_platform_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-06T05:22:54Z",
-      "summary": "Sydney, Australia (SPX) Jan 06, 2026\n\nCameron Beccario, creator of the global weather visualization site earth.nullschool.net, has created a new company called Nullschool Technologies to support the platform's operation and development as a full-time focus. The one-person company is intended to keep the project small and flexible while adding structure to daily work, with the stated goal of making Earth's weather and climate visible"
-    },
-    {
-      "title": "Reaching the Precipice in Angola",
-      "link": "https://science.nasa.gov/earth/earth-observatory/reaching-the-precipice-in-angola/",
-      "source": "NASA",
-      "date": "2026-01-06T05:01:00Z",
-      "summary": "The Huíla plateau, bounded by dramatic cliffs and chasms, stands above the arid coastal plains in the country’s southwest."
     }
   ],
-  "updated": "2026-01-06T12:31:12.833Z"
+  "updated": "2026-01-06T13:20:19.141Z"
 }
