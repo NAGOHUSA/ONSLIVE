@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA Awards Launch Range Contract for Wallops Flight Facility",
+      "link": "https://www.nasa.gov/news-release/nasa-awards-launch-range-contract-for-wallops-flight-facility/",
+      "source": "NASA",
+      "date": "2026-01-06T21:19:24Z",
+      "summary": "NASA has selected ARES Technical Services Corporation of McLean, Virginia, to provide launch range operations support at the agency’s Wallops Flight Facility in Virginia. The Wallops Range Contract has a total potential value of $339.8 million with a one-year base period expected to begin Tuesday, Feb. 10, and four one-year option periods that if exercised […]"
+    },
+    {
       "title": "NASA Marshall Prepares for Demolition of Historic Test, Simulation Facilities",
       "link": "https://www.nasa.gov/centers-and-facilities/marshall/nasa-marshall-prepares-for-demolition-of-historic-test-simulation-facilities/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-01-06T17:14:00Z",
       "summary": "Using NASA’s James Webb Space Telescope, astronomers have spotted two rare kinds of dust in the dwarf galaxy Sextans A, one of the most chemically primitive galaxies near the Milky Way. The finding of metallic iron dust and silicon carbide (SiC) produced by aging stars, along with tiny clumps of carbon-based molecules, shows that even […]"
-    },
-    {
-      "title": "Space Station Research Informs New FDA-Approved Cancer Therapy",
-      "link": "https://www.nasa.gov/missions/station/iss-research/space-station-research-informs-new-fda-approved-cancer-therapy/",
-      "source": "NASA",
-      "date": "2026-01-06T16:00:00Z",
-      "summary": "NASA opens the International Space Station for scientists and researchers, inviting them to use the benefits of microgravity for commercial and public research, technology demonstrations, and more. Today, a portion of the crew’s time aboard station is devoted to private industry, including medical research that addresses complex health challenges on Earth and prepares astronauts for […]"
     }
   ],
-  "updated": "2026-01-06T21:20:21.083Z"
+  "updated": "2026-01-06T21:37:36.146Z"
 }
