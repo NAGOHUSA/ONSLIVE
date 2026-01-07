@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Lightning from Above",
+      "link": "https://www.nasa.gov/image-article/lightning-from-above/",
+      "source": "NASA",
+      "date": "2026-01-07T16:26:56Z",
+      "summary": "NASA astronaut Nichole Ayers captured this image of lightning while orbiting aboard the International Space Station more than 250 miles above Milan, Italy on July 1, 2025. Storm observations from space station help scientists study Earth’s upper atmosphere, which can improve weather models and protect communication systems and aircraft. Space station crew take photographs of […]"
+    },
+    {
       "title": "Terran Orbital Appoints Michael Vishion as Vice President of Program Management",
       "link": "https://spacenews.com/terran-orbital-appoints-michael-vishion-as-vice-president-of-program-management/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceDaily",
       "date": "2026-01-07T14:12:22Z",
       "summary": "College Station TX (SPX) Jan 06, 2026\n\n\nWhen it comes to understanding the universe, what we know is only a sliver of the whole picture. Dark matter and dark energy make up about 95% of the universe, leaving only 5% \"ordinary matter,\" or what we can see. Dr. Rupak Mahapatra, an experimental particle physicist at Texas A&M University, designs highly advanced semiconductor detectors with cryogenic quantum sensors, powering experiments w"
-    },
-    {
-      "title": "NASA's IXPE Measures White Dwarf Star for First Time",
-      "link": "https://www.spacedaily.com/reports/NASAs_IXPE_Measures_White_Dwarf_Star_for_First_Time_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-07T14:12:22Z",
-      "summary": "Huntsville AL (SPX) Jan 05, 2026\r\n\r\n\r\nFor the first time, scientists have used NASA's IXPE (Imaging X-ray Polarization Explorer) to study a white dwarf star. Using IXPE's unique X-ray polarization capability, astronomers examined a star called the intermediate polar EX Hydrae, unlocking the geometry of energetic binary systems. \r\n\r\nIn 2024, IXPE spent nearly one week focused on EX Hydrae, a white dwarf star system located in the c"
     }
   ],
-  "updated": "2026-01-07T16:22:37.658Z"
+  "updated": "2026-01-07T16:52:09.498Z"
 }
