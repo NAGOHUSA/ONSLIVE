@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Sandblasting on Mars",
+      "link": "https://www.esa.int/Science_Exploration/Space_Science/Mars_Express/Sandblasting_on_Mars",
+      "source": "ESA",
+      "date": "2026-01-07T10:00:00Z",
+      "summary": "Martian winds can have quite an impact. ESA’s Mars Express has spotted them whipping up sand grains and acting as a cosmic sandblaster, carving out intriguing grooves near Mars’s equator."
+    },
+    {
       "title": "Algae Swirls Across a South African Reservoir",
       "link": "https://science.nasa.gov/earth/earth-observatory/algae-swirls-across-a-south-african-reservoir/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-01-06T21:19:24Z",
       "summary": "NASA has selected ARES Technical Services Corporation of McLean, Virginia, to provide launch range operations support at the agency’s Wallops Flight Facility in Virginia. The Wallops Range Contract has a total potential value of $339.8 million with a one-year base period expected to begin Tuesday, Feb. 10, and four one-year option periods that if exercised […]"
-    },
-    {
-      "title": "NASA Marshall Prepares for Demolition of Historic Test, Simulation Facilities",
-      "link": "https://www.nasa.gov/centers-and-facilities/marshall/nasa-marshall-prepares-for-demolition-of-historic-test-simulation-facilities/",
-      "source": "NASA",
-      "date": "2026-01-06T18:44:30Z",
-      "summary": "NASA is preparing for the demolition of three iconic structures at the agency’s Marshall Space Flight Center in Huntsville, Alabama. Crews began demolition in mid-December at the Neutral Buoyancy Simulator, a facility built in the late 1960s that once enabled NASA astronauts and researchers to experience near-weightlessness. The facility was also used to conduct underwater […]"
     }
   ],
-  "updated": "2026-01-07T09:58:07.143Z"
+  "updated": "2026-01-07T10:21:11.653Z"
 }
