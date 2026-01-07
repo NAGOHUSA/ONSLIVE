@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA postpones first spacewalk of 2026 due to a ‘medical concern’ with an ISS crew member",
+      "link": "https://spaceflightnow.com/2026/01/07/nasa-postpones-first-spacewalk-of-2026-due-to-a-medical-concern-with-an-iss-crew-member/",
+      "source": "Spaceflight Now",
+      "date": "2026-01-07T23:33:38Z",
+      "summary": "U.S. spacewalk 94 was slated to have NASA astronauts Mike Fincke and Zena Cardman perform a variety of operations around the orbiting outpost during the roughly 6.5-hour-long event. A new date for the spacewalk hasn’t been announced. "
+    },
+    {
       "title": "TPS evaluations taking place at Starbase on next two Ships to fly",
       "link": "https://www.nasaspaceflight.com/2026/01/tps-evaluations-next-two-ships/",
       "source": "NASASpaceflight",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-01-07T16:26:56Z",
       "summary": "NASA astronaut Nichole Ayers captured this image of lightning while orbiting aboard the International Space Station more than 250 miles above Milan, Italy on July 1, 2025. Storm observations from space station help scientists study Earth’s upper atmosphere, which can improve weather models and protect communication systems and aircraft. Space station crew take photographs of […]"
-    },
-    {
-      "title": "Terran Orbital Appoints Michael Vishion as Vice President of Program Management",
-      "link": "https://spacenews.com/terran-orbital-appoints-michael-vishion-as-vice-president-of-program-management/",
-      "source": "SpaceNews",
-      "date": "2026-01-07T15:44:38Z",
-      "summary": "\nIRVINE, Calif., Jan. 7, 2026 — Terran Orbital, a Lockheed Martin Company and a leading manufacturer of satellite solutions, announced today the appointment of Michael Vishion as vice president of […]\nThe post Terran Orbital Appoints Michael Vishion as Vice President of Program Management appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-07T23:35:05.212Z"
+  "updated": "2026-01-07T23:46:05.536Z"
 }
