@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA Celebrates Artemis II During Houston Texans Space City Day",
+      "link": "https://www.nasa.gov/centers-and-facilities/johnson/nasa-celebrates-artemis-ii-during-houston-texans-space-city-day/",
+      "source": "NASA",
+      "date": "2026-01-07T22:40:11Z",
+      "summary": "NASA’s Johnson Space Center was front and center Jan. 4, 2026, as the Houston Texans faced the Indianapolis Colts during Space City Day at NRG Stadium. Fans watched the Texans win while getting a close look at NASA’s Artemis II mission, the first crewed flight of the Artemis campaign.  The Artemis II mission will send four astronauts—NASA astronauts Reid Wiseman, Victor Glover, and Christina Koch, along with CSA (Canadian […]"
+    },
+    {
       "title": "25 Years in Orbit: Science, Innovation, and the Future of Exploration",
       "link": "https://www.nasa.gov/centers-and-facilities/johnson/25-years-in-orbit-science-innovation-and-the-future-of-exploration/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-07T14:53:03Z",
       "summary": "\nFalcon ExoDynamics wins contract to mature satellite interface developed by Aerospace Corp.\nThe post Space Force moves to standardize satellites with ‘Handle 2.0’ contract appeared first on SpaceNews."
-    },
-    {
-      "title": "Star like early galaxies challenge views of cosmic evolution",
-      "link": "https://www.spacedaily.com/reports/Star_like_early_galaxies_challenge_views_of_cosmic_evolution_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-07T14:12:22Z",
-      "summary": "Los Angeles CA (SPX) Jan 07, 2026\n\n\nScientists at the University of Missouri have identified a small group of unusual objects in the early universe that look like stars in images yet behave like compact galaxies when analyzed in detail. Using NASAs James Webb Space Telescope JWST, Haojing Yan and colleagues at Mizzous College of Arts and Science found that these sources appear as single points of light while carrying the spectral"
     }
   ],
-  "updated": "2026-01-07T22:40:55.223Z"
+  "updated": "2026-01-07T22:52:42.008Z"
 }
