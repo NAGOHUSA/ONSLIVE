@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Algae Swirls Across a South African Reservoir",
+      "link": "https://science.nasa.gov/earth/earth-observatory/algae-swirls-across-a-south-african-reservoir/",
+      "source": "NASA",
+      "date": "2026-01-07T05:00:00Z",
+      "summary": "Vivid green blooms form, drift, and fade in Hartbeespoortdam reservoir over the course of a year."
+    },
+    {
       "title": "NASA works to extend Swift’s life ahead of reboost mission",
       "link": "https://spacenews.com/nasa-works-to-extend-swifts-life-ahead-of-reboost-mission/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-01-06T18:44:30Z",
       "summary": "NASA is preparing for the demolition of three iconic structures at the agency’s Marshall Space Flight Center in Huntsville, Alabama. Crews began demolition in mid-December at the Neutral Buoyancy Simulator, a facility built in the late 1960s that once enabled NASA astronauts and researchers to experience near-weightlessness. The facility was also used to conduct underwater […]"
-    },
-    {
-      "title": "Willy Ley’s Long-Awaited Journey to Orbit: Honoring a Space Pioneer on Celestis’ Serenity and Destiny Flights",
-      "link": "https://spacenews.com/willy-leys-long-awaited-journey-to-orbit-honoring-a-space-pioneer-on-celestis-serenity-and-destiny-flights/",
-      "source": "SpaceNews",
-      "date": "2026-01-06T18:07:35Z",
-      "summary": "HOUSTON, TX January 6, 2025 – For nearly a century, humanity’s vision of spaceflight has been shaped not only by engineers and astronauts, but by those who dared to imagine […]\r\nThe post Willy Ley’s Long-Awaited Journey to Orbit: Honoring a Space Pioneer on Celestis’ Serenity and Destiny Flights appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-07T04:49:32.172Z"
+  "updated": "2026-01-07T05:14:20.738Z"
 }
