@@ -1,4 +1,40 @@
 {
-  "articles": [],
-  "updated": "2026-01-07T11:51:55.833Z"
+  "articles": [
+    {
+      "title": "Sandblasting on Mars",
+      "link": "https://www.esa.int/Science_Exploration/Space_Science/Mars_Express/Sandblasting_on_Mars",
+      "source": "ESA",
+      "date": "2026-01-07T10:00:00Z",
+      "summary": "Martian winds can have quite an impact. ESA’s Mars Express has spotted them whipping up sand grains and acting as a cosmic sandblaster, carving out intriguing grooves near Mars’s equator."
+    },
+    {
+      "title": "Algae Swirls Across a South African Reservoir",
+      "link": "https://science.nasa.gov/earth/earth-observatory/algae-swirls-across-a-south-african-reservoir/",
+      "source": "NASA",
+      "date": "2026-01-07T05:00:00Z",
+      "summary": "Vivid green blooms form, drift, and fade in Hartbeespoortdam reservoir over the course of a year."
+    },
+    {
+      "title": "NASA works to extend Swift’s life ahead of reboost mission",
+      "link": "https://spacenews.com/nasa-works-to-extend-swifts-life-ahead-of-reboost-mission/",
+      "source": "SpaceNews",
+      "date": "2026-01-07T00:14:07Z",
+      "summary": "As preparations continue for a mission to raise the orbit of NASA’s Swift astrophysics spacecraft, project officials are also pursuing steps to extend the satellite’s life in case of delays.\r\nThe post NASA works to extend Swift’s life ahead of reboost mission appeared first on SpaceNews."
+    },
+    {
+      "title": "Supernova Remnant Video From NASA’s Chandra Is Decades in Making",
+      "link": "https://www.nasa.gov/missions/chandra/supernova-remnant-video-from-nasas-chandra-is-decades-in-making/",
+      "source": "NASA",
+      "date": "2026-01-06T21:30:45Z",
+      "summary": "A new video shows the evolution of Kepler’s Supernova Remnant using data from NASA’s Chandra X-ray Observatory captured over more than two and a half decades. Kepler’s Supernova Remnant, named after the German astronomer Johannes Kepler, was first spotted in the night sky in 1604. Today, astronomers know that a white dwarf star exploded when […]"
+    },
+    {
+      "title": "NASA Awards Launch Range Contract for Wallops Flight Facility",
+      "link": "https://www.nasa.gov/news-release/nasa-awards-launch-range-contract-for-wallops-flight-facility/",
+      "source": "NASA",
+      "date": "2026-01-06T21:19:24Z",
+      "summary": "NASA has selected ARES Technical Services Corporation of McLean, Virginia, to provide launch range operations support at the agency’s Wallops Flight Facility in Virginia. The Wallops Range Contract has a total potential value of $339.8 million with a one-year base period expected to begin Tuesday, Feb. 10, and four one-year option periods that if exercised […]"
+    }
+  ],
+  "updated": "2026-01-07T11:58:43.274Z"
 }
