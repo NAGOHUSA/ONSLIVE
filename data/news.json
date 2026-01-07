@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "25 Years in Orbit: Science, Innovation, and the Future of Exploration",
+      "link": "https://www.nasa.gov/centers-and-facilities/johnson/25-years-in-orbit-science-innovation-and-the-future-of-exploration/",
+      "source": "NASA",
+      "date": "2026-01-07T21:05:57Z",
+      "summary": "NASA and its partners have supported humans continuously living and working in space since November 2000. A truly global endeavor, the International Space Station has been visited by more than 290 people from 26 countries and a variety of international and commercial spacecraft. The unique microgravity laboratory has hosted more than 4,000 experiments from over […]"
+    },
+    {
       "title": "Lightning from Above",
       "link": "https://www.nasa.gov/image-article/lightning-from-above/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceDaily",
       "date": "2026-01-07T14:12:22Z",
       "summary": "Los Angeles CA (SPX) Jan 07, 2026\n\n\nScientists at the University of Missouri have identified a small group of unusual objects in the early universe that look like stars in images yet behave like compact galaxies when analyzed in detail. Using NASAs James Webb Space Telescope JWST, Haojing Yan and colleagues at Mizzous College of Arts and Science found that these sources appear as single points of light while carrying the spectral"
-    },
-    {
-      "title": "We have no idea what most of the universe is made of, but scientists are closer than ever to finding out",
-      "link": "https://www.spacedaily.com/reports/We_have_no_idea_what_most_of_the_universe_is_made_of_but_scientists_are_closer_than_ever_to_finding_out_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-07T14:12:22Z",
-      "summary": "College Station TX (SPX) Jan 06, 2026\n\n\nWhen it comes to understanding the universe, what we know is only a sliver of the whole picture. Dark matter and dark energy make up about 95% of the universe, leaving only 5% \"ordinary matter,\" or what we can see. Dr. Rupak Mahapatra, an experimental particle physicist at Texas A&M University, designs highly advanced semiconductor detectors with cryogenic quantum sensors, powering experiments w"
     }
   ],
-  "updated": "2026-01-07T20:55:31.912Z"
+  "updated": "2026-01-07T21:11:52.320Z"
 }
