@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA Starts Up Gateway’s Power System for First Time",
+      "link": "https://www.nasa.gov/centers-and-facilities/glenn/nasa-starts-up-gateways-power-system-for-first-time/",
+      "source": "NASA",
+      "date": "2026-01-08T17:04:25Z",
+      "summary": "Development continues on NASA’s Power and Propulsion Element, a solar electric propulsion spacecraft designed to provide power for Gateway in lunar orbit. Able to generate 60 kilowatts of thrust, the element was successfully powered on earlier last year. The milestone demonstrates the element can provide the spacecraft with power, high-rate communications, attitude control, as well […]"
+    },
+    {
       "title": "Private group unveils plans for large space telescope",
       "link": "https://spacenews.com/private-group-unveils-plans-for-large-space-telescope/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "European Spaceflight",
       "date": "2026-01-08T15:40:31Z",
       "summary": "The European Space Agency (ESA) has revealed that, with the launch facility in Sweden currently “under snow,” it is “waiting for spring” to launch an initial hop test of its Themis reusable rocket booster demonstrator. ESA began work on the Themis project in 2019 as a means of maturing reusable rocket technology for future European […]\nThe post ESA “Waiting for Spring” to Launch Themis Reusable Rocket Demonstrator appeared first on European Spaceflight."
-    },
-    {
-      "title": "Eric Schmidt will massively invest in private telescopes, including Hubble replacement",
-      "link": "https://arstechnica.com/space/2026/01/eric-schmidt-will-massively-invest-in-private-telescopes-including-hubble-replacement/",
-      "source": "Arstechnica",
-      "date": "2026-01-08T14:05:52Z",
-      "summary": "“This is a very significant contribution to the astronomical community.\""
     }
   ],
-  "updated": "2026-01-08T17:00:08.346Z"
+  "updated": "2026-01-08T17:28:48.339Z"
 }
