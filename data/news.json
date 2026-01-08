@@ -1,13 +1,6 @@
 {
   "articles": [
     {
-      "title": "Sandblasting winds sculpt Mars landscape",
-      "link": "https://www.marsdaily.com/reports/Sandblasting_winds_sculpt_Mars_landscape_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-08T05:14:32Z",
-      "summary": "Berlin, Germany (SPX) Jan 08, 2026\n\n\nMartian winds lift sand grains into the air and drive them across the surface, where they erode soft sedimentary layers and gradually carve elongated grooves and ridges near the planet's equator. The remaining ridges, mounds, or columns, known as yardangs, stand above the surrounding terrain and often extend for tens of kilometres in the direction of the prevailing winds. \n\nIn northern Eumen"
-    },
-    {
       "title": "NSF-DOE Vera C. Rubin Observatory spots record-breaking asteroid in pre-survey observations",
       "link": "https://www.spacedaily.com/reports/NSF_DOE_Vera_C__Rubin_Observatory_spots_record_breaking_asteroid_in_pre_survey_observations_999.html",
       "source": "SpaceDaily",
@@ -29,6 +22,13 @@
       "summary": "Washington DC (SPX) Jan 08, 2026\n\n\nOver half of the exhaust methane from lunar spacecraft could end up contaminating areas of the moon that might otherwise yield clues about the origins of earthly life, according to a recent study. The pollution could unfold rapidly regardless of a spacecraft's touchdown site; even for a landing at the South Pole, methane molecules may \"hop\" across the lunar surface to the North Pole in under two"
     },
     {
+      "title": "Sandblasting winds sculpt Mars landscape",
+      "link": "https://www.marsdaily.com/reports/Sandblasting_winds_sculpt_Mars_landscape_999.html",
+      "source": "SpaceDaily",
+      "date": "2026-01-08T05:14:32Z",
+      "summary": "Berlin, Germany (SPX) Jan 08, 2026\n\n\nMartian winds lift sand grains into the air and drive them across the surface, where they erode soft sedimentary layers and gradually carve elongated grooves and ridges near the planet's equator. The remaining ridges, mounds, or columns, known as yardangs, stand above the surrounding terrain and often extend for tens of kilometres in the direction of the prevailing winds. \n\nIn northern Eumen"
+    },
+    {
       "title": "M dwarf plasma torus offers window into space weather and planetary habitability",
       "link": "https://www.spacedaily.com/reports/M_dwarf_plasma_torus_offers_window_into_space_weather_and_planetary_habitability_999.html",
       "source": "SpaceDaily",
@@ -36,5 +36,5 @@
       "summary": "Los Angeles CA (SPX) Jan 08, 2026\n\n\nCarnegie researcher Luke Bouma is using a naturally occurring plasma structure around certain young M dwarf stars as a kind of space weather station to investigate how stellar particles shape planetary environments and potential habitability. M dwarfs are smaller, cooler and dimmer than the Sun and commonly host at least one Earth-sized rocky planet, many of which are either too hot for liquid w"
     }
   ],
-  "updated": "2026-01-08T04:50:48.893Z"
+  "updated": "2026-01-08T05:13:29.816Z"
 }
