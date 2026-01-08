@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Early Return of Crew-11 Possible Due to Ailing Astronaut",
+      "link": "https://spacepolicyonline.com/news/early-return-of-crew-11-possible-due-to-ailing-astronaut/",
+      "source": "SpacePolicyOnline.com",
+      "date": "2026-01-08T13:23:45Z",
+      "summary": "NASA is considering an early return of Crew-11 because one of the astronauts is ill. For privacy reasons the agency is declining to say who it is or identifying the […]"
+    },
+    {
+      "title": "Medical issue could force early end of Crew-11 ISS mission",
+      "link": "https://spacenews.com/medical-issue-could-force-early-end-of-crew-11-iss-mission/",
+      "source": "SpaceNews",
+      "date": "2026-01-08T12:49:33Z",
+      "summary": "\nAn unspecified “medical concern” involving one of the astronauts aboard the International Space Station has postponed a spacewalk and could force an unprecedented early return of part of the crew.\nThe post Medical issue could force early end of Crew-11 ISS mission appeared first on SpaceNews."
+    },
+    {
       "title": "ESA Strikes New Deal with NASA for Its CSOC Commitments for the ISS",
       "link": "https://europeanspaceflight.com/esa-strikes-new-deal-with-nasa-for-its-csoc-commitments-for-the-iss/",
       "source": "European Spaceflight",
@@ -20,21 +34,7 @@
       "source": "ESA",
       "date": "2026-01-08T11:30:00Z",
       "summary": "Josef Aschbacher, Director General of the European Space Agency, briefed journalists on the main milestones for 2026, such as the launch of Smile, a mission that will give humankind its first complete look at how Earth reacts to streams of particles and bursts of radiation from the Sun. Later in 2026 should also see the arrival of BepiColombo at Mercury after its eight-year trip, where it will gather data to answer many perplexing questions about the least-explored planet of the inner Solar System. Many more exciting missions are expected, with ESA astronaut Sophie Adenot launching for the International Space Station, and various Earth Observation and Navigation launches from Europe’s Spaceport in French Guiana."
-    },
-    {
-      "title": "ESA preview 2026",
-      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/01/ESA_preview_2026",
-      "source": "ESA",
-      "date": "2026-01-08T10:00:00Z",
-      "summary": "As a new year begins, let’s take a look at what’s ahead for the European Space Agency in 2026. From Earth to the farthest reaches of the Solar System, 2026 marks a year of firsts that continue to shape the future of space."
-    },
-    {
-      "title": "Starfighters Space positions for rapid hypersonic era missions",
-      "link": "https://www.spacewar.com/reports/Starfighters_Space_positions_for_rapid_hypersonic_era_missions_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-08T09:12:29Z",
-      "summary": "Sydney, Australia (SPX) Jan 03, 2026\n\n\nAs rivals deploy operational hypersonic vehicles, analysts describe a new Sputnik moment for U.S. tactical space access, with the Pentagon directing more than $6.9 billion toward hypersonic weapons programs for fiscal 2025 and the hypersonic technology market projected at about $8.46 billion this year. The shift away from chasing the lowest launch price toward speed and responsiveness underpins"
     }
   ],
-  "updated": "2026-01-08T12:50:04.446Z"
+  "updated": "2026-01-08T13:31:07.057Z"
 }
