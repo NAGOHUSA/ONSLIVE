@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Roman Space Telescope on track for September launch",
+      "link": "https://spacenews.com/roman-space-telescope-on-track-for-september-launch/",
+      "source": "SpaceNews",
+      "date": "2026-01-08T19:30:19Z",
+      "summary": "\nNASA expects to launch the Nancy Grace Roman Space Telescope as soon as September, seeing it as evidence the agency can do flagships on cost and schedule.\nThe post Roman Space Telescope on track for September launch appeared first on SpaceNews."
+    },
+    {
+      "title": "NASA to Provide Media with International Space Station Update Today",
+      "link": "https://www.nasa.gov/news-release/nasa-to-provide-media-with-international-space-station-update-today/",
+      "source": "NASA",
+      "date": "2026-01-08T19:26:06Z",
+      "summary": "NASA will host a live news conference at 5 p.m. EST on Thursday from the agency’s headquarters in Washington to discuss the International Space Station and its crew. On Jan. 7, the agency announced it was postponing a planned spacewalk originally scheduled for Jan. 8 while teams monitored a medical concern with a crew member […]"
+    },
+    {
       "title": "The future of Starship’s Pad 1 tower and launch mount",
       "link": "https://www.nasaspaceflight.com/2026/01/pad-1-tower-launch-mount-future/",
       "source": "NASASpaceflight",
@@ -20,21 +34,7 @@
       "source": "NASA",
       "date": "2026-01-08T17:04:25Z",
       "summary": "Development continues on NASA’s Power and Propulsion Element, a solar electric propulsion spacecraft designed to provide power for Gateway in lunar orbit. Able to generate 60 kilowatts of thrust, the element was successfully powered on earlier last year. The milestone demonstrates the element can provide the spacecraft with power, high-rate communications, attitude control, as well […]"
-    },
-    {
-      "title": "Private group unveils plans for large space telescope",
-      "link": "https://spacenews.com/private-group-unveils-plans-for-large-space-telescope/",
-      "source": "SpaceNews",
-      "date": "2026-01-08T16:33:58Z",
-      "summary": "\nA billionaire-backed philanthropic organization is funding the development of a series of new observatories, including a space telescope larger than Hubble.\nThe post Private group unveils plans for large space telescope appeared first on SpaceNews."
-    },
-    {
-      "title": "2026 will clarify Europe’s new priorities for space",
-      "link": "https://spacenews.com/2026-will-clarify-europes-new-priorities-for-space/",
-      "source": "SpaceNews",
-      "date": "2026-01-08T16:00:00Z",
-      "summary": "\nLaunchers Isar Aerospace is expected to attempt its second two-stage Spectrum vehicle test flight, a key step after its first, partially successful liftoff in 2025. In parallel, Spain’s PLD Space and its Miura-5 remain the second contender — after Isar — for the European Launcher Challenge, a competition that increasingly looks like Europe’s closest analogue […]\nThe post 2026 will clarify Europe’s new priorities for space appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-08T19:29:53.556Z"
+  "updated": "2026-01-08T19:41:23.506Z"
 }
