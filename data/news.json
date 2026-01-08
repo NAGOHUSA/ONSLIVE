@@ -1,6 +1,27 @@
 {
   "articles": [
     {
+      "title": "Eric Schmidt will massively invest in private telescopes, including Hubble replacement",
+      "link": "https://arstechnica.com/space/2026/01/eric-schmidt-will-massively-invest-in-private-telescopes-including-hubble-replacement/",
+      "source": "Arstechnica",
+      "date": "2026-01-08T14:05:52Z",
+      "summary": "“This is a very significant contribution to the astronomical community.\""
+    },
+    {
+      "title": "Vulcan to open 2026 with national security launch",
+      "link": "https://spacenews.com/vulcan-to-open-2026-with-national-security-launch/",
+      "source": "SpaceNews",
+      "date": "2026-01-08T14:04:06Z",
+      "summary": "\nThe launch of USSF-87 comes amid leadership change at United Launch Alliance and pressure to increase launch tempo\nThe post Vulcan to open 2026 with national security launch appeared first on SpaceNews."
+    },
+    {
+      "title": "The ‘space tax’ on your self-driving car",
+      "link": "https://spacenews.com/the-space-tax-on-your-self-driving-car/",
+      "source": "SpaceNews",
+      "date": "2026-01-08T14:00:00Z",
+      "summary": "\nLiDAR costs, compute power and AI training are the “big three” usually associated with the high cost of autonomous vehicles (AVs). We rarely look up. But maybe we should. High above the Earth, the ionosphere, a chaotic, sun-charged layer of our atmosphere, is levying an invisible tax on every self-driving car in development. If you […]\nThe post The ‘space tax’ on your self-driving car appeared first on SpaceNews."
+    },
+    {
       "title": "Early Return of Crew-11 Possible Due to Ailing Astronaut",
       "link": "https://spacepolicyonline.com/news/early-return-of-crew-11-possible-due-to-ailing-astronaut/",
       "source": "SpacePolicyOnline.com",
@@ -13,28 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-08T12:49:33Z",
       "summary": "\nAn unspecified “medical concern” involving one of the astronauts aboard the International Space Station has postponed a spacewalk and could force an unprecedented early return of part of the crew.\nThe post Medical issue could force early end of Crew-11 ISS mission appeared first on SpaceNews."
-    },
-    {
-      "title": "ESA Strikes New Deal with NASA for Its CSOC Commitments for the ISS",
-      "link": "https://europeanspaceflight.com/esa-strikes-new-deal-with-nasa-for-its-csoc-commitments-for-the-iss/",
-      "source": "European Spaceflight",
-      "date": "2026-01-08T12:34:26Z",
-      "summary": "After cancelling a call for proposals in December for a commercial cargo mission to the International Space Station (ISS) that was intended to meet its obligations related to the station’s Common System Operations Costs (CSOC), the European Space Agency (ESA) has outlined a revised barter arrangement with NASA. Under the CSOC framework, all ISS partners […]\nThe post ESA Strikes New Deal with NASA for Its CSOC Commitments for the ISS appeared first on European Spaceflight."
-    },
-    {
-      "title": "Interplanetary science needs a commercial backbone",
-      "link": "https://spacenews.com/interplanetary-science-needs-a-commercial-backbone/",
-      "source": "SpaceNews",
-      "date": "2026-01-08T12:00:00Z",
-      "summary": "\nWe are in an era where planetary science no longer depends on government missions. Commercial capabilities are mature and ready to deliver a higher cadence of planetary exploration that fits within proposed budgets. What’s missing is an operational model that matches ambition. The old way — one in which bespoke, government-run missions with decade-long development […]\nThe post Interplanetary science needs a commercial backbone appeared first on SpaceNews."
-    },
-    {
-      "title": "ESA Director General’s 2026 annual press briefing",
-      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/01/ESA_Director_General_s_2026_annual_press_briefing",
-      "source": "ESA",
-      "date": "2026-01-08T11:30:00Z",
-      "summary": "Josef Aschbacher, Director General of the European Space Agency, briefed journalists on the main milestones for 2026, such as the launch of Smile, a mission that will give humankind its first complete look at how Earth reacts to streams of particles and bursts of radiation from the Sun. Later in 2026 should also see the arrival of BepiColombo at Mercury after its eight-year trip, where it will gather data to answer many perplexing questions about the least-explored planet of the inner Solar System. Many more exciting missions are expected, with ESA astronaut Sophie Adenot launching for the International Space Station, and various Earth Observation and Navigation launches from Europe’s Spaceport in French Guiana."
     }
   ],
-  "updated": "2026-01-08T13:57:55.545Z"
+  "updated": "2026-01-08T14:22:07.160Z"
 }
