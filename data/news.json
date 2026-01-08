@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "House Passes Final FY2026 Funding Bill For NASA, Senate is Next",
+      "link": "https://spacepolicyonline.com/news/house-passes-final-fy2026-funding-bill-for-nasa-senate-is-next/",
+      "source": "SpacePolicyOnline.com",
+      "date": "2026-01-08T21:07:39Z",
+      "summary": "Today the House passed three more final FY2026 appropriations bills — a minibus — that represent a compromise between the House and Senate over funding for Commerce-Justice-Science (CJS), Energy-Water, and […]"
+    },
+    {
       "title": "Roman Space Telescope on track for September launch",
       "link": "https://spacenews.com/roman-space-telescope-on-track-for-september-launch/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-01-08T17:20:46Z",
       "summary": "Artemis II crewmembers (left to right) NASA astronauts Christina Koch, mission specialist; and Victor Glover, pilot; CSA (Canadian Space Agency) astronaut Jeremy Hansen, mission specialist; and NASA astronaut Reid Wiseman, commander are led by Bill Owens of the Closeout Crew from the elevator at the 275-foot level of the mobile launcher to the crew access […]"
-    },
-    {
-      "title": "NASA Starts Up Gateway’s Power System for First Time",
-      "link": "https://www.nasa.gov/centers-and-facilities/glenn/nasa-starts-up-gateways-power-system-for-first-time/",
-      "source": "NASA",
-      "date": "2026-01-08T17:04:25Z",
-      "summary": "Development continues on NASA’s Power and Propulsion Element, a solar electric propulsion spacecraft designed to provide power for Gateway in lunar orbit. Able to generate 60 kilowatts of thrust, the element was successfully powered on earlier last year. The milestone demonstrates the element can provide the spacecraft with power, high-rate communications, attitude control, as well […]"
     }
   ],
-  "updated": "2026-01-08T20:58:57.855Z"
+  "updated": "2026-01-08T21:20:29.472Z"
 }
