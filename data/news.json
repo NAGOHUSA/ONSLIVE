@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Best of 2025: Artemis II Countdown Demonstration Test",
+      "link": "https://www.nasa.gov/image-article/best-of-2025-artemis-ii-countdown-demonstration-test/",
+      "source": "NASA",
+      "date": "2026-01-08T17:20:46Z",
+      "summary": "Artemis II crewmembers (left to right) NASA astronauts Christina Koch, mission specialist; and Victor Glover, pilot; CSA (Canadian Space Agency) astronaut Jeremy Hansen, mission specialist; and NASA astronaut Reid Wiseman, commander are led by Bill Owens of the Closeout Crew from the elevator at the 275-foot level of the mobile launcher to the crew access […]"
+    },
+    {
       "title": "NASA Starts Up Gateway’s Power System for First Time",
       "link": "https://www.nasa.gov/centers-and-facilities/glenn/nasa-starts-up-gateways-power-system-for-first-time/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-08T15:54:03Z",
       "summary": "\nIn this special episode of Space Minds, our show is split into two segments from the recent SpaceNews annual Icon Awards.\nThe post The moon, AI and the high-stakes decisions shaping space’s future appeared first on SpaceNews."
-    },
-    {
-      "title": "ESA “Waiting for Spring” to Launch Themis Reusable Rocket Demonstrator",
-      "link": "https://europeanspaceflight.com/esa-waiting-for-spring-to-launch-themis-reusable-rocket-demonstrator/",
-      "source": "European Spaceflight",
-      "date": "2026-01-08T15:40:31Z",
-      "summary": "The European Space Agency (ESA) has revealed that, with the launch facility in Sweden currently “under snow,” it is “waiting for spring” to launch an initial hop test of its Themis reusable rocket booster demonstrator. ESA began work on the Themis project in 2019 as a means of maturing reusable rocket technology for future European […]\nThe post ESA “Waiting for Spring” to Launch Themis Reusable Rocket Demonstrator appeared first on European Spaceflight."
     }
   ],
-  "updated": "2026-01-08T17:28:48.339Z"
+  "updated": "2026-01-08T17:50:56.372Z"
 }
