@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "I am Artemis: Dave Reynolds",
+      "link": "https://www.nasa.gov/missions/artemis/i-am-artemis/i-am-artemis-dave-reynolds/",
+      "source": "NASA",
+      "date": "2026-01-09T17:29:03Z",
+      "summary": "As booster manager for NASA’s SLS (Space Launch System), Dave Reynolds’ path to NASA is embodied by his childhood poster of the space shuttle’s Return to Flight initiative, which hangs in his office, serving as a constant reminder that his journey to the agency began decades ago. Growing up in Roy, Utah, Reynolds remembers standing […]"
+    },
+    {
+      "title": "NASA chief reviews Orion heat shield, expresses “full confidence” in it for Artemis II",
+      "link": "https://arstechnica.com/space/2026/01/nasa-chief-reviews-orion-heat-shield-expresses-full-confidence-in-it-for-artemis-ii/",
+      "source": "Arstechnica",
+      "date": "2026-01-09T17:17:41Z",
+      "summary": "\"That level of openness and transparency is exactly what should be expected of NASA.\""
+    },
+    {
       "title": "NASA’s Pandora Satellite, CubeSats to Explore Exoplanets, Beyond",
       "link": "https://science.nasa.gov/universe/exoplanets/nasas-pandora-satellite-cubesats-to-explore-exoplanets-beyond/",
       "source": "NASA",
@@ -20,21 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-09T14:00:00Z",
       "summary": "\nAt the beginning of 2026, it’s worth reflecting on the U.S. Space Force’s recent accomplishments. They include the creation of the Commercial Space Office and its Commercial Augmentation Space Reserve, a working capital fund to provide flexibility in providing MILSATCOM services and new acquisition approaches for Resilient GPS and Protected Tactical SATCOM. The list of […]\nThe post The Space Force will acquire and integrate systems faster in 2026 appeared first on SpaceNews."
-    },
-    {
-      "title": "International Space Station crew to return early after astronaut medical issue",
-      "link": "https://www.spacedaily.com/reports/International_Space_Station_crew_to_return_early_after_astronaut_medical_issue_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-09T13:29:54Z",
-      "summary": "Washington, United States (AFP) Jan 8, 2026\r\n\r\n\r\n NASA crewmembers at the International Space Station will return to Earth within days after an astronaut suffered a health issue, the US space agency said Thursday, the first such medical evacuation in the orbital lab's history. \r\n\r\nOfficials did not provide details of the medical event but said the unidentified crewmember is stable. They said it did not result from any kind of injury onboard or"
-    },
-    {
-      "title": "Barred spiral galaxy spotted 11.5 billion years in the past",
-      "link": "https://www.spacedaily.com/reports/Barred_spiral_galaxy_spotted_11_5_billion_years_in_the_past_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-09T13:29:54Z",
-      "summary": "Los Angeles CA (SPX) Jan 09, 2026\n\n\nResearch led by Daniel Ivanov, a physics and astronomy graduate student in the Kenneth P. Dietrich School of Arts and Sciences at the University of Pittsburgh, has identified a contender for one of the earliest known spiral galaxies containing a stellar bar, a structure that plays a role in how galaxies evolve. The system, designated COSMOS-74706, appears as a barred spiral galaxy from a time wh"
     }
   ],
-  "updated": "2026-01-09T17:02:58.050Z"
+  "updated": "2026-01-09T17:30:41.065Z"
 }
