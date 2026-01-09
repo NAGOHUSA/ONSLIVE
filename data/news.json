@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Ganges Delta Under a Winter Shroud of Fog",
+      "link": "https://science.nasa.gov/earth/earth-observatory/ganges-delta-under-a-winter-shroud-of-fog/",
+      "source": "NASA",
+      "date": "2026-01-09T05:00:00Z",
+      "summary": "Low clouds blanketed the delta while parallel cloud bands rolled over the Bay of Bengal during a January cold wave."
+    },
+    {
       "title": "Crew-11 to cut mission short and return to Earth due to medical issue",
       "link": "https://spaceflightnow.com/2026/01/09/crew-11-to-cut-mission-short-and-return-to-earth-due-to-medical-issue/",
       "source": "Spaceflight Now",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-08T23:54:22Z",
       "summary": "\nNASA has decided to bring home early four members of the International Space Station crew because of a medical issue with one of them, a first for NASA.\nThe post Medical issue prompts early return of Crew-11 from ISS appeared first on SpaceNews."
-    },
-    {
-      "title": "Crew-11 to return early due to a medical concern with astronaut",
-      "link": "https://www.nasaspaceflight.com/2026/01/crew-11-to-return-early-medical-astronaut/",
-      "source": "NASASpaceflight",
-      "date": "2026-01-08T22:39:12Z",
-      "summary": "NASA has opted to bring the four-member Crew-11 team home from the International Space Station…\nThe post Crew-11 to return early due to a medical concern with astronaut appeared first on NASASpaceFlight.com."
     }
   ],
-  "updated": "2026-01-09T04:58:52.458Z"
+  "updated": "2026-01-09T05:23:56.560Z"
 }
