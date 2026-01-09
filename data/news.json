@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA’s Pandora Satellite, CubeSats to Explore Exoplanets, Beyond",
+      "link": "https://science.nasa.gov/universe/exoplanets/nasas-pandora-satellite-cubesats-to-explore-exoplanets-beyond/",
+      "source": "NASA",
+      "date": "2026-01-09T14:40:59Z",
+      "summary": "A new NASA spacecraft called Pandora is awaiting launch ahead of its journey to study the atmospheres of exoplanets, or worlds beyond our solar system, and their stars. Along for the ride are two shoebox-sized satellites called BlackCAT (Black Hole Coded Aperture Telescope) and SPARCS (Star-Planet Activity Research CubeSat), as NASA innovates with ambitious science […]"
+    },
+    {
       "title": "Week in images: 05-09 January 2026",
       "link": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_05-09_January_2026",
       "source": "ESA",
@@ -27,14 +34,7 @@
       "source": "SpaceDaily",
       "date": "2026-01-09T13:29:54Z",
       "summary": "Los Angeles CA (SPX) Jan 09, 2026\n\n\nResearch led by Daniel Ivanov, a physics and astronomy graduate student in the Kenneth P. Dietrich School of Arts and Sciences at the University of Pittsburgh, has identified a contender for one of the earliest known spiral galaxies containing a stellar bar, a structure that plays a role in how galaxies evolve. The system, designated COSMOS-74706, appears as a barred spiral galaxy from a time wh"
-    },
-    {
-      "title": "China tallies record launch year as lunar and asteroid plans advance",
-      "link": "https://www.spacedaily.com/reports/China_tallies_record_launch_year_as_lunar_and_asteroid_plans_advance_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-09T13:29:54Z",
-      "summary": "Tokyo, Japan (SPX) Jan 09, 2026\n\n\nChina's space sector completed 93 orbital launch missions in 2025, the highest annual total the nation has recorded. \n\nChina Aerospace Science and Technology Corp (CASC), the main State-owned contractor, closed out the year on Dec 31 with a Long March 7A launch from the Wenchang Space Launch Center in Hainan that placed two technology demonstration satellites into orbit. The company conducte"
     }
   ],
-  "updated": "2026-01-09T14:59:56.769Z"
+  "updated": "2026-01-09T15:26:35.022Z"
 }
