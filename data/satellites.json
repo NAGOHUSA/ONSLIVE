@@ -3,15 +3,15 @@
     {
       "name": "STARLINK-1008",
       "id": "2019-074B",
-      "epoch": "2026-01-08T22:13:59.243232",
-      "meanMotion": 15.06408269,
+      "epoch": "2026-01-08T22:13:59.248416",
+      "meanMotion": 15.06407785,
       "inclination": 53.0537
     },
     {
       "name": "STARLINK-1012",
       "id": "2019-074F",
-      "epoch": "2026-01-08T23:17:40.648704",
-      "meanMotion": 15.06406658,
+      "epoch": "2026-01-08T23:17:40.647840",
+      "meanMotion": 15.06406613,
       "inclination": 53.0544
     },
     {
@@ -24,7 +24,7 @@
     {
       "name": "STARLINK-1019",
       "id": "2019-074M",
-      "epoch": "2026-01-09T00:00:02.999808",
+      "epoch": "2026-01-09T00:00:02.998944",
       "meanMotion": 15.62791632,
       "inclination": 53.0486
     },
@@ -72,11 +72,11 @@
     }
   ],
   "iss": {
-    "latitude": 13.243399171239,
-    "longitude": 26.586164943777,
-    "altitude": 414.10384334095,
-    "velocity": 27603.873983863,
-    "visibility": "daylight"
+    "latitude": 50.069117453187,
+    "longitude": 120.16224559561,
+    "altitude": 425.92767559792,
+    "velocity": 27581.201821907,
+    "visibility": "eclipsed"
   },
-  "updated": "2026-01-09T15:56:27.455Z"
+  "updated": "2026-01-09T16:18:32.037Z"
 }
