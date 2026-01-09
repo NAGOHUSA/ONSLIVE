@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Pentagon chief takes ‘Arsenal of Freedom’ tour to Rocket Lab",
+      "link": "https://spacenews.com/pentagon-chief-takes-arsenal-of-freedom-tour-to-rocket-lab/",
+      "source": "SpaceNews",
+      "date": "2026-01-09T22:44:07Z",
+      "summary": "\nPete Hegseth praises U.S.-built satellites and rapid launch as Trump administration escalates pressure on legacy primes\nThe post Pentagon chief takes ‘Arsenal of Freedom’ tour to Rocket Lab appeared first on SpaceNews."
+    },
+    {
       "title": "Shaken, Not Stirred: NASA’s StarBurst Aces Extreme Temperature Tests",
       "link": "https://www.nasa.gov/general/shaken-not-stirred-nasas-starburst-aces-extreme-temperature-tests/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-09T17:32:12Z",
       "summary": "\nCommercial launch startup Landspace has secured formal contracts to launch satellites for China’s two main megaconstellation projects, helping to address a launch capacity bottleneck.\nThe post Landspace secures launch contracts for China’s megaconstellation projects appeared first on SpaceNews."
-    },
-    {
-      "title": "I am Artemis: Dave Reynolds",
-      "link": "https://www.nasa.gov/missions/artemis/i-am-artemis/i-am-artemis-dave-reynolds/",
-      "source": "NASA",
-      "date": "2026-01-09T17:29:03Z",
-      "summary": "As booster manager for NASA’s SLS (Space Launch System), Dave Reynolds’ path to NASA is embodied by his childhood poster of the space shuttle’s Return to Flight initiative, which hangs in his office, serving as a constant reminder that his journey to the agency began decades ago. Growing up in Roy, Utah, Reynolds remembers standing […]"
     }
   ],
-  "updated": "2026-01-09T22:55:50.089Z"
+  "updated": "2026-01-09T23:12:22.040Z"
 }
