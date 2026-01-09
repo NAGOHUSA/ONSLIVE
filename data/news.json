@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Crew-11 to cut mission short and return to Earth due to medical issue",
+      "link": "https://spaceflightnow.com/2026/01/09/crew-11-to-cut-mission-short-and-return-to-earth-due-to-medical-issue/",
+      "source": "Spaceflight Now",
+      "date": "2026-01-09T04:35:29Z",
+      "summary": "In keeping with the agency's strict medical privacy policy, NASA officials have not identified the astronaut in question or provided any details about the nature of the medical issue. "
+    },
+    {
       "title": "NASA DECIDES TO BRING CREW-11 HOME EARLY, BUT NOT AN EMERGENCY",
       "link": "https://spacepolicyonline.com/news/nasa-decides-to-bring-crew-11-home-early-but-not-an-emergency/",
       "source": "SpacePolicyOnline.com",
@@ -27,14 +34,7 @@
       "source": "NASASpaceflight",
       "date": "2026-01-08T22:39:12Z",
       "summary": "NASA has opted to bring the four-member Crew-11 team home from the International Space Station…\nThe post Crew-11 to return early due to a medical concern with astronaut appeared first on NASASpaceFlight.com."
-    },
-    {
-      "title": "APPLICATIONS OPEN FOR COHORT 4 OF SDA TAP LAB – CATALYST CAMPUS MINI ACCELERATOR",
-      "link": "https://spacenews.com/applications-open-for-cohort-4-of-sda-tap-lab-catalyst-campus-mini-accelerator/",
-      "source": "SpaceNews",
-      "date": "2026-01-08T21:26:41Z",
-      "summary": "\nCatalyst Campus is proud to announce they are now accepting applications for Cohort 4 of the SDA TAP Lab – Catalyst Campus Mini Accelerator, a high-impact accelerator program designed to […]\nThe post APPLICATIONS OPEN FOR COHORT 4 OF SDA TAP LAB – CATALYST CAMPUS MINI ACCELERATOR appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-09T04:30:33.718Z"
+  "updated": "2026-01-09T04:58:52.458Z"
 }
