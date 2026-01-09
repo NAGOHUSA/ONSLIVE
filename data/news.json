@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Flight Engineers Give NASA’s Dragonfly Lift",
+      "link": "https://www.nasa.gov/missions/dragonfly/flight-engineers-give-nasas-dragonfly-lift/",
+      "source": "NASA",
+      "date": "2026-01-09T18:17:30Z",
+      "summary": "In sending a car-sized rotorcraft to explore Saturn’s moon Titan, NASA’s Dragonfly mission will undertake an unprecedented voyage of scientific discovery. And the work to ensure that this first-of-its-kind project can fulfill its ambitious exploration vision is underway in some of the nation’s most advanced space simulation and testing laboratories. Set for launch in in […]"
+    },
+    {
+      "title": "L3Harris announces $845 million majority sale of Space Propulsion and Power Systems business",
+      "link": "https://spaceflightnow.com/2026/01/09/l3harris-announces-845-million-majority-sale-of-space-propulsion-and-power-systems-business/",
+      "source": "Spaceflight Now",
+      "date": "2026-01-09T17:53:57Z",
+      "summary": "The deal with AE Industrial Partners is expected to close in the second half of 2026. L3Harris will retain full control over the RS-25 engine. "
+    },
+    {
       "title": "Landspace secures launch contracts for China’s megaconstellation projects",
       "link": "https://spacenews.com/landspace-secures-launch-contracts-for-chinas-megaconstellation-projects/",
       "source": "SpaceNews",
@@ -20,21 +34,7 @@
       "source": "Arstechnica",
       "date": "2026-01-09T17:17:41Z",
       "summary": "\"That level of openness and transparency is exactly what should be expected of NASA.\""
-    },
-    {
-      "title": "NASA’s Pandora Satellite, CubeSats to Explore Exoplanets, Beyond",
-      "link": "https://science.nasa.gov/universe/exoplanets/nasas-pandora-satellite-cubesats-to-explore-exoplanets-beyond/",
-      "source": "NASA",
-      "date": "2026-01-09T14:40:59Z",
-      "summary": "A new NASA spacecraft called Pandora is awaiting launch ahead of its journey to study the atmospheres of exoplanets, or worlds beyond our solar system, and their stars. Along for the ride are two shoebox-sized satellites called BlackCAT (Black Hole Coded Aperture Telescope) and SPARCS (Star-Planet Activity Research CubeSat), as NASA innovates with ambitious science […]"
-    },
-    {
-      "title": "Week in images: 05-09 January 2026",
-      "link": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_05-09_January_2026",
-      "source": "ESA",
-      "date": "2026-01-09T14:15:00Z",
-      "summary": "Week in images: 05-09 January 2026"
     }
   ],
-  "updated": "2026-01-09T17:56:48.365Z"
+  "updated": "2026-01-09T18:22:54.738Z"
 }
