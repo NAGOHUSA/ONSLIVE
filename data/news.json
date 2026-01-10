@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Crew-11 To Begin Return Home on Wednesday",
+      "link": "https://spacepolicyonline.com/news/crew-11-to-begin-return-home-on-wednesday/",
+      "source": "SpacePolicyOnline.com",
+      "date": "2026-01-10T03:47:38Z",
+      "summary": "Today NASA announced that Crew-11 will begin its return to Earth from the International Space Station on Wednesday, January 14. The unexpected early departure is due to a medical condition […]"
+    },
+    {
       "title": "Final Steps Underway for NASA’s First Crewed Artemis Moon Mission",
       "link": "https://www.nasa.gov/missions/artemis/artemis-2/final-steps-underway-for-nasas-first-crewed-artemis-moon-mission/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-01-09T18:17:30Z",
       "summary": "In sending a car-sized rotorcraft to explore Saturn’s moon Titan, NASA’s Dragonfly mission will undertake an unprecedented voyage of scientific discovery. And the work to ensure that this first-of-its-kind project can fulfill its ambitious exploration vision is underway in some of the nation’s most advanced space simulation and testing laboratories. Set for launch in in […]"
-    },
-    {
-      "title": "L3Harris announces $845 million majority sale of Space Propulsion and Power Systems business",
-      "link": "https://spaceflightnow.com/2026/01/09/l3harris-announces-845-million-majority-sale-of-space-propulsion-and-power-systems-business/",
-      "source": "Spaceflight Now",
-      "date": "2026-01-09T17:53:57Z",
-      "summary": "The deal with AE Industrial Partners is expected to close in the second half of 2026. L3Harris will retain full control over the RS-25 engine. "
     }
   ],
-  "updated": "2026-01-10T02:59:58.011Z"
+  "updated": "2026-01-10T03:57:08.028Z"
 }
