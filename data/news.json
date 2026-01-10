@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "FCC approves 7,500 additional Starlink satellites",
+      "link": "https://spacenews.com/fcc-approves-7500-additional-starlink-satellites/",
+      "source": "SpaceNews",
+      "date": "2026-01-10T17:18:32Z",
+      "summary": "\nThe FCC approved a second tranche of 7,500 Starlink Gen2 satellites Jan. 9, expanding the size of SpaceX’s authorized next-generation constellation.\nThe post FCC approves 7,500 additional Starlink satellites appeared first on SpaceNews."
+    },
+    {
+      "title": "Space Force awards $739 million in launch orders to SpaceX",
+      "link": "https://spacenews.com/space-force-awards-739-million-in-launch-orders-to-spacex/",
+      "source": "SpaceNews",
+      "date": "2026-01-10T17:13:08Z",
+      "summary": "\nSpaceX sweeps nine national security missions for SDA and NRO under NSSL Phase 3 Lane 1\nThe post Space Force awards $739 million in launch orders to SpaceX appeared first on SpaceNews."
+    },
+    {
       "title": "MaiaSpace to Launch “Minimum Viable Product” in 2026",
       "link": "https://europeanspaceflight.com/maiaspace-to-launch-minimum-viable-product-in-2026/",
       "source": "European Spaceflight",
@@ -20,21 +34,7 @@
       "source": "SpacePolicyOnline.com",
       "date": "2026-01-10T03:47:38Z",
       "summary": "Today NASA announced that Crew-11 will begin its return to Earth from the International Space Station on Wednesday, January 14. The unexpected early departure is due to a medical condition […]"
-    },
-    {
-      "title": "Final Steps Underway for NASA’s First Crewed Artemis Moon Mission",
-      "link": "https://www.nasa.gov/missions/artemis/artemis-2/final-steps-underway-for-nasas-first-crewed-artemis-moon-mission/",
-      "source": "NASA",
-      "date": "2026-01-10T00:00:48Z",
-      "summary": "As NASA moves closer to launch of the Artemis II test flight, the agency soon will roll its SLS (Space Launch System) rocket and Orion spacecraft to the launch pad for the first time at the agency’s Kennedy Space Center in Florida to begin final integration, testing, and launch rehearsals. NASA is targeting no earlier […]"
-    },
-    {
-      "title": "Pentagon chief takes ‘Arsenal of Freedom’ tour to Rocket Lab",
-      "link": "https://spacenews.com/pentagon-chief-takes-arsenal-of-freedom-tour-to-rocket-lab/",
-      "source": "SpaceNews",
-      "date": "2026-01-09T22:44:07Z",
-      "summary": "\nPete Hegseth praises U.S.-built satellites and rapid launch as Trump administration escalates pressure on legacy primes\nThe post Pentagon chief takes ‘Arsenal of Freedom’ tour to Rocket Lab appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-10T17:08:48.052Z"
+  "updated": "2026-01-10T17:29:33.855Z"
 }
