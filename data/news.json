@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Final Steps Underway for NASA’s First Crewed Artemis Moon Mission",
+      "link": "https://www.nasa.gov/missions/artemis/artemis-2/final-steps-underway-for-nasas-first-crewed-artemis-moon-mission/",
+      "source": "NASA",
+      "date": "2026-01-10T00:00:48Z",
+      "summary": "As NASA moves closer to launch of the Artemis II test flight, the agency soon will roll its SLS (Space Launch System) rocket and Orion spacecraft to the launch pad for the first time at the agency’s Kennedy Space Center in Florida to begin final integration, testing, and launch rehearsals. NASA is targeting no earlier […]"
+    },
+    {
       "title": "Pentagon chief takes ‘Arsenal of Freedom’ tour to Rocket Lab",
       "link": "https://spacenews.com/pentagon-chief-takes-arsenal-of-freedom-tour-to-rocket-lab/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "Spaceflight Now",
       "date": "2026-01-09T17:53:57Z",
       "summary": "The deal with AE Industrial Partners is expected to close in the second half of 2026. L3Harris will retain full control over the RS-25 engine. "
-    },
-    {
-      "title": "Landspace secures launch contracts for China’s megaconstellation projects",
-      "link": "https://spacenews.com/landspace-secures-launch-contracts-for-chinas-megaconstellation-projects/",
-      "source": "SpaceNews",
-      "date": "2026-01-09T17:32:12Z",
-      "summary": "\nCommercial launch startup Landspace has secured formal contracts to launch satellites for China’s two main megaconstellation projects, helping to address a launch capacity bottleneck.\nThe post Landspace secures launch contracts for China’s megaconstellation projects appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-09T23:57:33.797Z"
+  "updated": "2026-01-10T01:17:22.518Z"
 }
