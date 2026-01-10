@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA Marshall Removes 2 Historic Test Stands",
+      "link": "https://www.nasa.gov/centers-and-facilities/marshall/nasa-marshall-removes-2-historic-test-stands/",
+      "source": "NASA",
+      "date": "2026-01-10T21:01:09Z",
+      "summary": "NASA’s Marshall Space Flight Center in Huntsville, Alabama, removed two of its historic test stands – the Propulsion and Structural Test Facility and the Dynamic Test Facility – with carefully coordinated implosions on Jan. 10, 2026. The demolition of these historic structures is part of a larger project at Marshall that began in spring 2022, […]"
+    },
+    {
       "title": "FCC approves 7,500 additional Starlink satellites",
       "link": "https://spacenews.com/fcc-approves-7500-additional-starlink-satellites/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASASpaceflight",
       "date": "2026-01-10T04:49:55Z",
       "summary": "NASA has confirmed the upcoming milestones for its historic Artemis II mission—the first crewed flight…\nThe post NASA sets milestones on the path to Artemis II crew launch appeared first on NASASpaceFlight.com."
-    },
-    {
-      "title": "Crew-11 To Begin Return Home on Wednesday",
-      "link": "https://spacepolicyonline.com/news/crew-11-to-begin-return-home-on-wednesday/",
-      "source": "SpacePolicyOnline.com",
-      "date": "2026-01-10T03:47:38Z",
-      "summary": "Today NASA announced that Crew-11 will begin its return to Earth from the International Space Station on Wednesday, January 14. The unexpected early departure is due to a medical condition […]"
     }
   ],
-  "updated": "2026-01-10T21:00:14.961Z"
+  "updated": "2026-01-10T21:20:35.868Z"
 }
