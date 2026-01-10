@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA sets milestones on the path to Artemis II crew launch",
+      "link": "https://www.nasaspaceflight.com/2026/01/nasa-milestones-path-artemis-ii-launch/",
+      "source": "NASASpaceflight",
+      "date": "2026-01-10T04:49:55Z",
+      "summary": "NASA has confirmed the upcoming milestones for its historic Artemis II mission—the first crewed flight…\nThe post NASA sets milestones on the path to Artemis II crew launch appeared first on NASASpaceFlight.com."
+    },
+    {
       "title": "Crew-11 To Begin Return Home on Wednesday",
       "link": "https://spacepolicyonline.com/news/crew-11-to-begin-return-home-on-wednesday/",
       "source": "SpacePolicyOnline.com",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-01-09T21:41:42Z",
       "summary": "Heated, cooled, shaken, and settled – NASA’s StarBurst instrument is several steps closer to being ready for launch. The small satellite is now awaiting instrument calibration following a successful integration in Canada and rigorous testing by engineers at the agency’s Marshall Space Flight Center in Huntsville, Alabama. StarBurst is designed to detect the initial emission […]"
-    },
-    {
-      "title": "Flight Engineers Give NASA’s Dragonfly Lift",
-      "link": "https://www.nasa.gov/missions/dragonfly/flight-engineers-give-nasas-dragonfly-lift/",
-      "source": "NASA",
-      "date": "2026-01-09T18:17:30Z",
-      "summary": "In sending a car-sized rotorcraft to explore Saturn’s moon Titan, NASA’s Dragonfly mission will undertake an unprecedented voyage of scientific discovery. And the work to ensure that this first-of-its-kind project can fulfill its ambitious exploration vision is underway in some of the nation’s most advanced space simulation and testing laboratories. Set for launch in in […]"
     }
   ],
-  "updated": "2026-01-10T04:29:57.054Z"
+  "updated": "2026-01-10T04:54:11.051Z"
 }
