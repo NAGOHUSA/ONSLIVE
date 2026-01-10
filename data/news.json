@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Live coverage: SpaceX to launch 1st ‘Twilight’ rideshare mission",
+      "link": "https://spaceflightnow.com/2026/01/10/live-coverage-spacex-to-launch-1st-twilight-rideshare-mission/",
+      "source": "Spaceflight Now",
+      "date": "2026-01-10T23:27:51Z",
+      "summary": "The flight includes 40 deployment events for a variety of payloads, including NASA’s Pandora spacecraft. Liftoff from pad 4E is scheduled for 5:19 a.m. PST (8:19 a.m. EST / 1319 UTC). "
+    },
+    {
       "title": "NASA Gearing Up for Artemis II Launch",
       "link": "https://spacepolicyonline.com/news/nasa-gearing-up-for-artemis-ii-launch/",
       "source": "SpacePolicyOnline.com",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-10T17:18:32Z",
       "summary": "\nThe FCC approved a second tranche of 7,500 Starlink Gen2 satellites Jan. 9, expanding the size of SpaceX’s authorized next-generation constellation.\nThe post FCC approves 7,500 additional Starlink satellites appeared first on SpaceNews."
-    },
-    {
-      "title": "Space Force awards $739 million in launch orders to SpaceX",
-      "link": "https://spacenews.com/space-force-awards-739-million-in-launch-orders-to-spacex/",
-      "source": "SpaceNews",
-      "date": "2026-01-10T17:13:08Z",
-      "summary": "\nSpaceX sweeps nine national security missions for SDA and NRO under NSSL Phase 3 Lane 1\nThe post Space Force awards $739 million in launch orders to SpaceX appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-10T23:22:49.750Z"
+  "updated": "2026-01-10T23:35:39.725Z"
 }
