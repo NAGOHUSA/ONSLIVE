@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "What’s Happening in Space Policy January 11-17, 2026",
+      "link": "https://spacepolicyonline.com/news/whats-happening-in-space-policy-january-11-17-2026/",
+      "source": "SpacePolicyOnline.com",
+      "date": "2026-01-11T22:53:46Z",
+      "summary": "Here is SpacePolicyOnline.com’s list of space policy events for the week of January 11-17, 2026 and any insight we can offer about them. The House and Senate are in session […]"
+    },
+    {
+      "title": "Kepler network to link OroraTech sensors for Earth monitoring",
+      "link": "https://spacenews.com/kepler-network-to-link-ororatech-sensors-for-earth-monitoring/",
+      "source": "SpaceNews",
+      "date": "2026-01-11T22:53:03Z",
+      "summary": "\nMILAN — OroraTech has entered a multi-year partnership with Kepler to supply thermal sensors for Kepler’s new optical communications constellation.  The first four SAFIRE Gen4 sensors under the agreement launched Jan. 11 aboard a Falcon 9, flying as part of the constellation’s initial deployment. “With Kepler, we are doing something completely new that will revolutionize […]\nThe post Kepler network to link OroraTech sensors for Earth monitoring appeared first on SpaceNews."
+    },
+    {
       "title": "NASA astrophysics, commercial satellites launch on SpaceX rideshare mission",
       "link": "https://spacenews.com/nasa-astrophysics-commercial-satellites-launch-on-spacex-rideshare-mission/",
       "source": "SpaceNews",
@@ -20,21 +34,7 @@
       "source": "Spaceflight Now",
       "date": "2026-01-10T23:27:51Z",
       "summary": "The flight includes 40 deployment events for a variety of payloads, including NASA’s Pandora spacecraft. Liftoff from pad 4E is scheduled for 5:19 a.m. PST (8:19 a.m. EST / 1319 UTC)."
-    },
-    {
-      "title": "NASA Gearing Up for Artemis II Launch",
-      "link": "https://spacepolicyonline.com/news/nasa-gearing-up-for-artemis-ii-launch/",
-      "source": "SpacePolicyOnline.com",
-      "date": "2026-01-10T22:07:07Z",
-      "summary": "NASA is getting ready for the launch of Artemis II as early as next month. The launch window for the first flight of astronauts around the Moon since the Apollo […]"
-    },
-    {
-      "title": "Crew-11 to make early return Jan. 15",
-      "link": "https://spacenews.com/crew-11-to-make-early-return-jan-15/",
-      "source": "SpaceNews",
-      "date": "2026-01-10T21:46:54Z",
-      "summary": "NASA plans to return four astronauts from the ISS to Earth early Jan. 15, about a week after one of them experienced a medical issue that prompted the shortened mission.\r\nThe post Crew-11 to make early return Jan. 15 appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-11T22:56:03.862Z"
+  "updated": "2026-01-11T23:12:34.549Z"
 }

@@ -379,12 +379,7 @@
       "8"
     ]
   ],
-  "solarWind": [
-    "2026-01-11 22:51:00.000",
-    null,
-    null,
-    null
-  ],
+  "solarWind": "[",
   "solarFlares": [
     {
       "time_tag": "2026-01-05T01:09:00Z",
@@ -1129,5 +1124,5 @@
       "satellite": 18
     }
   ],
-  "lastUpdated": "2026-01-11T22:56:03.793Z"
+  "lastUpdated": "2026-01-11T23:12:34.412Z"
 }
