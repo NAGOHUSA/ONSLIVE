@@ -1,11 +1,18 @@
 {
   "articles": [
     {
+      "title": "SpaceX’s Twilight rideshare mission set to fly from Vandenberg",
+      "link": "https://www.nasaspaceflight.com/2026/01/spacexs-twilight-rideshare-mission-vandenberg/",
+      "source": "NASASpaceflight",
+      "date": "2026-01-11T10:27:13Z",
+      "summary": "Fresh off a record-shattering launch cadence in 2025, SpaceX is planning to fly its first…\nThe post SpaceX’s Twilight rideshare mission set to fly from Vandenberg appeared first on NASASpaceFlight.com."
+    },
+    {
       "title": "Live coverage: SpaceX to launch 1st ‘Twilight’ rideshare mission",
       "link": "https://spaceflightnow.com/2026/01/10/live-coverage-spacex-to-launch-1st-twilight-rideshare-mission/",
       "source": "Spaceflight Now",
       "date": "2026-01-10T23:27:51Z",
-      "summary": "The flight includes 40 deployment events for a variety of payloads, including NASA’s Pandora spacecraft. Liftoff from pad 4E is scheduled for 5:19 a.m. PST (8:19 a.m. EST / 1319 UTC). "
+      "summary": "The flight includes 40 deployment events for a variety of payloads, including NASA’s Pandora spacecraft. Liftoff from pad 4E is scheduled for 5:19 a.m. PST (8:19 a.m. EST / 1319 UTC)."
     },
     {
       "title": "NASA Gearing Up for Artemis II Launch",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-01-10T21:01:09Z",
       "summary": "NASA’s Marshall Space Flight Center in Huntsville, Alabama, removed two of its historic test stands – the Propulsion and Structural Test Facility and the Dynamic Test Facility – with carefully coordinated implosions on Jan. 10, 2026. The demolition of these historic structures is part of a larger project at Marshall that began in spring 2022, […]"
-    },
-    {
-      "title": "FCC approves 7,500 additional Starlink satellites",
-      "link": "https://spacenews.com/fcc-approves-7500-additional-starlink-satellites/",
-      "source": "SpaceNews",
-      "date": "2026-01-10T17:18:32Z",
-      "summary": "\nThe FCC approved a second tranche of 7,500 Starlink Gen2 satellites Jan. 9, expanding the size of SpaceX’s authorized next-generation constellation.\nThe post FCC approves 7,500 additional Starlink satellites appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-11T10:18:04.111Z"
+  "updated": "2026-01-11T10:40:31.654Z"
 }
