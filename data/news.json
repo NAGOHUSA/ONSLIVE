@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "NASA outlines path to Artemis 2 launch",
+      "link": "https://spacenews.com/nasa-outlines-path-to-artemis-2-launch/",
+      "source": "SpaceNews",
+      "date": "2026-01-12T12:56:38Z",
+      "summary": "\nNASA has provided a long-awaited update on plans for the Artemis 2 launch, including a Jan. 17 rollout of the launch vehicle to the pad.\nThe post NASA outlines path to Artemis 2 launch appeared first on SpaceNews."
+    },
+    {
+      "title": "Astris infographic",
+      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/01/Astris_infographic",
+      "source": "ESA",
+      "date": "2026-01-12T12:17:00Z",
+      "summary": "From the ESA Blogs."
+    },
+    {
       "title": "Applied lessons for NASA’s science programs",
       "link": "https://spacenews.com/applied-lessons-for-nasas-science-programs/",
       "source": "SpaceNews",
@@ -20,21 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-12T10:33:34Z",
       "summary": "\nIndia’s Polar Satellite Launch Vehicle failed late Sunday during ascent, resulting in the loss of a primary Earth observation satellite and 15 smaller co-passenger spacecraft.\nThe post India’s PSLV launch fails during ascent, 16 satellites lost appeared first on SpaceNews."
-    },
-    {
-      "title": "Sentinel 1 decade long radar record tracks shifting Greenland and Antarctic ice",
-      "link": "https://www.spacedaily.com/reports/Sentinel_1_decade_long_radar_record_tracks_shifting_Greenland_and_Antarctic_ice_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-12T09:57:11Z",
-      "summary": "Berlin, Germany (SPX) Jan 08, 2026\n\n\nThe Copernicus Sentinel 1 mission has delivered a 10 year record of how ice flows from Greenland and Antarctic ice sheets into the ocean, providing a consistent, high resolution view of a key driver of sea level rise. \n\nStarting in 2014, Sentinel 1 observations now form the first continuous map of surface flow velocities across both the Greenland and Antarctic ice sheets at continental scale"
-    },
-    {
-      "title": "Dark star theory links JWST early universe anomalies",
-      "link": "https://www.spacedaily.com/reports/Dark_star_theory_links_JWST_early_universe_anomalies_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-12T09:57:11Z",
-      "summary": "Los Angeles CA (SPX) Jan 09, 2026\r\n\r\n\r\nA recent study led by Colgate Assistant Professor of Physics and Astronomy Cosmin Ilie, with collaborators Jillian Paulin at the University of Pennsylvania, Andreea Petric of the Space Telescope Science Institute, and Katherine Freese of the University of Texas at Austin, argues that dark stars can resolve three key puzzles from the cosmic dawn revealed by the James Webb Space Telescope (JWST)."
     }
   ],
-  "updated": "2026-01-12T12:23:46.669Z"
+  "updated": "2026-01-12T13:12:04.636Z"
 }
