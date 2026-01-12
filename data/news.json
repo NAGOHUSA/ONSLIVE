@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA Invites Media to Cover Artemis Mission from Johnson Space Center",
+      "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-cover-artemis-mission-from-johnson-space-center/",
+      "source": "NASA",
+      "date": "2026-01-12T21:27:56Z",
+      "summary": "Media accreditation is open to attend Artemis II mission activities at NASA’s Johnson Space Center in Houston. Johnson is where flight controllers in mission control will manage the test flight after liftoff of the first crewed Moon mission under the agency’s Artemis campaign. Targeted to launch no earlier Friday, Feb. 6, the Artemis II mission […]"
+    },
+    {
       "title": "2026 Civil Space Shortfall Ranking",
       "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/2026-civil-space-shortfall-ranking/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-01-12T17:34:43Z",
       "summary": "A smaller white dwarf star (left) pulls material from a larger star into a swirling accretion disk in this artist’s concept released Nov. 19, 2025, to illustrate the first use of NASA’s IXPE (Imaging X-ray Polarization Explorer) to study a white dwarf star. IXPE spent nearly one week focused on EX Hydrae, a white dwarf […]"
-    },
-    {
-      "title": "Live coverage: SpaceX to launch 29 Starlink satellites on Falcon 9 rocket from Cape Canaveral",
-      "link": "https://spaceflightnow.com/2026/01/12/live-coverage-spacex-to-launch-29-starlink-satellites-on-falcon-9-rocket-from-cape-canaveral-7/",
-      "source": "Spaceflight Now",
-      "date": "2026-01-12T16:57:42Z",
-      "summary": "The Starlink 6-97 mission is the fifth Falcon 9 rocket launch of 2026, a rate of roughly one flight every 2.5 days. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for 3:00:40 p.m. EST (2000:40 UTC). "
     }
   ],
-  "updated": "2026-01-12T21:21:27.182Z"
+  "updated": "2026-01-12T21:38:30.159Z"
 }
