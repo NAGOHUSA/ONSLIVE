@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "2026 Civil Space Shortfall Ranking",
+      "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/2026-civil-space-shortfall-ranking/",
+      "source": "NASA",
+      "date": "2026-01-12T18:41:53Z",
+      "summary": "NASA has identified a list of 32 technology shortfalls and invites you to give input on your critical technology needs using this feedback mechanism. Whether you’re part of the space technology community or an interested member of the public, your input is invaluable. By registering and providing your feedback, you could help inform of national space technology priorities. […]"
+    },
+    {
+      "title": "NASA Welcomes Portugal as 60th Artemis Accords Signatory",
+      "link": "https://www.nasa.gov/news-release/nasa-welcomes-portugal-as-60th-artemis-accords-signatory/",
+      "source": "NASA",
+      "date": "2026-01-12T18:32:50Z",
+      "summary": "Portugal is the latest nation to sign the Artemis Accords alongside 59 other countries in a commitment to advancing principles for the responsible exploration of the Moon, Mars, and beyond with NASA. “Portugal joins a cadre of nations building the framework for safe, transparent, and prosperous activity in space,” said NASA Administrator Jared Isaacman in […]"
+    },
+    {
       "title": "NASA Stennis Engineer Proud to Serve During NASA’s Return to the Moon",
       "link": "https://www.nasa.gov/image-article/richard-wear-proud-to-serve-during-return-to-the-moon/",
       "source": "NASA",
@@ -20,21 +34,7 @@
       "source": "Spaceflight Now",
       "date": "2026-01-12T16:57:42Z",
       "summary": "The Starlink 6-97 mission is the fifth Falcon 9 rocket launch of 2026, a rate of roughly one flight every 2.5 days. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for 3:00:40 p.m. EST (2000:40 UTC). "
-    },
-    {
-      "title": "Tyvak International’s LIDE satellite completes initial on-orbit 5G tests",
-      "link": "https://spacenews.com/tyvak-internationals-lide-satellite-completes-initial-on-orbit-5g-tests/",
-      "source": "SpaceNews",
-      "date": "2026-01-12T16:11:30Z",
-      "summary": "\nTurin, Italy — Jan. 11, 2026 — The 12U CubeSat LIDE (LIve DEmonstration) has successfully completed its first months of on-orbit operations following its launch July 23, 2025, aboard a […]\nThe post Tyvak International’s LIDE satellite completes initial on-orbit 5G tests appeared first on SpaceNews."
-    },
-    {
-      "title": "Últimos preparativos para la primera misión tripulada a la Luna con la campaña Artemis de la NASA",
-      "link": "https://www.nasa.gov/es/ultimos-preparativos-para-la-primera-mision-tripulada-a-la-luna-con-la-campana-artemis-de-la-nasa/",
-      "source": "NASA",
-      "date": "2026-01-12T15:39:25Z",
-      "summary": "Read this article in English here. Conforme la NASA se acerca al lanzamiento del vuelo de prueba Artemis II, la agencia pronto llevará por primera vez su cohete Sistema de Lanzamiento Espacial (SLS, por sus siglas en inglés) y la nave espacial Orion a la plataforma de lanzamiento en el Centro Espacial Kennedy de la agencia en […]"
     }
   ],
-  "updated": "2026-01-12T18:22:33.502Z"
+  "updated": "2026-01-12T18:52:37.602Z"
 }
