@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA Stennis Engineer Proud to Serve During NASA’s Return to the Moon",
+      "link": "https://www.nasa.gov/image-article/richard-wear-proud-to-serve-during-return-to-the-moon/",
+      "source": "NASA",
+      "date": "2026-01-12T17:42:32Z",
+      "summary": "Richard Wear calls it an honor to be working at NASA’s Stennis Space Center near Bay St. Louis, Mississippi, during a historic time as NASA prepares to send astronauts around the Moon for the first time in more than 50 years on the Artemis II mission. “I have not stopped learning in the 15 years […]"
+    },
+    {
       "title": "White Dwarf Star (Artist’s Concept)",
       "link": "https://www.nasa.gov/image-article/white-dwarf-star-artists-concept/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-01-12T15:39:25Z",
       "summary": "Read this article in English here. Conforme la NASA se acerca al lanzamiento del vuelo de prueba Artemis II, la agencia pronto llevará por primera vez su cohete Sistema de Lanzamiento Espacial (SLS, por sus siglas en inglés) y la nave espacial Orion a la plataforma de lanzamiento en el Centro Espacial Kennedy de la agencia en […]"
-    },
-    {
-      "title": "India’s PSLV suffers second consecutive launch failure, 16 satellites lost",
-      "link": "https://spaceflightnow.com/2026/01/12/indias-pslv-suffers-second-consecutive-launch-failure-16-satellites-lost/",
-      "source": "Spaceflight Now",
-      "date": "2026-01-12T15:32:48Z",
-      "summary": "The anomaly Monday morning local time came less than a year after a previous issue that caused the failure of the PSLV-C61 mission. "
     }
   ],
-  "updated": "2026-01-12T17:56:37.551Z"
+  "updated": "2026-01-12T18:22:33.502Z"
 }
