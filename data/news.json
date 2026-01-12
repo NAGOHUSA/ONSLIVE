@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA Bolsters Golden Age of Exploration with Technology Priorities",
+      "link": "https://www.nasa.gov/directorates/stmd/nasa-bolsters-golden-age-of-exploration-with-technology-priorities/",
+      "source": "NASA",
+      "date": "2026-01-12T14:13:50Z",
+      "summary": "As NASA prepares for long-duration missions to the Moon that will pave the way for human exploration on Mars, the agency is tapping into America’s expanding space economy to help guide its strategic technology investments. This initiative, led by NASA’s Space Technology Mission Directorate invites collaboration from U.S. industry leaders, academic institutions, and other government […]"
+    },
+    {
       "title": "Space is becoming an industrial economy",
       "link": "https://spacenews.com/space-is-becoming-an-industrial-economy/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "ESA",
       "date": "2026-01-12T12:17:00Z",
       "summary": "From the ESA Blogs."
-    },
-    {
-      "title": "This year must bring greater collaboration against orbital congestion",
-      "link": "https://spacenews.com/this-year-must-bring-greater-collaboration-against-orbital-congestion/",
-      "source": "SpaceNews",
-      "date": "2026-01-12T12:00:00Z",
-      "summary": "\nThe problem of overcrowding orbits and increasing space debris has never been more urgent. International organizations, policy makers, regulators, space operators and researchers are recognizing how critical this issue is and how it could impact all space services and operations, including, but not limited to, satellite broadband, global navigation satellite systems, scientific research and space […]\nThe post This year must bring greater collaboration against orbital congestion appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-12T14:13:18.472Z"
+  "updated": "2026-01-12T14:45:25.705Z"
 }
