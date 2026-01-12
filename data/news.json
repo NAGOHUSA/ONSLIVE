@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Space is becoming an industrial economy",
+      "link": "https://spacenews.com/space-is-becoming-an-industrial-economy/",
+      "source": "SpaceNews",
+      "date": "2026-01-12T14:00:00Z",
+      "summary": "\nShortly after space week in October, investment firm JP Morgan announced a $10 billion investment plan targeting industries critical for United States national security. In addition to things like nanomaterials, autonomous robotics and solar power, the announcement also focused on funding spacecraft and space launches. JP Morgan’s emphasis on space-related “frontier” technologies is significant, because it signals an acknowledgment that space is becoming an investable sector. What remains unclear is […]\nThe post Space is becoming an industrial economy appeared first on SpaceNews."
+    },
+    {
+      "title": "Hubble Spies Stellar Blast Setting Clouds Ablaze",
+      "link": "https://science.nasa.gov/missions/hubble/hubble-spies-stellar-blast-setting-clouds-ablaze/",
+      "source": "NASA",
+      "date": "2026-01-12T13:06:02Z",
+      "summary": "This new NASA Hubble Space Telescope image captures a jet of gas from a forming star shooting across the dark expanse. The bright pink and green patches running diagonally through the image are HH 80/81, a pair of Herbig-Haro (HH) objects previously observed by Hubble in 1995. The patch to the upper left is part […]"
+    },
+    {
       "title": "NASA outlines path to Artemis 2 launch",
       "link": "https://spacenews.com/nasa-outlines-path-to-artemis-2-launch/",
       "source": "SpaceNews",
@@ -15,26 +29,12 @@
       "summary": "From the ESA Blogs."
     },
     {
-      "title": "Applied lessons for NASA’s science programs",
-      "link": "https://spacenews.com/applied-lessons-for-nasas-science-programs/",
-      "source": "SpaceNews",
-      "date": "2026-01-12T12:00:00Z",
-      "summary": "\nIt took a year, but the Jared Isaacman era at NASA finally started. Sworn in Dec. 17, the new administrator spoke at a NASA town hall the next day to take questions about his plans for the agency. He offered few specifics about those plans, saying he had to learn about agency activities. But he […]\nThe post Applied lessons for NASA’s science programs appeared first on SpaceNews."
-    },
-    {
       "title": "This year must bring greater collaboration against orbital congestion",
       "link": "https://spacenews.com/this-year-must-bring-greater-collaboration-against-orbital-congestion/",
       "source": "SpaceNews",
       "date": "2026-01-12T12:00:00Z",
       "summary": "\nThe problem of overcrowding orbits and increasing space debris has never been more urgent. International organizations, policy makers, regulators, space operators and researchers are recognizing how critical this issue is and how it could impact all space services and operations, including, but not limited to, satellite broadband, global navigation satellite systems, scientific research and space […]\nThe post This year must bring greater collaboration against orbital congestion appeared first on SpaceNews."
-    },
-    {
-      "title": "India’s PSLV launch fails during ascent, 16 satellites lost",
-      "link": "https://spacenews.com/indias-pslv-launch-fails-during-ascent-16-satellites-lost/",
-      "source": "SpaceNews",
-      "date": "2026-01-12T10:33:34Z",
-      "summary": "\nIndia’s Polar Satellite Launch Vehicle failed late Sunday during ascent, resulting in the loss of a primary Earth observation satellite and 15 smaller co-passenger spacecraft.\nThe post India’s PSLV launch fails during ascent, 16 satellites lost appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-12T13:52:03.664Z"
+  "updated": "2026-01-12T14:13:18.472Z"
 }
