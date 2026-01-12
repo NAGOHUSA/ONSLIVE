@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "NASA, SpaceX Invite Media to Watch Crew-12 Launch to Space Station",
+      "link": "https://www.nasa.gov/news-release/nasa-spacex-invite-media-to-watch-crew-12-launch-to-space-station/",
+      "source": "NASA",
+      "date": "2026-01-12T23:25:02Z",
+      "summary": "Media accreditation is open for the launch of NASA’s 12th rotational mission of a SpaceX Falcon 9 rocket and Dragon spacecraft carrying astronauts to the International Space Station for a science expedition from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida. NASA announced it is targeting no earlier than Thursday, Jan. […]"
+    },
+    {
+      "title": "Launch Preview: Launches from China, U.S., and Norway scheduled for upcoming week",
+      "link": "https://www.nasaspaceflight.com/2026/01/launch-preview-011226/",
+      "source": "NASASpaceflight",
+      "date": "2026-01-12T23:24:50Z",
+      "summary": "Eight orbital launch attempts are scheduled for this week, with SpaceX and Chinese launches comprising…\nThe post Launch Preview: Launches from China, U.S., and Norway scheduled for upcoming week appeared first on NASASpaceFlight.com."
+    },
+    {
       "title": "You can now reserve a hotel room on the Moon for $250,000",
       "link": "https://arstechnica.com/space/2026/01/you-can-now-reserve-a-hotel-room-on-the-moon-for-250000/",
       "source": "Arstechnica",
@@ -20,21 +34,7 @@
       "source": "NASA",
       "date": "2026-01-12T21:27:56Z",
       "summary": "Media accreditation is open to attend Artemis II mission activities at NASA’s Johnson Space Center in Houston. Johnson is where flight controllers in mission control will manage the test flight after liftoff of the first crewed Moon mission under the agency’s Artemis campaign. Targeted to launch no earlier Friday, Feb. 6, the Artemis II mission […]"
-    },
-    {
-      "title": "2026 Civil Space Shortfall Ranking",
-      "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/2026-civil-space-shortfall-ranking/",
-      "source": "NASA",
-      "date": "2026-01-12T18:41:53Z",
-      "summary": "NASA has identified a list of 32 technology shortfalls and invites you to give input on your critical technology needs using this feedback mechanism. Whether you’re part of the space technology community or an interested member of the public, your input is invaluable. By registering and providing your feedback, you could help inform of national space technology priorities. […]"
-    },
-    {
-      "title": "NASA Welcomes Portugal as 60th Artemis Accords Signatory",
-      "link": "https://www.nasa.gov/news-release/nasa-welcomes-portugal-as-60th-artemis-accords-signatory/",
-      "source": "NASA",
-      "date": "2026-01-12T18:32:50Z",
-      "summary": "Portugal is the latest nation to sign the Artemis Accords alongside 59 other countries in a commitment to advancing principles for the responsible exploration of the Moon, Mars, and beyond with NASA. “Portugal joins a cadre of nations building the framework for safe, transparent, and prosperous activity in space,” said NASA Administrator Jared Isaacman in […]"
     }
   ],
-  "updated": "2026-01-12T23:19:13.987Z"
+  "updated": "2026-01-12T23:30:56.639Z"
 }
