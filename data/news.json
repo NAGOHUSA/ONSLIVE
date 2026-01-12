@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA says targeting ISS medical evacuation for January 14",
+      "link": "https://www.spacedaily.com/reports/NASA_says_targeting_ISS_medical_evacuation_for_January_14_999.html",
+      "source": "SpaceDaily",
+      "date": "2026-01-12T07:20:34Z",
+      "summary": "Washington, United States (AFP) Jan 10, 2026\n\n\n NASA crewmembers aboard the International Space Station (ISS) could return to Earth as soon as Thursday, the US space agency said, after a medical emergency prompted the crew to return from their mission early. \n\n\"NASA and SpaceX target undocking Crew-11 from the International Space Station no earlier than 5pm ET on Jan. 14, with splashdown off California targeted for early Jan. 15 depending o"
+    },
+    {
       "title": "Susan Schuh: Supporting the Humans in Human Spaceflight",
       "link": "https://www.nasa.gov/centers-and-facilities/johnson/susan-schuh-supporting-the-humans-in-human-spaceflight/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-11T16:24:48Z",
       "summary": "\nA SpaceX Falcon 9 launched a trio of NASA astrophysics small satellites along with dozens of commercial spacecraft on a rideshare mission Jan. 11.\nThe post NASA astrophysics, commercial satellites launch on SpaceX rideshare mission appeared first on SpaceNews."
-    },
-    {
-      "title": "SpaceX’s Twilight rideshare mission set to fly from Vandenberg",
-      "link": "https://www.nasaspaceflight.com/2026/01/spacexs-twilight-rideshare-mission-vandenberg/",
-      "source": "NASASpaceflight",
-      "date": "2026-01-11T10:27:13Z",
-      "summary": "Fresh off a record-shattering launch cadence in 2025, SpaceX is planning to fly its first…\r\nThe post SpaceX’s Twilight rideshare mission set to fly from Vandenberg appeared first on NASASpaceFlight.com."
     }
   ],
-  "updated": "2026-01-12T05:55:25.481Z"
+  "updated": "2026-01-12T06:22:01.490Z"
 }
