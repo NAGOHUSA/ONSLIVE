@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Live coverage: SpaceX to launch 29 Starlink satellites on Falcon 9 rocket from Cape Canaveral",
+      "link": "https://spaceflightnow.com/2026/01/12/live-coverage-spacex-to-launch-29-starlink-satellites-on-falcon-9-rocket-from-cape-canaveral-7/",
+      "source": "Spaceflight Now",
+      "date": "2026-01-12T16:57:42Z",
+      "summary": "The Starlink 6-97 mission is the fifth Falcon 9 rocket launch of 2026, a rate of roughly one flight every 2.5 days. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for 3:00:40 p.m. EST (2000:40 UTC). "
+    },
+    {
       "title": "Tyvak International’s LIDE satellite completes initial on-orbit 5G tests",
       "link": "https://spacenews.com/tyvak-internationals-lide-satellite-completes-initial-on-orbit-5g-tests/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-12T15:22:23Z",
       "summary": "\nFormer House Defense Appropriations aide takes on day-to-day leadership role at U.S. spy satellite agency\nThe post NRO taps Capitol Hill staffer Bill Adkins as principal deputy director appeared first on SpaceNews."
-    },
-    {
-      "title": "Complement-ARIE NAMs Reduction to Practice Challenge",
-      "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/complement-arie-nams-reduction-to-practice-challenge/",
-      "source": "NASA",
-      "date": "2026-01-12T15:13:02Z",
-      "summary": "Recent technological advances have set the stage for a renewed focus on human-based solutions called new approach methodologies (NAMs) that can complement, and in some cases replace, animal models in research and regulatory testing. These NAMs generally span advanced cell-tissue-organoid (in vitro), computational modeling (in silico), and cell-free biochemical analysis (in chemico) techniques, with each […]"
     }
   ],
-  "updated": "2026-01-12T16:54:31.324Z"
+  "updated": "2026-01-12T17:14:04.245Z"
 }
