@@ -1,6 +1,27 @@
 {
   "articles": [
     {
+      "title": "Complement-ARIE NAMs Reduction to Practice Challenge",
+      "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/complement-arie-nams-reduction-to-practice-challenge/",
+      "source": "NASA",
+      "date": "2026-01-12T15:13:02Z",
+      "summary": "Recent technological advances have set the stage for a renewed focus on human-based solutions called new approach methodologies (NAMs) that can complement, and in some cases replace, animal models in research and regulatory testing. These NAMs generally span advanced cell-tissue-organoid (in vitro), computational modeling (in silico), and cell-free biochemical analysis (in chemico) techniques, with each […]"
+    },
+    {
+      "title": "Eutelsat Taps Airbus To Build 340 OneWeb Satellites",
+      "link": "https://europeanspaceflight.com/eutelsat-taps-airbus-to-build-340-oneweb-satellites/",
+      "source": "European Spaceflight",
+      "date": "2026-01-12T15:03:17Z",
+      "summary": "In 2016, Airbus Defence and Space and OneWeb founded a joint venture called Airbus OneWeb Satellites to build what was then a constellation of 900 satellites for the OneWeb low Earth orbit megaconstellation. The joint venture built more than 600 OneWeb satellites that are currently in orbit. In September 2023, Eutelsat completed its acquisition of […]\nThe post Eutelsat Taps Airbus To Build 340 OneWeb Satellites appeared first on European Spaceflight."
+    },
+    {
+      "title": "AI needs spatial intelligence. The GEOINT industry will deliver it.",
+      "link": "https://spacenews.com/ai-needs-spatial-intelligence-the-geoint-industry-will-deliver-it/",
+      "source": "SpaceNews",
+      "date": "2026-01-12T15:00:00Z",
+      "summary": "\nFor several years, the space-based geospatial intelligence industry has been chasing a logical vision for AI: use it to make our existing systems faster and smarter. Train models to detect objects. Automate change detection. Speed up analysis. These capabilities have delivered operational benefits. But they’ve also kept us focused on a specific paradigm — collect […]\nThe post AI needs spatial intelligence. The GEOINT industry will deliver it. appeared first on SpaceNews."
+    },
+    {
       "title": "NASA Bolsters Golden Age of Exploration with Technology Priorities",
       "link": "https://www.nasa.gov/directorates/stmd/nasa-bolsters-golden-age-of-exploration-with-technology-priorities/",
       "source": "NASA",
@@ -13,28 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-12T14:00:00Z",
       "summary": "\nShortly after space week in October, investment firm JP Morgan announced a $10 billion investment plan targeting industries critical for United States national security. In addition to things like nanomaterials, autonomous robotics and solar power, the announcement also focused on funding spacecraft and space launches. JP Morgan’s emphasis on space-related “frontier” technologies is significant, because it signals an acknowledgment that space is becoming an investable sector. What remains unclear is […]\nThe post Space is becoming an industrial economy appeared first on SpaceNews."
-    },
-    {
-      "title": "Hubble Spies Stellar Blast Setting Clouds Ablaze",
-      "link": "https://science.nasa.gov/missions/hubble/hubble-spies-stellar-blast-setting-clouds-ablaze/",
-      "source": "NASA",
-      "date": "2026-01-12T13:06:02Z",
-      "summary": "This new NASA Hubble Space Telescope image captures a jet of gas from a forming star shooting across the dark expanse. The bright pink and green patches running diagonally through the image are HH 80/81, a pair of Herbig-Haro (HH) objects previously observed by Hubble in 1995. The patch to the upper left is part […]"
-    },
-    {
-      "title": "NASA outlines path to Artemis 2 launch",
-      "link": "https://spacenews.com/nasa-outlines-path-to-artemis-2-launch/",
-      "source": "SpaceNews",
-      "date": "2026-01-12T12:56:38Z",
-      "summary": "\nNASA has provided a long-awaited update on plans for the Artemis 2 launch, including a Jan. 17 rollout of the launch vehicle to the pad.\nThe post NASA outlines path to Artemis 2 launch appeared first on SpaceNews."
-    },
-    {
-      "title": "Astris infographic",
-      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/01/Astris_infographic",
-      "source": "ESA",
-      "date": "2026-01-12T12:17:00Z",
-      "summary": "From the ESA Blogs."
     }
   ],
-  "updated": "2026-01-12T14:59:45.287Z"
+  "updated": "2026-01-12T15:27:32.119Z"
 }
