@@ -1,6 +1,27 @@
 {
   "articles": [
     {
+      "title": "Últimos preparativos para la primera misión tripulada a la Luna con la campaña Artemis de la NASA",
+      "link": "https://www.nasa.gov/es/ultimos-preparativos-para-la-primera-mision-tripulada-a-la-luna-con-la-campana-artemis-de-la-nasa/",
+      "source": "NASA",
+      "date": "2026-01-12T15:39:25Z",
+      "summary": "Read this article in English here. Conforme la NASA se acerca al lanzamiento del vuelo de prueba Artemis II, la agencia pronto llevará por primera vez su cohete Sistema de Lanzamiento Espacial (SLS, por sus siglas en inglés) y la nave espacial Orion a la plataforma de lanzamiento en el Centro Espacial Kennedy de la agencia en […]"
+    },
+    {
+      "title": "India’s PSLV suffers second consecutive launch failure, 16 satellites lost",
+      "link": "https://spaceflightnow.com/2026/01/12/indias-pslv-suffers-second-consecutive-launch-failure-16-satellites-lost/",
+      "source": "Spaceflight Now",
+      "date": "2026-01-12T15:32:48Z",
+      "summary": "The anomaly Monday morning local time came less than a year after a previous issue that caused the failure of the PSLV-C61 mission. "
+    },
+    {
+      "title": "NRO taps Capitol Hill staffer Bill Adkins as principal deputy director",
+      "link": "https://spacenews.com/nro-taps-capitol-hill-staffer-bill-adkins-as-principal-deputy-director/",
+      "source": "SpaceNews",
+      "date": "2026-01-12T15:22:23Z",
+      "summary": "\nFormer House Defense Appropriations aide takes on day-to-day leadership role at U.S. spy satellite agency\nThe post NRO taps Capitol Hill staffer Bill Adkins as principal deputy director appeared first on SpaceNews."
+    },
+    {
       "title": "Complement-ARIE NAMs Reduction to Practice Challenge",
       "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/complement-arie-nams-reduction-to-practice-challenge/",
       "source": "NASA",
@@ -13,28 +34,7 @@
       "source": "European Spaceflight",
       "date": "2026-01-12T15:03:17Z",
       "summary": "In 2016, Airbus Defence and Space and OneWeb founded a joint venture called Airbus OneWeb Satellites to build what was then a constellation of 900 satellites for the OneWeb low Earth orbit megaconstellation. The joint venture built more than 600 OneWeb satellites that are currently in orbit. In September 2023, Eutelsat completed its acquisition of […]\nThe post Eutelsat Taps Airbus To Build 340 OneWeb Satellites appeared first on European Spaceflight."
-    },
-    {
-      "title": "AI needs spatial intelligence. The GEOINT industry will deliver it.",
-      "link": "https://spacenews.com/ai-needs-spatial-intelligence-the-geoint-industry-will-deliver-it/",
-      "source": "SpaceNews",
-      "date": "2026-01-12T15:00:00Z",
-      "summary": "\nFor several years, the space-based geospatial intelligence industry has been chasing a logical vision for AI: use it to make our existing systems faster and smarter. Train models to detect objects. Automate change detection. Speed up analysis. These capabilities have delivered operational benefits. But they’ve also kept us focused on a specific paradigm — collect […]\nThe post AI needs spatial intelligence. The GEOINT industry will deliver it. appeared first on SpaceNews."
-    },
-    {
-      "title": "NASA Bolsters Golden Age of Exploration with Technology Priorities",
-      "link": "https://www.nasa.gov/directorates/stmd/nasa-bolsters-golden-age-of-exploration-with-technology-priorities/",
-      "source": "NASA",
-      "date": "2026-01-12T14:13:50Z",
-      "summary": "As NASA prepares for long-duration missions to the Moon that will pave the way for human exploration on Mars, the agency is tapping into America’s expanding space economy to help guide its strategic technology investments. This initiative, led by NASA’s Space Technology Mission Directorate invites collaboration from U.S. industry leaders, academic institutions, and other government […]"
-    },
-    {
-      "title": "Space is becoming an industrial economy",
-      "link": "https://spacenews.com/space-is-becoming-an-industrial-economy/",
-      "source": "SpaceNews",
-      "date": "2026-01-12T14:00:00Z",
-      "summary": "\nShortly after space week in October, investment firm JP Morgan announced a $10 billion investment plan targeting industries critical for United States national security. In addition to things like nanomaterials, autonomous robotics and solar power, the announcement also focused on funding spacecraft and space launches. JP Morgan’s emphasis on space-related “frontier” technologies is significant, because it signals an acknowledgment that space is becoming an investable sector. What remains unclear is […]\nThe post Space is becoming an industrial economy appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-12T15:27:32.119Z"
+  "updated": "2026-01-12T15:48:37.336Z"
 }
