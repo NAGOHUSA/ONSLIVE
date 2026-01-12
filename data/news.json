@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Susan Schuh: Supporting the Humans in Human Spaceflight",
+      "link": "https://www.nasa.gov/centers-and-facilities/johnson/susan-schuh-supporting-the-humans-in-human-spaceflight/",
+      "source": "NASA",
+      "date": "2026-01-12T01:00:00Z",
+      "summary": "Susan Schuh has dedicated her career to helping humans adapt to life beyond Earth.   As the Flight Crew Integration Operational Habitability (OpsHab) team lead in NASA’s Human Health and Performance Directorate at Johnson Space Center in Houston, Schuh leads efforts to understand what it is really like to live and work in space. She turns […]"
+    },
+    {
       "title": "What’s Happening in Space Policy January 11-17, 2026",
       "link": "https://spacepolicyonline.com/news/whats-happening-in-space-policy-january-11-17-2026/",
       "source": "SpacePolicyOnline.com",
@@ -27,14 +34,7 @@
       "source": "NASASpaceflight",
       "date": "2026-01-11T10:27:13Z",
       "summary": "Fresh off a record-shattering launch cadence in 2025, SpaceX is planning to fly its first…\r\nThe post SpaceX’s Twilight rideshare mission set to fly from Vandenberg appeared first on NASASpaceFlight.com."
-    },
-    {
-      "title": "Live coverage: SpaceX to launch 1st ‘Twilight’ rideshare mission",
-      "link": "https://spaceflightnow.com/2026/01/10/live-coverage-spacex-to-launch-1st-twilight-rideshare-mission/",
-      "source": "Spaceflight Now",
-      "date": "2026-01-10T23:27:51Z",
-      "summary": "The flight includes 40 deployment events for a variety of payloads, including NASA’s Pandora spacecraft. Liftoff from pad 4E is scheduled for 5:19 a.m. PST (8:19 a.m. EST / 1319 UTC)."
     }
   ],
-  "updated": "2026-01-11T23:56:33.018Z"
+  "updated": "2026-01-12T01:11:44.603Z"
 }
