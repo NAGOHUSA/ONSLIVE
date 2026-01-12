@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "White Dwarf Star (Artist’s Concept)",
+      "link": "https://www.nasa.gov/image-article/white-dwarf-star-artists-concept/",
+      "source": "NASA",
+      "date": "2026-01-12T17:34:43Z",
+      "summary": "A smaller white dwarf star (left) pulls material from a larger star into a swirling accretion disk in this artist’s concept released Nov. 19, 2025, to illustrate the first use of NASA’s IXPE (Imaging X-ray Polarization Explorer) to study a white dwarf star. IXPE spent nearly one week focused on EX Hydrae, a white dwarf […]"
+    },
+    {
       "title": "Live coverage: SpaceX to launch 29 Starlink satellites on Falcon 9 rocket from Cape Canaveral",
       "link": "https://spaceflightnow.com/2026/01/12/live-coverage-spacex-to-launch-29-starlink-satellites-on-falcon-9-rocket-from-cape-canaveral-7/",
       "source": "Spaceflight Now",
@@ -27,14 +34,7 @@
       "source": "Spaceflight Now",
       "date": "2026-01-12T15:32:48Z",
       "summary": "The anomaly Monday morning local time came less than a year after a previous issue that caused the failure of the PSLV-C61 mission. "
-    },
-    {
-      "title": "NRO taps Capitol Hill staffer Bill Adkins as principal deputy director",
-      "link": "https://spacenews.com/nro-taps-capitol-hill-staffer-bill-adkins-as-principal-deputy-director/",
-      "source": "SpaceNews",
-      "date": "2026-01-12T15:22:23Z",
-      "summary": "\nFormer House Defense Appropriations aide takes on day-to-day leadership role at U.S. spy satellite agency\nThe post NRO taps Capitol Hill staffer Bill Adkins as principal deputy director appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-12T17:37:59.286Z"
+  "updated": "2026-01-12T17:48:55.880Z"
 }
