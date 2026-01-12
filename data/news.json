@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Portugal signs the Artemis Accords",
+      "link": "https://spacenews.com/portugal-signs-the-artemis-accords/",
+      "source": "SpaceNews",
+      "date": "2026-01-12T23:46:40Z",
+      "summary": "\nPortugal has become the latest country to sign the Artemis Accords outlining best practices for responsible space exploration, beating out another European country to be the 60th to join.\nThe post Portugal signs the Artemis Accords appeared first on SpaceNews."
+    },
+    {
       "title": "NASA, SpaceX Invite Media to Watch Crew-12 Launch to Space Station",
       "link": "https://www.nasa.gov/news-release/nasa-spacex-invite-media-to-watch-crew-12-launch-to-space-station/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-01-12T22:43:30Z",
       "summary": "For more than 25 years, humans have lived and worked continuously aboard the International Space Station, conducting research that is transforming life on Earth and shaping the future of exploration. From growing food and sequencing DNA to studying disease and simulating Mars missions, every experiment aboard the orbiting laboratory expands our understanding of how humans […]"
-    },
-    {
-      "title": "NASA Invites Media to Cover Artemis Mission from Johnson Space Center",
-      "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-cover-artemis-mission-from-johnson-space-center/",
-      "source": "NASA",
-      "date": "2026-01-12T21:27:56Z",
-      "summary": "Media accreditation is open to attend Artemis II mission activities at NASA’s Johnson Space Center in Houston. Johnson is where flight controllers in mission control will manage the test flight after liftoff of the first crewed Moon mission under the agency’s Artemis campaign. Targeted to launch no earlier Friday, Feb. 6, the Artemis II mission […]"
     }
   ],
-  "updated": "2026-01-12T23:48:45.885Z"
+  "updated": "2026-01-12T23:55:26.545Z"
 }
