@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "ATD water-cooled throttleable engine firing",
+      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/01/ATD_water-cooled_throttleable_engine_firing",
+      "source": "ESA",
+      "date": "2026-01-13T09:00:00Z",
+      "summary": "Romanian company ATD Aerospace RS SRL is developing a 10 kN rocket engine that can be re-ignited and adjust its thrust. This builds on the 1 kN engine they developed with support from the European Space Agency (ESA)."
+    },
+    {
       "title": "A Plume of Bright Blue in Melissa’s Wake",
       "link": "https://science.nasa.gov/earth/earth-observatory/a-plume-of-bright-blue-in-melissas-wake/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-12T23:46:40Z",
       "summary": "\nPortugal has become the latest country to sign the Artemis Accords outlining best practices for responsible space exploration, beating out another European country to be the 60th to join.\nThe post Portugal signs the Artemis Accords appeared first on SpaceNews."
-    },
-    {
-      "title": "NASA, SpaceX Invite Media to Watch Crew-12 Launch to Space Station",
-      "link": "https://www.nasa.gov/news-release/nasa-spacex-invite-media-to-watch-crew-12-launch-to-space-station/",
-      "source": "NASA",
-      "date": "2026-01-12T23:25:02Z",
-      "summary": "Media accreditation is open for the launch of NASA’s 12th rotational mission of a SpaceX Falcon 9 rocket and Dragon spacecraft carrying astronauts to the International Space Station for a science expedition from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida. NASA announced it is targeting no earlier than Thursday, Jan. […]"
     }
   ],
-  "updated": "2026-01-13T09:03:46.513Z"
+  "updated": "2026-01-13T09:37:11.572Z"
 }
