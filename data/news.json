@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "ISS gains new commander as Crew-11 prepares midweek departure",
+      "link": "https://spaceflightnow.com/2026/01/13/iss-gains-new-commander-as-crew-11-prepares-midweek-departure/",
+      "source": "Spaceflight Now",
+      "date": "2026-01-13T01:18:46Z",
+      "summary": "NASA astronaut Mike Fincke took over command of the International Space Station on Dec. 7, 2025. He and the rest of the SpaceX Crew-11 mission will undock from the ISS on Jan. 14. "
+    },
+    {
       "title": "Portugal signs the Artemis Accords",
       "link": "https://spacenews.com/portugal-signs-the-artemis-accords/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "Arstechnica",
       "date": "2026-01-12T23:04:33Z",
       "summary": "\"We can't keep everyone living on that first ship that sailed to North America.\""
-    },
-    {
-      "title": "A Quarter Century in Orbit: Science Shaping Life on Earth and Beyond",
-      "link": "https://www.nasa.gov/centers-and-facilities/johnson/a-quarter-century-in-orbit-science-shaping-life-on-earth-and-beyond/",
-      "source": "NASA",
-      "date": "2026-01-12T22:43:30Z",
-      "summary": "For more than 25 years, humans have lived and worked continuously aboard the International Space Station, conducting research that is transforming life on Earth and shaping the future of exploration. From growing food and sequencing DNA to studying disease and simulating Mars missions, every experiment aboard the orbiting laboratory expands our understanding of how humans […]"
     }
   ],
-  "updated": "2026-01-13T00:53:17.513Z"
+  "updated": "2026-01-13T02:48:29.643Z"
 }
