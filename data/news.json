@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA’s Pandora Small Satellite Launched",
+      "link": "https://www.nasa.gov/image-article/nasas-pandora-small-satellite-launched/",
+      "source": "NASA",
+      "date": "2026-01-13T21:39:44Z",
+      "summary": "In this photo from early January 2026, teams prepare to encapsulate NASA’s Pandora small satellite, NASA-sponsored Star-Planet Activity Research CubeSat (SPARCS), and the Black Hole Coded Aperture Telescope (BlackCAT) CubeSat, inside a SpaceX Falcon 9 payload fairing. A SpaceX Falcon 9 rocket carrying NASA’s Pandora small satellite lifted off at 5:44 a.m. PST Sunday, Jan. […]"
+    },
+    {
       "title": "ESA and ClearSpace announce PRELUDE in-orbit servicing and debris removal mission",
       "link": "https://spacenews.com/esa-and-clearspace-announce-prelude-in-orbit-servicing-and-debris-removal-mission/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-01-13T16:53:03Z",
       "summary": "NASA is getting ready to send four astronauts around the Moon with Artemis II, laying the foundation for sustainable missions to the lunar surface and paving the way for human exploration on Mars. As the agency considers deep space endeavors that could last months or years, it must develop ways to feed astronauts beyond sending […]"
-    },
-    {
-      "title": "There’s no end in sight for a space ‘nuclear renaissance’",
-      "link": "https://spacenews.com/theres-no-end-in-sight-for-a-space-nuclear-renaissance/",
-      "source": "SpaceNews",
-      "date": "2026-01-13T16:00:00Z",
-      "summary": "\nA widespread demand for nuclear power has led some to call this period a “nuclear renaissance,” one that will continue to build momentum in 2026. This growing need is being driven by two primary use cases: small modular nuclear reactors for cloud infrastructure and terrestrial data center needs, and nuclear electric reactors for lunar surface […]\nThe post There’s no end in sight for a space ‘nuclear renaissance’ appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-13T21:33:02.037Z"
+  "updated": "2026-01-13T21:46:21.039Z"
 }
