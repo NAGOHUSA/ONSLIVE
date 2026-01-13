@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA Back for Seconds with New Food System Design Challenge",
+      "link": "https://www.nasa.gov/directorates/stmd/nasa-back-for-seconds-with-new-food-system-design-challenge/",
+      "source": "NASA",
+      "date": "2026-01-13T16:53:03Z",
+      "summary": "NASA is getting ready to send four astronauts around the Moon with Artemis II, laying the foundation for sustainable missions to the lunar surface and paving the way for human exploration on Mars. As the agency considers deep space endeavors that could last months or years, it must develop ways to feed astronauts beyond sending […]"
+    },
+    {
       "title": "There’s no end in sight for a space ‘nuclear renaissance’",
       "link": "https://spacenews.com/theres-no-end-in-sight-for-a-space-nuclear-renaissance/",
       "source": "SpaceNews",
@@ -15,13 +22,6 @@
       "summary": "Los Angeles CA (SPX) Jan 13, 2026\r\n\r\n\r\nNASA mission controllers have acquired full signal from the agency's Pandora small satellite, confirming the health and initial operations of the exoplanet observatory following launch from Vandenberg Space Force Base in California on Jan. 11, 2026. \r\n\r\nThe spacecraft rode to orbit on a SpaceX Falcon 9 rocket from Space Launch Complex 4 East, sharing the flight with the Star-Planet Activity Re"
     },
     {
-      "title": "Tiny Mars' big impact on Earth's climate",
-      "link": "https://www.marsdaily.com/reports/Tiny_Mars_big_impact_on_Earths_climate_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-13T14:50:49Z",
-      "summary": "Riverside, CA (SPX) Jan 12, 2026\n\n\nAt half the size of Earth and one-tenth its mass, Mars is a featherweight as far as planets go. And yet, new research reveals the extent to which Mars is quietly tugging on Earth's orbit and shaping the cycles that drive long-term climate patterns here, including ice ages. \n\nStephen Kane, a professor of planetary astrophysics at UC Riverside, began this project with doubts about recent studi"
-    },
-    {
       "title": "PH-1 test flight advances Chinese reusable suborbital spacecraft plans",
       "link": "https://www.spacedaily.com/reports/PH_1_test_flight_advances_Chinese_reusable_suborbital_spacecraft_plans_999.html",
       "source": "SpaceDaily",
@@ -29,12 +29,12 @@
       "summary": "Tokyo, Japan (SPX) Jan 13, 2026\r\n\r\n\r\nA Chinese suborbital spacecraft designed for reusable operations and future space tourism has completed a key test flight, marking a new step in the country's commercial space ambitions. \r\n\r\nThe vehicle, designated PH-1, is developed by Beijing-based commercial aerospace company CAS Space and is intended to support low cost scientific experiments in microgravity as well as pave the way for pas"
     },
     {
-      "title": "Ancient impact may explain moons contrasting sides",
-      "link": "https://www.moondaily.com/reports/Ancient_impact_may_explain_moons_contrasting_sides_999.html",
+      "title": "Tiny Mars' big impact on Earth's climate",
+      "link": "https://www.marsdaily.com/reports/Tiny_Mars_big_impact_on_Earths_climate_999.html",
       "source": "SpaceDaily",
       "date": "2026-01-13T14:50:49Z",
-      "summary": "Tokyo, Japan (SPX) Jan 13, 2026\n\n\nFor decades scientists have puzzled over why the moons two hemispheres look so different despite sharing a common origin in the early solar system. \n\nThe near side that always faces Earth is dominated by dark flat volcanic plains called maria that create the familiar man in the moon pattern seen with the naked eye. In contrast the far side has a much thicker crust and appears as a rugged hea"
+      "summary": "Riverside, CA (SPX) Jan 12, 2026\n\n\nAt half the size of Earth and one-tenth its mass, Mars is a featherweight as far as planets go. And yet, new research reveals the extent to which Mars is quietly tugging on Earth's orbit and shaping the cycles that drive long-term climate patterns here, including ice ages. \n\nStephen Kane, a professor of planetary astrophysics at UC Riverside, began this project with doubts about recent studi"
     }
   ],
-  "updated": "2026-01-13T16:35:56.633Z"
+  "updated": "2026-01-13T17:00:23.876Z"
 }
