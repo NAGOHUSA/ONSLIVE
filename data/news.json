@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "ESA and ClearSpace announce PRELUDE in-orbit servicing and debris removal mission",
+      "link": "https://spacenews.com/esa-and-clearspace-announce-prelude-in-orbit-servicing-and-debris-removal-mission/",
+      "source": "SpaceNews",
+      "date": "2026-01-13T21:22:13Z",
+      "summary": "\nMILAN — The European Space Agency and Luxembourg’s ClearSpace announced Jan. 12 a new collaboration on an in-orbit servicing and active debris removal mission called PRELUDE, one that will involve two small spacecraft designed to test close-proximity operations and could eventually enable satellite life extension, repair and removal in orbit. Officials are targeting a 2027 […]\nThe post ESA and ClearSpace announce PRELUDE in-orbit servicing and debris removal mission appeared first on SpaceNews."
+    },
+    {
+      "title": "NASA, Department of Energy to Develop Lunar Surface Reactor by 2030",
+      "link": "https://www.nasa.gov/news-release/nasa-department-of-energy-to-develop-lunar-surface-reactor-by-2030/",
+      "source": "NASA",
+      "date": "2026-01-13T21:01:10Z",
+      "summary": "NASA, along with the U.S. Department of Energy (DOE), announced Tuesday a renewed commitment to their longstanding partnership to support the research and development of a fission surface power system for use on the Moon under the Artemis campaign and future NASA missions to Mars. A recently signed memorandum of understanding between the agencies solidifies […]"
+    },
+    {
       "title": "Pentagon commits $1 billion to L3Harris missile unit as ‘anchor investor’",
       "link": "https://spacenews.com/pentagon-commits-1-billion-to-l3harris-missile-unit-as-anchor-investor/",
       "source": "SpaceNews",
@@ -20,21 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-13T16:00:00Z",
       "summary": "\nA widespread demand for nuclear power has led some to call this period a “nuclear renaissance,” one that will continue to build momentum in 2026. This growing need is being driven by two primary use cases: small modular nuclear reactors for cloud infrastructure and terrestrial data center needs, and nuclear electric reactors for lunar surface […]\nThe post There’s no end in sight for a space ‘nuclear renaissance’ appeared first on SpaceNews."
-    },
-    {
-      "title": "Pandora exoplanet mission checks in after launch",
-      "link": "https://www.spacedaily.com/reports/Pandora_exoplanet_mission_checks_in_after_launch_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-13T14:50:49Z",
-      "summary": "Los Angeles CA (SPX) Jan 13, 2026\r\n\r\n\r\nNASA mission controllers have acquired full signal from the agency's Pandora small satellite, confirming the health and initial operations of the exoplanet observatory following launch from Vandenberg Space Force Base in California on Jan. 11, 2026. \r\n\r\nThe spacecraft rode to orbit on a SpaceX Falcon 9 rocket from Space Launch Complex 4 East, sharing the flight with the Star-Planet Activity Re"
-    },
-    {
-      "title": "PH-1 test flight advances Chinese reusable suborbital spacecraft plans",
-      "link": "https://www.spacedaily.com/reports/PH_1_test_flight_advances_Chinese_reusable_suborbital_spacecraft_plans_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-13T14:50:49Z",
-      "summary": "Tokyo, Japan (SPX) Jan 13, 2026\r\n\r\n\r\nA Chinese suborbital spacecraft designed for reusable operations and future space tourism has completed a key test flight, marking a new step in the country's commercial space ambitions. \r\n\r\nThe vehicle, designated PH-1, is developed by Beijing-based commercial aerospace company CAS Space and is intended to support low cost scientific experiments in microgravity as well as pave the way for pas"
     }
   ],
-  "updated": "2026-01-13T21:10:18.117Z"
+  "updated": "2026-01-13T21:33:02.037Z"
 }
