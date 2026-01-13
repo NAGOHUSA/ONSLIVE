@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "A Plume of Bright Blue in Melissa’s Wake",
+      "link": "https://science.nasa.gov/earth/earth-observatory/a-plume-of-bright-blue-in-melissas-wake/",
+      "source": "NASA",
+      "date": "2026-01-13T05:01:00Z",
+      "summary": "The category 5 hurricane stirred up carbonate sediment near Jamaica in what scientists believe is the largest such event in the satellite record."
+    },
+    {
       "title": "Artemis Accords Reach Another Milestone with Portugal",
       "link": "https://spacepolicyonline.com/news/artemis-accords-reach-another-milestone-with-portugal/",
       "source": "SpacePolicyOnline.com",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-01-12T23:25:02Z",
       "summary": "Media accreditation is open for the launch of NASA’s 12th rotational mission of a SpaceX Falcon 9 rocket and Dragon spacecraft carrying astronauts to the International Space Station for a science expedition from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida. NASA announced it is targeting no earlier than Thursday, Jan. […]"
-    },
-    {
-      "title": "Launch Preview: Launches from China, U.S., and Norway scheduled for upcoming week",
-      "link": "https://www.nasaspaceflight.com/2026/01/launch-preview-011226/",
-      "source": "NASASpaceflight",
-      "date": "2026-01-12T23:24:50Z",
-      "summary": "Eight orbital launch attempts are scheduled for this week, with SpaceX and Chinese launches comprising…\nThe post Launch Preview: Launches from China, U.S., and Norway scheduled for upcoming week appeared first on NASASpaceFlight.com."
     }
   ],
-  "updated": "2026-01-13T04:59:01.149Z"
+  "updated": "2026-01-13T05:25:22.732Z"
 }
