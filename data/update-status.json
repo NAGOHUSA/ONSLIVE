@@ -1,8 +1,8 @@
 {
-  "lastUpdate": "2026-01-13T05:25:23.630Z",
+  "lastUpdate": "2026-01-13T05:45:56.571Z",
   "dataStatus": {
     "noaa": "OK",
-    "aurora": "OK",
+    "aurora": "FAILED",
     "xray": "FAILED",
     "dst": "OK",
     "news": "OK",
