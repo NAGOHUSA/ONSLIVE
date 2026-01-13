@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Artemis Accords Reach Another Milestone with Portugal",
+      "link": "https://spacepolicyonline.com/news/artemis-accords-reach-another-milestone-with-portugal/",
+      "source": "SpacePolicyOnline.com",
+      "date": "2026-01-13T03:31:04Z",
+      "summary": "Portugal became the 60th country to join the Artemis Accords today. It’s another milestone for the U.S.-led principles for responsible behavior on the Moon. The Accords recently celebrated the fifth […]"
+    },
+    {
       "title": "ISS gains new commander as Crew-11 prepares midweek departure",
       "link": "https://spaceflightnow.com/2026/01/13/iss-gains-new-commander-as-crew-11-prepares-midweek-departure/",
       "source": "Spaceflight Now",
@@ -27,14 +34,7 @@
       "source": "NASASpaceflight",
       "date": "2026-01-12T23:24:50Z",
       "summary": "Eight orbital launch attempts are scheduled for this week, with SpaceX and Chinese launches comprising…\nThe post Launch Preview: Launches from China, U.S., and Norway scheduled for upcoming week appeared first on NASASpaceFlight.com."
-    },
-    {
-      "title": "You can now reserve a hotel room on the Moon for $250,000",
-      "link": "https://arstechnica.com/space/2026/01/you-can-now-reserve-a-hotel-room-on-the-moon-for-250000/",
-      "source": "Arstechnica",
-      "date": "2026-01-12T23:04:33Z",
-      "summary": "\"We can't keep everyone living on that first ship that sailed to North America.\""
     }
   ],
-  "updated": "2026-01-13T02:48:29.643Z"
+  "updated": "2026-01-13T03:54:44.094Z"
 }
