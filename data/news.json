@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "U.S. Space Force switches rockets for upcoming GPS satellite launch",
+      "link": "https://spaceflightnow.com/2026/01/13/u-s-space-force-switches-rockets-for-upcoming-gps-satellite-launch/",
+      "source": "Spaceflight Now",
+      "date": "2026-01-13T23:42:02Z",
+      "summary": "The change will allow the U.S. Space Force to expedite the process of building out its GPS constellation in medium Earth orbit. The launch date for the next satellite, GPS III Space Vehicle 09, could be within weeks. "
+    },
+    {
       "title": "NASA to Provide Live Coverage of Crew-11 Return, Splashdown",
       "link": "https://www.nasa.gov/news-release/nasa-to-provide-live-coverage-of-crew-11-return-splashdown/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-13T21:22:13Z",
       "summary": "\nMILAN — The European Space Agency and Luxembourg’s ClearSpace announced Jan. 12 a new collaboration on an in-orbit servicing and active debris removal mission called PRELUDE, one that will involve two small spacecraft designed to test close-proximity operations and could eventually enable satellite life extension, repair and removal in orbit. Officials are targeting a 2027 […]\nThe post ESA and ClearSpace announce PRELUDE in-orbit servicing and debris removal mission appeared first on SpaceNews."
-    },
-    {
-      "title": "NASA, Department of Energy to Develop Lunar Surface Reactor by 2030",
-      "link": "https://www.nasa.gov/news-release/nasa-department-of-energy-to-develop-lunar-surface-reactor-by-2030/",
-      "source": "NASA",
-      "date": "2026-01-13T21:01:10Z",
-      "summary": "NASA, along with the U.S. Department of Energy (DOE), announced Tuesday a renewed commitment to their longstanding partnership to support the research and development of a fission surface power system for use on the Moon under the Artemis campaign and future NASA missions to Mars. A recently signed memorandum of understanding between the agencies solidifies […]"
     }
   ],
-  "updated": "2026-01-13T23:49:16.273Z"
+  "updated": "2026-01-13T23:55:48.434Z"
 }
