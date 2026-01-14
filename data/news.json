@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Space operations will become more dynamic this year",
+      "link": "https://spacenews.com/space-operations-will-become-more-dynamic-this-year/",
+      "source": "SpaceNews",
+      "date": "2026-01-14T12:00:00Z",
+      "summary": "\nFrom civil science and exploration missions to national security, there are many space activities to look forward to in 2026. There will be at least three missions heading to the moon, Vast’s Haven-1 is scheduled to launch as the first prospective commercial low Earth orbit (LEO) destination. But perhaps more importantly, there will be a […]\nThe post Space operations will become more dynamic this year appeared first on SpaceNews."
+    },
+    {
       "title": "SkyFi raises $12.7 million to scale satellite data marketplace",
       "link": "https://spacenews.com/skyfi-raises-12-7-million-to-scale-satellite-data-marketplace/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "European Spaceflight",
       "date": "2026-01-14T08:56:50Z",
       "summary": "The Swedish government has committed SEK 1.3 billion (approximately €121 million) to purchase ten satellites to build out a sovereign intelligence, surveillance, and reconnaissance (ISR) system. On 12 January, Sweden announced a SEK 5.3 billion (approximately €494 million) spending package focused on expanding national defence capacity. The funding forms part of a SEK 25 billion […]\nThe post Sweden to Acquire 10 Surveillance Satellites for €121 Million appeared first on European Spaceflight."
-    },
-    {
-      "title": "Quantum light switch built from atomically thin mirror",
-      "link": "https://www.spacedaily.com/reports/Quantum_light_switch_built_from_atomically_thin_mirror_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-14T08:17:13Z",
-      "summary": "Berlin, Germany (SPX) Jan 09, 2026\n\n\nControlling light across scales, from microscopes and telescopes down to nanometers, is a central challenge in modern optics. Researchers at the University of Amsterdam have now demonstrated a nanoscale mirror whose reflectivity can be switched on and off electrically using quantum effects in an atomically thin material. \n\nPhysicists Tom Hoekstra and Jorik van de Groep of the UvA-Institute o"
     }
   ],
-  "updated": "2026-01-14T11:56:43.522Z"
+  "updated": "2026-01-14T12:32:00.620Z"
 }
