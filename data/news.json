@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "ThinkOrbital raises seed funding to advance X-ray space inspection",
+      "link": "https://spacenews.com/thinkorbital-raises-seed-funding-to-advance-x-ray-space-inspection/",
+      "source": "SpaceNews",
+      "date": "2026-01-14T15:00:00Z",
+      "summary": "\nBoulder-based startup plans 2026 demonstrations tied to space domain awareness\nThe post ThinkOrbital raises seed funding to advance X-ray space inspection appeared first on SpaceNews."
+    },
+    {
       "title": "La NASA publica datos de la temperatura global",
       "link": "https://www.nasa.gov/news-release/la-nasa-publica-datos-de-la-temperatura-global/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-14T14:00:00Z",
       "summary": "\nSpaceX’s 2026 IPO plans were an early Christmas present for space investors who were already bullish about the year ahead. The move helps push the industry further into the mainstream investment and public consciousness. It also paves the way for others to go public in a capital-intensive business. Despite ongoing financial uncertainty, demand for sovereign […]\nThe post Bringing outsiders into the space fold appeared first on SpaceNews."
-    },
-    {
-      "title": "Hubble Observes Stars Flaring to Life in Orion",
-      "link": "https://science.nasa.gov/missions/hubble/hubble-observes-stars-flaring-to-life-in-orion/",
-      "source": "NASA",
-      "date": "2026-01-14T13:21:15Z",
-      "summary": "Just-forming stars, called protostars, dazzle a cloudy landscape in the Orion Molecular Cloud complex (OMC). These three new images from NASA’s Hubble Space Telescope were taken as part of an effort to learn more about the envelopes of gas and dust surrounding the protostars, as well as the outflow cavities where stellar winds and jets […]"
     }
   ],
-  "updated": "2026-01-14T14:59:24.033Z"
+  "updated": "2026-01-14T15:26:58.235Z"
 }
