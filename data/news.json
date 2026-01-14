@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Fire on Ice: The Arctic’s Changing Fire Regime",
+      "link": "https://science.nasa.gov/earth/earth-observatory/fire-on-ice-the-arctics-changing-fire-regime/",
+      "source": "NASA",
+      "date": "2026-01-14T05:00:00Z",
+      "summary": "An increasingly flammable landscape combined with more lightning strikes is leading to larger, more frequent, and more intense fires than the landscape is adapted for."
+    },
+    {
+      "title": "Fires on the Rise in the Far North",
+      "link": "https://science.nasa.gov/earth/earth-observatory/fires-on-the-rise-in-the-far-north/",
+      "source": "NASA",
+      "date": "2026-01-14T05:00:00Z",
+      "summary": "Satellite-based maps show northern wildland fires becoming more frequent and widespread as temperatures rise and lightning reaches higher latitudes."
+    },
+    {
       "title": "India’s workhorse PSLV needs to solve third stage issue following second consecutive failure",
       "link": "https://www.nasaspaceflight.com/2026/01/indias-pslv-solve-third-stage-second-failure/",
       "source": "NASASpaceflight",
@@ -20,21 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-14T00:41:41Z",
       "summary": "\nSAN FRANCISCO – A Jan. 13 hearing underscored the importance of ongoing collaboration between the National Oceanic and Atmospheric Administration (NOAA) and the U.S. armed services. U.S. Air Force and U.S. Navy witnesses discussed their heavy reliance on datasets and weather models provided by NOAA and said their agencies are working closely to ensure NOAA’s […]\nThe post Congressional hearing highlights military’s reliance on NOAA data appeared first on SpaceNews."
-    },
-    {
-      "title": "Live coverage: SpaceX to launch midweek Starlink mission on Falcon 9 rocket from Cape Canaveral",
-      "link": "https://spaceflightnow.com/2026/01/14/live-coverage-spacex-to-launch-midweek-starlink-mission-on-falcon-9-rocket-from-cape-canaveral/",
-      "source": "Spaceflight Now",
-      "date": "2026-01-14T00:35:35Z",
-      "summary": "The Starlink 6-98 mission will add 29 Starlink V2 Mini Optimized satellites to the low Earth orbit constellation. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for 1:08 p.m. EST (1808 UTC). "
-    },
-    {
-      "title": "La NASA transmitirá en directo el regreso y el amerizaje de Crew 11",
-      "link": "https://www.nasa.gov/news-release/la-nasa-transmitira-en-directo-el-regreso-y-el-amerizaje-de-crew-11/",
-      "source": "NASA",
-      "date": "2026-01-13T23:52:24Z",
-      "summary": "Read this press release in English here. La NASA y SpaceX prevén que, si las condiciones meteorológicas lo permiten, el desacoplamiento de la misión SpaceX Crew 11 de la agencia espacial estadounidense de la Estación Espacial Internacional se produzca no antes de las 5:05 p.m. EST (hora del este) del miércoles 14 de enero. El 8 […]"
     }
   ],
-  "updated": "2026-01-14T04:55:15.101Z"
+  "updated": "2026-01-14T05:15:44.954Z"
 }
