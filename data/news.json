@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "SkyFi raises $12.7 million to scale satellite data marketplace",
+      "link": "https://spacenews.com/skyfi-raises-12-7-million-to-scale-satellite-data-marketplace/",
+      "source": "SpaceNews",
+      "date": "2026-01-14T11:30:00Z",
+      "summary": "\nFunding backs expansion of “virtual constellation” that aggregates imagery from commercial operators\nThe post SkyFi raises $12.7 million to scale satellite data marketplace appeared first on SpaceNews."
+    },
+    {
       "title": "China’s first launches of 2026 send Yaogan spacecraft into unusual orbit, loft Guowang satellites",
       "link": "https://spacenews.com/chinas-first-launches-of-2026-send-yaogan-spacecraft-into-unusual-orbit-loft-guowang-satellites/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceDaily",
       "date": "2026-01-14T08:17:13Z",
       "summary": "Berlin, Germany (SPX) Jan 09, 2026\n\n\nControlling light across scales, from microscopes and telescopes down to nanometers, is a central challenge in modern optics. Researchers at the University of Amsterdam have now demonstrated a nanoscale mirror whose reflectivity can be switched on and off electrically using quantum effects in an atomically thin material. \n\nPhysicists Tom Hoekstra and Jorik van de Groep of the UvA-Institute o"
-    },
-    {
-      "title": "Musk vs OpenAI trial set for April 27",
-      "link": "https://www.robodaily.com/reports/Musk_vs_OpenAI_trial_set_for_April_27_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-14T08:17:13Z",
-      "summary": "San Francisco, United States (AFP) Jan 13, 2026\n\n\n A trial in the lawsuit brought by Elon Musk against OpenAI CEO Samuel Altman and other defendants - including tech giant Microsoft - is scheduled to begin April 27, according to a federal court order issued Tuesday. \n\nThe legal showdown will center on Musk's claim that OpenAI and Altman abandoned the startup's original nonprofit, public-benefit mission and misled him while turning the lab in"
     }
   ],
-  "updated": "2026-01-14T11:39:00.652Z"
+  "updated": "2026-01-14T11:50:10.273Z"
 }
