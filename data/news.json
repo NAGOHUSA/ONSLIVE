@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Live coverage: NASA, SpaceX prepare ‘medical evacuation’ Crew-11 return to Earth",
+      "link": "https://spaceflightnow.com/2026/01/14/live-coverage-nasa-spacex-prepare-medical-evacuation-crew-11-return-to-earth/",
+      "source": "Spaceflight Now",
+      "date": "2026-01-14T20:26:18Z",
+      "summary": "The three astronauts and cosmonaut are scheduled to undock from the space station at 5:05 p.m. EST (2205 UTC) on Wednesday, Jan. 14, and splashdown off the coast of California at 3:41 a.m. EST (0841 UTC). "
+    },
+    {
       "title": "Crew-11 set for undocking and splashdown after medical situation forces early return",
       "link": "https://www.nasaspaceflight.com/2026/01/crew-11-return/",
       "source": "NASASpaceflight",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-14T18:00:00Z",
       "summary": "\nWhen President John F. Kennedy stood before Congress in May 1961 and declared that the United States would land a man on the moon before the decade’s end, his purpose was not to invent the space program, but to impose a clear objective, a deadline and the resources to unify these efforts. The success of […]\nThe post Taiwan’s Moonshot: why ‘T-Dome’ needs systems engineering, not just a shopping list appeared first on SpaceNews."
-    },
-    {
-      "title": "Space sustainability will evolve into a data-driven system",
-      "link": "https://spacenews.com/space-sustainability-will-evolve-intoa-data-driven-system/",
-      "source": "SpaceNews",
-      "date": "2026-01-14T16:00:00Z",
-      "summary": "\nIf you stayed in a hotel last night, there’s a good chance you saw that familiar placard in the bathroom: “Help save the planet — hang your towel and we won’t wash it.” At a recent panel, I asked the audience how many had seen that sign. Most hands went up. Then I asked them […]\nThe post Space sustainability will evolve into a data-driven system appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-14T20:09:53.641Z"
+  "updated": "2026-01-14T20:33:59.418Z"
 }
