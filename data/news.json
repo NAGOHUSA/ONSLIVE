@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "New York–Newark–Jersey City Metropolitan Area",
+      "link": "https://www.nasa.gov/image-article/new-york-newark-jersey-city-metropolitan-area/",
+      "source": "NASA",
+      "date": "2026-01-14T18:55:06Z",
+      "summary": "The New York–Newark–Jersey City Metropolitan Statistical Area, which spans 23 counties across New York, New Jersey, and Connecticut and has a population of about 19.9 million, is pictured at approximately 3:29 a.m. local time Dec. 20, 2025, from the International Space Station as it orbited 262 miles above the Atlantic coast. Crew members aboard the […]"
+    },
+    {
       "title": "ESA’s Comet Interceptor mission moves up launch",
       "link": "https://spacenews.com/esas-comet-interceptor-mission-moves-up-launch/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-14T15:00:00Z",
       "summary": "\nBoulder-based startup plans 2026 demonstrations tied to space domain awareness\nThe post ThinkOrbital raises seed funding to advance X-ray space inspection appeared first on SpaceNews."
-    },
-    {
-      "title": "La NASA publica datos de la temperatura global",
-      "link": "https://www.nasa.gov/news-release/la-nasa-publica-datos-de-la-temperatura-global/",
-      "source": "NASA",
-      "date": "2026-01-14T14:35:22Z",
-      "summary": "Read this press release in English here. La temperatura global de la superficie terrestre en 2025 fue un poco más cálida que en 2023 pero, dentro de los márgenes de error, ambos años está prácticamente empatados, según un análisis realizado por científicos de la NASA. Desde que comenzaron los registros en 1880, 2024 sigue siendo el […]"
     }
   ],
-  "updated": "2026-01-14T18:53:44.867Z"
+  "updated": "2026-01-14T19:09:28.418Z"
 }
