@@ -1,40 +1,40 @@
 {
   "articles": [
     {
+      "title": "Quantum light switch built from atomically thin mirror",
+      "link": "https://www.spacedaily.com/reports/Quantum_light_switch_built_from_atomically_thin_mirror_999.html",
+      "source": "SpaceDaily",
+      "date": "2026-01-14T08:17:13Z",
+      "summary": "Berlin, Germany (SPX) Jan 09, 2026\n\n\nControlling light across scales, from microscopes and telescopes down to nanometers, is a central challenge in modern optics. Researchers at the University of Amsterdam have now demonstrated a nanoscale mirror whose reflectivity can be switched on and off electrically using quantum effects in an atomically thin material. \n\nPhysicists Tom Hoekstra and Jorik van de Groep of the UvA-Institute o"
+    },
+    {
+      "title": "Quantum key method enables redundant storage of qubit data",
+      "link": "https://www.spacedaily.com/reports/Quantum_key_method_enables_redundant_storage_of_qubit_data_999.html",
+      "source": "SpaceDaily",
+      "date": "2026-01-14T08:17:13Z",
+      "summary": "Los Angeles CA (SPX) Jan 07, 2026\n\n\nA team of researchers at the University of Waterloo have demonstrated a method to back up quantum information by encrypting qubits during copying, providing redundancy while remaining consistent with the no-cloning theorem. \n\nQuantum computing stores and processes information in qubits, which can be implemented in individual electrons, photons, atoms, ions or tiny electrical currents."
+    },
+    {
+      "title": "Musk vs OpenAI trial set for April 27",
+      "link": "https://www.robodaily.com/reports/Musk_vs_OpenAI_trial_set_for_April_27_999.html",
+      "source": "SpaceDaily",
+      "date": "2026-01-14T08:17:13Z",
+      "summary": "San Francisco, United States (AFP) Jan 13, 2026\n\n\n A trial in the lawsuit brought by Elon Musk against OpenAI CEO Samuel Altman and other defendants - including tech giant Microsoft - is scheduled to begin April 27, according to a federal court order issued Tuesday. \n\nThe legal showdown will center on Musk's claim that OpenAI and Altman abandoned the startup's original nonprofit, public-benefit mission and misled him while turning the lab in"
+    },
+    {
+      "title": "How IVRT Testing Ensures Consistent Product Quality",
+      "link": "https://www.spacedaily.com/reports/How_IVRT_Testing_Ensures_Consistent_Product_Quality_999.html",
+      "source": "SpaceDaily",
+      "date": "2026-01-14T08:17:13Z",
+      "summary": "Los Angeles CA (SPX) Jan 13, 2026\n\nStringent quality control is essential in the pharmaceutical industry, as both cosmetics and pharmaceutical products must maintain a high standard of quality. Any deviation from these standards poses a significant threat to their market survival. Customers believe that every product will work with every use. In vitro release testing (IVRT) is a crucial process that enables manufacturers to meet"
+    },
+    {
       "title": "Space station study reveals unusual virus bacteria dynamics in microgravity",
       "link": "https://www.spacedaily.com/reports/Space_station_study_reveals_unusual_virus_bacteria_dynamics_in_microgravity_999.html",
       "source": "SpaceDaily",
       "date": "2026-01-14T07:08:24Z",
       "summary": "Los Angeles CA (SPX) Jan 14, 2026\n\n\nIn near weightless conditions aboard the International Space Station, viruses that infect bacteria continue to attack their hosts but follow an altered evolutionary trajectory compared to the same systems on Earth. \n\nA new study led by researchers at the University of Wisconsin Madison used Escherichia coli and its bacteriophage predator T7 to probe how microgravity reshapes the coevolution"
-    },
-    {
-      "title": "Nullspace speeds antenna and radar simulations with new EM software tools",
-      "link": "https://www.spacedaily.com/reports/Nullspace_speeds_antenna_and_radar_simulations_with_new_EM_software_tools_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-14T07:08:24Z",
-      "summary": "Los Angeles CA (SPX) Jan 14, 2026\n\n\nNullspace Inc. has released a new version of its electromagnetic simulation suite that targets large-scale antenna and radar applications with faster frequency analysis and streamlined CAD preparation for RF engineers. The company positions the software as a way to shorten design cycles and time-to-market for complex RF systems by combining high-accuracy solvers with new automation features."
-    },
-    {
-      "title": "NASA heavy ion tests confirm Sakura II AI chip for orbital and lunar use",
-      "link": "https://www.spacedaily.com/reports/NASA_heavy_ion_tests_confirm_Sakura_II_AI_chip_for_orbital_and_lunar_use_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-14T07:08:24Z",
-      "summary": "Los Angeles CA (SPX) Jan 14, 2026\n\n\nEdgeCortix Inc. reports that its Sakura II edge AI co-processor has demonstrated high levels of radiation resiliency in heavy ion testing conducted under the NASA Electronic Parts and Packaging Program. The results mark the second time an EdgeCortix device has completed this test campaign, following earlier work in 2024 on the Sakura I co-processor. \n\nAccording to the new NASA report, Sakura"
-    },
-    {
-      "title": "Firefly prepares Alpha Block II upgrade for Flight 8",
-      "link": "https://www.spacedaily.com/reports/Firefly_prepares_Alpha_Block_II_upgrade_for_Flight_8_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-14T07:08:24Z",
-      "summary": "Los Angeles CA (SPX) Jan 14, 2026\n\n\nFirefly Aerospace has announced a Block II configuration upgrade for its Alpha small launch vehicle, with qualification testing for the new second stage hardware now underway at the companys Rocket Ranch test facility in Briggs, Texas. The Block II program is intended to boost reliability, streamline manufacturing, and improve launch operations to better support commercial, civil, and national s"
-    },
-    {
-      "title": "Berkeley Scientists set to home in on 100 signals from Seti at Home",
-      "link": "https://www.spacedaily.com/reports/Berkeley_Scientists_set_to_home_in_on_100_signals_from_Seti_at_Home_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-14T07:08:24Z",
-      "summary": "Berkeley, United States (SPX) Jan 12, 2026\n\nFor 21 years, between 1999 and 2020, millions of people worldwide loaned UC Berkeley scientists their computers to search for signs of advanced civilizations in our galaxy. \n\nThe project - called SETI@home, after the Search for Extraterrestrial Intelligence (SETI) - generated a loyal following eager to participate in one of the most popular crowd-sourced projects in the early days of the int"
     }
   ],
-  "updated": "2026-01-14T07:14:46.624Z"
+  "updated": "2026-01-14T07:38:02.087Z"
 }
