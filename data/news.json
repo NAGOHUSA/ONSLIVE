@@ -1,6 +1,27 @@
 {
   "articles": [
     {
+      "title": "Congressional hearing highlights military’s reliance on NOAA data",
+      "link": "https://spacenews.com/congressional-hearing-highlights-militarys-reliance-on-noaa-data/",
+      "source": "SpaceNews",
+      "date": "2026-01-14T00:41:41Z",
+      "summary": "\nSAN FRANCISCO – A Jan. 13 hearing underscored the importance of ongoing collaboration between the National Oceanic and Atmospheric Administration (NOAA) and the U.S. armed services. U.S. Air Force and U.S. Navy witnesses discussed their heavy reliance on datasets and weather models provided by NOAA and said their agencies are working closely to ensure NOAA’s […]\nThe post Congressional hearing highlights military’s reliance on NOAA data appeared first on SpaceNews."
+    },
+    {
+      "title": "Live coverage: SpaceX to launch midweek Starlink mission on Falcon 9 rocket from Cape Canaveral",
+      "link": "https://spaceflightnow.com/2026/01/14/live-coverage-spacex-to-launch-midweek-starlink-mission-on-falcon-9-rocket-from-cape-canaveral/",
+      "source": "Spaceflight Now",
+      "date": "2026-01-14T00:35:35Z",
+      "summary": "The Starlink 6-98 mission will add 29 Starlink V2 Mini Optimized satellites to the low Earth orbit constellation. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for 1:08 p.m. EST (1808 UTC). "
+    },
+    {
+      "title": "La NASA transmitirá en directo el regreso y el amerizaje de Crew 11",
+      "link": "https://www.nasa.gov/news-release/la-nasa-transmitira-en-directo-el-regreso-y-el-amerizaje-de-crew-11/",
+      "source": "NASA",
+      "date": "2026-01-13T23:52:24Z",
+      "summary": "Read this press release in English here. La NASA y SpaceX prevén que, si las condiciones meteorológicas lo permiten, el desacoplamiento de la misión SpaceX Crew 11 de la agencia espacial estadounidense de la Estación Espacial Internacional se produzca no antes de las 5:05 p.m. EST (hora del este) del miércoles 14 de enero. El 8 […]"
+    },
+    {
       "title": "U.S. Space Force switches rockets for upcoming GPS satellite launch",
       "link": "https://spaceflightnow.com/2026/01/13/u-s-space-force-switches-rockets-for-upcoming-gps-satellite-launch/",
       "source": "Spaceflight Now",
@@ -13,28 +34,7 @@
       "source": "NASA",
       "date": "2026-01-13T23:13:09Z",
       "summary": "NASA and SpaceX are targeting no earlier than 5:05 p.m. EST, Wednesday, Jan. 14, for the undocking of the agency’s SpaceX Crew-11 mission from the International Space Station, pending weather conditions. On Jan. 8, NASA announced its decision to return the agency’s SpaceX Crew-11 mission to Earth from the space station earlier than originally planned […]"
-    },
-    {
-      "title": "Starship launch infrastructure progress at Starbase/Cape ahead of 2026 Launches",
-      "link": "https://www.nasaspaceflight.com/2026/01/starship-infrastructure-progress-starbase-cape/",
-      "source": "NASASpaceflight",
-      "date": "2026-01-13T21:52:55Z",
-      "summary": "SpaceX continues to make rapid progress on its Starship program infrastructure, with significant developments at…\nThe post Starship launch infrastructure progress at Starbase/Cape ahead of 2026 Launches appeared first on NASASpaceFlight.com."
-    },
-    {
-      "title": "NASA’s Pandora Small Satellite Launched",
-      "link": "https://www.nasa.gov/image-article/nasas-pandora-small-satellite-launched/",
-      "source": "NASA",
-      "date": "2026-01-13T21:39:44Z",
-      "summary": "In this photo from early January 2026, teams prepare to encapsulate NASA’s Pandora small satellite, NASA-sponsored Star-Planet Activity Research CubeSat (SPARCS), and the Black Hole Coded Aperture Telescope (BlackCAT) CubeSat, inside a SpaceX Falcon 9 payload fairing. A SpaceX Falcon 9 rocket carrying NASA’s Pandora small satellite lifted off at 5:44 a.m. PST Sunday, Jan. […]"
-    },
-    {
-      "title": "ESA and ClearSpace announce PRELUDE in-orbit servicing and debris removal mission",
-      "link": "https://spacenews.com/esa-and-clearspace-announce-prelude-in-orbit-servicing-and-debris-removal-mission/",
-      "source": "SpaceNews",
-      "date": "2026-01-13T21:22:13Z",
-      "summary": "\nMILAN — The European Space Agency and Luxembourg’s ClearSpace announced Jan. 12 a new collaboration on an in-orbit servicing and active debris removal mission called PRELUDE, one that will involve two small spacecraft designed to test close-proximity operations and could eventually enable satellite life extension, repair and removal in orbit. Officials are targeting a 2027 […]\nThe post ESA and ClearSpace announce PRELUDE in-orbit servicing and debris removal mission appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-13T23:55:48.434Z"
+  "updated": "2026-01-14T01:02:43.831Z"
 }
