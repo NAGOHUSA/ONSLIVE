@@ -1,18 +1,18 @@
 {
   "articles": [
     {
+      "title": "Virtual tour of ESA’s Test Centre gets a makeover",
+      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/01/Virtual_tour_of_ESA_s_Test_Centre_gets_a_makeover",
+      "source": "ESA",
+      "date": "2026-01-14T10:30:00Z",
+      "summary": "From the ESA Blogs."
+    },
+    {
       "title": "Sweden to Acquire 10 Surveillance Satellites for €121 Million",
       "link": "https://europeanspaceflight.com/sweden-to-acquire-10-surveillance-satellites-for-e121-million/",
       "source": "European Spaceflight",
       "date": "2026-01-14T08:56:50Z",
       "summary": "The Swedish government has committed SEK 1.3 billion (approximately €121 million) to purchase ten satellites to build out a sovereign intelligence, surveillance, and reconnaissance (ISR) system. On 12 January, Sweden announced a SEK 5.3 billion (approximately €494 million) spending package focused on expanding national defence capacity. The funding forms part of a SEK 25 billion […]\nThe post Sweden to Acquire 10 Surveillance Satellites for €121 Million appeared first on European Spaceflight."
-    },
-    {
-      "title": "Quantum key method enables redundant storage of qubit data",
-      "link": "https://www.spacedaily.com/reports/Quantum_key_method_enables_redundant_storage_of_qubit_data_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-14T08:17:13Z",
-      "summary": "Los Angeles CA (SPX) Jan 07, 2026\n\n\nA team of researchers at the University of Waterloo have demonstrated a method to back up quantum information by encrypting qubits during copying, providing redundancy while remaining consistent with the no-cloning theorem. \n\nQuantum computing stores and processes information in qubits, which can be implemented in individual electrons, photons, atoms, ions or tiny electrical currents."
     },
     {
       "title": "Musk vs OpenAI trial set for April 27",
@@ -36,5 +36,5 @@
       "summary": "Berlin, Germany (SPX) Jan 09, 2026\n\n\nControlling light across scales, from microscopes and telescopes down to nanometers, is a central challenge in modern optics. Researchers at the University of Amsterdam have now demonstrated a nanoscale mirror whose reflectivity can be switched on and off electrically using quantum effects in an atomically thin material. \n\nPhysicists Tom Hoekstra and Jorik van de Groep of the UvA-Institute o"
     }
   ],
-  "updated": "2026-01-14T10:19:06.868Z"
+  "updated": "2026-01-14T10:46:37.468Z"
 }
