@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Coverage, Briefing Set for NASA’s Artemis II Moon Rocket Roll to Pad",
+      "link": "https://www.nasa.gov/news-release/coverage-briefing-set-for-nasas-artemis-ii-moon-rocket-roll-to-pad/",
+      "source": "NASA",
+      "date": "2026-01-14T22:26:49Z",
+      "summary": "NASA’s integrated SLS (Space Launch System) rocket and Orion spacecraft for the Artemis II mission is inching closer to launch – literally. The agency is targeting no earlier than 7 a.m. EST, Saturday, Jan. 17, to begin the multi-hour trek from the Vehicle Assembly Building to Launch Pad 39B at NASA’s Kennedy Space Center in […]"
+    },
+    {
       "title": "CAS Space conducts first suborbital launch and capsule landing test",
       "link": "https://spacenews.com/cas-space-conducts-first-suborbital-launch-and-capsule-landing-test/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-01-14T18:55:06Z",
       "summary": "The New York–Newark–Jersey City Metropolitan Statistical Area, which spans 23 counties across New York, New Jersey, and Connecticut and has a population of about 19.9 million, is pictured at approximately 3:29 a.m. local time Dec. 20, 2025, from the International Space Station as it orbited 262 miles above the Atlantic coast. Crew members aboard the […]"
-    },
-    {
-      "title": "ESA’s Comet Interceptor mission moves up launch",
-      "link": "https://spacenews.com/esas-comet-interceptor-mission-moves-up-launch/",
-      "source": "SpaceNews",
-      "date": "2026-01-14T18:24:00Z",
-      "summary": "\nA delay in one European Space Agency mission is creating an opportunity for an earlier, and more capable, launch for another ESA spacecraft.\nThe post ESA’s Comet Interceptor mission moves up launch appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-14T22:14:02.844Z"
+  "updated": "2026-01-14T22:39:15.044Z"
 }
