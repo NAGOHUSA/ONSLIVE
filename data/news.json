@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "ESA’s Comet Interceptor mission moves up launch",
+      "link": "https://spacenews.com/esas-comet-interceptor-mission-moves-up-launch/",
+      "source": "SpaceNews",
+      "date": "2026-01-14T18:24:00Z",
+      "summary": "\nA delay in one European Space Agency mission is creating an opportunity for an earlier, and more capable, launch for another ESA spacecraft.\nThe post ESA’s Comet Interceptor mission moves up launch appeared first on SpaceNews."
+    },
+    {
       "title": "Taiwan’s Moonshot: why ‘T-Dome’ needs systems engineering, not just a shopping list",
       "link": "https://spacenews.com/taiwans-moonshot-why-t-dome-needs-systems-engineering-not-just-a-shopping-list/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-01-14T14:35:22Z",
       "summary": "Read this press release in English here. La temperatura global de la superficie terrestre en 2025 fue un poco más cálida que en 2023 pero, dentro de los márgenes de error, ambos años está prácticamente empatados, según un análisis realizado por científicos de la NASA. Desde que comenzaron los registros en 1880, 2024 sigue siendo el […]"
-    },
-    {
-      "title": "European Capsule Demonstrator Survives Launch Failure",
-      "link": "https://europeanspaceflight.com/european-capsule-demonstrator-survives-launch-failure/",
-      "source": "European Spaceflight",
-      "date": "2026-01-14T14:11:08Z",
-      "summary": "A small reentry capsule demonstrator developed by Spanish space logistics startup Orbital Paradigm survived the failure of its PSLV launch vehicle on 12 January and successfully transmitted 190 seconds of flight data. Valencia-based Orbital Paradigm was founded in 2023 and is developing a reusable capsule called Kestrel that will be able to host payloads of […]\nThe post European Capsule Demonstrator Survives Launch Failure appeared first on European Spaceflight."
     }
   ],
-  "updated": "2026-01-14T18:23:59.471Z"
+  "updated": "2026-01-14T18:53:44.867Z"
 }
