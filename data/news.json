@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "La NASA publica datos de la temperatura global",
+      "link": "https://www.nasa.gov/news-release/la-nasa-publica-datos-de-la-temperatura-global/",
+      "source": "NASA",
+      "date": "2026-01-14T14:35:22Z",
+      "summary": "Read this press release in English here. La temperatura global de la superficie terrestre en 2025 fue un poco más cálida que en 2023 pero, dentro de los márgenes de error, ambos años está prácticamente empatados, según un análisis realizado por científicos de la NASA. Desde que comenzaron los registros en 1880, 2024 sigue siendo el […]"
+    },
+    {
+      "title": "European Capsule Demonstrator Survives Launch Failure",
+      "link": "https://europeanspaceflight.com/european-capsule-demonstrator-survives-launch-failure/",
+      "source": "European Spaceflight",
+      "date": "2026-01-14T14:11:08Z",
+      "summary": "A small reentry capsule demonstrator developed by Spanish space logistics startup Orbital Paradigm survived the failure of its PSLV launch vehicle on 12 January and successfully transmitted 190 seconds of flight data. Valencia-based Orbital Paradigm was founded in 2023 and is developing a reusable capsule called Kestrel that will be able to host payloads of […]\nThe post European Capsule Demonstrator Survives Launch Failure appeared first on European Spaceflight."
+    },
+    {
       "title": "NASA Releases Global Temperature Data",
       "link": "https://www.nasa.gov/news-release/nasa-releases-global-temperature-data/",
       "source": "NASA",
@@ -20,21 +34,7 @@
       "source": "NASA",
       "date": "2026-01-14T13:21:15Z",
       "summary": "Just-forming stars, called protostars, dazzle a cloudy landscape in the Orion Molecular Cloud complex (OMC). These three new images from NASA’s Hubble Space Telescope were taken as part of an effort to learn more about the envelopes of gas and dust surrounding the protostars, as well as the outflow cavities where stellar winds and jets […]"
-    },
-    {
-      "title": "When allies can’t count on U.S. ISR, commercial space becomes strategic",
-      "link": "https://spacenews.com/when-allies-cant-count-on-u-s-isr-commercial-space-becomes-strategic/",
-      "source": "SpaceNews",
-      "date": "2026-01-14T13:00:00Z",
-      "summary": "\nThe global security environment is becoming more volatile, not less. The war in Ukraine grinds on. China is increasingly assertive in the Indo-Pacific. The Middle East remains unstable. North Korea continues to test missiles and challenge regional stability. Together, these dynamics are straining the international system in ways not seen since the early Cold War. […]\nThe post When allies can’t count on U.S. ISR, commercial space becomes strategic appeared first on SpaceNews."
-    },
-    {
-      "title": "NASA pessimistic about odds of recovering MAVEN",
-      "link": "https://spacenews.com/nasa-pessimistic-about-odds-of-recovering-maven/",
-      "source": "SpaceNews",
-      "date": "2026-01-14T12:38:13Z",
-      "summary": "\nNASA says it is “very unlikely” the agency will be able to recover a Mars spacecraft that has been out of contact for more than a month.\nThe post NASA pessimistic about odds of recovering MAVEN appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-14T14:13:50.932Z"
+  "updated": "2026-01-14T14:43:55.415Z"
 }
