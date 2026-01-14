@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Taiwan’s Moonshot: why ‘T-Dome’ needs systems engineering, not just a shopping list",
+      "link": "https://spacenews.com/taiwans-moonshot-why-t-dome-needs-systems-engineering-not-just-a-shopping-list/",
+      "source": "SpaceNews",
+      "date": "2026-01-14T18:00:00Z",
+      "summary": "\nWhen President John F. Kennedy stood before Congress in May 1961 and declared that the United States would land a man on the moon before the decade’s end, his purpose was not to invent the space program, but to impose a clear objective, a deadline and the resources to unify these efforts. The success of […]\nThe post Taiwan’s Moonshot: why ‘T-Dome’ needs systems engineering, not just a shopping list appeared first on SpaceNews."
+    },
+    {
       "title": "Space sustainability will evolve into a data-driven system",
       "link": "https://spacenews.com/space-sustainability-will-evolve-intoa-data-driven-system/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "European Spaceflight",
       "date": "2026-01-14T14:11:08Z",
       "summary": "A small reentry capsule demonstrator developed by Spanish space logistics startup Orbital Paradigm survived the failure of its PSLV launch vehicle on 12 January and successfully transmitted 190 seconds of flight data. Valencia-based Orbital Paradigm was founded in 2023 and is developing a reusable capsule called Kestrel that will be able to host payloads of […]\nThe post European Capsule Demonstrator Survives Launch Failure appeared first on European Spaceflight."
-    },
-    {
-      "title": "NASA Releases Global Temperature Data",
-      "link": "https://www.nasa.gov/news-release/nasa-releases-global-temperature-data/",
-      "source": "NASA",
-      "date": "2026-01-14T14:00:27Z",
-      "summary": "Earth’s global surface temperature in 2025 was slightly warmer than 2023 – but within the margin of error the two years are effectively tied according to an analysis by NASA scientists. Since record-keeping began in 1880, the hottest year on record remains 2024.  Global temperatures in 2025 were cooler than 2024, with average temperatures of […]"
     }
   ],
-  "updated": "2026-01-14T17:56:41.253Z"
+  "updated": "2026-01-14T18:23:59.471Z"
 }
