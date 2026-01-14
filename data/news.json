@@ -1,25 +1,18 @@
 {
   "articles": [
     {
+      "title": "Space station study reveals unusual virus bacteria dynamics in microgravity",
+      "link": "https://www.spacedaily.com/reports/Space_station_study_reveals_unusual_virus_bacteria_dynamics_in_microgravity_999.html",
+      "source": "SpaceDaily",
+      "date": "2026-01-14T07:08:24Z",
+      "summary": "Los Angeles CA (SPX) Jan 14, 2026\n\n\nIn near weightless conditions aboard the International Space Station, viruses that infect bacteria continue to attack their hosts but follow an altered evolutionary trajectory compared to the same systems on Earth. \n\nA new study led by researchers at the University of Wisconsin Madison used Escherichia coli and its bacteriophage predator T7 to probe how microgravity reshapes the coevolution"
+    },
+    {
       "title": "Nullspace speeds antenna and radar simulations with new EM software tools",
       "link": "https://www.spacedaily.com/reports/Nullspace_speeds_antenna_and_radar_simulations_with_new_EM_software_tools_999.html",
       "source": "SpaceDaily",
       "date": "2026-01-14T07:08:24Z",
       "summary": "Los Angeles CA (SPX) Jan 14, 2026\n\n\nNullspace Inc. has released a new version of its electromagnetic simulation suite that targets large-scale antenna and radar applications with faster frequency analysis and streamlined CAD preparation for RF engineers. The company positions the software as a way to shorten design cycles and time-to-market for complex RF systems by combining high-accuracy solvers with new automation features."
-    },
-    {
-      "title": "Firefly prepares Alpha Block II upgrade for Flight 8",
-      "link": "https://www.spacedaily.com/reports/Firefly_prepares_Alpha_Block_II_upgrade_for_Flight_8_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-14T07:08:24Z",
-      "summary": "Los Angeles CA (SPX) Jan 14, 2026\n\n\nFirefly Aerospace has announced a Block II configuration upgrade for its Alpha small launch vehicle, with qualification testing for the new second stage hardware now underway at the companys Rocket Ranch test facility in Briggs, Texas. The Block II program is intended to boost reliability, streamline manufacturing, and improve launch operations to better support commercial, civil, and national s"
-    },
-    {
-      "title": "Indian rocket hits snag during launch",
-      "link": "https://www.spacedaily.com/reports/Indian_rocket_hits_snag_during_launch_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-14T07:08:24Z",
-      "summary": "New Delhi (AFP) Jan 12, 2026\n\n\n An Indian rocket hit a snag during its launch Monday, forcing a deviation in flight path as it carried an Earth observation satellite and commercial payloads, the country's space agency said. \n\nThe PSLV-C62, a four-stage launch vehicle, \"encountered an anomaly\" towards the end of the third stage, the Indian Space Research Organisation (ISRO) posted on X, without saying exactly what went wrong."
     },
     {
       "title": "NASA heavy ion tests confirm Sakura II AI chip for orbital and lunar use",
@@ -29,12 +22,19 @@
       "summary": "Los Angeles CA (SPX) Jan 14, 2026\n\n\nEdgeCortix Inc. reports that its Sakura II edge AI co-processor has demonstrated high levels of radiation resiliency in heavy ion testing conducted under the NASA Electronic Parts and Packaging Program. The results mark the second time an EdgeCortix device has completed this test campaign, following earlier work in 2024 on the Sakura I co-processor. \n\nAccording to the new NASA report, Sakura"
     },
     {
-      "title": "Space station study reveals unusual virus bacteria dynamics in microgravity",
-      "link": "https://www.spacedaily.com/reports/Space_station_study_reveals_unusual_virus_bacteria_dynamics_in_microgravity_999.html",
+      "title": "Firefly prepares Alpha Block II upgrade for Flight 8",
+      "link": "https://www.spacedaily.com/reports/Firefly_prepares_Alpha_Block_II_upgrade_for_Flight_8_999.html",
       "source": "SpaceDaily",
       "date": "2026-01-14T07:08:24Z",
-      "summary": "Los Angeles CA (SPX) Jan 14, 2026\n\n\nIn near weightless conditions aboard the International Space Station, viruses that infect bacteria continue to attack their hosts but follow an altered evolutionary trajectory compared to the same systems on Earth. \n\nA new study led by researchers at the University of Wisconsin Madison used Escherichia coli and its bacteriophage predator T7 to probe how microgravity reshapes the coevolution"
+      "summary": "Los Angeles CA (SPX) Jan 14, 2026\n\n\nFirefly Aerospace has announced a Block II configuration upgrade for its Alpha small launch vehicle, with qualification testing for the new second stage hardware now underway at the companys Rocket Ranch test facility in Briggs, Texas. The Block II program is intended to boost reliability, streamline manufacturing, and improve launch operations to better support commercial, civil, and national s"
+    },
+    {
+      "title": "Berkeley Scientists set to home in on 100 signals from Seti at Home",
+      "link": "https://www.spacedaily.com/reports/Berkeley_Scientists_set_to_home_in_on_100_signals_from_Seti_at_Home_999.html",
+      "source": "SpaceDaily",
+      "date": "2026-01-14T07:08:24Z",
+      "summary": "Berkeley, United States (SPX) Jan 12, 2026\n\nFor 21 years, between 1999 and 2020, millions of people worldwide loaned UC Berkeley scientists their computers to search for signs of advanced civilizations in our galaxy. \n\nThe project - called SETI@home, after the Search for Extraterrestrial Intelligence (SETI) - generated a loyal following eager to participate in one of the most popular crowd-sourced projects in the early days of the int"
     }
   ],
-  "updated": "2026-01-14T06:52:15.938Z"
+  "updated": "2026-01-14T07:14:46.624Z"
 }
