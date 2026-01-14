@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "India’s workhorse PSLV needs to solve third stage issue following second consecutive failure",
+      "link": "https://www.nasaspaceflight.com/2026/01/indias-pslv-solve-third-stage-second-failure/",
+      "source": "NASASpaceflight",
+      "date": "2026-01-14T02:42:35Z",
+      "summary": "India’s Polar Satellite Launch Vehicle (PSLV), long hailed as the reliable workhorse of the Indian…\nThe post India’s workhorse PSLV needs to solve third stage issue following second consecutive failure appeared first on NASASpaceFlight.com."
+    },
+    {
+      "title": "Firefly to upgrade Alpha rocket to improve reliability",
+      "link": "https://spacenews.com/firefly-to-upgrade-alpha-rocket-to-improve-reliability/",
+      "source": "SpaceNews",
+      "date": "2026-01-14T01:37:53Z",
+      "summary": "\nFirefly Aerospace says it will upgrade its Alpha launch vehicle, making changes intended to improve the reliability of a rocket that has experienced several failures.\nThe post Firefly to upgrade Alpha rocket to improve reliability appeared first on SpaceNews."
+    },
+    {
       "title": "Congressional hearing highlights military’s reliance on NOAA data",
       "link": "https://spacenews.com/congressional-hearing-highlights-militarys-reliance-on-noaa-data/",
       "source": "SpaceNews",
@@ -20,21 +34,7 @@
       "source": "NASA",
       "date": "2026-01-13T23:52:24Z",
       "summary": "Read this press release in English here. La NASA y SpaceX prevén que, si las condiciones meteorológicas lo permiten, el desacoplamiento de la misión SpaceX Crew 11 de la agencia espacial estadounidense de la Estación Espacial Internacional se produzca no antes de las 5:05 p.m. EST (hora del este) del miércoles 14 de enero. El 8 […]"
-    },
-    {
-      "title": "U.S. Space Force switches rockets for upcoming GPS satellite launch",
-      "link": "https://spaceflightnow.com/2026/01/13/u-s-space-force-switches-rockets-for-upcoming-gps-satellite-launch/",
-      "source": "Spaceflight Now",
-      "date": "2026-01-13T23:42:02Z",
-      "summary": "The change will allow the U.S. Space Force to expedite the process of building out its GPS constellation in medium Earth orbit. The launch date for the next satellite, GPS III Space Vehicle 09, could be within weeks. "
-    },
-    {
-      "title": "NASA to Provide Live Coverage of Crew-11 Return, Splashdown",
-      "link": "https://www.nasa.gov/news-release/nasa-to-provide-live-coverage-of-crew-11-return-splashdown/",
-      "source": "NASA",
-      "date": "2026-01-13T23:13:09Z",
-      "summary": "NASA and SpaceX are targeting no earlier than 5:05 p.m. EST, Wednesday, Jan. 14, for the undocking of the agency’s SpaceX Crew-11 mission from the International Space Station, pending weather conditions. On Jan. 8, NASA announced its decision to return the agency’s SpaceX Crew-11 mission to Earth from the space station earlier than originally planned […]"
     }
   ],
-  "updated": "2026-01-14T01:02:43.831Z"
+  "updated": "2026-01-14T03:07:39.182Z"
 }
