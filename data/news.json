@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Crew 11 safely splashes down after shortened mission",
+      "link": "https://spaceflightnow.com/2026/01/15/crew-11-safely-splashes-down-after-shortened-mission/",
+      "source": "Spaceflight Now",
+      "date": "2026-01-15T10:47:21Z",
+      "summary": "Four space station crewmates undocked and plunged back to Earth Thursday, safely splashing down in the Pacific Ocean off the California coast six days after NASA ordered them home early because of a medical issue. "
+    },
+    {
       "title": "Crew-11 Back on Earth So Ailing Crew Member Can Get Treatment",
       "link": "https://spacepolicyonline.com/news/crew-11-back-on-earth-so-ailing-crew-member-can-get-treatment/",
       "source": "SpacePolicyOnline.com",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-15T08:33:28Z",
       "summary": "\nAn Indian startup is entering the satellite servicing market with plans to develop low-cost spacecraft to extend the lives of satellites.\nThe post Indian startup Aule Space enters satellite servicing market appeared first on SpaceNews."
-    },
-    {
-      "title": "Sentinel-2 explores night vision",
-      "link": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-2/Sentinel-2_explores_night_vision",
-      "source": "ESA",
-      "date": "2026-01-15T08:00:00Z",
-      "summary": "After more than 10 years in orbit, the first Copernicus Sentinel-2 satellite, Sentinel-2A, is still finding new ways to contribute to Earth observation. With its younger siblings, Sentinel-2B and Sentinel-2C, now leading the mission’s core task of delivering high-resolution, ‘camera-like’ images of Earth’s surface, the European Space Agency is pushing Sentinel-2A beyond its original remit."
     }
   ],
-  "updated": "2026-01-15T10:43:16.106Z"
+  "updated": "2026-01-15T10:56:25.639Z"
 }
