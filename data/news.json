@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Hydrosat raises $60 million in Series B funding",
+      "link": "https://spacenews.com/hydrosat-raises-60-million-in-series-b-funding/",
+      "source": "SpaceNews",
+      "date": "2026-01-15T11:00:00Z",
+      "summary": "\nSAN FRANCISCO – Hydrosat, a thermal imagery startup focused on water-resource management, has raised $60 million in Series B funding from equity investors and sovereign wealth funds. With the influx […]\nThe post Hydrosat raises $60 million in Series B funding appeared first on SpaceNews."
+    },
+    {
+      "title": "NASA’s SpaceX Crew-11 Mission Returns, Splashes Down off California",
+      "link": "https://www.nasa.gov/news-release/nasas-spacex-crew-11-mission-returns-splashes-down-off-california/",
+      "source": "NASA",
+      "date": "2026-01-15T10:59:03Z",
+      "summary": "NASA’s SpaceX Crew-11 mission safely splashed down early Thursday morning in the Pacific Ocean off the coast of San Diego, concluding a more than five-month mission aboard the International Space Station. NASA astronauts Zena Cardman and Mike Fincke, JAXA (Japan Aerospace Exploration Agency) astronaut Kimiya Yui, and Roscosmos cosmonaut Oleg Platonov returned to Earth at […]"
+    },
+    {
       "title": "Crew 11 safely splashes down after shortened mission",
       "link": "https://spaceflightnow.com/2026/01/15/crew-11-safely-splashes-down-after-shortened-mission/",
       "source": "Spaceflight Now",
@@ -20,21 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-15T09:01:17Z",
       "summary": "A Crew Dragon spacecraft splashed down off the California coast Jan. 15, bringing back four people from the ISS more than a month early because of a medical issue.\r\nThe post Crew-11 makes early return from ISS appeared first on SpaceNews."
-    },
-    {
-      "title": "Plato passes vibe check",
-      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/01/Plato_passes_vibe_check",
-      "source": "ESA",
-      "date": "2026-01-15T09:00:00Z",
-      "summary": "Plato, the European Space Agency’s mission to discover Earth-like exoplanets, successfully passed a first round of tests designed to ensure that the spacecraft is fit for launch. As this video shows, the tests consist of vigorously shaking the spacecraft to mimic the powerful jolts and vibrations that Plato will experience during launch."
-    },
-    {
-      "title": "Indian startup Aule Space enters satellite servicing market",
-      "link": "https://spacenews.com/indian-startup-aule-space-enters-satellite-servicing-market/",
-      "source": "SpaceNews",
-      "date": "2026-01-15T08:33:28Z",
-      "summary": "\nAn Indian startup is entering the satellite servicing market with plans to develop low-cost spacecraft to extend the lives of satellites.\nThe post Indian startup Aule Space enters satellite servicing market appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-15T10:56:25.639Z"
+  "updated": "2026-01-15T11:14:13.937Z"
 }
