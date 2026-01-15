@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA’s SpaceX Crew-11 Wraps Up Space Station Science",
+      "link": "https://www.nasa.gov/missions/station/iss-research/nasas-spacex-crew-11-wraps-up-space-station-science/",
+      "source": "NASA",
+      "date": "2026-01-15T20:37:23Z",
+      "summary": "NASA’s SpaceX Crew-11 mission with agency astronauts Zena Cardman and Mike Fincke, JAXA (Japan Aerospace Exploration Agency) astronaut Kimiya Yui, and Roscosmos cosmonaut Oleg Platonov returned to Earth after a long-duration mission aboard the International Space Station. During their stay, Cardman, Fincke, and Yui contributed more than 850 hours of research to help prepare humanity […]"
+    },
+    {
       "title": "Arianespace to begin Amazon Leo launches in February",
       "link": "https://spacenews.com/arianespace-to-begin-amazon-leo-launches-in-february/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-15T16:05:42Z",
       "summary": "\nIn this episode of Space Minds, SpaceNews host David Ariosto talks with Chiara Manfletti, the CEO of Neuraspace and a professor of space mobility and propulsion at the Technical University […]\nThe post Managing an orbital economy as space grows more congested appeared first on SpaceNews."
-    },
-    {
-      "title": "Hubble Spies Stellar Blast Setting Clouds Ablaze",
-      "link": "https://www.nasa.gov/image-article/hubble-spies-stellar-blast-setting-clouds-ablaze/",
-      "source": "NASA",
-      "date": "2026-01-15T15:47:08Z",
-      "summary": "This new NASA Hubble Space Telescope image captures a jet of gas from a forming star shooting across the dark expanse. The bright pink and green patches running diagonally through the image are HH 80/81, a pair of Herbig-Haro (HH) objects previously observed by Hubble in 1995. The patch to the upper left is part of HH […]"
     }
   ],
-  "updated": "2026-01-15T20:23:32.726Z"
+  "updated": "2026-01-15T20:44:24.549Z"
 }
