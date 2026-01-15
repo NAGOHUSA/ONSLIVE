@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "TrustPoint demonstrates non-GPS navigation for LEO satellites",
+      "link": "https://spacenews.com/trustpoint-demonstrates-non-gps-navigation-for-leo-satellites/",
+      "source": "SpaceNews",
+      "date": "2026-01-15T14:30:00Z",
+      "summary": "\nThe company’s ground station transmitted time and tracking signals to a spacecraft in orbit\nThe post TrustPoint demonstrates non-GPS navigation for LEO satellites appeared first on SpaceNews."
+    },
+    {
       "title": "Portal Space selects ‘Space Armor’ debris shield for 2026 mission",
       "link": "https://spacenews.com/portal-space-selects-space-armor-debris-shield-for-2026-mission/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-15T11:00:00Z",
       "summary": "\nSAN FRANCISCO – Hydrosat, a thermal imagery startup focused on water-resource management, has raised $60 million in Series B funding from equity investors and sovereign wealth funds. With the influx […]\nThe post Hydrosat raises $60 million in Series B funding appeared first on SpaceNews."
-    },
-    {
-      "title": "NASA’s SpaceX Crew-11 Mission Returns, Splashes Down off California",
-      "link": "https://www.nasa.gov/news-release/nasas-spacex-crew-11-mission-returns-splashes-down-off-california/",
-      "source": "NASA",
-      "date": "2026-01-15T10:59:03Z",
-      "summary": "NASA’s SpaceX Crew-11 mission safely splashed down early Thursday morning in the Pacific Ocean off the coast of San Diego, concluding a more than five-month mission aboard the International Space Station. NASA astronauts Zena Cardman and Mike Fincke, JAXA (Japan Aerospace Exploration Agency) astronaut Kimiya Yui, and Roscosmos cosmonaut Oleg Platonov returned to Earth at […]"
     }
   ],
-  "updated": "2026-01-15T14:19:21.424Z"
+  "updated": "2026-01-15T14:45:16.037Z"
 }
