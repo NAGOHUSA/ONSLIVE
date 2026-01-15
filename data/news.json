@@ -1,11 +1,25 @@
 {
   "articles": [
     {
+      "title": "Portal Space selects ‘Space Armor’ debris shield for 2026 mission",
+      "link": "https://spacenews.com/portal-space-selects-space-armor-debris-shield-for-2026-mission/",
+      "source": "SpaceNews",
+      "date": "2026-01-15T14:00:00Z",
+      "summary": "\nAtomic-6’s composite material will get its first in-orbit test \nThe post Portal Space selects ‘Space Armor’ debris shield for 2026 mission appeared first on SpaceNews."
+    },
+    {
       "title": "Slingshot wins $27 million Space Force contract for AI training system",
       "link": "https://spacenews.com/slingshot-wins-27-million-space-force-contract-for-ai-training-system/",
       "source": "SpaceNews",
       "date": "2026-01-15T13:30:00Z",
       "summary": "\nThe Space Force is trying to modernize how satellite operators train for conflict in orbit\nThe post Slingshot wins $27 million Space Force contract for AI training system appeared first on SpaceNews."
+    },
+    {
+      "title": "Hubble’s Album of Planet-Forming Disks",
+      "link": "https://science.nasa.gov/missions/hubble/hubbles-album-of-planet-forming-disks/",
+      "source": "NASA",
+      "date": "2026-01-15T13:13:02Z",
+      "summary": "This collection of new images taken by NASA’s Hubble Space Telescope showcases protoplanetary disks, the swirling masses of gas and dust that surround forming stars, in both visible and infrared wavelengths. Through observations of young stellar objects like these, Hubble helps scientists better understand how stars form. These visible-light images depict dark, planet-forming dust disks […]"
     },
     {
       "title": "Hydrosat raises $60 million in Series B funding",
@@ -20,21 +34,7 @@
       "source": "NASA",
       "date": "2026-01-15T10:59:03Z",
       "summary": "NASA’s SpaceX Crew-11 mission safely splashed down early Thursday morning in the Pacific Ocean off the coast of San Diego, concluding a more than five-month mission aboard the International Space Station. NASA astronauts Zena Cardman and Mike Fincke, JAXA (Japan Aerospace Exploration Agency) astronaut Kimiya Yui, and Roscosmos cosmonaut Oleg Platonov returned to Earth at […]"
-    },
-    {
-      "title": "Crew 11 safely splashes down after shortened mission",
-      "link": "https://spaceflightnow.com/2026/01/15/crew-11-safely-splashes-down-after-shortened-mission/",
-      "source": "Spaceflight Now",
-      "date": "2026-01-15T10:47:21Z",
-      "summary": "Four space station crewmates undocked and plunged back to Earth Thursday, safely splashing down in the Pacific Ocean off the California coast six days after NASA ordered them home early because of a medical issue."
-    },
-    {
-      "title": "Crew-11 Back on Earth So Ailing Crew Member Can Get Treatment",
-      "link": "https://spacepolicyonline.com/news/crew-11-back-on-earth-so-ailing-crew-member-can-get-treatment/",
-      "source": "SpacePolicyOnline.com",
-      "date": "2026-01-15T10:01:42Z",
-      "summary": "Four astronauts splashed down near San Diego this morning, four weeks earlier than planned. One of the four is experiencing a “medical condition.” NASA declines to specify the person or […]"
     }
   ],
-  "updated": "2026-01-15T13:57:03.167Z"
+  "updated": "2026-01-15T14:19:21.424Z"
 }
