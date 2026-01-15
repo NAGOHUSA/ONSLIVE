@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA Data Helps Maine Oyster Farmers Choose Where to Grow",
+      "link": "https://science.nasa.gov/earth/nasa-data-helps-maine-oyster-farmers-choose-where-to-grow/",
+      "source": "NASA",
+      "date": "2026-01-15T16:28:21Z",
+      "summary": "NASA satellites are helping Maine oyster farmers pick better sites and plan when oysters will be ready to harvest."
+    },
+    {
       "title": "Managing an orbital economy as space grows more congested",
       "link": "https://spacenews.com/managing-an-orbital-economy-as-space-grows-more-congested/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "Arstechnica",
       "date": "2026-01-15T15:15:15Z",
       "summary": "\"It comes up almost every time that I see him. Continuous human presence and no gap.\""
-    },
-    {
-      "title": "CNES Launches €1 Million AI Space Data Challenge",
-      "link": "https://europeanspaceflight.com/cnes-launches-e1-million-ai-space-data-challenge/",
-      "source": "European Spaceflight",
-      "date": "2026-01-15T14:52:29Z",
-      "summary": "The French space agency CNES and the Île-de-France region, which includes Paris, have partnered to launch a €1 million challenge focused on the use of artificial intelligence to analyse satellite data. Originally announced at the Paris Air Show in June 2025, the challenge forms part of the Île-de-France Region’s AI Challenge framework, launched in 2019 […]\nThe post CNES Launches €1 Million AI Space Data Challenge appeared first on European Spaceflight."
     }
   ],
-  "updated": "2026-01-15T16:55:58.526Z"
+  "updated": "2026-01-15T17:25:15.023Z"
 }
