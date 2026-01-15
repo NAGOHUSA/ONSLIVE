@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Managing an orbital economy as space grows more congested",
+      "link": "https://spacenews.com/managing-an-orbital-economy-as-space-grows-more-congested/",
+      "source": "SpaceNews",
+      "date": "2026-01-15T16:05:42Z",
+      "summary": "\nIn this episode of Space Minds, SpaceNews host David Ariosto talks with Chiara Manfletti, the CEO of Neuraspace and a professor of space mobility and propulsion at the Technical University […]\nThe post Managing an orbital economy as space grows more congested appeared first on SpaceNews."
+    },
+    {
+      "title": "Hubble Spies Stellar Blast Setting Clouds Ablaze",
+      "link": "https://www.nasa.gov/image-article/hubble-spies-stellar-blast-setting-clouds-ablaze/",
+      "source": "NASA",
+      "date": "2026-01-15T15:47:08Z",
+      "summary": "This new NASA Hubble Space Telescope image captures a jet of gas from a forming star shooting across the dark expanse. The bright pink and green patches running diagonally through the image are HH 80/81, a pair of Herbig-Haro (HH) objects previously observed by Hubble in 1995. The patch to the upper left is part of HH […]"
+    },
+    {
       "title": "Parsons buys Altamira for $375 million to expand space and intelligence portfolio",
       "link": "https://spacenews.com/parsons-buys-altamira-for-375-million-to-expand-space-and-intelligence-portfolio/",
       "source": "SpaceNews",
@@ -20,21 +34,7 @@
       "source": "European Spaceflight",
       "date": "2026-01-15T14:52:29Z",
       "summary": "The French space agency CNES and the Île-de-France region, which includes Paris, have partnered to launch a €1 million challenge focused on the use of artificial intelligence to analyse satellite data. Originally announced at the Paris Air Show in June 2025, the challenge forms part of the Île-de-France Region’s AI Challenge framework, launched in 2019 […]\nThe post CNES Launches €1 Million AI Space Data Challenge appeared first on European Spaceflight."
-    },
-    {
-      "title": "TrustPoint demonstrates non-GPS navigation for LEO satellites",
-      "link": "https://spacenews.com/trustpoint-demonstrates-non-gps-navigation-for-leo-satellites/",
-      "source": "SpaceNews",
-      "date": "2026-01-15T14:30:00Z",
-      "summary": "\nThe company’s ground station transmitted time and tracking signals to a spacecraft in orbit\nThe post TrustPoint demonstrates non-GPS navigation for LEO satellites appeared first on SpaceNews."
-    },
-    {
-      "title": "Portal Space selects ‘Space Armor’ debris shield for 2026 mission",
-      "link": "https://spacenews.com/portal-space-selects-space-armor-debris-shield-for-2026-mission/",
-      "source": "SpaceNews",
-      "date": "2026-01-15T14:00:00Z",
-      "summary": "\nAtomic-6’s composite material will get its first in-orbit test \nThe post Portal Space selects ‘Space Armor’ debris shield for 2026 mission appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-15T15:49:37.929Z"
+  "updated": "2026-01-15T16:17:14.207Z"
 }
