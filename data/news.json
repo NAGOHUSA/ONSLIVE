@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Key Senate staffer is “begging” NASA to get on with commercial space stations",
+      "link": "https://arstechnica.com/space/2026/01/key-senate-staffer-is-begging-nasa-to-get-on-with-commercial-space-stations/",
+      "source": "Arstechnica",
+      "date": "2026-01-15T15:15:15Z",
+      "summary": "\"It comes up almost every time that I see him. Continuous human presence and no gap.\""
+    },
+    {
+      "title": "CNES Launches €1 Million AI Space Data Challenge",
+      "link": "https://europeanspaceflight.com/cnes-launches-e1-million-ai-space-data-challenge/",
+      "source": "European Spaceflight",
+      "date": "2026-01-15T14:52:29Z",
+      "summary": "The French space agency CNES and the Île-de-France region, which includes Paris, have partnered to launch a €1 million challenge focused on the use of artificial intelligence to analyse satellite data. Originally announced at the Paris Air Show in June 2025, the challenge forms part of the Île-de-France Region’s AI Challenge framework, launched in 2019 […]\nThe post CNES Launches €1 Million AI Space Data Challenge appeared first on European Spaceflight."
+    },
+    {
       "title": "TrustPoint demonstrates non-GPS navigation for LEO satellites",
       "link": "https://spacenews.com/trustpoint-demonstrates-non-gps-navigation-for-leo-satellites/",
       "source": "SpaceNews",
@@ -20,21 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-15T13:30:00Z",
       "summary": "\nThe Space Force is trying to modernize how satellite operators train for conflict in orbit\nThe post Slingshot wins $27 million Space Force contract for AI training system appeared first on SpaceNews."
-    },
-    {
-      "title": "Hubble’s Album of Planet-Forming Disks",
-      "link": "https://science.nasa.gov/missions/hubble/hubbles-album-of-planet-forming-disks/",
-      "source": "NASA",
-      "date": "2026-01-15T13:13:02Z",
-      "summary": "This collection of new images taken by NASA’s Hubble Space Telescope showcases protoplanetary disks, the swirling masses of gas and dust that surround forming stars, in both visible and infrared wavelengths. Through observations of young stellar objects like these, Hubble helps scientists better understand how stars form. These visible-light images depict dark, planet-forming dust disks […]"
-    },
-    {
-      "title": "Hydrosat raises $60 million in Series B funding",
-      "link": "https://spacenews.com/hydrosat-raises-60-million-in-series-b-funding/",
-      "source": "SpaceNews",
-      "date": "2026-01-15T11:00:00Z",
-      "summary": "\nSAN FRANCISCO – Hydrosat, a thermal imagery startup focused on water-resource management, has raised $60 million in Series B funding from equity investors and sovereign wealth funds. With the influx […]\nThe post Hydrosat raises $60 million in Series B funding appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-15T14:58:49.953Z"
+  "updated": "2026-01-15T15:24:22.632Z"
 }
