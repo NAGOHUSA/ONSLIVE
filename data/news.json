@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Indian startup Aule Space enters satellite servicing market",
+      "link": "https://spacenews.com/indian-startup-aule-space-enters-satellite-servicing-market/",
+      "source": "SpaceNews",
+      "date": "2026-01-15T08:33:28Z",
+      "summary": "\nAn Indian startup is entering the satellite servicing market with plans to develop low-cost spacecraft to extend the lives of satellites.\nThe post Indian startup Aule Space enters satellite servicing market appeared first on SpaceNews."
+    },
+    {
       "title": "Sentinel-2 explores night vision",
       "link": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-2/Sentinel-2_explores_night_vision",
       "source": "ESA",
@@ -15,13 +22,6 @@
       "summary": "Los Angeles CA (SPX) Jan 15, 2026\n\n\nNASA and the U.S. Department of Energy have renewed their long standing partnership to develop a fission surface power system that can operate on the Moon as part of the Artemis campaign and future missions to Mars. The agencies plan to deploy a lunar surface reactor by 2030 to support sustained human and robotic activities and to advance U.S. leadership in space exploration and commerce."
     },
     {
-      "title": "The Silent Partner - How Machine Learning Quietly Powers Modern Space Operations",
-      "link": "https://www.spacedaily.com/reports/The_Silent_Partner_How_Machine_Learning_Quietly_Powers_Modern_Space_Operations_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-15T07:55:13Z",
-      "summary": "Los Angeles CA (SPX) Jan 15, 2026\n\nThe space industry handles some of the most complex data in existence. Satellite images cover millions of square kilometers. Telemetry from a single spacecraft involves thousands of data points. The position of millions of objects in orbit must be tracked to prevent collisions"
-    },
-    {
       "title": "JWST red dots reveal rapidly growing early black holes",
       "link": "https://www.spacedaily.com/reports/JWST_red_dots_reveal_rapidly_growing_early_black_holes_999.html",
       "source": "SpaceDaily",
@@ -29,12 +29,12 @@
       "summary": "Berlin, Germany (SPX) Jan 15, 2026\r\n\r\n\r\nSince the James Webb Space Telescope began science operations in December 2021 some 1.5 million kilometres from Earth, astronomers have been puzzled by compact, intensely red sources scattered through its deep images of the early universe. These so called little red dots appear when the universe is only several hundred million years old, then seem to vanish about a billion years later, prompting"
     },
     {
-      "title": "Spaceflight study links astronaut biology to reversible shifts in epigenetic age",
-      "link": "https://www.spacedaily.com/reports/Spaceflight_study_links_astronaut_biology_to_reversible_shifts_in_epigenetic_age_999.html",
+      "title": "The Silent Partner - How Machine Learning Quietly Powers Modern Space Operations",
+      "link": "https://www.spacedaily.com/reports/The_Silent_Partner_How_Machine_Learning_Quietly_Powers_Modern_Space_Operations_999.html",
       "source": "SpaceDaily",
       "date": "2026-01-15T07:55:13Z",
-      "summary": "Los Angeles CA (SPX) Jan 14, 2026\n\n\nWhen the four member crew of Axiom 2 launched on a 10 day mission in May 2023, their time in orbit carried a dense manifest of biomedical experiments aimed at probing human physiology under spaceflight conditions. \n\nA new analysis led by scientists at the Buck Institute for Research on Aging uses blood samples from that mission to position spaceflight as a model system for studying biologica"
+      "summary": "Los Angeles CA (SPX) Jan 15, 2026\n\nThe space industry handles some of the most complex data in existence. Satellite images cover millions of square kilometers. Telemetry from a single spacecraft involves thousands of data points. The position of millions of objects in orbit must be tracked to prevent collisions"
     }
   ],
-  "updated": "2026-01-15T08:28:11.657Z"
+  "updated": "2026-01-15T08:53:41.951Z"
 }
