@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Hubble Observes Ghostly Cloud Alive with Star Formation",
+      "link": "https://science.nasa.gov/missions/hubble/hubble-observes-ghostly-cloud-alive-with-star-formation/",
+      "source": "NASA",
+      "date": "2026-01-16T12:49:49Z",
+      "summary": "While this eerie NASA Hubble Space Telescope image may look ghostly, it’s actually full of new life. Lupus 3 is a star-forming cloud about 500 light-years away in the constellation Scorpius.  White wisps of gas swirl throughout the region, and in the lower-left corner resides a dark dust cloud. Bright T Tauri stars shine at […]"
+    },
+    {
       "title": "Rocket Report: Ariane 64 to debut soon; India has a Falcon 9 clone too?",
       "link": "https://arstechnica.com/space/2026/01/rocket-report-ariane-64-to-debut-soon-india-has-a-falcon-9-clone-too/",
       "source": "Arstechnica",
@@ -15,13 +22,6 @@
       "summary": "China has published coordinated papers outlining dual missions to the solar system’s edge, suggesting the long-studied project is nearing formal approval.\r\nThe post China advances plans for dual solar system boundary missions appeared first on SpaceNews."
     },
     {
-      "title": "Spire adds hyperspectral sounder and Myriota payloads on SpaceX Twilight launch",
-      "link": "https://www.spacedaily.com/reports/Spire_adds_hyperspectral_sounder_and_Myriota_payloads_on_SpaceX_Twilight_launch_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-16T11:40:08Z",
-      "summary": "Los Angeles CA (SPX) Jan 13, 2026\r\n\r\n\r\nSpire Global Inc has successfully launched nine satellites on SpaceXs Twilight mission from Vandenberg Space Force Base, further expanding its space based sensing and Internet of Things service portfolio. \r\n\r\nThe mission carried Spires Hyperspectral Microwave Sounder, or HyMS, a compact satellite based demonstrator designed to advance global weather forecasting from orbit. HyMS is engineered t"
-    },
-    {
       "title": "Multiple spacecraft track evolving solar storm to improve space weather forecasts",
       "link": "https://www.spacedaily.com/reports/Multiple_spacecraft_track_evolving_solar_storm_to_improve_space_weather_forecasts_999.html",
       "source": "SpaceDaily",
@@ -29,12 +29,12 @@
       "summary": "Tokyo, Japan (SPX) Jan 14, 2026\r\n\r\n\r\nAt times the sun ejects massive clouds of energetic material into space, and these events can disturb satellites, threaten astronauts and even affect power grids on the ground. Researchers are working to understand how these eruptions travel through the solar system so they can develop reliable space weather forecasts that protect critical technology and infrastructure. \r\n\r\nA team including sc"
     },
     {
-      "title": "GE and Lockheed validate compact rotating detonation ramjet for hypersonic missiles",
-      "link": "https://www.spacedaily.com/reports/GE_and_Lockheed_validate_compact_rotating_detonation_ramjet_for_hypersonic_missiles_999.html",
+      "title": "Spire adds hyperspectral sounder and Myriota payloads on SpaceX Twilight launch",
+      "link": "https://www.spacedaily.com/reports/Spire_adds_hyperspectral_sounder_and_Myriota_payloads_on_SpaceX_Twilight_launch_999.html",
       "source": "SpaceDaily",
       "date": "2026-01-16T11:40:08Z",
-      "summary": "Los Angeles CA (SPX) Jan 15, 2026\n\n\nGE Aerospace and Lockheed Martin have completed a series of engine tests that demonstrate the viability of a liquid fueled rotating detonation ramjet for hypersonic missile applications. The work marks the first initiative launched under a broader joint technology development arrangement between the two companies. \n\nThe partners report that the experimental propulsion system is designed to d"
+      "summary": "Los Angeles CA (SPX) Jan 13, 2026\r\n\r\n\r\nSpire Global Inc has successfully launched nine satellites on SpaceXs Twilight mission from Vandenberg Space Force Base, further expanding its space based sensing and Internet of Things service portfolio. \r\n\r\nThe mission carried Spires Hyperspectral Microwave Sounder, or HyMS, a compact satellite based demonstrator designed to advance global weather forecasting from orbit. HyMS is engineered t"
     }
   ],
-  "updated": "2026-01-16T12:41:50.121Z"
+  "updated": "2026-01-16T13:25:09.929Z"
 }
