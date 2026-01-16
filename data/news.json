@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "NASA’s Crawler Preps for Artemis II Rollout",
+      "link": "https://www.nasa.gov/image-article/nasas-crawler-preps-for-artemis-ii-rollout/",
+      "source": "NASA",
+      "date": "2026-01-16T14:37:26Z",
+      "summary": "NASA’s Crawler-transporter 2 moves toward the Vehicle Assembly Building at NASA’s Kennedy Space Center in Florida on Friday, Jan. 9, 2026. The crawler will transport NASA’s SLS (Space Launch System) rocket with the Orion spacecraft to Launch Complex 39B ahead of the Artemis II launch which will journey Commander Reid Wiseman, Pilot Victor Glover, and […]"
+    },
+    {
+      "title": "Week in images: 12-16 January 2026",
+      "link": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_12-16_January_2026",
+      "source": "ESA",
+      "date": "2026-01-16T14:15:00Z",
+      "summary": "Week in images: 12-16 January 2026"
+    },
+    {
       "title": "The countdown to clean orbits has begun with ESA’s Zero Debris Charter",
       "link": "https://spacenews.com/the-countdown-to-clean-orbits-has-begun-with-esas-zero-debris-charter/",
       "source": "SpaceNews",
@@ -20,21 +34,7 @@
       "source": "Arstechnica",
       "date": "2026-01-16T12:00:50Z",
       "summary": "\"We are fundamentally shifting our approach to securing our munitions supply chain.\""
-    },
-    {
-      "title": "China advances plans for dual solar system boundary missions",
-      "link": "https://spacenews.com/china-advances-plans-for-dual-solar-system-boundary-missions/",
-      "source": "SpaceNews",
-      "date": "2026-01-16T11:42:04Z",
-      "summary": "China has published coordinated papers outlining dual missions to the solar system’s edge, suggesting the long-studied project is nearing formal approval.\r\nThe post China advances plans for dual solar system boundary missions appeared first on SpaceNews."
-    },
-    {
-      "title": "Multiple spacecraft track evolving solar storm to improve space weather forecasts",
-      "link": "https://www.spacedaily.com/reports/Multiple_spacecraft_track_evolving_solar_storm_to_improve_space_weather_forecasts_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-16T11:40:08Z",
-      "summary": "Tokyo, Japan (SPX) Jan 14, 2026\r\n\r\n\r\nAt times the sun ejects massive clouds of energetic material into space, and these events can disturb satellites, threaten astronauts and even affect power grids on the ground. Researchers are working to understand how these eruptions travel through the solar system so they can develop reliable space weather forecasts that protect critical technology and infrastructure. \r\n\r\nA team including sc"
     }
   ],
-  "updated": "2026-01-16T14:39:45.319Z"
+  "updated": "2026-01-16T14:55:43.132Z"
 }
