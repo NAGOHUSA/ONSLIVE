@@ -1,25 +1,18 @@
 {
   "articles": [
     {
+      "title": "Rocket Report: Ariane 64 to debut soon; India has a Falcon 9 clone too?",
+      "link": "https://arstechnica.com/space/2026/01/rocket-report-ariane-64-to-debut-soon-india-has-a-falcon-9-clone-too/",
+      "source": "Arstechnica",
+      "date": "2026-01-16T12:00:50Z",
+      "summary": "\"We are fundamentally shifting our approach to securing our munitions supply chain.\""
+    },
+    {
       "title": "China advances plans for dual solar system boundary missions",
       "link": "https://spacenews.com/china-advances-plans-for-dual-solar-system-boundary-missions/",
       "source": "SpaceNews",
       "date": "2026-01-16T11:42:04Z",
       "summary": "China has published coordinated papers outlining dual missions to the solar system’s edge, suggesting the long-studied project is nearing formal approval.\r\nThe post China advances plans for dual solar system boundary missions appeared first on SpaceNews."
-    },
-    {
-      "title": "Slow orbital wobble patterns drive ancient greenhouse climate swings",
-      "link": "https://www.terradaily.com/reports/Slow_orbital_wobble_patterns_drive_ancient_greenhouse_climate_swings_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-16T11:40:08Z",
-      "summary": "Tokyo, Japan (SPX) Jan 13, 2026\n\n\nWhen audiences watched the film The Day After Tomorrow, they saw an exaggerated Hollywood depiction of abrupt climate disruption, but the underlying concept that Earth's climate can shift rapidly has a firm scientific basis. During the last Ice Age, Greenland temperatures jumped by as much as 16 degrees Celsius within decades and repeated surges of icebergs disrupted the North Atlantic, events k"
-    },
-    {
-      "title": "Multiple spacecraft track evolving solar storm to improve space weather forecasts",
-      "link": "https://www.spacedaily.com/reports/Multiple_spacecraft_track_evolving_solar_storm_to_improve_space_weather_forecasts_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-16T11:40:08Z",
-      "summary": "Tokyo, Japan (SPX) Jan 14, 2026\r\n\r\n\r\nAt times the sun ejects massive clouds of energetic material into space, and these events can disturb satellites, threaten astronauts and even affect power grids on the ground. Researchers are working to understand how these eruptions travel through the solar system so they can develop reliable space weather forecasts that protect critical technology and infrastructure. \r\n\r\nA team including sc"
     },
     {
       "title": "Spire adds hyperspectral sounder and Myriota payloads on SpaceX Twilight launch",
@@ -29,6 +22,13 @@
       "summary": "Los Angeles CA (SPX) Jan 13, 2026\r\n\r\n\r\nSpire Global Inc has successfully launched nine satellites on SpaceXs Twilight mission from Vandenberg Space Force Base, further expanding its space based sensing and Internet of Things service portfolio. \r\n\r\nThe mission carried Spires Hyperspectral Microwave Sounder, or HyMS, a compact satellite based demonstrator designed to advance global weather forecasting from orbit. HyMS is engineered t"
     },
     {
+      "title": "Multiple spacecraft track evolving solar storm to improve space weather forecasts",
+      "link": "https://www.spacedaily.com/reports/Multiple_spacecraft_track_evolving_solar_storm_to_improve_space_weather_forecasts_999.html",
+      "source": "SpaceDaily",
+      "date": "2026-01-16T11:40:08Z",
+      "summary": "Tokyo, Japan (SPX) Jan 14, 2026\r\n\r\n\r\nAt times the sun ejects massive clouds of energetic material into space, and these events can disturb satellites, threaten astronauts and even affect power grids on the ground. Researchers are working to understand how these eruptions travel through the solar system so they can develop reliable space weather forecasts that protect critical technology and infrastructure. \r\n\r\nA team including sc"
+    },
+    {
       "title": "GE and Lockheed validate compact rotating detonation ramjet for hypersonic missiles",
       "link": "https://www.spacedaily.com/reports/GE_and_Lockheed_validate_compact_rotating_detonation_ramjet_for_hypersonic_missiles_999.html",
       "source": "SpaceDaily",
@@ -36,5 +36,5 @@
       "summary": "Los Angeles CA (SPX) Jan 15, 2026\n\n\nGE Aerospace and Lockheed Martin have completed a series of engine tests that demonstrate the viability of a liquid fueled rotating detonation ramjet for hypersonic missile applications. The work marks the first initiative launched under a broader joint technology development arrangement between the two companies. \n\nThe partners report that the experimental propulsion system is designed to d"
     }
   ],
-  "updated": "2026-01-16T11:58:45.364Z"
+  "updated": "2026-01-16T12:41:50.121Z"
 }
