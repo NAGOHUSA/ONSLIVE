@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA’s SpaceX Crew-11 to Discuss Space Station Science Mission",
+      "link": "https://www.nasa.gov/news-release/nasas-spacex-crew-11-to-discuss-space-station-science-mission/",
+      "source": "NASA",
+      "date": "2026-01-16T23:18:49Z",
+      "summary": "After 167 days in space, the crew members of NASA’s SpaceX Crew-11 mission will hold a news conference at 2:15 p.m. EST, Wednesday, Jan. 21, at the agency’s Johnson Space Center in Houston to discuss their science expedition aboard the International Space Station. NASA astronauts Zena Cardman and Mike Fincke, JAXA (Japan Aerospace Exploration Agency) astronaut Kimiya Yui, and Roscosmos […]"
+    },
+    {
       "title": "Artemis II set to roll out to LC-39B for first crewed lunar mission since 1972",
       "link": "https://www.nasaspaceflight.com/2026/01/artemis-ii-rollout/",
       "source": "NASASpaceflight",
@@ -27,14 +34,7 @@
       "source": "SpacePolicyOnline.com",
       "date": "2026-01-16T21:47:22Z",
       "summary": "NASA is proceeding with plans to roll the Space Launch System rocket with the Orion crew capsule out to Launch Complex-39A at Kennedy Space Center tomorrow morning. The SLS/Orion combination […]"
-    },
-    {
-      "title": "What You Need to Know About NASA’s Artemis II Moon Mission",
-      "link": "https://www.nasa.gov/news-release/what-you-need-to-know-about-nasas-artemis-ii-moon-mission/",
-      "source": "NASA",
-      "date": "2026-01-16T21:25:29Z",
-      "summary": "NASA is weeks away from sending astronauts farther than any crew has traveled before, with the agency’s second mission in its Artemis campaign. The Artemis II Press Kit now is available with information on the mission, astronauts, and other resources for media. “Artemis II will be a momentous step forward for human spaceflight. This historic […]"
     }
   ],
-  "updated": "2026-01-16T23:18:58.616Z"
+  "updated": "2026-01-16T23:34:30.046Z"
 }
