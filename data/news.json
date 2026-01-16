@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "The countdown to clean orbits has begun with ESA’s Zero Debris Charter",
+      "link": "https://spacenews.com/the-countdown-to-clean-orbits-has-begun-with-esas-zero-debris-charter/",
+      "source": "SpaceNews",
+      "date": "2026-01-16T14:00:00Z",
+      "summary": "\nSpace is rapidly becoming the world’s most congested frontier. What was once a domain of scientific exploration is now a crowded commercial arena, a global infrastructure layer critical to communications, navigation, climate monitoring and defense. Yet this dependence is threatened by a growing, largely invisible hazard: orbital debris. The European Space Agency’s Zero Debris Technical […]\nThe post The countdown to clean orbits has begun with ESA’s Zero Debris Charter appeared first on SpaceNews."
+    },
+    {
       "title": "Hubble Observes Ghostly Cloud Alive with Star Formation",
       "link": "https://science.nasa.gov/missions/hubble/hubble-observes-ghostly-cloud-alive-with-star-formation/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceDaily",
       "date": "2026-01-16T11:40:08Z",
       "summary": "Tokyo, Japan (SPX) Jan 14, 2026\r\n\r\n\r\nAt times the sun ejects massive clouds of energetic material into space, and these events can disturb satellites, threaten astronauts and even affect power grids on the ground. Researchers are working to understand how these eruptions travel through the solar system so they can develop reliable space weather forecasts that protect critical technology and infrastructure. \r\n\r\nA team including sc"
-    },
-    {
-      "title": "Spire adds hyperspectral sounder and Myriota payloads on SpaceX Twilight launch",
-      "link": "https://www.spacedaily.com/reports/Spire_adds_hyperspectral_sounder_and_Myriota_payloads_on_SpaceX_Twilight_launch_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-16T11:40:08Z",
-      "summary": "Los Angeles CA (SPX) Jan 13, 2026\r\n\r\n\r\nSpire Global Inc has successfully launched nine satellites on SpaceXs Twilight mission from Vandenberg Space Force Base, further expanding its space based sensing and Internet of Things service portfolio. \r\n\r\nThe mission carried Spires Hyperspectral Microwave Sounder, or HyMS, a compact satellite based demonstrator designed to advance global weather forecasting from orbit. HyMS is engineered t"
     }
   ],
-  "updated": "2026-01-16T13:52:58.752Z"
+  "updated": "2026-01-16T14:11:48.834Z"
 }
