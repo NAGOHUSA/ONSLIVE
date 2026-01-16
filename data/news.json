@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Isar Aerospace sets date for second Spectrum launch",
+      "link": "https://spacenews.com/isar-aerospace-sets-date-for-second-spectrum-launch/",
+      "source": "SpaceNews",
+      "date": "2026-01-16T18:52:46Z",
+      "summary": "\nGerman launch company Isar Aerospace is preparing for the second launch of its Spectrum rocket, this time carrying several satellite payloads.\nThe post Isar Aerospace sets date for second Spectrum launch appeared first on SpaceNews."
+    },
+    {
       "title": "China conducts static fire test of new reusable Long March 12B rocket",
       "link": "https://spacenews.com/china-conducts-static-fire-test-of-new-reusable-long-march-12b-rocket/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-16T15:21:42Z",
       "summary": "\nDeposition Sciences, Inc. (DSI), a wholly owned subsidiary of Lockheed Martin, specializes in advanced materials and optical coatings. For over 20 years, they’ve been producing their Sunshade® thermal control material, […]\nThe post AO-Resistant Material Boosts VLEO Satellite Longevity appeared first on SpaceNews."
-    },
-    {
-      "title": "Out of This World Discoveries: Space Station Research in 2025",
-      "link": "https://www.nasa.gov/missions/station/iss-research/out-of-this-world-discoveries-space-station-research-in-2025/",
-      "source": "NASA",
-      "date": "2026-01-16T15:00:00Z",
-      "summary": "As Earth completed its orbit around the Sun to close out 2025, the International Space Station circled our planet more than 5,800 times. Serving as humanity’s unique laboratory in space, the station has hosted thousands of experiments and technology demonstrations, advancing science in ways that cannot be replicated on Earth. In 2025 alone, more than […]"
     }
   ],
-  "updated": "2026-01-16T18:58:30.658Z"
+  "updated": "2026-01-16T19:18:37.022Z"
 }
