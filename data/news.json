@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA Develops Blockchain Technology to Enhance Air Travel Safety and Security",
+      "link": "https://www.nasa.gov/general/nasa-develops-blockchain-technology-to-enhance-air-travel-safety-and-security/",
+      "source": "NASA",
+      "date": "2026-01-16T20:11:16Z",
+      "summary": "Through a drone flight test at NASA’s Ames Research Center, researchers tested a blockchain-based system for protecting flight data. The system aims to keep air traffic management safe from disruption and protect data transferred between aircraft and ground stations from being intercepted or manipulated."
+    },
+    {
       "title": "Isar Aerospace sets date for second Spectrum launch",
       "link": "https://spacenews.com/isar-aerospace-sets-date-for-second-spectrum-launch/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "Spaceflight Now",
       "date": "2026-01-16T16:53:05Z",
       "summary": "The NROL-105 mission is the first of about a dozen missions planned for 2026 that support the NRO’s so-called proliferated architecture satellite constellation. Liftoff from pad 4E at Vandenberg Space Force Base is scheduled for 8:18 p.m. PST (11:18 p.m. EST / 0418 UTC)."
-    },
-    {
-      "title": "AO-Resistant Material Boosts VLEO Satellite Longevity",
-      "link": "https://spacenews.com/ao-resistant-material-boosts-vleo-satellite-longevity/",
-      "source": "SpaceNews",
-      "date": "2026-01-16T15:21:42Z",
-      "summary": "\nDeposition Sciences, Inc. (DSI), a wholly owned subsidiary of Lockheed Martin, specializes in advanced materials and optical coatings. For over 20 years, they’ve been producing their Sunshade® thermal control material, […]\nThe post AO-Resistant Material Boosts VLEO Satellite Longevity appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-16T19:59:11.741Z"
+  "updated": "2026-01-16T20:21:49.239Z"
 }
