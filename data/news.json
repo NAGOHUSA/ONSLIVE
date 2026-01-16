@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Final FY2026 NASA/NOAA Appropriations Bill Clears Senate, White House is Next",
+      "link": "https://spacepolicyonline.com/news/final-fy2026-nasa-noaa-appropriations-bill-clears-senate-white-house-is-next/",
+      "source": "SpacePolicyOnline.com",
+      "date": "2026-01-16T00:59:58Z",
+      "summary": "The Senate passed a second minibus of three FY2026 appropriations bills this afternoon that includes the Commerce-Justice-Science (CJS) bill, which funds NASA and NOAA. It is the final congressional step […]"
+    },
+    {
+      "title": "Congress passes minibus spending bill that rejects proposed NASA cuts",
+      "link": "https://spacenews.com/congress-passes-minibus-spending-bill-that-rejects-proposed-nasa-cuts/",
+      "source": "SpaceNews",
+      "date": "2026-01-16T00:40:51Z",
+      "summary": "\nCongress has approved a fiscal year 2026 spending bill that largely restores funding proposed for deep cuts to NASA while canceling one major mission.\nThe post Congress passes minibus spending bill that rejects proposed NASA cuts appeared first on SpaceNews."
+    },
+    {
       "title": "NASA Adds Two F-15 Aircraft to Support Supersonic Flight Research",
       "link": "https://www.nasa.gov/image-article/nasa-adds-two-f-15-aircraft-to-support-supersonic-flight-research/",
       "source": "NASA",
@@ -20,21 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-15T20:13:24Z",
       "summary": "\nArianespace will begin launches for its largest commercial customer in February as it works to ramp up its flight rate and attract additional business.\nThe post Arianespace to begin Amazon Leo launches in February appeared first on SpaceNews."
-    },
-    {
-      "title": "Eutelsat Awards MaiaSpace Multi-Launch Contract for OneWeb Satellites",
-      "link": "https://europeanspaceflight.com/eutelsat-awards-maiaspace-multi-launch-contract-for-oneweb-satellites/",
-      "source": "European Spaceflight",
-      "date": "2026-01-15T18:28:45Z",
-      "summary": "French rocket builder MaiaSpace has signed an agreement with Eutelsat to perform multiple launches to support the expansion of the company’s OneWeb satellite constellation. MaiaSpace was founded in 2022 as a wholly owned subsidiary of ArianeGroup. The company is developing a two-stage, partially reusable launch vehicle called Maia, designed to deliver up to 4,000 kilograms […]\nThe post Eutelsat Awards MaiaSpace Multi-Launch Contract for OneWeb Satellites appeared first on European Spaceflight."
-    },
-    {
-      "title": "NASA Data Helps Maine Oyster Farmers Choose Where to Grow",
-      "link": "https://science.nasa.gov/earth/nasa-data-helps-maine-oyster-farmers-choose-where-to-grow/",
-      "source": "NASA",
-      "date": "2026-01-15T16:28:21Z",
-      "summary": "NASA satellites are helping Maine oyster farmers pick better sites and plan when oysters will be ready to harvest."
     }
   ],
-  "updated": "2026-01-15T23:59:47.332Z"
+  "updated": "2026-01-16T01:52:37.937Z"
 }
