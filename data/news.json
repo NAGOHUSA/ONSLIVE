@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "SLS/Orion Ready to Roll for Artemis II",
+      "link": "https://spacepolicyonline.com/news/sls-orion-ready-to-roll-for-artemis-ii/",
+      "source": "SpacePolicyOnline.com",
+      "date": "2026-01-16T21:47:22Z",
+      "summary": "NASA is proceeding with plans to roll the Space Launch System rocket with the Orion crew capsule out to Launch Complex-39A at Kennedy Space Center tomorrow morning. The SLS/Orion combination […]"
+    },
+    {
       "title": "What You Need to Know About NASA’s Artemis II Moon Mission",
       "link": "https://www.nasa.gov/news-release/what-you-need-to-know-about-nasas-artemis-ii-moon-mission/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-16T18:06:43Z",
       "summary": "\nChina’s main space contractor performed a static fire test of a new reusable Long March rocket Friday, paving the way for a test flight.\nThe post China conducts static fire test of new reusable Long March 12B rocket appeared first on SpaceNews."
-    },
-    {
-      "title": "Update: Crew-11 Makes Safe Return to Earth",
-      "link": "https://www.spacescout.info/2026/01/update-crew-11-makes-safe-return-to-earth/",
-      "source": "Space Scout",
-      "date": "2026-01-16T17:54:11Z",
-      "summary": "NASA’s Crew-11 mission splashed down safely off the coast of California at 3:41 AM Eastern time early Thursday morning, one"
     }
   ],
-  "updated": "2026-01-16T21:52:49.133Z"
+  "updated": "2026-01-16T21:59:05.836Z"
 }
