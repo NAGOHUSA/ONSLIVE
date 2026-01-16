@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "What You Need to Know About NASA’s Artemis II Moon Mission",
+      "link": "https://www.nasa.gov/news-release/what-you-need-to-know-about-nasas-artemis-ii-moon-mission/",
+      "source": "NASA",
+      "date": "2026-01-16T21:25:29Z",
+      "summary": "NASA is weeks away from sending astronauts farther than any crew has traveled before, with the agency’s second mission in its Artemis campaign. The Artemis II Press Kit now is available with information on the mission, astronauts, and other resources for media. “Artemis II will be a momentous step forward for human spaceflight. This historic […]"
+    },
+    {
       "title": "NASA Develops Blockchain Technology to Enhance Air Travel Safety and Security",
       "link": "https://www.nasa.gov/general/nasa-develops-blockchain-technology-to-enhance-air-travel-safety-and-security/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "Space Scout",
       "date": "2026-01-16T17:54:11Z",
       "summary": "NASA’s Crew-11 mission splashed down safely off the coast of California at 3:41 AM Eastern time early Thursday morning, one"
-    },
-    {
-      "title": "Live coverage: NRO, SpaceX to launch reconnaissance satellites from Vandenberg",
-      "link": "https://spaceflightnow.com/2026/01/16/live-coverage-nro-spacex-to-launch-reconnaissance-satellites-from-vandenberg/",
-      "source": "Spaceflight Now",
-      "date": "2026-01-16T16:53:05Z",
-      "summary": "The NROL-105 mission is the first of about a dozen missions planned for 2026 that support the NRO’s so-called proliferated architecture satellite constellation. Liftoff from pad 4E at Vandenberg Space Force Base is scheduled for 8:18 p.m. PST (11:18 p.m. EST / 0418 UTC)."
     }
   ],
-  "updated": "2026-01-16T21:16:17.216Z"
+  "updated": "2026-01-16T21:34:34.057Z"
 }
