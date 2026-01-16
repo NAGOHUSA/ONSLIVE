@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA Receives 15th Consecutive ‘Clean’ Financial Audit Opinion",
+      "link": "https://www.nasa.gov/news-release/nasa-receives-15th-consecutive-clean-financial-audit-opinion/",
+      "source": "NASA",
+      "date": "2026-01-16T22:10:44Z",
+      "summary": "For the 15th consecutive year, NASA received an unmodified, or “clean,” opinion from an external auditor on its fiscal year 2025 financial statements. The rating is the best possible audit opinion, certifying that NASA’s financial statements conform with Generally Accepted Accounting Principles for federal agencies and accurately present the agency’s financial position. “NASA has delivered […]"
+    },
+    {
       "title": "SLS/Orion Ready to Roll for Artemis II",
       "link": "https://spacepolicyonline.com/news/sls-orion-ready-to-roll-for-artemis-ii/",
       "source": "SpacePolicyOnline.com",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-16T18:52:46Z",
       "summary": "\nGerman launch company Isar Aerospace is preparing for the second launch of its Spectrum rocket, this time carrying several satellite payloads.\nThe post Isar Aerospace sets date for second Spectrum launch appeared first on SpaceNews."
-    },
-    {
-      "title": "China conducts static fire test of new reusable Long March 12B rocket",
-      "link": "https://spacenews.com/china-conducts-static-fire-test-of-new-reusable-long-march-12b-rocket/",
-      "source": "SpaceNews",
-      "date": "2026-01-16T18:06:43Z",
-      "summary": "\nChina’s main space contractor performed a static fire test of a new reusable Long March rocket Friday, paving the way for a test flight.\nThe post China conducts static fire test of new reusable Long March 12B rocket appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-16T21:59:05.836Z"
+  "updated": "2026-01-16T22:20:44.541Z"
 }
