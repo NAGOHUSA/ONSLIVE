@@ -1,15 +1,22 @@
 {
   "articles": [
     {
-      "title": "Power to the Moon",
-      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/01/Power_to_the_Moon",
+      "title": "Second Isar Aerospace Spectrum Flight Set for 20 to 23 January",
+      "link": "https://europeanspaceflight.com/second-isar-aerospace-spectrum-flight-set-for-20-to-23-january/",
+      "source": "European Spaceflight",
+      "date": "2026-01-16T09:32:20Z",
+      "summary": "German launch services provider Isar Aerospace is preparing for the second flight of its two-stage Spectrum rocket, with a Notice to Mariners (NOTMAR) indicating launch opportunities from 20 to 23 January. Isar Aerospace launched its first Spectrum rocket in March 2025 from the Andøya Spaceport in Norway, but it failed less than a minute into […]\nThe post Second Isar Aerospace Spectrum Flight Set for 20 to 23 January appeared first on European Spaceflight."
+    },
+    {
+      "title": "Earth from Space: The fate of a giant",
+      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/01/Earth_from_Space_The_fate_of_a_giant",
       "source": "ESA",
       "date": "2026-01-16T09:00:00Z",
       "summary": "From the ESA Blogs."
     },
     {
-      "title": "Earth from Space: The fate of a giant",
-      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/01/Earth_from_Space_The_fate_of_a_giant",
+      "title": "Power to the Moon",
+      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/01/Power_to_the_Moon",
       "source": "ESA",
       "date": "2026-01-16T09:00:00Z",
       "summary": "From the ESA Blogs."
@@ -27,14 +34,7 @@
       "source": "SpacePolicyOnline.com",
       "date": "2026-01-16T00:59:58Z",
       "summary": "The Senate passed a second minibus of three FY2026 appropriations bills this afternoon that includes the Commerce-Justice-Science (CJS) bill, which funds NASA and NOAA. It is the final congressional step […]"
-    },
-    {
-      "title": "Congress passes minibus spending bill that rejects proposed NASA cuts",
-      "link": "https://spacenews.com/congress-passes-minibus-spending-bill-that-rejects-proposed-nasa-cuts/",
-      "source": "SpaceNews",
-      "date": "2026-01-16T00:40:51Z",
-      "summary": "\nCongress has approved a fiscal year 2026 spending bill that largely restores funding proposed for deep cuts to NASA while canceling one major mission.\nThe post Congress passes minibus spending bill that rejects proposed NASA cuts appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-16T09:13:58.741Z"
+  "updated": "2026-01-16T09:40:46.626Z"
 }
