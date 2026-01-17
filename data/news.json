@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Arianespace to launch first Ariane 64 rocket on 12 Feb",
+      "link": "https://europeanspaceflight.com/arianespace-to-launch-first-ariane-64-rocket-on-12-feb/",
+      "source": "European Spaceflight",
+      "date": "2026-01-17T05:00:12Z",
+      "summary": "Arianespace has announced that the first flight of its more powerful four-booster Ariane 6 will be launched on 12 February from the Guiana Space Centre in French Guiana. The inaugural flight of the Ariane 6 launch system was conducted in July 2024. In 2025, Arianespace launched four flights of the rocket carrying payloads for ESA, […]\nThe post Arianespace to launch first Ariane 64 rocket on 12 Feb appeared first on European Spaceflight."
+    },
+    {
       "title": "NASA’s SpaceX Crew-11 to Discuss Space Station Science Mission",
       "link": "https://www.nasa.gov/news-release/nasas-spacex-crew-11-to-discuss-space-station-science-mission/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-01-16T22:10:44Z",
       "summary": "For the 15th consecutive year, NASA received an unmodified, or “clean,” opinion from an external auditor on its fiscal year 2025 financial statements. The rating is the best possible audit opinion, certifying that NASA’s financial statements conform with Generally Accepted Accounting Principles for federal agencies and accurately present the agency’s financial position. “NASA has delivered […]"
-    },
-    {
-      "title": "SLS/Orion Ready to Roll for Artemis II",
-      "link": "https://spacepolicyonline.com/news/sls-orion-ready-to-roll-for-artemis-ii/",
-      "source": "SpacePolicyOnline.com",
-      "date": "2026-01-16T21:47:22Z",
-      "summary": "NASA is proceeding with plans to roll the Space Launch System rocket with the Orion crew capsule out to Launch Complex-39A at Kennedy Space Center tomorrow morning. The SLS/Orion combination […]"
     }
   ],
-  "updated": "2026-01-17T04:54:22.836Z"
+  "updated": "2026-01-17T05:10:48.809Z"
 }
