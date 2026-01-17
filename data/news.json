@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Rollout Brings the Dawn of Artemis II",
+      "link": "https://www.spacescout.info/2026/01/rollout-brings-the-dawn-of-artemis-ii/",
+      "source": "Space Scout",
+      "date": "2026-01-17T20:02:14Z",
+      "summary": "Early Saturday morning, NASA rolled out the Space Launch System rocket and Orion spacecraft that will send humans back to the Moon for the first time in 54 years."
+    },
+    {
       "title": "SLS/Orion rolls to pad for Artemis 2",
       "link": "https://spacenews.com/sls-orion-rolls-to-pad-for-artemis-2/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-17T10:34:47Z",
       "summary": "\nChina suffered a pair of launch failures Friday, seeing the loss of a classified Shijian satellite and the failed first launch of the Ceres-2 rocket\nThe post China hit by dual launch failures as Long March 3B and Ceres-2 debut mission fail appeared first on SpaceNews."
-    },
-    {
-      "title": "Arianespace to launch first Ariane 64 rocket on 12 Feb",
-      "link": "https://europeanspaceflight.com/arianespace-to-launch-first-ariane-64-rocket-on-12-feb/",
-      "source": "European Spaceflight",
-      "date": "2026-01-17T05:00:12Z",
-      "summary": "Arianespace has announced that the first flight of its more powerful four-booster Ariane 6 will be launched on 12 February from the Guiana Space Centre in French Guiana. The inaugural flight of the Ariane 6 launch system was conducted in July 2024. In 2025, Arianespace launched four flights of the rocket carrying payloads for ESA, […]\nThe post Arianespace to launch first Ariane 64 rocket on 12 Feb appeared first on European Spaceflight."
     }
   ],
-  "updated": "2026-01-17T19:55:20.110Z"
+  "updated": "2026-01-17T20:11:42.523Z"
 }
