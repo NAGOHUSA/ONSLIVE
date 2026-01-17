@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "SLS/Orion rolls to pad for Artemis 2",
+      "link": "https://spacenews.com/sls-orion-rolls-to-pad-for-artemis-2/",
+      "source": "SpaceNews",
+      "date": "2026-01-17T18:09:55Z",
+      "summary": "\nNASA’s Space Launch System and Orion spacecraft rolled to the launch pad for the Artemis 2 mission Jan. 17, though uncertainty remains about when it will be ready to launch.\nThe post SLS/Orion rolls to pad for Artemis 2 appeared first on SpaceNews."
+    },
+    {
+      "title": "Hubble Snaps Stellar Baby Pictures",
+      "link": "https://science.nasa.gov/missions/hubble/hubble-snaps-stellar-baby-pictures/",
+      "source": "NASA",
+      "date": "2026-01-17T17:45:20Z",
+      "summary": "Newly developing stars shrouded in thick dust get their first baby pictures in these images from NASA’s Hubble Space Telescope. Hubble took these infant star snapshots in an effort to learn how massive stars form. Protostars are shrouded in thick dust that blocks light, but Hubble can detect the near-infrared emission that shines through holes […]"
+    },
+    {
       "title": "White House resubmits NASA deputy administrator nominee",
       "link": "https://spacenews.com/white-house-resubmits-nasa-deputy-administrator-nominee/",
       "source": "SpaceNews",
@@ -20,21 +34,7 @@
       "source": "European Spaceflight",
       "date": "2026-01-17T05:00:12Z",
       "summary": "Arianespace has announced that the first flight of its more powerful four-booster Ariane 6 will be launched on 12 February from the Guiana Space Centre in French Guiana. The inaugural flight of the Ariane 6 launch system was conducted in July 2024. In 2025, Arianespace launched four flights of the rocket carrying payloads for ESA, […]\nThe post Arianespace to launch first Ariane 64 rocket on 12 Feb appeared first on European Spaceflight."
-    },
-    {
-      "title": "NASA’s SpaceX Crew-11 to Discuss Space Station Science Mission",
-      "link": "https://www.nasa.gov/news-release/nasas-spacex-crew-11-to-discuss-space-station-science-mission/",
-      "source": "NASA",
-      "date": "2026-01-16T23:18:49Z",
-      "summary": "After 167 days in space, the crew members of NASA’s SpaceX Crew-11 mission will hold a news conference at 2:15 p.m. EST, Wednesday, Jan. 21, at the agency’s Johnson Space Center in Houston to discuss their science expedition aboard the International Space Station. NASA astronauts Zena Cardman and Mike Fincke, JAXA (Japan Aerospace Exploration Agency) astronaut Kimiya Yui, and Roscosmos […]"
-    },
-    {
-      "title": "Artemis II set to roll out to LC-39B for first crewed lunar mission since 1972",
-      "link": "https://www.nasaspaceflight.com/2026/01/artemis-ii-rollout/",
-      "source": "NASASpaceflight",
-      "date": "2026-01-16T22:56:13Z",
-      "summary": "The first human spaceflight to the vicinity of the Moon since December 1972 is set…\nThe post Artemis II set to roll out to LC-39B for first crewed lunar mission since 1972 appeared first on NASASpaceFlight.com."
     }
   ],
-  "updated": "2026-01-17T17:56:50.731Z"
+  "updated": "2026-01-17T18:20:03.578Z"
 }
