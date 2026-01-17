@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "White House resubmits NASA deputy administrator nominee",
+      "link": "https://spacenews.com/white-house-resubmits-nasa-deputy-administrator-nominee/",
+      "source": "SpaceNews",
+      "date": "2026-01-17T11:39:49Z",
+      "summary": "\nThe White House has resubmitted a nomination for NASA deputy administrator but is seeking a new nominee for the agency’s chief financial officer.\nThe post White House resubmits NASA deputy administrator nominee appeared first on SpaceNews."
+    },
+    {
       "title": "China hit by dual launch failures as Long March 3B and Ceres-2 debut mission fail",
       "link": "https://spacenews.com/china-hit-by-dual-launch-failures-as-long-march-3b-and-ceres-2-debut-mission-fail/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASASpaceflight",
       "date": "2026-01-16T22:56:13Z",
       "summary": "The first human spaceflight to the vicinity of the Moon since December 1972 is set…\nThe post Artemis II set to roll out to LC-39B for first crewed lunar mission since 1972 appeared first on NASASpaceFlight.com."
-    },
-    {
-      "title": "Indra Group writes off damaged SpainSat NG 2",
-      "link": "https://spacenews.com/indra-group-writes-off-damaged-spainsat-ng-2/",
-      "source": "SpaceNews",
-      "date": "2026-01-16T22:49:32Z",
-      "summary": "\nThe operator of a Spanish military communications satellite that suffered a “space particle” strike has written off the spacecraft, concluding it can no longer carry out its mission.\nThe post Indra Group writes off damaged SpainSat NG 2 appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-17T11:40:07.138Z"
+  "updated": "2026-01-17T11:46:31.231Z"
 }
