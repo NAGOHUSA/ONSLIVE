@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Space Science in 2026: New lunar explorers, Mars missions, and space telescopes",
+      "link": "https://www.nasaspaceflight.com/2026/01/space-science-2026-preview/",
+      "source": "NASASpaceflight",
+      "date": "2026-01-18T20:46:57Z",
+      "summary": "With many missions on the manifest, the new year promises to be packed with space…\nThe post Space Science in 2026: New lunar explorers, Mars missions, and space telescopes appeared first on NASASpaceFlight.com."
+    },
+    {
       "title": "Live coverage: Space Falcon 9 rocket counting down to Starlink delivery mission",
       "link": "https://spaceflightnow.com/2026/01/18/live-coverage-space-falcon-9-rocket-counting-down-to-starlink-delivery-mission/",
       "source": "Spaceflight Now",
@@ -27,14 +34,7 @@
       "source": "Space Scout",
       "date": "2026-01-17T20:02:14Z",
       "summary": "Early Saturday morning, NASA rolled out the Space Launch System rocket and Orion spacecraft that will send humans back to the Moon for the first time in 54 years."
-    },
-    {
-      "title": "SLS/Orion rolls to pad for Artemis 2",
-      "link": "https://spacenews.com/sls-orion-rolls-to-pad-for-artemis-2/",
-      "source": "SpaceNews",
-      "date": "2026-01-17T18:09:55Z",
-      "summary": "\nNASA’s Space Launch System and Orion spacecraft rolled to the launch pad for the Artemis 2 mission Jan. 17, though uncertainty remains about when it will be ready to launch.\nThe post SLS/Orion rolls to pad for Artemis 2 appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-18T20:54:00.124Z"
+  "updated": "2026-01-18T21:00:11.020Z"
 }
