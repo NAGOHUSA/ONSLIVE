@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "What’s Happening in Space Policy January 18-24, 2026",
+      "link": "https://spacepolicyonline.com/news/whats-happening-in-space-policy-january-18-24-2026/",
+      "source": "SpacePolicyOnline.com",
+      "date": "2026-01-18T20:56:43Z",
+      "summary": "Here is SpacePolicyOnline.com’s list of space policy events for the week of January 18-24, 2026 and any insight we can offer about them. The House is in session this week. […]"
+    },
+    {
       "title": "Space Science in 2026: New lunar explorers, Mars missions, and space telescopes",
       "link": "https://www.nasaspaceflight.com/2026/01/space-science-2026-preview/",
       "source": "NASASpaceflight",
@@ -27,14 +34,7 @@
       "source": "European Spaceflight",
       "date": "2026-01-18T06:08:42Z",
       "summary": "Hisdesat has announced that the SpainSat NG II military communications satellite, which was struck by a “space particle,” has suffered “non-recoverable damage.” As a result of this finding, the company has initiated an RFQ (request for quotation) for a replacement satellite, designated SpainSat NG III. The SpainSat NG II satellite was launched aboard a Falcon […]\nThe post Hisdesat Confirms Spanish Military Satellite Sustained “Non-Recoverable Damage” appeared first on European Spaceflight."
-    },
-    {
-      "title": "Rollout Brings the Dawn of Artemis II",
-      "link": "https://www.spacescout.info/2026/01/rollout-brings-the-dawn-of-artemis-ii/",
-      "source": "Space Scout",
-      "date": "2026-01-17T20:02:14Z",
-      "summary": "Early Saturday morning, NASA rolled out the Space Launch System rocket and Orion spacecraft that will send humans back to the Moon for the first time in 54 years."
     }
   ],
-  "updated": "2026-01-18T21:00:11.020Z"
+  "updated": "2026-01-18T21:20:10.099Z"
 }
