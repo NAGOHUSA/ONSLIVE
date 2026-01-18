@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Live coverage: Space Falcon 9 rocket counting down to Starlink delivery mission",
+      "link": "https://spaceflightnow.com/2026/01/18/live-coverage-space-falcon-9-rocket-counting-down-to-starlink-delivery-mission/",
+      "source": "Spaceflight Now",
+      "date": "2026-01-18T18:14:49Z",
+      "summary": "SpaceX will continue the expansion of its Starlink internet network with the launch of 29 new satellites. Liftoff from Cape Canaveral in Florida is scheduled for 5:06:10 p.m. EST (2206:10 UTC) Sunday.\n "
+    },
+    {
       "title": "Eutelsat signs OneWeb launch deal with MaiaSpace",
       "link": "https://spacenews.com/eutelsat-signs-oneweb-launch-deal-with-maiaspace/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-17T18:09:55Z",
       "summary": "\nNASA’s Space Launch System and Orion spacecraft rolled to the launch pad for the Artemis 2 mission Jan. 17, though uncertainty remains about when it will be ready to launch.\nThe post SLS/Orion rolls to pad for Artemis 2 appeared first on SpaceNews."
-    },
-    {
-      "title": "Hubble Snaps Stellar Baby Pictures",
-      "link": "https://science.nasa.gov/missions/hubble/hubble-snaps-stellar-baby-pictures/",
-      "source": "NASA",
-      "date": "2026-01-17T17:45:20Z",
-      "summary": "Newly developing stars shrouded in thick dust get their first baby pictures in these images from NASA’s Hubble Space Telescope. Hubble took these infant star snapshots in an effort to learn how massive stars form. Protostars are shrouded in thick dust that blocks light, but Hubble can detect the near-infrared emission that shines through holes […]"
     }
   ],
-  "updated": "2026-01-18T18:00:08.420Z"
+  "updated": "2026-01-18T18:31:16.603Z"
 }
