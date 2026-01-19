@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Rocket roll",
+      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/01/Rocket_roll",
+      "source": "ESA",
+      "date": "2026-01-19T14:00:00Z",
+      "summary": "From the ESA Blogs."
+    },
+    {
+      "title": "NASA must act now to ensure U.S. leadership in space",
+      "link": "https://spacenews.com/nasa-must-act-now-to-ensure-u-s-leadership-in-space/",
+      "source": "SpaceNews",
+      "date": "2026-01-19T14:00:00Z",
+      "summary": "\nJared Isaacman made something unmistakably clear during his confirmation hearing as NASA Administrator: time is not on America’s side. The United States is no longer alone in deep space ambition, and the race to return humans to the moon is strategic, geopolitical and urgent — not just symbolic. China has declared its intent with regards […]\nThe post NASA must act now to ensure U.S. leadership in space appeared first on SpaceNews."
+    },
+    {
       "title": "Vega-C overview infographic",
       "link": "https://www.esa.int/ESA_Multimedia/Images/2026/01/Vega-C_overview_infographic",
       "source": "ESA",
@@ -20,21 +34,7 @@
       "source": "ESA",
       "date": "2026-01-19T10:50:00Z",
       "summary": "From the ESA Blogs."
-    },
-    {
-      "title": "The EGT Programme: your road to space",
-      "link": "https://www.esa.int/About_Us/Careers_at_ESA/The_EGT_Programme_your_road_to_space",
-      "source": "ESA",
-      "date": "2026-01-19T10:00:00Z",
-      "summary": "Dreaming of a career in space? The 2026 ESA Graduate Trainee opportunities are launching soon! It’s time to polish up your CV, craft your motivation letter and get ready to reach for the stars."
-    },
-    {
-      "title": "NASA moves moon rocket to launch pad ahead of Artemis 2 mission",
-      "link": "https://www.spacedaily.com/reports/NASA_moves_moon_rocket_to_launch_pad_ahead_of_Artemis_2_mission_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-19T09:56:59Z",
-      "summary": "Kennedy Space Center, United States (AFP) Jan 17, 2026\r\n\r\n\r\n NASA on Saturday rolled out its towering SLS rocket and Orion spacecraft as it began preparations for its first crewed mission to the Moon in more than 50 years. \r\n\r\nThe maneuver, which takes up to 12 hours, will allow the US space agency to begin a string of tests for the Artemis 2 mission, which could blast off as early as February 6. \r\n\r\nThe immense orange and white Space Launch System rocket"
     }
   ],
-  "updated": "2026-01-19T13:57:55.927Z"
+  "updated": "2026-01-19T14:23:55.959Z"
 }
