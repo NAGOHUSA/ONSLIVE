@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "As Europe's large ground telescope project advances, how is its US competitor faring?",
+      "link": "https://arstechnica.com/space/2026/01/as-europes-large-ground-telescope-project-advances-how-is-its-us-competitor-faring/",
+      "source": "Arstechnica",
+      "date": "2026-01-19T17:06:28Z",
+      "summary": "Ars checks in with the new president of the Giant Magellan Telescope."
+    },
+    {
       "title": "20 Years of Planning, Effort Ready to Culminate in Return to the Moon",
       "link": "https://www.spacescout.info/2026/01/20-years-of-planning-effort-ready-to-culminate-in-return-to-the-moon/",
       "source": "Space Scout",
@@ -27,14 +34,7 @@
       "source": "ESA",
       "date": "2026-01-19T13:35:00Z",
       "summary": "From the ESA Blogs."
-    },
-    {
-      "title": "Space Force ends ‘Resilient GPS’ satellite program",
-      "link": "https://spacenews.com/space-force-ends-resilient-gps-satellite-program/",
-      "source": "SpaceNews",
-      "date": "2026-01-19T13:00:00Z",
-      "summary": "\nWASHINGTON — The U.S. Space Force has ended an exploratory effort to add smaller, lower-cost navigation satellites to bolster the Global Positioning System, shelving a program that had been identified as a priority. The effort, known as Resilient GPS, or R-GPS, began in 2024 and funded three industry teams to develop designs and early prototypes […]\nThe post Space Force ends ‘Resilient GPS’ satellite program appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-19T16:58:56.425Z"
+  "updated": "2026-01-19T17:22:49.528Z"
 }
