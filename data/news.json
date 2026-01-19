@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Vega-C overview infographic",
+      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/01/Vega-C_overview_infographic",
+      "source": "ESA",
+      "date": "2026-01-19T13:35:00Z",
+      "summary": "From the ESA Blogs."
+    },
+    {
       "title": "Space Force ends ‘Resilient GPS’ satellite program",
       "link": "https://spacenews.com/space-force-ends-resilient-gps-satellite-program/",
       "source": "SpaceNews",
@@ -22,13 +29,6 @@
       "summary": "Dreaming of a career in space? The 2026 ESA Graduate Trainee opportunities are launching soon! It’s time to polish up your CV, craft your motivation letter and get ready to reach for the stars."
     },
     {
-      "title": "Galactic Energy conducts sixth offshore Ceres 1 mission from Yellow Sea platform",
-      "link": "https://www.spacedaily.com/reports/Galactic_Energy_conducts_sixth_offshore_Ceres_1_mission_from_Yellow_Sea_platform_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-19T09:56:59Z",
-      "summary": "Beijing, China (SPX) Jan 19, 2026\r\n\r\n\r\nGalactic Energy has carried out its sixth sea based mission of the Ceres 1 solid fuel launcher, adding four more spacecraft to the Tianqi commercial internet of things constellation. \r\n\r\nThe latest Ceres 1 lifted off at 4:10 a.m. local time from a mobile offshore platform positioned in the Yellow Sea off Shandong province in eastern China, placing its payload into low Earth orbit about 850 kil"
-    },
-    {
       "title": "NASA moves moon rocket to launch pad ahead of Artemis 2 mission",
       "link": "https://www.spacedaily.com/reports/NASA_moves_moon_rocket_to_launch_pad_ahead_of_Artemis_2_mission_999.html",
       "source": "SpaceDaily",
@@ -36,5 +36,5 @@
       "summary": "Kennedy Space Center, United States (AFP) Jan 17, 2026\r\n\r\n\r\n NASA on Saturday rolled out its towering SLS rocket and Orion spacecraft as it began preparations for its first crewed mission to the Moon in more than 50 years. \r\n\r\nThe maneuver, which takes up to 12 hours, will allow the US space agency to begin a string of tests for the Artemis 2 mission, which could blast off as early as February 6. \r\n\r\nThe immense orange and white Space Launch System rocket"
     }
   ],
-  "updated": "2026-01-19T13:25:14.824Z"
+  "updated": "2026-01-19T13:57:55.927Z"
 }
