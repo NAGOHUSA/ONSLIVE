@@ -1,11 +1,11 @@
 {
   "articles": [
     {
-      "title": "Rocket roll",
-      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/01/Rocket_roll",
-      "source": "ESA",
-      "date": "2026-01-19T14:00:00Z",
-      "summary": "From the ESA Blogs."
+      "title": "20 Years of Planning, Effort Ready to Culminate in Return to the Moon",
+      "link": "https://www.spacescout.info/2026/01/20-years-of-planning-effort-ready-to-culminate-in-return-to-the-moon/",
+      "source": "Space Scout",
+      "date": "2026-01-19T16:42:05Z",
+      "summary": "The Artemis program, while relatively young, incorporates elements that have had long and winding development histories, which is reflected in the evolution of its earliest mission plans over time."
     },
     {
       "title": "NASA must act now to ensure U.S. leadership in space",
@@ -13,6 +13,13 @@
       "source": "SpaceNews",
       "date": "2026-01-19T14:00:00Z",
       "summary": "\nJared Isaacman made something unmistakably clear during his confirmation hearing as NASA Administrator: time is not on America’s side. The United States is no longer alone in deep space ambition, and the race to return humans to the moon is strategic, geopolitical and urgent — not just symbolic. China has declared its intent with regards […]\nThe post NASA must act now to ensure U.S. leadership in space appeared first on SpaceNews."
+    },
+    {
+      "title": "Rocket roll",
+      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/01/Rocket_roll",
+      "source": "ESA",
+      "date": "2026-01-19T14:00:00Z",
+      "summary": "From the ESA Blogs."
     },
     {
       "title": "Vega-C overview infographic",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-19T13:00:00Z",
       "summary": "\nWASHINGTON — The U.S. Space Force has ended an exploratory effort to add smaller, lower-cost navigation satellites to bolster the Global Positioning System, shelving a program that had been identified as a priority. The effort, known as Resilient GPS, or R-GPS, began in 2024 and funded three industry teams to develop designs and early prototypes […]\nThe post Space Force ends ‘Resilient GPS’ satellite program appeared first on SpaceNews."
-    },
-    {
-      "title": "Proba-3: our eyes on the Sun’s inner corona",
-      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/01/Proba-3_our_eyes_on_the_Sun_s_inner_corona",
-      "source": "ESA",
-      "date": "2026-01-19T10:50:00Z",
-      "summary": "From the ESA Blogs."
     }
   ],
-  "updated": "2026-01-19T16:36:34.012Z"
+  "updated": "2026-01-19T16:58:56.425Z"
 }
