@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Damaged DSN antenna out of service until May",
+      "link": "https://spacenews.com/damaged-dsn-antenna-out-of-service-until-may/",
+      "source": "SpaceNews",
+      "date": "2026-01-19T22:35:15Z",
+      "summary": "\nA key antenna in NASA’s Deep Space Network (DSN) that was damaged last fall is expected to remain offline until May, followed by extended downtime for upgrades.\nThe post Damaged DSN antenna out of service until May appeared first on SpaceNews."
+    },
+    {
+      "title": "Launch Preview: Falcon 9 set to launch two missions from California, Isar to attempt second launch of Spectrum",
+      "link": "https://www.nasaspaceflight.com/2026/01/launch-preview-011926/",
+      "source": "NASASpaceflight",
+      "date": "2026-01-19T22:30:49Z",
+      "summary": "The upcoming week will see seven rocket launches from six different launch sites across the…\nThe post Launch Preview: Falcon 9 set to launch two missions from California, Isar to attempt second launch of Spectrum appeared first on NASASpaceFlight.com."
+    },
+    {
       "title": "Repaired Shenzhou-20 Returns to Earth Empty",
       "link": "https://spacepolicyonline.com/news/repaired-shenzhou-20-returns-to-earth-empty/",
       "source": "SpacePolicyOnline.com",
@@ -20,21 +34,7 @@
       "source": "Space Scout",
       "date": "2026-01-19T16:42:05Z",
       "summary": "The Artemis program, while relatively young, incorporates elements that have had long and winding development histories, which is reflected in the evolution of its earliest mission plans over time."
-    },
-    {
-      "title": "NASA must act now to ensure U.S. leadership in space",
-      "link": "https://spacenews.com/nasa-must-act-now-to-ensure-u-s-leadership-in-space/",
-      "source": "SpaceNews",
-      "date": "2026-01-19T14:00:00Z",
-      "summary": "\nJared Isaacman made something unmistakably clear during his confirmation hearing as NASA Administrator: time is not on America’s side. The United States is no longer alone in deep space ambition, and the race to return humans to the moon is strategic, geopolitical and urgent — not just symbolic. China has declared its intent with regards […]\nThe post NASA must act now to ensure U.S. leadership in space appeared first on SpaceNews."
-    },
-    {
-      "title": "Rocket roll",
-      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/01/Rocket_roll",
-      "source": "ESA",
-      "date": "2026-01-19T14:00:00Z",
-      "summary": "From the ESA Blogs."
     }
   ],
-  "updated": "2026-01-19T22:24:36.402Z"
+  "updated": "2026-01-19T22:42:43.716Z"
 }
