@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Repaired Shenzhou-20 Returns to Earth Empty",
+      "link": "https://spacepolicyonline.com/news/repaired-shenzhou-20-returns-to-earth-empty/",
+      "source": "SpacePolicyOnline.com",
+      "date": "2026-01-19T22:03:04Z",
+      "summary": "China’s Shenzhou-20 spacecraft has successfully returned to Earth from the Tiangong space station. No one was aboard. Apparently damaged by space debris, it was deemed unsafe to return the crew […]"
+    },
+    {
       "title": "As Europe's large ground telescope project advances, how is its US competitor faring?",
       "link": "https://arstechnica.com/space/2026/01/as-europes-large-ground-telescope-project-advances-how-is-its-us-competitor-faring/",
       "source": "Arstechnica",
@@ -27,14 +34,7 @@
       "source": "ESA",
       "date": "2026-01-19T14:00:00Z",
       "summary": "From the ESA Blogs."
-    },
-    {
-      "title": "Vega-C overview infographic",
-      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/01/Vega-C_overview_infographic",
-      "source": "ESA",
-      "date": "2026-01-19T13:35:00Z",
-      "summary": "From the ESA Blogs."
     }
   ],
-  "updated": "2026-01-19T22:00:12.933Z"
+  "updated": "2026-01-19T22:24:36.402Z"
 }
