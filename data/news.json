@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Space Force ends ‘Resilient GPS’ satellite program",
+      "link": "https://spacenews.com/space-force-ends-resilient-gps-satellite-program/",
+      "source": "SpaceNews",
+      "date": "2026-01-19T13:00:00Z",
+      "summary": "\nWASHINGTON — The U.S. Space Force has ended an exploratory effort to add smaller, lower-cost navigation satellites to bolster the Global Positioning System, shelving a program that had been identified as a priority. The effort, known as Resilient GPS, or R-GPS, began in 2024 and funded three industry teams to develop designs and early prototypes […]\nThe post Space Force ends ‘Resilient GPS’ satellite program appeared first on SpaceNews."
+    },
+    {
       "title": "Proba-3: our eyes on the Sun’s inner corona",
       "link": "https://www.esa.int/ESA_Multimedia/Images/2026/01/Proba-3_our_eyes_on_the_Sun_s_inner_corona",
       "source": "ESA",
@@ -15,13 +22,6 @@
       "summary": "Dreaming of a career in space? The 2026 ESA Graduate Trainee opportunities are launching soon! It’s time to polish up your CV, craft your motivation letter and get ready to reach for the stars."
     },
     {
-      "title": "NASA moves moon rocket to launch pad ahead of Artemis 2 mission",
-      "link": "https://www.spacedaily.com/reports/NASA_moves_moon_rocket_to_launch_pad_ahead_of_Artemis_2_mission_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-19T09:56:59Z",
-      "summary": "Kennedy Space Center, United States (AFP) Jan 17, 2026\r\n\r\n\r\n NASA on Saturday rolled out its towering SLS rocket and Orion spacecraft as it began preparations for its first crewed mission to the Moon in more than 50 years. \r\n\r\nThe maneuver, which takes up to 12 hours, will allow the US space agency to begin a string of tests for the Artemis 2 mission, which could blast off as early as February 6. \r\n\r\nThe immense orange and white Space Launch System rocket"
-    },
-    {
       "title": "Galactic Energy conducts sixth offshore Ceres 1 mission from Yellow Sea platform",
       "link": "https://www.spacedaily.com/reports/Galactic_Energy_conducts_sixth_offshore_Ceres_1_mission_from_Yellow_Sea_platform_999.html",
       "source": "SpaceDaily",
@@ -29,12 +29,12 @@
       "summary": "Beijing, China (SPX) Jan 19, 2026\r\n\r\n\r\nGalactic Energy has carried out its sixth sea based mission of the Ceres 1 solid fuel launcher, adding four more spacecraft to the Tianqi commercial internet of things constellation. \r\n\r\nThe latest Ceres 1 lifted off at 4:10 a.m. local time from a mobile offshore platform positioned in the Yellow Sea off Shandong province in eastern China, placing its payload into low Earth orbit about 850 kil"
     },
     {
-      "title": "Interstellar raises major Series F funding to expand launch and satellite business",
-      "link": "https://www.spacedaily.com/reports/Interstellar_raises_major_Series_F_funding_to_expand_launch_and_satellite_business_999.html",
+      "title": "NASA moves moon rocket to launch pad ahead of Artemis 2 mission",
+      "link": "https://www.spacedaily.com/reports/NASA_moves_moon_rocket_to_launch_pad_ahead_of_Artemis_2_mission_999.html",
       "source": "SpaceDaily",
       "date": "2026-01-19T09:56:59Z",
-      "summary": "Tokyo, Japan (SPX) Jan 19, 2026\n\n\nInterstellar Technologies, a privately held Japanese space infrastructure company, has completed a Series F funding round totaling 20.1 billion JPY (approximately 129.7 million USD) through a third-party allotment of new shares to a group of domestic financial and strategic investors. \n\nThe company states that this latest round brings its cumulative funding to 44.6 billion JPY (about 287.7 m"
+      "summary": "Kennedy Space Center, United States (AFP) Jan 17, 2026\r\n\r\n\r\n NASA on Saturday rolled out its towering SLS rocket and Orion spacecraft as it began preparations for its first crewed mission to the Moon in more than 50 years. \r\n\r\nThe maneuver, which takes up to 12 hours, will allow the US space agency to begin a string of tests for the Artemis 2 mission, which could blast off as early as February 6. \r\n\r\nThe immense orange and white Space Launch System rocket"
     }
   ],
-  "updated": "2026-01-19T12:26:45.440Z"
+  "updated": "2026-01-19T13:25:14.824Z"
 }
