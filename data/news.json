@@ -1,11 +1,25 @@
 {
   "articles": [
     {
+      "title": "Sodern to produce star trackers in Colorado",
+      "link": "https://spacenews.com/sodern-to-produce-star-trackers-in-colorado/",
+      "source": "SpaceNews",
+      "date": "2026-01-20T12:45:55Z",
+      "summary": "\nSodern, a French manufacturer of star trackers and cameras, is expanding into the United States with a new production facility in Colorado.\nThe post Sodern to produce star trackers in Colorado appeared first on SpaceNews."
+    },
+    {
       "title": "Gilmour Space raises $146 million",
       "link": "https://spacenews.com/gilmour-space-raises-146-million/",
       "source": "SpaceNews",
       "date": "2026-01-20T11:34:23Z",
       "summary": "\nAustralian launch vehicle and satellite manufacturer Gilmour Space Technologies has raised its largest funding round to date to scale up rocket and spacecraft production.\nThe post Gilmour Space raises $146 million appeared first on SpaceNews."
+    },
+    {
+      "title": "Spectrum’s qualifying second launch",
+      "link": "https://www.esa.int/Enabling_Support/Space_Transportation/Boost/Spectrum_s_qualifying_second_launch",
+      "source": "ESA",
+      "date": "2026-01-20T11:33:00Z",
+      "summary": "From the ESA Blogs."
     },
     {
       "title": "Jaclyn Kagey Shapes Humanity’s Return to the Moon",
@@ -15,26 +29,12 @@
       "summary": "For Jaclyn Kagey, helping astronauts put boots on the Moon is part of her daily work.  As the Artemis III extravehicular activity lead in NASA’s Flight Operations Directorate, Kagey plays a central role in preparing astronauts for humanity’s return to the lunar surface.   She helps define how astronauts will work on the Moon, from planning detailed spacewalk […]"
     },
     {
-      "title": "ArianeGroup Appoints Safran’s Christophe Bruneau as Next CEO",
-      "link": "https://europeanspaceflight.com/arianegroup-appoints-safrans-christophe-bruneau-as-next-ceo/",
-      "source": "European Spaceflight",
-      "date": "2026-01-20T09:07:50Z",
-      "summary": "ArianeGroup, jointly owned by Airbus and Safran, has announced that its Board of Directors has appointed Christophe Bruneau as CEO, succeeding Martin Sion, who has held the role since April 2023. Bruneau joins ArianeGroup from Safran Aircraft Engines, where he has served as Executive Vice President and General Manager of the company’s Military Engines division […]\nThe post ArianeGroup Appoints Safran’s Christophe Bruneau as Next CEO appeared first on European Spaceflight."
-    },
-    {
-      "title": "Damaged DSN antenna out of service until May",
-      "link": "https://spacenews.com/damaged-dsn-antenna-out-of-service-until-may/",
-      "source": "SpaceNews",
-      "date": "2026-01-19T22:35:15Z",
-      "summary": "\nA key antenna in NASA’s Deep Space Network (DSN) that was damaged last fall is expected to remain offline until May, followed by extended downtime for upgrades.\nThe post Damaged DSN antenna out of service until May appeared first on SpaceNews."
-    },
-    {
-      "title": "Launch Preview: Falcon 9 set to launch two missions from California, Isar to attempt second launch of Spectrum",
-      "link": "https://www.nasaspaceflight.com/2026/01/launch-preview-011926/",
-      "source": "NASASpaceflight",
-      "date": "2026-01-19T22:30:49Z",
-      "summary": "The upcoming week will see seven rocket launches from six different launch sites across the…\r\nThe post Launch Preview: Falcon 9 set to launch two missions from California, Isar to attempt second launch of Spectrum appeared first on NASASpaceFlight.com."
+      "title": "Stay smart on space chemical compliance",
+      "link": "https://www.esa.int/About_Us/Business_with_ESA/Stay_smart_on_space_chemical_compliance",
+      "source": "ESA",
+      "date": "2026-01-20T09:20:00Z",
+      "summary": "The European Union’s Chemicals Regulation, REACH, is one of the most comprehensive legislative frameworks for chemical safety worldwide. Designed to protect human health and the environment from hazardous substances, REACH also poses unique challenges for the space sector where exemptions are rare and obsolescence risks are high."
     }
   ],
-  "updated": "2026-01-20T12:27:02.220Z"
+  "updated": "2026-01-20T13:26:01.224Z"
 }
