@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA’s SLS Rocket: Secondary Payloads",
+      "link": "https://www.nasa.gov/image-article/nasas-sls-rocket-secondary-payloads/",
+      "source": "NASA",
+      "date": "2026-01-20T18:56:53Z",
+      "summary": "When NASA’s SLS (Space Launch System) rocket launches the agency’s Artemis II mission to the Moon, four CubeSats, or small satellites, will be hitching a ride inside the rocket’s Orion stage adapter (OSA). All four Artemis II CubeSats are provided by countries that are signatories of the Artemis Accords. Payload deployment, which begins approximately five […]"
+    },
+    {
       "title": "NASA Unlocks Golden Age of Innovation, Exploration in Trump’s First Year",
       "link": "https://www.nasa.gov/news-release/nasa-unlocks-golden-age-of-innovation-exploration-in-trumps-first-year/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "Arstechnica",
       "date": "2026-01-20T15:00:04Z",
       "summary": "\"We have a very strong incentive to send a crew as quickly as we can safely do so.\""
-    },
-    {
-      "title": "Webb reveals Helix Nebula in glistening detail",
-      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/01/Webb_reveals_Helix_Nebula_in_glistening_detail",
-      "source": "ESA",
-      "date": "2026-01-20T15:00:00Z",
-      "summary": "From the ESA Blogs."
     }
   ],
-  "updated": "2026-01-20T18:17:18.734Z"
+  "updated": "2026-01-20T19:13:58.726Z"
 }
