@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "New NASA Artemis Payloads To Study Moon’s Terrain, Radiation, History",
+      "link": "https://www.nasa.gov/news-release/new-nasa-artemis-payloads-to-study-moons-terrain-radiation-history/",
+      "source": "NASA",
+      "date": "2026-01-20T21:21:59Z",
+      "summary": "NASA announced Tuesday the selection of three new science investigations that will strengthen humanity’s understanding and exploration of the Moon. As part of the agency’s CLPS (Commercial Lunar Payload Services) initiative and Artemis campaign, American companies will deliver these research payloads to the lunar surface no earlier than 2028. “With CLPS, NASA has been taking […]"
+    },
+    {
+      "title": "Space Foundation to Host Innovate Space: Finance Forum in Partnership With Texas Space Commission",
+      "link": "https://spacenews.com/space-foundation-to-host-innovate-space-finance-forum-in-partnership-with-texas-space-commission/",
+      "source": "SpaceNews",
+      "date": "2026-01-20T21:21:49Z",
+      "summary": "\nCOLORADO SPRINGS, Colo. — Jan. 15, 2026 — Space Foundation, a nonprofit organization founded in 1983 to advance the global space community, today announced it will host Innovate Space: Finance […]\nThe post Space Foundation to Host Innovate Space: Finance Forum in Partnership With Texas Space Commission appeared first on SpaceNews."
+    },
+    {
       "title": "NIH Supplements, Facts First Challenge",
       "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/nih-supplements-facts-first-challenge/",
       "source": "NASA",
@@ -20,21 +34,7 @@
       "source": "NASASpaceflight",
       "date": "2026-01-20T19:10:48Z",
       "summary": "Although there has been a pause in launch operations as SpaceX transitions Starship to the…\nThe post Florida Starship progress with launch sites at KSC and Cape appeared first on NASASpaceFlight.com."
-    },
-    {
-      "title": "NASA’s SLS Rocket: Secondary Payloads",
-      "link": "https://www.nasa.gov/image-article/nasas-sls-rocket-secondary-payloads/",
-      "source": "NASA",
-      "date": "2026-01-20T18:56:53Z",
-      "summary": "When NASA’s SLS (Space Launch System) rocket launches the agency’s Artemis II mission to the Moon, four CubeSats, or small satellites, will be hitching a ride inside the rocket’s Orion stage adapter (OSA). All four Artemis II CubeSats are provided by countries that are signatories of the Artemis Accords. Payload deployment, which begins approximately five […]"
-    },
-    {
-      "title": "NASA Unlocks Golden Age of Innovation, Exploration in Trump’s First Year",
-      "link": "https://www.nasa.gov/news-release/nasa-unlocks-golden-age-of-innovation-exploration-in-trumps-first-year/",
-      "source": "NASA",
-      "date": "2026-01-20T17:56:10Z",
-      "summary": "One year into President Donald J. Trump’s second term, NASA is delivering measurable progress across human spaceflight, science, aeronautics, and cutting-edge technology. These advances mark the beginning of a new Golden Age of American space leadership driven by clear national direction and historic investment through the Working Families Tax Cut Act. Since his inauguration as […]"
     }
   ],
-  "updated": "2026-01-20T21:29:07.103Z"
+  "updated": "2026-01-20T21:43:05.223Z"
 }
