@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "NASA Chase Aircraft Ensures X-59’s Safety in Flight",
+      "link": "https://www.nasa.gov/aeronautics/chase-aircraft-ensures-x-59-safety/",
+      "source": "NASA",
+      "date": "2026-01-20T19:11:25Z",
+      "summary": "As NASA’s X-59 quiet supersonic research aircraft continues a series of flight tests over the California high desert in 2026, its pilot will be flying with a buddy closely looking out for his safety.  That colleague will be another test pilot in a separate chase aircraft. His job as chase pilot: keep a careful watch on things as he tracks the […]"
+    },
+    {
+      "title": "Florida Starship progress with launch sites at KSC and Cape",
+      "link": "https://www.nasaspaceflight.com/2026/01/florida-starship-progress-ksc-cape/",
+      "source": "NASASpaceflight",
+      "date": "2026-01-20T19:10:48Z",
+      "summary": "Although there has been a pause in launch operations as SpaceX transitions Starship to the…\nThe post Florida Starship progress with launch sites at KSC and Cape appeared first on NASASpaceFlight.com."
+    },
+    {
       "title": "NASA’s SLS Rocket: Secondary Payloads",
       "link": "https://www.nasa.gov/image-article/nasas-sls-rocket-secondary-payloads/",
       "source": "NASA",
@@ -20,21 +34,7 @@
       "source": "NASA",
       "date": "2026-01-20T15:52:29Z",
       "summary": "A disparate collection of young stellar objects bejewels a cosmic panorama in the star-forming region NGC 1333 in this new image from NASA’s Hubble Space Telescope. To the left, an actively forming star called a protostar casts its glow on the surrounding gas and dust, creating a reflection nebula. Two dark stripes on opposite sides of […]"
-    },
-    {
-      "title": "Airbus Runs into Opposition with Satellite Business Consolidation",
-      "link": "https://europeanspaceflight.com/airbus-runs-into-opposition-with-satellite-business-consolidation/",
-      "source": "European Spaceflight",
-      "date": "2026-01-20T15:22:09Z",
-      "summary": "Unions are pushing back against Airbus as it moves to consolidate its satellite business, with Airbus Defence and Space absorbing Airbus Constellations Satellites. A Union Nationale des Syndicats Autonomes (UNSA) statement has called the move “industrial, economic and social nonsense.” The Background In January 2016, Airbus Defence and Space and OneWeb announced the creation of […]\nThe post Airbus Runs into Opposition with Satellite Business Consolidation appeared first on European Spaceflight."
-    },
-    {
-      "title": "The first commercial space station, Haven-1, is now undergoing assembly for launch",
-      "link": "https://arstechnica.com/space/2026/01/the-first-commercial-space-station-haven-1-is-now-undergoing-assembly-for-launch/",
-      "source": "Arstechnica",
-      "date": "2026-01-20T15:00:04Z",
-      "summary": "\"We have a very strong incentive to send a crew as quickly as we can safely do so.\""
     }
   ],
-  "updated": "2026-01-20T19:13:58.726Z"
+  "updated": "2026-01-20T20:19:52.109Z"
 }
