@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Gilmour Space raises $146 million",
+      "link": "https://spacenews.com/gilmour-space-raises-146-million/",
+      "source": "SpaceNews",
+      "date": "2026-01-20T11:34:23Z",
+      "summary": "\nAustralian launch vehicle and satellite manufacturer Gilmour Space Technologies has raised its largest funding round to date to scale up rocket and spacecraft production.\nThe post Gilmour Space raises $146 million appeared first on SpaceNews."
+    },
+    {
       "title": "Jaclyn Kagey Shapes Humanity’s Return to the Moon",
       "link": "https://www.nasa.gov/centers-and-facilities/johnson/jaclyn-kagey-shapes-humanitys-return-to-the-moon/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASASpaceflight",
       "date": "2026-01-19T22:30:49Z",
       "summary": "The upcoming week will see seven rocket launches from six different launch sites across the…\r\nThe post Launch Preview: Falcon 9 set to launch two missions from California, Isar to attempt second launch of Spectrum appeared first on NASASpaceFlight.com."
-    },
-    {
-      "title": "Repaired Shenzhou-20 Returns to Earth Empty",
-      "link": "https://spacepolicyonline.com/news/repaired-shenzhou-20-returns-to-earth-empty/",
-      "source": "SpacePolicyOnline.com",
-      "date": "2026-01-19T22:03:04Z",
-      "summary": "China’s Shenzhou-20 spacecraft has successfully returned to Earth from the Tiangong space station. No one was aboard. Apparently damaged by space debris, it was deemed unsafe to return the crew […]"
     }
   ],
-  "updated": "2026-01-20T11:30:39.645Z"
+  "updated": "2026-01-20T11:46:06.438Z"
 }
