@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Free warnings, better catalogs: the real fix for space safety",
+      "link": "https://spacenews.com/free-warnings-better-catalogs-the-real-fix-for-space-safety/",
+      "source": "SpaceNews",
+      "date": "2026-01-20T14:00:00Z",
+      "summary": "\nA one-line change in the Dec. 18, 2025 Executive Order, Ensuring American Space Superiority, reopened a debate: should the United States charge satellite operators for basic space situational awareness (SSA) and civil space traffic coordination (STC) services? The order revised SPD-3 by removing the expectation that these services be provided “free of direct user fees,” […]\nThe post Free warnings, better catalogs: the real fix for space safety appeared first on SpaceNews."
+    },
+    {
+      "title": "Washington Harbour expands space investments with ground services acquisition",
+      "link": "https://spacenews.com/washington-harbour-expands-space-investments-with-ground-services-acquisition/",
+      "source": "SpaceNews",
+      "date": "2026-01-20T14:00:00Z",
+      "summary": "\nThe firm acquired Radome Services, which was rebranded as Outpost Mission Services to anchor a roll-up strategy in space ground services\nThe post Washington Harbour expands space investments with ground services acquisition appeared first on SpaceNews."
+    },
+    {
       "title": "Sodern to produce star trackers in Colorado",
       "link": "https://spacenews.com/sodern-to-produce-star-trackers-in-colorado/",
       "source": "SpaceNews",
@@ -20,21 +34,7 @@
       "source": "ESA",
       "date": "2026-01-20T11:33:00Z",
       "summary": "From the ESA Blogs."
-    },
-    {
-      "title": "Jaclyn Kagey Shapes Humanity’s Return to the Moon",
-      "link": "https://www.nasa.gov/centers-and-facilities/johnson/jaclyn-kagey-shapes-humanitys-return-to-the-moon/",
-      "source": "NASA",
-      "date": "2026-01-20T11:00:00Z",
-      "summary": "For Jaclyn Kagey, helping astronauts put boots on the Moon is part of her daily work.  As the Artemis III extravehicular activity lead in NASA’s Flight Operations Directorate, Kagey plays a central role in preparing astronauts for humanity’s return to the lunar surface.   She helps define how astronauts will work on the Moon, from planning detailed spacewalk […]"
-    },
-    {
-      "title": "ESA monitoring January 2026 space weather event",
-      "link": "https://www.esa.int/Space_Safety/Space_weather/ESA_monitoring_January_2026_space_weather_event",
-      "source": "ESA",
-      "date": "2026-01-20T09:37:00Z",
-      "summary": "The European Space Agency’s (ESA) Space Weather Office is closely monitoring a notable space weather event, first detected 18:09 UTC on Sunday, 18 January 2026. We are collecting detailed information from our expert service centres."
     }
   ],
-  "updated": "2026-01-20T14:00:09.957Z"
+  "updated": "2026-01-20T14:33:40.634Z"
 }
