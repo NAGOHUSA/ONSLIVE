@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA Unlocks Golden Age of Innovation, Exploration in Trump’s First Year",
+      "link": "https://www.nasa.gov/news-release/nasa-unlocks-golden-age-of-innovation-exploration-in-trumps-first-year/",
+      "source": "NASA",
+      "date": "2026-01-20T17:56:10Z",
+      "summary": "One year into President Donald J. Trump’s second term, NASA is delivering measurable progress across human spaceflight, science, aeronautics, and cutting-edge technology. These advances mark the beginning of a new Golden Age of American space leadership driven by clear national direction and historic investment through the Working Families Tax Cut Act. Since his inauguration as […]"
+    },
+    {
       "title": "Hubble Nets Menagerie of Young Stellar Objects",
       "link": "https://www.nasa.gov/image-article/hubble-nets-menagerie-of-young-stellar-objects/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "ESA",
       "date": "2026-01-20T15:00:00Z",
       "summary": "From the ESA Blogs."
-    },
-    {
-      "title": "Commercial Space Federation (CSF) Welcomes 3 New Associate Members",
-      "link": "https://spacenews.com/commercial-space-federation-csf-welcomes-3-new-associate-members/",
-      "source": "SpaceNews",
-      "date": "2026-01-20T15:00:00Z",
-      "summary": "\nJanuary 20, 2026 – Washington, D.C.—The Commercial Space Federation (CSF) is pleased to welcome Max Space, Slingshot Aerospace, and Muon Space. Together, these companies strengthen CSF’s advocacy efforts across space […]\nThe post Commercial Space Federation (CSF) Welcomes 3 New Associate Members appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-20T17:53:27.662Z"
+  "updated": "2026-01-20T18:17:18.734Z"
 }
