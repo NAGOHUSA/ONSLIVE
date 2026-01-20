@@ -1181,7 +1181,21 @@
       "end_time": "2026-01-20T06:36:00Z",
       "end_class": "C2.0",
       "satellite": 18
+    },
+    {
+      "time_tag": "2026-01-20T07:25:00Z",
+      "begin_time": "2026-01-20T07:25:00Z",
+      "begin_class": "C1.6",
+      "max_time": "2026-01-20T07:33:00Z",
+      "max_class": "C4.4",
+      "max_xrlong": 0.0000044869916564493906,
+      "max_ratio": 0.1293420842698644,
+      "max_ratio_time": "2026-01-20T07:32:31Z",
+      "current_int_xrlong": 0.002355623757466674,
+      "end_time": "2026-01-20T07:37:00Z",
+      "end_class": "C2.7",
+      "satellite": 18
     }
   ],
-  "lastUpdated": "2026-01-20T07:36:51.041Z"
+  "lastUpdated": "2026-01-20T07:52:08.757Z"
 }
