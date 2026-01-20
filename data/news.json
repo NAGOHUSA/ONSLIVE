@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NIH Supplements, Facts First Challenge",
+      "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/nih-supplements-facts-first-challenge/",
+      "source": "NASA",
+      "date": "2026-01-20T20:29:13Z",
+      "summary": "NASA’s Center of Excellence for Collaborative Innovation (CoECI) assists in the use of crowdsourcing across the federal government. CoECI’s NASA Tournament Lab offers the contract capability to run external crowdsourced challenges on behalf of NASA and other agencies. The Office of Dietary Supplements (ODS) at the National Institutes of Health (NIH) announces the “Supplements, Facts First: […]"
+    },
+    {
       "title": "NASA Chase Aircraft Ensures X-59’s Safety in Flight",
       "link": "https://www.nasa.gov/aeronautics/chase-aircraft-ensures-x-59-safety/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-01-20T17:56:10Z",
       "summary": "One year into President Donald J. Trump’s second term, NASA is delivering measurable progress across human spaceflight, science, aeronautics, and cutting-edge technology. These advances mark the beginning of a new Golden Age of American space leadership driven by clear national direction and historic investment through the Working Families Tax Cut Act. Since his inauguration as […]"
-    },
-    {
-      "title": "Hubble Nets Menagerie of Young Stellar Objects",
-      "link": "https://www.nasa.gov/image-article/hubble-nets-menagerie-of-young-stellar-objects/",
-      "source": "NASA",
-      "date": "2026-01-20T15:52:29Z",
-      "summary": "A disparate collection of young stellar objects bejewels a cosmic panorama in the star-forming region NGC 1333 in this new image from NASA’s Hubble Space Telescope. To the left, an actively forming star called a protostar casts its glow on the surrounding gas and dust, creating a reflection nebula. Two dark stripes on opposite sides of […]"
     }
   ],
-  "updated": "2026-01-20T20:19:52.109Z"
+  "updated": "2026-01-20T20:49:52.709Z"
 }
