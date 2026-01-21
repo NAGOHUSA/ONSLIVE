@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Hubble uncovers the secret of stars that defy ageing",
+      "link": "https://www.esa.int/Science_Exploration/Space_Science/Hubble_uncovers_the_secret_of_stars_that_defy_ageing",
+      "source": "ESA",
+      "date": "2026-01-21T10:00:00Z",
+      "summary": "Some stars appear to defy time itself. Nestled within ancient star clusters, they shine bluer and brighter than their neighbours, looking far younger than their true age. Known as blue straggler stars, these stellar oddities have puzzled astronomers for more than 70 years. Now, new results using the NASA/ESA Hubble Space Telescope are finally revealing how these 'forever young' stars come to be and why they thrive in quieter cosmic neighbourhoods."
+    },
+    {
       "title": "Artificial intelligence in manufacturing rocket parts",
       "link": "https://www.esa.int/Enabling_Support/Space_Transportation/Future_space_transportation/Artificial_intelligence_in_manufacturing_rocket_parts",
       "source": "ESA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-01-21T05:01:00Z",
       "summary": "Tens of thousands of people fled to safety as blazes spread throughout the country’s Biobío and Ñuble regions."
-    },
-    {
-      "title": "Webb has given us with a stunning new view of a well-known planetary nebula",
-      "link": "https://arstechnica.com/space/2026/01/webb-has-given-us-with-a-stunning-new-view-of-a-well-known-planetary-nebula/",
-      "source": "Arstechnica",
-      "date": "2026-01-20T23:33:57Z",
-      "summary": "The colors show the star’s final breath transforming into the raw ingredients for new worlds."
     }
   ],
-  "updated": "2026-01-21T09:57:00.315Z"
+  "updated": "2026-01-21T10:21:34.938Z"
 }
