@@ -1,18 +1,18 @@
 {
   "articles": [
     {
+      "title": "NASA Webb Finds Young Sun-Like Star Forging, Spewing Common Crystals",
+      "link": "https://science.nasa.gov/missions/webb/nasa-webb-finds-young-sun-like-star-forging-spewing-common-crystals/",
+      "source": "NASA",
+      "date": "2026-01-21T16:00:00Z",
+      "summary": "Astronomers have long sought evidence to explain why comets at the outskirts of our own solar system contain crystalline silicates, since crystals require intense heat to form and these “dirty snowballs” spend most of their time in the ultracold Kuiper Belt and Oort Cloud. Now, looking outside our solar system, NASA’s James Webb Space Telescope […]"
+    },
+    {
       "title": "Orbex’s Subsidiary in Denmark to File for Bankruptcy",
       "link": "https://europeanspaceflight.com/orbexs-subsidiary-in-denmark-to-file-for-bankruptcy/",
       "source": "European Spaceflight",
       "date": "2026-01-21T15:13:09Z",
       "summary": "Orbex’s Danish subsidiary, Orbital Express Launch ApS, is set to file for bankruptcy, with its facilities officially closing on 20 January and approximately 90 employees losing their jobs. UK-based Orbital Express Launch (Orbex) established its business in Denmark in October 2016. According to the company, its Copenhagen-based business carried out work in propulsion, testing, software, […]\nThe post Orbex’s Subsidiary in Denmark to File for Bankruptcy appeared first on European Spaceflight."
-    },
-    {
-      "title": "Starfish Space wins SDA contract to deorbit satellites",
-      "link": "https://spacenews.com/starfish-space-wins-sda-contract-to-deorbit-satellites/",
-      "source": "SpaceNews",
-      "date": "2026-01-21T14:00:00Z",
-      "summary": "\nStarfish Space has won a contract from the Space Development Agency to deorbit satellites in a missile-tracking and communications constellation, evidence that deorbiting services are moving into the mainstream.\nThe post Starfish Space wins SDA contract to deorbit satellites appeared first on SpaceNews."
     },
     {
       "title": "Accelerating digital transformation is the keystone to deterring space war",
@@ -22,19 +22,19 @@
       "summary": "\nThe United States cannot beat China without accelerating digital transformation: cloud-native services, edge computing, AI/ML-driven autonomy, software-defined payloads, zero-trust cybersecurity, network maneuver and automated DevSecOps pipelines. Digital transformation drives the pace at which militaries convert data into decisions, and decision dominance enables proactive deterrence.  Choices made today about software, data, resilience and partnerships will therefore […]\nThe post Accelerating digital transformation is the keystone to deterring space war appeared first on SpaceNews."
     },
     {
+      "title": "Starfish Space wins SDA contract to deorbit satellites",
+      "link": "https://spacenews.com/starfish-space-wins-sda-contract-to-deorbit-satellites/",
+      "source": "SpaceNews",
+      "date": "2026-01-21T14:00:00Z",
+      "summary": "\nStarfish Space has won a contract from the Space Development Agency to deorbit satellites in a missile-tracking and communications constellation, evidence that deorbiting services are moving into the mainstream.\nThe post Starfish Space wins SDA contract to deorbit satellites appeared first on SpaceNews."
+    },
+    {
       "title": "The Exploration Company in Talks to Buy UK Rocket Builder Orbex",
       "link": "https://europeanspaceflight.com/the-exploration-company-in-talks-to-buy-uk-rocket-builder-orbex/",
       "source": "European Spaceflight",
       "date": "2026-01-21T13:29:42Z",
       "summary": "UK-based rocket builder Orbex has signed a letter of intent to sell its business to European space logistics startup The Exploration Company. Orbex was founded in 2015 and is developing a small launch vehicle called Prime. The company also began work on a larger, medium-lift launch vehicle called Proxima in December 2024. On 21 January, […]\nThe post The Exploration Company in Talks to Buy UK Rocket Builder Orbex appeared first on European Spaceflight."
-    },
-    {
-      "title": "ExLabs and ChibaTech team up to land student CubeLanders on asteroid Apophis",
-      "link": "https://www.spacedaily.com/reports/ExLabs_and_ChibaTech_team_up_to_land_student_CubeLanders_on_asteroid_Apophis_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-21T13:11:03Z",
-      "summary": "Sydney, Australia (SPX) Jan 21, 2026\n\n\nExLabs has partnered with Japan's Chiba Institute of Technology and its Planetary Exploration Research Center to deliver university-led payloads to the surface of asteroid Apophis during its close approach to Earth in 2029. The ApophisExL mission is described as the world's first commercial deep-space rideshare and is supported through mission design and operations collaboration with NASA's Jet"
     }
   ],
-  "updated": "2026-01-21T16:00:57.030Z"
+  "updated": "2026-01-21T16:59:10.832Z"
 }
