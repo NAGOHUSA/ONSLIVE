@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA’s Artemis II Rocket and Spacecraft Make Their Way to Launch Pad",
+      "link": "https://www.nasa.gov/image-article/nasas-artemis-ii-rocket-and-spacecraft-make-their-way-to-launch-pad/",
+      "source": "NASA",
+      "date": "2026-01-21T17:38:45Z",
+      "summary": "This Jan. 17, 2026, image shows NASA’s SLS (Space Launch System) and Orion spacecraft rolling out of the Vehicle Assembly Building at NASA’s Kennedy Space Center in Florida. NASA’s massive Crawler-Transporter, upgraded for the Artemis program, carries the powerful SLS rocket and Orion spacecraft to Launch Pad 39B in preparation for the Artemis II mission. […]"
+    },
+    {
       "title": "NASA Webb Finds Young Sun-Like Star Forging, Spewing Common Crystals",
       "link": "https://science.nasa.gov/missions/webb/nasa-webb-finds-young-sun-like-star-forging-spewing-common-crystals/",
       "source": "NASA",
@@ -15,13 +22,6 @@
       "summary": "Orbex’s Danish subsidiary, Orbital Express Launch ApS, is set to file for bankruptcy, with its facilities officially closing on 20 January and approximately 90 employees losing their jobs. UK-based Orbital Express Launch (Orbex) established its business in Denmark in October 2016. According to the company, its Copenhagen-based business carried out work in propulsion, testing, software, […]\nThe post Orbex’s Subsidiary in Denmark to File for Bankruptcy appeared first on European Spaceflight."
     },
     {
-      "title": "Accelerating digital transformation is the keystone to deterring space war",
-      "link": "https://spacenews.com/accelerating-digital-transformation-is-the-keystone-to-deterring-space-war/",
-      "source": "SpaceNews",
-      "date": "2026-01-21T14:00:00Z",
-      "summary": "\nThe United States cannot beat China without accelerating digital transformation: cloud-native services, edge computing, AI/ML-driven autonomy, software-defined payloads, zero-trust cybersecurity, network maneuver and automated DevSecOps pipelines. Digital transformation drives the pace at which militaries convert data into decisions, and decision dominance enables proactive deterrence.  Choices made today about software, data, resilience and partnerships will therefore […]\nThe post Accelerating digital transformation is the keystone to deterring space war appeared first on SpaceNews."
-    },
-    {
       "title": "Starfish Space wins SDA contract to deorbit satellites",
       "link": "https://spacenews.com/starfish-space-wins-sda-contract-to-deorbit-satellites/",
       "source": "SpaceNews",
@@ -29,12 +29,12 @@
       "summary": "\nStarfish Space has won a contract from the Space Development Agency to deorbit satellites in a missile-tracking and communications constellation, evidence that deorbiting services are moving into the mainstream.\nThe post Starfish Space wins SDA contract to deorbit satellites appeared first on SpaceNews."
     },
     {
-      "title": "The Exploration Company in Talks to Buy UK Rocket Builder Orbex",
-      "link": "https://europeanspaceflight.com/the-exploration-company-in-talks-to-buy-uk-rocket-builder-orbex/",
-      "source": "European Spaceflight",
-      "date": "2026-01-21T13:29:42Z",
-      "summary": "UK-based rocket builder Orbex has signed a letter of intent to sell its business to European space logistics startup The Exploration Company. Orbex was founded in 2015 and is developing a small launch vehicle called Prime. The company also began work on a larger, medium-lift launch vehicle called Proxima in December 2024. On 21 January, […]\nThe post The Exploration Company in Talks to Buy UK Rocket Builder Orbex appeared first on European Spaceflight."
+      "title": "Accelerating digital transformation is the keystone to deterring space war",
+      "link": "https://spacenews.com/accelerating-digital-transformation-is-the-keystone-to-deterring-space-war/",
+      "source": "SpaceNews",
+      "date": "2026-01-21T14:00:00Z",
+      "summary": "\nThe United States cannot beat China without accelerating digital transformation: cloud-native services, edge computing, AI/ML-driven autonomy, software-defined payloads, zero-trust cybersecurity, network maneuver and automated DevSecOps pipelines. Digital transformation drives the pace at which militaries convert data into decisions, and decision dominance enables proactive deterrence.  Choices made today about software, data, resilience and partnerships will therefore […]\nThe post Accelerating digital transformation is the keystone to deterring space war appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-21T16:59:10.832Z"
+  "updated": "2026-01-21T17:52:54.329Z"
 }
