@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Magnetic avalanches power solar flares, finds Solar Orbiter",
+      "link": "https://www.esa.int/Science_Exploration/Space_Science/Solar_Orbiter/Magnetic_avalanches_power_solar_flares_finds_Solar_Orbiter",
+      "source": "ESA",
+      "date": "2026-01-21T08:00:00Z",
+      "summary": "Just as avalanches on snowy mountains start with the movement of a small quantity of snow, the ESA-led Solar Orbiter spacecraft has discovered that a solar flare is triggered by initially weak disturbances that quickly become more violent. This rapidly evolving process creates a ‘sky’ of raining plasma blobs that continue to fall even after the flare subsides."
+    },
+    {
+      "title": "Legs made for a Mars landing",
+      "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Legs_made_for_a_Mars_landing",
+      "source": "ESA",
+      "date": "2026-01-21T07:50:00Z",
+      "summary": "To land on the right foot on the Red Planet, European engineers have been dropping a skeleton of the four-legged ExoMars descent module at various speeds and heights on simulated martian surfaces."
+    },
+    {
       "title": "Fires Erupt in South-Central Chile",
       "link": "https://science.nasa.gov/earth/earth-observatory/fires-erupt-in-south-central-chile/",
       "source": "NASA",
@@ -20,21 +34,7 @@
       "source": "NASA",
       "date": "2026-01-20T23:17:06Z",
       "summary": "NASA will observe its annual Day of Remembrance on Thursday, Jan. 22, which includes commemorating the crews of Apollo 1 and the space shuttles Challenger and Columbia. The event is traditionally held every year on the fourth Thursday of January, as all three astronaut accidents happened around the end of the month. “On NASA’s Day […]"
-    },
-    {
-      "title": "Defense appropriations bill for 2026 funds Space Force at $26 billion, presses Pentagon on Golden Dome",
-      "link": "https://spacenews.com/defense-appropriations-bill-for-2026-funds-space-force-at-26-billion-presses-pentagon-on-golden-dome/",
-      "source": "SpaceNews",
-      "date": "2026-01-20T22:05:28Z",
-      "summary": "\n‘Minibus’ shifts money to GPS, backs commercial services and cuts proposed MILNET constellation\nThe post Defense appropriations bill for 2026 funds Space Force at $26 billion, presses Pentagon on Golden Dome appeared first on SpaceNews."
-    },
-    {
-      "title": "NASA Astronaut Suni Williams Retires",
-      "link": "https://www.nasa.gov/news-release/nasa-astronaut-suni-williams-retires/",
-      "source": "NASA",
-      "date": "2026-01-20T21:57:32Z",
-      "summary": "After 27 years of service, NASA astronaut Suni Williams retired from the agency, effective Dec. 27, 2025. Williams completed three missions aboard the International Space Station, setting numerous human spaceflight records throughout her career. “Suni Williams has been a trailblazer in human spaceflight, shaping the future of exploration through her leadership aboard the space station […]"
     }
   ],
-  "updated": "2026-01-21T08:00:23.043Z"
+  "updated": "2026-01-21T08:36:13.725Z"
 }
