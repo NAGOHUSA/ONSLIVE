@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "SWISSto12 Secures €73 Million in New ESA Funding for HummingSat Project",
+      "link": "https://europeanspaceflight.com/swissto12-secures-e73-million-in-new-esa-funding-for-hummingsat-project/",
+      "source": "European Spaceflight",
+      "date": "2026-01-21T10:45:36Z",
+      "summary": "SWISSto12 has announced that during the 2025 ESA Ministerial Council meeting, Member States committed €73 million in additional funding for the Renens-based satellite manufacturer’s HummingSat project. In early 2022, ESA and SWISSto12 signed a contract to begin work on the HummingSat Partnership Project with the aim of developing a micro-geostationary satellite. Part of the agency’s […]\nThe post SWISSto12 Secures €73 Million in New ESA Funding for HummingSat Project appeared first on European Spaceflight."
+    },
+    {
       "title": "Hubble uncovers the secret of stars that defy ageing",
       "link": "https://www.esa.int/Science_Exploration/Space_Science/Hubble_uncovers_the_secret_of_stars_that_defy_ageing",
       "source": "ESA",
@@ -27,14 +34,7 @@
       "source": "ESA",
       "date": "2026-01-21T07:50:00Z",
       "summary": "To land on the right foot on the Red Planet, European engineers have been dropping a skeleton of the four-legged ExoMars descent module at various speeds and heights on simulated martian surfaces."
-    },
-    {
-      "title": "Fires Erupt in South-Central Chile",
-      "link": "https://science.nasa.gov/earth/earth-observatory/fires-erupt-in-south-central-chile/",
-      "source": "NASA",
-      "date": "2026-01-21T05:01:00Z",
-      "summary": "Tens of thousands of people fled to safety as blazes spread throughout the country’s Biobío and Ñuble regions."
     }
   ],
-  "updated": "2026-01-21T10:21:34.938Z"
+  "updated": "2026-01-21T10:51:06.131Z"
 }
