@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA’s Artemis II Mission to Fly Legacy Keepsakes with Astronaut Crew",
+      "link": "https://www.nasa.gov/missions/artemis/artemis-2/nasas-artemis-ii-mission-to-fly-legacy-keepsakes-with-astronaut-crew/",
+      "source": "NASA",
+      "date": "2026-01-21T22:48:06Z",
+      "summary": "As America approaches its 250th anniversary of declaring independence, NASA’s Artemis II mission will carry a host of mementos that reflect the nation’s long tradition of exploration, innovation, and leadership in its official flight kit. The items will fly aboard the Orion spacecraft, launched on top of the Space Launch System (SLS) rocket, as it […]"
+    },
+    {
       "title": "French startup Latitude targets 2026 for first launch while following market-driven approach",
       "link": "https://www.nasaspaceflight.com/2026/01/latitude-efis-interview/",
       "source": "NASASpaceflight",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-01-21T19:29:22Z",
       "summary": "In fall 2025, more than 50 educators and over 1,500 young people across Maine and New Hampshire participated in NASA’s Global Learning and Observation to Benefit the Environment (GLOBE) Green Down, a citizen science (also known as participatory science or community science) initiative that engages students and volunteers in tracking seasonal changes in plant life. By observing and documenting leaf color change and leaf drop, participants contributed valuable data used by scientists studying how ecosystems respond to a changing climate."
-    },
-    {
-      "title": "NASA’s Universe of Learning Unveils Fresh Facilitator Guides Inspired by Community Feedback",
-      "link": "https://science.nasa.gov/learning-resources/science-activation/nasas-universe-of-learning-unveils-fresh-facilitator-guides-inspired-by-community-feedback/",
-      "source": "NASA",
-      "date": "2026-01-21T19:01:10Z",
-      "summary": "The goal of NASA’s Universe of Learning (UoL) is to connect the public to the data, discoveries, and experts that span NASA’s Astrophysics missions. To make this possible, the NASA’s UoL team creates engaging STEM experiences that let people explore data and discoveries from NASA’s Astrophysics missions and learn from the experts behind them."
     }
   ],
-  "updated": "2026-01-21T22:47:59.029Z"
+  "updated": "2026-01-21T23:01:20.267Z"
 }
