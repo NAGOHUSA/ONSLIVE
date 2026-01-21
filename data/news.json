@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA’s Universe of Learning Unveils Fresh Facilitator Guides Inspired by Community Feedback",
+      "link": "https://science.nasa.gov/learning-resources/science-activation/nasas-universe-of-learning-unveils-fresh-facilitator-guides-inspired-by-community-feedback/",
+      "source": "NASA",
+      "date": "2026-01-21T19:01:10Z",
+      "summary": "The goal of NASA’s Universe of Learning (UoL) is to connect the public to the data, discoveries, and experts that span NASA’s Astrophysics missions. To make this possible, the NASA’s UoL team creates engaging STEM experiences that let people explore data and discoveries from NASA’s Astrophysics missions and learn from the experts behind them."
+    },
+    {
       "title": "Blue Origin: We want to have a megaconstellation, too",
       "link": "https://arstechnica.com/space/2026/01/blue-origin-we-want-to-have-a-megaconstellation-too/",
       "source": "Arstechnica",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-01-21T17:38:45Z",
       "summary": "This Jan. 17, 2026, image shows NASA’s SLS (Space Launch System) and Orion spacecraft rolling out of the Vehicle Assembly Building at NASA’s Kennedy Space Center in Florida. NASA’s massive Crawler-Transporter, upgraded for the Artemis program, carries the powerful SLS rocket and Orion spacecraft to Launch Pad 39B in preparation for the Artemis II mission. […]"
-    },
-    {
-      "title": "NASA Webb Finds Young Sun-Like Star Forging, Spewing Common Crystals",
-      "link": "https://science.nasa.gov/missions/webb/nasa-webb-finds-young-sun-like-star-forging-spewing-common-crystals/",
-      "source": "NASA",
-      "date": "2026-01-21T16:00:00Z",
-      "summary": "Astronomers have long sought evidence to explain why comets at the outskirts of our own solar system contain crystalline silicates, since crystals require intense heat to form and these “dirty snowballs” spend most of their time in the ultracold Kuiper Belt and Oort Cloud. Now, looking outside our solar system, NASA’s James Webb Space Telescope […]"
     }
   ],
-  "updated": "2026-01-21T19:03:40.844Z"
+  "updated": "2026-01-21T19:35:45.446Z"
 }
