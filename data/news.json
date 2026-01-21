@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA Invites Media to Crew-10 Visit at Marshall",
+      "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-crew-10-visit-at-marshall/",
+      "source": "NASA",
+      "date": "2026-01-21T19:47:00Z",
+      "summary": "NASA will host two astronauts at 10 a.m. CST Friday, Jan. 23, for a media opportunity at the agency’s Marshall Space Flight Center in Huntsville, Alabama. NASA astronaut Nichole Ayers and JAXA (Japan Aerospace Exploration Agency) astronaut Takuya Onishi, who served as part of NASA’s SpaceX Crew-10 mission, will  discuss their recent mission to the International […]"
+    },
+    {
       "title": "NASA’s Universe of Learning Unveils Fresh Facilitator Guides Inspired by Community Feedback",
       "link": "https://science.nasa.gov/learning-resources/science-activation/nasas-universe-of-learning-unveils-fresh-facilitator-guides-inspired-by-community-feedback/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-21T18:02:54Z",
       "summary": "\nThe Exploration Company is in talks to acquire Orbex, the U.K.-based small launch vehicle developer that has reportedly been in financial distress.\nThe post The Exploration Company in talks to acquire Orbex appeared first on SpaceNews."
-    },
-    {
-      "title": "NASA’s Artemis II Rocket and Spacecraft Make Their Way to Launch Pad",
-      "link": "https://www.nasa.gov/image-article/nasas-artemis-ii-rocket-and-spacecraft-make-their-way-to-launch-pad/",
-      "source": "NASA",
-      "date": "2026-01-21T17:38:45Z",
-      "summary": "This Jan. 17, 2026, image shows NASA’s SLS (Space Launch System) and Orion spacecraft rolling out of the Vehicle Assembly Building at NASA’s Kennedy Space Center in Florida. NASA’s massive Crawler-Transporter, upgraded for the Artemis program, carries the powerful SLS rocket and Orion spacecraft to Launch Pad 39B in preparation for the Artemis II mission. […]"
     }
   ],
-  "updated": "2026-01-21T19:35:45.446Z"
+  "updated": "2026-01-21T19:56:32.137Z"
 }
