@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "The Exploration Company in talks to acquire Orbex",
+      "link": "https://spacenews.com/the-exploration-company-in-talks-to-acquire-orbex/",
+      "source": "SpaceNews",
+      "date": "2026-01-21T18:02:54Z",
+      "summary": "\nThe Exploration Company is in talks to acquire Orbex, the U.K.-based small launch vehicle developer that has reportedly been in financial distress.\nThe post The Exploration Company in talks to acquire Orbex appeared first on SpaceNews."
+    },
+    {
       "title": "NASA’s Artemis II Rocket and Spacecraft Make Their Way to Launch Pad",
       "link": "https://www.nasa.gov/image-article/nasas-artemis-ii-rocket-and-spacecraft-make-their-way-to-launch-pad/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-21T14:00:00Z",
       "summary": "\nStarfish Space has won a contract from the Space Development Agency to deorbit satellites in a missile-tracking and communications constellation, evidence that deorbiting services are moving into the mainstream.\nThe post Starfish Space wins SDA contract to deorbit satellites appeared first on SpaceNews."
-    },
-    {
-      "title": "Accelerating digital transformation is the keystone to deterring space war",
-      "link": "https://spacenews.com/accelerating-digital-transformation-is-the-keystone-to-deterring-space-war/",
-      "source": "SpaceNews",
-      "date": "2026-01-21T14:00:00Z",
-      "summary": "\nThe United States cannot beat China without accelerating digital transformation: cloud-native services, edge computing, AI/ML-driven autonomy, software-defined payloads, zero-trust cybersecurity, network maneuver and automated DevSecOps pipelines. Digital transformation drives the pace at which militaries convert data into decisions, and decision dominance enables proactive deterrence.  Choices made today about software, data, resilience and partnerships will therefore […]\nThe post Accelerating digital transformation is the keystone to deterring space war appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-21T17:52:54.329Z"
+  "updated": "2026-01-21T18:26:07.432Z"
 }
