@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Fires Erupt in South-Central Chile",
+      "link": "https://science.nasa.gov/earth/earth-observatory/fires-erupt-in-south-central-chile/",
+      "source": "NASA",
+      "date": "2026-01-21T05:01:00Z",
+      "summary": "Tens of thousands of people fled to safety as blazes spread throughout the country’s Biobío and Ñuble regions."
+    },
+    {
       "title": "Webb has given us with a stunning new view of a well-known planetary nebula",
       "link": "https://arstechnica.com/space/2026/01/webb-has-given-us-with-a-stunning-new-view-of-a-well-known-planetary-nebula/",
       "source": "Arstechnica",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-01-20T21:57:32Z",
       "summary": "After 27 years of service, NASA astronaut Suni Williams retired from the agency, effective Dec. 27, 2025. Williams completed three missions aboard the International Space Station, setting numerous human spaceflight records throughout her career. “Suni Williams has been a trailblazer in human spaceflight, shaping the future of exploration through her leadership aboard the space station […]"
-    },
-    {
-      "title": "New NASA Artemis Payloads To Study Moon’s Terrain, Radiation, History",
-      "link": "https://www.nasa.gov/news-release/new-nasa-artemis-payloads-to-study-moons-terrain-radiation-history/",
-      "source": "NASA",
-      "date": "2026-01-20T21:21:59Z",
-      "summary": "NASA announced Tuesday the selection of three new science investigations that will strengthen humanity’s understanding and exploration of the Moon. As part of the agency’s CLPS (Commercial Lunar Payload Services) initiative and Artemis campaign, American companies will deliver these research payloads to the lunar surface no earlier than 2028. “With CLPS, NASA has been taking […]"
     }
   ],
-  "updated": "2026-01-21T04:53:48.714Z"
+  "updated": "2026-01-21T05:18:37.821Z"
 }
