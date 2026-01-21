@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "French startup Latitude targets 2026 for first launch while following market-driven approach",
+      "link": "https://www.nasaspaceflight.com/2026/01/latitude-efis-interview/",
+      "source": "NASASpaceflight",
+      "date": "2026-01-21T22:10:15Z",
+      "summary": "French small-launch startup Latitude is pushing toward a maiden flight of its Zephyr rocket within…\nThe post French startup Latitude targets 2026 for first launch while following market-driven approach appeared first on NASASpaceFlight.com."
+    },
+    {
       "title": "Blue Origin plans bespoke high-speed Starlink rival",
       "link": "https://spacenews.com/blue-origin-plans-bespoke-high-speed-starlink-rival/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-01-21T19:01:10Z",
       "summary": "The goal of NASA’s Universe of Learning (UoL) is to connect the public to the data, discoveries, and experts that span NASA’s Astrophysics missions. To make this possible, the NASA’s UoL team creates engaging STEM experiences that let people explore data and discoveries from NASA’s Astrophysics missions and learn from the experts behind them."
-    },
-    {
-      "title": "Blue Origin: We want to have a megaconstellation, too",
-      "link": "https://arstechnica.com/space/2026/01/blue-origin-we-want-to-have-a-megaconstellation-too/",
-      "source": "Arstechnica",
-      "date": "2026-01-21T18:40:21Z",
-      "summary": "With data speeds of up to 6Tbps, one could stream a lot of HD movies."
     }
   ],
-  "updated": "2026-01-21T21:58:13.229Z"
+  "updated": "2026-01-21T22:20:57.410Z"
 }
