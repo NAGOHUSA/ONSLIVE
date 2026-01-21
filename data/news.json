@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Blue Origin plans bespoke high-speed Starlink rival",
+      "link": "https://spacenews.com/blue-origin-plans-bespoke-high-speed-starlink-rival/",
+      "source": "SpaceNews",
+      "date": "2026-01-21T21:48:46Z",
+      "summary": "\nBlue Origin aims to start deploying more than 5,400 satellites from late next year for its own Starlink broadband competitor, targeting up to 6 Tbps capacity for enterprise, data center and government customers.\nThe post Blue Origin plans bespoke high-speed Starlink rival appeared first on SpaceNews."
+    },
+    {
       "title": "NASA Invites Media to Crew-10 Visit at Marshall",
       "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-crew-10-visit-at-marshall/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "Arstechnica",
       "date": "2026-01-21T18:40:21Z",
       "summary": "With data speeds of up to 6Tbps, one could stream a lot of HD movies."
-    },
-    {
-      "title": "NASA Tests Technology Offering Potential Fuel Savings for Commercial Aviation",
-      "link": "https://www.nasa.gov/centers-and-facilities/armstrong/nasa-tests-technology-offering-potential-fuel-savings-for-commercial-aviation/",
-      "source": "NASA",
-      "date": "2026-01-21T18:32:01Z",
-      "summary": "NASA researchers have successfully completed a high-speed taxi test of a scale model of a design that could make future aircraft more efficient by improving how air flows across a wing’s surface, saving fuel and money. On Tuesday, Jan. 12, 2026, the Crossflow Attenuated Natural Laminar Flow (CATNLF) test article reached speeds of approximately 144 […]"
     }
   ],
-  "updated": "2026-01-21T21:44:22.804Z"
+  "updated": "2026-01-21T21:58:13.229Z"
 }
