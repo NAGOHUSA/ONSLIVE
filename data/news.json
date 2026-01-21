@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Blue Origin: We want to have a megaconstellation, too",
+      "link": "https://arstechnica.com/space/2026/01/blue-origin-we-want-to-have-a-megaconstellation-too/",
+      "source": "Arstechnica",
+      "date": "2026-01-21T18:40:21Z",
+      "summary": "With data speeds of up to 6Tbps, one could stream a lot of HD movies."
+    },
+    {
+      "title": "NASA Tests Technology Offering Potential Fuel Savings for Commercial Aviation",
+      "link": "https://www.nasa.gov/centers-and-facilities/armstrong/nasa-tests-technology-offering-potential-fuel-savings-for-commercial-aviation/",
+      "source": "NASA",
+      "date": "2026-01-21T18:32:01Z",
+      "summary": "NASA researchers have successfully completed a high-speed taxi test of a scale model of a design that could make future aircraft more efficient by improving how air flows across a wing’s surface, saving fuel and money. On Tuesday, Jan. 12, 2026, the Crossflow Attenuated Natural Laminar Flow (CATNLF) test article reached speeds of approximately 144 […]"
+    },
+    {
       "title": "The Exploration Company in talks to acquire Orbex",
       "link": "https://spacenews.com/the-exploration-company-in-talks-to-acquire-orbex/",
       "source": "SpaceNews",
@@ -20,21 +34,7 @@
       "source": "NASA",
       "date": "2026-01-21T16:00:00Z",
       "summary": "Astronomers have long sought evidence to explain why comets at the outskirts of our own solar system contain crystalline silicates, since crystals require intense heat to form and these “dirty snowballs” spend most of their time in the ultracold Kuiper Belt and Oort Cloud. Now, looking outside our solar system, NASA’s James Webb Space Telescope […]"
-    },
-    {
-      "title": "Orbex’s Subsidiary in Denmark to File for Bankruptcy",
-      "link": "https://europeanspaceflight.com/orbexs-subsidiary-in-denmark-to-file-for-bankruptcy/",
-      "source": "European Spaceflight",
-      "date": "2026-01-21T15:13:09Z",
-      "summary": "Orbex’s Danish subsidiary, Orbital Express Launch ApS, is set to file for bankruptcy, with its facilities officially closing on 20 January and approximately 90 employees losing their jobs. UK-based Orbital Express Launch (Orbex) established its business in Denmark in October 2016. According to the company, its Copenhagen-based business carried out work in propulsion, testing, software, […]\nThe post Orbex’s Subsidiary in Denmark to File for Bankruptcy appeared first on European Spaceflight."
-    },
-    {
-      "title": "Starfish Space wins SDA contract to deorbit satellites",
-      "link": "https://spacenews.com/starfish-space-wins-sda-contract-to-deorbit-satellites/",
-      "source": "SpaceNews",
-      "date": "2026-01-21T14:00:00Z",
-      "summary": "\nStarfish Space has won a contract from the Space Development Agency to deorbit satellites in a missile-tracking and communications constellation, evidence that deorbiting services are moving into the mainstream.\nThe post Starfish Space wins SDA contract to deorbit satellites appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-21T18:26:07.432Z"
+  "updated": "2026-01-21T19:03:40.844Z"
 }
