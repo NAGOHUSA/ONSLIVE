@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "D-Orbit raises $128 million in first tranche of Series D funding",
+      "link": "https://spacenews.com/d-orbit-raises-124-million-in-first-tranche-of-series-d-funding/",
+      "source": "SpaceNews",
+      "date": "2026-01-22T10:00:00Z",
+      "summary": "\nSAN FRANCISCO – Italian space logistics specialist D-Orbit has raised $124 million in the first closing of a Series D investment round announced Jan. 22. “This funding will enable strategic acquisitions, accelerate the build-out of D-Orbit’s orbital logistics infrastructure, expand in-orbit transportation services, scale industrial capacity for ION missions and advance new operational capabilities required […]\nThe post D-Orbit raises $128 million in first tranche of Series D funding appeared first on SpaceNews."
+    },
+    {
       "title": "A celebrity cluster in the spotlight",
       "link": "https://www.esa.int/ESA_Multimedia/Images/2026/01/A_celebrity_cluster_in_the_spotlight",
       "source": "ESA",
@@ -27,14 +34,7 @@
       "source": "SpaceDaily",
       "date": "2026-01-22T02:29:35Z",
       "summary": "Los Angeles CA (SPX) Jan 19, 2026\n\n\nAST SpaceMobile has been selected for a prime contract position on the U.S. Missile Defense Agency Scalable Homeland Innovative Enterprise Layered Defense, or SHIELD, program, placing its space-based cellular broadband architecture inside a key U.S. missile defense modernization effort. The indefinite-delivery, indefinite-quantity framework is designed to rapidly deliver new capabilities across"
-    },
-    {
-      "title": "Slingshot to embed AI agent in US Space Force space warfare training",
-      "link": "https://www.spacewar.com/reports/Slingshot_to_embed_AI_agent_in_US_Space_Force_space_warfare_training_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-22T02:29:35Z",
-      "summary": "Los Angeles CA (SPX) Jan 19, 2026\n\n\nSlingshot Aerospace has secured a 27 million dollar contract to modernize how the US Space Force trains for conflict in orbit by embedding its TALOS AI agent into the service's Operational Test and Training Infrastructure program. The 18 month effort will integrate AI native technology into existing training capabilities so that exercises more accurately reflect the rapidly evolving orbital thre"
     }
   ],
-  "updated": "2026-01-22T09:48:46.031Z"
+  "updated": "2026-01-22T10:01:09.860Z"
 }
