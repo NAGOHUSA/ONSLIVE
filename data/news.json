@@ -1,11 +1,25 @@
 {
   "articles": [
     {
+      "title": "Damaged Shenzhou-20 spacecraft survives reentry, Shenzhou-23 arrives at spaceport",
+      "link": "https://spacenews.com/damaged-shenzhou-20-spacecraft-survives-reentry-shenzhou-23-arrives-at-spaceport/",
+      "source": "SpaceNews",
+      "date": "2026-01-22T22:53:16Z",
+      "summary": "\nChina’s damaged Shenzhou-20 spacecraft returned safely to Earth after on-orbit internal repairs, concluding the country’s first human spaceflight emergency triggered by a suspected debris impact.\nThe post Damaged Shenzhou-20 spacecraft survives reentry, Shenzhou-23 arrives at spaceport appeared first on SpaceNews."
+    },
+    {
       "title": "NASA’s Day of Remembrance 2026",
       "link": "https://www.nasa.gov/image-article/nasas-day-of-remembrance-2026/",
       "source": "NASA",
       "date": "2026-01-22T22:38:57Z",
       "summary": "The Space Shuttle Challenger Memorial is seen during a wreath laying ceremony that was part of NASA’s Day of Remembrance, Thursday, Jan. 22, 2026, at Arlington National Cemetery in Arlington, Va. Wreaths were laid in memory of those men and women who lost their lives in the quest for space exploration. Each January, NASA pauses […]"
+    },
+    {
+      "title": "Approval to Exceed GSA Lodging for LPSC 2026",
+      "link": "https://science.nasa.gov/science-research/for-researchers/approval-to-exceed-gsa-lodging-for-lpsc-2026/",
+      "source": "NASA",
+      "date": "2026-01-22T22:37:33Z",
+      "summary": "This letter from SARA is to issue a waiver for NASA grantees attending LPSC2026, allowing them to be reimbursed out of their grants for their actual lodging, although it’s expected to be above the approved GSA amount. This waiver does not supersede the travel policy of your institution if it is more restrictive. Note: I have […]"
     },
     {
       "title": "Open Cosmos advances broadband plans with spectrum once held by Rivada",
@@ -20,21 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-22T20:39:30Z",
       "summary": "\nBlue Origin launched its first New Shepard mission of the year Jan. 22, carrying five paying customers and one company employee after a last-minute change.\nThe post Blue Origin flies first New Shepard mission of 2026 appeared first on SpaceNews."
-    },
-    {
-      "title": "As satellites become targets, Space Force plans for growth and a broader role",
-      "link": "https://spacenews.com/as-satellites-become-targets-space-force-plans-for-growth-and-a-broader-role/",
-      "source": "SpaceNews",
-      "date": "2026-01-22T20:19:56Z",
-      "summary": "\nGen. Shawn Bratton, vice chief of space operations of the U.S. Space Force, says growing reliance on satellites is forcing faster integration with the joint force and long-term planning beyond Earth orbit\nThe post As satellites become targets, Space Force plans for growth and a broader role appeared first on SpaceNews."
-    },
-    {
-      "title": "Rocket Lab launches first satellites for Open Cosmos constellation",
-      "link": "https://spacenews.com/rocket-lab-launches-first-satellites-for-open-cosmos-constellation/",
-      "source": "SpaceNews",
-      "date": "2026-01-22T18:53:58Z",
-      "summary": "\nA Rocket Lab Electron launched the first satellites for a new constellation being developed by Open Cosmos that will use spectrum previously assigned to Rivada Space Networks.\nThe post Rocket Lab launches first satellites for Open Cosmos constellation appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-22T23:00:14.453Z"
+  "updated": "2026-01-22T23:24:04.546Z"
 }
