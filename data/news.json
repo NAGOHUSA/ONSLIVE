@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Blue Origin flies first New Shepard mission of 2026",
+      "link": "https://spacenews.com/blue-origin-flies-first-new-shepard-mission-of-2026/",
+      "source": "SpaceNews",
+      "date": "2026-01-22T20:39:30Z",
+      "summary": "\nBlue Origin launched its first New Shepard mission of the year Jan. 22, carrying five paying customers and one company employee after a last-minute change.\nThe post Blue Origin flies first New Shepard mission of 2026 appeared first on SpaceNews."
+    },
+    {
+      "title": "As satellites become targets, Space Force plans for growth and a broader role",
+      "link": "https://spacenews.com/as-satellites-become-targets-space-force-plans-for-growth-and-a-broader-role/",
+      "source": "SpaceNews",
+      "date": "2026-01-22T20:19:56Z",
+      "summary": "\nGen. Shawn Bratton, vice chief of space operations of the U.S. Space Force, says growing reliance on satellites is forcing faster integration with the joint force and long-term planning beyond Earth orbit\nThe post As satellites become targets, Space Force plans for growth and a broader role appeared first on SpaceNews."
+    },
+    {
       "title": "Rocket Lab launches first satellites for Open Cosmos constellation",
       "link": "https://spacenews.com/rocket-lab-launches-first-satellites-for-open-cosmos-constellation/",
       "source": "SpaceNews",
@@ -20,21 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-22T17:30:01Z",
       "summary": "\nTAHOE CITY, Calif. — L3Harris Technologies will provide the primary imagery for the Korean Meteorological Administration’s (KMA) next-generation geostationary weather satellite. The contract, awarded to L3Harris by Korean aerospace manufacturer […]\nThe post L3Harris to supply imager for Korean geostationary weather satellite appeared first on SpaceNews."
-    },
-    {
-      "title": "NASA AI Model That Found 370 Exoplanets Now Digs Into TESS Data",
-      "link": "https://science.nasa.gov/open-science/deep-learning-exoplanets-tess/",
-      "source": "NASA",
-      "date": "2026-01-22T14:00:48Z",
-      "summary": "Trained on data from NASA’s exoplanet-hunting missions, the open-source ExoMiner++ deep learning model uses an advanced algorithm to validate new planets."
-    },
-    {
-      "title": "Tomorrow.io unveils DeepSky: constellation of large satellites and instruments",
-      "link": "https://spacenews.com/tomorrow-io-unveils-deepsky-constellation-of-large-satellites-and-instruments/",
-      "source": "SpaceNews",
-      "date": "2026-01-22T13:00:00Z",
-      "summary": "\nSAN FRANCISCO – Weather intelligence startup Tomorrow.io unveiled DeepSky, a satellite constellation designed to refine atmospheric forecasts by gathering the vast quantities of data needed to feed artificial intelligence models. […]\nThe post Tomorrow.io unveils DeepSky: constellation of large satellites and instruments appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-22T20:18:39.113Z"
+  "updated": "2026-01-22T20:44:57.643Z"
 }
