@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA AI Model That Found 370 Exoplanets Now Digs Into TESS Data",
+      "link": "https://science.nasa.gov/open-science/deep-learning-exoplanets-tess/",
+      "source": "NASA",
+      "date": "2026-01-22T14:00:48Z",
+      "summary": "Trained on data from NASA’s exoplanet-hunting missions, the open-source ExoMiner++ deep learning model uses an advanced algorithm to validate new planets."
+    },
+    {
       "title": "Tomorrow.io unveils DeepSky: constellation of large satellites and instruments",
       "link": "https://spacenews.com/tomorrow-io-unveils-deepsky-constellation-of-large-satellites-and-instruments/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "ESA",
       "date": "2026-01-22T10:12:00Z",
       "summary": "Already recognised for its excellence and even adopted for operational weather forecasting, the European Space Agency’s Arctic Weather Satellite has now fulfilled its most important role. This small prototype mission has succeeded in paving the way for a new constellation of similar satellites, known as EPS-Sterna."
-    },
-    {
-      "title": "D-Orbit raises $128 million in first tranche of Series D funding",
-      "link": "https://spacenews.com/d-orbit-raises-124-million-in-first-tranche-of-series-d-funding/",
-      "source": "SpaceNews",
-      "date": "2026-01-22T10:00:00Z",
-      "summary": "\nSAN FRANCISCO – Italian space logistics specialist D-Orbit has raised $124 million in the first closing of a Series D investment round announced Jan. 22. “This funding will enable strategic acquisitions, accelerate the build-out of D-Orbit’s orbital logistics infrastructure, expand in-orbit transportation services, scale industrial capacity for ION missions and advance new operational capabilities required […]\nThe post D-Orbit raises $128 million in first tranche of Series D funding appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-22T14:02:54.222Z"
+  "updated": "2026-01-22T14:39:20.426Z"
 }
