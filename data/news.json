@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Rocket Lab suffers Neutron testing setback",
+      "link": "https://spacenews.com/rocket-lab-suffers-neutron-testing-setback/",
+      "source": "SpaceNews",
+      "date": "2026-01-22T10:56:21Z",
+      "summary": "\nA tank built for Rocket Lab’s Neutron rocket was damaged during qualification testing, threatening to further delay the vehicle’s first flight.\nThe post Rocket Lab suffers Neutron testing setback appeared first on SpaceNews."
+    },
+    {
+      "title": "Arctic Weather Satellite paves way for constellation",
+      "link": "https://www.esa.int/Applications/Observing_the_Earth/Meteorological_missions/Arctic_Weather_Satellite/Arctic_Weather_Satellite_paves_way_for_constellation",
+      "source": "ESA",
+      "date": "2026-01-22T10:12:00Z",
+      "summary": "Already recognised for its excellence and even adopted for operational weather forecasting, the European Space Agency’s Arctic Weather Satellite has now fulfilled its most important role. This small prototype mission has succeeded in paving the way for a new constellation of similar satellites, known as EPS-Sterna."
+    },
+    {
       "title": "D-Orbit raises $128 million in first tranche of Series D funding",
       "link": "https://spacenews.com/d-orbit-raises-124-million-in-first-tranche-of-series-d-funding/",
       "source": "SpaceNews",
@@ -20,21 +34,7 @@
       "source": "NASA",
       "date": "2026-01-22T05:01:00Z",
       "summary": "December and January brought a series of intense winter storms to the peninsula in far eastern Russia."
-    },
-    {
-      "title": "Teledyne detector arrays power NASAs BlackCAT CubeSat X-ray mission",
-      "link": "https://www.spacedaily.com/reports/Teledyne_detector_arrays_power_NASAs_BlackCAT_CubeSat_x_ray_mission_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-22T02:29:35Z",
-      "summary": "Sydney, Australia (SPX) Jan 21, 2026\n\nTeledyne Technologies has confirmed that its Space Imaging division has successfully deployed Speedster HyViSI Hybrid Visible Silicon Imager focal plane arrays aboard NASAs BlackCAT CubeSat mission, which launched on January 11, 2026 on a SpaceX Twilight rideshare flight. The mission, led by Pennsylvania State University, places an x ray observatory on a Cub"
-    },
-    {
-      "title": "AST SpaceMobile secures role on MDA SHIELD defense architecture",
-      "link": "https://www.spacewar.com/reports/AST_SpaceMobile_secures_role_on_MDA_SHIELD_defense_architecture_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-22T02:29:35Z",
-      "summary": "Los Angeles CA (SPX) Jan 19, 2026\n\n\nAST SpaceMobile has been selected for a prime contract position on the U.S. Missile Defense Agency Scalable Homeland Innovative Enterprise Layered Defense, or SHIELD, program, placing its space-based cellular broadband architecture inside a key U.S. missile defense modernization effort. The indefinite-delivery, indefinite-quantity framework is designed to rapidly deliver new capabilities across"
     }
   ],
-  "updated": "2026-01-22T10:56:08.140Z"
+  "updated": "2026-01-22T11:17:01.114Z"
 }
