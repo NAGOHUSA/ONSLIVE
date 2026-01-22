@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "CNES Awards Loft Orbital Contract for French Radar Imaging Demo",
+      "link": "https://europeanspaceflight.com/cnes-awards-loft-orbital-contract-for-french-radar-imaging-demo/",
+      "source": "European Spaceflight",
+      "date": "2026-01-22T12:34:27Z",
+      "summary": "The French space agency CNES awarded a contract to a consortium led by Loft Orbital to develop a synthetic aperture radar (SAR) imagery demonstrator. According to the company, the aim of the project is to foster the development of a “national radar imaging value chain.” Announced by Loft Orbital and consortium partner Thales Alenia Space […]\nThe post CNES Awards Loft Orbital Contract for French Radar Imaging Demo appeared first on European Spaceflight."
+    },
+    {
       "title": "Rocket Lab suffers Neutron testing setback",
       "link": "https://spacenews.com/rocket-lab-suffers-neutron-testing-setback/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "ESA",
       "date": "2026-01-22T09:00:00Z",
       "summary": "From the ESA Blogs."
-    },
-    {
-      "title": "Snow Buries Kamchatka",
-      "link": "https://science.nasa.gov/earth/earth-observatory/snow-buries-kamchatka/",
-      "source": "NASA",
-      "date": "2026-01-22T05:01:00Z",
-      "summary": "December and January brought a series of intense winter storms to the peninsula in far eastern Russia."
     }
   ],
-  "updated": "2026-01-22T11:58:18.321Z"
+  "updated": "2026-01-22T12:43:28.032Z"
 }
