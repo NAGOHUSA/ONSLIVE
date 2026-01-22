@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "L3Harris to supply imager for Korean geostationary weather satellite",
+      "link": "https://spacenews.com/l3harris-to-supply-imager-for-korean-geostationary-weather-satellite/",
+      "source": "SpaceNews",
+      "date": "2026-01-22T17:30:01Z",
+      "summary": "\nTAHOE CITY, Calif. — L3Harris Technologies will provide the primary imagery for the Korean Meteorological Administration’s (KMA) next-generation geostationary weather satellite. The contract, awarded to L3Harris by Korean aerospace manufacturer […]\nThe post L3Harris to supply imager for Korean geostationary weather satellite appeared first on SpaceNews."
+    },
+    {
       "title": "NASA AI Model That Found 370 Exoplanets Now Digs Into TESS Data",
       "link": "https://science.nasa.gov/open-science/deep-learning-exoplanets-tess/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-22T10:56:21Z",
       "summary": "A tank built for Rocket Lab’s Neutron rocket was damaged during qualification testing, threatening to further delay the vehicle’s first flight.\r\nThe post Rocket Lab suffers Neutron testing setback appeared first on SpaceNews."
-    },
-    {
-      "title": "Arctic Weather Satellite paves way for constellation",
-      "link": "https://www.esa.int/Applications/Observing_the_Earth/Meteorological_missions/Arctic_Weather_Satellite/Arctic_Weather_Satellite_paves_way_for_constellation",
-      "source": "ESA",
-      "date": "2026-01-22T10:12:00Z",
-      "summary": "Already recognised for its excellence and even adopted for operational weather forecasting, the European Space Agency’s Arctic Weather Satellite has now fulfilled its most important role. This small prototype mission has succeeded in paving the way for a new constellation of similar satellites, known as EPS-Sterna."
     }
   ],
-  "updated": "2026-01-22T17:29:52.152Z"
+  "updated": "2026-01-22T17:53:44.000Z"
 }
