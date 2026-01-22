@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "A celebrity cluster in the spotlight",
+      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/01/A_celebrity_cluster_in_the_spotlight",
+      "source": "ESA",
+      "date": "2026-01-22T09:00:00Z",
+      "summary": "From the ESA Blogs."
+    },
+    {
       "title": "Snow Buries Kamchatka",
       "link": "https://science.nasa.gov/earth/earth-observatory/snow-buries-kamchatka/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceDaily",
       "date": "2026-01-22T02:29:35Z",
       "summary": "Los Angeles CA (SPX) Jan 19, 2026\n\n\nSlingshot Aerospace has secured a 27 million dollar contract to modernize how the US Space Force trains for conflict in orbit by embedding its TALOS AI agent into the service's Operational Test and Training Infrastructure program. The 18 month effort will integrate AI native technology into existing training capabilities so that exercises more accurately reflect the rapidly evolving orbital thre"
-    },
-    {
-      "title": "Comtech wins multi-million dollar follow-on contract for civil space components",
-      "link": "https://www.spacedaily.com/reports/Comtech_wins_multi_million_dollar_follow_on_contract_for_civil_space_components_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-22T02:29:35Z",
-      "summary": "Los Angeles CA (SPX) Jan 21, 2026\n\n\nComtech Telecommunications Corp. has received a follow-on space components award valued at more than 5 million dollars to support a major civil space exploration program in the United States. The award underlines the companys role as a global communications technology supplier to both commercial and government space customers. \n\nUnder the contract, Comtech will deliver advanced electronic co"
     }
   ],
-  "updated": "2026-01-22T08:50:40.845Z"
+  "updated": "2026-01-22T09:19:07.124Z"
 }
