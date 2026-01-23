@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA Finds Lunar Regolith Limits Meteorites as Source of Earth’s Water",
+      "link": "https://science.nasa.gov/science-research/astromaterials/nasa-finds-lunar-regolith-limits-meteorites-as-source-of-earths-water/",
+      "source": "NASA",
+      "date": "2026-01-23T18:33:53Z",
+      "summary": "A new NASA study of its Apollo lunar soils clarifies the Moon’s record of meteorite impacts and timing of water delivery. These findings place upper bounds on how much water meteorites could have supplied later in Earth’s history. Research has previously shown that meteorites may have been a significant source of Earth’s water as they […]"
+    },
+    {
       "title": "NASA’s Chandra Releases Deep Cut From Catalog of Cosmic Recordings",
       "link": "https://www.nasa.gov/missions/chandra/nasas-chandra-releases-deep-cut-from-catalog-of-cosmic-recordings/",
       "source": "NASA",
@@ -22,19 +29,12 @@
       "summary": "106th American Meteorological Society (AMS) Meeting, January 25 – 29, 2026 Join NASA in the Exhibit Hall (Booth #323) for Hyperwall Storytelling by NASA experts. Full Hyperwall Agenda below. MONDAY, JANUARY 26 6:05 – 6:20 PMExpanding Discovery from Earth Science Missions in Space Highlights of NASA Earth Science Missions to Advance Research, Data, Models, and Actionable […]"
     },
     {
-      "title": "Journey to Center of Milky Way With Upcoming NASA Roman Core Survey",
-      "link": "https://www.nasa.gov/missions/roman-space-telescope/journey-to-center-of-milky-way-with-upcoming-nasa-roman-core-survey/",
+      "title": "AMS 2026 Hyperwall Schedule",
+      "link": "https://science.nasa.gov/uncategorized/ams-2026-hyperwall-schedule/",
       "source": "NASA",
-      "date": "2026-01-23T15:00:00Z",
-      "summary": "At the heart of our own galaxy, there is a dense thicket of stars with a supermassive black hole at the very center. NASA’s Nancy Grace Roman Space Telescope will provide the deepest-ever view of this zone, revealing stars, planets, and unique objects that resist definition. Based on the input of astronomers from across the […]"
-    },
-    {
-      "title": "Former astronaut joins Vast as Haven-1 moves into integration",
-      "link": "https://spacenews.com/former-astronaut-joins-vast-as-haven-1-moves-into-integration/",
-      "source": "SpaceNews",
-      "date": "2026-01-23T14:47:50Z",
-      "summary": "Commercial space station developer Vast has hired another former NASA astronaut as the company delays the launch of its first station.\r\nThe post Former astronaut joins Vast as Haven-1 moves into integration appeared first on SpaceNews."
+      "date": "2026-01-23T15:36:27Z",
+      "summary": "106th American Meteorological Society (AMS) Meeting, January 25 – 29, 2026 Join NASA in the Exhibit Hall (Booth #323) for Hyperwall Storytelling by NASA experts. Full Hyperwall Agenda below. MONDAY, JANUARY 26 6:05 – 6:20 PMExpanding Discovery from Earth Science Missions in Space Highlights of NASA Earth Science Missions to Advance Research, Data, Models, and Actionable […]"
     }
   ],
-  "updated": "2026-01-23T18:54:20.339Z"
+  "updated": "2026-01-23T19:14:41.646Z"
 }
