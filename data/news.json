@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA Selects Participants to Track Artemis II Mission",
+      "link": "https://www.nasa.gov/technology/space-comms/nasa-selects-participants-to-track-artemis-ii-mission/",
+      "source": "NASA",
+      "date": "2026-01-23T21:01:33Z",
+      "summary": "NASA has selected 34 global volunteers to track the Orion spacecraft during the crewed Artemis II mission’s journey around the Moon. The Artemis II test flight will launch NASA’s Space Launch System (SLS) rocket, carrying the Orion spacecraft and a crew of four astronauts, on a mission into deep space. The agency’s second mission in […]"
+    },
+    {
       "title": "I Am Artemis: Dustin Gohmert",
       "link": "https://www.nasa.gov/missions/artemis/i-am-artemis/i-am-artemis-dustin-gohmert/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-01-23T18:02:31Z",
       "summary": "Like a recording artist who has had a long career, NASA’s Chandra X-ray Observatory has a “back catalog” of cosmic recordings that is impossible to replicate. To access these X-ray tracks, or observations, the ultimate compendium has been developed: the Chandra Source Catalog (CSC). The CSC contains the X-ray data detected up to the end of 2020 by Chandra, the world’s […]"
-    },
-    {
-      "title": "Space Beyond lines up 2027 SpaceX launch for low-cost memorial cubesat",
-      "link": "https://spacenews.com/space-beyond-lines-up-2027-spacex-launch-for-low-cost-memorial-cubesat/",
-      "source": "SpaceNews",
-      "date": "2026-01-23T17:42:35Z",
-      "summary": "\nFlorida-based Space Beyond plans to start building its first memorial spacecraft next week after booking a launch on SpaceX’s October 2027 rideshare mission.\nThe post Space Beyond lines up 2027 SpaceX launch for low-cost memorial cubesat appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-23T20:56:33.833Z"
+  "updated": "2026-01-23T21:14:16.218Z"
 }
