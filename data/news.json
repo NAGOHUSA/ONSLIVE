@@ -1,18 +1,18 @@
 {
   "articles": [
     {
+      "title": "NASA Conducts Hot Fire of RS-25 Engine",
+      "link": "https://www.nasa.gov/image-article/hot-fire-of-rs25-engine/",
+      "source": "NASA",
+      "date": "2026-01-23T14:34:56Z",
+      "summary": "NASA successfully conducted a hot fire of RS-25 engine No. 2063 on Jan. 22 at the Fred Haise Test Stand at NASA’s Stennis Space Center near Bay St. Louis, Mississippi, clearing the way for the engine to be installed for the agency’s Artemis IV mission.   The RS-25 engines help power NASA’s SLS (Space Launch […]"
+    },
+    {
       "title": "TESS Status Updates",
       "link": "https://science.nasa.gov/missions/tess/tess-status-update/",
       "source": "NASA",
       "date": "2026-01-23T14:02:43Z",
       "summary": "Jan. 23, 2026 NASA’s TESS Returns to Science Observations NASA’s TESS (Transiting Exoplanet Survey Satellite) entered safe mode Jan. 15 and returned to normal science operations Jan. 18.  The operations team determined the issue arose when TESS slewed to point at a target, but its solar panels did not rotate to remain pointed at the […]"
-    },
-    {
-      "title": "Launch operators are the rocket fuel required to galvanize spaceports in Europe",
-      "link": "https://spacenews.com/launch-operators-are-the-rocket-fuel-required-to-galvanize-spaceports-in-europe/",
-      "source": "SpaceNews",
-      "date": "2026-01-23T13:00:00Z",
-      "summary": "\nEurope stands on the precipice of launching a satellite from the mainland. Until now, the Guiana Space Centre in South America has operated as Europe’s “gateway to space” but spaceports in SaxaVord and Andøya offer the tantalizing prospect of launches much closer to home. Yet infrastructure alone will not get us there. A launchpad is […]\nThe post Launch operators are the rocket fuel required to galvanize spaceports in Europe appeared first on SpaceNews."
     },
     {
       "title": "Ignis mission timelapses: Earth and Moon views from the International Space Station",
@@ -22,19 +22,19 @@
       "summary": "ESA project astronaut Sławosz Uznański-Wiśniewski captured these stunning timelapse videos during his 20-day stay aboard the International Space Station as part of Axiom Mission 4, known as Ignis. Filmed from the Cupola – the Space Station’s iconic seven-windowed observation module – the footage showcases breathtaking views of Earth and the Moon from orbit."
     },
     {
+      "title": "Launch operators are the rocket fuel required to galvanize spaceports in Europe",
+      "link": "https://spacenews.com/launch-operators-are-the-rocket-fuel-required-to-galvanize-spaceports-in-europe/",
+      "source": "SpaceNews",
+      "date": "2026-01-23T13:00:00Z",
+      "summary": "\nEurope stands on the precipice of launching a satellite from the mainland. Until now, the Guiana Space Centre in South America has operated as Europe’s “gateway to space” but spaceports in SaxaVord and Andøya offer the tantalizing prospect of launches much closer to home. Yet infrastructure alone will not get us there. A launchpad is […]\nThe post Launch operators are the rocket fuel required to galvanize spaceports in Europe appeared first on SpaceNews."
+    },
+    {
       "title": "House appropriator sees ‘room for improvement’ in NASA funding for 2027",
       "link": "https://spacenews.com/house-appropriator-sees-room-for-improvement-in-nasa-funding-for-2027/",
       "source": "SpaceNews",
       "date": "2026-01-23T12:48:11Z",
       "summary": "\nWith the fiscal year 2026 appropriations process effectively complete, a key House appropriator says the next spending bill for NASA should build on that outcome.\nThe post House appropriator sees ‘room for improvement’ in NASA funding for 2027 appeared first on SpaceNews."
-    },
-    {
-      "title": "Earth from Space: Pantanal",
-      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/01/Earth_from_Space_Pantanal",
-      "source": "ESA",
-      "date": "2026-01-23T09:00:00Z",
-      "summary": "From the ESA Blogs."
     }
   ],
-  "updated": "2026-01-23T14:19:49.726Z"
+  "updated": "2026-01-23T14:47:23.635Z"
 }
