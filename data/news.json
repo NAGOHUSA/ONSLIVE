@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "NASA’s Chandra Releases Deep Cut From Catalog of Cosmic Recordings",
+      "link": "https://www.nasa.gov/missions/chandra/nasas-chandra-releases-deep-cut-from-catalog-of-cosmic-recordings/",
+      "source": "NASA",
+      "date": "2026-01-23T18:02:31Z",
+      "summary": "Like a recording artist who has had a long career, NASA’s Chandra X-ray Observatory has a “back catalog” of cosmic recordings that is impossible to replicate. To access these X-ray tracks, or observations, the ultimate compendium has been developed: the Chandra Source Catalog (CSC). The CSC contains the X-ray data detected up to the end of 2020 by Chandra, the world’s […]"
+    },
+    {
+      "title": "Space Beyond lines up 2027 SpaceX launch for low-cost memorial cubesat",
+      "link": "https://spacenews.com/space-beyond-lines-up-2027-spacex-launch-for-low-cost-memorial-cubesat/",
+      "source": "SpaceNews",
+      "date": "2026-01-23T17:42:35Z",
+      "summary": "\nFlorida-based Space Beyond plans to start building its first memorial spacecraft next week after booking a launch on SpaceX’s October 2027 rideshare mission.\nThe post Space Beyond lines up 2027 SpaceX launch for low-cost memorial cubesat appeared first on SpaceNews."
+    },
+    {
       "title": "AMS 2025 Hyperwall Schedule",
       "link": "https://science.nasa.gov/uncategorized/ams-2025-hyperwall-schedule/",
       "source": "NASA",
@@ -20,21 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-23T14:47:50Z",
       "summary": "Commercial space station developer Vast has hired another former NASA astronaut as the company delays the launch of its first station.\r\nThe post Former astronaut joins Vast as Haven-1 moves into integration appeared first on SpaceNews."
-    },
-    {
-      "title": "NASA Conducts Hot Fire of RS-25 Engine",
-      "link": "https://www.nasa.gov/image-article/hot-fire-of-rs25-engine/",
-      "source": "NASA",
-      "date": "2026-01-23T14:34:56Z",
-      "summary": "NASA successfully conducted a hot fire of RS-25 engine No. 2063 on Jan. 22 at the Fred Haise Test Stand at NASA’s Stennis Space Center near Bay St. Louis, Mississippi, clearing the way for the engine to be installed for the agency’s Artemis IV mission.   The RS-25 engines help power NASA’s SLS (Space Launch […]"
-    },
-    {
-      "title": "TESS Status Updates",
-      "link": "https://science.nasa.gov/missions/tess/tess-status-update/",
-      "source": "NASA",
-      "date": "2026-01-23T14:02:43Z",
-      "summary": "Jan. 23, 2026 NASA’s TESS Returns to Science Observations NASA’s TESS (Transiting Exoplanet Survey Satellite) entered safe mode Jan. 15 and returned to normal science operations Jan. 18.  The operations team determined the issue arose when TESS slewed to point at a target, but its solar panels did not rotate to remain pointed at the […]"
     }
   ],
-  "updated": "2026-01-23T17:56:19.926Z"
+  "updated": "2026-01-23T18:22:00.638Z"
 }
