@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA Sets Briefings for SpaceX Crew-12 Mission to Space Station",
+      "link": "https://www.nasa.gov/news-release/nasa-sets-briefings-for-spacex-crew-12-mission-to-space-station/",
+      "source": "NASA",
+      "date": "2026-01-23T22:46:13Z",
+      "summary": "NASA and its partners will discuss the upcoming crew rotation to the International Space Station during a pair of news conferences on Friday, Jan. 30, from the agency’s Johnson Space Center in Houston. At 11 a.m. EST, mission leadership will discuss final launch and mission preparations in a news conference that will stream on the […]"
+    },
+    {
       "title": "NASA Awards Global Modeling, Assimilation Support Contract",
       "link": "https://www.nasa.gov/news-release/nasa-awards-global-modeling-assimilation-support-contract/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-01-23T19:19:39Z",
       "summary": "A green and red aurora streams across Earth’s horizon above the city lights of Europe in this Jan. 19, 2026, photograph, which looks north across Italy toward Germany. The International Space Station was orbiting 262 miles above the Mediterranean Sea at approximately 10:02 p.m. local time when the image was captured. Also known as the […]"
-    },
-    {
-      "title": "NASA Finds Lunar Regolith Limits Meteorites as Source of Earth’s Water",
-      "link": "https://science.nasa.gov/science-research/astromaterials/nasa-finds-lunar-regolith-limits-meteorites-as-source-of-earths-water/",
-      "source": "NASA",
-      "date": "2026-01-23T18:33:53Z",
-      "summary": "A new NASA study of its Apollo lunar soils clarifies the Moon’s record of meteorite impacts and timing of water delivery. These findings place upper bounds on how much water meteorites could have supplied later in Earth’s history. Research has previously shown that meteorites may have been a significant source of Earth’s water as they […]"
     }
   ],
-  "updated": "2026-01-23T22:40:14.633Z"
+  "updated": "2026-01-23T22:50:59.826Z"
 }
