@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Journey to Center of Milky Way With Upcoming NASA Roman Core Survey",
+      "link": "https://www.nasa.gov/missions/roman-space-telescope/journey-to-center-of-milky-way-with-upcoming-nasa-roman-core-survey/",
+      "source": "NASA",
+      "date": "2026-01-23T15:00:00Z",
+      "summary": "At the heart of our own galaxy, there is a dense thicket of stars with a supermassive black hole at the very center. NASA’s Nancy Grace Roman Space Telescope will provide the deepest-ever view of this zone, revealing stars, planets, and unique objects that resist definition. Based on the input of astronomers from across the […]"
+    },
+    {
       "title": "Former astronaut joins Vast as Haven-1 moves into integration",
       "link": "https://spacenews.com/former-astronaut-joins-vast-as-haven-1-moves-into-integration/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "ESA",
       "date": "2026-01-23T13:00:00Z",
       "summary": "ESA project astronaut Sławosz Uznański-Wiśniewski captured these stunning timelapse videos during his 20-day stay aboard the International Space Station as part of Axiom Mission 4, known as Ignis. Filmed from the Cupola – the Space Station’s iconic seven-windowed observation module – the footage showcases breathtaking views of Earth and the Moon from orbit."
-    },
-    {
-      "title": "Launch operators are the rocket fuel required to galvanize spaceports in Europe",
-      "link": "https://spacenews.com/launch-operators-are-the-rocket-fuel-required-to-galvanize-spaceports-in-europe/",
-      "source": "SpaceNews",
-      "date": "2026-01-23T13:00:00Z",
-      "summary": "\nEurope stands on the precipice of launching a satellite from the mainland. Until now, the Guiana Space Centre in South America has operated as Europe’s “gateway to space” but spaceports in SaxaVord and Andøya offer the tantalizing prospect of launches much closer to home. Yet infrastructure alone will not get us there. A launchpad is […]\nThe post Launch operators are the rocket fuel required to galvanize spaceports in Europe appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-23T15:00:55.639Z"
+  "updated": "2026-01-23T15:31:17.806Z"
 }
