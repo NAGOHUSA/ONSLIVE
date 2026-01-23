@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "I Am Artemis: Dustin Gohmert",
+      "link": "https://www.nasa.gov/missions/artemis/i-am-artemis/i-am-artemis-dustin-gohmert/",
+      "source": "NASA",
+      "date": "2026-01-23T19:29:40Z",
+      "summary": "Listen to this audio excerpt from Dustin Gohmert, Orion Crew Survival System (OCSS) manager: During NASA’s Artemis II mission around the Moon, the astronauts inside the Orion spacecraft will be wearing specialized pressure suits designed to protect them throughout their journey. At NASA’s Johnson Space Center in Houston, Dustin Gohmert leads the team responsible for […]"
+    },
+    {
+      "title": "Red, Green Light Show",
+      "link": "https://www.nasa.gov/image-article/red-green-light-show/",
+      "source": "NASA",
+      "date": "2026-01-23T19:19:39Z",
+      "summary": "A green and red aurora streams across Earth’s horizon above the city lights of Europe in this Jan. 19, 2026, photograph, which looks north across Italy toward Germany. The International Space Station was orbiting 262 miles above the Mediterranean Sea at approximately 10:02 p.m. local time when the image was captured. Also known as the […]"
+    },
+    {
       "title": "NASA Finds Lunar Regolith Limits Meteorites as Source of Earth’s Water",
       "link": "https://science.nasa.gov/science-research/astromaterials/nasa-finds-lunar-regolith-limits-meteorites-as-source-of-earths-water/",
       "source": "NASA",
@@ -20,21 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-23T17:42:35Z",
       "summary": "\nFlorida-based Space Beyond plans to start building its first memorial spacecraft next week after booking a launch on SpaceX’s October 2027 rideshare mission.\nThe post Space Beyond lines up 2027 SpaceX launch for low-cost memorial cubesat appeared first on SpaceNews."
-    },
-    {
-      "title": "AMS 2025 Hyperwall Schedule",
-      "link": "https://science.nasa.gov/uncategorized/ams-2025-hyperwall-schedule/",
-      "source": "NASA",
-      "date": "2026-01-23T15:36:27Z",
-      "summary": "106th American Meteorological Society (AMS) Meeting, January 25 – 29, 2026 Join NASA in the Exhibit Hall (Booth #323) for Hyperwall Storytelling by NASA experts. Full Hyperwall Agenda below. MONDAY, JANUARY 26 6:05 – 6:20 PMExpanding Discovery from Earth Science Missions in Space Highlights of NASA Earth Science Missions to Advance Research, Data, Models, and Actionable […]"
-    },
-    {
-      "title": "AMS 2026 Hyperwall Schedule",
-      "link": "https://science.nasa.gov/uncategorized/ams-2026-hyperwall-schedule/",
-      "source": "NASA",
-      "date": "2026-01-23T15:36:27Z",
-      "summary": "106th American Meteorological Society (AMS) Meeting, January 25 – 29, 2026 Join NASA in the Exhibit Hall (Booth #323) for Hyperwall Storytelling by NASA experts. Full Hyperwall Agenda below. MONDAY, JANUARY 26 6:05 – 6:20 PMExpanding Discovery from Earth Science Missions in Space Highlights of NASA Earth Science Missions to Advance Research, Data, Models, and Actionable […]"
     }
   ],
-  "updated": "2026-01-23T19:14:41.646Z"
+  "updated": "2026-01-23T19:33:59.956Z"
 }
