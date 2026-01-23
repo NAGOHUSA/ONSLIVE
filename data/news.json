@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Winter Grips the Michigan Mitten",
+      "link": "https://science.nasa.gov/earth/earth-observatory/winter-grips-the-michigan-mitten/",
+      "source": "NASA",
+      "date": "2026-01-23T05:00:00Z",
+      "summary": "A blanket of snow spanned Michigan and much of the Great Lakes region following a potent cold snap."
+    },
+    {
       "title": "TerraWave enters the scene with lasers and game-changing data speeds",
       "link": "https://www.nasaspaceflight.com/2026/01/terrawave-lasers-speeds/",
       "source": "NASASpaceflight",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-22T23:24:25Z",
       "summary": "\nBlue Origin will reuse a New Glenn booster for the first time on the rocket’s next launch, carrying a satellite for AST SpaceMobile.\nThe post Blue Origin to reuse New Glenn booster on next launch appeared first on SpaceNews."
-    },
-    {
-      "title": "Damaged Shenzhou-20 spacecraft survives reentry, Shenzhou-23 arrives at spaceport",
-      "link": "https://spacenews.com/damaged-shenzhou-20-spacecraft-survives-reentry-shenzhou-23-arrives-at-spaceport/",
-      "source": "SpaceNews",
-      "date": "2026-01-22T22:53:16Z",
-      "summary": "\nChina’s damaged Shenzhou-20 spacecraft returned safely to Earth after on-orbit internal repairs, concluding the country’s first human spaceflight emergency triggered by a suspected debris impact.\nThe post Damaged Shenzhou-20 spacecraft survives reentry, Shenzhou-23 arrives at spaceport appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-23T04:52:39.721Z"
+  "updated": "2026-01-23T05:16:55.108Z"
 }
