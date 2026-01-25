@@ -3,16 +3,16 @@
     {
       "name": "STARLINK-1008",
       "id": "2019-074B",
-      "epoch": "2026-01-25T14:00:00.999360",
-      "meanMotion": 15.24709451,
-      "inclination": 53.1278
+      "epoch": "2026-01-25T16:00:03.999744",
+      "meanMotion": 15.24585382,
+      "inclination": 53.126
     },
     {
       "name": "STARLINK-1012",
       "id": "2019-074F",
-      "epoch": "2026-01-25T14:00:00.999360",
-      "meanMotion": 15.30371482,
-      "inclination": 53.1585
+      "epoch": "2026-01-25T16:00:03.999744",
+      "meanMotion": 15.30844645,
+      "inclination": 53.1564
     },
     {
       "name": "STARLINK-1017",
@@ -24,35 +24,35 @@
     {
       "name": "STARLINK-1019",
       "id": "2019-074M",
-      "epoch": "2026-01-25T14:00:00.999360",
-      "meanMotion": 15.6771956,
-      "inclination": 53.0495
+      "epoch": "2026-01-25T16:00:03.999744",
+      "meanMotion": 15.67736042,
+      "inclination": 53.0497
     },
     {
       "name": "STARLINK-1020",
       "id": "2019-074N",
-      "epoch": "2026-01-25T08:38:36.407904",
+      "epoch": "2026-01-25T08:38:36.408768",
       "meanMotion": 15.06412785,
       "inclination": 53.0547
     },
     {
       "name": "STARLINK-1031",
       "id": "2019-074Z",
-      "epoch": "2026-01-25T14:00:00.999360",
-      "meanMotion": 15.72897686,
-      "inclination": 53.0463
+      "epoch": "2026-01-25T16:00:03.999744",
+      "meanMotion": 15.72901723,
+      "inclination": 53.0464
     },
     {
       "name": "STARLINK-1036",
       "id": "2019-074AE",
-      "epoch": "2026-01-25T12:16:04.325088",
-      "meanMotion": 15.46229099,
-      "inclination": 53.0546
+      "epoch": "2026-01-25T13:49:09.239232",
+      "meanMotion": 15.46252887,
+      "inclination": 53.0557
     },
     {
       "name": "STARLINK-1039",
       "id": "2019-074AH",
-      "epoch": "2026-01-25T08:12:49.010688",
+      "epoch": "2026-01-25T08:12:49.011552",
       "meanMotion": 15.17775906,
       "inclination": 53.048
     },
@@ -66,17 +66,17 @@
     {
       "name": "STARLINK-1043",
       "id": "2019-074AM",
-      "epoch": "2026-01-25T14:00:00.999360",
-      "meanMotion": 15.50493415,
-      "inclination": 53.0539
+      "epoch": "2026-01-25T16:00:03.999744",
+      "meanMotion": 15.50466526,
+      "inclination": 53.054
     }
   ],
   "iss": {
-    "latitude": -49.203248344068,
-    "longitude": 104.86279059709,
-    "altitude": 444.13212382714,
-    "velocity": 27512.669497834,
+    "latitude": -1.2409873279288,
+    "longitude": -148.75381216049,
+    "altitude": 416.54004761191,
+    "velocity": 27597.444582016,
     "visibility": "daylight"
   },
-  "updated": "2026-01-25T20:00:02.953Z"
+  "updated": "2026-01-25T20:26:55.485Z"
 }
