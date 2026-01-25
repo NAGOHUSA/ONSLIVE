@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA and DOE to collaborate on lunar nuclear reactor development",
+      "link": "https://spacenews.com/nasa-and-doe-to-collaborate-on-lunar-nuclear-reactor-development/",
+      "source": "SpaceNews",
+      "date": "2026-01-25T00:24:24Z",
+      "summary": "\nNASA and the Department of Energy have agreed to work together on development of nuclear reactors for the moon as industry awaits the release of a final call for proposals.\nThe post NASA and DOE to collaborate on lunar nuclear reactor development appeared first on SpaceNews."
+    },
+    {
       "title": "RFA Awarded ESA Flight Ticket Initiative Launch Contracts",
       "link": "https://europeanspaceflight.com/rfa-awarded-esa-flight-ticket-initiative-launch-contracts/",
       "source": "European Spaceflight",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-01-23T21:47:44Z",
       "summary": "NASA has selected ADNET Systems, Inc. of Bethesda, Maryland, to provide global modeling and data assimilation support at the agency’s Goddard Space Flight Center in Greenbelt, Maryland. The Global Modeling and Assimilation Support contract is a single-award, cost-plus-fixed-fee, indefinite-delivery/indefinite-quantity contract with a maximum ordering value of approximately $84 million with a five-year period of performance […]"
-    },
-    {
-      "title": "NASA Selects Participants to Track Artemis II Mission",
-      "link": "https://www.nasa.gov/technology/space-comms/nasa-selects-participants-to-track-artemis-ii-mission/",
-      "source": "NASA",
-      "date": "2026-01-23T21:01:33Z",
-      "summary": "NASA has selected 34 global volunteers to track the Orion spacecraft during the crewed Artemis II mission’s journey around the Moon. The Artemis II test flight will launch NASA’s Space Launch System (SLS) rocket, carrying the Orion spacecraft and a crew of four astronauts, on a mission into deep space. The agency’s second mission in […]"
     }
   ],
-  "updated": "2026-01-24T23:58:43.840Z"
+  "updated": "2026-01-25T01:50:22.513Z"
 }
