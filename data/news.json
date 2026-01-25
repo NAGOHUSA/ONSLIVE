@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Live coverage: SpaceX to launch 25 Starlink satellites to polar, low Earth orbit",
+      "link": "https://spaceflightnow.com/2026/01/25/live-coverage-spacex-to-launch-25-starlink-satellites-to-polar-low-earth-orbit/",
+      "source": "Spaceflight Now",
+      "date": "2026-01-25T03:41:11Z",
+      "summary": "The Starlink 17-20 mission will be the seventh Starlink mission this year. Liftoff from pad 4E is scheduled for 7:38:20 a.m. PST (10:38:20 a.m. EST / 1538:20 UTC). "
+    },
+    {
       "title": "NASA and DOE to collaborate on lunar nuclear reactor development",
       "link": "https://spacenews.com/nasa-and-doe-to-collaborate-on-lunar-nuclear-reactor-development/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-01-23T22:46:13Z",
       "summary": "NASA and its partners will discuss the upcoming crew rotation to the International Space Station during a pair of news conferences on Friday, Jan. 30, from the agency’s Johnson Space Center in Houston. At 11 a.m. EST, mission leadership will discuss final launch and mission preparations in a news conference that will stream on the […]"
-    },
-    {
-      "title": "NASA Awards Global Modeling, Assimilation Support Contract",
-      "link": "https://www.nasa.gov/news-release/nasa-awards-global-modeling-assimilation-support-contract/",
-      "source": "NASA",
-      "date": "2026-01-23T21:47:44Z",
-      "summary": "NASA has selected ADNET Systems, Inc. of Bethesda, Maryland, to provide global modeling and data assimilation support at the agency’s Goddard Space Flight Center in Greenbelt, Maryland. The Global Modeling and Assimilation Support contract is a single-award, cost-plus-fixed-fee, indefinite-delivery/indefinite-quantity contract with a maximum ordering value of approximately $84 million with a five-year period of performance […]"
     }
   ],
-  "updated": "2026-01-25T03:33:26.537Z"
+  "updated": "2026-01-25T04:38:36.766Z"
 }
