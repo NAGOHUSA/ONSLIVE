@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Live coverage: SpaceX to launch GPS 3 satellite following switch from ULA Vulcan rocket",
+      "link": "https://spaceflightnow.com/2026/01/26/live-coverage-spacex-to-launch-gps-3-satellite-following-switch-from-ula-vulcan-rocket/",
+      "source": "Spaceflight Now",
+      "date": "2026-01-26T01:02:55Z",
+      "summary": "This will be the third launch of a GPS satellite in as many years. Liftoff of the GPS 3-9 mission from pad 40 at Cape Canaveral Space Force Station is scheduled for 11:42 p.m. EST (0442 UTC). "
+    },
+    {
       "title": "What’s Happening in Space Policy January 25-31, 2026",
       "link": "https://spacepolicyonline.com/news/whats-happening-in-space-policy-january-25-31-2026/",
       "source": "SpacePolicyOnline.com",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-25T00:24:24Z",
       "summary": "\nNASA and the Department of Energy have agreed to work together on development of nuclear reactors for the moon as industry awaits the release of a final call for proposals.\nThe post NASA and DOE to collaborate on lunar nuclear reactor development appeared first on SpaceNews."
-    },
-    {
-      "title": "RFA Awarded ESA Flight Ticket Initiative Launch Contracts",
-      "link": "https://europeanspaceflight.com/rfa-awarded-esa-flight-ticket-initiative-launch-contracts/",
-      "source": "European Spaceflight",
-      "date": "2026-01-24T05:04:04Z",
-      "summary": "German rocket builder Rocket Factory Augsburg (RFA) has been awarded launch service contracts for two missions under the Flight Ticket Initiative. The Flight Ticket Initiative is a programme run jointly by the European Space Agency (ESA) and the European Union that provides subsidised launch opportunities for European companies and organisations on small launch vehicles. Under […]\nThe post RFA Awarded ESA Flight Ticket Initiative Launch Contracts appeared first on European Spaceflight."
     }
   ],
-  "updated": "2026-01-25T23:59:09.630Z"
+  "updated": "2026-01-26T01:54:28.119Z"
 }
