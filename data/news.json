@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Astranis adds Oman customer to summer GEO launch lineup",
+      "link": "https://spacenews.com/astranis-adds-oman-customer-to-summer-geo-launch-lineup/",
+      "source": "SpaceNews",
+      "date": "2026-01-26T16:48:53Z",
+      "summary": "\nOman-based industrial conglomerate MB Group has ordered a small geostationary broadband satellite from Astranis that is slated to launch this summer.\nThe post Astranis adds Oman customer to summer GEO launch lineup appeared first on SpaceNews."
+    },
+    {
       "title": "Hubble Observes Ghostly Cloud Alive with Star Formation",
       "link": "https://www.nasa.gov/image-article/hubble-observes-ghostly-cloud-alive-with-star-formation/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "ESA",
       "date": "2026-01-26T13:27:00Z",
       "summary": "The European Space Agency’s innovative Biomass satellite is now fully commissioned, opening free access to a powerful new stream of data that promise a step change in our understanding of forest dynamics and their role in regulating the global carbon cycle."
-    },
-    {
-      "title": "Crawling, gripping and floating above ESA’s flat floor",
-      "link": "https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Crawling_gripping_and_floating_above_ESA_s_flat_floor",
-      "source": "ESA",
-      "date": "2026-01-26T13:00:00Z",
-      "summary": "Last autumn, the European Space Agency’s Orbital Robotics Laboratory hosted three student teams from universities across Europe. After being selected to join the ESA Academy Experiments programme, the students were invited to carry out the experimental part of their research projects in the agency’s test facilities with support and guidance from experts."
     }
   ],
-  "updated": "2026-01-26T16:41:26.647Z"
+  "updated": "2026-01-26T17:04:22.832Z"
 }
