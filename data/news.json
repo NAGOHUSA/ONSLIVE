@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Hubble Observes Ghostly Cloud Alive with Star Formation",
+      "link": "https://www.nasa.gov/image-article/hubble-observes-ghostly-cloud-alive-with-star-formation/",
+      "source": "NASA",
+      "date": "2026-01-26T16:29:25Z",
+      "summary": "While this eerie NASA Hubble Space Telescope image may look ghostly, it’s actually full of new life. Lupus 3 is a star-forming cloud about 500 light-years away in the constellation Scorpius.  White wisps of gas swirl throughout the region, and in the lower-left corner resides a dark dust cloud. Bright T Tauri stars shine at the left, […]"
+    },
+    {
       "title": "NASA Reveals New Details About Dark Matter’s Influence on Universe",
       "link": "https://www.nasa.gov/missions/webb/nasa-reveals-new-details-about-dark-matters-influence-on-universe/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "ESA",
       "date": "2026-01-26T13:00:00Z",
       "summary": "Last autumn, the European Space Agency’s Orbital Robotics Laboratory hosted three student teams from universities across Europe. After being selected to join the ESA Academy Experiments programme, the students were invited to carry out the experimental part of their research projects in the agency’s test facilities with support and guidance from experts."
-    },
-    {
-      "title": "H3 failure linked to payload fairing separation anomaly",
-      "link": "https://spacenews.com/h3-failure-linked-to-payload-fairing-separation-anomaly/",
-      "source": "SpaceNews",
-      "date": "2026-01-26T11:56:13Z",
-      "summary": "An H3 launch failure in December may have been caused by an unusual event that led to the satellite separating from the rocket prematurely.\r\nThe post H3 failure linked to payload fairing separation anomaly appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-26T16:01:26.269Z"
+  "updated": "2026-01-26T16:41:26.647Z"
 }
