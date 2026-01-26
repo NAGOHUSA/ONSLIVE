@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Crawling, gripping and floating above ESA’s flat floor",
+      "link": "https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Crawling_gripping_and_floating_above_ESA_s_flat_floor",
+      "source": "ESA",
+      "date": "2026-01-26T13:00:00Z",
+      "summary": "Last autumn, the European Space Agency’s Orbital Robotics Laboratory hosted three student teams from universities across Europe. After being selected to join the ESA Academy Experiments programme, the students were invited to carry out the experimental part of their research projects in the agency’s test facilities with support and guidance from experts."
+    },
+    {
       "title": "H3 failure linked to payload fairing separation anomaly",
       "link": "https://spacenews.com/h3-failure-linked-to-payload-fairing-separation-anomaly/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceDaily",
       "date": "2026-01-26T06:55:00Z",
       "summary": "Tokyo, Japan (SPX) Jan 26, 2026\r\n\r\n\r\nChina is preparing to bring into operation its first offshore platform purpose built for testing, launching and recovering reusable liquid propellant rockets, with the goal of lowering access costs to orbit and expanding commercial launch capacity. \r\n\r\nThe new facility is located at the Oriental Aerospace Port in Haiyang in east China s Shandong province, currently the country s only dedicated"
-    },
-    {
-      "title": "Solar Orbiter spots magnetic avalanches driving major solar flare",
-      "link": "https://www.spacedaily.com/reports/Solar_Orbiter_spots_magnetic_avalanches_driving_major_solar_flare_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-26T06:55:00Z",
-      "summary": "Paris, France (SPX) Jan 26, 2026\r\n\r\n\r\nJust as avalanches on snowy mountains begin with the motion of a small amount of snow, Solar Orbiter has revealed that a powerful solar flare can start from initially weak magnetic disturbances that rapidly escalate into a large-scale eruption. \r\n\r\nDuring a close approach to the Sun on 30 September 2024, the ESA-led Solar Orbiter spacecraft captured one of its most detailed views yet of a larg"
     }
   ],
-  "updated": "2026-01-26T12:39:33.114Z"
+  "updated": "2026-01-26T13:30:10.332Z"
 }
