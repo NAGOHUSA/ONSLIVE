@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "How NASA Is Homing in From Space on Ocean Debris",
+      "link": "https://www.nasa.gov/earth/how-nasa-is-homing-in-from-space-on-ocean-debris/",
+      "source": "NASA",
+      "date": "2026-01-26T17:02:17Z",
+      "summary": "Space-based technology could help track plastic and other flotsam by its ‘fingerprints.’ In late 2025, scientists reported that, for the first time, they were able to detect concentrations of plastic pollution on land using NASA’s Earth Surface Mineral Dust Source Investigation (EMIT) sensor aboard the International Space Station. The technology has inspired marine researchers to […]"
+    },
+    {
       "title": "Astranis adds Oman customer to summer GEO launch lineup",
       "link": "https://spacenews.com/astranis-adds-oman-customer-to-summer-geo-launch-lineup/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-26T14:00:00Z",
       "summary": "\nYou may not see it with the naked eye, but in Earth’s orbit, a silent crisis is unfolding. With over 11,000 active satellites currently in orbit — a number expected to reach between 30,000 and 60,000 by 2030 — 40,500 tracked objects of 10 cm and more, 1.1 million pieces of space debris between 1 […]\nThe post We need a ‘Planetary Neural Network’ for AI-enabled space infrastructure protection appeared first on SpaceNews."
-    },
-    {
-      "title": "ESA’s Biomass goes live with data now open to all",
-      "link": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Biomass/ESA_s_Biomass_goes_live_with_data_now_open_to_all",
-      "source": "ESA",
-      "date": "2026-01-26T13:27:00Z",
-      "summary": "The European Space Agency’s innovative Biomass satellite is now fully commissioned, opening free access to a powerful new stream of data that promise a step change in our understanding of forest dynamics and their role in regulating the global carbon cycle."
     }
   ],
-  "updated": "2026-01-26T17:04:22.832Z"
+  "updated": "2026-01-26T17:39:28.439Z"
 }
