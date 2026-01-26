@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA Technology Brings Golden Age of Exploration to Earth",
+      "link": "https://www.nasa.gov/news-release/nasa-technology-brings-golden-age-of-exploration-to-earth/",
+      "source": "NASA",
+      "date": "2026-01-26T18:42:42Z",
+      "summary": "As NASA fosters technologies needed to live and work farther away from home than ever before, the agency’s Technology Transfer program has the sole mission of getting those innovations into the hands of companies, entrepreneurs, and, ultimately, everyday people. The agency’s Spinoff publication has captured this endeavor for half a century, sharing stories of space […]"
+    },
+    {
       "title": "How NASA Is Homing in From Space on Ocean Debris",
       "link": "https://www.nasa.gov/earth/how-nasa-is-homing-in-from-space-on-ocean-debris/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-01-26T16:00:00Z",
       "summary": "With the Webb telescope’s unprecedented sensitivity, scientists are learning more about dark matter’s influence on stars, galaxies, and even planets like Earth. Scientists using data from NASA’s James Webb Space Telescope have made one of the most detailed, high-resolution maps of dark matter ever produced. It shows how the invisible, ghostly material overlaps and intertwines […]"
-    },
-    {
-      "title": "We need a ‘Planetary Neural Network’ for AI-enabled space infrastructure protection",
-      "link": "https://spacenews.com/we-need-a-planetary-neural-network-for-ai-enabled-space-infrastructure-protection/",
-      "source": "SpaceNews",
-      "date": "2026-01-26T14:00:00Z",
-      "summary": "\nYou may not see it with the naked eye, but in Earth’s orbit, a silent crisis is unfolding. With over 11,000 active satellites currently in orbit — a number expected to reach between 30,000 and 60,000 by 2030 — 40,500 tracked objects of 10 cm and more, 1.1 million pieces of space debris between 1 […]\nThe post We need a ‘Planetary Neural Network’ for AI-enabled space infrastructure protection appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-26T18:26:11.230Z"
+  "updated": "2026-01-26T18:58:31.119Z"
 }
