@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "We need a ‘Planetary Neural Network’ for AI-enabled space infrastructure protection",
+      "link": "https://spacenews.com/we-need-a-planetary-neural-network-for-ai-enabled-space-infrastructure-protection/",
+      "source": "SpaceNews",
+      "date": "2026-01-26T14:00:00Z",
+      "summary": "\nYou may not see it with the naked eye, but in Earth’s orbit, a silent crisis is unfolding. With over 11,000 active satellites currently in orbit — a number expected to reach between 30,000 and 60,000 by 2030 — 40,500 tracked objects of 10 cm and more, 1.1 million pieces of space debris between 1 […]\nThe post We need a ‘Planetary Neural Network’ for AI-enabled space infrastructure protection appeared first on SpaceNews."
+    },
+    {
+      "title": "ESA’s Biomass goes live with data now open to all",
+      "link": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Biomass/ESA_s_Biomass_goes_live_with_data_now_open_to_all",
+      "source": "ESA",
+      "date": "2026-01-26T13:27:00Z",
+      "summary": "The European Space Agency’s innovative Biomass satellite is now fully commissioned, opening free access to a powerful new stream of data that promise a step change in our understanding of forest dynamics and their role in regulating the global carbon cycle."
+    },
+    {
       "title": "Crawling, gripping and floating above ESA’s flat floor",
       "link": "https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Crawling_gripping_and_floating_above_ESA_s_flat_floor",
       "source": "ESA",
@@ -20,21 +34,7 @@
       "source": "ESA",
       "date": "2026-01-26T10:30:00Z",
       "summary": "On 17 January, the Artemis II Space Launch System rocket and Orion spacecraft were rolled out from the Vehicle Assembly Building at NASA's Kennedy Space Center in Florida, to Launch Pad 39B. The 6.5-km journey took around 12 hours and was carried out using NASA's crawler-transporter, which has been moving rockets to launch pads for over 50 years."
-    },
-    {
-      "title": "Icy cycles may have driven early protocell evolution",
-      "link": "https://www.spacedaily.com/reports/Icy_cycles_may_have_driven_early_protocell_evolution_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-26T06:55:00Z",
-      "summary": "Tokyo, Japan (SPX) Jan 26, 2026\n\n\nModern cells rely on intricate molecular machinery and genetic programs to grow and divide, but the earliest protocells were likely simple lipid-bound compartments whose behavior depended mainly on their physical and chemical properties. A new experimental study suggests that subtle differences in membrane composition could have helped these primitive compartments grow, fuse, and hold on to gene"
-    },
-    {
-      "title": "China prepares offshore test base for reusable liquid rocket launches",
-      "link": "https://www.spacedaily.com/reports/China_prepares_offshore_test_base_for_reusable_liquid_rocket_launches_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-26T06:55:00Z",
-      "summary": "Tokyo, Japan (SPX) Jan 26, 2026\r\n\r\n\r\nChina is preparing to bring into operation its first offshore platform purpose built for testing, launching and recovering reusable liquid propellant rockets, with the goal of lowering access costs to orbit and expanding commercial launch capacity. \r\n\r\nThe new facility is located at the Oriental Aerospace Port in Haiyang in east China s Shandong province, currently the country s only dedicated"
     }
   ],
-  "updated": "2026-01-26T13:59:52.353Z"
+  "updated": "2026-01-26T14:30:31.737Z"
 }
