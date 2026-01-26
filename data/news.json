@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Launch Roundup: GPS, Starlink, Electron launches scheduled for last week of January",
+      "link": "https://www.nasaspaceflight.com/2026/01/launch-roundup-012626/",
+      "source": "NASASpaceflight",
+      "date": "2026-01-26T22:46:38Z",
+      "summary": "The last week of January has a busy slate of orbital launches, with flights from…\nThe post Launch Roundup: GPS, Starlink, Electron launches scheduled for last week of January appeared first on NASASpaceFlight.com."
+    },
+    {
       "title": "Hanwha exploring South Korean defense constellation with MDA Space and Telesat",
       "link": "https://spacenews.com/hanwha-exploring-south-korean-defense-constellation-with-mda-space-and-telesat/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-01-26T18:42:42Z",
       "summary": "As NASA fosters technologies needed to live and work farther away from home than ever before, the agency’s Technology Transfer program has the sole mission of getting those innovations into the hands of companies, entrepreneurs, and, ultimately, everyday people. The agency’s Spinoff publication has captured this endeavor for half a century, sharing stories of space […]"
-    },
-    {
-      "title": "How NASA Is Homing in From Space on Ocean Debris",
-      "link": "https://www.nasa.gov/earth/how-nasa-is-homing-in-from-space-on-ocean-debris/",
-      "source": "NASA",
-      "date": "2026-01-26T17:02:17Z",
-      "summary": "Space-based technology could help track plastic and other flotsam by its ‘fingerprints.’ In late 2025, scientists reported that, for the first time, they were able to detect concentrations of plastic pollution on land using NASA’s Earth Surface Mineral Dust Source Investigation (EMIT) sensor aboard the International Space Station. The technology has inspired marine researchers to […]"
     }
   ],
-  "updated": "2026-01-26T22:38:31.536Z"
+  "updated": "2026-01-26T22:53:10.221Z"
 }
