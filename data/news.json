@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "NASA, GE Aerospace Hybrid Engine System Marks Successful Test",
+      "link": "https://www.nasa.gov/aeronautics/hybrid-engine-tested/",
+      "source": "NASA",
+      "date": "2026-01-26T21:00:47Z",
+      "summary": "To an untrained eye, the aircraft engine sitting outside of a Cincinnati facility in December might have looked like standard hardware. But NASA and GE Aerospace researchers watching the unit fire up for a demonstration knew what they were looking at: a hybrid engine performing at a level that could potentially power an airliner.   It’s something new in the […]"
+    },
+    {
+      "title": "NASA Welcomes Oman as Newest Artemis Accords Signatory",
+      "link": "https://www.nasa.gov/news-release/nasa-welcomes-oman-as-newest-artemis-accords-signatory/",
+      "source": "NASA",
+      "date": "2026-01-26T20:53:49Z",
+      "summary": "The Sultanate of Oman signed the Artemis Accords during a ceremony in Muscat attended by NASA on Monday, becoming the 61st nation to commit to responsible space exploration for the benefit of all humanity. “Oman’s accession to the Artemis Accords sets an important example about the value of responsible behavior and shared pursuit of discovery,” […]"
+    },
+    {
       "title": "NASA Technology Brings Golden Age of Exploration to Earth",
       "link": "https://www.nasa.gov/news-release/nasa-technology-brings-golden-age-of-exploration-to-earth/",
       "source": "NASA",
@@ -20,21 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-26T16:48:53Z",
       "summary": "\nOman-based industrial conglomerate MB Group has ordered a small geostationary broadband satellite from Astranis that is slated to launch this summer.\nThe post Astranis adds Oman customer to summer GEO launch lineup appeared first on SpaceNews."
-    },
-    {
-      "title": "Hubble Observes Ghostly Cloud Alive with Star Formation",
-      "link": "https://www.nasa.gov/image-article/hubble-observes-ghostly-cloud-alive-with-star-formation/",
-      "source": "NASA",
-      "date": "2026-01-26T16:29:25Z",
-      "summary": "While this eerie NASA Hubble Space Telescope image may look ghostly, it’s actually full of new life. Lupus 3 is a star-forming cloud about 500 light-years away in the constellation Scorpius.  White wisps of gas swirl throughout the region, and in the lower-left corner resides a dark dust cloud. Bright T Tauri stars shine at the left, […]"
-    },
-    {
-      "title": "NASA Reveals New Details About Dark Matter’s Influence on Universe",
-      "link": "https://www.nasa.gov/missions/webb/nasa-reveals-new-details-about-dark-matters-influence-on-universe/",
-      "source": "NASA",
-      "date": "2026-01-26T16:00:00Z",
-      "summary": "With the Webb telescope’s unprecedented sensitivity, scientists are learning more about dark matter’s influence on stars, galaxies, and even planets like Earth. Scientists using data from NASA’s James Webb Space Telescope have made one of the most detailed, high-resolution maps of dark matter ever produced. It shows how the invisible, ghostly material overlaps and intertwines […]"
     }
   ],
-  "updated": "2026-01-26T20:59:11.612Z"
+  "updated": "2026-01-26T21:24:36.116Z"
 }
