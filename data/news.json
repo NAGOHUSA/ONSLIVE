@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Floods Inundate Southern Mozambique",
+      "link": "https://science.nasa.gov/earth/earth-observatory/floods-inundate-southern-mozambique/",
+      "source": "NASA",
+      "date": "2026-01-27T05:01:00Z",
+      "summary": "Weeks of intense rain overwhelmed rivers and reservoirs, displacing hundreds of thousands of people."
+    },
+    {
       "title": "Artemis II Wet Dress Rehearsal As Early as January 31",
       "link": "https://spacepolicyonline.com/news/artemis-ii-wet-dress-rehearsal-as-early-as-january-31/",
       "source": "SpacePolicyOnline.com",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-26T21:28:19Z",
       "summary": "\nSouth Korean conglomerate Hanwha Systems is partnering with Canada’s MDA Space to explore collaboration on the development of a defense satellite constellation for the Asian nation.\nThe post Hanwha exploring South Korean defense constellation with MDA Space and Telesat appeared first on SpaceNews."
-    },
-    {
-      "title": "NASA, GE Aerospace Hybrid Engine System Marks Successful Test",
-      "link": "https://www.nasa.gov/aeronautics/hybrid-engine-tested/",
-      "source": "NASA",
-      "date": "2026-01-26T21:00:47Z",
-      "summary": "To an untrained eye, the aircraft engine sitting outside of a Cincinnati facility in December might have looked like standard hardware. But NASA and GE Aerospace researchers watching the unit fire up for a demonstration knew what they were looking at: a hybrid engine performing at a level that could potentially power an airliner.   It’s something new in the […]"
     }
   ],
-  "updated": "2026-01-27T05:02:42.349Z"
+  "updated": "2026-01-27T05:35:54.543Z"
 }
