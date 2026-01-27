@@ -1,11 +1,25 @@
 {
   "articles": [
     {
+      "title": "AI Unlocks Hundreds of Cosmic Anomalies in Hubble Archive",
+      "link": "https://science.nasa.gov/missions/hubble/ai-unlocks-hundreds-of-cosmic-anomalies-in-hubble-archive/",
+      "source": "NASA",
+      "date": "2026-01-27T15:00:27Z",
+      "summary": "A team of astronomers has employed a cutting-edge, artificial intelligence-assisted technique to uncover rare astronomical phenomena within archived data from NASA’s Hubble Space Telescope. The team analyzed nearly 100 million image cutouts from the Hubble Legacy Archive, each measuring just a few dozen pixels (7 to 8 arcseconds) on a side. They identified more than […]"
+    },
+    {
       "title": "The “Stealth” Strategy Pays Off: UARX Space Emerges as Europe’s High-Reliability Powerhouse",
       "link": "https://spacenews.com/the-stealth-strategy-pays-off-uarx-space-emerges-as-europes-high-reliability-powerhouse/",
       "source": "SpaceNews",
       "date": "2026-01-27T15:00:00Z",
       "summary": "\nNIGRÁN, Spain — While much of the European NewSpace ecosystem has spent the last five years in a cycle of public fundraising and prototype announcements, UARX Space took a different […]\nThe post The “Stealth” Strategy Pays Off: UARX Space Emerges as Europe’s High-Reliability Powerhouse appeared first on SpaceNews."
+    },
+    {
+      "title": "1400 quirky objects found in Hubble's archive",
+      "link": "https://www.esa.int/Science_Exploration/Space_Science/1400_quirky_objects_found_in_Hubble_s_archive",
+      "source": "ESA",
+      "date": "2026-01-27T15:00:00Z",
+      "summary": "A team of astronomers have used a new AI-assisted method to search for rare astronomical objects in the Hubble Legacy Archive. The team sifted through nearly 100 million image cutouts in just two and a half days, uncovering nearly 1400 anomalous objects, more than 800 of which had never been documented before."
     },
     {
       "title": "As data from space spikes, an innovative ground station company seeks to cash in",
@@ -20,21 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-27T14:15:00Z",
       "summary": "\nSAN FRANCISCO – An independent NASA evaluation confirmed the quality of radio occultation data provided by PlanetiQ. The one-year evaluation, which compared PlanetiQ observations with data from the Constellation Observing […]\nThe post NASA evaluation lauds quality of PlanetiQ radio occultation data appeared first on SpaceNews."
-    },
-    {
-      "title": "NASA lines up WDR for SLS ahead of Artemis II",
-      "link": "https://www.nasaspaceflight.com/2026/01/nasa-wdr-sls-artemis-ii/",
-      "source": "NASASpaceflight",
-      "date": "2026-01-27T13:52:44Z",
-      "summary": "Teams at the Kennedy Space Center are advancing preparations for the Artemis II mission, the…\nThe post NASA lines up WDR for SLS ahead of Artemis II appeared first on NASASpaceFlight.com."
-    },
-    {
-      "title": "Hydrogen nuclei experiment sharpens view of quarks inside matter",
-      "link": "https://www.spacedaily.com/reports/Hydrogen_nuclei_experiment_sharpens_view_of_quarks_inside_matter_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-27T13:25:22Z",
-      "summary": "Los Angeles CA (SPX) Jan 26, 2026\n\n\nThe lightest element in the universe is helping nuclear physicists probe the inner structure of matter with new precision. At the U.S. Department of Energy's Thomas Jefferson National Accelerator Facility, researchers have compared two isotopes of hydrogen to gain sharper insight into how quarks and gluons are arranged inside protons and neutrons. \n\nHydrogen sits at the top of the Periodic T"
     }
   ],
-  "updated": "2026-01-27T15:02:24.727Z"
+  "updated": "2026-01-27T15:38:10.113Z"
 }
