@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "As data from space spikes, an innovative ground station company seeks to cash in",
+      "link": "https://arstechnica.com/space/2026/01/as-data-from-space-spikes-an-innovative-ground-station-company-seeks-to-cash-in/",
+      "source": "Arstechnica",
+      "date": "2026-01-27T14:16:32Z",
+      "summary": "\"That's why we're here, that's why we're building what we're building.\""
+    },
+    {
+      "title": "NASA evaluation lauds quality of PlanetiQ radio occultation data",
+      "link": "https://spacenews.com/nasa-evaluation-lauds-quality-of-planetiq-radio-occultation-data/",
+      "source": "SpaceNews",
+      "date": "2026-01-27T14:15:00Z",
+      "summary": "\nSAN FRANCISCO – An independent NASA evaluation confirmed the quality of radio occultation data provided by PlanetiQ. The one-year evaluation, which compared PlanetiQ observations with data from the Constellation Observing […]\nThe post NASA evaluation lauds quality of PlanetiQ radio occultation data appeared first on SpaceNews."
+    },
+    {
       "title": "NASA lines up WDR for SLS ahead of Artemis II",
       "link": "https://www.nasaspaceflight.com/2026/01/nasa-wdr-sls-artemis-ii/",
       "source": "NASASpaceflight",
@@ -20,21 +34,7 @@
       "source": "SpaceDaily",
       "date": "2026-01-27T13:25:22Z",
       "summary": "Sydney, Australia (SPX) Jan 21, 2026\n\nStratoship has signed a memorandum of understanding with Queensland based companies Orbit2Orbit and Sunburnt Space Co to build a staged lab to space pathway for small satellite payloads. \n\nThe agreement establishes a commercial framework that links laboratory development, stratospheric testing, very low Earth orbit and orbital missions into a coherent progression for customers. \n\nUnder t"
-    },
-    {
-      "title": "Aalyria spacetime platform tapped for AFRL space data network trials",
-      "link": "https://www.spacewar.com/reports/Aalyria_spacetime_platform_tapped_for_AFRL_space_data_network_trials_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-27T13:25:22Z",
-      "summary": "Los Angeles CA (SPX) Jan 26, 2026\n\nAalyria has been selected by the U.S. Air Force Research Laboratory's Rapid Architecture Prototyping and Integration Development program to advance software solutions for managing complex military space communications networks under the Space Data Network Experimentation program. The award, executed through AFRL's Space Technology Advanced Research Fast-trackin"
-    },
-    {
-      "title": "Ancient nitrogen enzyme study illuminates early Earth conditions and life detection",
-      "link": "https://www.terradaily.com/reports/Ancient_nitrogen_enzyme_study_illuminates_early_Earth_conditions_and_life_detection_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-27T13:25:22Z",
-      "summary": "Los Angeles CA (SPX) Jan 26, 2026\n\n\nBy resurrecting a 3.2 billion year old enzyme and testing it inside living microbes, researchers have opened a new experimental window on early Earth and how to recognize signs of life on other worlds. The work, led by scientists at the University of Wisconsin-Madison and supported by NASA, uses synthetic biology to reconstruct ancient biochemistry in the laboratory. \n\nThe team focused on ni"
     }
   ],
-  "updated": "2026-01-27T14:03:28.795Z"
+  "updated": "2026-01-27T14:40:14.213Z"
 }
