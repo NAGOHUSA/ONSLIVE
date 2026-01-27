@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA Science Flights Venture to Improve Severe Winter Weather Warnings",
+      "link": "https://www.nasa.gov/missions/airborne-science/nasa-science-flights-venture-to-improve-severe-winter-weather-warnings/",
+      "source": "NASA",
+      "date": "2026-01-27T21:44:51Z",
+      "summary": "A team of NASA scientists deployed on an international mission designed to better understand severe winter storms. The North American Upstream Feature-Resolving and Tropopause Uncertainty Reconnaissance Experiment, or NURTURE, is an airborne campaign that uses a suite of remote sensing instruments to collect atmospheric data on winter weather with a goal of improving the models […]"
+    },
+    {
       "title": "Second Edition of Space Debris 2026 Conference Kicks Off with Participation from 75 Countries",
       "link": "https://spacenews.com/second-edition-of-space-debris-2026-conference-kicks-off-with-participation-from-75-countries/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-01-27T19:21:58Z",
       "summary": "Results from the solar-powered spacecraft provide a new measurement of the thickness of the ice shell encasing the Jovian moon’s ocean.  Data from NASA’s Juno mission has provided new insights into the thickness and subsurface structure of the icy shell encasing Jupiter’s moon Europa. Using the spacecraft’s Microwave Radiometer (MWR), mission scientists determined that the shell averages about 18 miles (29 […]"
-    },
-    {
-      "title": "NASA Launches Its Most Powerful, Efficient Supercomputer",
-      "link": "https://www.nasa.gov/technology/computing/nasa-launches-its-most-powerful-efficient-supercomputer/",
-      "source": "NASA",
-      "date": "2026-01-27T16:52:24Z",
-      "summary": "NASA is announcing the availability of its newest supercomputer, Athena, an advanced system designed to support a new generation of missions and research projects. The newest member of the agency’s High-End Computing Capability project expands the resources available to help scientists and engineers tackle some of the most complex challenges in space, aeronautics, and science. […]"
     }
   ],
-  "updated": "2026-01-27T21:53:40.032Z"
+  "updated": "2026-01-27T21:59:59.380Z"
 }
