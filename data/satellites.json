@@ -3,16 +3,16 @@
     {
       "name": "STARLINK-1008",
       "id": "2019-074B",
-      "epoch": "2026-01-27T14:00:04.000032",
-      "meanMotion": 15.2792013,
-      "inclination": 53.1403
+      "epoch": "2026-01-27T16:00:03.000096",
+      "meanMotion": 15.28220252,
+      "inclination": 53.146
     },
     {
       "name": "STARLINK-1012",
       "id": "2019-074F",
-      "epoch": "2026-01-27T14:00:04.000032",
-      "meanMotion": 15.30131095,
-      "inclination": 53.16
+      "epoch": "2026-01-27T16:00:03.000096",
+      "meanMotion": 15.30129334,
+      "inclination": 53.1605
     },
     {
       "name": "STARLINK-1017",
@@ -24,9 +24,9 @@
     {
       "name": "STARLINK-1019",
       "id": "2019-074M",
-      "epoch": "2026-01-27T14:00:04.000032",
-      "meanMotion": 15.68525421,
-      "inclination": 53.0494
+      "epoch": "2026-01-27T16:00:03.000096",
+      "meanMotion": 15.68537889,
+      "inclination": 53.0495
     },
     {
       "name": "STARLINK-1020",
@@ -38,16 +38,16 @@
     {
       "name": "STARLINK-1031",
       "id": "2019-074Z",
-      "epoch": "2026-01-27T14:00:04.000032",
-      "meanMotion": 15.73805244,
-      "inclination": 53.047
+      "epoch": "2026-01-27T16:00:03.000096",
+      "meanMotion": 15.73809386,
+      "inclination": 53.0469
     },
     {
       "name": "STARLINK-1036",
       "id": "2019-074AE",
-      "epoch": "2026-01-27T14:00:04.000032",
-      "meanMotion": 15.46811998,
-      "inclination": 53.0552
+      "epoch": "2026-01-27T16:00:03.000096",
+      "meanMotion": 15.46811071,
+      "inclination": 53.0553
     },
     {
       "name": "STARLINK-1039",
@@ -72,11 +72,11 @@
     }
   ],
   "iss": {
-    "latitude": -28.38301823544,
-    "longitude": 54.46717895862,
-    "altitude": 437.79484024323,
-    "velocity": 27521.692461332,
-    "visibility": "eclipsed"
+    "latitude": -50.866908147778,
+    "longitude": 129.82780636602,
+    "altitude": 442.85599909894,
+    "velocity": 27518.91836534,
+    "visibility": "daylight"
   },
-  "updated": "2026-01-27T19:51:48.915Z"
+  "updated": "2026-01-27T20:07:53.933Z"
 }
