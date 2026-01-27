@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "NASA’s James Webb Space Telescope Finds Crystal-Spewing Protostar",
+      "link": "https://www.nasa.gov/image-article/nasas-james-webb-space-telescope-finds-crystal-spewing-protostar/",
+      "source": "NASA",
+      "date": "2026-01-27T16:08:49Z",
+      "summary": "The NIRCam (Near-Infrared Camera) on NASA’s James Webb Space Telescope captured the actively forming protostar EC 53 (circled at left) in the Serpens Nebula in this image released on Jan. 21, 2026. Astronomers have long sought evidence to explain why comets at the outskirts of our own solar system contain crystalline silicates, since crystals require intense heat to form […]"
+    },
+    {
+      "title": "NASA, Partners Advance LISA Prototype Hardware",
+      "link": "https://science.nasa.gov/missions/lisa/nasa-partners-advance-lisa-prototype-hardware/",
+      "source": "NASA",
+      "date": "2026-01-27T15:09:48Z",
+      "summary": "Engineers and scientists at NASA’s Goddard Space Flight Center in Greenbelt, Maryland, completed tests this month on a second early version of a key element of the upcoming LISA (Laser Interferometer Space Antenna) mission. The LISA mission, a collaboration between ESA (the European Space Agency) and NASA, will use infrared lasers to detect gravitational waves, […]"
+    },
+    {
       "title": "AI Unlocks Hundreds of Cosmic Anomalies in Hubble Archive",
       "link": "https://science.nasa.gov/missions/hubble/ai-unlocks-hundreds-of-cosmic-anomalies-in-hubble-archive/",
       "source": "NASA",
@@ -20,21 +34,7 @@
       "source": "ESA",
       "date": "2026-01-27T15:00:00Z",
       "summary": "A team of astronomers have used a new AI-assisted method to search for rare astronomical objects in the Hubble Legacy Archive. The team sifted through nearly 100 million image cutouts in just two and a half days, uncovering nearly 1400 anomalous objects, more than 800 of which had never been documented before."
-    },
-    {
-      "title": "As data from space spikes, an innovative ground station company seeks to cash in",
-      "link": "https://arstechnica.com/space/2026/01/as-data-from-space-spikes-an-innovative-ground-station-company-seeks-to-cash-in/",
-      "source": "Arstechnica",
-      "date": "2026-01-27T14:16:32Z",
-      "summary": "\"That's why we're here, that's why we're building what we're building.\""
-    },
-    {
-      "title": "NASA evaluation lauds quality of PlanetiQ radio occultation data",
-      "link": "https://spacenews.com/nasa-evaluation-lauds-quality-of-planetiq-radio-occultation-data/",
-      "source": "SpaceNews",
-      "date": "2026-01-27T14:15:00Z",
-      "summary": "\nSAN FRANCISCO – An independent NASA evaluation confirmed the quality of radio occultation data provided by PlanetiQ. The one-year evaluation, which compared PlanetiQ observations with data from the Constellation Observing […]\nThe post NASA evaluation lauds quality of PlanetiQ radio occultation data appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-27T15:54:46.931Z"
+  "updated": "2026-01-27T16:16:26.747Z"
 }
