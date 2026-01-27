@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Europe’s next-generation weather satellite sends back first images",
+      "link": "https://www.esa.int/Applications/Observing_the_Earth/Meteorological_missions/meteosat_third_generation/Europe_s_next-generation_weather_satellite_sends_back_first_images",
+      "source": "ESA",
+      "date": "2026-01-27T09:30:00Z",
+      "summary": "The first two images from the Meteosat Third Generation-Sounder satellite have been shared at the European Space Conference in Brussels, showing how the mission will provide data on temperature and humidity, for more accurate weather forecasting over Europe and northern Africa."
+    },
+    {
       "title": "Brazil’s Amazonia-1B Satellite to Be Launched Aboard Vega C",
       "link": "https://europeanspaceflight.com/brazils-amazonia-1b-satellite-to-be-launched-aboard-vega-c/",
       "source": "European Spaceflight",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-27T02:34:56Z",
       "summary": "SAN FRANCISCO – NASA’s Earth Science Division is exploring partnerships with external organizations to support instrument mounted on the International Space Station and free-flyer missions. “For some of these missions […]\r\nThe post NASA seeks partners for Earth Science extended missions appeared first on SpaceNews."
-    },
-    {
-      "title": "Launch Roundup: GPS, Starlink, Electron launches scheduled for last week of January",
-      "link": "https://www.nasaspaceflight.com/2026/01/launch-roundup-012626/",
-      "source": "NASASpaceflight",
-      "date": "2026-01-26T22:46:38Z",
-      "summary": "The last week of January has a busy slate of orbital launches, with flights from…\r\nThe post Launch Roundup: GPS, Starlink, Electron launches scheduled for last week of January appeared first on NASASpaceFlight.com."
     }
   ],
-  "updated": "2026-01-27T09:36:13.040Z"
+  "updated": "2026-01-27T09:57:49.154Z"
 }
