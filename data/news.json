@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA Testing Advances Space Nuclear Propulsion Capabilities",
+      "link": "https://www.nasa.gov/directorates/stmd/tech-demo-missions-program/space-nuclear-propulsion-snp/nasa-testing-advances-space-nuclear-propulsion-capabilities/",
+      "source": "NASA",
+      "date": "2026-01-27T22:36:24Z",
+      "summary": "Written by Daniel Boyette Nuclear propulsion and power technologies could unlock new frontiers in missions to the Moon, Mars, and beyond. NASA has reached an important milestone advancing nuclear propulsion that could benefit future deep space missions by completing a cold-flow test campaign of the first flight reactor engineering development unit since the 1960s. “Nuclear […]"
+    },
+    {
       "title": "NASA Science Flights Venture to Improve Severe Winter Weather Warnings",
       "link": "https://www.nasa.gov/missions/airborne-science/nasa-science-flights-venture-to-improve-severe-winter-weather-warnings/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "Arstechnica",
       "date": "2026-01-27T21:05:17Z",
       "summary": "\"A thorough investigation will be conducted by NASA into the cause.\""
-    },
-    {
-      "title": "EBAD PRM Payload Release Module Family Demonstrates Scalable, Low-Shock Separation Capability on Falcon 9 Twilight Rideshare Mission",
-      "link": "https://spacenews.com/ebad-prm-payload-release-module-family-demonstrates-scalable-low-shock-separation-capability-on-falcon-9-twilight-rideshare-mission/",
-      "source": "SpaceNews",
-      "date": "2026-01-27T19:29:10Z",
-      "summary": "\nSIMSBURY, Conn., January 26, 2026 – Ensign-Bickford Aerospace and Defense Company (EBAD) announced the successful flight and actuation of its Payload Release Module, PRM9103, during SpaceX’s Falcon 9 Twilight rideshare […]\nThe post EBAD PRM Payload Release Module Family Demonstrates Scalable, Low-Shock Separation Capability on Falcon 9 Twilight Rideshare Mission appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-27T22:25:00.040Z"
+  "updated": "2026-01-27T22:43:18.962Z"
 }
