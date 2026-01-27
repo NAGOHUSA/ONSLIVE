@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Space Force set to choose contractors for next-gen GEO spy satellites",
+      "link": "https://spacenews.com/space-force-set-to-choose-contractors-for-next-gen-geo-spy-satellites/",
+      "source": "SpaceNews",
+      "date": "2026-01-27T11:00:00Z",
+      "summary": "\nThe service plans to select satellite manufacturers as soon as March for the Geosynchronous Reconnaissance & Surveillance (RG-XX) program,\nThe post Space Force set to choose contractors for next-gen GEO spy satellites appeared first on SpaceNews."
+    },
+    {
+      "title": "Vega C to launch Brazilian satellite",
+      "link": "https://spacenews.com/vega-c-to-launch-brazilian-satellite/",
+      "source": "SpaceNews",
+      "date": "2026-01-27T10:55:36Z",
+      "summary": "\nA Brazilian government agency will launch an Earth observation satellite on a Vega C rocket, working with a launch broker rather than contracting directly with Avio.\nThe post Vega C to launch Brazilian satellite appeared first on SpaceNews."
+    },
+    {
       "title": "Airbus Selects Vega C to Launch First Pléiades Neo Next Satellite",
       "link": "https://europeanspaceflight.com/airbus-selects-vega-c-to-launch-first-pleiades-neo-next-satellite/",
       "source": "European Spaceflight",
@@ -20,21 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-27T10:08:51Z",
       "summary": "\nOman signed the Artemis Accords for responsible space exploration Jan. 26, becoming the 61st nation to do so.\nThe post Oman signs Artemis Accords appeared first on SpaceNews."
-    },
-    {
-      "title": "Europe’s next-generation weather satellite sends back first images",
-      "link": "https://www.esa.int/Applications/Observing_the_Earth/Meteorological_missions/meteosat_third_generation/Europe_s_next-generation_weather_satellite_sends_back_first_images",
-      "source": "ESA",
-      "date": "2026-01-27T09:30:00Z",
-      "summary": "The first two images from the Meteosat Third Generation-Sounder satellite have been shared at the European Space Conference in Brussels, showing how the mission will provide data on temperature and humidity, for more accurate weather forecasting over Europe and northern Africa."
-    },
-    {
-      "title": "Brazil’s Amazonia-1B Satellite to Be Launched Aboard Vega C",
-      "link": "https://europeanspaceflight.com/brazils-amazonia-1b-satellite-to-be-launched-aboard-vega-c/",
-      "source": "European Spaceflight",
-      "date": "2026-01-27T08:00:06Z",
-      "summary": "Brazil’s National Institute for Space Research (INPE) has awarded a contract to SpaceLaunch for the launch of its Amazonia-1B Earth observation satellite aboard a Vega C rocket in 2027. In September 2025, Italian rocket builder Avio announced that it had signed a launch services agreement with US-based launch aggregator SpaceLaunch to carry an Earth observation […]\nThe post Brazil’s Amazonia-1B Satellite to Be Launched Aboard Vega C appeared first on European Spaceflight."
     }
   ],
-  "updated": "2026-01-27T10:51:27.904Z"
+  "updated": "2026-01-27T11:12:12.837Z"
 }
