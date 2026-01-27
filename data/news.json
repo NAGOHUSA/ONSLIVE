@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "EBAD PRM Payload Release Module Family Demonstrates Scalable, Low-Shock Separation Capability on Falcon 9 Twilight Rideshare Mission",
+      "link": "https://spacenews.com/ebad-prm-payload-release-module-family-demonstrates-scalable-low-shock-separation-capability-on-falcon-9-twilight-rideshare-mission/",
+      "source": "SpaceNews",
+      "date": "2026-01-27T19:29:10Z",
+      "summary": "\nSIMSBURY, Conn., January 26, 2026 – Ensign-Bickford Aerospace and Defense Company (EBAD) announced the successful flight and actuation of its Payload Release Module, PRM9103, during SpaceX’s Falcon 9 Twilight rideshare […]\nThe post EBAD PRM Payload Release Module Family Demonstrates Scalable, Low-Shock Separation Capability on Falcon 9 Twilight Rideshare Mission appeared first on SpaceNews."
+    },
+    {
+      "title": "NASA’s Juno Measures Thickness of Europa’s Ice Shell",
+      "link": "https://www.nasa.gov/missions/juno/nasas-juno-measures-thickness-of-europas-ice-shell/",
+      "source": "NASA",
+      "date": "2026-01-27T19:21:58Z",
+      "summary": "Results from the solar-powered spacecraft provide a new measurement of the thickness of the ice shell encasing the Jovian moon’s ocean.  Data from NASA’s Juno mission has provided new insights into the thickness and subsurface structure of the icy shell encasing Jupiter’s moon Europa. Using the spacecraft’s Microwave Radiometer (MWR), mission scientists determined that the shell averages about 18 miles (29 […]"
+    },
+    {
       "title": "NASA Launches Its Most Powerful, Efficient Supercomputer",
       "link": "https://www.nasa.gov/technology/computing/nasa-launches-its-most-powerful-efficient-supercomputer/",
       "source": "NASA",
@@ -20,21 +34,7 @@
       "source": "NASA",
       "date": "2026-01-27T15:09:48Z",
       "summary": "Engineers and scientists at NASA’s Goddard Space Flight Center in Greenbelt, Maryland, completed tests this month on a second early version of a key element of the upcoming LISA (Laser Interferometer Space Antenna) mission. The LISA mission, a collaboration between ESA (the European Space Agency) and NASA, will use infrared lasers to detect gravitational waves, […]"
-    },
-    {
-      "title": "AI Unlocks Hundreds of Cosmic Anomalies in Hubble Archive",
-      "link": "https://science.nasa.gov/missions/hubble/ai-unlocks-hundreds-of-cosmic-anomalies-in-hubble-archive/",
-      "source": "NASA",
-      "date": "2026-01-27T15:00:27Z",
-      "summary": "A team of astronomers has employed a cutting-edge, artificial intelligence-assisted technique to uncover rare astronomical phenomena within archived data from NASA’s Hubble Space Telescope. The team analyzed nearly 100 million image cutouts from the Hubble Legacy Archive, each measuring just a few dozen pixels (7 to 8 arcseconds) on a side. They identified more than […]"
-    },
-    {
-      "title": "1400 quirky objects found in Hubble's archive",
-      "link": "https://www.esa.int/Science_Exploration/Space_Science/1400_quirky_objects_found_in_Hubble_s_archive",
-      "source": "ESA",
-      "date": "2026-01-27T15:00:00Z",
-      "summary": "A team of astronomers have used a new AI-assisted method to search for rare astronomical objects in the Hubble Legacy Archive. The team sifted through nearly 100 million image cutouts in just two and a half days, uncovering nearly 1400 anomalous objects, more than 800 of which had never been documented before."
     }
   ],
-  "updated": "2026-01-27T19:06:46.261Z"
+  "updated": "2026-01-27T19:36:18.636Z"
 }
