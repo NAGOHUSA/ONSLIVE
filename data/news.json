@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NOAA solar observatory reaches Lagrange point 1",
+      "link": "https://spacenews.com/noaa-solar-observatory-reaches-lagrange-point-1/",
+      "source": "SpaceNews",
+      "date": "2026-01-28T05:18:09Z",
+      "summary": "\nSAN FRANCISCO — The National Oceanic and Atmospheric Administration’s latest space weather observatory has reached Lagrange point 1. The Space Weather Follow On — Lagrange 1 executed its final engine […]\nThe post NOAA solar observatory reaches Lagrange point 1 appeared first on SpaceNews."
+    },
+    {
       "title": "Snow Buries the U.S. Interior and East",
       "link": "https://science.nasa.gov/earth/earth-observatory/snow-buries-the-u-s-interior-and-east/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-01-27T22:36:24Z",
       "summary": "Written by Daniel Boyette Nuclear propulsion and power technologies could unlock new frontiers in missions to the Moon, Mars, and beyond. NASA has reached an important milestone advancing nuclear propulsion that could benefit future deep space missions by completing a cold-flow test campaign of the first flight reactor engineering development unit since the 1960s. “Nuclear […]"
-    },
-    {
-      "title": "Discovery Alert: An Ice-Cold Earth?",
-      "link": "https://science.nasa.gov/universe/exoplanets/discovery-alert-an-ice-cold-earth/",
-      "source": "NASA",
-      "date": "2026-01-27T22:27:20Z",
-      "summary": "The Discovery A candidate planet that might be remarkably similar to Earth, HD 137010 b, has one potentially big difference: It could be colder than perpetually frozen Mars. Key Facts Scientists continue to mine data gathered by NASA’s Kepler Space Telescope, retired in 2018, and continue to turn up surprises. A new paper reveals the […]"
     }
   ],
-  "updated": "2026-01-28T05:17:46.443Z"
+  "updated": "2026-01-28T05:46:26.849Z"
 }
