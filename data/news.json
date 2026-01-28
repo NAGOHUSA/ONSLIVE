@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "SpaceX launches GPS satellite for U.S. Space Force",
+      "link": "https://spacenews.com/spacex-launches-gps-satellite-for-u-s-space-force/",
+      "source": "SpaceNews",
+      "date": "2026-01-28T08:47:20Z",
+      "summary": "\nMission marks third consecutive GPS launch reassigned from ULA to SpaceX\nThe post SpaceX launches GPS satellite for U.S. Space Force appeared first on SpaceNews."
+    },
+    {
       "title": "Exotrail and Astroscale France join forces to build deorbiting capability for LEO",
       "link": "https://spacenews.com/exotrail-and-astroscale-france-join-forces-to-build-deorbiting-capability-for-leo/",
       "source": "SpaceNews",
@@ -12,7 +19,7 @@
       "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Watch_live_Crew-12_news_conference",
       "source": "ESA",
       "date": "2026-01-28T06:45:00Z",
-      "summary": "Tune in on Friday, 30 January from 16:00 GMT/17:00 CET (11:00 EST) to watch the mission overview press conference, followed at 18:00 GMT/19:00 CET (13:00 EST) by the final press conference of the Crew-12 astronauts as they prepare to launch to the International Space Station for a nine-month mission — live on ESA Web TV.  "
+      "summary": "Tune in on Friday, 30 January from 16:00 GMT/17:00 CET (11:00 EST) to watch the mission overview press conference, followed at 18:00 GMT/19:00 CET (13:00 EST) by the final press conference of the Crew-12 astronauts as they prepare to launch to the International Space Station for a nine-month mission — live on ESA Web TV."
     },
     {
       "title": "NOAA solar observatory reaches Lagrange point 1",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-01-28T05:01:00Z",
       "summary": "Satellites observed a frozen landscape across much of the country after a massive winter storm."
-    },
-    {
-      "title": "Budget remains tight for scaled-back GeoXO program",
-      "link": "https://spacenews.com/budget-remains-tight-for-scaled-back-geoxo-program/",
-      "source": "SpaceNews",
-      "date": "2026-01-28T03:56:45Z",
-      "summary": "\nSAN FRANCISCO – The National Oceanic and Atmospheric Administration is keeping close tabs on the cost of the next generation of geostationary weather satellites. The Geostationary and Extended Operations (GeoXO) […]\nThe post Budget remains tight for scaled-back GeoXO program appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-28T08:26:19.526Z"
+  "updated": "2026-01-28T08:55:43.237Z"
 }
