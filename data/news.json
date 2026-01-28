@@ -1,6 +1,27 @@
 {
   "articles": [
     {
+      "title": "OQ Technology plots smartphone test amid SpaceX’s C-band D2D push",
+      "link": "https://spacenews.com/oq-technology-plots-smartphone-test-amid-spacexs-c-band-d2d-push/",
+      "source": "SpaceNews",
+      "date": "2026-01-28T15:05:03Z",
+      "summary": "\nOQ Technology is preparing to deploy a small satellite to test using C-band to connect smartphones from LEO, joining SpaceX in a push to repurpose the spectrum for direct-to-device services.\nThe post OQ Technology plots smartphone test amid SpaceX’s C-band D2D push appeared first on SpaceNews."
+    },
+    {
+      "title": "NASA Webb Pushes Boundaries of Observable Universe Closer to Big Bang",
+      "link": "https://science.nasa.gov/missions/webb/nasa-webb-pushes-boundaries-of-observable-universe-closer-to-big-bang/",
+      "source": "NASA",
+      "date": "2026-01-28T15:00:00Z",
+      "summary": "NASA’s James Webb Space Telescope has topped itself once again, delivering on its promise to push the boundaries of the observable universe closer to cosmic dawn with the confirmation of a bright galaxy that existed 280 million years after the big bang. By now Webb has established that it will eventually surpass virtually every benchmark […]"
+    },
+    {
+      "title": "Webb gazes further back in time",
+      "link": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_gazes_further_back_in_time",
+      "source": "ESA",
+      "date": "2026-01-28T15:00:00Z",
+      "summary": "The NASA/ESA/CSA James Webb Space Telescope has topped itself once again, delivering on its promise to push the boundaries of its observations closer to cosmic dawn with the confirmation of a bright galaxy that existed 280 million years after the Big Bang."
+    },
+    {
       "title": "China set for crewed lunar tests, record launches, moon mission and reusable rockets in 2026",
       "link": "https://spacenews.com/china-set-for-crewed-lunar-tests-record-launches-moon-mission-and-reusable-rockets-in-2026/",
       "source": "SpaceNews",
@@ -13,28 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-28T14:00:00Z",
       "summary": "\nFor more than a decade, the Earth observation industry has insisted that commercial adoption is just around the corner. Yet adoption outside defense remains limited, uneven, and difficult to sustain. The question is no longer whether EO is valuable, but whether the industry is delivering it in a form commercial users can actually use. The […]\nThe post Earth observation’s adoption gap is a supply design problem appeared first on SpaceNews."
-    },
-    {
-      "title": "European Space Conference in Bruxelles: ESA DG keynote address on the second day",
-      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/01/European_Space_Conference_in_Bruxelles_ESA_DG_keynote_address_on_the_second_day",
-      "source": "ESA",
-      "date": "2026-01-28T12:30:00Z",
-      "summary": "Watch the keynote address by ESA Director General Josef Aschbacher on the second day of the 18th European Space Conference in Brussels."
-    },
-    {
-      "title": "FAA projects continuing growth in commercial space transportation",
-      "link": "https://spacenews.com/faa-projects-continuing-growth-in-commercial-space-transportation/",
-      "source": "SpaceNews",
-      "date": "2026-01-28T12:09:07Z",
-      "summary": "\nThe Federal Aviation Administration office that regulates commercial spaceflight expects continued growth in launches, despite industry concerns about whether the office can keep pace.\nThe post FAA projects continuing growth in commercial space transportation appeared first on SpaceNews."
-    },
-    {
-      "title": "New European Infrared Sounder Maps Atmosphere In Three Dimensions",
-      "link": "https://www.spacedaily.com/reports/New_European_Infrared_Sounder_Maps_Atmosphere_In_Three_Dimensions_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-28T11:17:52Z",
-      "summary": "Berlin, Germany (SPX) Jan 28, 2026\r\n\r\n\r\nThe first images from Europe s pioneering meteorological infrared sounder were unveiled at the EU Space Conference in Brussels, marking a significant advance in observing the atmosphere in three dimensions ahead of severe weather. \r\n\r\nThe new data come from the Infrared Sounder instrument on Meteosat Third Generation Sounder 1, the first European geostationary satellite to carry a hyperspectra"
     }
   ],
-  "updated": "2026-01-28T15:00:14.011Z"
+  "updated": "2026-01-28T15:35:46.241Z"
 }
