@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "POLARIS Spaceplanes Wins Contract for Reusable Hypersonic Vehicle",
+      "link": "https://europeanspaceflight.com/polaris-spaceplanes-wins-contract-for-reusable-hypersonic-vehicle/",
+      "source": "European Spaceflight",
+      "date": "2026-01-28T08:51:09Z",
+      "summary": "The German government agency responsible for military procurement has awarded a contract to POLARIS Spaceplanes to build and flight test a reusable hypersonic vehicle. The vehicle is expected to be ready for its first flight toward the end of 2027. On 27 January, POLARIS Spaceplanes announced that it had been awarded a contract by the […]\nThe post POLARIS Spaceplanes Wins Contract for Reusable Hypersonic Vehicle appeared first on European Spaceflight."
+    },
+    {
       "title": "SpaceX launches GPS satellite for U.S. Space Force",
       "link": "https://spacenews.com/spacex-launches-gps-satellite-for-u-s-space-force/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-28T05:18:09Z",
       "summary": "SAN FRANCISCO — The National Oceanic and Atmospheric Administration’s latest space weather observatory has reached Lagrange point 1. The Space Weather Follow On — Lagrange 1 executed its final engine […]\r\nThe post NOAA solar observatory reaches Lagrange point 1 appeared first on SpaceNews."
-    },
-    {
-      "title": "Snow Buries the U.S. Interior and East",
-      "link": "https://science.nasa.gov/earth/earth-observatory/snow-buries-the-u-s-interior-and-east/",
-      "source": "NASA",
-      "date": "2026-01-28T05:01:00Z",
-      "summary": "Satellites observed a frozen landscape across much of the country after a massive winter storm."
     }
   ],
-  "updated": "2026-01-28T08:55:43.237Z"
+  "updated": "2026-01-28T09:25:38.005Z"
 }
