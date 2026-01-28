@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "HEO acquires in-orbit satellite from Satellogic",
+      "link": "https://spacenews.com/heo-acquires-in-orbit-satellite-from-satellogic/",
+      "source": "SpaceNews",
+      "date": "2026-01-28T21:32:31Z",
+      "summary": "\nHEO, the Australian company that performs in-space imaging of spacecraft, has acquired its own satellite though a deal with Satellogic.\nThe post HEO acquires in-orbit satellite from Satellogic appeared first on SpaceNews."
+    },
+    {
+      "title": "Space-focused SPAC goes public after pricing $200 million IPO",
+      "link": "https://spacenews.com/space-focused-spac-goes-public-after-pricing-200-million-ipo/",
+      "source": "SpaceNews",
+      "date": "2026-01-28T21:26:18Z",
+      "summary": "\nTAMPA, Fla. — A shell company chaired by venture capitalist Raphael Roettgen began trading on the Nasdaq stock exchange Jan. 28 after raising $200 million to pursue a merger with a space-related business. Space Asset Acquisition Corp., a special purpose acquisition company (SPAC) that offers a fast-track to the public markets for firms seeking capital, […]\nThe post Space-focused SPAC goes public after pricing $200 million IPO appeared first on SpaceNews."
+    },
+    {
       "title": "U.S. Space Command to bring commercial firms into classified wargame on nuclear threats in space",
       "link": "https://spacenews.com/u-s-space-command-to-bring-commercial-firms-into-classified-wargame-on-nuclear-threats-in-space/",
       "source": "SpaceNews",
@@ -20,21 +34,7 @@
       "source": "NASA",
       "date": "2026-01-28T17:02:35Z",
       "summary": "NASA’s Artemis II mission will transport four astronauts around the Moon, bringing the agency one step closer to sending the first astronauts to Mars. Throughout Artemis II, astronaut voice, images, video, and vital mission data must traverse thousands of miles, carried on signals from NASA’s communications systems. Through Artemis, NASA is establishing an enduring presence […]"
-    },
-    {
-      "title": "NASA Telescopes Spot Surprisingly Mature Cluster in Early Universe",
-      "link": "https://www.nasa.gov/missions/chandra/nasa-telescopes-spot-surprisingly-mature-cluster-in-early-universe/",
-      "source": "NASA",
-      "date": "2026-01-28T16:38:10Z",
-      "summary": "A new discovery captures the cosmic moment when a galaxy cluster – among the largest structures in the universe – started to assemble only about a billion years after the big bang, one or two billion years earlier than previously thought. This result, made using NASA’s Chandra X-ray Observatory and James Webb Space Telescope, will […]"
-    },
-    {
-      "title": "Chandra, Webb Catch Twinkling Lights",
-      "link": "https://www.nasa.gov/image-article/chandra-webb-catch-twinkling-lights/",
-      "source": "NASA",
-      "date": "2026-01-28T16:26:52Z",
-      "summary": "Data from Chandra adds red, green, and blue twinkling lights in this Dec. 22, 2025, image of Pismis 24 from NASA’s James Webb Space Telescope. Pismis 24 is a young cluster of stars in the core of the nearby Lobster Nebula, approximately 5,500 light-years from Earth in the constellation Scorpius. Home to a vibrant stellar nursery […]"
     }
   ],
-  "updated": "2026-01-28T21:17:49.001Z"
+  "updated": "2026-01-28T21:46:55.623Z"
 }
