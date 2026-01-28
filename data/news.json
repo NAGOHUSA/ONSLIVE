@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "GAO flags risks in Space Development Agency’s missile-tracking satellite program",
+      "link": "https://spacenews.com/gao-flags-risks-in-space-development-agencys-missile-tracking-satellite-program/",
+      "source": "SpaceNews",
+      "date": "2026-01-28T21:45:51Z",
+      "summary": "\nCongressional watchdog says SDA is overestimating technology readiness \nThe post GAO flags risks in Space Development Agency’s missile-tracking satellite program appeared first on SpaceNews."
+    },
+    {
       "title": "HEO acquires in-orbit satellite from Satellogic",
       "link": "https://spacenews.com/heo-acquires-in-orbit-satellite-from-satellogic/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-28T18:51:32Z",
       "summary": "\nGen. Stephen Whiting: A space becomes a contested military domain, the Pentagon needs not just rockets but also a sustainment and mobility infrastructure to support satellites\nThe post Space Command’s case for orbital logistics: Why the Pentagon is being urged to think beyond launch appeared first on SpaceNews."
-    },
-    {
-      "title": "Networks Keeping NASA’s Artemis II Mission Connected",
-      "link": "https://www.nasa.gov/missions/artemis/networks-keeping-nasas-artemis-ii-mission-connected/",
-      "source": "NASA",
-      "date": "2026-01-28T17:02:35Z",
-      "summary": "NASA’s Artemis II mission will transport four astronauts around the Moon, bringing the agency one step closer to sending the first astronauts to Mars. Throughout Artemis II, astronaut voice, images, video, and vital mission data must traverse thousands of miles, carried on signals from NASA’s communications systems. Through Artemis, NASA is establishing an enduring presence […]"
     }
   ],
-  "updated": "2026-01-28T21:46:55.623Z"
+  "updated": "2026-01-28T22:00:48.146Z"
 }
