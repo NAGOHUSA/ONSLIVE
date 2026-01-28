@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "European Space Conference in Bruxelles: ESA DG keynote address on the second day",
+      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/01/European_Space_Conference_in_Bruxelles_ESA_DG_keynote_address_on_the_second_day",
+      "source": "ESA",
+      "date": "2026-01-28T12:30:00Z",
+      "summary": "Watch the keynote address by ESA Director General Josef Aschbacher on the second day of the 18th European Space Conference in Brussels."
+    },
+    {
       "title": "FAA projects continuing growth in commercial space transportation",
       "link": "https://spacenews.com/faa-projects-continuing-growth-in-commercial-space-transportation/",
       "source": "SpaceNews",
@@ -15,13 +22,6 @@
       "summary": "Berlin, Germany (SPX) Jan 28, 2026\r\n\r\n\r\nThe first images from Europe s pioneering meteorological infrared sounder were unveiled at the EU Space Conference in Brussels, marking a significant advance in observing the atmosphere in three dimensions ahead of severe weather. \r\n\r\nThe new data come from the Infrared Sounder instrument on Meteosat Third Generation Sounder 1, the first European geostationary satellite to carry a hyperspectra"
     },
     {
-      "title": "NASA Testing Advances Space Nuclear Propulsion Capabilities",
-      "link": "https://www.spacedaily.com/reports/NASA_Testing_Advances_Space_Nuclear_Propulsion_Capabilities_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-28T11:17:52Z",
-      "summary": "Washington DC (SPX) Jan 27, 2026\n\n\nNuclear propulsion and power technologies could unlock new frontiers in missions to the Moon, Mars, and beyond. NASA has reached an important milestone advancing nuclear propulsion that could benefit future deep space missions by completing a cold-flow test campaign of the first flight reactor engineering development unit since the 1960s. \n\nTeams at the agency's Marshall Space Flight Center"
-    },
-    {
       "title": "Webb sharpens view of dark matter shaping the cosmos",
       "link": "https://www.spacedaily.com/reports/Webb_sharpens_view_of_dark_matter_shaping_the_cosmos_999.html",
       "source": "SpaceDaily",
@@ -29,12 +29,12 @@
       "summary": "London, UK (SPX) Jan 28, 2026\r\n\r\n\r\nScientists have produced the most detailed map yet of the dark matter that threads through the Universe, revealing how this invisible component has guided the formation of galaxies, stars and planets over cosmic time. \r\n\r\nThe new map, created with observations from NASA's James Webb Space Telescope and published in Nature Astronomy, traces dark matter in a region of sky in the constellation Se"
     },
     {
-      "title": "NASA and GE run hybrid jet engine test toward commercial flight",
-      "link": "https://www.spacedaily.com/reports/NASA_and_GE_run_hybrid_jet_engine_test_toward_commercial_flight_999.html",
+      "title": "NASA Testing Advances Space Nuclear Propulsion Capabilities",
+      "link": "https://www.spacedaily.com/reports/NASA_Testing_Advances_Space_Nuclear_Propulsion_Capabilities_999.html",
       "source": "SpaceDaily",
       "date": "2026-01-28T11:17:52Z",
-      "summary": "Los Angeles CA (SPX) Jan 28, 2026\n\n\nTo an untrained eye, the aircraft engine sitting outside a Cincinnati area facility in December looked like standard hardware. For NASA and GE Aerospace researchers watching the unit fire up for a demonstration, it represented a hybrid engine performing at a level that could potentially power an airliner. \n\nThe engine, tested at GE Aerospace's Peebles Test Operation site in Ohio, is a modifi"
+      "summary": "Washington DC (SPX) Jan 27, 2026\n\n\nNuclear propulsion and power technologies could unlock new frontiers in missions to the Moon, Mars, and beyond. NASA has reached an important milestone advancing nuclear propulsion that could benefit future deep space missions by completing a cold-flow test campaign of the first flight reactor engineering development unit since the 1960s. \n\nTeams at the agency's Marshall Space Flight Center"
     }
   ],
-  "updated": "2026-01-28T12:24:56.631Z"
+  "updated": "2026-01-28T13:26:18.249Z"
 }
