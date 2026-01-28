@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "NASA Telescopes Spot Surprisingly Mature Cluster in Early Universe",
+      "link": "https://www.nasa.gov/missions/chandra/nasa-telescopes-spot-surprisingly-mature-cluster-in-early-universe/",
+      "source": "NASA",
+      "date": "2026-01-28T16:38:10Z",
+      "summary": "A new discovery captures the cosmic moment when a galaxy cluster – among the largest structures in the universe – started to assemble only about a billion years after the big bang, one or two billion years earlier than previously thought. This result, made using NASA’s Chandra X-ray Observatory and James Webb Space Telescope, will […]"
+    },
+    {
+      "title": "Chandra, Webb Catch Twinkling Lights",
+      "link": "https://www.nasa.gov/image-article/chandra-webb-catch-twinkling-lights/",
+      "source": "NASA",
+      "date": "2026-01-28T16:26:52Z",
+      "summary": "Data from Chandra adds red, green, and blue twinkling lights in this Dec. 22, 2025, image of Pismis 24 from NASA’s James Webb Space Telescope. Pismis 24 is a young cluster of stars in the core of the nearby Lobster Nebula, approximately 5,500 light-years from Earth in the constellation Scorpius. Home to a vibrant stellar nursery […]"
+    },
+    {
       "title": "Space Futures Centre, World Economic Forum Launch Space Debris Insights Report",
       "link": "https://spacenews.com/space-futures-centre-world-economic-forum-launch-space-debris-insights-report/",
       "source": "SpaceNews",
@@ -15,26 +29,12 @@
       "summary": "\nOQ Technology is preparing to deploy a small satellite to test using C-band to connect smartphones from LEO, joining SpaceX in a push to repurpose the spectrum for direct-to-device services.\nThe post OQ Technology plots smartphone test amid SpaceX’s C-band D2D push appeared first on SpaceNews."
     },
     {
-      "title": "Webb gazes further back in time",
-      "link": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_gazes_further_back_in_time",
-      "source": "ESA",
-      "date": "2026-01-28T15:00:00Z",
-      "summary": "The NASA/ESA/CSA James Webb Space Telescope has topped itself once again, delivering on its promise to push the boundaries of its observations closer to cosmic dawn with the confirmation of a bright galaxy that existed 280 million years after the Big Bang."
-    },
-    {
       "title": "NASA Webb Pushes Boundaries of Observable Universe Closer to Big Bang",
       "link": "https://science.nasa.gov/missions/webb/nasa-webb-pushes-boundaries-of-observable-universe-closer-to-big-bang/",
       "source": "NASA",
       "date": "2026-01-28T15:00:00Z",
       "summary": "NASA’s James Webb Space Telescope has topped itself once again, delivering on its promise to push the boundaries of the observable universe closer to cosmic dawn with the confirmation of a bright galaxy that existed 280 million years after the big bang. By now Webb has established that it will eventually surpass virtually every benchmark […]"
-    },
-    {
-      "title": "China set for crewed lunar tests, record launches, moon mission and reusable rockets in 2026",
-      "link": "https://spacenews.com/china-set-for-crewed-lunar-tests-record-launches-moon-mission-and-reusable-rockets-in-2026/",
-      "source": "SpaceNews",
-      "date": "2026-01-28T14:36:14Z",
-      "summary": "\nChina appears set to accelerate its launch rate this year while also conducting tests key to its crewed lunar ambitions and launching major missions.\nThe post China set for crewed lunar tests, record launches, moon mission and reusable rockets in 2026 appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-28T16:02:00.758Z"
+  "updated": "2026-01-28T16:49:22.758Z"
 }
