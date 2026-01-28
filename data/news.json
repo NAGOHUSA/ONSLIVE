@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Snow Buries the U.S. Interior and East",
+      "link": "https://science.nasa.gov/earth/earth-observatory/snow-buries-the-u-s-interior-and-east/",
+      "source": "NASA",
+      "date": "2026-01-28T05:01:00Z",
+      "summary": "Satellites observed a frozen landscape across much of the country after a massive winter storm."
+    },
+    {
       "title": "Budget remains tight for scaled-back GeoXO program",
       "link": "https://spacenews.com/budget-remains-tight-for-scaled-back-geoxo-program/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-01-27T22:27:20Z",
       "summary": "The Discovery A candidate planet that might be remarkably similar to Earth, HD 137010 b, has one potentially big difference: It could be colder than perpetually frozen Mars. Key Facts Scientists continue to mine data gathered by NASA’s Kepler Space Telescope, retired in 2018, and continue to turn up surprises. A new paper reveals the […]"
-    },
-    {
-      "title": "NASA Science Flights Venture to Improve Severe Winter Weather Warnings",
-      "link": "https://www.nasa.gov/missions/airborne-science/nasa-science-flights-venture-to-improve-severe-winter-weather-warnings/",
-      "source": "NASA",
-      "date": "2026-01-27T21:44:51Z",
-      "summary": "A team of NASA scientists deployed on an international mission designed to better understand severe winter storms. The North American Upstream Feature-Resolving and Tropopause Uncertainty Reconnaissance Experiment, or NURTURE, is an airborne campaign that uses a suite of remote sensing instruments to collect atmospheric data on winter weather with a goal of improving the models […]"
     }
   ],
-  "updated": "2026-01-28T04:53:45.429Z"
+  "updated": "2026-01-28T05:17:46.443Z"
 }
