@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA readies unique science experiments and tech demonstrations for Artemis II crew",
+      "link": "https://www.nasaspaceflight.com/2026/01/artemis-ii-science-overview/",
+      "source": "NASASpaceflight",
+      "date": "2026-01-28T22:23:19Z",
+      "summary": "Artemis II, the next mission in NASA’s Artemis program to explore the Moon, is scheduled…\nThe post NASA readies unique science experiments and tech demonstrations for Artemis II crew appeared first on NASASpaceFlight.com."
+    },
+    {
       "title": "GAO flags risks in Space Development Agency’s missile-tracking satellite program",
       "link": "https://spacenews.com/gao-flags-risks-in-space-development-agencys-missile-tracking-satellite-program/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-28T19:41:19Z",
       "summary": "\nUpcoming tabletop exercise will examine response to weapons of mass destruction in orbit\nThe post U.S. Space Command to bring commercial firms into classified wargame on nuclear threats in space appeared first on SpaceNews."
-    },
-    {
-      "title": "Space Command’s case for orbital logistics: Why the Pentagon is being urged to think beyond launch",
-      "link": "https://spacenews.com/space-commands-case-for-orbital-logistics-why-the-pentagon-is-being-urged-to-think-beyond-launch/",
-      "source": "SpaceNews",
-      "date": "2026-01-28T18:51:32Z",
-      "summary": "\nGen. Stephen Whiting: A space becomes a contested military domain, the Pentagon needs not just rockets but also a sustainment and mobility infrastructure to support satellites\nThe post Space Command’s case for orbital logistics: Why the Pentagon is being urged to think beyond launch appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-28T22:00:48.146Z"
+  "updated": "2026-01-28T22:31:34.338Z"
 }
