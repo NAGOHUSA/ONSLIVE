@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Budget remains tight for scaled-back GeoXO program",
+      "link": "https://spacenews.com/budget-remains-tight-for-scaled-back-geoxo-program/",
+      "source": "SpaceNews",
+      "date": "2026-01-28T03:56:45Z",
+      "summary": "\nSAN FRANCISCO – The National Oceanic and Atmospheric Administration is keeping close tabs on the cost of the next generation of geostationary weather satellites. The Geostationary and Extended Operations (GeoXO) […]\nThe post Budget remains tight for scaled-back GeoXO program appeared first on SpaceNews."
+    },
+    {
       "title": "EU launches government satcom program in sovereignty push",
       "link": "https://spacenews.com/eu-launches-government-satcom-program-in-sovereignty-push/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-01-27T21:44:51Z",
       "summary": "A team of NASA scientists deployed on an international mission designed to better understand severe winter storms. The North American Upstream Feature-Resolving and Tropopause Uncertainty Reconnaissance Experiment, or NURTURE, is an airborne campaign that uses a suite of remote sensing instruments to collect atmospheric data on winter weather with a goal of improving the models […]"
-    },
-    {
-      "title": "Webb Data Reveals Dark Matter",
-      "link": "https://science.nasa.gov/photojournal/webb-data-reveals-dark-matter/",
-      "source": "NASA",
-      "date": "2026-01-27T21:24:10Z",
-      "summary": "This image from NASA’s James Webb Space Telescope, containing nearly 800,000 galaxies, is overlaid with a map of dark matter, represented in blue. Brighter blue areas indicate a higher density of dark matter. Researchers used Webb data to find the dark matter — which is invisible — via its gravitational influence on regular matter. The […]"
     }
   ],
-  "updated": "2026-01-28T03:03:25.237Z"
+  "updated": "2026-01-28T04:11:02.655Z"
 }
