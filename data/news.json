@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA Heat Shield Technology Enables Space Industry Growth",
+      "link": "https://www.nasa.gov/directorates/stmd/nasa-heat-shield-technology-enables-space-industry-growth/",
+      "source": "NASA",
+      "date": "2026-01-29T21:42:23Z",
+      "summary": "Using cutting-edge material licensed from NASA, a protective heat shield manufactured in-house by Varda Space Industries for the first time enabled one of its capsules to blaze through Earth’s atmosphere on Thursday, marking a significant milestone for the agency and America’s space industry. The material, known as C-PICA (Conformal Phenolic Impregnated Carbon Ablator), provides a […]"
+    },
+    {
       "title": "NASA Awards Help Inspire Future Innovators Through STEM Engagement",
       "link": "https://www.nasa.gov/news-release/nasa-awards-help-inspire-future-innovators-through-stem-engagement/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-01-29T19:09:56Z",
       "summary": "Doug Parkinson’s face lights up as he starts telling his story, how someone from  Wisconsin now plays a part in the team that will help land the first Artemis astronauts on to the Moon. Parkinson serves as NASA’s SLS (Space Launch System) rocket lead for Launch Integration and Mission Operations, guiding engineers responsible for monitoring […]"
-    },
-    {
-      "title": "Eutelsat’s ground infrastructure sale falls through",
-      "link": "https://spacenews.com/eutelsats-ground-infrastructure-sale-falls-through/",
-      "source": "SpaceNews",
-      "date": "2026-01-29T18:52:00Z",
-      "summary": "\nEutelsat said a planned sale of its passive ground infrastructure to a private equity firm announced in August 2024 will not proceed, eliminating roughly $658 million in expected proceeds.\nThe post Eutelsat’s ground infrastructure sale falls through appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-29T21:35:04.986Z"
+  "updated": "2026-01-29T21:54:22.907Z"
 }
