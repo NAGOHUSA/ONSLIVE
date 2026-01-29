@@ -1,4 +1,40 @@
 {
-  "articles": [],
-  "updated": "2026-01-29T20:49:24.184Z"
+  "articles": [
+    {
+      "title": "NASA Awards Help Inspire Future Innovators Through STEM Engagement",
+      "link": "https://www.nasa.gov/news-release/nasa-awards-help-inspire-future-innovators-through-stem-engagement/",
+      "source": "NASA",
+      "date": "2026-01-29T20:59:53Z",
+      "summary": "NASA has awarded more than $5 million to 29 institutions nationwide to expand and strengthen science, technology, engineering, and math (STEM) learning beyond the classroom. The awards are designed to help build skills that lead directly to STEM careers. These organizations collaborate with libraries, after-school programs, and youth-serving groups to provide sustainable learning opportunities that […]"
+    },
+    {
+      "title": "NASA-ISRO Radar Mission Peers Through Clouds to See Mississippi River Delta",
+      "link": "https://www.nasa.gov/missions/nisar/nasa-isro-radar-mission-peers-through-clouds-to-see-mississippi-river-delta/",
+      "source": "NASA",
+      "date": "2026-01-29T20:57:25Z",
+      "summary": "A new image from the NISAR mission shows off the satellite’s ability to reveal details of Earth’s surfaces. The science team also released new sample data.  A U.S.-Indian Earth satellite’s ability to see through clouds, revealing insights and characteristics of our planet’s surface, is on display in a colorful, newly released image showing the Mississippi River Delta region in southeastern Louisiana.  Created with data collected by the NISAR (NASA-ISRO […]"
+    },
+    {
+      "title": "Global Space Economy Reaches $626 Billion, Marking a New Phase of Growth",
+      "link": "https://spacenews.com/global-space-economy-reaches-626-billion-marking-a-new-phase-of-growth/",
+      "source": "SpaceNews",
+      "date": "2026-01-29T20:35:26Z",
+      "summary": "\nParis, France [January 29, 2026] – The 12th edition of Novaspace’s Space Economy Report notes the global space economy is now on a significant growth trajectory, positioned to expand from […]\nThe post Global Space Economy Reaches $626 Billion, Marking a New Phase of Growth appeared first on SpaceNews."
+    },
+    {
+      "title": "I Am Artemis: Doug Parkinson",
+      "link": "https://www.nasa.gov/missions/artemis/i-am-artemis/i-am-artemis-doug-parkinson/",
+      "source": "NASA",
+      "date": "2026-01-29T19:09:56Z",
+      "summary": "Doug Parkinson’s face lights up as he starts telling his story, how someone from  Wisconsin now plays a part in the team that will help land the first Artemis astronauts on to the Moon. Parkinson serves as NASA’s SLS (Space Launch System) rocket lead for Launch Integration and Mission Operations, guiding engineers responsible for monitoring […]"
+    },
+    {
+      "title": "Eutelsat’s ground infrastructure sale falls through",
+      "link": "https://spacenews.com/eutelsats-ground-infrastructure-sale-falls-through/",
+      "source": "SpaceNews",
+      "date": "2026-01-29T18:52:00Z",
+      "summary": "\nEutelsat said a planned sale of its passive ground infrastructure to a private equity firm announced in August 2024 will not proceed, eliminating roughly $658 million in expected proceeds.\nThe post Eutelsat’s ground infrastructure sale falls through appeared first on SpaceNews."
+    }
+  ],
+  "updated": "2026-01-29T21:01:49.173Z"
 }
