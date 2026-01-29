@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Falcon Goes 3 for 3 with Rapid Response GPS III-9 Launch",
+      "link": "https://www.spacescout.info/2026/01/falcon-goes-3-for-3-with-rapid-response-gps-iii-9-launch/",
+      "source": "Space Scout",
+      "date": "2026-01-29T17:34:53Z",
+      "summary": "At 11:53 PM on Tuesday night, a SpaceX Falcon 9 rocket leapt from Space Launch Complex-40 at Cape Canaveral Space Force Station, carrying another GPS block III spacecraft into orbit."
+    },
+    {
+      "title": "NASA Analysis Shows La Niña Limited Sea Level Rise in 2025",
+      "link": "https://www.nasa.gov/earth/nasa-analysis-shows-la-nina-limited-sea-level-rise-in-2025/",
+      "source": "NASA",
+      "date": "2026-01-29T17:01:58Z",
+      "summary": "A mild La Niña caused greater rainfall over the Amazon basin, which offset rising sea levels due to record warming of Earth’s oceans. The rise in the global mean sea level slowed in 2025 relative to the year before, an effect largely due to the La Niña conditions that persisted over most of the year. […]"
+    },
+    {
       "title": "Oxford Space Systems Wrapped Rib Antenna Successfully Deployed In-Orbit on CarbSAR Mission",
       "link": "https://spacenews.com/oxford-space-systems-wrapped-rib-antenna-successfully-deployed-in-orbit-on-carbsar-mission/",
       "source": "SpaceNews",
@@ -8,33 +22,19 @@
       "summary": "\nHarwell and Guildford, UK – Oxford Space Systems and Surrey Satellite Technology Limited (SSTL) today announced the successful in-orbit deployment of Oxford Space Systems’ Wrapped Rib Antenna on SSTL’s CarbSAR […]\nThe post Oxford Space Systems Wrapped Rib Antenna Successfully Deployed In-Orbit on CarbSAR Mission appeared first on SpaceNews."
     },
     {
+      "title": "NASA Researchers Probe Tangled Magnetospheres of Merging Neutron Stars",
+      "link": "https://science.nasa.gov/science-research/nasa-researchers-probe-tangled-magnetospheres-of-merging-neutron-stars/",
+      "source": "NASA",
+      "date": "2026-01-29T16:15:44Z",
+      "summary": "New simulations performed on a NASA supercomputer are providing scientists with the most comprehensive look yet into the maelstrom of interacting magnetic structures around city-sized neutron stars in the moments before they crash. The team identified potential signals emitted during the stars’ final moments that may be detectable by future observatories.   “Just before neutron […]"
+    },
+    {
       "title": "Webb Zooms into Helix Nebula",
       "link": "https://www.nasa.gov/image-article/webb-zooms-into-helix-nebula/",
       "source": "NASA",
       "date": "2026-01-29T15:48:33Z",
       "summary": "NASA’s James Webb Space Telescope has zoomed into the Helix Nebula to give an up-close view of the possible eventual fate of our own Sun and planetary system. In Webb’s high-resolution look, the structure of the gas being shed off by a dying star comes into full focus. The image reveals how stars recycle their […]"
-    },
-    {
-      "title": "Building Roman",
-      "link": "https://science.nasa.gov/missions/roman-space-telescope/building-roman/",
-      "source": "NASA",
-      "date": "2026-01-29T15:20:48Z",
-      "summary": "Technicians have completed the construction of NASA’s Nancy Grace Roman Space Telescope. The Roman observatory is slated to launch no later than May 2027, with the team aiming for as early as fall 2026. The mission will revolutionize our understanding of the universe with its deep, crisp, sweeping views of space. More than a thousand […]"
-    },
-    {
-      "title": "Do you have ideas about how to improve America's space program?",
-      "link": "https://arstechnica.com/space/2026/01/do-you-have-ideas-about-how-to-improve-americas-space-program/",
-      "source": "Arstechnica",
-      "date": "2026-01-29T15:18:44Z",
-      "summary": "\"Any time there’s dynamic change, there’s the opportunity for new ideas.\""
-    },
-    {
-      "title": "China eyes space resources, space tourism and on-orbit digital infrastructure",
-      "link": "https://spacenews.com/china-eyes-space-resources-space-tourism-and-on-orbit-digital-infrastructure/",
-      "source": "SpaceNews",
-      "date": "2026-01-29T13:33:35Z",
-      "summary": "\nChina’s main space contractor says it will push into new commercial space domains in the coming years as the country formulates its latest Five-year plan.\nThe post China eyes space resources, space tourism and on-orbit digital infrastructure appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-29T17:02:38.513Z"
+  "updated": "2026-01-29T17:45:34.100Z"
 }
