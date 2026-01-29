@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Eutelsat’s ground infrastructure sale falls through",
+      "link": "https://spacenews.com/eutelsats-ground-infrastructure-sale-falls-through/",
+      "source": "SpaceNews",
+      "date": "2026-01-29T18:52:00Z",
+      "summary": "\nEutelsat said a planned sale of its passive ground infrastructure to a private equity firm announced in August 2024 will not proceed, eliminating roughly $658 million in expected proceeds.\nThe post Eutelsat’s ground infrastructure sale falls through appeared first on SpaceNews."
+    },
+    {
       "title": "March 2026 Total Lunar Eclipse: Your Questions Answered",
       "link": "https://science.nasa.gov/solar-system/moon/march-2026-total-lunar-eclipse-your-questions-answered/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-29T17:00:00Z",
       "summary": "\nHarwell and Guildford, UK – Oxford Space Systems and Surrey Satellite Technology Limited (SSTL) today announced the successful in-orbit deployment of Oxford Space Systems’ Wrapped Rib Antenna on SSTL’s CarbSAR […]\nThe post Oxford Space Systems Wrapped Rib Antenna Successfully Deployed In-Orbit on CarbSAR Mission appeared first on SpaceNews."
-    },
-    {
-      "title": "NASA Researchers Probe Tangled Magnetospheres of Merging Neutron Stars",
-      "link": "https://science.nasa.gov/science-research/nasa-researchers-probe-tangled-magnetospheres-of-merging-neutron-stars/",
-      "source": "NASA",
-      "date": "2026-01-29T16:15:44Z",
-      "summary": "New simulations performed on a NASA supercomputer are providing scientists with the most comprehensive look yet into the maelstrom of interacting magnetic structures around city-sized neutron stars in the moments before they crash. The team identified potential signals emitted during the stars’ final moments that may be detectable by future observatories.   “Just before neutron […]"
     }
   ],
-  "updated": "2026-01-29T18:23:28.755Z"
+  "updated": "2026-01-29T19:06:07.815Z"
 }
