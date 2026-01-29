@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "EU Brings GOVSATCOM Secure Communications Service Online",
+      "link": "https://europeanspaceflight.com/eu-brings-govsatcom-secure-communications-service-online/",
+      "source": "European Spaceflight",
+      "date": "2026-01-29T08:49:06Z",
+      "summary": "The European Union’s GOVSATCOM service was officially brought online on 14 January, offering secure communications to European military and government users. This initial service is enabled by pooling capacity from eight existing satellites in five countries. Initially announced in 2018, the Governmental Satellite Communications (GOVSATCOM) initiative offers sovereign, reliable, secure, and cost-effective governmental satellite communications […]\nThe post EU Brings GOVSATCOM Secure Communications Service Online appeared first on European Spaceflight."
+    },
+    {
       "title": "The West Faces Snow Drought",
       "link": "https://science.nasa.gov/earth/earth-observatory/the-west-faces-snow-drought/",
       "source": "NASA",
@@ -15,13 +22,6 @@
       "summary": "Los Angeles CA (SPX) Jan 29, 2026\r\n\r\n\r\nTwo Northrop Grumman five segment solid rocket boosters are taking their place on the launch pad as NASA prepares for the first crewed flight of the Space Launch System rocket under the Artemis II mission from Pad 39B at Kennedy Space Center in Florida, targeted for early February 2026. \r\n\r\nThe twin solid rocket boosters stand 177 feet tall and each produces 3.6 million pounds of thrust at lif"
     },
     {
-      "title": "ESA member states back SWISSto12 HummingSat with fresh funding round",
-      "link": "https://www.spacedaily.com/reports/ESA_member_states_back_SWISSto12_HummingSat_with_fresh_funding_round_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-29T04:43:51Z",
-      "summary": "Renens, Switzerland (SPX) Jan 21, 2026\r\n\r\n\r\nSWISSto12 has secured 73 million euros in financial support from European Space Agency (ESA) member states through the HummingSat ARTES partnership project, reinforcing development and industrialization of its compact geostationary telecommunications platform. The company now has more than 100 million euros in total recent funding after combining this institutional backing with additional capita"
-    },
-    {
       "title": "AI tool mines Hubble archive for hundreds of strange cosmic objects",
       "link": "https://www.spacedaily.com/reports/AI_tool_mines_Hubble_archive_for_hundreds_of_strange_cosmic_objects_999.html",
       "source": "SpaceDaily",
@@ -29,12 +29,12 @@
       "summary": "Los Angeles CA (SPX) Jan 29, 2026\r\n\r\n\r\nA team of astronomers has used a new artificial intelligence assisted technique to uncover rare astronomical phenomena in archived data from NASA's Hubble Space Telescope. They sifted through nearly 100 million small image cutouts from the Hubble Legacy Archive, each only a few dozen pixels across, and identified more than 1,300 unusually shaped objects in just two and a half days, including ove"
     },
     {
-      "title": "Bright streaks reveal Mercury still geologically active",
-      "link": "https://www.spacedaily.com/reports/Bright_streaks_reveal_Mercury_still_geologically_active_999.html",
+      "title": "ESA member states back SWISSto12 HummingSat with fresh funding round",
+      "link": "https://www.spacedaily.com/reports/ESA_member_states_back_SWISSto12_HummingSat_with_fresh_funding_round_999.html",
       "source": "SpaceDaily",
       "date": "2026-01-29T04:43:51Z",
-      "summary": "Berlin, Germany (SPX) Jan 29, 2026\r\n\r\n\r\nA new analysis of Mercury has uncovered hundreds of bright linear streaks on crater slopes that point to ongoing loss of volatile material from the planet's interior, challenging the view of Mercury as a geologically dead and dry world. The work, led by researchers at the Center for Space and Habitability (CSH) at the University of Bern together with colleagues at the Astronomical Observatory of"
+      "summary": "Renens, Switzerland (SPX) Jan 21, 2026\r\n\r\n\r\nSWISSto12 has secured 73 million euros in financial support from European Space Agency (ESA) member states through the HummingSat ARTES partnership project, reinforcing development and industrialization of its compact geostationary telecommunications platform. The company now has more than 100 million euros in total recent funding after combining this institutional backing with additional capita"
     }
   ],
-  "updated": "2026-01-29T08:20:56.848Z"
+  "updated": "2026-01-29T09:01:34.671Z"
 }
