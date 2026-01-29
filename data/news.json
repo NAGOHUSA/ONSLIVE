@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Webb Zooms into Helix Nebula",
+      "link": "https://www.nasa.gov/image-article/webb-zooms-into-helix-nebula/",
+      "source": "NASA",
+      "date": "2026-01-29T15:48:33Z",
+      "summary": "NASA’s James Webb Space Telescope has zoomed into the Helix Nebula to give an up-close view of the possible eventual fate of our own Sun and planetary system. In Webb’s high-resolution look, the structure of the gas being shed off by a dying star comes into full focus. The image reveals how stars recycle their […]"
+    },
+    {
+      "title": "Building Roman",
+      "link": "https://science.nasa.gov/missions/roman-space-telescope/building-roman/",
+      "source": "NASA",
+      "date": "2026-01-29T15:20:48Z",
+      "summary": "Technicians have completed the construction of NASA’s Nancy Grace Roman Space Telescope. The Roman observatory is slated to launch no later than May 2027, with the team aiming for as early as fall 2026. The mission will revolutionize our understanding of the universe with its deep, crisp, sweeping views of space. More than a thousand […]"
+    },
+    {
       "title": "Do you have ideas about how to improve America's space program?",
       "link": "https://arstechnica.com/space/2026/01/do-you-have-ideas-about-how-to-improve-americas-space-program/",
       "source": "Arstechnica",
@@ -20,21 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-29T12:00:00Z",
       "summary": "\nTürkiye’s space industry is no longer the limiting factor in its potential participation in Artemis Accords. Over the past two decades, Ankara has built an increasingly sophisticated space ecosystem, one that now finds itself at a strategic inflection point. If Türkiye were to engage with the Artemis Accords, now with 61 signatories after Oman signed, […]\nThe post What would Artemis participation mean for Türkiye’s space industry and space diplomacy? appeared first on SpaceNews."
-    },
-    {
-      "title": "Space Grove Ventures Announces Public Launch at SpaceCom | Space Congress, Signaling a New Commercial Model for Space and Defense Ecosystem Development",
-      "link": "https://spacenews.com/space-grove-ventures-announces-public-launch-at-spacecom-space-congress-signaling-a-new-commercial-model-for-space-and-defense-ecosystem-development/",
-      "source": "SpaceNews",
-      "date": "2026-01-29T11:00:00Z",
-      "summary": "\nJanuary 29, 2026 | 6:00 AM ET Orlando, Florida – Space Grove Ventures publicly launches at SpaceCom | Space Congress today, taking place January 28–30 at the Orange County Convention […]\nThe post Space Grove Ventures Announces Public Launch at SpaceCom | Space Congress, Signaling a New Commercial Model for Space and Defense Ecosystem Development appeared first on SpaceNews."
-    },
-    {
-      "title": "SpaceX eyes IPO timed to planet alignment and Musk birthday: report",
-      "link": "https://www.spacedaily.com/reports/SpaceX_eyes_IPO_timed_to_planet_alignment_and_Musk_birthday_report_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-29T10:31:23Z",
-      "summary": "San Francisco, United States (AFP) Jan 28, 2026\r\n\r\n\r\n SpaceX is targeting a mid-June initial public offering that would coincide with a rare planetary alignment and founder Elon Musk's birthday, the Financial Times reported on Wednesday, as the billionaire entrepreneur seeks to raise a record $50 billion. \r\n\r\nThe rocket company is planning its IPO for when Jupiter and Venus appear very close together in the sky - a conjunction that occurs for the"
     }
   ],
-  "updated": "2026-01-29T15:45:58.032Z"
+  "updated": "2026-01-29T16:22:45.400Z"
 }
