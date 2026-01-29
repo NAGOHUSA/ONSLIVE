@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "I Am Artemis: Doug Parkinson",
+      "link": "https://www.nasa.gov/missions/artemis/i-am-artemis/i-am-artemis-doug-parkinson/",
+      "source": "NASA",
+      "date": "2026-01-29T19:09:56Z",
+      "summary": "Doug Parkinson’s face lights up as he starts telling his story, how someone from  Wisconsin now plays a part in the team that will help land the first Artemis astronauts on to the Moon. Parkinson serves as NASA’s SLS (Space Launch System) rocket lead for Launch Integration and Mission Operations, guiding engineers responsible for monitoring […]"
+    },
+    {
       "title": "Eutelsat’s ground infrastructure sale falls through",
       "link": "https://spacenews.com/eutelsats-ground-infrastructure-sale-falls-through/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-01-29T17:01:58Z",
       "summary": "A mild La Niña caused greater rainfall over the Amazon basin, which offset rising sea levels due to record warming of Earth’s oceans. The rise in the global mean sea level slowed in 2025 relative to the year before, an effect largely due to the La Niña conditions that persisted over most of the year. […]"
-    },
-    {
-      "title": "Oxford Space Systems Wrapped Rib Antenna Successfully Deployed In-Orbit on CarbSAR Mission",
-      "link": "https://spacenews.com/oxford-space-systems-wrapped-rib-antenna-successfully-deployed-in-orbit-on-carbsar-mission/",
-      "source": "SpaceNews",
-      "date": "2026-01-29T17:00:00Z",
-      "summary": "\nHarwell and Guildford, UK – Oxford Space Systems and Surrey Satellite Technology Limited (SSTL) today announced the successful in-orbit deployment of Oxford Space Systems’ Wrapped Rib Antenna on SSTL’s CarbSAR […]\nThe post Oxford Space Systems Wrapped Rib Antenna Successfully Deployed In-Orbit on CarbSAR Mission appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-29T19:06:07.815Z"
+  "updated": "2026-01-29T19:37:48.514Z"
 }
