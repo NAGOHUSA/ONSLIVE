@@ -1,18 +1,11 @@
 {
   "articles": [
     {
-      "title": "Runaway massive stars mapped across the Milky Way",
-      "link": "https://www.spacedaily.com/reports/Runaway_massive_stars_mapped_across_the_Milky_Way_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-29T04:43:51Z",
-      "summary": "Madrid, Spain (SPX) Jan 29, 2026\n\n\nAstronomers have carried out the most extensive observational study so far of massive runaway stars in the Milky Way, combining detailed measurements of how fast these stars move, how rapidly they spin, and whether they live alone or in binary systems. Researchers from the Institute of Cosmos Sciences of the University of Barcelona (ICCUB) and the Institute of Space Studies of Catalonia (IEEC),"
-    },
-    {
-      "title": "New analysis sharpens view of cosmic birefringence and universe symmetry",
-      "link": "https://www.spacedaily.com/reports/New_analysis_sharpens_view_of_cosmic_birefringence_and_universe_symmetry_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-29T04:43:51Z",
-      "summary": "Los Angeles CA (SPX) Jan 29, 2026\n\n\nA research team has developed a method to reduce uncertainties in measurements of cosmic birefringence, a subtle rotation in the polarization of the cosmic microwave background that may hold clues to new physics beyond the standard model. The work, published January 27 in Physical Review Letters, provides the first quantitative treatment of uncertainty in the birefringence angle, a key observabl"
+      "title": "The West Faces Snow Drought",
+      "link": "https://science.nasa.gov/earth/earth-observatory/the-west-faces-snow-drought/",
+      "source": "NASA",
+      "date": "2026-01-29T05:01:00Z",
+      "summary": "Very wet—but very warm—weather in the western U.S. has left many mountainous regions looking at substantial snowpack deficits."
     },
     {
       "title": "What is the universe made of? SLAC experts weigh in on the mysterious force that shapes our cosmic history",
@@ -22,6 +15,13 @@
       "summary": "Menlo Park CA (SPX) Jan 23, 2026\n\n\nCosmologists Josh Frieman and Risa Wechsler look back on the Dark Energy Survey, sharing how it is paving the way for the NSF-DOE Vera C. Rubin Observatory to dig deeper into some of the universe's darkest mysteries. \n\nAs the Dark Energy Survey (DES) releases its final results, we caught up with two physicists who have been involved in the project from its early days. In this Q&A, Josh Friem"
     },
     {
+      "title": "New analysis sharpens view of cosmic birefringence and universe symmetry",
+      "link": "https://www.spacedaily.com/reports/New_analysis_sharpens_view_of_cosmic_birefringence_and_universe_symmetry_999.html",
+      "source": "SpaceDaily",
+      "date": "2026-01-29T04:43:51Z",
+      "summary": "Los Angeles CA (SPX) Jan 29, 2026\n\n\nA research team has developed a method to reduce uncertainties in measurements of cosmic birefringence, a subtle rotation in the polarization of the cosmic microwave background that may hold clues to new physics beyond the standard model. The work, published January 27 in Physical Review Letters, provides the first quantitative treatment of uncertainty in the birefringence angle, a key observabl"
+    },
+    {
       "title": "AI tool mines Hubble archive for hundreds of strange cosmic objects",
       "link": "https://www.spacedaily.com/reports/AI_tool_mines_Hubble_archive_for_hundreds_of_strange_cosmic_objects_999.html",
       "source": "SpaceDaily",
@@ -29,12 +29,12 @@
       "summary": "Los Angeles CA (SPX) Jan 29, 2026\n\n\nA team of astronomers has used a new artificial intelligence assisted technique to uncover rare astronomical phenomena in archived data from NASA's Hubble Space Telescope. They sifted through nearly 100 million small image cutouts from the Hubble Legacy Archive, each only a few dozen pixels across, and identified more than 1,300 unusually shaped objects in just two and a half days, including ove"
     },
     {
-      "title": "Autophage rocket concept wins EU prize for debris free launch technology",
-      "link": "https://www.spacedaily.com/reports/Autophage_rocket_concept_wins_EU_prize_for_debris_free_launch_technology_999.html",
+      "title": "Runaway massive stars mapped across the Milky Way",
+      "link": "https://www.spacedaily.com/reports/Runaway_massive_stars_mapped_across_the_Milky_Way_999.html",
       "source": "SpaceDaily",
       "date": "2026-01-29T04:43:51Z",
-      "summary": "Paris, France (SPX) Jan 29, 2026\n\n\nAlpha Impulsion, a space startup based in Toulouse and Naples, has received a 950000 euro award from the European Union for a major innovation in space propulsion aimed at more economical, efficient, and debris free access to orbit. \n\nThe company has been recognized as the first enterprise to gain international acknowledgment for a propulsion solution that from the outset addresses sustainab"
+      "summary": "Madrid, Spain (SPX) Jan 29, 2026\n\n\nAstronomers have carried out the most extensive observational study so far of massive runaway stars in the Milky Way, combining detailed measurements of how fast these stars move, how rapidly they spin, and whether they live alone or in binary systems. Researchers from the Institute of Cosmos Sciences of the University of Barcelona (ICCUB) and the Institute of Space Studies of Catalonia (IEEC),"
     }
   ],
-  "updated": "2026-01-29T04:54:24.485Z"
+  "updated": "2026-01-29T05:34:45.040Z"
 }
