@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "March 2026 Total Lunar Eclipse: Your Questions Answered",
+      "link": "https://science.nasa.gov/solar-system/moon/march-2026-total-lunar-eclipse-your-questions-answered/",
+      "source": "NASA",
+      "date": "2026-01-29T17:51:02Z",
+      "summary": "A total lunar eclipse will redden the Moon on March 3, 2026. Here’s what you need to know."
+    },
+    {
       "title": "Falcon Goes 3 for 3 with Rapid Response GPS III-9 Launch",
       "link": "https://www.spacescout.info/2026/01/falcon-goes-3-for-3-with-rapid-response-gps-iii-9-launch/",
       "source": "Space Scout",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-01-29T16:15:44Z",
       "summary": "New simulations performed on a NASA supercomputer are providing scientists with the most comprehensive look yet into the maelstrom of interacting magnetic structures around city-sized neutron stars in the moments before they crash. The team identified potential signals emitted during the stars’ final moments that may be detectable by future observatories.   “Just before neutron […]"
-    },
-    {
-      "title": "Webb Zooms into Helix Nebula",
-      "link": "https://www.nasa.gov/image-article/webb-zooms-into-helix-nebula/",
-      "source": "NASA",
-      "date": "2026-01-29T15:48:33Z",
-      "summary": "NASA’s James Webb Space Telescope has zoomed into the Helix Nebula to give an up-close view of the possible eventual fate of our own Sun and planetary system. In Webb’s high-resolution look, the structure of the gas being shed off by a dying star comes into full focus. The image reveals how stars recycle their […]"
     }
   ],
-  "updated": "2026-01-29T17:45:34.100Z"
+  "updated": "2026-01-29T18:23:28.755Z"
 }
