@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Cold weather delays earliest Artemis 2 launch opportunity",
+      "link": "https://spaceflightnow.com/2026/01/30/cold-weather-delays-earliest-artemis-2-launch-opportunity/",
+      "source": "Spaceflight Now",
+      "date": "2026-01-30T22:24:41Z",
+      "summary": "The agency is looking at Feb. 11 as the earliest date for launching the SpaceX Crew-12 mission. However, it hinges entirely on the status of Artemis 2 and whether or not it has launched. "
+    },
+    {
       "title": "Former SpaceX astronaut discusses training as a NASA astronaut candidate",
       "link": "https://www.nasaspaceflight.com/2026/01/anna-menon-interview/",
       "source": "NASASpaceflight",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-01-30T20:45:18Z",
       "summary": "While NASA is working with U.S. aviation to explore commercial supersonic technologies, the agency is also looking forward to an even faster era of flight – one of vehicles that can fly hypersonic, or five times the speed of sound. And to further that vision, NASA has issued two awards for studies into vehicle concepts.  […]"
-    },
-    {
-      "title": "Artemis II WDR Test Postponed by Frigid Weather, Could Affect Crew-12 Launch Date",
-      "link": "https://spacepolicyonline.com/news/artemis-ii-wdr-test-postponed-by-frigid-weather-could-affect-crew-12-launch-date/",
-      "source": "SpacePolicyOnline.com",
-      "date": "2026-01-30T20:44:58Z",
-      "summary": "The Wet Dress Rehearsal (WDR) required before the launch of Artemis II has been postponed from January 31 to February 2 because of bitter cold weather in Florida. NASA’s strict […]"
     }
   ],
-  "updated": "2026-01-30T22:21:40.225Z"
+  "updated": "2026-01-30T22:48:11.051Z"
 }
