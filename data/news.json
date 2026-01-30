@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Extreme January Cold",
+      "link": "https://science.nasa.gov/earth/earth-observatory/extreme-january-cold/",
+      "source": "NASA",
+      "date": "2026-01-30T05:00:00Z",
+      "summary": "Following a significant winter storm, frigid temperatures lingered in late January 2026 across a vast swath of the U.S."
+    },
+    {
       "title": "NASA Johnson Celebrates 25 Years in Space with Community Day",
       "link": "https://www.nasa.gov/centers-and-facilities/johnson/nasa-johnson-celebrates-25-years-in-space-with-community-day/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-01-29T22:25:58Z",
       "summary": "Description Advanced analysis of decades-old data from NASA’s Galileo spacecraft identifies ammonia-bearing compounds discovered on the surface of Jupiter’s moon Europa, as shown in this composite image. Zooming in on an area about 250 miles (about 400 kilometers) wide, the black-and-white mosaic to the right is composed of multiple images from Galileo’s Solid-State Imaging camera. […]"
-    },
-    {
-      "title": "NASA considering alternatives for Gateway logistics",
-      "link": "https://spacenews.com/nasa-considering-alternatives-for-gateway-logistics/",
-      "source": "SpaceNews",
-      "date": "2026-01-29T22:23:35Z",
-      "summary": "\nNASA is at a “crossroads” in deciding how to handle logistics for the lunar Gateway as it considers alternative approaches.\nThe post NASA considering alternatives for Gateway logistics appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-30T04:20:57.487Z"
+  "updated": "2026-01-30T05:17:17.434Z"
 }
