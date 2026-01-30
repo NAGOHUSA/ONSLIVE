@@ -1,11 +1,25 @@
 {
   "articles": [
     {
+      "title": "L3Harris reaffirms commitment to space business amid missile sector expansion",
+      "link": "https://spacenews.com/l3harris-reaffirms-commitment-to-space-business-amid-missile-sector-expansion/",
+      "source": "SpaceNews",
+      "date": "2026-01-30T23:01:23Z",
+      "summary": "\nThe company expects more satellite orders and space work fueled by Golden Dome\nThe post L3Harris reaffirms commitment to space business amid missile sector expansion appeared first on SpaceNews."
+    },
+    {
       "title": "Cold weather delays earliest Artemis 2 launch opportunity",
       "link": "https://spaceflightnow.com/2026/01/30/cold-weather-delays-earliest-artemis-2-launch-opportunity/",
       "source": "Spaceflight Now",
       "date": "2026-01-30T22:24:41Z",
       "summary": "The agency is looking at Feb. 11 as the earliest date for launching the SpaceX Crew-12 mission. However, it hinges entirely on the status of Artemis 2 and whether or not it has launched. "
+    },
+    {
+      "title": "NASA Earth Energy Instrument Completes Testing, Ready for Delivery",
+      "link": "https://science.nasa.gov/missions/libera/nasa-earth-energy-instrument-completes-testing-ready-for-delivery/",
+      "source": "NASA",
+      "date": "2026-01-30T22:13:13Z",
+      "summary": "NASA’s Libera instrument, which is designed to maintain the global data record of Earth’s radiation budget, has successfully completed comprehensive environmental testing. This critical milestone included thermal vacuum tests that simulate the expected space temperature and environments that Libera will experience during its mission. The Libera instrument will fly on Joint Polar Satellite System-4 (JPSS-4), […]"
     },
     {
       "title": "Former SpaceX astronaut discusses training as a NASA astronaut candidate",
@@ -20,21 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-30T21:54:08Z",
       "summary": "\nBlue Origin announced Jan. 30 that it will halt flights of its New Shepard suborbital vehicle for at least two years as it shifts its focus to human lunar exploration.\nThe post Blue Origin halts New Shepard flights appeared first on SpaceNews."
-    },
-    {
-      "title": "Here's why Blue Origin just ended its suborbital space tourism program",
-      "link": "https://arstechnica.com/space/2026/01/heres-why-blue-origin-just-ended-its-suborbital-space-tourism-program/",
-      "source": "Arstechnica",
-      "date": "2026-01-30T21:50:42Z",
-      "summary": "\"This program has laid the groundwork for our company's future success.\""
-    },
-    {
-      "title": "NASA Aims to Advance Hypersonic Flight Testing with New Awards",
-      "link": "https://www.nasa.gov/aeronautics/nasa-aims-to-advance-hypersonic-flight-testing-with-new-awards/",
-      "source": "NASA",
-      "date": "2026-01-30T20:45:18Z",
-      "summary": "While NASA is working with U.S. aviation to explore commercial supersonic technologies, the agency is also looking forward to an even faster era of flight – one of vehicles that can fly hypersonic, or five times the speed of sound. And to further that vision, NASA has issued two awards for studies into vehicle concepts.  […]"
     }
   ],
-  "updated": "2026-01-30T23:02:28.199Z"
+  "updated": "2026-01-30T23:33:59.022Z"
 }
