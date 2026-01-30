@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "NASA Aims to Advance Hypersonic Flight Testing with New Awards",
+      "link": "https://www.nasa.gov/aeronautics/nasa-aims-to-advance-hypersonic-flight-testing-with-new-awards/",
+      "source": "NASA",
+      "date": "2026-01-30T20:45:18Z",
+      "summary": "While NASA is working with U.S. aviation to explore commercial supersonic technologies, the agency is also looking forward to an even faster era of flight – one of vehicles that can fly hypersonic, or five times the speed of sound. And to further that vision, NASA has issued two awards for studies into vehicle concepts.  […]"
+    },
+    {
+      "title": "Artemis II WDR Test Postponed by Frigid Weather, Could Affect Crew-12 Launch Date",
+      "link": "https://spacepolicyonline.com/news/artemis-ii-wdr-test-postponed-by-frigid-weather-could-affect-crew-12-launch-date/",
+      "source": "SpacePolicyOnline.com",
+      "date": "2026-01-30T20:44:58Z",
+      "summary": "The Wet Dress Rehearsal (WDR) required before the launch of Artemis II has been postponed from January 31 to February 2 because of bitter cold weather in Florida. NASA’s strict […]"
+    },
+    {
       "title": "Weather delays Artemis 2 wet dress rehearsal",
       "link": "https://spacenews.com/weather-delays-artemis-2-wet-dress-rehearsal/",
       "source": "SpaceNews",
@@ -20,21 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-01-30T19:56:44Z",
       "summary": "\nIn this episode of Space Minds, SpaceNews senior staff writer Sandra Erwin sits down with Gen. Shawn Bratton, vice chair of space operations for the U.S. Space Force for a […]\nThe post A fireside chat with Space Force Gen. Shawn Bratton appeared first on SpaceNews."
-    },
-    {
-      "title": "Mapping Perseverance’s Route With AI",
-      "link": "https://science.nasa.gov/photojournal/mapping-perseverances-route-with-ai/",
-      "source": "NASA",
-      "date": "2026-01-30T19:31:58Z",
-      "summary": "Description This annotated image from NASA’s HiRISE (High Resolution Imaging Science Experiment) camera aboard the agency’s Mars Reconnaissance Orbiter image depicts the AI-planned route and the actual route taken by NASA’s Perseverance Mars rover during its 807-foot (246-meter) drive on Dec. 10, 2025, the 1,709th Martian day, or sol, of the mission. The drive was the second of two demonstrations […]"
-    },
-    {
-      "title": "NASA’s Commercial Satellite Data Acquisition Program Releases Archived and Tasked Multispectral Data from Satellogic",
-      "link": "https://science.nasa.gov/uncategorized/news-satellogic/",
-      "source": "NASA",
-      "date": "2026-01-30T18:58:35Z",
-      "summary": "“The mission of the CSDA Program is to identify, evaluate, and acquire data from commercial sources that support NASA’s Earth science research and application goals,” said CSDA Project Manager Dana Ostrenga. “The addition of this product from Satellogic to the SDX demonstrates the CSDA Program’s ongoing commitment to that mission, as well as to our […]"
     }
   ],
-  "updated": "2026-01-30T20:47:46.374Z"
+  "updated": "2026-01-30T21:03:18.337Z"
 }
