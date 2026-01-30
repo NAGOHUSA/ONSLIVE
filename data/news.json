@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "NASA faces a crucial choice on a Mars spacecraft—and it must decide soon",
+      "link": "https://arstechnica.com/space/2026/01/nasa-faces-a-crucial-choice-on-a-mars-spacecraft-and-it-must-decide-soon/",
+      "source": "Arstechnica",
+      "date": "2026-01-30T15:31:43Z",
+      "summary": "\"We think that’s a really important mission, and something that we can do.\""
+    },
+    {
+      "title": "FAA advances approval for up to 44 Starship launches from 39A",
+      "link": "https://www.nasaspaceflight.com/2026/01/faa-advances-approval-44-starship-launches-39a/",
+      "source": "NASASpaceflight",
+      "date": "2026-01-30T15:29:52Z",
+      "summary": "The Federal Aviation Administration (FAA) has reached a critical milestone in its environmental review process…\nThe post FAA advances approval for up to 44 Starship launches from 39A appeared first on NASASpaceFlight.com."
+    },
+    {
       "title": "Resurrecting Ancient Enzymes in NASA’s Search for Life Beyond Earth",
       "link": "https://science.nasa.gov/science-research/planetary-science/astrobiology/resurrecting-ancient-enzymes-in-nasas-search-for-life-beyond-earth/",
       "source": "NASA",
@@ -20,21 +34,7 @@
       "source": "ESA",
       "date": "2026-01-30T14:41:00Z",
       "summary": "The journey of Juice"
-    },
-    {
-      "title": "Week in images: 26-30 January 2026",
-      "link": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_26-30_January_2026",
-      "source": "ESA",
-      "date": "2026-01-30T14:10:00Z",
-      "summary": "Week in images: 26-30 January 2026"
-    },
-    {
-      "title": "Rocket Report: How a 5-ton satellite fell off a booster; will SpaceX and xAI merge?",
-      "link": "https://arstechnica.com/space/2026/01/rocket-report-how-a-5-ton-satellite-fell-off-a-booster-will-spacex-and-xai-merge/",
-      "source": "Arstechnica",
-      "date": "2026-01-30T12:00:41Z",
-      "summary": "\"We’re seeing remarkable growth year after year.\""
     }
   ],
-  "updated": "2026-01-30T15:21:12.159Z"
+  "updated": "2026-01-30T15:54:15.758Z"
 }
