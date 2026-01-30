@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Rocket Lab launches South Korean satellite",
+      "link": "https://spacenews.com/rocket-lab-launches-south-korean-satellite/",
+      "source": "SpaceNews",
+      "date": "2026-01-30T11:01:41Z",
+      "summary": "\nA Rocket Lab Electron launched a South Korean imaging satellite Jan. 29 on the rocket’s second flight of the year.\nThe post Rocket Lab launches South Korean satellite appeared first on SpaceNews."
+    },
+    {
       "title": "Laurent Jaffart appointed Director of Resilience, Navigation and Connectivity",
       "link": "https://www.esa.int/Newsroom/Press_Releases/Laurent_Jaffart_appointed_Director_of_Resilience_Navigation_and_Connectivity",
       "source": "ESA",
@@ -8,15 +15,15 @@
       "summary": "Press Release N° 5–2026"
     },
     {
-      "title": "Dark rings and new light",
-      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/01/Dark_rings_and_new_light",
+      "title": "Earth from Space: Rudong coast, China",
+      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/01/Earth_from_Space_Rudong_coast_China",
       "source": "ESA",
       "date": "2026-01-30T09:00:00Z",
       "summary": "From the ESA Blogs."
     },
     {
-      "title": "Earth from Space: Rudong coast, China",
-      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/01/Earth_from_Space_Rudong_coast_China",
+      "title": "Dark rings and new light",
+      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/01/Dark_rings_and_new_light",
       "source": "ESA",
       "date": "2026-01-30T09:00:00Z",
       "summary": "From the ESA Blogs."
@@ -27,14 +34,7 @@
       "source": "European Spaceflight",
       "date": "2026-01-30T08:43:57Z",
       "summary": "The European Commission has commissioned three parallel studies to examine the potential of a mobile responsive launch system capable of rapidly deploying satellites into orbit from non-permanent (mobile) ground platforms. Initially published in July 2025, the call for the Mobile Responsive Launch System pilot project noted that, amid a growing range of human-made and natural […]\nThe post EU Awards Three Contracts for Mobile Responsive Launch System Studies appeared first on European Spaceflight."
-    },
-    {
-      "title": "Rocket Lab conducts second Electron mission in eight days to orbit Korean imaging satellite",
-      "link": "https://www.spacedaily.com/reports/Rocket_Lab_conducts_second_Electron_mission_in_eight_days_to_orbit_Korean_imaging_satellite_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-30T07:44:14Z",
-      "summary": "Sydney, Australia (SPX) Jan 30, 2026\n\n\nRocket Lab Corporation has completed its 81st Electron mission, successfully deploying an Earth observation satellite for the Korea Advanced Institute of Science and Technology (KAIST) and marking its second launch in just eight days. \n\nThe mission, named Bridging The Swarm, lifted off on January 30 at 2:21 p.m. NZDT (01:21 UTC) from Rocket Lab's Launch Complex 1 in New Zealand to place the"
     }
   ],
-  "updated": "2026-01-30T11:04:11.741Z"
+  "updated": "2026-01-30T11:36:55.015Z"
 }
