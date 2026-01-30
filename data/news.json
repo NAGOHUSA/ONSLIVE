@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Weather delays Artemis 2 wet dress rehearsal",
+      "link": "https://spacenews.com/weather-delays-artemis-2-wet-dress-rehearsal/",
+      "source": "SpaceNews",
+      "date": "2026-01-30T20:20:42Z",
+      "summary": "\nNASA is delaying a key fueling test for the Artemis 2 mission because of weather, reducing the chances the launch can take place during its February window.\nThe post Weather delays Artemis 2 wet dress rehearsal appeared first on SpaceNews."
+    },
+    {
       "title": "Video: Perseverance Rover’s View of Crater Rim Drive",
       "link": "https://science.nasa.gov/photojournal/video-perseverance-rovers-view-of-crater-rim-drive/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-01-30T18:58:35Z",
       "summary": "“The mission of the CSDA Program is to identify, evaluate, and acquire data from commercial sources that support NASA’s Earth science research and application goals,” said CSDA Project Manager Dana Ostrenga. “The addition of this product from Satellogic to the SDX demonstrates the CSDA Program’s ongoing commitment to that mission, as well as to our […]"
-    },
-    {
-      "title": "NASA’s Commercial Satellite Data Acquisition Program Releases Archived and Tasked Multispectral Data from Satellogic",
-      "link": "https://science.nasa.gov/science-research/earth-science/news-satellogic/",
-      "source": "NASA",
-      "date": "2026-01-30T18:58:35Z",
-      "summary": "“The mission of the CSDA Program is to identify, evaluate, and acquire data from commercial sources that support NASA’s Earth science research and application goals,” said CSDA Project Manager Dana Ostrenga. “The addition of this product from Satellogic to the SDX demonstrates the CSDA Program’s ongoing commitment to that mission, as well as to our […]"
     }
   ],
-  "updated": "2026-01-30T20:13:50.200Z"
+  "updated": "2026-01-30T20:47:46.374Z"
 }
