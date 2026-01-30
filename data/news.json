@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Week in images: 26-30 January 2026",
+      "link": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_26-30_January_2026",
+      "source": "ESA",
+      "date": "2026-01-30T14:10:00Z",
+      "summary": "Week in images: 26-30 January 2026"
+    },
+    {
       "title": "Rocket Report: How a 5-ton satellite fell off a booster; will SpaceX and xAI merge?",
       "link": "https://arstechnica.com/space/2026/01/rocket-report-how-a-5-ton-satellite-fell-off-a-booster-will-spacex-and-xai-merge/",
       "source": "Arstechnica",
@@ -27,14 +34,7 @@
       "source": "ESA",
       "date": "2026-01-30T10:20:00Z",
       "summary": "Press Release N° 5–2026"
-    },
-    {
-      "title": "New satellite view of Tibet’s tectonic clash",
-      "link": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1/New_satellite_view_of_Tibet_s_tectonic_clash",
-      "source": "ESA",
-      "date": "2026-01-30T10:00:00Z",
-      "summary": "A study on tectonic plates that converge on the Tibetan Plateau has shown that Earth’s fault lines are far weaker and the continents are less rigid than scientists previously thought. This finding is based on ground-monitoring satellite data."
     }
   ],
-  "updated": "2026-01-30T14:09:03.342Z"
+  "updated": "2026-01-30T14:52:19.882Z"
 }
