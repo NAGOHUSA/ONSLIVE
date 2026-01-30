@@ -1,6 +1,27 @@
 {
   "articles": [
     {
+      "title": "Resurrecting Ancient Enzymes in NASA’s Search for Life Beyond Earth",
+      "link": "https://science.nasa.gov/science-research/planetary-science/astrobiology/resurrecting-ancient-enzymes-in-nasas-search-for-life-beyond-earth/",
+      "source": "NASA",
+      "date": "2026-01-30T15:04:47Z",
+      "summary": "NASA-supported scientists have resurrected an enzyme first used by organisms on Earth 3.2-billion years ago and, in the process, have validated a chemical biosignature in rocks that is used to understand ancient life on Earth. The research provides a new understanding of what Earth’s biosphere was like early in our planet’s history and confirms  a […]"
+    },
+    {
+      "title": "Hubble Sees Galaxy with Dark Rings in New Light",
+      "link": "https://science.nasa.gov/missions/hubble/hubble-sees-galaxy-with-dark-rings-in-new-light/",
+      "source": "NASA",
+      "date": "2026-01-30T15:02:18Z",
+      "summary": "This NASA/ESA Hubble Space Telescope image features an uncommon galaxy with a striking appearance. NGC 7722 is a lenticular galaxy located about 187 million light-years away in the constellation Pegasus. A lenticular, meaning “lens-shaped,” galaxy is a type whose classification sits between more familiar spiral galaxies and elliptical galaxies. It is also less common than spirals and ellipticals — partly because […]"
+    },
+    {
+      "title": "Journey of Juice link",
+      "link": "https://www.esa.int/ESA_Multimedia/Sets/The_journey_of_Juice",
+      "source": "ESA",
+      "date": "2026-01-30T14:41:00Z",
+      "summary": "The journey of Juice"
+    },
+    {
       "title": "Week in images: 26-30 January 2026",
       "link": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_26-30_January_2026",
       "source": "ESA",
@@ -13,28 +34,7 @@
       "source": "Arstechnica",
       "date": "2026-01-30T12:00:41Z",
       "summary": "\"We’re seeing remarkable growth year after year.\""
-    },
-    {
-      "title": "Making the unprecedented EU Space Act effective for all",
-      "link": "https://spacenews.com/making-the-unprecedented-eu-space-act-effective-for-all/",
-      "source": "SpaceNews",
-      "date": "2026-01-30T12:00:00Z",
-      "summary": "\nThe EU Space Act was formally proposed by the European Commission (EC) on June 25, 2025. While it doesn’t aim to codify all European Union (EU) space activities, it does address […]\nThe post Making the unprecedented EU Space Act effective for all appeared first on SpaceNews."
-    },
-    {
-      "title": "Rocket Lab launches South Korean satellite",
-      "link": "https://spacenews.com/rocket-lab-launches-south-korean-satellite/",
-      "source": "SpaceNews",
-      "date": "2026-01-30T11:01:41Z",
-      "summary": "\nA Rocket Lab Electron launched a South Korean imaging satellite Jan. 29 on the rocket’s second flight of the year.\nThe post Rocket Lab launches South Korean satellite appeared first on SpaceNews."
-    },
-    {
-      "title": "Laurent Jaffart appointed Director of Resilience, Navigation and Connectivity",
-      "link": "https://www.esa.int/Newsroom/Press_Releases/Laurent_Jaffart_appointed_Director_of_Resilience_Navigation_and_Connectivity",
-      "source": "ESA",
-      "date": "2026-01-30T10:20:00Z",
-      "summary": "Press Release N° 5–2026"
     }
   ],
-  "updated": "2026-01-30T14:52:19.882Z"
+  "updated": "2026-01-30T15:21:12.159Z"
 }
