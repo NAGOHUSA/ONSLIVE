@@ -1,15 +1,22 @@
 {
   "articles": [
     {
-      "title": "Earth from Space: Rudong coast, China",
-      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/01/Earth_from_Space_Rudong_coast_China",
+      "title": "Laurent Jaffart appointed Director of Resilience, Navigation and Connectivity",
+      "link": "https://www.esa.int/Newsroom/Press_Releases/Laurent_Jaffart_appointed_Director_of_Resilience_Navigation_and_Connectivity",
+      "source": "ESA",
+      "date": "2026-01-30T10:20:00Z",
+      "summary": "Press Release N° 5–2026"
+    },
+    {
+      "title": "Dark rings and new light",
+      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/01/Dark_rings_and_new_light",
       "source": "ESA",
       "date": "2026-01-30T09:00:00Z",
       "summary": "From the ESA Blogs."
     },
     {
-      "title": "Dark rings and new light",
-      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/01/Dark_rings_and_new_light",
+      "title": "Earth from Space: Rudong coast, China",
+      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/01/Earth_from_Space_Rudong_coast_China",
       "source": "ESA",
       "date": "2026-01-30T09:00:00Z",
       "summary": "From the ESA Blogs."
@@ -27,14 +34,7 @@
       "source": "SpaceDaily",
       "date": "2026-01-30T07:44:14Z",
       "summary": "Sydney, Australia (SPX) Jan 30, 2026\n\n\nRocket Lab Corporation has completed its 81st Electron mission, successfully deploying an Earth observation satellite for the Korea Advanced Institute of Science and Technology (KAIST) and marking its second launch in just eight days. \n\nThe mission, named Bridging The Swarm, lifted off on January 30 at 2:21 p.m. NZDT (01:21 UTC) from Rocket Lab's Launch Complex 1 in New Zealand to place the"
-    },
-    {
-      "title": "NASA Heat Shield Technology Enables Space Industry Growth",
-      "link": "https://www.spacedaily.com/reports/NASA_Heat_Shield_Technology_Enables_Space_Industry_Growth_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-30T07:44:14Z",
-      "summary": "Moffett Field Ca (SPX) Jan 30, 2026\n\n\nUsing cutting-edge material licensed from NASA, a protective heat shield manufactured in-house by Varda Space Industries for the first time enabled one of its capsules to blaze through Earth's atmosphere on Thursday, marking a significant milestone for the agency and America's space industry. The material, known as C-PICA (Conformal Phenolic Impregnated Carbon Ablator), provides a stronger, less"
     }
   ],
-  "updated": "2026-01-30T10:35:10.396Z"
+  "updated": "2026-01-30T11:04:11.741Z"
 }
