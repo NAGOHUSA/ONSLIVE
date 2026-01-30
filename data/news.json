@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Rocket Report: How a 5-ton satellite fell off a booster; will SpaceX and xAI merge?",
+      "link": "https://arstechnica.com/space/2026/01/rocket-report-how-a-5-ton-satellite-fell-off-a-booster-will-spacex-and-xai-merge/",
+      "source": "Arstechnica",
+      "date": "2026-01-30T12:00:41Z",
+      "summary": "\"We’re seeing remarkable growth year after year.\""
+    },
+    {
+      "title": "Making the unprecedented EU Space Act effective for all",
+      "link": "https://spacenews.com/making-the-unprecedented-eu-space-act-effective-for-all/",
+      "source": "SpaceNews",
+      "date": "2026-01-30T12:00:00Z",
+      "summary": "\nThe EU Space Act was formally proposed by the European Commission (EC) on June 25, 2025. While it doesn’t aim to codify all European Union (EU) space activities, it does address […]\nThe post Making the unprecedented EU Space Act effective for all appeared first on SpaceNews."
+    },
+    {
       "title": "Rocket Lab launches South Korean satellite",
       "link": "https://spacenews.com/rocket-lab-launches-south-korean-satellite/",
       "source": "SpaceNews",
@@ -15,26 +29,12 @@
       "summary": "Press Release N° 5–2026"
     },
     {
-      "title": "Earth from Space: Rudong coast, China",
-      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/01/Earth_from_Space_Rudong_coast_China",
-      "source": "ESA",
-      "date": "2026-01-30T09:00:00Z",
-      "summary": "From the ESA Blogs."
-    },
-    {
       "title": "Dark rings and new light",
       "link": "https://www.esa.int/ESA_Multimedia/Images/2026/01/Dark_rings_and_new_light",
       "source": "ESA",
       "date": "2026-01-30T09:00:00Z",
       "summary": "From the ESA Blogs."
-    },
-    {
-      "title": "EU Awards Three Contracts for Mobile Responsive Launch System Studies",
-      "link": "https://europeanspaceflight.com/eu-awards-three-contracts-for-mobile-responsive-launch-system-studies/",
-      "source": "European Spaceflight",
-      "date": "2026-01-30T08:43:57Z",
-      "summary": "The European Commission has commissioned three parallel studies to examine the potential of a mobile responsive launch system capable of rapidly deploying satellites into orbit from non-permanent (mobile) ground platforms. Initially published in July 2025, the call for the Mobile Responsive Launch System pilot project noted that, amid a growing range of human-made and natural […]\nThe post EU Awards Three Contracts for Mobile Responsive Launch System Studies appeared first on European Spaceflight."
     }
   ],
-  "updated": "2026-01-30T11:55:14.986Z"
+  "updated": "2026-01-30T12:29:53.982Z"
 }
