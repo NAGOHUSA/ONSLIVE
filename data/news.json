@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA Selects Axiom Space for Fifth Private Mission to Space Station",
+      "link": "https://www.nasa.gov/news-release/nasa-selects-axiom-space-for-fifth-private-mission-to-space-station/",
+      "source": "NASA",
+      "date": "2026-01-30T23:33:57Z",
+      "summary": "NASA and Axiom Space have signed an order for the fifth private astronaut mission to the International Space Station, targeted to launch no earlier than January 2027 from the agency’s Kennedy Space Center in Florida. “The award of our fifth private astronaut mission shows that commercial space is not a distant promise, but a present […]"
+    },
+    {
       "title": "L3Harris reaffirms commitment to space business amid missile sector expansion",
       "link": "https://spacenews.com/l3harris-reaffirms-commitment-to-space-business-amid-missile-sector-expansion/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASASpaceflight",
       "date": "2026-01-30T22:07:22Z",
       "summary": "Training is underway for NASA’s newest class of astronaut candidates at the Johnson Space Center…\nThe post Former SpaceX astronaut discusses training as a NASA astronaut candidate appeared first on NASASpaceFlight.com."
-    },
-    {
-      "title": "Blue Origin halts New Shepard flights",
-      "link": "https://spacenews.com/blue-origin-halts-new-shepard-flights/",
-      "source": "SpaceNews",
-      "date": "2026-01-30T21:54:08Z",
-      "summary": "\nBlue Origin announced Jan. 30 that it will halt flights of its New Shepard suborbital vehicle for at least two years as it shifts its focus to human lunar exploration.\nThe post Blue Origin halts New Shepard flights appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-01-30T23:33:59.022Z"
+  "updated": "2026-01-30T23:51:41.752Z"
 }
