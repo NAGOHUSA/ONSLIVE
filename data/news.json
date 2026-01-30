@@ -1,40 +1,40 @@
 {
   "articles": [
     {
+      "title": "NASA’s Commercial Satellite Data Acquisition Program Releases Archived and Tasked Multispectral Data from Satellogic",
+      "link": "https://science.nasa.gov/uncategorized/news-satellogic/",
+      "source": "NASA",
+      "date": "2026-01-30T18:58:35Z",
+      "summary": "“The mission of the CSDA Program is to identify, evaluate, and acquire data from commercial sources that support NASA’s Earth science research and application goals,” said CSDA Project Manager Dana Ostrenga. “The addition of this product from Satellogic to the SDX demonstrates the CSDA Program’s ongoing commitment to that mission, as well as to our […]"
+    },
+    {
+      "title": "NASA’s Perseverance Rover Completes First AI-Planned Drive on Mars",
+      "link": "https://www.nasa.gov/centers-and-facilities/jpl/nasas-perseverance-rover-completes-first-ai-planned-drive-on-mars/",
+      "source": "NASA",
+      "date": "2026-01-30T18:51:46Z",
+      "summary": "The team for the six-wheeled scientist used a vision-capable AI to create a safe route over the Red Planet’s surface without the input of human route planners.  NASA’s Perseverance Mars rover has completed the first drives on another world that were planned by artificial intelligence. Executed on Dec. 8 and 10, and led by the agency’s Jet Propulsion Laboratory in Southern California, the demonstration used generative AI to create waypoints for Perseverance, a complex decision-making task typically performed manually by […]"
+    },
+    {
+      "title": "NASA’s Perseverance Rover Completes First AI-Planned Drive on Mars",
+      "link": "https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-rover-completes-first-ai-planned-drive-on-mars/",
+      "source": "NASA",
+      "date": "2026-01-30T18:51:46Z",
+      "summary": "The team for the six-wheeled scientist used a vision-capable AI to create a safe route over the Red Planet’s surface without the input of human route planners.  NASA’s Perseverance Mars rover has completed the first drives on another world that were planned by artificial intelligence. Executed on Dec. 8 and 10, and led by the agency’s Jet Propulsion Laboratory in Southern California, the demonstration used generative AI to create waypoints for Perseverance, a complex decision-making task typically performed manually by […]"
+    },
+    {
+      "title": "What’s Up: February 2026 Skywatching Tips from NASA",
+      "link": "https://science.nasa.gov/solar-system/whats-up-february-2026-skywatching-tips-from-nasa/",
+      "source": "NASA",
+      "date": "2026-01-30T18:34:44Z",
+      "summary": "NASA’s Artemis II mission has its first opportunity to launch to the moon, Orion the Hunter takes center stage, and a planetary parade marches across the night sky."
+    },
+    {
       "title": "Preparing for Artemis II: Training for a Mission Around the Moon",
       "link": "https://www.nasa.gov/centers-and-facilities/johnson/preparing-for-artemis-ii-training-for-a-mission-around-the-moon/",
       "source": "NASA",
       "date": "2026-01-30T18:27:58Z",
       "summary": "Four astronauts will soon travel beyond low Earth orbit and fly around the Moon on Artemis II, a mission that will test NASA’s systems and hardware for human exploration of deep space.  Since June 2023, NASA astronauts Reid Wiseman, Victor Glover, Christina Koch, and CSA (Canadian Space Agency) astronaut Jeremy Hansen have been preparing for their lunar journey. The approximately […]"
-    },
-    {
-      "title": "RBC Signals partners with in-orbit relay developer Apolink",
-      "link": "https://spacenews.com/rbc-signals-partners-with-in-orbit-relay-developer-apolink/",
-      "source": "SpaceNews",
-      "date": "2026-01-30T17:32:34Z",
-      "summary": "\nApolink has partnered with ground segment provider RBC Signals to resell the startup’s proposed in-orbit relay services, aiming to fill connectivity gaps when satellites are out of view of terrestrial command-and-control links.\nThe post RBC Signals partners with in-orbit relay developer Apolink appeared first on SpaceNews."
-    },
-    {
-      "title": "Goldstone’s DSS-15 Antenna and the Milky Way",
-      "link": "https://www.nasa.gov/image-article/goldstones-dss-15-antenna-and-the-milky-way/",
-      "source": "NASA",
-      "date": "2026-01-30T17:23:16Z",
-      "summary": "Deep Space Station 15, one of the 112-foot antennas at the Goldstone Deep Space Communications Complex near Barstow, California, looks skyward, with the stars of the Milky Way overhead, in September 2025. Goldstone is part of NASA’s Deep Space Network (DSN), which operates three complexes around the globe that support communications with dozens of deep […]"
-    },
-    {
-      "title": "Artemis II Recovery Training",
-      "link": "https://www.nasa.gov/image-article/artemis-ii-recovery-training/",
-      "source": "NASA",
-      "date": "2026-01-30T17:05:30Z",
-      "summary": "Off the coast of California, NASA’s Artemis Landing and Recovery team and the Department of War that will work together to retrieve the Artemis II crew and Orion spacecraft following their return to Earth and splashdown in the Pacific Ocean are performing a final simulation of their activities, called a just-in-time training, at sea on […]"
-    },
-    {
-      "title": "U.S.-India NISAR Satellite Images Mississippi River Delta Region",
-      "link": "https://science.nasa.gov/photojournal/u-s-india-nisar-satellite-images-mississippi-river-delta-region/",
-      "source": "NASA",
-      "date": "2026-01-30T16:41:51Z",
-      "summary": "Description The NISAR (NASA-ISRO Synthetic Aperture Radar) Earth-observing satellite’s L-band synthetic aperture radar (SAR) instrument captured this image of the Mississippi River Delta region in southeastern Louisiana on Nov. 29, 2025. The colors in the image represent varying types of cover, which tend to reflect microwaves from the radar differently. Portions of New Orleans appear […]"
     }
   ],
-  "updated": "2026-01-30T18:57:22.740Z"
+  "updated": "2026-01-30T19:27:59.337Z"
 }
