@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Varda’s W-5 mission lands in Australia",
+      "link": "https://spacenews.com/vardas-w-5-mission-lands-in-australia/",
+      "source": "SpaceNews",
+      "date": "2026-01-31T22:50:26Z",
+      "summary": "\nVarda Space Industries completed its latest reentry mission Jan. 29, completing an end-to-end demonstration of a new in-house spacecraft design.\nThe post Varda’s W-5 mission lands in Australia appeared first on SpaceNews."
+    },
+    {
       "title": "SpaceX files plans for million-satellite orbital data center constellation",
       "link": "https://spacenews.com/spacex-files-plans-for-million-satellite-orbital-data-center-constellation/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceDaily",
       "date": "2026-01-31T04:17:17Z",
       "summary": "Washington, United States (AFP) Jan 30, 2026\n\n\n NASA on Friday pushed back the earliest date that astronauts could fly to the Moon, due to forecasts of freezing temperatures at the Florida launch site. \n\nThe earliest window for the moonshot will now be February 8, two days later than originally scheduled. \n\nNASA was preparing to conduct a key fueling test over the weekend of the 322-foot (98-meter) rocket that is on the Cape Canaveral lau"
-    },
-    {
-      "title": "The Perception War: How Artemis II Could Win the Race Without Landing",
-      "link": "https://www.moondaily.com/reports/The_Perception_War_How_Artemis_II_Could_Win_the_Race_Without_Landing_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-01-31T04:17:17Z",
-      "summary": "New York NY (SPX) Jan 31, 2026\n\nAs NASA counts down toward humanity's first crewed lunar mission in more than half a century, a question beyond engineering is taking shape: Can a flight that never touches the surface still define who \"wins\" the Second Moon Race? The answer lies not in propulsion equations or landing dynamics, but in the realm where space programs have always competed most fiercely-perception, prestige, and the stories nations tell about themselves."
     }
   ],
-  "updated": "2026-01-31T22:56:21.340Z"
+  "updated": "2026-01-31T23:14:33.564Z"
 }
