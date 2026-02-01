@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Live coverage: SpaceX to launch 25 Starlink satellites on Falcon 9 rocket from Vandenberg SFB",
+      "link": "https://spaceflightnow.com/2026/02/01/live-coverage-spacex-to-launch-25-starlink-satellites-on-falcon-9-rocket-from-vandenberg-sfb/",
+      "source": "Spaceflight Now",
+      "date": "2026-02-01T21:28:12Z",
+      "summary": "The Starlink 17-32 mission will be the first Starlink mission in February. Liftoff from pad 4E at Vandenberg Space Force Base is scheduled for 7:38 a.m. PST (10:38 a.m. EST / 1538 UTC). "
+    },
+    {
       "title": "Countdown underway for critical moon rocket fueling test Monday",
       "link": "https://spaceflightnow.com/2026/02/01/countdown-underway-for-critical-moon-rocket-fueling-test-monday/",
       "source": "Spaceflight Now",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-02-01T16:43:35Z",
       "summary": "\nOne of the biggest questions in the tech sector has been if AI is the future, where does all the infrastructure go? Some space industry leaders — including Elon Musk and Jeff Bezos — believe the answer could be in orbit, via space-based data centers. That idea has gained attention in recent weeks. Musk is […]\nThe post With attention on orbital data centers, the focus turns to economics appeared first on SpaceNews."
-    },
-    {
-      "title": "Varda’s W-5 mission lands in Australia",
-      "link": "https://spacenews.com/vardas-w-5-mission-lands-in-australia/",
-      "source": "SpaceNews",
-      "date": "2026-01-31T22:50:26Z",
-      "summary": "\nVarda Space Industries completed its latest reentry mission Jan. 29, completing an end-to-end demonstration of a new in-house spacecraft design.\nThe post Varda’s W-5 mission lands in Australia appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-02-01T21:20:35.193Z"
+  "updated": "2026-02-01T21:41:10.906Z"
 }
