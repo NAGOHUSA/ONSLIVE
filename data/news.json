@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Apply now to the ESA Graduate Trainee Programme",
+      "link": "https://www.esa.int/About_Us/Careers_at_ESA/Apply_now_to_the_ESA_Graduate_Trainee_Programme",
+      "source": "ESA",
+      "date": "2026-02-02T10:00:00Z",
+      "summary": "The 2026 ESA Graduate Trainee positions are now open! If you’re passionate about engineering, science, IT or business, this is your chance to turn your dreams into reality."
+    },
+    {
       "title": "First launch of Ariane 6 with four boosters",
       "link": "https://www.esa.int/Enabling_Support/Space_Transportation/Ariane/First_launch_of_Ariane_6_with_four_boosters",
       "source": "ESA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-02-01T20:57:16Z",
       "summary": "\nThe Saudi Space Agency announced on Tuesday the names of the winning teams of the global “DebriSolver” competition, one of the flagship initiatives accompanying the Space Debris Conference 2026. Launched […]\nThe post Saudi Space Agency Announces Winners of Global ‘DebriSolver’ Competition at Space Debris Conference appeared first on SpaceNews."
-    },
-    {
-      "title": "What’s Happening in Space Policy February 1-7, 2026",
-      "link": "https://spacepolicyonline.com/news/whats-happening-in-space-policy-february-1-7-2026/",
-      "source": "SpacePolicyOnline.com",
-      "date": "2026-02-01T20:30:30Z",
-      "summary": "Here is SpacePolicyOnline.com’s list of space policy events for the week of February 1-7, 2026 and any insight we can offer about them. The House and Senate are in session […]"
     }
   ],
-  "updated": "2026-02-02T09:41:51.393Z"
+  "updated": "2026-02-02T10:28:00.385Z"
 }
