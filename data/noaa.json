@@ -380,26 +380,12 @@
     ]
   ],
   "solarWind": [
-    "2026-02-02 22:59:00.000",
-    "3.56",
-    "296.5",
-    "29370"
+    "2026-02-02 23:35:00.000",
+    "3.31",
+    "300.1",
+    "23912"
   ],
   "solarFlares": [
-    {
-      "time_tag": "2026-01-26T23:13:00Z",
-      "begin_time": "2026-01-26T23:13:00Z",
-      "begin_class": "C1.2",
-      "max_time": "2026-01-26T23:22:00Z",
-      "max_class": "C5.0",
-      "max_xrlong": 0.000005047903869126458,
-      "max_ratio": 0.153646460463611,
-      "max_ratio_time": "2026-01-26T23:20:24Z",
-      "current_int_xrlong": 0.004185537341982126,
-      "end_time": "2026-01-26T23:31:00Z",
-      "end_class": "C3.1",
-      "satellite": 18
-    },
     {
       "time_tag": "2026-01-27T02:30:00Z",
       "begin_time": "2026-01-27T02:30:00Z",
@@ -1449,7 +1435,35 @@
       "end_time": "2026-02-02T21:17:00Z",
       "end_class": "M2.2",
       "satellite": 18
+    },
+    {
+      "time_tag": "2026-02-02T23:10:00Z",
+      "begin_time": "2026-02-02T23:10:00Z",
+      "begin_class": "C4.7",
+      "max_time": "2026-02-02T23:19:00Z",
+      "max_class": "C7.2",
+      "max_xrlong": 0.000007218064638436772,
+      "max_ratio": 0.09528643573731321,
+      "max_ratio_time": "2026-02-02T23:10:02Z",
+      "current_int_xrlong": 0.007765111047774553,
+      "end_time": "2026-02-02T23:21:00Z",
+      "end_class": "C6.7",
+      "satellite": 18
+    },
+    {
+      "time_tag": "2026-02-02T23:21:00Z",
+      "begin_time": "2026-02-02T23:21:00Z",
+      "begin_class": "C6.7",
+      "max_time": "2026-02-02T23:27:00Z",
+      "max_class": "M2.5",
+      "max_xrlong": 0.00002594387660792563,
+      "max_ratio": 0.23411955177754878,
+      "max_ratio_time": "2026-02-02T23:26:19Z",
+      "current_int_xrlong": 0.01107602845877409,
+      "end_time": "2026-02-02T23:31:00Z",
+      "end_class": "M1.6",
+      "satellite": 18
     }
   ],
-  "lastUpdated": "2026-02-02T23:03:30.133Z"
+  "lastUpdated": "2026-02-02T23:37:45.199Z"
 }
