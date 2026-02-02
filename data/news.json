@@ -1,18 +1,25 @@
 {
   "articles": [
     {
+      "title": "First launch of Ariane 6 with four boosters",
+      "link": "https://www.esa.int/Enabling_Support/Space_Transportation/Ariane/First_launch_of_Ariane_6_with_four_boosters",
+      "source": "ESA",
+      "date": "2026-02-02T07:03:00Z",
+      "summary": "From the ESA Blogs."
+    },
+    {
       "title": "Live coverage: SpaceX to launch 25 Starlink satellites on Falcon 9 rocket from Vandenberg SFB",
       "link": "https://spaceflightnow.com/2026/02/01/live-coverage-spacex-to-launch-25-starlink-satellites-on-falcon-9-rocket-from-vandenberg-sfb/",
       "source": "Spaceflight Now",
       "date": "2026-02-01T21:28:12Z",
-      "summary": "The Starlink 17-32 mission will be the first Starlink mission in February. Liftoff from pad 4E at Vandenberg Space Force Base is scheduled for 7:38 a.m. PST (10:38 a.m. EST / 1538 UTC). "
+      "summary": "The Starlink 17-32 mission will be the first Starlink mission in February. Liftoff from pad 4E at Vandenberg Space Force Base is scheduled for 7:38 a.m. PST (10:38 a.m. EST / 1538 UTC)."
     },
     {
       "title": "Countdown underway for critical moon rocket fueling test Monday",
       "link": "https://spaceflightnow.com/2026/02/01/countdown-underway-for-critical-moon-rocket-fueling-test-monday/",
       "source": "Spaceflight Now",
       "date": "2026-02-01T21:04:45Z",
-      "summary": "The countdown began Saturday evening and will continue through the start of a simulated launch window opening at 9 p.m. EST Monday. The test started two days late because of predicted arctic weather along Florida's Space Coast.  "
+      "summary": "The countdown began Saturday evening and will continue through the start of a simulated launch window opening at 9 p.m. EST Monday. The test started two days late because of predicted arctic weather along Florida's Space Coast."
     },
     {
       "title": "Saudi Space Agency Announces Winners of Global ‘DebriSolver’ Competition at Space Debris Conference",
@@ -27,14 +34,7 @@
       "source": "SpacePolicyOnline.com",
       "date": "2026-02-01T20:30:30Z",
       "summary": "Here is SpacePolicyOnline.com’s list of space policy events for the week of February 1-7, 2026 and any insight we can offer about them. The House and Senate are in session […]"
-    },
-    {
-      "title": "With attention on orbital data centers, the focus turns to economics",
-      "link": "https://spacenews.com/with-attention-on-orbital-data-centers-the-focus-turns-to-economics/",
-      "source": "SpaceNews",
-      "date": "2026-02-01T16:43:35Z",
-      "summary": "\nOne of the biggest questions in the tech sector has been if AI is the future, where does all the infrastructure go? Some space industry leaders — including Elon Musk and Jeff Bezos — believe the answer could be in orbit, via space-based data centers. That idea has gained attention in recent weeks. Musk is […]\nThe post With attention on orbital data centers, the focus turns to economics appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-02-02T07:37:43.854Z"
+  "updated": "2026-02-02T08:04:21.802Z"
 }
