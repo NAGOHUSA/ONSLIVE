@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA’s Orion Spacecraft at Launch Pad",
+      "link": "https://www.nasa.gov/image-article/nasas-orion-spacecraft-at-launch-pad/",
+      "source": "NASA",
+      "date": "2026-02-02T17:02:44Z",
+      "summary": "NASA’s Orion spacecraft, which will carry the Artemis II crew around the Moon, sits at the launch pad on Jan. 17, 2026, after rollout. It rests atop the SLS (Space Launch System) rocket. Orion can provide living space on missions for four astronauts for up to 21 days without docking to another spacecraft. Advances in technology […]"
+    },
+    {
       "title": "House NASA bill seeks details on lunar lander and spacesuit development",
       "link": "https://spacenews.com/house-nasa-bill-seeks-details-on-lunar-lander-and-spacesuit-development/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-02-02T12:39:03Z",
       "summary": "\nAmazon has purchased an additional 10 Falcon 9 launches from SpaceX as part of its efforts to accelerate deployment of its broadband satellite constellation.\nThe post Amazon buys 10 more Falcon 9 launches appeared first on SpaceNews."
-    },
-    {
-      "title": "CesiumAstro to scale operations with $470 million in equity and debt financing",
-      "link": "https://spacenews.com/cesiumastro-to-scale-operations-with-450-million-in-equity-and-debt-financing/",
-      "source": "SpaceNews",
-      "date": "2026-02-02T12:00:00Z",
-      "summary": "\nSAN FRANCISCO – CesiumAstro is preparing for rapid expansion thanks to an influx of cash announced Feb. 2: $270 million in equity and $200 million in debt financing. CesiumAstro raised […]\nThe post CesiumAstro to scale operations with $470 million in equity and debt financing appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-02-02T16:53:12.787Z"
+  "updated": "2026-02-02T17:27:39.269Z"
 }
