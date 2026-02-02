@@ -1,6 +1,27 @@
 {
   "articles": [
     {
+      "title": "Amazon buys 10 more Falcon 9 launches",
+      "link": "https://spacenews.com/amazon-buys-10-more-falcon-9-launches/",
+      "source": "SpaceNews",
+      "date": "2026-02-02T12:39:03Z",
+      "summary": "\nAmazon has purchased an additional 10 Falcon 9 launches from SpaceX as part of its efforts to accelerate deployment of its broadband satellite constellation.\nThe post Amazon buys 10 more Falcon 9 launches appeared first on SpaceNews."
+    },
+    {
+      "title": "CesiumAstro to scale operations with $470 million in equity and debt financing",
+      "link": "https://spacenews.com/cesiumastro-to-scale-operations-with-450-million-in-equity-and-debt-financing/",
+      "source": "SpaceNews",
+      "date": "2026-02-02T12:00:00Z",
+      "summary": "\nSAN FRANCISCO – CesiumAstro is preparing for rapid expansion thanks to an influx of cash announced Feb. 2: $270 million in equity and $200 million in debt financing. CesiumAstro raised […]\nThe post CesiumAstro to scale operations with $470 million in equity and debt financing appeared first on SpaceNews."
+    },
+    {
+      "title": "Starlink and the unravelling of digital sovereignty",
+      "link": "https://spacenews.com/starlink-and-the-unravelling-of-digital-sovereignty/",
+      "source": "SpaceNews",
+      "date": "2026-02-02T12:00:00Z",
+      "summary": "\nIn January 2026, Iranian authorities shut down landline and mobile telecommunications infrastructure in the country to clamp down on coordinated protests. Starlink terminals, which were discreetly mounted on rooftops, helped Iranian protesters bypass this internet blackout. The role played by Starlink in the recent Iranian protests challenges the notion of digital sovereignty and promotes corporate […]\nThe post Starlink and the unravelling of digital sovereignty appeared first on SpaceNews."
+    },
+    {
       "title": "Transcelestial to provide satellite laser communication terminals to Gilmour Space",
       "link": "https://spacenews.com/transcelestial-to-provide-satellite-laser-communication-terminals-to-gilmour-space/",
       "source": "SpaceNews",
@@ -13,28 +34,7 @@
       "source": "ESA",
       "date": "2026-02-02T10:00:00Z",
       "summary": "The 2026 ESA Graduate Trainee positions are now open! If you’re passionate about engineering, science, IT or business, this is your chance to turn your dreams into reality."
-    },
-    {
-      "title": "First launch of Ariane 6 with four boosters",
-      "link": "https://www.esa.int/Enabling_Support/Space_Transportation/Ariane/First_launch_of_Ariane_6_with_four_boosters",
-      "source": "ESA",
-      "date": "2026-02-02T07:03:00Z",
-      "summary": "From the ESA Blogs."
-    },
-    {
-      "title": "Live coverage: SpaceX to launch 25 Starlink satellites on Falcon 9 rocket from Vandenberg SFB",
-      "link": "https://spaceflightnow.com/2026/02/01/live-coverage-spacex-to-launch-25-starlink-satellites-on-falcon-9-rocket-from-vandenberg-sfb/",
-      "source": "Spaceflight Now",
-      "date": "2026-02-01T21:28:12Z",
-      "summary": "The Starlink 17-32 mission will be the first Starlink mission in February. Liftoff from pad 4E at Vandenberg Space Force Base is scheduled for 7:38 a.m. PST (10:38 a.m. EST / 1538 UTC)."
-    },
-    {
-      "title": "Countdown underway for critical moon rocket fueling test Monday",
-      "link": "https://spaceflightnow.com/2026/02/01/countdown-underway-for-critical-moon-rocket-fueling-test-monday/",
-      "source": "Spaceflight Now",
-      "date": "2026-02-01T21:04:45Z",
-      "summary": "The countdown began Saturday evening and will continue through the start of a simulated launch window opening at 9 p.m. EST Monday. The test started two days late because of predicted arctic weather along Florida's Space Coast."
     }
   ],
-  "updated": "2026-02-02T12:02:21.933Z"
+  "updated": "2026-02-02T13:19:31.356Z"
 }
