@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Artemis II Wet Dress Rehearsal, critical milestone to launch",
+      "link": "https://www.nasaspaceflight.com/2026/02/artemis-ii-wdr-critical-milestone-launch/",
+      "source": "NASASpaceflight",
+      "date": "2026-02-02T17:49:17Z",
+      "summary": "Humanity’s first deep space crewed mission since 1972 is scheduled for no earlier than Sunday,…\nThe post Artemis II Wet Dress Rehearsal, critical milestone to launch appeared first on NASASpaceFlight.com."
+    },
+    {
       "title": "NASA’s Orion Spacecraft at Launch Pad",
       "link": "https://www.nasa.gov/image-article/nasas-orion-spacecraft-at-launch-pad/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "ESA",
       "date": "2026-02-02T14:00:00Z",
       "summary": "Satellite navigation is essential to everyday life, from tracking your morning jog to landing air ambulances. But as reliance on satellite navigation grows, so do the risks associated with its interruption, natural or intentional. To strengthen European resilience in navigation, the European Space Agency (ESA) takes part annually in Jammertest."
-    },
-    {
-      "title": "Amazon buys 10 more Falcon 9 launches",
-      "link": "https://spacenews.com/amazon-buys-10-more-falcon-9-launches/",
-      "source": "SpaceNews",
-      "date": "2026-02-02T12:39:03Z",
-      "summary": "\nAmazon has purchased an additional 10 Falcon 9 launches from SpaceX as part of its efforts to accelerate deployment of its broadband satellite constellation.\nThe post Amazon buys 10 more Falcon 9 launches appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-02-02T17:27:39.269Z"
+  "updated": "2026-02-02T18:03:16.862Z"
 }
