@@ -3,7 +3,7 @@
     {
       "name": "STARLINK-1008",
       "id": "2019-074B",
-      "epoch": "2026-02-02T06:14:19.247136",
+      "epoch": "2026-02-02T06:14:19.246272",
       "meanMotion": 15.31038895,
       "inclination": 53.159
     },
@@ -24,29 +24,29 @@
     {
       "name": "STARLINK-1019",
       "id": "2019-074M",
-      "epoch": "2026-02-02T08:00:01.999872",
-      "meanMotion": 15.70494262,
-      "inclination": 53.0493
+      "epoch": "2026-02-02T14:00:01.999008",
+      "meanMotion": 15.7055627,
+      "inclination": 53.0494
     },
     {
       "name": "STARLINK-1020",
       "id": "2019-074N",
-      "epoch": "2026-02-02T04:32:16.054080",
-      "meanMotion": 15.06395506,
-      "inclination": 53.0538
+      "epoch": "2026-02-02T07:43:21.160416",
+      "meanMotion": 15.06393649,
+      "inclination": 53.0552
     },
     {
       "name": "STARLINK-1031",
       "id": "2019-074Z",
-      "epoch": "2026-02-02T08:00:01.999872",
-      "meanMotion": 15.75970635,
-      "inclination": 53.0448
+      "epoch": "2026-02-02T14:00:01.999008",
+      "meanMotion": 15.76039334,
+      "inclination": 53.045
     },
     {
       "name": "STARLINK-1036",
       "id": "2019-074AE",
-      "epoch": "2026-02-02T08:00:01.999872",
-      "meanMotion": 15.48416201,
+      "epoch": "2026-02-02T14:00:01.999008",
+      "meanMotion": 15.48527285,
       "inclination": 53.0549
     },
     {
@@ -66,17 +66,17 @@
     {
       "name": "STARLINK-1043",
       "id": "2019-074AM",
-      "epoch": "2026-02-02T07:32:58.520544",
+      "epoch": "2026-02-02T07:32:58.519680",
       "meanMotion": 15.51239201,
-      "inclination": 53.0561
+      "inclination": 53.056
     }
   ],
   "iss": {
-    "latitude": 25.740942937963,
-    "longitude": -105.668879925,
-    "altitude": 415.60016552588,
-    "velocity": 27609.289577893,
-    "visibility": "daylight"
+    "latitude": -37.469876549652,
+    "longitude": 76.219405511496,
+    "altitude": 441.03410616163,
+    "velocity": 27514.752211864,
+    "visibility": "eclipsed"
   },
-  "updated": "2026-02-02T16:02:23.765Z"
+  "updated": "2026-02-02T16:53:14.815Z"
 }

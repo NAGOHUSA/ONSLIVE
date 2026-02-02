@@ -1,6 +1,27 @@
 {
   "articles": [
     {
+      "title": "House NASA bill seeks details on lunar lander and spacesuit development",
+      "link": "https://spacenews.com/house-nasa-bill-seeks-details-on-lunar-lander-and-spacesuit-development/",
+      "source": "SpaceNews",
+      "date": "2026-02-02T16:43:33Z",
+      "summary": "\nA NASA authorization bill the House Science Committee is scheduled to take up this week would require closer scrutiny of lunar lander and spacesuit development for the Artemis program.\nThe post House NASA bill seeks details on lunar lander and spacesuit development appeared first on SpaceNews."
+    },
+    {
+      "title": "NASA to Discuss Early Results of Artemis II Wet Dress Rehearsal",
+      "link": "https://www.nasa.gov/news-release/nasa-to-discuss-early-results-of-artemis-ii-wet-dress-rehearsal/",
+      "source": "NASA",
+      "date": "2026-02-02T16:40:01Z",
+      "summary": "Following a fueling test of NASA’s SLS (Space Launch System) rocket at the launch pad for the Artemis II Moon mission, leaders will discuss initial results during a news conference at 12 p.m. EST on Tuesday, Feb. 3. The agency’s SLS rocket and Orion spacecraft arrived at Launch Pad 39B at NASA’s Kennedy Space Center […]"
+    },
+    {
+      "title": "Jammertest: strengthening satellite navigation",
+      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/02/Jammertest_strengthening_satellite_navigation",
+      "source": "ESA",
+      "date": "2026-02-02T14:00:00Z",
+      "summary": "Satellite navigation is essential to everyday life, from tracking your morning jog to landing air ambulances. But as reliance on satellite navigation grows, so do the risks associated with its interruption, natural or intentional. To strengthen European resilience in navigation, the European Space Agency (ESA) takes part annually in Jammertest."
+    },
+    {
       "title": "Amazon buys 10 more Falcon 9 launches",
       "link": "https://spacenews.com/amazon-buys-10-more-falcon-9-launches/",
       "source": "SpaceNews",
@@ -13,28 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-02-02T12:00:00Z",
       "summary": "\nSAN FRANCISCO – CesiumAstro is preparing for rapid expansion thanks to an influx of cash announced Feb. 2: $270 million in equity and $200 million in debt financing. CesiumAstro raised […]\nThe post CesiumAstro to scale operations with $470 million in equity and debt financing appeared first on SpaceNews."
-    },
-    {
-      "title": "Starlink and the unravelling of digital sovereignty",
-      "link": "https://spacenews.com/starlink-and-the-unravelling-of-digital-sovereignty/",
-      "source": "SpaceNews",
-      "date": "2026-02-02T12:00:00Z",
-      "summary": "\nIn January 2026, Iranian authorities shut down landline and mobile telecommunications infrastructure in the country to clamp down on coordinated protests. Starlink terminals, which were discreetly mounted on rooftops, helped Iranian protesters bypass this internet blackout. The role played by Starlink in the recent Iranian protests challenges the notion of digital sovereignty and promotes corporate […]\nThe post Starlink and the unravelling of digital sovereignty appeared first on SpaceNews."
-    },
-    {
-      "title": "Transcelestial to provide satellite laser communication terminals to Gilmour Space",
-      "link": "https://spacenews.com/transcelestial-to-provide-satellite-laser-communication-terminals-to-gilmour-space/",
-      "source": "SpaceNews",
-      "date": "2026-02-02T11:01:48Z",
-      "summary": "\nTranscelestial, a startup developing optical communications technologies, has signed an agreement with Gilmour Space Technologies to incorporate its technology on Gilmour Space spacecraft.\nThe post Transcelestial to provide satellite laser communication terminals to Gilmour Space appeared first on SpaceNews."
-    },
-    {
-      "title": "Apply now to the ESA Graduate Trainee Programme",
-      "link": "https://www.esa.int/About_Us/Careers_at_ESA/Apply_now_to_the_ESA_Graduate_Trainee_Programme",
-      "source": "ESA",
-      "date": "2026-02-02T10:00:00Z",
-      "summary": "The 2026 ESA Graduate Trainee positions are now open! If you’re passionate about engineering, science, IT or business, this is your chance to turn your dreams into reality."
     }
   ],
-  "updated": "2026-02-02T16:02:20.501Z"
+  "updated": "2026-02-02T16:53:12.787Z"
 }
