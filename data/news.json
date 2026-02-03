@@ -1,18 +1,18 @@
 {
   "articles": [
     {
+      "title": "Artemis 2 slips to March",
+      "link": "https://spacenews.com/artemis-2-slips-to-march/",
+      "source": "SpaceNews",
+      "date": "2026-02-03T11:43:23Z",
+      "summary": "\nNASA is no longer planning a February launch of the Artemis 2 mission after encountering hydrogen leaks during a fueling test of the Space Launch System.\nThe post Artemis 2 slips to March appeared first on SpaceNews."
+    },
+    {
       "title": "Laser method proposed to extend muon lifetime for science applications",
       "link": "https://www.spacedaily.com/reports/Laser_method_proposed_to_extend_muon_lifetime_for_science_applications_999.html",
       "source": "SpaceDaily",
       "date": "2026-02-03T11:07:02Z",
       "summary": "London, UK (SPX) Jan 28, 2026\n\n\nUnless they work in particle physics or a related discipline, most people are unlikely to have encountered muons, elementary particles that resemble electrons but are around 200 times heavier and interact only weakly with matter. This combination of properties enables muons to penetrate dense materials and be used in imaging techniques similar to X rays, but on the scale of large and heavy struc"
-    },
-    {
-      "title": "Smartphone kit offers low cost on site radiation dose checks",
-      "link": "https://www.spacedaily.com/reports/Smartphone_kit_offers_low_cost_on_site_radiation_dose_checks_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-02-03T11:07:02Z",
-      "summary": "Los Angeles CA (SPX) Jan 29, 2026\n\n\nPrompt, individual dose assessment is a critical part of protecting people after large scale nuclear or radiological incidents, but traditional dosimetry relies on expensive instruments or laboratory processing that can delay decisions on medical care. Researchers at Hiroshima University have now demonstrated a portable, low cost system that pairs a small piece of radiochromic film with a foldab"
     },
     {
       "title": "MDA Space and Hanwha target Korean K-LEO defense network",
@@ -29,12 +29,12 @@
       "summary": "Los Angeles CA (SPX) Feb 02, 2026\n\n\nResearchers are developing new ways to reprogram the cellular machinery of microbes such as yeast and bacteria so they can manufacture useful products for medicine and industry. A team at the Carl R. Woese Institute for Genomic Biology has now shown that they can extend the biosynthetic capabilities of microbes by harnessing light to drive new types of chemical reactions inside cells. \n\nIn w"
     },
     {
-      "title": "AI framework links gravitational waves and radio afterglows",
-      "link": "https://www.spacedaily.com/reports/AI_framework_links_gravitational_waves_and_radio_afterglows_999.html",
+      "title": "Smartphone kit offers low cost on site radiation dose checks",
+      "link": "https://www.spacedaily.com/reports/Smartphone_kit_offers_low_cost_on_site_radiation_dose_checks_999.html",
       "source": "SpaceDaily",
       "date": "2026-02-03T11:07:02Z",
-      "summary": "Los Angeles CA (SPX) Feb 02, 2026\n\n\nWhen two neutron stars collide, they generate gravitational waves and light across the electromagnetic spectrum, from intense gamma ray flashes to faint radio signals that can persist for years. These multi-messenger events contain rich information about the physics of compact objects, their environments and the formation of heavy elements, but extracting that information efficiently has proved"
+      "summary": "Los Angeles CA (SPX) Jan 29, 2026\n\n\nPrompt, individual dose assessment is a critical part of protecting people after large scale nuclear or radiological incidents, but traditional dosimetry relies on expensive instruments or laboratory processing that can delay decisions on medical care. Researchers at Hiroshima University have now demonstrated a portable, low cost system that pairs a small piece of radiochromic film with a foldab"
     }
   ],
-  "updated": "2026-02-03T11:42:13.386Z"
+  "updated": "2026-02-03T12:01:09.171Z"
 }
