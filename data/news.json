@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "NASA Space to Soil Challenge",
+      "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/nasa-space-to-soil-challenge/",
+      "source": "NASA",
+      "date": "2026-02-03T15:12:32Z",
+      "summary": "Rapid advances in commercial space, artificial intelligence, and edge computing are transforming what is possible for Earth observation. By pushing more intelligence onboard, missions can move from passively collecting data to actively interpreting and responding to changing surface conditions in near-real time, enabling more targeted observations and dramatically improving the value of data returned to […]"
+    },
+    {
+      "title": "ESA's sustainability ambition",
+      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/01/ESA_s_sustainability_ambition",
+      "source": "ESA",
+      "date": "2026-02-03T15:00:00Z",
+      "summary": "Space activities are unlike any others. They interact not just with Earth, but with three interconnected environments: Earth, Earth’s orbit, and the Moon and deep space. On Earth, we aim to reduce the space sector’s environmental impacts while maximising the societal and environmental benefits of our missions. In orbit, we manage space debris and collision risks to maintain safe and secure operations. For the Moon and deep space, we are laying the foundations to minimise the impact of our missions on and around other celestial bodies."
+    },
+    {
       "title": "Flight heritage? It isn’t what you think",
       "link": "https://spacenews.com/flight-heritage-it-isnt-what-you-think/",
       "source": "SpaceNews",
@@ -20,21 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-02-03T12:29:06Z",
       "summary": "\nSpaceX is pausing Falcon 9 launches after an issue with the rocket’s upper stage encountered at the end of a launch Feb. 2.\nThe post SpaceX pauses Falcon 9 launches after upper stage anomaly appeared first on SpaceNews."
-    },
-    {
-      "title": "Artemis 2 slips to March",
-      "link": "https://spacenews.com/artemis-2-slips-to-march/",
-      "source": "SpaceNews",
-      "date": "2026-02-03T11:43:23Z",
-      "summary": "\nNASA is no longer planning a February launch of the Artemis 2 mission after encountering hydrogen leaks during a fueling test of the Space Launch System.\nThe post Artemis 2 slips to March appeared first on SpaceNews."
-    },
-    {
-      "title": "MDA Space and Hanwha target Korean K-LEO defense network",
-      "link": "https://www.spacewar.com/reports/MDA_Space_and_Hanwha_target_Korean_K_LEO_defense_network_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-02-03T11:07:02Z",
-      "summary": "Tokyo, Japan (SPX) Jan 30, 2026\n\n\nMDA Space has signed a Memorandum of Understanding with Hanwha Systems to pursue collaboration on Korea's planned sovereign Low Earth Orbit K-LEO defense constellation, targeting enhanced military communications and data services for national security operations. The agreement sets a framework for the two companies to explore how MDA Space's AURORA software-defined digital satellite platform can"
     }
   ],
-  "updated": "2026-02-03T15:00:13.060Z"
+  "updated": "2026-02-03T15:52:53.215Z"
 }
