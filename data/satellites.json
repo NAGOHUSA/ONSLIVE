@@ -24,30 +24,30 @@
     {
       "name": "STARLINK-1019",
       "id": "2019-074M",
-      "epoch": "2026-02-03T08:00:03.000384",
-      "meanMotion": 15.70825033,
-      "inclination": 53.0487
+      "epoch": "2026-02-03T14:00:01.999008",
+      "meanMotion": 15.70884486,
+      "inclination": 53.0489
     },
     {
       "name": "STARLINK-1020",
       "id": "2019-074N",
-      "epoch": "2026-02-03T04:25:19.702848",
-      "meanMotion": 15.06422414,
-      "inclination": 53.0568
+      "epoch": "2026-02-03T07:36:24.081696",
+      "meanMotion": 15.06424821,
+      "inclination": 53.0562
     },
     {
       "name": "STARLINK-1031",
       "id": "2019-074Z",
-      "epoch": "2026-02-03T08:00:03.000384",
-      "meanMotion": 15.76370419,
-      "inclination": 53.0442
+      "epoch": "2026-02-03T14:00:01.999008",
+      "meanMotion": 15.7642371,
+      "inclination": 53.044
     },
     {
       "name": "STARLINK-1036",
       "id": "2019-074AE",
-      "epoch": "2026-02-03T08:00:03.000384",
-      "meanMotion": 15.48711272,
-      "inclination": 53.0555
+      "epoch": "2026-02-03T14:00:01.999008",
+      "meanMotion": 15.48813597,
+      "inclination": 53.0557
     },
     {
       "name": "STARLINK-1039",
@@ -59,24 +59,24 @@
     {
       "name": "STARLINK-1042",
       "id": "2019-074AL",
-      "epoch": "2026-02-03T00:04:20.928864",
-      "meanMotion": 15.47979479,
-      "inclination": 53.0435
+      "epoch": "2026-02-03T07:49:12.016992",
+      "meanMotion": 15.4799731,
+      "inclination": 53.0433
     },
     {
       "name": "STARLINK-1043",
       "id": "2019-074AM",
-      "epoch": "2026-02-03T05:11:47.419584",
-      "meanMotion": 15.51317954,
+      "epoch": "2026-02-03T06:44:33.626400",
+      "meanMotion": 15.51323981,
       "inclination": 53.0551
     }
   ],
   "iss": {
-    "latitude": 3.866023015933,
-    "longitude": 45.436661916903,
-    "altitude": 424.8724074596,
-    "velocity": 27562.84229604,
+    "latitude": -13.007112378491,
+    "longitude": -153.06304391698,
+    "altitude": 423.22686847978,
+    "velocity": 27571.668886639,
     "visibility": "daylight"
   },
-  "updated": "2026-02-03T15:52:58.013Z"
+  "updated": "2026-02-03T16:36:32.208Z"
 }
