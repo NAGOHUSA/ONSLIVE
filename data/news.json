@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "CNES to Fill Commercial Launch Facility Vacancy Left by MaiaSpace",
+      "link": "https://europeanspaceflight.com/cnes-to-fill-commercial-launch-facility-vacancy-left-by-maiaspace/",
+      "source": "European Spaceflight",
+      "date": "2026-02-03T17:44:04Z",
+      "summary": "The French space agency CNES, operator of the Guiana Space Centre in French Guiana, has issued a call for launch operators interested in taking over a portion of its new multi-user commercial launch site following MaiaSpace’s withdrawal. The facility is being built on the grounds of the former Diamant launch site. CNES announced plans to […]\nThe post CNES to Fill Commercial Launch Facility Vacancy Left by MaiaSpace appeared first on European Spaceflight."
+    },
+    {
       "title": "Full Moon over Artemis II",
       "link": "https://www.nasa.gov/image-article/full-moon-over-artemis-ii/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "ESA",
       "date": "2026-02-03T15:00:00Z",
       "summary": "Space activities are unlike any others. They interact not just with Earth, but with three interconnected environments: Earth, Earth’s orbit, and the Moon and deep space. On Earth, we aim to reduce the space sector’s environmental impacts while maximising the societal and environmental benefits of our missions. In orbit, we manage space debris and collision risks to maintain safe and secure operations. For the Moon and deep space, we are laying the foundations to minimise the impact of our missions on and around other celestial bodies."
-    },
-    {
-      "title": "Flight heritage? It isn’t what you think",
-      "link": "https://spacenews.com/flight-heritage-it-isnt-what-you-think/",
-      "source": "SpaceNews",
-      "date": "2026-02-03T14:00:00Z",
-      "summary": "\nIn space procurement, there are few phrases that carry more weight than “flight heritage.” Once a supplier claims it, the rest of the room can relax. The hardware has flown, goes the thinking. It worked. The risk of using such hardware is vanishingly small, even absent. This is understandable. Space is famously unforgiving, and if […]\nThe post Flight heritage? It isn’t what you think appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-02-03T17:33:20.526Z"
+  "updated": "2026-02-03T18:29:51.322Z"
 }
