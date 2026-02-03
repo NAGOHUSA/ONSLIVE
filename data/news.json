@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Artemis II Delayed to March",
+      "link": "https://www.spacescout.info/2026/02/artemis-ii-delayed-to-march/",
+      "source": "Space Scout",
+      "date": "2026-02-03T20:14:22Z",
+      "summary": "NASA’s Artemis II mission will launch no earlier than March due to several issues that were encountered during a launch rehearsal last night."
+    },
+    {
       "title": "CNES to Fill Commercial Launch Facility Vacancy Left by MaiaSpace",
       "link": "https://europeanspaceflight.com/cnes-to-fill-commercial-launch-facility-vacancy-left-by-maiaspace/",
       "source": "European Spaceflight",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-02-03T15:12:32Z",
       "summary": "Rapid advances in commercial space, artificial intelligence, and edge computing are transforming what is possible for Earth observation. By pushing more intelligence onboard, missions can move from passively collecting data to actively interpreting and responding to changing surface conditions in near-real time, enabling more targeted observations and dramatically improving the value of data returned to […]"
-    },
-    {
-      "title": "ESA's sustainability ambition",
-      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/01/ESA_s_sustainability_ambition",
-      "source": "ESA",
-      "date": "2026-02-03T15:00:00Z",
-      "summary": "Space activities are unlike any others. They interact not just with Earth, but with three interconnected environments: Earth, Earth’s orbit, and the Moon and deep space. On Earth, we aim to reduce the space sector’s environmental impacts while maximising the societal and environmental benefits of our missions. In orbit, we manage space debris and collision risks to maintain safe and secure operations. For the Moon and deep space, we are laying the foundations to minimise the impact of our missions on and around other celestial bodies."
     }
   ],
-  "updated": "2026-02-03T19:57:19.465Z"
+  "updated": "2026-02-03T20:30:01.477Z"
 }
