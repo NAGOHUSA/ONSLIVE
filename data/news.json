@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Flight heritage? It isn’t what you think",
+      "link": "https://spacenews.com/flight-heritage-it-isnt-what-you-think/",
+      "source": "SpaceNews",
+      "date": "2026-02-03T14:00:00Z",
+      "summary": "\nIn space procurement, there are few phrases that carry more weight than “flight heritage.” Once a supplier claims it, the rest of the room can relax. The hardware has flown, goes the thinking. It worked. The risk of using such hardware is vanishingly small, even absent. This is understandable. Space is famously unforgiving, and if […]\nThe post Flight heritage? It isn’t what you think appeared first on SpaceNews."
+    },
+    {
       "title": "NASA Will Wait Until March for Artemis II",
       "link": "https://spacepolicyonline.com/news/nasa-will-wait-until-march-for-artemis-ii/",
       "source": "SpacePolicyOnline.com",
@@ -27,14 +34,7 @@
       "source": "SpaceDaily",
       "date": "2026-02-03T11:07:02Z",
       "summary": "Tokyo, Japan (SPX) Jan 30, 2026\n\n\nMDA Space has signed a Memorandum of Understanding with Hanwha Systems to pursue collaboration on Korea's planned sovereign Low Earth Orbit K-LEO defense constellation, targeting enhanced military communications and data services for national security operations. The agreement sets a framework for the two companies to explore how MDA Space's AURORA software-defined digital satellite platform can"
-    },
-    {
-      "title": "Engineered microbes use light to build new molecules",
-      "link": "https://www.spacedaily.com/reports/Engineered_microbes_use_light_to_build_new_molecules_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-02-03T11:07:02Z",
-      "summary": "Los Angeles CA (SPX) Feb 02, 2026\n\n\nResearchers are developing new ways to reprogram the cellular machinery of microbes such as yeast and bacteria so they can manufacture useful products for medicine and industry. A team at the Carl R. Woese Institute for Genomic Biology has now shown that they can extend the biosynthetic capabilities of microbes by harnessing light to drive new types of chemical reactions inside cells. \n\nIn w"
     }
   ],
-  "updated": "2026-02-03T13:12:43.024Z"
+  "updated": "2026-02-03T14:09:58.243Z"
 }
