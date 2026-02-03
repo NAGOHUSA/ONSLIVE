@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Full Moon over Artemis II",
+      "link": "https://www.nasa.gov/image-article/full-moon-over-artemis-ii/",
+      "source": "NASA",
+      "date": "2026-02-03T17:01:07Z",
+      "summary": "A full moon is seen shining over NASA’s SLS (Space Launch System) and Orion spacecraft, atop the mobile launcher at Launch Pad 39B at NASA’s Kennedy Space Center in Florida in the early hours of February 1, 2026. The agency concluded a wet dress rehearsal for the agency’s Artemis II test flight early Tuesday morning, […]"
+    },
+    {
       "title": "Booster 19 Rolls out to Masseys for Cryogenic Proof Testing",
       "link": "https://www.nasaspaceflight.com/2026/02/booster-19-masseys-cryogenic-testing/",
       "source": "NASASpaceflight",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-02-03T14:00:00Z",
       "summary": "\nIn space procurement, there are few phrases that carry more weight than “flight heritage.” Once a supplier claims it, the rest of the room can relax. The hardware has flown, goes the thinking. It worked. The risk of using such hardware is vanishingly small, even absent. This is understandable. Space is famously unforgiving, and if […]\nThe post Flight heritage? It isn’t what you think appeared first on SpaceNews."
-    },
-    {
-      "title": "NASA Will Wait Until March for Artemis II",
-      "link": "https://spacepolicyonline.com/news/nasa-will-wait-until-march-for-artemis-ii/",
-      "source": "SpacePolicyOnline.com",
-      "date": "2026-02-03T12:46:48Z",
-      "summary": "NASA is passing on this month’s opportunity to send astronauts around the Moon on the Artemis II mission. March is the new target, with five available dates starting March 6. […]"
     }
   ],
-  "updated": "2026-02-03T16:36:29.527Z"
+  "updated": "2026-02-03T17:33:20.526Z"
 }
