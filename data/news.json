@@ -1,11 +1,32 @@
 {
   "articles": [
     {
-      "title": "Artemis II: WDR resolutions in work ahead of March target",
-      "link": "https://www.nasaspaceflight.com/2026/02/artemis-ii-wdr-resolutions-march-target/",
-      "source": "NASASpaceflight",
-      "date": "2026-02-04T13:18:55Z",
-      "summary": "Engineers are working through a data review of the Wet Dress Rehearsal for Artemis II,…\nThe post Artemis II: WDR resolutions in work ahead of March target appeared first on NASASpaceFlight.com."
+      "title": "Isar Aerospace to Expand Testing Facilities as it Prepares for Next Spectrum Flight",
+      "link": "https://europeanspaceflight.com/isar-aerospace-to-expand-testing-facilities-as-it-prepares-for-next-spectrum-flight/",
+      "source": "European Spaceflight",
+      "date": "2026-02-04T14:18:14Z",
+      "summary": "German rocket builder Isar Aerospace has announced plans to expand its testing facilities at the Esrange Space Center in Sweden. The announcement comes as the company prepares for the second flight of its Spectrum rocket, currently expected no earlier than 19 March. Isar Aerospace was founded in 2018 and is developing a 28-metre-tall rocket designed […]\nThe post Isar Aerospace to Expand Testing Facilities as it Prepares for Next Spectrum Flight appeared first on European Spaceflight."
+    },
+    {
+      "title": "Tracking Glacial Change with Landsat and Radar",
+      "link": "https://science.nasa.gov/missions/landsat/nasa-scientist-explains-how-glaciers-flow-with-the-seasons/",
+      "source": "NASA",
+      "date": "2026-02-04T14:00:00Z",
+      "summary": "NASA Scientist Alex Gardner highlights how Landsat made his research into the dynamics of glacial flow possible."
+    },
+    {
+      "title": "Silicon as strategy: the hidden battleground of the new space race",
+      "link": "https://spacenews.com/silicon-as-strategy-the-hidden-battleground-of-the-new-space-race/",
+      "source": "SpaceNews",
+      "date": "2026-02-04T14:00:00Z",
+      "summary": "\nIn the consumer electronics playbook, custom silicon is the final step in the marathon: you use off-the-shelf components to prove a product, achieve mass scale and only then invest in proprietary chips to create differentiation, improve operations, and optimize margins. In the modern satellite communications (SATCOM) ecosystem, this script has been flipped. For the industry’s […]\nThe post Silicon as strategy: the hidden battleground of the new space race appeared first on SpaceNews."
+    },
+    {
+      "title": "Rocket ignition that resonates",
+      "link": "https://www.esa.int/Enabling_Support/Space_Transportation/Future_space_transportation/Rocket_ignition_that_resonates",
+      "source": "ESA",
+      "date": "2026-02-04T13:30:00Z",
+      "summary": "From the ESA Blogs."
     },
     {
       "title": "Artemis II: WDR resolutions in work ahead of March target",
@@ -13,28 +34,7 @@
       "source": "NASASpaceflight",
       "date": "2026-02-04T13:18:55Z",
       "summary": "Engineers are working through a data review of the Wet Dress Rehearsal for Artemis II,…\nThe post Artemis II: WDR resolutions in work ahead of March target appeared first on NASASpaceFlight.com."
-    },
-    {
-      "title": "Lunar soil test chamber paves way for future moon construction",
-      "link": "https://www.spacedaily.com/reports/Lunar_soil_test_chamber_paves_way_for_future_moon_construction_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-02-04T13:04:21Z",
-      "summary": "Paris, France (SPX) Feb 04, 2026\n\n\nBefore any building rises on the Moon, engineers will need to understand the soil beneath their structures just as they do on Earth. To address this challenge, a recent ESA Discovery project led by the Norwegian Geotechnical Institute (NGI) has produced a design for a specialised calibration chamber that will allow cone penetration instruments to be tested under lunar conditions, providing the g"
-    },
-    {
-      "title": "ExLabs taps SpacePilot autonomy for Apophis asteroid mission",
-      "link": "https://www.spacedaily.com/reports/ExLabs_taps_SpacePilot_autonomy_for_Apophis_asteroid_mission_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-02-04T13:04:21Z",
-      "summary": "Los Angeles CA (SPX) Feb 04, 2026\n\n\nExLabs has selected CUS-GNC's SpacePilot onboard autonomy software to provide guidance, navigation, and control for its planned Mission to Asteroid Apophis, a commercial deep-space campaign that will operate at distances exceeding 100 million kilometers from Earth. The company describes itself as a commercial deep-space mission operator developing next-generation platforms for exploration beyond"
-    },
-    {
-      "title": "Voyager outlines infrastructure-led roadmap for long-term US lunar presence",
-      "link": "https://www.spacedaily.com/reports/Voyager_outlines_infrastructure_led_roadmap_for_long_term_US_lunar_presence_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-02-04T13:04:21Z",
-      "summary": "Los Angeles CA (SPX) Feb 04, 2026\n\n\nVoyager Technologies has launched a strategic lunar initiative designed to align with the White House Securing American Space Superiority executive order and to reinforce United States leadership beyond low Earth orbit. The initiative is framed as a long-term effort to support exploration, national security and commercial activity on and around the Moon by focusing on durable infrastructure rath"
     }
   ],
-  "updated": "2026-02-04T13:44:11.763Z"
+  "updated": "2026-02-04T14:28:02.155Z"
 }
