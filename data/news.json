@@ -1,11 +1,18 @@
 {
   "articles": [
     {
-      "title": "Jupiter size refined by new radio mapping",
-      "link": "https://www.spacedaily.com/reports/Jupiter_size_refined_by_new_radio_mapping_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-02-04T13:04:21Z",
-      "summary": "Paris, France (SPX) Feb 04, 2026\n\n\nFor more than half a century, planetary scientists relied on a handful of spacecraft flybys to pin down Jupiter's size and shape. Now, an international team led by the Weizmann Institute of Science has used a trove of new radio data from NASA's Juno mission to redraw the gas giant with unprecedented precision. \n\nThe study, published in Nature Astronomy, replaces six measurements from NASA's"
+      "title": "Artemis II: WDR resolutions in work ahead of March target",
+      "link": "https://www.nasaspaceflight.com/2026/02/artemis-ii-wdr-resolutions-march-target/",
+      "source": "NASASpaceflight",
+      "date": "2026-02-04T13:18:55Z",
+      "summary": "Engineers are working through a data review of the Wet Dress Rehearsal for Artemis II,…\nThe post Artemis II: WDR resolutions in work ahead of March target appeared first on NASASpaceFlight.com."
+    },
+    {
+      "title": "Artemis II: WDR resolutions in work ahead of March target",
+      "link": "https://www.nasaspaceflight.com/2026/02/artemis-ii-wdr-resolutions-in-work-ahead-of-march-target/",
+      "source": "NASASpaceflight",
+      "date": "2026-02-04T13:18:55Z",
+      "summary": "Engineers are working through a data review of the Wet Dress Rehearsal for Artemis II,…\nThe post Artemis II: WDR resolutions in work ahead of March target appeared first on NASASpaceFlight.com."
     },
     {
       "title": "Lunar soil test chamber paves way for future moon construction",
@@ -15,13 +22,6 @@
       "summary": "Paris, France (SPX) Feb 04, 2026\n\n\nBefore any building rises on the Moon, engineers will need to understand the soil beneath their structures just as they do on Earth. To address this challenge, a recent ESA Discovery project led by the Norwegian Geotechnical Institute (NGI) has produced a design for a specialised calibration chamber that will allow cone penetration instruments to be tested under lunar conditions, providing the g"
     },
     {
-      "title": "Voyager outlines infrastructure-led roadmap for long-term US lunar presence",
-      "link": "https://www.spacedaily.com/reports/Voyager_outlines_infrastructure_led_roadmap_for_long_term_US_lunar_presence_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-02-04T13:04:21Z",
-      "summary": "Los Angeles CA (SPX) Feb 04, 2026\n\n\nVoyager Technologies has launched a strategic lunar initiative designed to align with the White House Securing American Space Superiority executive order and to reinforce United States leadership beyond low Earth orbit. The initiative is framed as a long-term effort to support exploration, national security and commercial activity on and around the Moon by focusing on durable infrastructure rath"
-    },
-    {
       "title": "ExLabs taps SpacePilot autonomy for Apophis asteroid mission",
       "link": "https://www.spacedaily.com/reports/ExLabs_taps_SpacePilot_autonomy_for_Apophis_asteroid_mission_999.html",
       "source": "SpaceDaily",
@@ -29,12 +29,12 @@
       "summary": "Los Angeles CA (SPX) Feb 04, 2026\n\n\nExLabs has selected CUS-GNC's SpacePilot onboard autonomy software to provide guidance, navigation, and control for its planned Mission to Asteroid Apophis, a commercial deep-space campaign that will operate at distances exceeding 100 million kilometers from Earth. The company describes itself as a commercial deep-space mission operator developing next-generation platforms for exploration beyond"
     },
     {
-      "title": "Exploding primordial black hole model may link extreme neutrino and dark matter",
-      "link": "https://www.spacedaily.com/reports/Exploding_primordial_black_hole_model_may_link_extreme_neutrino_and_dark_matter_999.html",
+      "title": "Voyager outlines infrastructure-led roadmap for long-term US lunar presence",
+      "link": "https://www.spacedaily.com/reports/Voyager_outlines_infrastructure_led_roadmap_for_long_term_US_lunar_presence_999.html",
       "source": "SpaceDaily",
       "date": "2026-02-04T13:04:21Z",
-      "summary": "Amherst MD (SPX) Feb 04, 2026\n\n\nIn 2023, a subatomic particle called a neutrino crashed into Earth with such a high amount of energy that it should have been impossible. In fact, there are no known sources anywhere in the universe capable of producing such energy - 100,000 times more than the highest-energy particle ever produced by the Large Hadron Collider, the world's most powerful particle accelerator. However, a team of p"
+      "summary": "Los Angeles CA (SPX) Feb 04, 2026\n\n\nVoyager Technologies has launched a strategic lunar initiative designed to align with the White House Securing American Space Superiority executive order and to reinforce United States leadership beyond low Earth orbit. The initiative is framed as a long-term effort to support exploration, national security and commercial activity on and around the Moon by focusing on durable infrastructure rath"
     }
   ],
-  "updated": "2026-02-04T12:32:01.814Z"
+  "updated": "2026-02-04T13:44:11.763Z"
 }
