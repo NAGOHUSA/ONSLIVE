@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA, University of Texas Expand Research and Workforce Development",
+      "link": "https://www.nasa.gov/centers-and-facilities/johnson/nasa-university-of-texas-expand-research-and-workforce-development/",
+      "source": "NASA",
+      "date": "2026-02-04T22:10:15Z",
+      "summary": "NASA’s Johnson Space Center in Houston and the University of Texas System (UT System) announced the signing of a collaborative Space Act Agreement on Jan. 9, 2026. The agreement expands research and workforce development partnership opportunities across NASA centers and UT System facilities. The agreement builds upon decades of collaboration between NASA and the UT […]"
+    },
+    {
       "title": "US House takes first step toward creating \"commercial\" deep space program",
       "link": "https://arstechnica.com/space/2026/02/us-house-takes-first-step-toward-creating-commercial-deep-space-program/",
       "source": "Arstechnica",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-02-04T18:09:35Z",
       "summary": "The NASA Engineering and Safety Center (NESC) conducted a technical assessment to evaluate alternatives to dichloromethane, traditionally used for bonding transparent polymeric materials. This effort was initiated in response to potential regulatory restrictions under the EPA Toxic Substances Control Act (TSCA), which could impact critical bonding processes used in spaceflight hardware and experimental systems. Download […]"
-    },
-    {
-      "title": "NASA Armstrong Contributions Propel Artemis, Deep Space Innovation",
-      "link": "https://www.nasa.gov/centers-and-facilities/armstrong/nasa-armstrong-contributions-propel-artemis-deep-space-innovation/",
-      "source": "NASA",
-      "date": "2026-02-04T16:57:47Z",
-      "summary": "NASA is leveraging expertise, capabilities, and partnerships across its centers to make Artemis campaign and deep space exploration safer, more reliable, and efficient. At NASA’s Armstrong Flight Research Center in Edwards, California, contributions include technical leadership, unique flight-testing capabilities, and management of a key technology program that advances critical exploration concepts. Artemis II is an […]"
     }
   ],
-  "updated": "2026-02-04T22:00:03.749Z"
+  "updated": "2026-02-04T22:30:47.432Z"
 }
