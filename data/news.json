@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Chilled New York City",
+      "link": "https://science.nasa.gov/earth/earth-observatory/chilled-new-york-city/",
+      "source": "NASA",
+      "date": "2026-02-04T05:01:00Z",
+      "summary": "Ice in the Hudson River hugged the shore of Manhattan amid a deep freeze."
+    },
+    {
       "title": "NASA examining hydrogen leaks during Artemis 2 fueling test",
       "link": "https://spacenews.com/nasa-examining-hydrogen-leaks-during-artemis-2-fueling-test/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "European Spaceflight",
       "date": "2026-02-03T17:44:04Z",
       "summary": "The French space agency CNES, operator of the Guiana Space Centre in French Guiana, has issued a call for launch operators interested in taking over a portion of its new multi-user commercial launch site following MaiaSpace’s withdrawal. The facility is being built on the grounds of the former Diamant launch site. CNES announced plans to […]\nThe post CNES to Fill Commercial Launch Facility Vacancy Left by MaiaSpace appeared first on European Spaceflight."
-    },
-    {
-      "title": "Full Moon over Artemis II",
-      "link": "https://www.nasa.gov/image-article/full-moon-over-artemis-ii/",
-      "source": "NASA",
-      "date": "2026-02-03T17:01:07Z",
-      "summary": "A full moon is seen shining over NASA’s SLS (Space Launch System) and Orion spacecraft, atop the mobile launcher at Launch Pad 39B at NASA’s Kennedy Space Center in Florida in the early hours of February 1, 2026. The agency concluded a wet dress rehearsal for the agency’s Artemis II test flight early Tuesday morning, […]"
     }
   ],
-  "updated": "2026-02-04T04:53:21.045Z"
+  "updated": "2026-02-04T05:38:17.712Z"
 }
