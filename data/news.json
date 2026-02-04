@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA examining hydrogen leaks during Artemis 2 fueling test",
+      "link": "https://spacenews.com/nasa-examining-hydrogen-leaks-during-artemis-2-fueling-test/",
+      "source": "SpaceNews",
+      "date": "2026-02-04T02:10:28Z",
+      "summary": "\nNASA officials defended their preparations for the Artemis 2 mission after a fueling test experienced the same type of hydrogen leaks that bedeviled Artemis 1 more than three years ago.\nThe post NASA examining hydrogen leaks during Artemis 2 fueling test appeared first on SpaceNews."
+    },
+    {
       "title": "Final FY2026 Defense, FAA Bills Signed into Law",
       "link": "https://spacepolicyonline.com/news/final-fy2026-defense-faa-bills-signed-into-law/",
       "source": "SpacePolicyOnline.com",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-02-03T17:01:07Z",
       "summary": "A full moon is seen shining over NASA’s SLS (Space Launch System) and Orion spacecraft, atop the mobile launcher at Launch Pad 39B at NASA’s Kennedy Space Center in Florida in the early hours of February 1, 2026. The agency concluded a wet dress rehearsal for the agency’s Artemis II test flight early Tuesday morning, […]"
-    },
-    {
-      "title": "Booster 19 Rolls out to Masseys for Cryogenic Proof Testing",
-      "link": "https://www.nasaspaceflight.com/2026/02/booster-19-masseys-cryogenic-testing/",
-      "source": "NASASpaceflight",
-      "date": "2026-02-03T16:23:37Z",
-      "summary": "Following Booster 18’s failure during a pressure test, SpaceX went ahead and set a new…\nThe post Booster 19 Rolls out to Masseys for Cryogenic Proof Testing appeared first on NASASpaceFlight.com."
     }
   ],
-  "updated": "2026-02-04T00:51:53.415Z"
+  "updated": "2026-02-04T03:23:59.838Z"
 }
