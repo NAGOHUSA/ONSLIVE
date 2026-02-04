@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Northrop Grumman tests second solid motor developed under 2025 SMART program",
+      "link": "https://www.nasaspaceflight.com/2026/02/ng-bamm2920-test/",
+      "source": "NASASpaceflight",
+      "date": "2026-02-04T19:34:11Z",
+      "summary": "Northrop Grumman has successfully tested the Bombardment Attack Missile Motor 29! 2.0, also known as…\nThe post Northrop Grumman tests second solid motor developed under 2025 SMART program appeared first on NASASpaceFlight.com."
+    },
+    {
       "title": "Evaluation of Adhesive and Solvent Alternatives for PolymericBonding Applications",
       "link": "https://www.nasa.gov/centers-and-facilities/nesc/evaluation-of-adhesive-and-solvent-alternatives-for-polymericbonding-applications/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-02-04T16:18:29Z",
       "summary": "Description These observations by NASA’s SPHEREx (Spectro-Photometer for the History of the Universe, Epoch of Reionization and Ices Explorer) show the infrared light emitted by the dust, water, organic molecules, and carbon dioxide contained within comet 3I/ATLAS’s coma. The comet brightened significantly during the December 2025 period when SPHEREx made the observations — about two […]"
-    },
-    {
-      "title": "SpaceX grounds Falcon 9 missions, could impact ISS launch",
-      "link": "https://www.spacedaily.com/reports/SpaceX_grounds_Falcon_9_missions_could_impact_ISS_launch_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-02-04T15:53:40Z",
-      "summary": "Washington, United States (AFP) Feb 3, 2026\r\n\r\n NASA said Tuesday its next crew rotation to the International Space Station could be delayed after SpaceX announced it was grounding flights of its Falcon 9 rocket to investigate an unspecified issue. \r\n\r\nSpaceX, the private space company owned by Elon Musk, has paused flights of its Falcon 9 rocket following an issue its second stage experienced during a routine launch Monday of Starlink satell"
     }
   ],
-  "updated": "2026-02-04T19:04:49.834Z"
+  "updated": "2026-02-04T19:43:54.211Z"
 }
