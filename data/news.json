@@ -1,11 +1,25 @@
 {
   "articles": [
     {
+      "title": "NASA Armstrong Contributions Propel Artemis, Deep Space Innovation",
+      "link": "https://www.nasa.gov/centers-and-facilities/armstrong/nasa-armstrong-contributions-propel-artemis-deep-space-innovation/",
+      "source": "NASA",
+      "date": "2026-02-04T16:57:47Z",
+      "summary": "NASA is leveraging expertise, capabilities, and partnerships across its centers to make Artemis campaign and deep space exploration safer, more reliable, and efficient. At NASA’s Armstrong Flight Research Center in Edwards, California, contributions include technical leadership, unique flight-testing capabilities, and management of a key technology program that advances critical exploration concepts. Artemis II is an […]"
+    },
+    {
       "title": "NASA Heat Shield Tech Contributes to America’s Space Industry",
       "link": "https://www.nasa.gov/image-article/nasa-heat-shield-tech-contributes-to-americas-space-industry/",
       "source": "NASA",
       "date": "2026-02-04T16:23:44Z",
       "summary": "This Jan. 29, 2026, photo captures the streak the Varda Space Industries W-5 capsule made while returning to Earth. The capsule uses a protective heat shield Varda produced made of cutting-edge material it licensed from NASA. The material, known as C-PICA (Conformal Phenolic Impregnated Carbon Ablator), provides a stronger, less expensive, and more efficient thermal protection […]"
+    },
+    {
+      "title": "NASA’s SPHEREx Examines Comet 3I/ATLAS’s Coma",
+      "link": "https://science.nasa.gov/photojournal/nasas-spherex-examines-comet-3i-atlass-coma/",
+      "source": "NASA",
+      "date": "2026-02-04T16:18:29Z",
+      "summary": "Description These observations by NASA’s SPHEREx (Spectro-Photometer for the History of the Universe, Epoch of Reionization and Ices Explorer) show the infrared light emitted by the dust, water, organic molecules, and carbon dioxide contained within comet 3I/ATLAS’s coma. The comet brightened significantly during the December 2025 period when SPHEREx made the observations — about two […]"
     },
     {
       "title": "SpaceX grounds Falcon 9 missions, could impact ISS launch",
@@ -15,26 +29,12 @@
       "summary": "Washington, United States (AFP) Feb 3, 2026\r\n\r\n NASA said Tuesday its next crew rotation to the International Space Station could be delayed after SpaceX announced it was grounding flights of its Falcon 9 rocket to investigate an unspecified issue. \r\n\r\nSpaceX, the private space company owned by Elon Musk, has paused flights of its Falcon 9 rocket following an issue its second stage experienced during a routine launch Monday of Starlink satell"
     },
     {
-      "title": "KSAT rolls out AI driven maritime monitoring platform",
-      "link": "https://www.spacewar.com/reports/KSAT_rolls_out_AI_driven_maritime_monitoring_platform_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-02-04T15:53:40Z",
-      "summary": "Berlin, Germany (SPX) Feb 03, 2026\n\n\nKSAT is introducing a new platform that provides space based maritime situational awareness by combining its global satellite ground network and maritime services with AI powered analytics developed by VAKE. \n\nThe Vake Powered By KSAT platform delivers detection, identification and tracking of dark vessels from space by using data from optical, radiofrequency and radar satellites operated by"
-    },
-    {
       "title": "NASA Moon mission launch srubbed to March after test",
       "link": "https://www.spacedaily.com/reports/NASA_Moon_mission_launch_delayed_to_March_after_test_999.html",
       "source": "SpaceDaily",
       "date": "2026-02-04T15:53:40Z",
       "summary": "Washington, United States (AFP) Feb 3, 2026\r\n\r\n\r\n NASA said Tuesday it's delaying until March the launch of its first crewed flyby mission to the Moon in more than 50 years, after encountering leaks during final tests. \r\n\r\nThe mishaps during a run-through that the US space agency calls a \"wet dress rehearsal\" dashed hopes that the mission around the Moon could launch as soon as Sunday. The next possible launch window now opens March 6. \r\n\r\nThe"
-    },
-    {
-      "title": "NISAR radar view maps surface changes in Mississippi Delta",
-      "link": "https://www.spacedaily.com/reports/NISAR_radar_view_maps_surface_changes_in_Mississippi_Delta_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-02-04T15:53:40Z",
-      "summary": "Los Angeles CA (SPX) Feb 02, 2026\r\n\r\n\r\nA new radar image from the joint NASA-ISRO NISAR satellite shows how the mission can see through cloud cover to reveal surface features across the Mississippi River Delta region in southeastern Louisiana. \r\n\r\nThe scene, acquired on November 29, 2025, with NISAR's L-band synthetic aperture radar instrument, spans the cities of New Orleans and Baton Rouge, the winding Mississippi River between t"
     }
   ],
-  "updated": "2026-02-04T16:38:02.118Z"
+  "updated": "2026-02-04T17:29:00.497Z"
 }
