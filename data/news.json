@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Final FY2026 Defense, FAA Bills Signed into Law",
+      "link": "https://spacepolicyonline.com/news/final-fy2026-defense-faa-bills-signed-into-law/",
+      "source": "SpacePolicyOnline.com",
+      "date": "2026-02-04T00:29:45Z",
+      "summary": "The FY2026 Defense and Transportation-HUD appropriations bills were signed into law today, ending a brief partial government shutdown that began Friday night. The Defense bill funds the U.S. Space Force, […]"
+    },
+    {
       "title": "Artemis II Delayed to March",
       "link": "https://www.spacescout.info/2026/02/artemis-ii-delayed-to-march/",
       "source": "Space Scout",
@@ -27,14 +34,7 @@
       "source": "NASASpaceflight",
       "date": "2026-02-03T16:23:37Z",
       "summary": "Following Booster 18’s failure during a pressure test, SpaceX went ahead and set a new…\nThe post Booster 19 Rolls out to Masseys for Cryogenic Proof Testing appeared first on NASASpaceFlight.com."
-    },
-    {
-      "title": "NASA Space to Soil Challenge",
-      "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/nasa-space-to-soil-challenge/",
-      "source": "NASA",
-      "date": "2026-02-03T15:12:32Z",
-      "summary": "Rapid advances in commercial space, artificial intelligence, and edge computing are transforming what is possible for Earth observation. By pushing more intelligence onboard, missions can move from passively collecting data to actively interpreting and responding to changing surface conditions in near-real time, enabling more targeted observations and dramatically improving the value of data returned to […]"
     }
   ],
-  "updated": "2026-02-03T23:53:56.519Z"
+  "updated": "2026-02-04T00:51:53.415Z"
 }
