@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Explore Mars’s Flaugergues Crater",
+      "link": "https://www.esa.int/Science_Exploration/Space_Science/Mars_Express/Explore_Mars_s_Flaugergues_Crater",
+      "source": "ESA",
+      "date": "2026-02-04T10:00:00Z",
+      "summary": "ESA’s Mars Express takes us on a journey across the southern highlands of Mars, including a flight around Flaugergues Crater."
+    },
+    {
+      "title": "Fast download speeds for European science in space, five years on",
+      "link": "https://www.esa.int/ESA_Multimedia/Images/2021/02/Fast_download_speeds_for_European_science_in_space_five_years_on",
+      "source": "ESA",
+      "date": "2026-02-04T08:22:00Z",
+      "summary": "From the ESA Blogs."
+    },
+    {
       "title": "Chilled New York City",
       "link": "https://science.nasa.gov/earth/earth-observatory/chilled-new-york-city/",
       "source": "NASA",
@@ -20,21 +34,7 @@
       "source": "SpacePolicyOnline.com",
       "date": "2026-02-04T00:29:45Z",
       "summary": "The FY2026 Defense and Transportation-HUD appropriations bills were signed into law today, ending a brief partial government shutdown that began Friday night. The Defense bill funds the U.S. Space Force, […]"
-    },
-    {
-      "title": "Artemis II Delayed to March",
-      "link": "https://www.spacescout.info/2026/02/artemis-ii-delayed-to-march/",
-      "source": "Space Scout",
-      "date": "2026-02-03T20:14:22Z",
-      "summary": "NASA’s Artemis II mission will launch no earlier than March due to several issues that were encountered during a launch rehearsal last night."
-    },
-    {
-      "title": "CNES to Fill Commercial Launch Facility Vacancy Left by MaiaSpace",
-      "link": "https://europeanspaceflight.com/cnes-to-fill-commercial-launch-facility-vacancy-left-by-maiaspace/",
-      "source": "European Spaceflight",
-      "date": "2026-02-03T17:44:04Z",
-      "summary": "The French space agency CNES, operator of the Guiana Space Centre in French Guiana, has issued a call for launch operators interested in taking over a portion of its new multi-user commercial launch site following MaiaSpace’s withdrawal. The facility is being built on the grounds of the former Diamant launch site. CNES announced plans to […]\nThe post CNES to Fill Commercial Launch Facility Vacancy Left by MaiaSpace appeared first on European Spaceflight."
     }
   ],
-  "updated": "2026-02-04T09:29:20.293Z"
+  "updated": "2026-02-04T10:08:29.327Z"
 }
