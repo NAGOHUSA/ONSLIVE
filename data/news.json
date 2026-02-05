@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Hubble Spots Lens-Shaped Galaxy",
+      "link": "https://www.nasa.gov/image-article/hubble-spots-lens-shaped-galaxy/",
+      "source": "NASA",
+      "date": "2026-02-05T16:39:36Z",
+      "summary": "This new Hubble image, released on Jan. 30, 2026, is the sharpest taken of NGC 7722, a lenticular galaxy located about 187 million light-years away in the constellation Pegasus. A lenticular, meaning “lens-shaped,” galaxy is a type whose classification sits between more familiar spiral galaxies and elliptical galaxies. It is also less common than spirals and ellipticals — partly […]"
+    },
+    {
+      "title": "The future of the Space Force in a competitive, congested and contested space environment",
+      "link": "https://spacenews.com/the-future-of-the-space-force-in-a-competitive-congested-and-contested-space-environment/",
+      "source": "SpaceNews",
+      "date": "2026-02-05T15:59:02Z",
+      "summary": "\nIn this episode of Space Minds, Mike Gruss sits down with a panel of experts at the Johns Hopkins University Bloomberg Center to discuss the future of the United States […]\nThe post The future of the Space Force in a competitive, congested and contested space environment appeared first on SpaceNews."
+    },
+    {
       "title": "NASA will finally allow astronauts to bring their iPhones to space",
       "link": "https://arstechnica.com/space/2026/02/nasa-will-finally-allow-astronauts-to-bring-their-iphones-to-space/",
       "source": "Arstechnica",
@@ -20,21 +34,7 @@
       "source": "European Spaceflight",
       "date": "2026-02-05T14:58:33Z",
       "summary": "European space logistics startup The Exploration Company has successfully completed a controlled splashdown test of a subscale prototype of its Nyx spacecraft. Founded in 2021, The Exploration Company is developing a reusable space capsule called Nyx that will initially be used to ferry cargo to and from low Earth orbit destinations. Planned variants of the […]\nThe post The Exploration Company Completes Nyx Splashdown Tests appeared first on European Spaceflight."
-    },
-    {
-      "title": "Satellite servicing startup Starfish taps Quindar for mission operations software",
-      "link": "https://spacenews.com/satellite-servicing-startup-starfish-taps-quindar-for-mission-operations-software/",
-      "source": "SpaceNews",
-      "date": "2026-02-05T14:30:00Z",
-      "summary": "\nQuindar’s software aims to cut cost and complexity of satellite ground operations\nThe post Satellite servicing startup Starfish taps Quindar for mission operations software appeared first on SpaceNews."
-    },
-    {
-      "title": "Voyager Technologies and Max Space partner on lunar infrastructure",
-      "link": "https://spacenews.com/voyager-technologies-and-max-space-partner-on-lunar-infrastructure/",
-      "source": "SpaceNews",
-      "date": "2026-02-05T14:12:01Z",
-      "summary": "\nVoyager Technologies and Max Space, a company working on expandable habitats, plan to work together to see how that technology could be used for lunar exploration.\nThe post Voyager Technologies and Max Space partner on lunar infrastructure appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-02-05T16:00:48.932Z"
+  "updated": "2026-02-05T16:55:55.402Z"
 }
