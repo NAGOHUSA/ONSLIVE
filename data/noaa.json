@@ -335,29 +335,16 @@
       "4.00",
       "27",
       "8"
+    ],
+    [
+      "2026-02-05 00:00:00.000",
+      "4.33",
+      "32",
+      "8"
     ]
   ],
-  "solarWind": [
-    "2026-02-05 01:50:00.000",
-    "4.47",
-    "480.5",
-    "247269"
-  ],
+  "solarWind": "\u0000",
   "solarFlares": [
-    {
-      "time_tag": "2026-01-29T03:27:00Z",
-      "begin_time": "2026-01-29T03:27:00Z",
-      "begin_class": "B6.9",
-      "max_time": "2026-01-29T03:33:00Z",
-      "max_class": "B9.3",
-      "max_xrlong": 9.348978551315668e-7,
-      "max_ratio": 0.12918385733356216,
-      "max_ratio_time": "2026-01-29T03:32:25Z",
-      "current_int_xrlong": 0.0005731980199925601,
-      "end_time": "2026-01-29T03:37:00Z",
-      "end_class": "B7.8",
-      "satellite": 18
-    },
     {
       "time_tag": "2026-01-29T21:31:00Z",
       "begin_time": "2026-01-29T21:31:00Z",
@@ -1841,7 +1828,49 @@
       "end_time": "2026-02-05T01:06:00Z",
       "end_class": "C3.5",
       "satellite": 18
+    },
+    {
+      "time_tag": "2026-02-05T01:44:00Z",
+      "begin_time": "2026-02-05T01:44:00Z",
+      "begin_class": "C1.9",
+      "max_time": "2026-02-05T01:51:00Z",
+      "max_class": "C4.9",
+      "max_xrlong": 0.0000049294112614006735,
+      "max_ratio": 0.1278208783556949,
+      "max_ratio_time": "2026-02-05T01:50:46Z",
+      "current_int_xrlong": 0.0030123188626021147,
+      "end_time": "2026-02-05T01:57:00Z",
+      "end_class": "C3.3",
+      "satellite": 18
+    },
+    {
+      "time_tag": "2026-02-05T02:13:00Z",
+      "begin_time": "2026-02-05T02:13:00Z",
+      "begin_class": "C2.1",
+      "max_time": "2026-02-05T02:22:00Z",
+      "max_class": "C3.2",
+      "max_xrlong": 0.0000032603377349005314,
+      "max_ratio": 0.0860101461131554,
+      "max_ratio_time": "2026-02-05T02:20:07Z",
+      "current_int_xrlong": 0.0035879299975931644,
+      "end_time": "2026-02-05T02:32:00Z",
+      "end_class": "C2.6",
+      "satellite": 18
+    },
+    {
+      "time_tag": "2026-02-05T02:40:00Z",
+      "begin_time": "2026-02-05T02:40:00Z",
+      "begin_class": "C2.5",
+      "max_time": "2026-02-05T02:54:00Z",
+      "max_class": "C8.9",
+      "max_xrlong": 0.00000898723283171421,
+      "max_ratio": 0.14304636689270905,
+      "max_ratio_time": "2026-02-05T02:49:23Z",
+      "current_int_xrlong": 0.009930629283189774,
+      "end_time": "2026-02-05T03:06:00Z",
+      "end_class": "C5.5",
+      "satellite": 18
     }
   ],
-  "lastUpdated": "2026-02-05T01:53:06.820Z"
+  "lastUpdated": "2026-02-05T04:01:57.740Z"
 }

@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "House Committee Approves New NASA Authorization Bill",
+      "link": "https://spacepolicyonline.com/news/house-committee-approves-new-nasa-authorization-bill/",
+      "source": "SpacePolicyOnline.com",
+      "date": "2026-02-05T01:51:00Z",
+      "summary": "The House Science, Space, and Technology Committee unanimously approved a new NASA authorization bill today after adopting a number of amendments. Overall the bill reemphasizes congressional commitment to U.S. leadership […]"
+    },
+    {
       "title": "House committee advances NASA authorization bill",
       "link": "https://spacenews.com/house-committee-advances-nasa-authorization-bill/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-02-04T22:10:15Z",
       "summary": "NASA’s Johnson Space Center in Houston and the University of Texas System (UT System) announced the signing of a collaborative Space Act Agreement on Jan. 9, 2026. The agreement expands research and workforce development partnership opportunities across NASA centers and UT System facilities. The agreement builds upon decades of collaboration between NASA and the UT […]"
-    },
-    {
-      "title": "US House takes first step toward creating \"commercial\" deep space program",
-      "link": "https://arstechnica.com/space/2026/02/us-house-takes-first-step-toward-creating-commercial-deep-space-program/",
-      "source": "Arstechnica",
-      "date": "2026-02-04T21:01:05Z",
-      "summary": "\"We will continue to rely on the ingenuity of the private sector.\""
     }
   ],
-  "updated": "2026-02-05T01:53:07.138Z"
+  "updated": "2026-02-05T04:01:57.975Z"
 }
