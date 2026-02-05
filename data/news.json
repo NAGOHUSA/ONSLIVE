@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Milano Cortina 2026",
+      "link": "https://science.nasa.gov/earth/earth-observatory/milano-cortina-2026/",
+      "source": "NASA",
+      "date": "2026-02-05T05:01:00Z",
+      "summary": "About 2,900 Olympic athletes have converged on northern Italy to sort out who is the GOAT—or perhaps the stoat."
+    },
+    {
       "title": "House Committee Approves New NASA Authorization Bill",
       "link": "https://spacepolicyonline.com/news/house-committee-approves-new-nasa-authorization-bill/",
       "source": "SpacePolicyOnline.com",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-02-04T23:05:07Z",
       "summary": "Written by Alex Innanen, Atmospheric Scientist at York University, Toronto Earth planning date: Friday, Jan. 30, 2026 Mars has emerged from its holiday behind the Sun, and we here on Earth have been able to reconnect with Curiosity and get back to work on Mars. Our first planning day last Friday gave Curiosity a full […]"
-    },
-    {
-      "title": "NASA, University of Texas Expand Research and Workforce Development",
-      "link": "https://www.nasa.gov/centers-and-facilities/johnson/nasa-university-of-texas-expand-research-and-workforce-development/",
-      "source": "NASA",
-      "date": "2026-02-04T22:10:15Z",
-      "summary": "NASA’s Johnson Space Center in Houston and the University of Texas System (UT System) announced the signing of a collaborative Space Act Agreement on Jan. 9, 2026. The agreement expands research and workforce development partnership opportunities across NASA centers and UT System facilities. The agreement builds upon decades of collaboration between NASA and the UT […]"
     }
   ],
-  "updated": "2026-02-05T04:01:57.975Z"
+  "updated": "2026-02-05T05:19:35.549Z"
 }
