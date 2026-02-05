@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA’s SpaceX Crew-12 to Study Adaptation to Altered Gravity",
+      "link": "https://www.nasa.gov/humans-in-space/nasas-spacex-crew-12-to-study-adaptation-to-altered-gravity/",
+      "source": "NASA",
+      "date": "2026-02-05T18:38:08Z",
+      "summary": "NASA’s SpaceX Crew-12 mission is preparing to launch for a long-duration science mission aboard the International Space Station. During the mission, select crew members will participate in human health studies focused on understanding how astronauts’ bodies adapt to the low-gravity environment of space, including a new study examining subtle changes in blood flow. The experiments, […]"
+    },
+    {
       "title": "Despite initial setbacks, Chinese spaceflight expected to see exciting 2026",
       "link": "https://www.nasaspaceflight.com/2026/02/china-roundup-020526/",
       "source": "NASASpaceflight",
@@ -22,19 +29,12 @@
       "summary": "\nIn this episode of Space Minds, Mike Gruss sits down with a panel of experts at the Johns Hopkins University Bloomberg Center to discuss the future of the United States […]\nThe post The future of the Space Force in a competitive, congested and contested space environment appeared first on SpaceNews."
     },
     {
-      "title": "NASA will finally allow astronauts to bring their iPhones to space",
-      "link": "https://arstechnica.com/space/2026/02/nasa-will-finally-allow-astronauts-to-bring-their-iphones-to-space/",
-      "source": "Arstechnica",
-      "date": "2026-02-05T15:46:18Z",
-      "summary": "\"We are giving our crews the tools to capture special moments.\""
-    },
-    {
-      "title": "Deep space, dim objects: Why asteroid mining caught the Space Force’s eye",
-      "link": "https://spacenews.com/deep-space-and-dim-objects-why-the-space-force-cares-about-asteroids/",
-      "source": "SpaceNews",
-      "date": "2026-02-05T15:00:00Z",
-      "summary": "\nMaj. Gen. Stephen Purdy said the Space Force is taking a closer look at companies developing technologies to mine asteroids.\nThe post Deep space, dim objects: Why asteroid mining caught the Space Force’s eye appeared first on SpaceNews."
+      "title": "A presidential greeting ahead of Sophie Adenot's first spaceflight",
+      "link": "https://www.esa.int/About_Us/Corporate_news/A_presidential_greeting_ahead_of_Sophie_Adenot_s_first_spaceflight",
+      "source": "ESA",
+      "date": "2026-02-05T15:55:00Z",
+      "summary": "ESA Director General Josef Aschbacher joined French President Emmanuel Macron at the Élysée Palace for an event celebrating the first spaceflight of ESA astronaut Sophie Adenot."
     }
   ],
-  "updated": "2026-02-05T18:30:06.254Z"
+  "updated": "2026-02-05T19:21:09.589Z"
 }
