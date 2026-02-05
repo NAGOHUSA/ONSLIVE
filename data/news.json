@@ -1,11 +1,18 @@
 {
   "articles": [
     {
-      "title": "BlackSky expands Gen 3 Assured deals with new defense customer",
-      "link": "https://www.spacedaily.com/reports/BlackSky_expands_Gen_3_Assured_deals_with_new_defense_customer_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-02-05T14:01:07Z",
-      "summary": "Los Angeles CA (SPX) Feb 04, 2026\n\n\nBlackSky Technology Inc. has secured multiple Gen 3 Assured services contracts totaling seven figures with a new international defense customer following an early access period for the capability. The company reports that the expansion agreements signal a rapid shift by the customer toward advanced space-based dynamic monitoring as they scale to support time-sensitive tactical intelligence, surv"
+      "title": "Satellite servicing startup Starfish taps Quindar for mission operations software",
+      "link": "https://spacenews.com/satellite-servicing-startup-starfish-taps-quindar-for-mission-operations-software/",
+      "source": "SpaceNews",
+      "date": "2026-02-05T14:30:00Z",
+      "summary": "\nQuindar’s software aims to cut cost and complexity of satellite ground operations\nThe post Satellite servicing startup Starfish taps Quindar for mission operations software appeared first on SpaceNews."
+    },
+    {
+      "title": "Voyager Technologies and Max Space partner on lunar infrastructure",
+      "link": "https://spacenews.com/voyager-technologies-and-max-space-partner-on-lunar-infrastructure/",
+      "source": "SpaceNews",
+      "date": "2026-02-05T14:12:01Z",
+      "summary": "\nVoyager Technologies and Max Space, a company working on expandable habitats, plan to work together to see how that technology could be used for lunar exploration.\nThe post Voyager Technologies and Max Space partner on lunar infrastructure appeared first on SpaceNews."
     },
     {
       "title": "Survey of 80 near Earth asteroids sharpens view of their origins and risks",
@@ -15,13 +22,6 @@
       "summary": "Tokyo, Japan (SPX) Feb 02, 2026\n\n\nNear Earth asteroids are small bodies whose orbits cross or come close to Earth, making them key tracers of Solar System formation and evolution as well as potential impact hazards for our planet. \n\nAn international team led by researchers at the Purple Mountain Observatory, Chinese Academy of Sciences, has completed a one year observing campaign to better classify these objects. From Octobe"
     },
     {
-      "title": "Why Modern Game Engines Struggle with Real Interstellar Combat Physics",
-      "link": "https://www.spacedaily.com/reports/Why_Modern_Game_Engines_Struggle_with_Real_Interstellar_Combat_Physics_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-02-05T14:01:07Z",
-      "summary": "Los Angeles CA (SPX) Feb 05, 2026\n\nYour favorite space sim lies to you every single time you hit the throttle. Developers prioritize \"fun\" over \"physics\" because actual interstellar combat involves math that would melt your brain and your GPU simultaneously"
-    },
-    {
       "title": "Einstein effect clears planets from tight double star systems",
       "link": "https://www.spacedaily.com/reports/Einstein_effect_clears_planets_from_tight_double_star_systems_999.html",
       "source": "SpaceDaily",
@@ -29,12 +29,12 @@
       "summary": "Los Angeles CA (SPX) Feb 02, 2026\n\n\nOf the more than 4,500 stars known to have planets, one puzzling statistic stands out. Even though nearly all stars are expected to have planets and most stars form in pairs, planets that orbit both stars in a pair are rare. \n\nOf the more than 6,000 extrasolar planets, or exoplanets, confirmed to date - most of them found by NASA's Kepler Space Telescope and the Transiting Exoplanet Survey S"
     },
     {
-      "title": "Study maps thousands of non native plants that could colonize Arctic",
-      "link": "https://www.spacedaily.com/reports/Study_maps_thousands_of_non_native_plants_that_could_colonize_Arctic_999.html",
+      "title": "Why Modern Game Engines Struggle with Real Interstellar Combat Physics",
+      "link": "https://www.spacedaily.com/reports/Why_Modern_Game_Engines_Struggle_with_Real_Interstellar_Combat_Physics_999.html",
       "source": "SpaceDaily",
       "date": "2026-02-05T14:01:07Z",
-      "summary": "Berlin, Germany (SPX) Feb 04, 2026\n\n\nSpecies that are not native to an area can displace the species that already live there, and the Intergovernmental Panel on Nature has identified invasive alien organisms as one of the greatest threats to global biodiversity. Researchers from the Norwegian University of Science and Technology and the University of Liverpool have now produced a systematic scan of which alien vascular plants could"
+      "summary": "Los Angeles CA (SPX) Feb 05, 2026\n\nYour favorite space sim lies to you every single time you hit the throttle. Developers prioritize \"fun\" over \"physics\" because actual interstellar combat involves math that would melt your brain and your GPU simultaneously"
     }
   ],
-  "updated": "2026-02-05T13:56:10.605Z"
+  "updated": "2026-02-05T14:38:01.129Z"
 }
