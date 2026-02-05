@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Career Spotlight: Welder (Ages 14-18)",
+      "link": "https://www.nasa.gov/learning-resources/career-spotlight-welder-ages-14-18/",
+      "source": "NASA",
+      "date": "2026-02-05T19:35:15Z",
+      "summary": "What does a welder do? A welder uses tools that join two or more parts through forces such as heat or pressure. Metals are the materials most commonly used in welding, but it’s also possible to weld thermoplastics or wood. Welders use their hands, skills, and problem-solving abilities to create something new. At NASA, welders […]"
+    },
+    {
       "title": "NASA’s SpaceX Crew-12 to Study Adaptation to Altered Gravity",
       "link": "https://www.nasa.gov/humans-in-space/nasas-spacex-crew-12-to-study-adaptation-to-altered-gravity/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-02-05T15:59:02Z",
       "summary": "\nIn this episode of Space Minds, Mike Gruss sits down with a panel of experts at the Johns Hopkins University Bloomberg Center to discuss the future of the United States […]\nThe post The future of the Space Force in a competitive, congested and contested space environment appeared first on SpaceNews."
-    },
-    {
-      "title": "A presidential greeting ahead of Sophie Adenot's first spaceflight",
-      "link": "https://www.esa.int/About_Us/Corporate_news/A_presidential_greeting_ahead_of_Sophie_Adenot_s_first_spaceflight",
-      "source": "ESA",
-      "date": "2026-02-05T15:55:00Z",
-      "summary": "ESA Director General Josef Aschbacher joined French President Emmanuel Macron at the Élysée Palace for an event celebrating the first spaceflight of ESA astronaut Sophie Adenot."
     }
   ],
-  "updated": "2026-02-05T19:21:09.589Z"
+  "updated": "2026-02-05T19:53:07.322Z"
 }
