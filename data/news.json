@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Despite initial setbacks, Chinese spaceflight expected to see exciting 2026",
+      "link": "https://www.nasaspaceflight.com/2026/02/china-roundup-020526/",
+      "source": "NASASpaceflight",
+      "date": "2026-02-05T18:15:44Z",
+      "summary": "The new year has not started well for China, with two failures among its first…\nThe post Despite initial setbacks, Chinese spaceflight expected to see exciting 2026 appeared first on NASASpaceFlight.com."
+    },
+    {
       "title": "Hubble Spots Lens-Shaped Galaxy",
       "link": "https://www.nasa.gov/image-article/hubble-spots-lens-shaped-galaxy/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-02-05T15:00:00Z",
       "summary": "\nMaj. Gen. Stephen Purdy said the Space Force is taking a closer look at companies developing technologies to mine asteroids.\nThe post Deep space, dim objects: Why asteroid mining caught the Space Force’s eye appeared first on SpaceNews."
-    },
-    {
-      "title": "The Exploration Company Completes Nyx Splashdown Tests",
-      "link": "https://europeanspaceflight.com/the-exploration-company-completes-nyx-splashdown-tests/",
-      "source": "European Spaceflight",
-      "date": "2026-02-05T14:58:33Z",
-      "summary": "European space logistics startup The Exploration Company has successfully completed a controlled splashdown test of a subscale prototype of its Nyx spacecraft. Founded in 2021, The Exploration Company is developing a reusable space capsule called Nyx that will initially be used to ferry cargo to and from low Earth orbit destinations. Planned variants of the […]\nThe post The Exploration Company Completes Nyx Splashdown Tests appeared first on European Spaceflight."
     }
   ],
-  "updated": "2026-02-05T17:40:25.348Z"
+  "updated": "2026-02-05T18:30:06.254Z"
 }
