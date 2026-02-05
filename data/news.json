@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA Selects Two Earth System Explorers Missions",
+      "link": "https://www.nasa.gov/news-release/nasa-selects-two-earth-system-explorers-missions/",
+      "source": "NASA",
+      "date": "2026-02-05T21:10:14Z",
+      "summary": "Two next-generation satellite missions announced Thursday will help NASA better understand Earth and improve capabilities to foresee environmental events and mitigate disasters. “NASA uses the unique vantage point of space to study our home planet to deliver life-saving data into the hands of disaster response and decision-makers every day for the benefit of all, while […]"
+    },
+    {
       "title": "Career Spotlight: Welder (Ages 14-18)",
       "link": "https://www.nasa.gov/learning-resources/career-spotlight-welder-ages-14-18/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-02-05T16:39:36Z",
       "summary": "This new Hubble image, released on Jan. 30, 2026, is the sharpest taken of NGC 7722, a lenticular galaxy located about 187 million light-years away in the constellation Pegasus. A lenticular, meaning “lens-shaped,” galaxy is a type whose classification sits between more familiar spiral galaxies and elliptical galaxies. It is also less common than spirals and ellipticals — partly […]"
-    },
-    {
-      "title": "The future of the Space Force in a competitive, congested and contested space environment",
-      "link": "https://spacenews.com/the-future-of-the-space-force-in-a-competitive-congested-and-contested-space-environment/",
-      "source": "SpaceNews",
-      "date": "2026-02-05T15:59:02Z",
-      "summary": "\nIn this episode of Space Minds, Mike Gruss sits down with a panel of experts at the Johns Hopkins University Bloomberg Center to discuss the future of the United States […]\nThe post The future of the Space Force in a competitive, congested and contested space environment appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-02-05T21:15:53.435Z"
+  "updated": "2026-02-05T21:47:03.432Z"
 }
