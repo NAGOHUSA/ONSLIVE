@@ -1,11 +1,25 @@
 {
   "articles": [
     {
+      "title": "NASA will finally allow astronauts to bring their iPhones to space",
+      "link": "https://arstechnica.com/space/2026/02/nasa-will-finally-allow-astronauts-to-bring-their-iphones-to-space/",
+      "source": "Arstechnica",
+      "date": "2026-02-05T15:46:18Z",
+      "summary": "\"We are giving our crews the tools to capture special moments.\""
+    },
+    {
       "title": "Deep space, dim objects: Why asteroid mining caught the Space Force’s eye",
       "link": "https://spacenews.com/deep-space-and-dim-objects-why-the-space-force-cares-about-asteroids/",
       "source": "SpaceNews",
       "date": "2026-02-05T15:00:00Z",
       "summary": "\nMaj. Gen. Stephen Purdy said the Space Force is taking a closer look at companies developing technologies to mine asteroids.\nThe post Deep space, dim objects: Why asteroid mining caught the Space Force’s eye appeared first on SpaceNews."
+    },
+    {
+      "title": "The Exploration Company Completes Nyx Splashdown Tests",
+      "link": "https://europeanspaceflight.com/the-exploration-company-completes-nyx-splashdown-tests/",
+      "source": "European Spaceflight",
+      "date": "2026-02-05T14:58:33Z",
+      "summary": "European space logistics startup The Exploration Company has successfully completed a controlled splashdown test of a subscale prototype of its Nyx spacecraft. Founded in 2021, The Exploration Company is developing a reusable space capsule called Nyx that will initially be used to ferry cargo to and from low Earth orbit destinations. Planned variants of the […]\nThe post The Exploration Company Completes Nyx Splashdown Tests appeared first on European Spaceflight."
     },
     {
       "title": "Satellite servicing startup Starfish taps Quindar for mission operations software",
@@ -20,21 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-02-05T14:12:01Z",
       "summary": "\nVoyager Technologies and Max Space, a company working on expandable habitats, plan to work together to see how that technology could be used for lunar exploration.\nThe post Voyager Technologies and Max Space partner on lunar infrastructure appeared first on SpaceNews."
-    },
-    {
-      "title": "Survey of 80 near Earth asteroids sharpens view of their origins and risks",
-      "link": "https://www.spacedaily.com/reports/Survey_of_80_near_Earth_asteroids_sharpens_view_of_their_origins_and_risks_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-02-05T14:01:07Z",
-      "summary": "Tokyo, Japan (SPX) Feb 02, 2026\n\n\nNear Earth asteroids are small bodies whose orbits cross or come close to Earth, making them key tracers of Solar System formation and evolution as well as potential impact hazards for our planet. \n\nAn international team led by researchers at the Purple Mountain Observatory, Chinese Academy of Sciences, has completed a one year observing campaign to better classify these objects. From Octobe"
-    },
-    {
-      "title": "Einstein effect clears planets from tight double star systems",
-      "link": "https://www.spacedaily.com/reports/Einstein_effect_clears_planets_from_tight_double_star_systems_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-02-05T14:01:07Z",
-      "summary": "Los Angeles CA (SPX) Feb 02, 2026\n\n\nOf the more than 4,500 stars known to have planets, one puzzling statistic stands out. Even though nearly all stars are expected to have planets and most stars form in pairs, planets that orbit both stars in a pair are rare. \n\nOf the more than 6,000 extrasolar planets, or exoplanets, confirmed to date - most of them found by NASA's Kepler Space Telescope and the Transiting Exoplanet Survey S"
     }
   ],
-  "updated": "2026-02-05T15:23:51.416Z"
+  "updated": "2026-02-05T16:00:48.932Z"
 }
