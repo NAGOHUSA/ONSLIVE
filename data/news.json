@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "A Winter Blanket Covers North Carolina",
+      "link": "https://science.nasa.gov/earth/earth-observatory/a-winter-blanket-covers-north-carolina/",
+      "source": "NASA",
+      "date": "2026-02-06T05:00:00Z",
+      "summary": "In late January 2026, a strong, moisture-laden storm dropped snow across nearly the entire state, spanning from the Appalachians to the Atlantic Coast."
+    },
+    {
+      "title": "Tomorrow.io banks $175 million for DeepSky weather constellation",
+      "link": "https://spacenews.com/tomorrow-io-banks-175-million-for-deepsky-weather-constellation/",
+      "source": "SpaceNews",
+      "date": "2026-02-06T03:54:11Z",
+      "summary": "\nSAN FRANCISCO – Tomorrow.io raised $175 million to fund DeepSky, a satellite constellation designed to gathering vast quantities of atmospheric data for artificial intelligence models. With the money provided by private equity investors Stonecourt Capital and HarbourVest Partners, Tomorrow.io plans to rapidly expand its “space infrastructure and intelligence platform, enabling unprecedented global atmospheric sensing and […]\nThe post Tomorrow.io banks $175 million for DeepSky weather constellation appeared first on SpaceNews."
+    },
+    {
       "title": "Pentagon casts Golden Dome as model for faster, risk-tolerant defense buying",
       "link": "https://spacenews.com/pentagon-casts-golden-dome-as-model-for-faster-risk-tolerant-defense-buying/",
       "source": "SpaceNews",
@@ -20,21 +34,7 @@
       "source": "NASA",
       "date": "2026-02-05T21:10:14Z",
       "summary": "Two next-generation satellite missions announced Thursday will help NASA better understand Earth and improve capabilities to foresee environmental events and mitigate disasters. “NASA uses the unique vantage point of space to study our home planet to deliver life-saving data into the hands of disaster response and decision-makers every day for the benefit of all, while […]"
-    },
-    {
-      "title": "Career Spotlight: Welder (Ages 14-18)",
-      "link": "https://www.nasa.gov/learning-resources/career-spotlight-welder-ages-14-18/",
-      "source": "NASA",
-      "date": "2026-02-05T19:35:15Z",
-      "summary": "What does a welder do? A welder uses tools that join two or more parts through forces such as heat or pressure. Metals are the materials most commonly used in welding, but it’s also possible to weld thermoplastics or wood. Welders use their hands, skills, and problem-solving abilities to create something new. At NASA, welders […]"
-    },
-    {
-      "title": "NASA’s SpaceX Crew-12 to Study Adaptation to Altered Gravity",
-      "link": "https://www.nasa.gov/humans-in-space/nasas-spacex-crew-12-to-study-adaptation-to-altered-gravity/",
-      "source": "NASA",
-      "date": "2026-02-05T18:38:08Z",
-      "summary": "NASA’s SpaceX Crew-12 mission is preparing to launch for a long-duration science mission aboard the International Space Station. During the mission, select crew members will participate in human health studies focused on understanding how astronauts’ bodies adapt to the low-gravity environment of space, including a new study examining subtle changes in blood flow. The experiments, […]"
     }
   ],
-  "updated": "2026-02-06T04:00:03.951Z"
+  "updated": "2026-02-06T05:16:09.373Z"
 }
