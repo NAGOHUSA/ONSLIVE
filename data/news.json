@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Strong Solar Flare",
+      "link": "https://www.nasa.gov/image-article/strong-solar-flare/",
+      "source": "NASA",
+      "date": "2026-02-06T20:05:52Z",
+      "summary": "This Feb. 4, 2026, image from NASA’s Solar Dynamics Observatory (SDO) captures a strong solar flare erupting from the star. Solar flares are powerful bursts of energy that can, along with other types of solar eruptions, can impact radio communications, electric power grids, navigation signals, and pose risks to spacecraft and astronauts. The flare pictured […]"
+    },
+    {
+      "title": "Boreal Forests Are Shifting North",
+      "link": "https://science.nasa.gov/missions/landsat/boreal-forests-are-shifting-north/",
+      "source": "NASA",
+      "date": "2026-02-06T19:58:06Z",
+      "summary": "The boreal forest—the world’s largest terrestrial biome—is warming faster than any other forest type. New research uses Landsat data to track how the forests shift."
+    },
+    {
       "title": "To reuse or not reuse—the eternal debate of New Glenn's second stage reignites",
       "link": "https://arstechnica.com/space/2026/02/to-reuse-or-not-reuse-the-eternal-debate-of-new-glenns-second-stage-reignites/",
       "source": "Arstechnica",
@@ -20,21 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-02-06T16:56:22Z",
       "summary": "\nIn 2025, more than 322,000 civil servants left jobs voluntarily or were dismissed out of a workforce of roughly 2.4 million. The 13% drop in staffing is the largest single-year decline since the end of World War II. In total, more than 5,000 people who were part of the federal space workforce left their positions. […]\nThe post ‘Serving the country and pushing the boundaries of human existence is very purposeful.’ appeared first on SpaceNews."
-    },
-    {
-      "title": "‘I loved thinking about how to make science possible for America and for the world’",
-      "link": "https://spacenews.com/i-loved-thinking-about-how-to-make-science-possible-for-america-and-for-the-world/",
-      "source": "SpaceNews",
-      "date": "2026-02-06T16:55:41Z",
-      "summary": "\nIn 2025, more than 322,000 civil servants left jobs voluntarily or were dismissed out of a workforce of roughly 2.4 million. The 13% drop in staffing is the largest single-year decline since the end of World War II. In total, more than 5,000 people who were part of the federal space workforce left their positions. […]\nThe post ‘I loved thinking about how to make science possible for America and for the world’ appeared first on SpaceNews."
-    },
-    {
-      "title": "‘You need competent people in the government to direct and make decisions.’",
-      "link": "https://spacenews.com/you-need-competent-people-in-the-government-to-direct-and-make-decisions/",
-      "source": "SpaceNews",
-      "date": "2026-02-06T16:55:04Z",
-      "summary": "\nIn 2025, more than 322,000 civil servants left jobs voluntarily or were dismissed out of a workforce of roughly 2.4 million. The 13% drop in staffing is the largest single-year decline since the end of World War II. In total, more than 5,000 people who were part of the federal space workforce left their positions. […]\nThe post ‘You need competent people in the government to direct and make decisions.’ appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-02-06T20:03:26.310Z"
+  "updated": "2026-02-06T20:44:57.660Z"
 }
