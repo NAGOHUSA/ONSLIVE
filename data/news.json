@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Isaacman Wants to Restore NASA’s Core Competencies",
+      "link": "https://spacepolicyonline.com/news/isaacman-wants-to-restore-nasas-core-competencies/",
+      "source": "SpacePolicyOnline.com",
+      "date": "2026-02-06T22:49:17Z",
+      "summary": "NASA Administrator Jared Isaacman issued a directive today to restore the agency’s “core competencies” in order to fulfill President Trump’s December 2025 Executive Order on Ensuring American Space Superiority. The […]"
+    },
+    {
       "title": "SpaceX shifts away from Dragon launches at pad 39A as Starship looms",
       "link": "https://spaceflightnow.com/2026/02/06/spacex-shifts-away-from-dragon-launches-at-pad-39a-as-starship-looms/",
       "source": "Spaceflight Now",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-02-06T19:58:06Z",
       "summary": "The boreal forest—the world’s largest terrestrial biome—is warming faster than any other forest type. New research uses Landsat data to track how the forests shift."
-    },
-    {
-      "title": "To reuse or not reuse—the eternal debate of New Glenn's second stage reignites",
-      "link": "https://arstechnica.com/space/2026/02/to-reuse-or-not-reuse-the-eternal-debate-of-new-glenns-second-stage-reignites/",
-      "source": "Arstechnica",
-      "date": "2026-02-06T19:31:09Z",
-      "summary": "A new job posting suggests the debate may be swinging back toward reusing GS2."
     }
   ],
-  "updated": "2026-02-06T22:43:39.723Z"
+  "updated": "2026-02-06T22:58:13.676Z"
 }
