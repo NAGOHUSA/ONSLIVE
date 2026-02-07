@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "OHB Establishes European Moonport Company",
+      "link": "https://europeanspaceflight.com/ohb-establishes-european-moonport-company/",
+      "source": "European Spaceflight",
+      "date": "2026-02-07T22:28:08Z",
+      "summary": "German space technology company OHB announced on 4 February that it has established a new subsidiary, the European Moonport Company, to consolidate all its efforts related to future missions to the Moon. While only recently made public, company records show that the subsidiary, registered as Luna Europa – European Moonport Company, was founded in May […]\nThe post OHB Establishes European Moonport Company appeared first on European Spaceflight."
+    },
+    {
       "title": "Falcon 9 returns to flight after upper stage engine investigation",
       "link": "https://spacenews.com/falcon-9-returns-to-flight-after-upper-stage-engine-investigation/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-02-07T15:49:32Z",
       "summary": "\nStarfish’s Otter spacecraft will support relocation and life extension of military satellites\nThe post Space Force awards $54.5 million contract to Starfish Space for GEO servicing vehicle appeared first on SpaceNews."
-    },
-    {
-      "title": "Crew-12 readies for launch",
-      "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Crew-12_readies_for_launch",
-      "source": "ESA",
-      "date": "2026-02-07T14:00:00Z",
-      "summary": "Crew-12 is scheduled to lift off from the Kennedy Space Center in Florida, USA, no earlier than Wednesday 11 February. "
     }
   ],
-  "updated": "2026-02-07T23:20:47.022Z"
+  "updated": "2026-02-07T23:50:35.978Z"
 }
