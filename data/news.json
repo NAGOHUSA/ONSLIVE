@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Crew-12 readies for launch",
+      "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Crew-12_readies_for_launch",
+      "source": "ESA",
+      "date": "2026-02-07T14:00:00Z",
+      "summary": "Crew-12 is scheduled to lift off from the Kennedy Space Center in Florida, USA, no earlier than Wednesday 11 February. "
+    },
+    {
       "title": "China launches reusable spaceplane on fourth secretive orbital mission",
       "link": "https://spacenews.com/china-launches-reusable-spaceplane-on-fourth-secretive-orbital-mission/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-02-07T00:15:08Z",
       "summary": "\nAfter losing about 20% of its civil servant workforce in the past year, NASA’s administrator says the agency plans to bring more expertise in-house and reduce its reliance on contractors.\nThe post NASA seeks to bolster workforce, reduce reliance on contractors appeared first on SpaceNews."
-    },
-    {
-      "title": "Viasat sees orbital data center partnership opportunity",
-      "link": "https://spacenews.com/viasat-sees-orbital-data-center-partnership-opportunity/",
-      "source": "SpaceNews",
-      "date": "2026-02-06T22:56:34Z",
-      "summary": "\nWhile Viasat has no plans to join the rush to deploy orbital data centers, the satellite operator sees a role providing the communications links needed to connect such systems with users on Earth and other spacecraft.\nThe post Viasat sees orbital data center partnership opportunity appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-02-07T13:56:29.644Z"
+  "updated": "2026-02-07T14:19:16.347Z"
 }
