@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Falcon 9 returns to flight after upper stage engine investigation",
+      "link": "https://spacenews.com/falcon-9-returns-to-flight-after-upper-stage-engine-investigation/",
+      "source": "SpaceNews",
+      "date": "2026-02-07T22:14:02Z",
+      "summary": "\nA Falcon 9 launched a batch of Starlink satellites on Feb. 7 after SpaceX completed an investigation into an engine malfunction during the rocket’s previous launch five days earlier.\nThe post Falcon 9 returns to flight after upper stage engine investigation appeared first on SpaceNews."
+    },
+    {
       "title": "SpaceX IPO could drive investor interest in other space companies",
       "link": "https://spacenews.com/spacex-ipo-could-drive-investor-interest-in-other-space-companies/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "ESA",
       "date": "2026-02-07T14:00:00Z",
       "summary": "Crew-12 is scheduled to lift off from the Kennedy Space Center in Florida, USA, no earlier than Wednesday 11 February. "
-    },
-    {
-      "title": "China launches reusable spaceplane on fourth secretive orbital mission",
-      "link": "https://spacenews.com/china-launches-reusable-spaceplane-on-fourth-secretive-orbital-mission/",
-      "source": "SpaceNews",
-      "date": "2026-02-07T11:00:43Z",
-      "summary": "\nChina launched its experimental reusable spacecraft for the fourth time late Friday, once again maintaining strict secrecy around the mission.\nThe post China launches reusable spaceplane on fourth secretive orbital mission appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-02-07T22:00:56.902Z"
+  "updated": "2026-02-07T22:30:41.387Z"
 }
