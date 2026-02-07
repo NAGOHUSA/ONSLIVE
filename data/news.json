@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "China launches reusable spaceplane on fourth secretive orbital mission",
+      "link": "https://spacenews.com/china-launches-reusable-spaceplane-on-fourth-secretive-orbital-mission/",
+      "source": "SpaceNews",
+      "date": "2026-02-07T11:00:43Z",
+      "summary": "\nChina launched its experimental reusable spacecraft for the fourth time late Friday, once again maintaining strict secrecy around the mission.\nThe post China launches reusable spaceplane on fourth secretive orbital mission appeared first on SpaceNews."
+    },
+    {
       "title": "Live coverage: SpaceX to launch return to flight Falcon 9 mission following brief stand down",
       "link": "https://spaceflightnow.com/2026/02/07/live-coverage-spacex-to-launch-return-to-flight-falcon-9-mission-following-brief-stand-down/",
       "source": "Spaceflight Now",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-02-06T22:56:34Z",
       "summary": "\nWhile Viasat has no plans to join the rush to deploy orbital data centers, the satellite operator sees a role providing the communications links needed to connect such systems with users on Earth and other spacecraft.\nThe post Viasat sees orbital data center partnership opportunity appeared first on SpaceNews."
-    },
-    {
-      "title": "Isaacman Wants to Restore NASA’s Core Competencies",
-      "link": "https://spacepolicyonline.com/news/isaacman-wants-to-restore-nasas-core-competencies/",
-      "source": "SpacePolicyOnline.com",
-      "date": "2026-02-06T22:49:17Z",
-      "summary": "NASA Administrator Jared Isaacman issued a directive today to restore the agency’s “core competencies” in order to fulfill President Trump’s December 2025 Executive Order on Ensuring American Space Superiority. The […]"
     }
   ],
-  "updated": "2026-02-07T11:02:42.374Z"
+  "updated": "2026-02-07T11:30:13.500Z"
 }
