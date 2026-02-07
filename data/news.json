@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Starbase’s launch site lays groundwork to double in size",
+      "link": "https://www.nasaspaceflight.com/2026/02/starbases-launch-site-double-size/",
+      "source": "NASASpaceflight",
+      "date": "2026-02-07T19:57:50Z",
+      "summary": "While pushing for Flight 12, SpaceX has received approval to nearly double the launch site’s…\nThe post Starbase’s launch site lays groundwork to double in size appeared first on NASASpaceFlight.com."
+    },
+    {
       "title": "Space Force awards $54.5 million contract to Starfish Space for GEO servicing vehicle",
       "link": "https://spacenews.com/space-force-awards-54-5-million-contract-to-starfish-space-for-geo-servicing-vehicle/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "Spaceflight Now",
       "date": "2026-02-07T08:32:17Z",
       "summary": "SpaceX halted launches for less than a week following an in-flight anomaly. Liftoff of the Starlink 17-33 mission is scheduled for 9:21 a.m. PST (12:21 p.m. EST / 1721 UTC). "
-    },
-    {
-      "title": "A Grand, Snow-Rimmed Canyon",
-      "link": "https://science.nasa.gov/earth/earth-observatory/a-grand-snow-rimmed-canyon/",
-      "source": "NASA",
-      "date": "2026-02-07T05:01:00Z",
-      "summary": "A dusting of white highlighted the Colorado Plateau around the deep gorge, while shadows created a visual illusion."
     }
   ],
-  "updated": "2026-02-07T19:56:15.788Z"
+  "updated": "2026-02-07T20:17:09.153Z"
 }
