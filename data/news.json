@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "SpaceX IPO could drive investor interest in other space companies",
+      "link": "https://spacenews.com/spacex-ipo-could-drive-investor-interest-in-other-space-companies/",
+      "source": "SpaceNews",
+      "date": "2026-02-07T20:46:06Z",
+      "summary": "\nAn investor in two space companies that went public in the past year said an upcoming SpaceX IPO could generate new investor interest while also triggering a wave of consolidation.\nThe post SpaceX IPO could drive investor interest in other space companies appeared first on SpaceNews."
+    },
+    {
       "title": "Starbase’s launch site lays groundwork to double in size",
       "link": "https://www.nasaspaceflight.com/2026/02/starbases-launch-site-double-size/",
       "source": "NASASpaceflight",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-02-07T11:00:43Z",
       "summary": "\nChina launched its experimental reusable spacecraft for the fourth time late Friday, once again maintaining strict secrecy around the mission.\nThe post China launches reusable spaceplane on fourth secretive orbital mission appeared first on SpaceNews."
-    },
-    {
-      "title": "Live coverage: SpaceX to launch return to flight Falcon 9 mission following brief stand down",
-      "link": "https://spaceflightnow.com/2026/02/07/live-coverage-spacex-to-launch-return-to-flight-falcon-9-mission-following-brief-stand-down/",
-      "source": "Spaceflight Now",
-      "date": "2026-02-07T08:32:17Z",
-      "summary": "SpaceX halted launches for less than a week following an in-flight anomaly. Liftoff of the Starlink 17-33 mission is scheduled for 9:21 a.m. PST (12:21 p.m. EST / 1721 UTC). "
     }
   ],
-  "updated": "2026-02-07T20:46:00.075Z"
+  "updated": "2026-02-07T21:01:43.497Z"
 }
