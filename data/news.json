@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "What’s Happening in Space Policy February 8-14, 2026",
+      "link": "https://spacepolicyonline.com/news/whats-happening-in-space-policy-february-8-14-2026/",
+      "source": "SpacePolicyOnline.com",
+      "date": "2026-02-08T22:02:27Z",
+      "summary": "Here is SpacePolicyOnline.com’s list of space policy events for the week of February 8-14, 2026 and any insight we can offer about them. The House and Senate are in session […]"
+    },
+    {
       "title": "SpaceX test fires its Falcon 9 rocket ahead of midweek launch of Crew-12 to the space station",
       "link": "https://spaceflightnow.com/2026/02/08/spacex-test-fires-its-falcon-9-rocket-ahead-of-midweek-launch-of-crew-12-to-the-space-station/",
       "source": "Spaceflight Now",
@@ -27,14 +34,7 @@
       "source": "SpaceDaily",
       "date": "2026-02-08T01:59:29Z",
       "summary": "Munich, Germany (SPX) Feb 08, 2026\n\n\nIsar Aerospace is expanding its test operations at Esrange Space Center in Kiruna, Sweden, by establishing a second test site in cooperation with SSC Space. The new infrastructure is intended to support the development and production ramp up of the companys Spectrum launch vehicle and to help make access to space more scalable for European customers. \n\nThe expansion at Esrange is aligned wit"
-    },
-    {
-      "title": "First Crewed Moon Flyby In 54 Years: Artemis II",
-      "link": "https://www.spacedaily.com/reports/NASAs_Artemis_II_plans_to_send_a_crew_around_the_Moon_to_test_equipment_and_lay_the_groundwork_for_a_future_landing_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-02-08T01:59:29Z",
-      "summary": "Tempe AZ (SPX) Feb 08, 2026\n\n\nAlmost as tall as a football field, NASAs Space Launch System rocket and capsule stack traveled slowly - just under 1 mile per hour - out to the Artemis II launchpad, its temporary home at the Kennedy Space Center in Florida, on Jan. 17, 2026. That slow crawl is in stark contrast to the peak velocity it will reach on launch day, over 22,000 miles per hour, when it will send a crew of four on a j"
     }
   ],
-  "updated": "2026-02-08T21:54:31.484Z"
+  "updated": "2026-02-08T22:12:29.930Z"
 }
