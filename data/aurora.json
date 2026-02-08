@@ -1,6 +1,6 @@
 {
-  "forecastKp": 2,
-  "probability": "Medium",
+  "forecastKp": 0.33,
+  "probability": "Low",
   "bestViewing": "Polar regions",
-  "updated": "2026-02-07T23:50:35.836Z"
+  "updated": "2026-02-08T01:10:27.882Z"
 }
