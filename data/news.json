@@ -1,40 +1,40 @@
 {
   "articles": [
     {
-      "title": "NASA, Boeing still working on Starliner return to flight",
-      "link": "https://spacenews.com/nasa-boeing-still-working-on-starliner-return-to-flight/",
+      "title": "NASA’s Hubble Captures Light Show Around Rapidly Dying Star",
+      "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-captures-light-show-around-rapidly-dying-star/",
+      "source": "NASA",
+      "date": "2026-02-10T15:00:33Z",
+      "summary": "This stunning image from NASA’s Hubble Space Telescope reveals a dramatic interplay of light and shadow in the Egg Nebula, sculpted by freshly ejected stardust. Located approximately 1,000 light-years away in the constellation Cygnus, the Egg Nebula features a central star obscured by a dense cloud of dust — like a “yolk” nestled within a […]"
+    },
+    {
+      "title": "Core Survey by NASA’s Roman Mission Will Unveil Universe’s Dark Side",
+      "link": "https://www.nasa.gov/missions/roman-space-telescope/core-survey-by-nasas-roman-mission-will-unveil-universes-dark-side/",
+      "source": "NASA",
+      "date": "2026-02-10T15:00:00Z",
+      "summary": "The broadest planned survey by NASA’s upcoming Nancy Grace Roman Space Telescope will reveal hundreds of millions of galaxies scattered across the cosmos. After Roman launches as soon as this fall, scientists will use these sparkly beacons to study the universe’s shadowy underpinnings: dark matter and dark energy. “We set out to build the ultimate […]"
+    },
+    {
+      "title": "Hubble captures light show around rapidly dying star",
+      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/02/Hubble_captures_light_show_around_rapidly_dying_star",
+      "source": "ESA",
+      "date": "2026-02-10T15:00:00Z",
+      "summary": "From the ESA Blogs."
+    },
+    {
+      "title": "Apolink and Galaxia team up to improve planned data relay capability",
+      "link": "https://spacenews.com/apolink-and-galaxia-team-up-to-improve-planned-data-relay-capability/",
       "source": "SpaceNews",
-      "date": "2026-02-10T13:13:02Z",
-      "summary": "As NASA prepares to launch a new crew to the International Space Station, the agency has yet to decide which spacecraft it will use for the next crew-rotation mission.\r\nThe post NASA, Boeing still working on Starliner return to flight appeared first on SpaceNews."
+      "date": "2026-02-10T15:00:00Z",
+      "summary": "\nA satellite to be built by Canadian startup Galaxia for launch in 2027 is being lined up for a study aimed at improving California-based Apolink’s proposed in-orbit data relay services.\nThe post Apolink and Galaxia team up to improve planned data relay capability appeared first on SpaceNews."
     },
     {
-      "title": "Abundant element alloy enables rare earth free cryogenic cooling",
-      "link": "https://www.spacedaily.com/reports/Abundant_element_alloy_enables_rare_earth_free_cryogenic_cooling_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-02-10T13:03:32Z",
-      "summary": "Tokyo, Japan (SPX) Feb 04, 2026\n\n\nIn collaboration with the National Institute of Technology (KOSEN), Oshima College, the National Institute for Materials Science (NIMS) has developed a new regenerator material composed solely of abundant elements such as copper, iron and aluminum that can achieve cryogenic temperatures around 4 K (minus 269 degrees Celsius) without using any rare earth metals or liquid helium. The work targets"
-    },
-    {
-      "title": "Launch to ISS pushed to Thursday over weather: NASA",
-      "link": "https://www.spacedaily.com/reports/Launch_to_ISS_pushed_to_Thursday_over_weather_NASA_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-02-10T13:03:32Z",
-      "summary": "Washington, United States (AFP) Feb 9, 2026\r\n\r\n NASA on Monday delayed by one day the journey of four astronauts to the International Space Station (ISS) over weather conditions. \r\n\r\nThe US space agency is now targeting February 12 for the lift-off of Crew-12's mission aboard a SpaceX Falcon 9 rocket, with a window opening at 5:38am local time (1038 GMT). \r\n\r\n\"Mission teams completed a weather review on Monday and elected to waive off a Wedne"
-    },
-    {
-      "title": "From Quantum Physics to Coastal Resilience Brad Bartz to Present Who Turned the Power Back On at AltaSea",
-      "link": "https://www.spacedaily.com/reports/From_Quantum_Physics_to_Coastal_Resilience_Brad_Bartz_to_Present_Who_Turned_the_Power_Back_On_at_AltaSea_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-02-10T13:03:32Z",
-      "summary": "Los Angeles CA (SPX) Feb 08, 2026\n\nSolar engineer and ABC Solar founder Brad Bartz will deliver a keynote-style talk titled \"The Palos Verdes Landslide: Who Turned the Power Back On?\" during an upcoming community event at AltaSea at the Port of Los Angeles on March 14, 2026. The presentation blends scientific storytelling with real-world engineering experience, exploring how fundamental physics principles translate into resilient"
-    },
-    {
-      "title": "Shenzhen district powers dense robot innovation ecosystem",
-      "link": "https://www.spacedaily.com/reports/Shenzhen_district_powers_dense_robot_innovation_ecosystem_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-02-10T13:03:32Z",
-      "summary": "Tokyo, Japan (SPX) Feb 06, 2026\n\n\nNanshan district in Shenzhen has built one of the densest hardware and robotics clusters on the planet, centered on a 10-kilometer stretch of Liuxian Avenue known locally as Robot Valley that packs together startups, factories and research labs. \n\nInside this corridor, an embodied intelligent robot serving customers in a cafe has become a shorthand scene for how quickly hardware ideas now re"
+      "title": "ESA awards contracts for Ramses mission to Apophis",
+      "link": "https://www.esa.int/Space_Safety/Planetary_Defence/ESA_awards_contracts_for_Ramses_mission_to_Apophis",
+      "source": "ESA",
+      "date": "2026-02-10T15:00:00Z",
+      "summary": "On 10 February 2026, the European Space Agency (ESA) signed a contract with OHB Italia for the development of the Rapid Apophis Mission for Space Safety (Ramses). Launching in 2028, Ramses will rendezvous with the asteroid Apophis before its rare close encounter with Earth. The mission will provide unique insight into the physical properties and behaviour of asteroids, and strengthen international collaboration and European capabilities in planetary defence."
     }
   ],
-  "updated": "2026-02-10T14:46:14.065Z"
+  "updated": "2026-02-10T15:48:42.185Z"
 }
