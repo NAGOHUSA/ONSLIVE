@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Amazon Leo nets anchor maritime resellers",
+      "link": "https://spacenews.com/amazon-leo-nets-anchor-maritime-resellers/",
+      "source": "SpaceNews",
+      "date": "2026-02-10T19:03:00Z",
+      "summary": "\nAmazon announced its first LEO maritime broadband reseller agreements Feb. 10, as it prepares to deploy another batch of satellites this week on the inaugural flight of Europe’s Ariane 64 rocket.\nThe post Amazon Leo nets anchor maritime resellers appeared first on SpaceNews."
+    },
+    {
+      "title": "Curiosity Blog, Sols 4798-4803: Back for More Science",
+      "link": "https://science.nasa.gov/blog/curiosity-blog-sols-4798-4803-back-for-more-science/",
+      "source": "NASA",
+      "date": "2026-02-10T18:47:27Z",
+      "summary": "Written by Michelle Minitti, MAHLI Deputy Principal Investigator Earth planning date: Friday, Feb. 6, 2026 The results from our first visit to the “Nevado Sajama” drill location were intriguing enough to motivate our return to do a deeper dive into the minerals and compounds locked in this rock with SAM (the Sample Analysis at Mars […]"
+    },
+    {
       "title": "Aerospace attracts partners for DiskSat demonstrations",
       "link": "https://spacenews.com/aerospace-attracts-partners-for-disksat-demonstrations/",
       "source": "SpaceNews",
@@ -20,21 +34,7 @@
       "source": "NASA",
       "date": "2026-02-10T17:03:30Z",
       "summary": "NASA astronaut Chris Williams pointed a camera out a window on the cupola as a set of CubeSats were deployed outside the Kibo laboratory module by a small satellite orbital deployer into Earth orbit. Students from Mexico, Italy, Thailand, Malaysia, and Japan designed the shoe-boxed satellites for a series of Earth observations and technology demonstrations. CubeSats are a class of nanosatellites – small spacecraft […]"
-    },
-    {
-      "title": "Spaceium demonstrates refueling actuator in orbit",
-      "link": "https://spacenews.com/spaceium-demonstrates-refueling-actuator-in-orbit/",
-      "source": "SpaceNews",
-      "date": "2026-02-10T17:01:00Z",
-      "summary": "\nSAN FRANCISCO – Spaceium, a startup planning to establish a network of in-space refueling and repair stations, demonstrated the actuator for its robotic arm in space.   Extensive testing of Spaceium’s actuator, which flew on Transporter-15, the SpaceX Falcon 9 rideshare launched in November, confirmed its accuracy.“We tested the actuator first, because our technology revolves […]\nThe post Spaceium demonstrates refueling actuator in orbit appeared first on SpaceNews."
-    },
-    {
-      "title": "NASA’s Hubble Captures Light Show Around Rapidly Dying Star",
-      "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-captures-light-show-around-rapidly-dying-star/",
-      "source": "NASA",
-      "date": "2026-02-10T15:00:33Z",
-      "summary": "This stunning image from NASA’s Hubble Space Telescope reveals a dramatic interplay of light and shadow in the Egg Nebula, sculpted by freshly ejected stardust. Located approximately 1,000 light-years away in the constellation Cygnus, the Egg Nebula features a central star obscured by a dense cloud of dust — like a “yolk” nestled within a […]"
     }
   ],
-  "updated": "2026-02-10T18:42:09.527Z"
+  "updated": "2026-02-10T19:43:58.913Z"
 }
