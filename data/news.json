@@ -1,11 +1,18 @@
 {
   "articles": [
     {
+      "title": "NASA Marks Milestone in Preparation for Artemis IV Testing",
+      "link": "https://www.nasa.gov/centers-and-facilities/stennis/preparation-for-artemis-iv-testing/",
+      "source": "NASA",
+      "date": "2026-02-11T15:34:18Z",
+      "summary": "Water flowing out. Data flowing in. A water system activation at the Thad Cochran Test Stand (B-2) on Jan. 30 at NASA’s Stennis Space Center near Bay St. Louis, Mississippi, helped capture critical data to support testing a new SLS (Space Launch System) stage expected to fly on the Artemis IV mission. The activation milestone […]"
+    },
+    {
       "title": "SpaceX complete Booster 19 testing at upgraded Massey’s",
       "link": "https://www.nasaspaceflight.com/2026/02/booster-19-testing-upgraded-masseys/",
       "source": "NASASpaceflight",
       "date": "2026-02-11T14:20:30Z",
-      "summary": "In a welcome return to active flight vehicle testing after setbacks and facility upgrades, SpaceX…\nThe post SpaceX complete Booster 19 testing at upgraded Massey’s appeared first on NASASpaceFlight.com."
+      "summary": "In a welcome return to active flight vehicle testing after setbacks and facility upgrades, SpaceX…\r\nThe post SpaceX complete Booster 19 testing at upgraded Massey’s appeared first on NASASpaceFlight.com."
     },
     {
       "title": "Reusable launch vehicles will change everything in space, and on Earth",
@@ -27,14 +34,7 @@
       "source": "Arstechnica",
       "date": "2026-02-11T13:16:25Z",
       "summary": "Violators may be shot down."
-    },
-    {
-      "title": "Stoke Space adds $350 million to Series D round",
-      "link": "https://spacenews.com/stoke-space-adds-350-million-to-series-d-round/",
-      "source": "SpaceNews",
-      "date": "2026-02-11T12:57:54Z",
-      "summary": "\nStoke Space has raised an additional $350 million to advance work on its reusable launch vehicle and future projects.\nThe post Stoke Space adds $350 million to Series D round appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-02-11T14:46:19.489Z"
+  "updated": "2026-02-11T15:41:14.830Z"
 }
