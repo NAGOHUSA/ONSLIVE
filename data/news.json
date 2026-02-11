@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Space companies bet on Golden Dome as questions persist over scope and funding",
+      "link": "https://spacenews.com/space-companies-bet-on-golden-dome-as-questions-persist-over-scope-and-funding/",
+      "source": "SpaceNews",
+      "date": "2026-02-11T21:35:31Z",
+      "summary": "\nAt SmallSat Symposium, executives cite enduring missile threat as rationale for continued investment\nThe post Space companies bet on Golden Dome as questions persist over scope and funding appeared first on SpaceNews."
+    },
+    {
       "title": "Yes, Rocket Lab is blowing up engines. No, it's not a big deal, CEO says.",
       "link": "https://arstechnica.com/space/2026/02/yes-rocket-lab-is-blowing-up-engines-no-its-not-a-big-deal-ceo-says/",
       "source": "Arstechnica",
@@ -27,14 +34,7 @@
       "source": "NASASpaceflight",
       "date": "2026-02-11T20:29:52Z",
       "summary": "United Launch Alliance is preparing to fly its first mission of 2026 with the USSF-87…\nThe post ULA to launch first mission of 2026 with USSF-87 aboard Vulcan appeared first on NASASpaceFlight.com."
-    },
-    {
-      "title": "Demand for sovereign systems extends to the Earth-observation stack",
-      "link": "https://spacenews.com/demand-for-sovereign-systems-extends-to-the-earth-observation-stack/",
-      "source": "SpaceNews",
-      "date": "2026-02-11T20:14:49Z",
-      "summary": "\nMOUNTAIN VIEW, Calif. – At the recent World Economic Forum in Switzerland, much of the conversation revolved around the concerns of middle powers, nations with the wherewithal to influence international events that are not among the great powers. At the SmallSat Symposium in Mountain View, representatives of Earth-observation companies said middle powers that previously relied […]\nThe post Demand for sovereign systems extends to the Earth-observation stack appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-02-11T21:22:20.490Z"
+  "updated": "2026-02-11T21:53:20.567Z"
 }
