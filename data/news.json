@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "NASA Completes First Flight of Laminar Flow Scaled Wing Design",
+      "link": "https://www.nasa.gov/image-article/nasa-completes-first-flight-of-laminar-flow-scaled-wing-design/",
+      "source": "NASA",
+      "date": "2026-02-11T23:35:59Z",
+      "summary": "NASA completed the first flight test of a scale-model wing designed to improve laminar flow, reducing drag and lowering fuel costs for future commercial aircraft.  The flight took place Jan. 29 at NASA’s Armstrong Flight Research Center in Edwards, California, using one of the agency’s F-15B research jets. The NASA-designed, 40-inch Crossflow Attenuated Natural Laminar Flow (CATNLF) wing model was attached to the aircraft’s underside vertically, like a fin.  The flight lasted about 75 minutes, during […]"
+    },
+    {
+      "title": "39A CAA removed, ending crew launch from historic site, for now",
+      "link": "https://www.nasaspaceflight.com/2026/02/39a-caa-removed-future-starship/",
+      "source": "NASASpaceflight",
+      "date": "2026-02-11T23:20:15Z",
+      "summary": "SpaceX has begun dismantling key infrastructure at Launch Complex 39A (LC-39A) at NASA’s Kennedy Space…\nThe post 39A CAA removed, ending crew launch from historic site, for now appeared first on NASASpaceFlight.com."
+    },
+    {
       "title": "SpaceX IPO may suck oxygen from market before unleashing broad capital surge",
       "link": "https://spacenews.com/spacex-ipo-may-suck-oxygen-from-market-before-unleashing-broad-capital-surge/",
       "source": "SpaceNews",
@@ -20,21 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-02-11T21:35:31Z",
       "summary": "\nAt SmallSat Symposium, executives cite enduring missile threat as rationale for continued investment\nThe post Space companies bet on Golden Dome as questions persist over scope and funding appeared first on SpaceNews."
-    },
-    {
-      "title": "Yes, Rocket Lab is blowing up engines. No, it's not a big deal, CEO says.",
-      "link": "https://arstechnica.com/space/2026/02/yes-rocket-lab-is-blowing-up-engines-no-its-not-a-big-deal-ceo-says/",
-      "source": "Arstechnica",
-      "date": "2026-02-11T21:04:18Z",
-      "summary": "\"We are in the part of the program where we are doing very nasty things to the engine.\""
-    },
-    {
-      "title": "China Completes Mengzhou Abort Test, Splashes Down Booster",
-      "link": "https://www.spacescout.info/2026/02/china-completes-mengzhou-abort-test-splashes-down-booster/",
-      "source": "Space Scout",
-      "date": "2026-02-11T20:48:56Z",
-      "summary": "On Wednesday, February 11th, the China Manned Space Agency conducted an in-flight abort test of their Mengzhou crewed lunar spacecraft, launched atop a Long March 10A test booster."
     }
   ],
-  "updated": "2026-02-11T23:17:58.503Z"
+  "updated": "2026-02-11T23:48:26.493Z"
 }
