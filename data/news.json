@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Yes, Rocket Lab is blowing up engines. No, it's not a big deal, CEO says.",
+      "link": "https://arstechnica.com/space/2026/02/yes-rocket-lab-is-blowing-up-engines-no-its-not-a-big-deal-ceo-says/",
+      "source": "Arstechnica",
+      "date": "2026-02-11T21:04:18Z",
+      "summary": "\"We are in the part of the program where we are doing very nasty things to the engine.\""
+    },
+    {
       "title": "China Completes Mengzhou Abort Test, Splashes Down Booster",
       "link": "https://www.spacescout.info/2026/02/china-completes-mengzhou-abort-test-splashes-down-booster/",
       "source": "Space Scout",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-02-11T20:14:49Z",
       "summary": "\nMOUNTAIN VIEW, Calif. – At the recent World Economic Forum in Switzerland, much of the conversation revolved around the concerns of middle powers, nations with the wherewithal to influence international events that are not among the great powers. At the SmallSat Symposium in Mountain View, representatives of Earth-observation companies said middle powers that previously relied […]\nThe post Demand for sovereign systems extends to the Earth-observation stack appeared first on SpaceNews."
-    },
-    {
-      "title": "Live coverage: ULA to launch geosynchronous orbit surveillance satellite for the U.S. Space Force",
-      "link": "https://spaceflightnow.com/2026/02/11/live-coverage-ula-to-launch-geosynchronous-orbit-surveillance-satellite-for-the-u-s-space-force/",
-      "source": "Spaceflight Now",
-      "date": "2026-02-11T20:06:16Z",
-      "summary": "The USSF-87 will be the second national security flight for United Launch Alliance’s Vulcan rocket and the fourth flight of this type of rocket to date. Liftoff from pad 41 at Cape Canaveral Space Force Station is scheduled for 3:30 a.m. EST (0830 UTC). "
     }
   ],
-  "updated": "2026-02-11T20:51:20.893Z"
+  "updated": "2026-02-11T21:22:20.490Z"
 }
