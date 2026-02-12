@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "USSF-87 Anomaly Reveals Continuing Obstacles for ULA’s Vulcan-Centaur",
+      "link": "https://www.spacescout.info/2026/02/ussf-87-anomaly-reveals-continuing-obstacles-for-ulas-vulcan-centaur/",
+      "source": "Space Scout",
+      "date": "2026-02-12T16:38:06Z",
+      "summary": "A familiar anomaly encountered during Vulcan's launch of USSF-87 raises significant concerns for the vehicle’s immediate future."
+    },
+    {
+      "title": "Shimmering Light in Egg Nebula",
+      "link": "https://www.nasa.gov/image-article/shimmering-light-in-egg-nebula/",
+      "source": "NASA",
+      "date": "2026-02-12T16:07:23Z",
+      "summary": "This image from NASA’s Hubble Space Telescope released on Feb. 10, 2026, reveals a dramatic interplay of light and shadow in the Egg Nebula, sculpted by freshly ejected stardust. Located approximately 1,000 light-years away in the constellation Cygnus, the Egg Nebula features a central star obscured by a dense cloud of dust — like a “yolk” nestled […]"
+    },
+    {
       "title": "NASA loading liquid hydrogen aboard Artemis 2 rocket in unannounced test",
       "link": "https://spaceflightnow.com/2026/02/12/nasa-loading-liquid-hydrogen-aboard-artemis-2-rocket-in-unannounced-test/",
       "source": "Spaceflight Now",
@@ -20,21 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-02-12T13:47:46Z",
       "summary": "\nThe company developed a collaborative project management platform designed to operate in classified environments\nThe post Software startup Integrate makes push into defense market following Space Force award appeared first on SpaceNews."
-    },
-    {
-      "title": "Launch companies debate how to compete against SpaceX",
-      "link": "https://spacenews.com/launch-companies-debate-how-to-compete-against-spacex/",
-      "source": "SpaceNews",
-      "date": "2026-02-12T12:20:11Z",
-      "summary": "\nLaunch companies are divided on how to compete with SpaceX in a market where demand outstrips supply, yet customers remain price sensitive.\nThe post Launch companies debate how to compete against SpaceX appeared first on SpaceNews."
-    },
-    {
-      "title": "Vulcan suffers solid rocket booster problem during USSF-87 launch",
-      "link": "https://spaceflightnow.com/2026/02/12/vulcan-suffers-solid-rocket-booster-problem-during-ussf-87-launch/",
-      "source": "Spaceflight Now",
-      "date": "2026-02-12T11:56:22Z",
-      "summary": "The anomaly appears similar to the nozzle burn through seen during the launch of the second certification flight of a Vulcan rocket."
     }
   ],
-  "updated": "2026-02-12T16:04:56.084Z"
+  "updated": "2026-02-12T17:11:11.183Z"
 }
