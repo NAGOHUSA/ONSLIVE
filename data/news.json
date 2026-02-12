@@ -1,11 +1,18 @@
 {
   "articles": [
     {
+      "title": "ULA’s Vulcan launches U.S. Space Force mission to geosynchronous orbit",
+      "link": "https://spacenews.com/ulas-vulcan-launches-u-s-space-force-mission-to-geosynchronous-orbit/",
+      "source": "SpaceNews",
+      "date": "2026-02-12T10:02:57Z",
+      "summary": "USSF-87 sends GSSAP payloads and propulsive ESPA ring on fourth Vulcan flight\r\nThe post ULA’s Vulcan launches U.S. Space Force mission to geosynchronous orbit appeared first on SpaceNews."
+    },
+    {
       "title": "Inaugural Ariane 64 to launch Amazon Leo satellites from Kourou",
       "link": "https://www.nasaspaceflight.com/2026/02/le-01-launch/",
       "source": "NASASpaceflight",
       "date": "2026-02-12T09:48:42Z",
-      "summary": "Arianespace is set to launch the most powerful configuration of its Ariane 6 vehicle for…\nThe post Inaugural Ariane 64 to launch Amazon Leo satellites from Kourou appeared first on NASASpaceFlight.com."
+      "summary": "Arianespace is set to launch the most powerful configuration of its Ariane 6 vehicle for…\r\nThe post Inaugural Ariane 64 to launch Amazon Leo satellites from Kourou appeared first on NASASpaceFlight.com."
     },
     {
       "title": "FCC Space Bureau chief shares agenda for regulatory reform",
@@ -27,14 +34,7 @@
       "source": "NASASpaceflight",
       "date": "2026-02-12T02:04:36Z",
       "summary": "Russia’s Proton rocket will make its first flight in almost three years on Thursday, as…\r\nThe post Proton-M to launch Elektro-L No.5 on its final mission with Blok-DM upper stage appeared first on NASASpaceFlight.com."
-    },
-    {
-      "title": "El Paso airport closed after military used new anti-drone laser to zap party balloon",
-      "link": "https://arstechnica.com/space/2026/02/el-paso-airport-closed-after-military-used-new-anti-drone-laser-to-zap-party-balloon/",
-      "source": "Arstechnica",
-      "date": "2026-02-11T23:50:01Z",
-      "summary": "\"I want to be very, very clear that this should’ve never happened.\""
     }
   ],
-  "updated": "2026-02-12T09:58:37.786Z"
+  "updated": "2026-02-12T10:43:16.292Z"
 }
