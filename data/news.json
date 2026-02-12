@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Launch companies debate how to compete against SpaceX",
+      "link": "https://spacenews.com/launch-companies-debate-how-to-compete-against-spacex/",
+      "source": "SpaceNews",
+      "date": "2026-02-12T12:20:11Z",
+      "summary": "\nLaunch companies are divided on how to compete with SpaceX in a market where demand outstrips supply, yet customers remain price sensitive.\nThe post Launch companies debate how to compete against SpaceX appeared first on SpaceNews."
+    },
+    {
+      "title": "Vulcan suffers solid rocket booster problem during USSF-87 launch",
+      "link": "https://spaceflightnow.com/2026/02/12/vulcan-suffers-solid-rocket-booster-problem-during-ussf-87-launch/",
+      "source": "Spaceflight Now",
+      "date": "2026-02-12T11:56:22Z",
+      "summary": "The anomaly appears similar to the nozzle burn through seen during the launch of the second certification flight of a Vulcan rocket. "
+    },
+    {
       "title": "ULA’s Vulcan launches U.S. Space Force mission to geosynchronous orbit",
       "link": "https://spacenews.com/ulas-vulcan-launches-u-s-space-force-mission-to-geosynchronous-orbit/",
       "source": "SpaceNews",
@@ -20,21 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-02-12T05:05:00Z",
       "summary": "\nMOUNTAIN VIEW, Calif. — The U.S. Federal Communications Commission’s Space Bureau is pursuing an ambitious agenda for regulatory reform. The space plank of the FCC’s Build America Agenda would allocate additional spectrum for space activities, streamline the satellite licensing process and give spacecraft operators more flexibility to modernize operations. “We’re seeking to extend the reach […]\nThe post FCC Space Bureau chief shares agenda for regulatory reform appeared first on SpaceNews."
-    },
-    {
-      "title": "Reaching Top Speed in the Dolomites",
-      "link": "https://science.nasa.gov/earth/earth-observatory/reaching-top-speed-in-the-dolomites/",
-      "source": "NASA",
-      "date": "2026-02-12T05:01:00Z",
-      "summary": "Cortina d’Ampezzo, flanked by steep-sided mountain peaks, is the site of several skiing and sliding events in the 2026 Winter Olympics and Paralympics."
-    },
-    {
-      "title": "Proton-M to launch Elektro-L No.5 on its final mission with Blok-DM upper stage",
-      "link": "https://www.nasaspaceflight.com/2026/02/elektro-l-no5-launch/",
-      "source": "NASASpaceflight",
-      "date": "2026-02-12T02:04:36Z",
-      "summary": "Russia’s Proton rocket will make its first flight in almost three years on Thursday, as…\r\nThe post Proton-M to launch Elektro-L No.5 on its final mission with Blok-DM upper stage appeared first on NASASpaceFlight.com."
     }
   ],
-  "updated": "2026-02-12T11:59:49.509Z"
+  "updated": "2026-02-12T13:11:53.602Z"
 }
