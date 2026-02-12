@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "El Paso airport closed after military used new anti-drone laser to zap party balloon",
+      "link": "https://arstechnica.com/space/2026/02/el-paso-airport-closed-after-military-used-new-anti-drone-laser-to-zap-party-balloon/",
+      "source": "Arstechnica",
+      "date": "2026-02-11T23:50:01Z",
+      "summary": "\"I want to be very, very clear that this should’ve never happened.\""
+    },
+    {
       "title": "NASA Completes First Flight of Laminar Flow Scaled Wing Design",
       "link": "https://www.nasa.gov/image-article/nasa-completes-first-flight-of-laminar-flow-scaled-wing-design/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-02-11T21:50:49Z",
       "summary": "\nMILAN — United Kingdom-based launch company Orbex announced that its business is folding after multiple attempts to stay solvent fell through.  The company announced Feb. 11 that it has filed a notice of intention to appoint administrators — a process in the U.K. that’s similar to declaring bankruptcy — after fundraising, merger and acquisition efforts […]\nThe post UK Launcher Orbex files for administration after failed funding efforts appeared first on SpaceNews."
-    },
-    {
-      "title": "Space companies bet on Golden Dome as questions persist over scope and funding",
-      "link": "https://spacenews.com/space-companies-bet-on-golden-dome-as-questions-persist-over-scope-and-funding/",
-      "source": "SpaceNews",
-      "date": "2026-02-11T21:35:31Z",
-      "summary": "\nAt SmallSat Symposium, executives cite enduring missile threat as rationale for continued investment\nThe post Space companies bet on Golden Dome as questions persist over scope and funding appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-02-11T23:48:26.493Z"
+  "updated": "2026-02-12T00:00:43.803Z"
 }
