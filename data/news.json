@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA loading liquid hydrogen aboard Artemis 2 rocket in unannounced test",
+      "link": "https://spaceflightnow.com/2026/02/12/nasa-loading-liquid-hydrogen-aboard-artemis-2-rocket-in-unannounced-test/",
+      "source": "Spaceflight Now",
+      "date": "2026-02-12T15:18:53Z",
+      "summary": "NASA is loading liquid hydrogen aboard its Space Launch System moon rocket at the Kennedy Space Center on Thursday for an unpublicized but crucial test of the repairs made to a leaky umbilical that derailed a countdown rehearsal on Feb. 2. "
+    },
+    {
       "title": "It is time to take astronomy off Earth",
       "link": "https://spacenews.com/it-is-time-to-take-astronomy-off-earth/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "Spaceflight Now",
       "date": "2026-02-12T11:56:22Z",
       "summary": "The anomaly appears similar to the nozzle burn through seen during the launch of the second certification flight of a Vulcan rocket."
-    },
-    {
-      "title": "ULA’s Vulcan launches U.S. Space Force mission to geosynchronous orbit",
-      "link": "https://spacenews.com/ulas-vulcan-launches-u-s-space-force-mission-to-geosynchronous-orbit/",
-      "source": "SpaceNews",
-      "date": "2026-02-12T10:02:57Z",
-      "summary": "USSF-87 sends GSSAP payloads and propulsive ESPA ring on fourth Vulcan flight\r\nThe post ULA’s Vulcan launches U.S. Space Force mission to geosynchronous orbit appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-02-12T15:07:54.737Z"
+  "updated": "2026-02-12T16:04:56.084Z"
 }
