@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "It is time to take astronomy off Earth",
+      "link": "https://spacenews.com/it-is-time-to-take-astronomy-off-earth/",
+      "source": "SpaceNews",
+      "date": "2026-02-12T14:00:00Z",
+      "summary": "\nAstronomy and commercial space are often portrayed as being on a collision course, yet their futures are deeply intertwined. As satellite constellations expand, astronomers raise concerns about trails across images, interference with radio telescopes and the loss of dark skies. At the same time, commercial operators point to the enormous economic, scientific and national security […]\nThe post It is time to take astronomy off Earth appeared first on SpaceNews."
+    },
+    {
+      "title": "Software startup Integrate makes push into defense market following Space Force award",
+      "link": "https://spacenews.com/software-startup-integrate-makes-push-into-defense-market-following-space-force-award/",
+      "source": "SpaceNews",
+      "date": "2026-02-12T13:47:46Z",
+      "summary": "\nThe company developed a collaborative project management platform designed to operate in classified environments\nThe post Software startup Integrate makes push into defense market following Space Force award appeared first on SpaceNews."
+    },
+    {
       "title": "Launch companies debate how to compete against SpaceX",
       "link": "https://spacenews.com/launch-companies-debate-how-to-compete-against-spacex/",
       "source": "SpaceNews",
@@ -12,7 +26,7 @@
       "link": "https://spaceflightnow.com/2026/02/12/vulcan-suffers-solid-rocket-booster-problem-during-ussf-87-launch/",
       "source": "Spaceflight Now",
       "date": "2026-02-12T11:56:22Z",
-      "summary": "The anomaly appears similar to the nozzle burn through seen during the launch of the second certification flight of a Vulcan rocket. "
+      "summary": "The anomaly appears similar to the nozzle burn through seen during the launch of the second certification flight of a Vulcan rocket."
     },
     {
       "title": "ULA’s Vulcan launches U.S. Space Force mission to geosynchronous orbit",
@@ -20,21 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-02-12T10:02:57Z",
       "summary": "USSF-87 sends GSSAP payloads and propulsive ESPA ring on fourth Vulcan flight\r\nThe post ULA’s Vulcan launches U.S. Space Force mission to geosynchronous orbit appeared first on SpaceNews."
-    },
-    {
-      "title": "Inaugural Ariane 64 to launch Amazon Leo satellites from Kourou",
-      "link": "https://www.nasaspaceflight.com/2026/02/le-01-launch/",
-      "source": "NASASpaceflight",
-      "date": "2026-02-12T09:48:42Z",
-      "summary": "Arianespace is set to launch the most powerful configuration of its Ariane 6 vehicle for…\r\nThe post Inaugural Ariane 64 to launch Amazon Leo satellites from Kourou appeared first on NASASpaceFlight.com."
-    },
-    {
-      "title": "FCC Space Bureau chief shares agenda for regulatory reform",
-      "link": "https://spacenews.com/fcc-space-bureau-chief-shares-agenda-for-regulatory-reform/",
-      "source": "SpaceNews",
-      "date": "2026-02-12T05:05:00Z",
-      "summary": "\nMOUNTAIN VIEW, Calif. — The U.S. Federal Communications Commission’s Space Bureau is pursuing an ambitious agenda for regulatory reform. The space plank of the FCC’s Build America Agenda would allocate additional spectrum for space activities, streamline the satellite licensing process and give spacecraft operators more flexibility to modernize operations. “We’re seeking to extend the reach […]\nThe post FCC Space Bureau chief shares agenda for regulatory reform appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-02-12T13:11:53.602Z"
+  "updated": "2026-02-12T14:15:54.083Z"
 }
