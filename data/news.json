@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Inaugural Ariane 64 to launch Amazon Leo satellites from Kourou",
+      "link": "https://www.nasaspaceflight.com/2026/02/le-01-launch/",
+      "source": "NASASpaceflight",
+      "date": "2026-02-12T09:48:42Z",
+      "summary": "Arianespace is set to launch the most powerful configuration of its Ariane 6 vehicle for…\nThe post Inaugural Ariane 64 to launch Amazon Leo satellites from Kourou appeared first on NASASpaceFlight.com."
+    },
+    {
       "title": "FCC Space Bureau chief shares agenda for regulatory reform",
       "link": "https://spacenews.com/fcc-space-bureau-chief-shares-agenda-for-regulatory-reform/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "Arstechnica",
       "date": "2026-02-11T23:50:01Z",
       "summary": "\"I want to be very, very clear that this should’ve never happened.\""
-    },
-    {
-      "title": "NASA Completes First Flight of Laminar Flow Scaled Wing Design",
-      "link": "https://www.nasa.gov/image-article/nasa-completes-first-flight-of-laminar-flow-scaled-wing-design/",
-      "source": "NASA",
-      "date": "2026-02-11T23:35:59Z",
-      "summary": "NASA completed the first flight test of a scale-model wing designed to improve laminar flow, reducing drag and lowering fuel costs for future commercial aircraft.  The flight took place Jan. 29 at NASA’s Armstrong Flight Research Center in Edwards, California, using one of the agency’s F-15B research jets. The NASA-designed, 40-inch Crossflow Attenuated Natural Laminar Flow (CATNLF) wing model was attached to the aircraft’s underside vertically, like a fin.  The flight lasted about 75 minutes, during […]"
     }
   ],
-  "updated": "2026-02-12T09:02:06.485Z"
+  "updated": "2026-02-12T09:58:37.786Z"
 }
