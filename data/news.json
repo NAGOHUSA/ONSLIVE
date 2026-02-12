@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "FCC Space Bureau chief shares agenda for regulatory reform",
+      "link": "https://spacenews.com/fcc-space-bureau-chief-shares-agenda-for-regulatory-reform/",
+      "source": "SpaceNews",
+      "date": "2026-02-12T05:05:00Z",
+      "summary": "\nMOUNTAIN VIEW, Calif. — The U.S. Federal Communications Commission’s Space Bureau is pursuing an ambitious agenda for regulatory reform. The space plank of the FCC’s Build America Agenda would allocate additional spectrum for space activities, streamline the satellite licensing process and give spacecraft operators more flexibility to modernize operations. “We’re seeking to extend the reach […]\nThe post FCC Space Bureau chief shares agenda for regulatory reform appeared first on SpaceNews."
+    },
+    {
+      "title": "Reaching Top Speed in the Dolomites",
+      "link": "https://science.nasa.gov/earth/earth-observatory/reaching-top-speed-in-the-dolomites/",
+      "source": "NASA",
+      "date": "2026-02-12T05:01:00Z",
+      "summary": "Cortina d’Ampezzo, flanked by steep-sided mountain peaks, is the site of several skiing and sliding events in the 2026 Winter Olympics and Paralympics."
+    },
+    {
       "title": "Proton-M to launch Elektro-L No.5 on its final mission with Blok-DM upper stage",
       "link": "https://www.nasaspaceflight.com/2026/02/elektro-l-no5-launch/",
       "source": "NASASpaceflight",
@@ -20,21 +34,7 @@
       "source": "NASA",
       "date": "2026-02-11T23:35:59Z",
       "summary": "NASA completed the first flight test of a scale-model wing designed to improve laminar flow, reducing drag and lowering fuel costs for future commercial aircraft.  The flight took place Jan. 29 at NASA’s Armstrong Flight Research Center in Edwards, California, using one of the agency’s F-15B research jets. The NASA-designed, 40-inch Crossflow Attenuated Natural Laminar Flow (CATNLF) wing model was attached to the aircraft’s underside vertically, like a fin.  The flight lasted about 75 minutes, during […]"
-    },
-    {
-      "title": "39A CAA removed, ending crew launch from historic site, for now",
-      "link": "https://www.nasaspaceflight.com/2026/02/39a-caa-removed-future-starship/",
-      "source": "NASASpaceflight",
-      "date": "2026-02-11T23:20:15Z",
-      "summary": "SpaceX has begun dismantling key infrastructure at Launch Complex 39A (LC-39A) at NASA’s Kennedy Space…\nThe post 39A CAA removed, ending crew launch from historic site, for now appeared first on NASASpaceFlight.com."
-    },
-    {
-      "title": "SpaceX IPO may suck oxygen from market before unleashing broad capital surge",
-      "link": "https://spacenews.com/spacex-ipo-may-suck-oxygen-from-market-before-unleashing-broad-capital-surge/",
-      "source": "SpaceNews",
-      "date": "2026-02-11T22:49:50Z",
-      "summary": "\nSpace investors and dealmakers anticipate SpaceX’s planned IPO this year will trigger a surge of capital across the industry, but not without the risk of pulling investor attention away from other companies in the run-up.\nThe post SpaceX IPO may suck oxygen from market before unleashing broad capital surge appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-02-12T04:36:44.091Z"
+  "updated": "2026-02-12T05:49:31.824Z"
 }
