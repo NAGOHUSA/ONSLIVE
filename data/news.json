@@ -1,25 +1,25 @@
 {
   "articles": [
     {
+      "title": "Earth from Space: Sending love from above",
+      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/02/Earth_from_Space_Sending_love_from_above",
+      "source": "ESA",
+      "date": "2026-02-13T09:00:00Z",
+      "summary": "From the ESA Blogs."
+    },
+    {
+      "title": "Sunlight Extracts Oxygen From Regolith Using Solar Chemistry",
+      "link": "https://www.nasa.gov/centers-and-facilities/johnson/sunlight-extracts-oxygen-from-regolith-using-solar-chemistry/",
+      "source": "NASA",
+      "date": "2026-02-13T09:00:00Z",
+      "summary": "NASA’s Carbothermal Reduction Demonstration (CaRD) project completed an important step toward using local resources to support human exploration on the Moon. The CaRD team performed integrated prototype testing that used concentrated solar energy to extract oxygen from simulated lunar soil, while confirming the production of carbon monoxide through a solar-driven chemical reaction.  If deployed on the Moon, this technology could enable the production of propellant using […]"
+    },
+    {
       "title": "Chang'e-6 farside samples reshape lunar impact history",
       "link": "https://www.spacedaily.com/reports/Change_6_farside_samples_reshape_lunar_impact_history_999.html",
       "source": "SpaceDaily",
       "date": "2026-02-13T05:20:04Z",
       "summary": "Tokyo, Japan (SPX) Feb 13, 2026\r\n\r\n\r\nScientists from the Institute of Geology and Geophysics of the Chinese Academy of Sciences (CAS), the CAS Aerospace Information Research Institute, and collaborating institutions have used samples from China's Chang'e-6 mission to revise the long-standing lunar crater chronology model. The new analysis relies on material collected from the far side of the Moon and complementary remote sensing im"
-    },
-    {
-      "title": "ESA signs Ramses spacecraft and cubesat deals for Apophis flyby",
-      "link": "https://www.spacedaily.com/reports/ESA_signs_Ramses_spacecraft_and_cubesat_deals_for_Apophis_flyby_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-02-13T05:20:04Z",
-      "summary": "Los Angeles CA (SPX) Feb 13, 2026\r\n\r\n\r\nOn 10 February 2026 the European Space Agency signed a contract with OHB Italia to develop the Rapid Apophis Mission for Space Safety, known as Ramses, securing the next phase of Europes dedicated mission to asteroid Apophis ahead of its close Earth flyby in 2029. Launching in 2028, Ramses will rendezvous with the near-Earth asteroid before its rare encounter with our planet, providing detailed"
-    },
-    {
-      "title": "Ariane 6 four booster launcher completes on schedule mission",
-      "link": "https://www.spacedaily.com/reports/Ariane_6_four_booster_launcher_completes_on_schedule_mission_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-02-13T05:20:04Z",
-      "summary": "Paris, France (SPX) Feb 13, 2026\r\n\r\n\r\nEurope's Ariane 6 launcher has completed its first mission using a four booster configuration, delivering a full suite of payloads to orbit in a demonstration of its maximum performance variant. \r\n\r\nDesignated flight VA267, the mission lifted off from Europe's Spaceport in Kourou, French Guiana, during a launch window between 16:45 and 17:13 GMT, carrying 32 satellites for Amazon's Leo constel"
     },
     {
       "title": "NASA Stennis proves water systems ready for Artemis IV upper stage trials",
@@ -29,12 +29,12 @@
       "summary": "Los Angeles CA (SPX) Feb 13, 2026\r\n\r\n\r\nA major water system activation at the Thad Cochran Test Stand (B-2) has moved NASA Stennis Space Center a step closer to Green Run testing of the exploration upper stage for the Artemis IV mission. The Jan. 30 activation exercised new cooling hardware and pushed the site's high pressure industrial water network to full capacity in preparation for operating the more powerful upper stage. \r\n\r\nT"
     },
     {
-      "title": "Swift observatory changes operations ahead of planned orbit reboost",
-      "link": "https://www.spacedaily.com/reports/Swift_observatory_changes_operations_ahead_of_planned_orbit_reboost_999.html",
+      "title": "Ariane 6 four booster launcher completes on schedule mission",
+      "link": "https://www.spacedaily.com/reports/Ariane_6_four_booster_launcher_completes_on_schedule_mission_999.html",
       "source": "SpaceDaily",
       "date": "2026-02-13T05:20:04Z",
-      "summary": "Los Angeles CA (SPX) Feb 13, 2026\r\n\r\n\r\nNASA has adjusted operations of the Neil Gehrels Swift Observatory to reduce atmospheric drag and prepare the spacecraft for a planned orbit-raising mission. On Feb. 11 the mission team temporarily suspended most science activities so controllers can keep the satellite in an orientation that minimizes drag and slows its gradual loss of altitude. \r\n\r\nSwift normally slews rapidly to observe tran"
+      "summary": "Paris, France (SPX) Feb 13, 2026\r\n\r\n\r\nEurope's Ariane 6 launcher has completed its first mission using a four booster configuration, delivering a full suite of payloads to orbit in a demonstration of its maximum performance variant. \r\n\r\nDesignated flight VA267, the mission lifted off from Europe's Spaceport in Kourou, French Guiana, during a launch window between 16:45 and 17:13 GMT, carrying 32 satellites for Amazon's Leo constel"
     }
   ],
-  "updated": "2026-02-13T08:58:00.908Z"
+  "updated": "2026-02-13T09:40:29.198Z"
 }
