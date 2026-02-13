@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "NASA, SpaceX set for launch of Crew-12 to ISS",
+      "link": "https://www.nasaspaceflight.com/2026/02/crew-12-launch/",
+      "source": "NASASpaceflight",
+      "date": "2026-02-13T01:39:09Z",
+      "summary": "SpaceX and NASA are set for the launch of the 12th operational crew rotation mission…\nThe post NASA, SpaceX set for launch of Crew-12 to ISS appeared first on NASASpaceFlight.com."
+    },
+    {
+      "title": "ULA’s Vulcan Gets USSF Payloads to Orbit Despite Another SRB Anomaly",
+      "link": "https://spacepolicyonline.com/news/ulas-vulcan-gets-ussf-payloads-to-orbit-despite-another-srb-anomaly/",
+      "source": "SpacePolicyOnline.com",
+      "date": "2026-02-13T00:17:34Z",
+      "summary": "United Launch Alliance’s (ULA’s) new Vulcan rocket delivered U.S. Space Force satellites to geosynchronous orbit today despite a “significant performance anomaly” on one of the Solid Rocket Boosters. This was […]"
+    },
+    {
       "title": "Space startups find more paths to liquidity as investors warm to maturing sector",
       "link": "https://spacenews.com/space-startups-find-more-paths-to-liquidity-as-investors-warm-to-maturing-sector/",
       "source": "SpaceNews",
@@ -20,21 +34,7 @@
       "source": "NASA",
       "date": "2026-02-12T21:11:19Z",
       "summary": "NASA and Vast have signed an order for the sixth private astronaut mission to the International Space Station, targeted to launch no earlier than summer 2027 from Florida. This private astronaut mission marks the company’s first selection to the orbiting laboratory, underscoring NASA’s ongoing investment in fostering a commercial space economy and expanding opportunities for […]"
-    },
-    {
-      "title": "Axiom Space raises additional $350 million",
-      "link": "https://spacenews.com/axiom-space-raises-additional-350-million/",
-      "source": "SpaceNews",
-      "date": "2026-02-12T21:00:00Z",
-      "summary": "\nAxiom Space has raised $350 million to advance development of a commercial space station and new spacesuits for NASA.\nThe post Axiom Space raises additional $350 million appeared first on SpaceNews."
-    },
-    {
-      "title": "Highlights of first launch of Ariane 6 with four boosters",
-      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/02/Highlights_of_first_launch_of_Ariane_6_with_four_boosters",
-      "source": "ESA",
-      "date": "2026-02-12T20:30:00Z",
-      "summary": "At 16:45 GMT/17:45 CET the first Ariane 6 rocket with four boosters lifted off from Europe’s Spaceport in French Guiana on 12 February, taking 32 Amazon Leo satellites to orbit."
     }
   ],
-  "updated": "2026-02-13T00:02:00.954Z"
+  "updated": "2026-02-13T02:54:00.218Z"
 }
