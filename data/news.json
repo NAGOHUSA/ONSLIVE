@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Crew-12 Launches",
+      "link": "https://www.nasa.gov/image-article/crew-12-launches/",
+      "source": "NASA",
+      "date": "2026-02-13T15:39:10Z",
+      "summary": "A SpaceX Falcon 9 rocket carrying the company’s Dragon spacecraft is launched on NASA’s SpaceX Crew-12 mission to the International Space Station with NASA astronauts Jessica Meir, Jack Hathaway, ESA (European Space Agency) astronaut Sophie Adenot, and Roscosmos cosmonaut Andrey Fedyaev onboard, Friday, Feb. 13, 2026, from Cape Canaveral Space Force Station in Florida. NASA’s […]"
+    },
+    {
+      "title": "Why is Bezos trolling Musk on X with turtle pics? Because he has a new Moon plan.",
+      "link": "https://arstechnica.com/space/2026/02/why-is-bezos-trolling-musk-on-x-with-turtle-pics-because-he-has-a-new-moon-plan/",
+      "source": "Arstechnica",
+      "date": "2026-02-13T15:19:49Z",
+      "summary": "\"It’s time to go back to the Moon—this time to stay.\""
+    },
+    {
       "title": "Startup bets on new approach to space-based missile defense",
       "link": "https://spacenews.com/startup-bets-on-new-approach-to-space-based-missile-defense/",
       "source": "SpaceNews",
@@ -20,21 +34,7 @@
       "source": "ESA",
       "date": "2026-02-13T13:00:00Z",
       "summary": "Watch the launch of ESA astronaut Sophie Adenot to the International Space Station (ISS), aboard a SpaceX Falcon 9 rocket from Space Launch Complex 40 at NASA’s Kennedy Space Centre. Sophie flies as mission specialist. The other Crew-12 members are NASA astronauts Jessica Meir and Jack Hathaway, respectively commander and pilot of the mission, and Roscosmos cosmonaut Andrei Fedyaev, mission specialist."
-    },
-    {
-      "title": "Full replay: Launch of Crew-12 with Sophie Adenot | εpsilon mission",
-      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/02/Full_replay_Launch_of_Crew-12_with_Sophie_Adenot_epsilon_mission",
-      "source": "ESA",
-      "date": "2026-02-13T13:00:00Z",
-      "summary": "Watch the launch of ESA astronaut Sophie Adenot to the International Space Station (ISS), aboard a SpaceX Falcon 9 rocket from Space Launch Complex 40 at NASA’s Kennedy Space Centre. Sophie flies as mission specialist. The other Crew-12 members are NASA astronauts Jessica Meir and Jack Hathaway, respectively commander and pilot of the mission, and Roscosmos cosmonaut Andrei Fedyaev, mission specialist."
-    },
-    {
-      "title": "Crew-12 launches to ISS",
-      "link": "https://spacenews.com/crew-12-launches-to-iss/",
-      "source": "SpaceNews",
-      "date": "2026-02-13T12:53:38Z",
-      "summary": "\nA Falcon 9 launched a new crew to the International Space Station Feb. 13 to start a busy schedule of arriving and departing vehicles at the station.\nThe post Crew-12 launches to ISS appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-02-13T15:28:24.075Z"
+  "updated": "2026-02-13T16:06:26.693Z"
 }
