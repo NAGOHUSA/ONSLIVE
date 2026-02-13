@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Senate committee advances FCC satellite licensing bill after changes",
+      "link": "https://spacenews.com/senate-committee-advances-fcc-satellite-licensing-bill-after-changes/",
+      "source": "SpaceNews",
+      "date": "2026-02-13T20:56:47Z",
+      "summary": "\nThe Senate Commerce Committee approved a bill intended to streamline satellite licensing after revising provisions related to automatic approval of applications.\nThe post Senate committee advances FCC satellite licensing bill after changes appeared first on SpaceNews."
+    },
+    {
       "title": "Crew-12 Launches",
       "link": "https://www.nasa.gov/image-article/crew-12-launches/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "ESA",
       "date": "2026-02-13T14:10:00Z",
       "summary": "Week in images: 09-13 February 2026"
-    },
-    {
-      "title": "Launch of Crew-12 with Sophie Adenot | εpsilon mission",
-      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/02/Launch_of_Crew-12_with_Sophie_Adenot_epsilon_mission",
-      "source": "ESA",
-      "date": "2026-02-13T13:00:00Z",
-      "summary": "Watch the launch of ESA astronaut Sophie Adenot to the International Space Station (ISS), aboard a SpaceX Falcon 9 rocket from Space Launch Complex 40 at NASA’s Kennedy Space Centre. Sophie flies as mission specialist. The other Crew-12 members are NASA astronauts Jessica Meir and Jack Hathaway, respectively commander and pilot of the mission, and Roscosmos cosmonaut Andrei Fedyaev, mission specialist."
     }
   ],
-  "updated": "2026-02-13T20:58:14.408Z"
+  "updated": "2026-02-13T21:16:04.844Z"
 }
