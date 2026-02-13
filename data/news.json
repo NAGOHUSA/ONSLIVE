@@ -1,13 +1,6 @@
 {
   "articles": [
     {
-      "title": "Strange 'inside-out' planetary system baffles astronomers",
-      "link": "https://www.spacedaily.com/reports/Strange_inside-out_planetary_system_baffles_astronomers_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-02-13T12:49:58Z",
-      "summary": "Paris, France (AFP) Feb 12, 2026\n\n Surprised astronomers said Thursday they have discovered a star with planets in a bizarre order that defies scientific expectations - and suggests these faraway worlds formed in a manner never seen before. \n\nIn our Solar System, the four planets closest to the Sun are small and rocky, while the four farther out are gas giants. \n\nScientists had thought this planetary order - rocky first, th"
-    },
-    {
       "title": "Chance glimpse of star collapse offers new insight into black hole formation",
       "link": "https://www.spacedaily.com/reports/Chance_glimpse_of_star_collapse_offers_new_insight_into_black_hole_formation_999.html",
       "source": "SpaceDaily",
@@ -15,18 +8,25 @@
       "summary": "New York (AFP) Feb 12, 2026\n\n A watched pot never boils and love happens when you least expect it - turns out, the same logic applies to capturing a star as it collapses into a black hole. \n\nAt least that proved true for one group of researchers whose work took a turn when they accidentally witnessed what appears to be an example of the astronomical unicorn, a \"surprise\" discovery they detailed in findings published Thurs"
     },
     {
-      "title": "Europe's most powerful rocket carries 32 satellites for Amazon Leo network into space",
-      "link": "https://www.spacedaily.com/reports/Europes_most_powerful_rocket_carries_32_satellites_for_Amazon_Leo_network_into_space_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-02-13T12:49:58Z",
-      "summary": "Kourou (AFP) Feb 12, 2026\n\n The most powerful version of Europe's Ariane 6 rocket Thursday carried 32 satellites into space for the Amazon Leo network, which aims to rival Elon Musk's Starlink. \n\nThe launch from Europe's spaceport in Kourou, French Guiana, on the northeastern coast of South America, is a first for Amazon Leo. \n\nThe largest number of satellites ever carried by an Ariane rocket successfully separated and"
-    },
-    {
       "title": "International crew takes off for space station",
       "link": "https://www.spacedaily.com/reports/International_crew_takes_off_for_space_station_999.html",
       "source": "SpaceDaily",
       "date": "2026-02-13T12:49:58Z",
-      "summary": "Cape Canaveral (AFP) Feb 13, 2026\n\nNASA launched four astronauts to the International Space Station on Friday, the latest team to head out on a research expedition to the orbiting laboratory. \n\nThe US space agency's international Crew-12 lifted off at approximately 5:15 am local time (1015 GMT) aboard a SpaceX Falcon 9 rocket from the Cape Canaveral launch site in Florida, according to a NASA video feed. \n\nThe astronauts"
+      "summary": "Cape Canaveral (AFP) Feb 13, 2026\r\n\r\nNASA launched four astronauts to the International Space Station on Friday, the latest team to head out on a research expedition to the orbiting laboratory. \r\n\r\nThe US space agency's international Crew-12 lifted off at approximately 5:15 am local time (1015 GMT) aboard a SpaceX Falcon 9 rocket from the Cape Canaveral launch site in Florida, according to a NASA video feed. \r\n\r\nThe astronauts"
+    },
+    {
+      "title": "Strange 'inside-out' planetary system baffles astronomers",
+      "link": "https://www.spacedaily.com/reports/Strange_inside-out_planetary_system_baffles_astronomers_999.html",
+      "source": "SpaceDaily",
+      "date": "2026-02-13T12:49:58Z",
+      "summary": "Paris, France (AFP) Feb 12, 2026\n\n Surprised astronomers said Thursday they have discovered a star with planets in a bizarre order that defies scientific expectations - and suggests these faraway worlds formed in a manner never seen before. \n\nIn our Solar System, the four planets closest to the Sun are small and rocky, while the four farther out are gas giants. \n\nScientists had thought this planetary order - rocky first, th"
+    },
+    {
+      "title": "Europe's most powerful rocket carries 32 satellites for Amazon Leo network into space",
+      "link": "https://www.spacedaily.com/reports/Europes_most_powerful_rocket_carries_32_satellites_for_Amazon_Leo_network_into_space_999.html",
+      "source": "SpaceDaily",
+      "date": "2026-02-13T12:49:58Z",
+      "summary": "Kourou (AFP) Feb 12, 2026\r\n\r\n The most powerful version of Europe's Ariane 6 rocket Thursday carried 32 satellites into space for the Amazon Leo network, which aims to rival Elon Musk's Starlink. \r\n\r\nThe launch from Europe's spaceport in Kourou, French Guiana, on the northeastern coast of South America, is a first for Amazon Leo. \r\n\r\nThe largest number of satellites ever carried by an Ariane rocket successfully separated and"
     },
     {
       "title": "UK space firm Skyrora explores buying assets of struggling rival Orbex",
@@ -36,5 +36,5 @@
       "summary": "London (AFP) Feb 12, 2026\n\n British company Skyrora, which designs and builds rockets to carry small satellites into space, announced Thursday it could acquire \"select\" assets from its stricken rival Orbex, including its spaceport in Scotland.  \n\nThe move by Skyrora, based in the Scottish city Glasgow, comes the day after Orbex revealed it was in the process of appointing administrators after \"fundraising, merger and acq"
     }
   ],
-  "updated": "2026-02-13T11:59:04.338Z"
+  "updated": "2026-02-13T12:58:42.978Z"
 }
