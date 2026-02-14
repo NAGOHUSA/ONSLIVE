@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA continues SLS hydrogen leak tests",
+      "link": "https://spacenews.com/nasa-continues-sls-hydrogen-leak-tests/",
+      "source": "SpaceNews",
+      "date": "2026-02-14T15:59:47Z",
+      "summary": "\nA NASA test to confirm repairs to seals in the Space Launch System’s liquid hydrogen fueling system was only partially successful because of problems with ground equipment.\nThe post NASA continues SLS hydrogen leak tests appeared first on SpaceNews."
+    },
+    {
       "title": "‘Very lucky day’: NASA, SpaceX ace astronaut launch to the space station on Friday the 13th",
       "link": "https://spaceflightnow.com/2026/02/14/very-lucky-day-nasa-spacex-ace-astronaut-launch-to-the-space-station-on-friday-the-13th/",
       "source": "Spaceflight Now",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-02-13T15:39:10Z",
       "summary": "A SpaceX Falcon 9 rocket carrying the company’s Dragon spacecraft is launched on NASA’s SpaceX Crew-12 mission to the International Space Station with NASA astronauts Jessica Meir, Jack Hathaway, ESA (European Space Agency) astronaut Sophie Adenot, and Roscosmos cosmonaut Andrey Fedyaev onboard, Friday, Feb. 13, 2026, from Cape Canaveral Space Force Station in Florida. NASA’s […]"
-    },
-    {
-      "title": "Why is Bezos trolling Musk on X with turtle pics? Because he has a new Moon plan.",
-      "link": "https://arstechnica.com/space/2026/02/why-is-bezos-trolling-musk-on-x-with-turtle-pics-because-he-has-a-new-moon-plan/",
-      "source": "Arstechnica",
-      "date": "2026-02-13T15:19:49Z",
-      "summary": "\"It’s time to go back to the Moon—this time to stay.\""
     }
   ],
-  "updated": "2026-02-14T15:58:34.423Z"
+  "updated": "2026-02-14T16:11:46.247Z"
 }
