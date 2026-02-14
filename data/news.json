@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Live coverage: SpaceX to launch 600th Falcon 9 rocket to date with Starlink flight from Vandenberg",
+      "link": "https://spaceflightnow.com/2026/02/14/live-coverage-spacex-to-launch-600th-falcon-9-rocket-to-date-with-starlink-flight-from-vandenberg/",
+      "source": "Spaceflight Now",
+      "date": "2026-02-14T22:23:13Z",
+      "summary": "The Starlink 17-13 mission also represents the 180th Falcon 9 launch from pad 4E at Vandenberg Space Force Base. Liftoff is scheduled for 5:58:50 p.m. PST (8:58:50 p.m. EST / 0158:50 UTC). "
+    },
+    {
       "title": "NASA continues SLS hydrogen leak tests",
       "link": "https://spacenews.com/nasa-continues-sls-hydrogen-leak-tests/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-02-13T23:09:49Z",
       "summary": "\nIn this episode of Space Minds, Mike Gruss sits down with David Ariosto to discuss his new book, “Open Space.” David talks about how some of the themes of the […]\nThe post A new book captures the forces shaping space: China, the moon and industry appeared first on SpaceNews."
-    },
-    {
-      "title": "Senate committee advances FCC satellite licensing bill after changes",
-      "link": "https://spacenews.com/senate-committee-advances-fcc-satellite-licensing-bill-after-changes/",
-      "source": "SpaceNews",
-      "date": "2026-02-13T20:56:47Z",
-      "summary": "\nThe Senate Commerce Committee approved a bill intended to streamline satellite licensing after revising provisions related to automatic approval of applications.\nThe post Senate committee advances FCC satellite licensing bill after changes appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-02-14T22:21:22.195Z"
+  "updated": "2026-02-14T22:35:57.322Z"
 }
