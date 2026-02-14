@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "‘Very lucky day’: NASA, SpaceX ace astronaut launch to the space station on Friday the 13th",
+      "link": "https://spaceflightnow.com/2026/02/14/very-lucky-day-nasa-spacex-ace-astronaut-launch-to-the-space-station-on-friday-the-13th/",
+      "source": "Spaceflight Now",
+      "date": "2026-02-14T12:53:20Z",
+      "summary": "This was the first time that the space agency happened to launch a crewed mission to the International Space Station on a Friday the 13th. The Crew-12 mission took flight onboard a SpaceX Falcon 9 rocket at 5:15 a.m. EST (1015 UTC). "
+    },
+    {
       "title": "A new book captures the forces shaping space: China, the moon and industry",
       "link": "https://spacenews.com/a-new-book-captures-the-forces-shaping-space-china-the-moon-and-industry/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "Arstechnica",
       "date": "2026-02-13T15:19:49Z",
       "summary": "\"It’s time to go back to the Moon—this time to stay.\""
-    },
-    {
-      "title": "Startup bets on new approach to space-based missile defense",
-      "link": "https://spacenews.com/startup-bets-on-new-approach-to-space-based-missile-defense/",
-      "source": "SpaceNews",
-      "date": "2026-02-13T15:00:00Z",
-      "summary": "\n‘Our interceptors will actively track hypersonic threats and shortly before impact will deploy large particle clouds’\nThe post Startup bets on new approach to space-based missile defense appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-02-14T12:54:35.983Z"
+  "updated": "2026-02-14T13:15:22.859Z"
 }
