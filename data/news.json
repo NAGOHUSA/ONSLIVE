@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Official start of ESA astronaut Sophie Adenot’s εpsilon mission",
+      "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Official_start_of_ESA_astronaut_Sophie_Adenot_s_epsilon_mission",
+      "source": "ESA",
+      "date": "2026-02-14T22:45:00Z",
+      "summary": "The SpaceX Dragon Freedom capsule carrying ESA astronaut Sophie Adenot, NASA astronauts Jessica Meir and Jack Hathaway, and Roscosmos cosmonaut Andrei Fedyaev, docked with the International Space Station on 14 February, at 20:15 GMT/21:15 CET, marking the official start of ESA’s εpsilon mission."
+    },
+    {
       "title": "Live coverage: SpaceX to launch 600th Falcon 9 rocket to date with Starlink flight from Vandenberg",
       "link": "https://spaceflightnow.com/2026/02/14/live-coverage-spacex-to-launch-600th-falcon-9-rocket-to-date-with-starlink-flight-from-vandenberg/",
       "source": "Spaceflight Now",
@@ -27,14 +34,7 @@
       "source": "Spaceflight Now",
       "date": "2026-02-14T12:53:20Z",
       "summary": "This was the first time that the space agency happened to launch a crewed mission to the International Space Station on a Friday the 13th. The Crew-12 mission took flight onboard a SpaceX Falcon 9 rocket at 5:15 a.m. EST (1015 UTC). "
-    },
-    {
-      "title": "A new book captures the forces shaping space: China, the moon and industry",
-      "link": "https://spacenews.com/a-new-book-captures-the-forces-shaping-space-china-the-moon-and-industry/",
-      "source": "SpaceNews",
-      "date": "2026-02-13T23:09:49Z",
-      "summary": "\nIn this episode of Space Minds, Mike Gruss sits down with David Ariosto to discuss his new book, “Open Space.” David talks about how some of the themes of the […]\nThe post A new book captures the forces shaping space: China, the moon and industry appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-02-14T22:56:51.062Z"
+  "updated": "2026-02-14T23:06:47.696Z"
 }
