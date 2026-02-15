@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Replacement crew docks at space station, boosts crew back to seven",
+      "link": "https://spaceflightnow.com/2026/02/15/replacement-crew-docks-at-space-station-boosts-crew-back-to-seven/",
+      "source": "Spaceflight Now",
+      "date": "2026-02-15T05:16:55Z",
+      "summary": "The Crew Dragon docked at the space-facing port of the lab's forward Harmony module at 3:15 p.m. EST, 34 hours after launch Friday from the Kennedy Space Center atop a Falcon 9 rocket. "
+    },
+    {
       "title": "Crew-12 Arrives on Station",
       "link": "https://www.spacescout.info/2026/02/crew-12-arrives-on-station/",
       "source": "Space Scout",
@@ -9,14 +16,14 @@
     },
     {
       "title": "Official start of ESA astronaut Sophie Adenot’s εpsilon mission",
-      "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Official_start_of_ESA_astronaut_Sophie_Adenot_s_epsilon_mission",
+      "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/epsilon/Official_start_of_ESA_astronaut_Sophie_Adenot_s_epsilon_mission",
       "source": "ESA",
       "date": "2026-02-14T22:45:00Z",
       "summary": "The SpaceX Dragon Freedom capsule carrying ESA astronaut Sophie Adenot, NASA astronauts Jessica Meir and Jack Hathaway, and Roscosmos cosmonaut Andrei Fedyaev, docked with the International Space Station on 14 February, at 20:15 GMT/21:15 CET, marking the official start of ESA’s εpsilon mission."
     },
     {
       "title": "Official start of ESA astronaut Sophie Adenot’s εpsilon mission",
-      "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/epsilon/Official_start_of_ESA_astronaut_Sophie_Adenot_s_epsilon_mission",
+      "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Official_start_of_ESA_astronaut_Sophie_Adenot_s_epsilon_mission",
       "source": "ESA",
       "date": "2026-02-14T22:45:00Z",
       "summary": "The SpaceX Dragon Freedom capsule carrying ESA astronaut Sophie Adenot, NASA astronauts Jessica Meir and Jack Hathaway, and Roscosmos cosmonaut Andrei Fedyaev, docked with the International Space Station on 14 February, at 20:15 GMT/21:15 CET, marking the official start of ESA’s εpsilon mission."
@@ -27,14 +34,7 @@
       "source": "Spaceflight Now",
       "date": "2026-02-14T22:23:13Z",
       "summary": "The Starlink 17-13 mission also represents the 180th Falcon 9 launch from pad 4E at Vandenberg Space Force Base. Liftoff is scheduled for 5:58:50 p.m. PST (8:58:50 p.m. EST / 0158:50 UTC). "
-    },
-    {
-      "title": "NASA continues SLS hydrogen leak tests",
-      "link": "https://spacenews.com/nasa-continues-sls-hydrogen-leak-tests/",
-      "source": "SpaceNews",
-      "date": "2026-02-14T15:59:47Z",
-      "summary": "\nA NASA test to confirm repairs to seals in the Space Launch System’s liquid hydrogen fueling system was only partially successful because of problems with ground equipment.\nThe post NASA continues SLS hydrogen leak tests appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-02-15T04:52:59.045Z"
+  "updated": "2026-02-15T05:45:29.709Z"
 }
