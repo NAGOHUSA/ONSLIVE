@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "What’s Happening in Space Policy February 15-21, 2026",
+      "link": "https://spacepolicyonline.com/news/whats-happening-in-space-policy-february-15-21-2026/",
+      "source": "SpacePolicyOnline.com",
+      "date": "2026-02-15T21:41:20Z",
+      "summary": "Here is SpacePolicyOnline.com’s list of space policy events for the week of February 15-21, 2026 and any insight we can offer about them. The House and Senate are in recess […]"
+    },
+    {
       "title": "Space Station returns to a full crew complement after a month",
       "link": "https://arstechnica.com/space/2026/02/space-station-returns-to-a-full-crew-complement-after-a-month/",
       "source": "Arstechnica",
@@ -27,14 +34,7 @@
       "source": "Space Scout",
       "date": "2026-02-14T23:00:51Z",
       "summary": "NASA’s Crew-12 mission docked to the International Space Station at 3:15 PM Eastern Time on February 14th, carrying 4 crew members aboard Crew Dragon Freedom."
-    },
-    {
-      "title": "Official start of ESA astronaut Sophie Adenot’s εpsilon mission",
-      "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Official_start_of_ESA_astronaut_Sophie_Adenot_s_epsilon_mission",
-      "source": "ESA",
-      "date": "2026-02-14T22:45:00Z",
-      "summary": "The SpaceX Dragon Freedom capsule carrying ESA astronaut Sophie Adenot, NASA astronauts Jessica Meir and Jack Hathaway, and Roscosmos cosmonaut Andrei Fedyaev, docked with the International Space Station on 14 February, at 20:15 GMT/21:15 CET, marking the official start of ESA’s εpsilon mission."
     }
   ],
-  "updated": "2026-02-15T21:39:52.045Z"
+  "updated": "2026-02-15T21:50:35.784Z"
 }
