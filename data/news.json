@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Space Station returns to a full crew complement after a month",
+      "link": "https://arstechnica.com/space/2026/02/space-station-returns-to-a-full-crew-complement-after-a-month/",
+      "source": "Arstechnica",
+      "date": "2026-02-15T21:11:54Z",
+      "summary": "\"It's only possible because of the incredibly talented workforce we have.\""
+    },
+    {
       "title": "Live coverage: SpaceX to launch predawn Starlink mission on President’s Day",
       "link": "https://spaceflightnow.com/2026/02/15/live-coverage-spacex-to-launch-predawn-falcon-9-rocket-launch-on-presidents-day/",
       "source": "Spaceflight Now",
@@ -23,18 +30,11 @@
     },
     {
       "title": "Official start of ESA astronaut Sophie Adenot’s εpsilon mission",
-      "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/epsilon/Official_start_of_ESA_astronaut_Sophie_Adenot_s_epsilon_mission",
-      "source": "ESA",
-      "date": "2026-02-14T22:45:00Z",
-      "summary": "The SpaceX Dragon Freedom capsule carrying ESA astronaut Sophie Adenot, NASA astronauts Jessica Meir and Jack Hathaway, and Roscosmos cosmonaut Andrei Fedyaev, docked with the International Space Station on 14 February, at 20:15 GMT/21:15 CET, marking the official start of ESA’s εpsilon mission."
-    },
-    {
-      "title": "Official start of ESA astronaut Sophie Adenot’s εpsilon mission",
       "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Official_start_of_ESA_astronaut_Sophie_Adenot_s_epsilon_mission",
       "source": "ESA",
       "date": "2026-02-14T22:45:00Z",
       "summary": "The SpaceX Dragon Freedom capsule carrying ESA astronaut Sophie Adenot, NASA astronauts Jessica Meir and Jack Hathaway, and Roscosmos cosmonaut Andrei Fedyaev, docked with the International Space Station on 14 February, at 20:15 GMT/21:15 CET, marking the official start of ESA’s εpsilon mission."
     }
   ],
-  "updated": "2026-02-15T21:14:11.826Z"
+  "updated": "2026-02-15T21:27:12.185Z"
 }
