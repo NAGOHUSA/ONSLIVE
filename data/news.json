@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA Will Conduct Second Artemis II WDR on Thursday",
+      "link": "https://spacepolicyonline.com/news/nasa-will-conduct-second-artemis-ii-wdr-on-thursday/",
+      "source": "SpacePolicyOnline.com",
+      "date": "2026-02-16T23:33:05Z",
+      "summary": "NASA will conduct a second Wet Dress Rehearsal (WDR) on Thursday in preparation for the launch of Artemis II. The nearly 50-hour test actually begins Tuesday evening as launch teams […]"
+    },
+    {
       "title": "Launch Preview: Firefly to launch Alpha, SpaceX to launch three Starlink missions",
       "link": "https://www.nasaspaceflight.com/2026/02/launch-preview-021626/",
       "source": "NASASpaceflight",
@@ -27,14 +34,7 @@
       "source": "European Spaceflight",
       "date": "2026-02-16T15:05:25Z",
       "summary": "German rocket builder Rocket Factory Augsburg (RFA) is making significant progress toward once again attempting an inaugural flight of its RFA ONE rocket. The company is currently moving forward with commissioning its launch pad at SaxaVord Spaceport as it works toward a hot fire test of the rocket’s first stage. The RFA ONE rocket is […]\nThe post RFA Begins Final Preparations for Inaugural RFA ONE Launch appeared first on European Spaceflight."
-    },
-    {
-      "title": "The space nuclear power bottleneck — and how to fix it",
-      "link": "https://spacenews.com/the-space-nuclear-power-bottleneck-and-how-to-fix-it/",
-      "source": "SpaceNews",
-      "date": "2026-02-16T14:00:00Z",
-      "summary": "\nNo technology holds more transformative potential for America’s space aspirations than nuclear power. Radioisotopes can safely produce heat that will enable deep space exploration and survival of the frigid lunar night while fission reactors are capable of producing kilowatts of electricity on the moon or in orbit. Fission is also the key to advanced nuclear […]\nThe post The space nuclear power bottleneck — and how to fix it appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-02-16T23:35:38.783Z"
+  "updated": "2026-02-16T23:48:22.026Z"
 }
