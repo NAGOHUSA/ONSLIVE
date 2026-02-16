@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Launching the first Ariane 6 with four boosters",
+      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/02/Launching_the_first_Ariane_6_with_four_boosters",
+      "source": "ESA",
+      "date": "2026-02-16T16:20:00Z",
+      "summary": "This first launch of the four-booster version of Ariane 6, operated by Arianespace, took 32 satellites for Amazon’s Leo constellation to low-Earth orbit. Liftoff occurred at 13:45 local time (16:45 GMT/17:45 CET) from Europe’s Spaceport in French Guiana, with separation of the last satellites occurring after 114 minutes."
+    },
+    {
       "title": "NASA work on several programs pending responses to White House executive order",
       "link": "https://spacenews.com/nasa-work-on-several-programs-pending-responses-to-white-house-executive-order/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-02-16T11:00:00Z",
       "summary": "\nChanges anticipated for ‘custody’ and ‘transport’ layers\nThe post Portions of the Pentagon’s LEO constellation on hold as acquisition reviews proceed appeared first on SpaceNews."
-    },
-    {
-      "title": "International crew arrives at space station",
-      "link": "https://www.spacedaily.com/reports/International_crew_arrives_at_space_station_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-02-16T02:42:40Z",
-      "summary": "Washington, United States (AFP) Feb 14, 2026\r\n\r\n Four astronauts docked at the International Space Station on Saturday for a months-long research mission, replacing a crew forced to return to Earth early over a medical issue. \r\n\r\nThe US space agency's Crew-12 arrived at the orbiting laboratory after a journey of about 34 hours that started with blastoff from Cape Canaveral, Florida aboard a SpaceX Falcon 9 rocket. \r\n\r\n\"We have bridged the lega"
     }
   ],
-  "updated": "2026-02-16T16:39:29.390Z"
+  "updated": "2026-02-16T17:00:10.628Z"
 }
