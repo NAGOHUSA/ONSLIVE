@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Launch Preview: Firefly to launch Alpha, SpaceX to launch three Starlink missions",
+      "link": "https://www.nasaspaceflight.com/2026/02/launch-preview-021626/",
+      "source": "NASASpaceflight",
+      "date": "2026-02-16T23:04:49Z",
+      "summary": "After a brief grounding earlier this month following the Starlink Group 17-32 second stage deorbit…\nThe post Launch Preview: Firefly to launch Alpha, SpaceX to launch three Starlink missions appeared first on NASASpaceFlight.com."
+    },
+    {
       "title": "Launching the first Ariane 6 with four boosters",
       "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/02/Launching_the_first_Ariane_6_with_four_boosters",
       "source": "ESA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-02-16T14:00:00Z",
       "summary": "\nNo technology holds more transformative potential for America’s space aspirations than nuclear power. Radioisotopes can safely produce heat that will enable deep space exploration and survival of the frigid lunar night while fission reactors are capable of producing kilowatts of electricity on the moon or in orbit. Fission is also the key to advanced nuclear […]\nThe post The space nuclear power bottleneck — and how to fix it appeared first on SpaceNews."
-    },
-    {
-      "title": "Low-profile Chinese launch firm conducts first stage static fire",
-      "link": "https://spacenews.com/low-profile-chinese-launch-firm-conducts-first-stage-static-fire/",
-      "source": "SpaceNews",
-      "date": "2026-02-16T11:54:56Z",
-      "summary": "\nOne of China’s lower profile launch startups, Zenk Space, has conducted a first stage static fire for its Zhihang-1 rocket ahead of a planned launch.\nThe post Low-profile Chinese launch firm conducts first stage static fire appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-02-16T23:08:05.177Z"
+  "updated": "2026-02-16T23:20:18.838Z"
 }
