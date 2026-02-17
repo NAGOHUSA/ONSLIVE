@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Artemis haters, can we have a moment, please?",
+      "link": "https://spacenews.com/artemis-haters-can-we-have-a-moment-please/",
+      "source": "SpaceNews",
+      "date": "2026-02-17T14:00:00Z",
+      "summary": "It’s taking too long. It costs too much. Yet it’s not being talked about enough. It’s not historic enough. It’s not safe enough. I’m talking about Artemis. Or at least what a goodly portion of the space community is saying privately or online, replete with sensationalist interviews and even vomit emojis. Let’s take a breath, […]\r\nThe post Artemis haters, can we have a moment, please? appeared first on SpaceNews."
+    },
+    {
       "title": "Sateliot to launch satellites with PLD Space",
       "link": "https://spacenews.com/sateliot-to-launch-satellites-with-pld-space/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceDaily",
       "date": "2026-02-17T11:51:13Z",
       "summary": "Los Angeles CA (SPX) Feb 17, 2026\n\n\nNASA has set clear goals at Mars: search for evidence of ancient life, understand the planet's climate and geology, and prepare for human exploration. Those objectives depend on a robust link between spacecraft at Mars and mission teams on Earth, with every image and dataset traveling hundreds of millions of kilometers across interplanetary space. Rocket Lab positions its proposed Mars Telecommu"
-    },
-    {
-      "title": "SatService to supply Q V band satcom ground station for Bundeswehr university",
-      "link": "https://www.spacedaily.com/reports/SatService_to_supply_Q_V_band_satcom_ground_station_for_Bundeswehr_university_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-02-17T11:51:13Z",
-      "summary": "Berlin, Germany (SPX) Feb 17, 2026\n\n\nSatService GmbH, a Germany based provider of advanced satellite ground systems and a subsidiary of Calian Group Ltd, has secured a contract from the Federal Ministry of Defence of Germany to deliver an advanced Q V band satellite ground station to the University of the Federal Armed Forces in Munich. The project supports both scientific research and modern military satellite communications requi"
     }
   ],
-  "updated": "2026-02-17T14:09:35.068Z"
+  "updated": "2026-02-17T14:30:53.936Z"
 }
