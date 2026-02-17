@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Orbex collapse fails to halt progress for UK domestic launch capability",
+      "link": "https://www.nasaspaceflight.com/2026/02/orbex-collapse-progress-uk-domestic-capability/",
+      "source": "NASASpaceflight",
+      "date": "2026-02-17T09:05:09Z",
+      "summary": "The European small satellite launch sector has suffered a setback with the collapse of UK-based…\nThe post Orbex collapse fails to halt progress for UK domestic launch capability appeared first on NASASpaceFlight.com."
+    },
+    {
       "title": "Leonardo funding development of Earth observation constellation",
       "link": "https://spacenews.com/leonardo-funding-development-of-earth-observation-constellation/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASASpaceflight",
       "date": "2026-02-16T23:04:49Z",
       "summary": "After a brief grounding earlier this month following the Starlink Group 17-32 second stage deorbit…\r\nThe post Launch Preview: Firefly to launch Alpha, SpaceX to launch three Starlink missions appeared first on NASASpaceFlight.com."
-    },
-    {
-      "title": "Launching the first Ariane 6 with four boosters",
-      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/02/Launching_the_first_Ariane_6_with_four_boosters",
-      "source": "ESA",
-      "date": "2026-02-16T16:20:00Z",
-      "summary": "This first launch of the four-booster version of Ariane 6, operated by Arianespace, took 32 satellites for Amazon’s Leo constellation to low-Earth orbit. Liftoff occurred at 13:45 local time (16:45 GMT/17:45 CET) from Europe’s Spaceport in French Guiana, with separation of the last satellites occurring after 114 minutes."
     }
   ],
-  "updated": "2026-02-17T09:03:02.008Z"
+  "updated": "2026-02-17T09:25:57.927Z"
 }
