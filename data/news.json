@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA Advances High-Altitude Traffic Management",
+      "link": "https://www.nasa.gov/centers-and-facilities/ames/nasa-advances-high-altitude-traffic-management/",
+      "source": "NASA",
+      "date": "2026-02-17T16:36:37Z",
+      "summary": "High-altitude flight is getting increasing attention from sectors ranging from telecommunications to emergency response. To make that airspace more accessible, NASA is developing an air traffic management system covering those altitudes and supplementing its work with real-time data from a research balloon in Earth’s stratosphere.  Aircraft at high altitudes – 50,000 feet or higher, or roughly 10,000 to 20,000 feet above most commercial traffic – offer new […]"
+    },
+    {
       "title": "SatVu to expand thermal imaging constellation with NATO-backed funds",
       "link": "https://spacenews.com/satvu-to-expand-thermal-imaging-constellation-with-nato-backed-funds/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-02-17T14:00:00Z",
       "summary": "It’s taking too long. It costs too much. Yet it’s not being talked about enough. It’s not historic enough. It’s not safe enough. I’m talking about Artemis. Or at least what a goodly portion of the space community is saying privately or online, replete with sensationalist interviews and even vomit emojis. Let’s take a breath, […]\r\nThe post Artemis haters, can we have a moment, please? appeared first on SpaceNews."
-    },
-    {
-      "title": "Sateliot to launch satellites with PLD Space",
-      "link": "https://spacenews.com/sateliot-to-launch-satellites-with-pld-space/",
-      "source": "SpaceNews",
-      "date": "2026-02-17T13:02:26Z",
-      "summary": "\nSateliot will launch two of its next-generation direct-to-device satellites on a PLD Space rocket in what is billed as the first fully private Spanish mission.\nThe post Sateliot to launch satellites with PLD Space appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-02-17T16:39:59.635Z"
+  "updated": "2026-02-17T17:05:16.937Z"
 }
