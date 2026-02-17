@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA to attempt second full fueling test of its Space Launch System rocket",
+      "link": "https://spaceflightnow.com/2026/02/17/nasa-to-attempt-second-full-fueling-test-of-its-space-launch-system-rocket/",
+      "source": "Spaceflight Now",
+      "date": "2026-02-17T00:34:09Z",
+      "summary": "The operation comes a week after NASA conducted a so-called ‘confidence test’ on Feb. 12, which was the process of loading some liquid hydrogen on the rocket’s core stage. "
+    },
+    {
       "title": "NASA Will Conduct Second Artemis II WDR on Thursday",
       "link": "https://spacepolicyonline.com/news/nasa-will-conduct-second-artemis-ii-wdr-on-thursday/",
       "source": "SpacePolicyOnline.com",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-02-16T16:11:06Z",
       "summary": "\nNASA Administrator Jared Isaacman said he expects to provide details about several agency priorities, including lunar exploration and commercial space stations, in the coming weeks.\nThe post NASA work on several programs pending responses to White House executive order appeared first on SpaceNews."
-    },
-    {
-      "title": "RFA Begins Final Preparations for Inaugural RFA ONE Launch",
-      "link": "https://europeanspaceflight.com/rfa-begins-final-preparations-for-inaugural-rfa-one-launch/",
-      "source": "European Spaceflight",
-      "date": "2026-02-16T15:05:25Z",
-      "summary": "German rocket builder Rocket Factory Augsburg (RFA) is making significant progress toward once again attempting an inaugural flight of its RFA ONE rocket. The company is currently moving forward with commissioning its launch pad at SaxaVord Spaceport as it works toward a hot fire test of the rocket’s first stage. The RFA ONE rocket is […]\nThe post RFA Begins Final Preparations for Inaugural RFA ONE Launch appeared first on European Spaceflight."
     }
   ],
-  "updated": "2026-02-16T23:58:17.470Z"
+  "updated": "2026-02-17T00:42:23.376Z"
 }
