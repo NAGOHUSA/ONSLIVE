@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Leonardo funding development of Earth observation constellation",
+      "link": "https://spacenews.com/leonardo-funding-development-of-earth-observation-constellation/",
+      "source": "SpaceNews",
+      "date": "2026-02-17T08:43:30Z",
+      "summary": "\nLeonardo is funding development of an Earth observation constellation designed to highlight its capabilities while also being a model for larger European initiatives.\nThe post Leonardo funding development of Earth observation constellation appeared first on SpaceNews."
+    },
+    {
       "title": "NASA to attempt second full fueling test of its Space Launch System rocket",
       "link": "https://spaceflightnow.com/2026/02/17/nasa-to-attempt-second-full-fueling-test-of-its-space-launch-system-rocket/",
       "source": "Spaceflight Now",
@@ -27,14 +34,7 @@
       "source": "ESA",
       "date": "2026-02-16T16:20:00Z",
       "summary": "This first launch of the four-booster version of Ariane 6, operated by Arianespace, took 32 satellites for Amazon’s Leo constellation to low-Earth orbit. Liftoff occurred at 13:45 local time (16:45 GMT/17:45 CET) from Europe’s Spaceport in French Guiana, with separation of the last satellites occurring after 114 minutes."
-    },
-    {
-      "title": "NASA work on several programs pending responses to White House executive order",
-      "link": "https://spacenews.com/nasa-work-on-several-programs-pending-responses-to-white-house-executive-order/",
-      "source": "SpaceNews",
-      "date": "2026-02-16T16:11:06Z",
-      "summary": "\nNASA Administrator Jared Isaacman said he expects to provide details about several agency priorities, including lunar exploration and commercial space stations, in the coming weeks.\nThe post NASA work on several programs pending responses to White House executive order appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-02-17T08:41:21.287Z"
+  "updated": "2026-02-17T09:03:02.008Z"
 }
