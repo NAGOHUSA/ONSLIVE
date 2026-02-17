@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Stormy, Snowy Winter for Hokkaido",
+      "link": "https://www.nasa.gov/image-article/stormy-snowy-winter-for-hokkaido/",
+      "source": "NASA",
+      "date": "2026-02-17T17:26:32Z",
+      "summary": "On February 5, 2026, the MODIS (Moderate Resolution Imaging Spectroradiometer) on NASA’s Terra satellite acquired this image of snow-covered landscapes across Hokkaido. With more than 31 active volcanoes, the island features several large caldera lakes, including at least five that are visible in the image. (Calderas are large depressions formed by volcanic eruptions.) In the east, forested windbreaks around Nakashibetsu form […]"
+    },
+    {
       "title": "NASA Advances High-Altitude Traffic Management",
       "link": "https://www.nasa.gov/centers-and-facilities/ames/nasa-advances-high-altitude-traffic-management/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-02-17T16:02:26Z",
       "summary": "\nSpace-Comm Expo is one of Europe’s premier space industry events and the largestevent in the UK, taking place in just 2 weeks’ time 4-5 March, ExCeL London. Over5,400 delegates, 250 […]\nThe post Global leaders meet at Space-Comm Expo in London to accelerate future of European space industry appeared first on SpaceNews."
-    },
-    {
-      "title": "Artemis haters, can we have a moment, please?",
-      "link": "https://spacenews.com/artemis-haters-can-we-have-a-moment-please/",
-      "source": "SpaceNews",
-      "date": "2026-02-17T14:00:00Z",
-      "summary": "It’s taking too long. It costs too much. Yet it’s not being talked about enough. It’s not historic enough. It’s not safe enough. I’m talking about Artemis. Or at least what a goodly portion of the space community is saying privately or online, replete with sensationalist interviews and even vomit emojis. Let’s take a breath, […]\r\nThe post Artemis haters, can we have a moment, please? appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-02-17T17:05:16.937Z"
+  "updated": "2026-02-17T17:30:46.241Z"
 }
