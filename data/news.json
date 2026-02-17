@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "SatVu to expand thermal imaging constellation with NATO-backed funds",
+      "link": "https://spacenews.com/satvu-to-expand-thermal-imaging-constellation-with-nato-backed-funds/",
+      "source": "SpaceNews",
+      "date": "2026-02-17T16:17:21Z",
+      "summary": "\nEarth observation startup SatVu said Feb. 17 it has raised $41 million in a funding round that included the NATO Innovation Fund, as commercial space-based thermal imagery gains traction with defense and intelligence agencies.\nThe post SatVu to expand thermal imaging constellation with NATO-backed funds appeared first on SpaceNews."
+    },
+    {
+      "title": "NASA Tests SLS Umbilicals, Prepares for Second Wet Dress Rehearsal",
+      "link": "https://www.spacescout.info/2026/02/nasa-tests-sls-umbilicals-prepares-for-second-wet-dress-rehearsal/",
+      "source": "Space Scout",
+      "date": "2026-02-17T16:10:57Z",
+      "summary": "Following the incomplete first Wet Dress Rehearsal for the Artemis II mission earlier this month due to hydrogen leaks, the Exploration Ground Systems team decided that more testing was needed."
+    },
+    {
       "title": "Global leaders meet at Space-Comm Expo in London to accelerate future of European space industry",
       "link": "https://spacenews.com/global-leaders-meet-at-space-comm-expo-in-london-to-accelerate-future-of-european-space-industry/",
       "source": "SpaceNews",
@@ -20,21 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-02-17T13:02:26Z",
       "summary": "\nSateliot will launch two of its next-generation direct-to-device satellites on a PLD Space rocket in what is billed as the first fully private Spanish mission.\nThe post Sateliot to launch satellites with PLD Space appeared first on SpaceNews."
-    },
-    {
-      "title": "River deltas are sinking faster than the sea is rising",
-      "link": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1/River_deltas_are_sinking_faster_than_the_sea_is_rising",
-      "source": "ESA",
-      "date": "2026-02-17T13:00:00Z",
-      "summary": "Earth’s river deltas, home to about 5% of the global population and some of the world’s major cities, are experiencing subsidence, which exacerbates the risks from sea-level rise. The Copernicus Sentinel-1 mission has captured a decade's worth of data showing land sinking faster than previously thought."
-    },
-    {
-      "title": "Assistive home robot learns coordinated dual arm tasks by watching people",
-      "link": "https://www.spacedaily.com/reports/Assistive_home_robot_learns_coordinated_dual_arm_tasks_by_watching_people_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-02-17T11:51:13Z",
-      "summary": "Berlin, Germany (SPX) Feb 13, 2026\n\nResearchers at Universidad Carlos III de Madrid (UC3M) have developed a new way for an assistive robot to learn how to move its arms autonomously by combining observational learning with communication between its limbs. The approach lets the robot watch how people perform everyday tasks and then adapt those movements so its two arms can work together safely and efficiently in domestic settings s"
     }
   ],
-  "updated": "2026-02-17T16:17:50.355Z"
+  "updated": "2026-02-17T16:39:59.635Z"
 }
