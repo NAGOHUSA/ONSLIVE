@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Starbase Pad 2 prepares to receive Booster 19 ahead of Block 3 milestones",
+      "link": "https://www.nasaspaceflight.com/2026/02/starbase-pad-2-booster-19/",
+      "source": "NASASpaceflight",
+      "date": "2026-02-17T23:24:33Z",
+      "summary": "SpaceX conducted a successful full test of the water-cooled top deck on the Orbital Launch…\nThe post Starbase Pad 2 prepares to receive Booster 19 ahead of Block 3 milestones appeared first on NASASpaceFlight.com."
+    },
+    {
+      "title": "Simera Sense to offer larger cameras and enhanced autonomy",
+      "link": "https://spacenews.com/simera-sense-to-offer-larger-cameras-and-enhanced-autonomy/",
+      "source": "SpaceNews",
+      "date": "2026-02-17T23:24:09Z",
+      "summary": "\nSAN FRANCISCO – After attracting cubesat customers, Belgium-based Simera Sense is developing higher-resolution optical payloads for larger satellites. To date, Simera Sense customers have sent more than 50 xScape100 and xScape200 cameras into orbit. Most have flown on cubesats ranging in size from 6u to 16u. For larger satellites, Simera Sense is developing standardized optical payloads […]\nThe post Simera Sense to offer larger cameras and enhanced autonomy appeared first on SpaceNews."
+    },
+    {
       "title": "China’s Space Epoch raises new funding, targets 2026 launch and recovery attempt",
       "link": "https://spacenews.com/chinas-space-epoch-raises-new-funding-targets-2026-launch-and-recovery-attempt/",
       "source": "SpaceNews",
@@ -20,21 +34,7 @@
       "source": "NASA",
       "date": "2026-02-17T16:36:37Z",
       "summary": "High-altitude flight is getting increasing attention from sectors ranging from telecommunications to emergency response. To make that airspace more accessible, NASA is developing an air traffic management system covering those altitudes and supplementing its work with real-time data from a research balloon in Earth’s stratosphere.  Aircraft at high altitudes – 50,000 feet or higher, or roughly 10,000 to 20,000 feet above most commercial traffic – offer new […]"
-    },
-    {
-      "title": "SatVu to expand thermal imaging constellation with NATO-backed funds",
-      "link": "https://spacenews.com/satvu-to-expand-thermal-imaging-constellation-with-nato-backed-funds/",
-      "source": "SpaceNews",
-      "date": "2026-02-17T16:17:21Z",
-      "summary": "\nEarth observation startup SatVu said Feb. 17 it has raised $41 million in a funding round that included the NATO Innovation Fund, as commercial space-based thermal imagery gains traction with defense and intelligence agencies.\nThe post SatVu to expand thermal imaging constellation with NATO-backed funds appeared first on SpaceNews."
-    },
-    {
-      "title": "NASA Tests SLS Umbilicals, Prepares for Second Wet Dress Rehearsal",
-      "link": "https://www.spacescout.info/2026/02/nasa-tests-sls-umbilicals-prepares-for-second-wet-dress-rehearsal/",
-      "source": "Space Scout",
-      "date": "2026-02-17T16:10:57Z",
-      "summary": "Following the incomplete first Wet Dress Rehearsal for the Artemis II mission earlier this month due to hydrogen leaks, the Exploration Ground Systems team decided that more testing was needed."
     }
   ],
-  "updated": "2026-02-17T23:27:04.946Z"
+  "updated": "2026-02-17T23:41:52.431Z"
 }
