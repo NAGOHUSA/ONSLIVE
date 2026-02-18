@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Curiosity Blog Sols 4804-4811: Kicking Off the Final Phase of Boxwork Exploration",
+      "link": "https://science.nasa.gov/blog/curiosity-blog-sols-4804-4811-kicking-off-the-final-phase-of-boxwork-exploration/",
+      "source": "NASA",
+      "date": "2026-02-18T00:44:49Z",
+      "summary": "Written by Abigail Fraeman, Curiosity Deputy Project Scientist Earth planning date: Friday, Feb. 13, 2026 Curiosity spent this week at Gale crater completing the last few activities associated with the “Nevado Sajama 2” drill before kicking off our final phase of the boxwork exploration campaign. As we’ve explored the boxwork region, the science team has […]"
+    },
+    {
       "title": "Starbase Pad 2 prepares to receive Booster 19 ahead of Block 3 milestones",
       "link": "https://www.nasaspaceflight.com/2026/02/starbase-pad-2-booster-19/",
       "source": "NASASpaceflight",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-02-17T17:26:32Z",
       "summary": "On February 5, 2026, the MODIS (Moderate Resolution Imaging Spectroradiometer) on NASA’s Terra satellite acquired this image of snow-covered landscapes across Hokkaido. With more than 31 active volcanoes, the island features several large caldera lakes, including at least five that are visible in the image. (Calderas are large depressions formed by volcanic eruptions.) In the east, forested windbreaks around Nakashibetsu form […]"
-    },
-    {
-      "title": "NASA Advances High-Altitude Traffic Management",
-      "link": "https://www.nasa.gov/centers-and-facilities/ames/nasa-advances-high-altitude-traffic-management/",
-      "source": "NASA",
-      "date": "2026-02-17T16:36:37Z",
-      "summary": "High-altitude flight is getting increasing attention from sectors ranging from telecommunications to emergency response. To make that airspace more accessible, NASA is developing an air traffic management system covering those altitudes and supplementing its work with real-time data from a research balloon in Earth’s stratosphere.  Aircraft at high altitudes – 50,000 feet or higher, or roughly 10,000 to 20,000 feet above most commercial traffic – offer new […]"
     }
   ],
-  "updated": "2026-02-18T00:49:50.774Z"
+  "updated": "2026-02-18T01:22:42.905Z"
 }
