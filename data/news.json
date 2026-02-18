@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Fishing Boats and City Lights",
+      "link": "https://www.nasa.gov/image-article/fishing-boats-and-city-lights/",
+      "source": "NASA",
+      "date": "2026-02-18T17:25:24Z",
+      "summary": "Fishing boats illuminate the Arabian Sea along India’s west coast with green lights designed to attract squid, shrimp, sardines, and mackerel in this nighttime photograph from the International Space Station, orbiting 259 miles above Earth on Dec. 25, 2025. Studying nighttime light offers a unique perspective for investigations into human behaviors, such as tracking the […]"
+    },
+    {
+      "title": "NASA’s Perseverance Now Autonomously Pinpoints Its Location on Mars",
+      "link": "https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-now-autonomously-pinpoints-its-location-on-mars/",
+      "source": "NASA",
+      "date": "2026-02-18T17:05:42Z",
+      "summary": "There is no GPS at the Red Planet, but a new technology called Mars Global Localization lets Perseverance determine precisely where it is — without human help.  Imagine you’re all alone, driving along in a rocky, unforgiving desert with no roads, no map, no GPS, and no more than one phone call a day for someone to inform you exactly where you are. That’s what NASA’s Perseverance rover has been experiencing since landing on Mars five years ago. Though it carries time-tested tools for determining its general location, the rover has needed operators on Earth to tell it precisely where it is — until now.   A new […]"
+    },
+    {
       "title": "I Am Artemis: Katie Oriti",
       "link": "https://www.nasa.gov/general/i-am-artemis-katie-oriti/",
       "source": "NASA",
@@ -20,21 +34,7 @@
       "source": "ESA",
       "date": "2026-02-18T15:00:00Z",
       "summary": "Employing NASA/ESA Hubble Space Telescope in combination with ESA Euclid and ground-based NAOJ Subaru Telescope, astronomers identified a galaxy that appears to be almost entirely dominated by dark matter with only a smattering of stars. The galaxy, known as Candidate Dark Galaxy-2 (CDG-2), appears to contain just four globular star clusters (compared to the Milky Way’s 150-plus), and dimly shines with the light of only about 1 million Suns."
-    },
-    {
-      "title": "Why GPS III, and what comes after it, still falls short in modern war",
-      "link": "https://spacenews.com/why-gps-iii-and-what-comes-after-it-still-falls-short-in-modern-war/",
-      "source": "SpaceNews",
-      "date": "2026-02-18T14:00:00Z",
-      "summary": "\nWith the final GPS III satellite scheduled to launch in March, the United States is completing the most significant upgrade to its positioning, navigation, and timing (PNT) infrastructure in more than a decade.  GPS III delivers improved accuracy, stronger signals and enhanced anti-jam capabilities for military users. By any technical measure, it is a better […]\nThe post Why GPS III, and what comes after it, still falls short in modern war appeared first on SpaceNews."
-    },
-    {
-      "title": "TB 26-02 Effects of Large Grain Size in Composite Overwrapped Pressure Vessel",
-      "link": "https://www.nasa.gov/centers-and-facilities/nesc/tb-26-02-effects-of-large-grain-size-in-composite-overwrapped-pressure-vessel/",
-      "source": "NASA",
-      "date": "2026-02-18T13:47:44Z",
-      "summary": "The NASA Engineering and Safety Center (NESC) performed an assessment to characterize the effects of abnormal grain growth (AGG) within a metallic liner of a composite overwrapped pressure vessel (COPV). This effort focused on evaluating the mechanical response of the liner material, including the strain amplification factor (SAF), using a series of custom-designed coupons that […]"
     }
   ],
-  "updated": "2026-02-18T17:07:04.119Z"
+  "updated": "2026-02-18T17:33:23.403Z"
 }
