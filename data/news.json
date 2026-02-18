@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "NASA’s Hubble Identifies One of Darkest Known Galaxies",
+      "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-identifies-one-of-darkest-known-galaxies/",
+      "source": "NASA",
+      "date": "2026-02-18T15:00:27Z",
+      "summary": "In the vast tapestry of the universe, most galaxies shine brightly across cosmic time and space. Yet a rare class of galaxies remains nearly invisible — low-surface-brightness galaxies dominated by dark matter and containing only a sparse scattering of faint stars. One such elusive object, dubbed CDG-2, may be among the most heavily dark matter-dominated […]"
+    },
+    {
+      "title": "Hubble, Euclid & Subaru uncover dark galaxy",
+      "link": "https://www.esa.int/Science_Exploration/Space_Science/Hubble_Euclid_Subaru_uncover_dark_galaxy",
+      "source": "ESA",
+      "date": "2026-02-18T15:00:00Z",
+      "summary": "Employing NASA/ESA Hubble Space Telescope in combination with ESA Euclid and ground-based NAOJ Subaru Telescope, astronomers identified a galaxy that appears to be almost entirely dominated by dark matter with only a smattering of stars. The galaxy, known as Candidate Dark Galaxy-2 (CDG-2), appears to contain just four globular star clusters (compared to the Milky Way’s 150-plus), and dimly shines with the light of only about 1 million Suns."
+    },
+    {
       "title": "Why GPS III, and what comes after it, still falls short in modern war",
       "link": "https://spacenews.com/why-gps-iii-and-what-comes-after-it-still-falls-short-in-modern-war/",
       "source": "SpaceNews",
@@ -20,21 +34,7 @@
       "source": "ESA",
       "date": "2026-02-18T13:00:00Z",
       "summary": "Each year, the world’s leading climate scientists evaluate the most critical evidence on how our planet is changing. Their assessments draw heavily on data from Earth-observing satellites – and the latest report delivers a stark warning: the planet’s energy balance is drifting further out of alignment, ocean warming is now accelerating, and the land’s capacity to absorb carbon is declining, along with other troubling trends."
-    },
-    {
-      "title": "Vantor partners with Google AI to automate intelligence reports for government agencies",
-      "link": "https://spacenews.com/vantor-partners-with-google-ai-to-automate-intelligence-reports-for-government-agencies/",
-      "source": "SpaceNews",
-      "date": "2026-02-18T13:00:00Z",
-      "summary": "\nSatellite imagery-to-report timelines would be reduced from hours to minutes \nThe post Vantor partners with Google AI to automate intelligence reports for government agencies appeared first on SpaceNews."
-    },
-    {
-      "title": "Australian hypersonic test flight window announced",
-      "link": "https://www.spacedaily.com/reports/Australian_hypersonic_test_flight_window_announced_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-02-18T12:37:42Z",
-      "summary": "Los Angeles CA (SPX) Feb 18, 2026\r\n\r\n\r\nAustralian hypersonic flight developer Hypersonix Launch Systems has set the launch window for a landmark test of its DART AE scramjet-powered vehicle, moving the company a step closer to sustained hypersonic flight in operational conditions. \r\n\r\nFounded in 2019, Hypersonix is developing a new class of autonomous hypersonic aircraft designed to deliver sustained flight at extreme speed, range"
     }
   ],
-  "updated": "2026-02-18T14:52:17.899Z"
+  "updated": "2026-02-18T15:11:02.522Z"
 }
