@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "NASA to Provide Coverage of Artemis II Wet Dress Rehearsal",
+      "link": "https://www.nasa.gov/news-release/nasa-to-provide-coverage-of-artemis-ii-wet-dress-rehearsal/",
+      "source": "NASA",
+      "date": "2026-02-18T18:07:29Z",
+      "summary": "As NASA continues preparations for the Artemis II test flight, the agency will provide coverage Thursday, Feb. 19, of its next wet dress rehearsal, a fueling test of the SLS (Space Launch System) rocket, and hold a news conference on Friday, Feb. 20. Teams are counting down to the opening of a simulated launch window at 8:30 p.m. EST on Feb. […]"
+    },
+    {
+      "title": "Commodity Classic 2026 Hyperwall Schedule",
+      "link": "https://science.nasa.gov/earth/commodity-classic-2026-hyperwall-schedule/",
+      "source": "NASA",
+      "date": "2026-02-18T17:55:56Z",
+      "summary": "Commodity Classic, February 25 – 27, 2026 Join NASA in the Exhibit Hall (Booth #3481) for Hyperwall Storytelling by NASA experts. Full Hyperwall Agenda below. WEDNESDAY, FEBRUARY 25 4:30 – 4:50 PMNASA: Your Space and Science AgencyKaren St Germain THURSDAY, FEBRUARY 26 11:00 – 11:20 AMInforming Water and Agricultural Management Apps with NASA Modeling and […]"
+    },
+    {
       "title": "Fishing Boats and City Lights",
       "link": "https://www.nasa.gov/image-article/fishing-boats-and-city-lights/",
       "source": "NASA",
@@ -8,33 +22,19 @@
       "summary": "Fishing boats illuminate the Arabian Sea along India’s west coast with green lights designed to attract squid, shrimp, sardines, and mackerel in this nighttime photograph from the International Space Station, orbiting 259 miles above Earth on Dec. 25, 2025. Studying nighttime light offers a unique perspective for investigations into human behaviors, such as tracking the […]"
     },
     {
-      "title": "NASA’s Perseverance Now Autonomously Pinpoints Its Location on Mars",
-      "link": "https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-now-autonomously-pinpoints-its-location-on-mars/",
+      "title": "Mars Global Localization Pinpoints Perseverance’s Location",
+      "link": "https://science.nasa.gov/photojournal/mars-global-localization-pinpoints-perseverances-location/",
       "source": "NASA",
-      "date": "2026-02-18T17:05:42Z",
-      "summary": "There is no GPS at the Red Planet, but a new technology called Mars Global Localization lets Perseverance determine precisely where it is — without human help.  Imagine you’re all alone, driving along in a rocky, unforgiving desert with no roads, no map, no GPS, and no more than one phone call a day for someone to inform you exactly where you are. That’s what NASA’s Perseverance rover has been experiencing since landing on Mars five years ago. Though it carries time-tested tools for determining its general location, the rover has needed operators on Earth to tell it precisely where it is — until now.   A new […]"
+      "date": "2026-02-18T17:21:08Z",
+      "summary": "Description These images were part of the first successful use of a new technology called Mars Global Localization, developed at NASA’s Jet Propulsion Laboratory. Using its navigation cameras, NASA’s Perseverance captured a 360-degree view of the surrounding terrain that was matched to orbital imagery, enabling the rover to pinpoint its location on Mars on Feb. 2, […]"
     },
     {
-      "title": "I Am Artemis: Katie Oriti",
-      "link": "https://www.nasa.gov/general/i-am-artemis-katie-oriti/",
+      "title": "Perseverance Pinpoints Its Location at ‘Mala Mala’",
+      "link": "https://science.nasa.gov/photojournal/perseverance-pinpoints-its-location-at-mala-mala/",
       "source": "NASA",
-      "date": "2026-02-18T16:30:00Z",
-      "summary": "Listen to this audio excerpt from Katie Oriti, Orion European Service Module Integration Office manager: Growing up in rural America, Katie Oriti could only dream of working for NASA. Not because she wasn’t inspired by the dark, star-filled skies of her hometown Shelby, Ohio, but because it felt out of reach. “I think NASA was […]"
-    },
-    {
-      "title": "NASA’s Hubble Identifies One of Darkest Known Galaxies",
-      "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-identifies-one-of-darkest-known-galaxies/",
-      "source": "NASA",
-      "date": "2026-02-18T15:00:27Z",
-      "summary": "In the vast tapestry of the universe, most galaxies shine brightly across cosmic time and space. Yet a rare class of galaxies remains nearly invisible — low-surface-brightness galaxies dominated by dark matter and containing only a sparse scattering of faint stars. One such elusive object, dubbed CDG-2, may be among the most heavily dark matter-dominated […]"
-    },
-    {
-      "title": "Hubble, Euclid & Subaru uncover dark galaxy",
-      "link": "https://www.esa.int/Science_Exploration/Space_Science/Hubble_Euclid_Subaru_uncover_dark_galaxy",
-      "source": "ESA",
-      "date": "2026-02-18T15:00:00Z",
-      "summary": "Employing NASA/ESA Hubble Space Telescope in combination with ESA Euclid and ground-based NAOJ Subaru Telescope, astronomers identified a galaxy that appears to be almost entirely dominated by dark matter with only a smattering of stars. The galaxy, known as Candidate Dark Galaxy-2 (CDG-2), appears to contain just four globular star clusters (compared to the Milky Way’s 150-plus), and dimly shines with the light of only about 1 million Suns."
+      "date": "2026-02-18T17:14:53Z",
+      "summary": "Description Using its navigation cameras, NASA’s Perseverance Mars rover captured the five stereo pairs of images that make up this panorama on Feb. 2, 2026, the 1,762nd day, or sol, of the mission. A new technology called Mars Global Localization matched this 360-degree view to onboard orbital imagery from the agency’s Mars Reconnaissance Orbiter (MRO), […]"
     }
   ],
-  "updated": "2026-02-18T17:55:21.798Z"
+  "updated": "2026-02-18T18:11:41.013Z"
 }
