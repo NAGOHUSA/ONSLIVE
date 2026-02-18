@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Pentagon seeks commercially built GEO spy satellites",
+      "link": "https://spacenews.com/pentagon-seeks-commercially-built-geo-spy-satellites/",
+      "source": "SpaceNews",
+      "date": "2026-02-18T22:06:28Z",
+      "summary": "\nThe Defense Innovation Unit plans to select companies to field and operate spacecraft before transferring them to government control within three years\nThe post Pentagon seeks commercially built GEO spy satellites  appeared first on SpaceNews."
+    },
+    {
+      "title": "Digital Surface and Terrain Models from Vantor’s Precision3D Product Line Added to Satellite Data Explorer",
+      "link": "https://science.nasa.gov/uncategorized/digital-surface-and-terrain-models-from-vantors-precision3d-product-line-added-to-satellite-data-explorer/",
+      "source": "NASA",
+      "date": "2026-02-18T21:05:58Z",
+      "summary": "The CSDA Program added three digital elevation and digital terrain products from Vantor’s Precision3D Product Line to the Satellite Data Explorer."
+    },
+    {
       "title": "Vantor Archive Imagery Added to Satellite Data Explorer",
       "link": "https://science.nasa.gov/uncategorized/vantor-archive-imagery-added-to-satellite-data-explorer/",
       "source": "NASA",
@@ -20,21 +34,7 @@
       "source": "NASA",
       "date": "2026-02-18T20:23:53Z",
       "summary": "NASA’s Commercial Satellite Data Acquisition (CSDA) Program announced eight new agreements with seven of its commercial partners to give users more access to near‑global multispectral and synthetic aperture radar data."
-    },
-    {
-      "title": "Notes from the Field",
-      "link": "https://science.nasa.gov/missions/explorer/notes-from-the-field/",
-      "source": "NASA",
-      "date": "2026-02-18T19:23:57Z",
-      "summary": "Looking at Chlorophyll from Space By Compton “Jim” Tucker NASA scientists are able to study plants from space, but this wasn’t always the case. “I love using satellite data to study the Earth,” says Dr. Compton “Jim” Tucker. When Tucker was a graduate student, he and some friends discovered a new way to study photosynthesis. […]"
-    },
-    {
-      "title": "42 Years of Measuring the Sun, the Earth and the Energy in Between",
-      "link": "https://science.nasa.gov/missions/explorer/42-years-of-measuring-the-sun-the-earth-and-the-energy-in-between/",
-      "source": "NASA",
-      "date": "2026-02-18T19:23:36Z",
-      "summary": "By Denise Lineberry On Jan. 31, 1958, Explorer 1 became the first satellite launched by the United States. Its primary science instrument, a cosmic ray detector, was designed to measure the radiation environment in Earth orbit. Though its final transmission was in May 1958, it continued to revolve around Earth more than 58,000 times. As […]"
     }
   ],
-  "updated": "2026-02-18T22:02:03.318Z"
+  "updated": "2026-02-18T22:16:37.128Z"
 }
