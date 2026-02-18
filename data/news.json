@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "I Am Artemis: Katie Oriti",
+      "link": "https://www.nasa.gov/general/i-am-artemis-katie-oriti/",
+      "source": "NASA",
+      "date": "2026-02-18T16:30:00Z",
+      "summary": "Listen to this audio excerpt from Katie Oriti, Orion European Service Module Integration Office manager: Growing up in rural America, Katie Oriti could only dream of working for NASA. Not because she wasn’t inspired by the dark, star-filled skies of her hometown Shelby, Ohio, but because it felt out of reach. “I think NASA was […]"
+    },
+    {
       "title": "NASA’s Hubble Identifies One of Darkest Known Galaxies",
       "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-identifies-one-of-darkest-known-galaxies/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-02-18T13:47:44Z",
       "summary": "The NASA Engineering and Safety Center (NESC) performed an assessment to characterize the effects of abnormal grain growth (AGG) within a metallic liner of a composite overwrapped pressure vessel (COPV). This effort focused on evaluating the mechanical response of the liner material, including the strain amplification factor (SAF), using a series of custom-designed coupons that […]"
-    },
-    {
-      "title": "Revealed: 10 new insights in climate science",
-      "link": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Space_for_our_climate/Revealed_10_new_insights_in_climate_science",
-      "source": "ESA",
-      "date": "2026-02-18T13:00:00Z",
-      "summary": "Each year, the world’s leading climate scientists evaluate the most critical evidence on how our planet is changing. Their assessments draw heavily on data from Earth-observing satellites – and the latest report delivers a stark warning: the planet’s energy balance is drifting further out of alignment, ocean warming is now accelerating, and the land’s capacity to absorb carbon is declining, along with other troubling trends."
     }
   ],
-  "updated": "2026-02-18T16:15:52.195Z"
+  "updated": "2026-02-18T16:40:28.178Z"
 }
