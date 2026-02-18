@@ -1,6 +1,27 @@
 {
   "articles": [
     {
+      "title": "Vantor Archive Imagery Added to Satellite Data Explorer",
+      "link": "https://science.nasa.gov/uncategorized/vantor-archive-imagery-added-to-satellite-data-explorer/",
+      "source": "NASA",
+      "date": "2026-02-18T20:54:31Z",
+      "summary": "NASA’s Commercial Satellite Data Acquisition (CSDA) Program announces the addition of imagery from Vantor to its Satellite Data Explorer (SDX) data access and discovery tool."
+    },
+    {
+      "title": "CSDA Releases New Data Acquisition Request System",
+      "link": "https://science.nasa.gov/uncategorized/csda-releases-new-data-acquisition-request-system/",
+      "source": "NASA",
+      "date": "2026-02-18T20:42:16Z",
+      "summary": "The CSDA Program’s Data Acquisition Request System lets authorized users submit proposals for yet-to-be-collected data from CSDA’s commercial partners."
+    },
+    {
+      "title": "CSDA Program Announces Eight New Data Agreements",
+      "link": "https://science.nasa.gov/uncategorized/csda-program-announces-eight-new-data-agreements/",
+      "source": "NASA",
+      "date": "2026-02-18T20:23:53Z",
+      "summary": "NASA’s Commercial Satellite Data Acquisition (CSDA) Program announced eight new agreements with seven of its commercial partners to give users more access to near‑global multispectral and synthetic aperture radar data."
+    },
+    {
       "title": "Notes from the Field",
       "link": "https://science.nasa.gov/missions/explorer/notes-from-the-field/",
       "source": "NASA",
@@ -13,28 +34,7 @@
       "source": "NASA",
       "date": "2026-02-18T19:23:36Z",
       "summary": "By Denise Lineberry On Jan. 31, 1958, Explorer 1 became the first satellite launched by the United States. Its primary science instrument, a cosmic ray detector, was designed to measure the radiation environment in Earth orbit. Though its final transmission was in May 1958, it continued to revolve around Earth more than 58,000 times. As […]"
-    },
-    {
-      "title": "The Sky Belongs to All of Us",
-      "link": "https://science.nasa.gov/missions/explorer/the-sky-belongs-to-all-of-us/",
-      "source": "NASA",
-      "date": "2026-02-18T19:23:12Z",
-      "summary": "By Hashima Hasan How did a little girl born in India soon after its independence from the British Empire, become a program scientist for NASA’s Hubble Space Telescope, and the first female program scientist for the James Webb Space Telescope, Stratospheric Observatory for Infrared Astronomy (SOFIA), Gravity Probe B, and other astrophysics flight missions? The […]"
-    },
-    {
-      "title": "Measuring the Big Bang with the COBE satellite",
-      "link": "https://science.nasa.gov/missions/explorer/measuring-the-big-bang-with-the-cobe-satellite/",
-      "source": "NASA",
-      "date": "2026-02-18T19:22:41Z",
-      "summary": "By John Mather The Cosmic Background Explorer satellite (COBE) went up on a Delta rocket on Nov. 18, 1989, into a polar sun-synchronous orbit 900 km up. Our team at NASA Goddard Space Flight Center (GSFC), Ball Aerospace, the Jet Propulsion Laboratory (JPL) and universities built it to look at the cosmic microwave and infrared […]"
-    },
-    {
-      "title": "Peering Homeward, 1972",
-      "link": "https://science.nasa.gov/missions/explorer/peering-homeward-1972/",
-      "source": "NASA",
-      "date": "2026-02-18T19:21:22Z",
-      "summary": "By Laura Rocchio On July 23, 1972 the first civilian satellite designed to image Earth’s land surfaces was launched from Vandenberg Air Force Base in California. On board the satellite, originally named the Earth Resources Technology Satellite (ERTS), but later known as Landsat 1, were two sensors. The primary sensor, called the Return Beam Vidicon […]"
     }
   ],
-  "updated": "2026-02-18T20:58:55.059Z"
+  "updated": "2026-02-18T21:19:03.324Z"
 }
