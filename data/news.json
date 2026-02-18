@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "TB 26-02 Effects of Large Grain Size in Composite Overwrapped Pressure Vessel",
+      "link": "https://www.nasa.gov/centers-and-facilities/nesc/tb-26-02-effects-of-large-grain-size-in-composite-overwrapped-pressure-vessel/",
+      "source": "NASA",
+      "date": "2026-02-18T13:47:44Z",
+      "summary": "The NASA Engineering and Safety Center (NESC) performed an assessment to characterize the effects of abnormal grain growth (AGG) within a metallic liner of a composite overwrapped pressure vessel (COPV). This effort focused on evaluating the mechanical response of the liner material, including the strain amplification factor (SAF), using a series of custom-designed coupons that […]"
+    },
+    {
       "title": "Vantor partners with Google AI to automate intelligence reports for government agencies",
       "link": "https://spacenews.com/vantor-partners-with-google-ai-to-automate-intelligence-reports-for-government-agencies/",
       "source": "SpaceNews",
@@ -15,13 +22,6 @@
       "summary": "Los Angeles CA (SPX) Feb 18, 2026\r\n\r\n\r\nAustralian hypersonic flight developer Hypersonix Launch Systems has set the launch window for a landmark test of its DART AE scramjet-powered vehicle, moving the company a step closer to sustained hypersonic flight in operational conditions. \r\n\r\nFounded in 2019, Hypersonix is developing a new class of autonomous hypersonic aircraft designed to deliver sustained flight at extreme speed, range"
     },
     {
-      "title": "Sateliot books Spanish Miura 5 launch for two next gen Trito satellites in 2027",
-      "link": "https://www.spacedaily.com/reports/Sateliot_books_Spanish_Miura_5_launch_for_two_next_gen_Trito_satellites_in_2027_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-02-18T12:37:42Z",
-      "summary": "Madrid, Spain (SPX) Feb 18, 2026\r\n\r\n\r\nSateliot and PLD Space have signed a commercial contract for the dedicated launch of Sateliot's first two Trito next generation 5G direct to device satellites on a Miura 5 rocket in 2027. The agreement covers placing both satellites, each with a mass of about 160 kilograms, into low Earth orbit on a mission operated entirely by PLD Space. \r\n\r\nThe deal is described as the first fully private Sp"
-    },
-    {
       "title": "Exolaunch to deploy five satellites on Spectrum mission from Norway",
       "link": "https://www.spacedaily.com/reports/Exolaunch_to_deploy_five_satellites_on_Spectrum_mission_from_Norway_999.html",
       "source": "SpaceDaily",
@@ -29,12 +29,12 @@
       "summary": "Berlin, Germany (SPX) Feb 18, 2026\r\n\r\n\r\nExolaunch has completed integration of five customer satellites for launch on Isar Aerospace's Spectrum rocket, scheduled no earlier than March 19, 2026 from Andoya spaceport in Norway. The mission, branded 'Onward and Upward,' represents the second flight of Spectrum and a key step toward strengthening German and European sovereign access to orbit. \r\n\r\nThe Berlin-based company is providing la"
     },
     {
-      "title": "'Unprecedented' emissions maps will hone mitigation",
-      "link": "https://www.spacedaily.com/reports/Unprecedented_emissions_maps_will_hone_mitigation_999.html",
+      "title": "Sateliot books Spanish Miura 5 launch for two next gen Trito satellites in 2027",
+      "link": "https://www.spacedaily.com/reports/Sateliot_books_Spanish_Miura_5_launch_for_two_next_gen_Trito_satellites_in_2027_999.html",
       "source": "SpaceDaily",
       "date": "2026-02-18T12:37:42Z",
-      "summary": "Ithaca, NY (SPX) Feb 16, 2026\n\n\nTo lower agricultural emissions, policymakers and communities first need to pinpoint the sources. Not just by country but crop by crop, field by field. In other words, they need maps. Detailed maps. \n\nIn a study published Feb. 13 in Nature Climate Change, researchers have synthesized data from multiple ground sources and models to map global cropland emissions at high resolution - down to ab"
+      "summary": "Madrid, Spain (SPX) Feb 18, 2026\r\n\r\n\r\nSateliot and PLD Space have signed a commercial contract for the dedicated launch of Sateliot's first two Trito next generation 5G direct to device satellites on a Miura 5 rocket in 2027. The agreement covers placing both satellites, each with a mass of about 160 kilograms, into low Earth orbit on a mission operated entirely by PLD Space. \r\n\r\nThe deal is described as the first fully private Sp"
     }
   ],
-  "updated": "2026-02-18T13:42:55.392Z"
+  "updated": "2026-02-18T14:09:57.322Z"
 }
