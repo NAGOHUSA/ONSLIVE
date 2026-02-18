@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "A Second Cyclone Slams Madagascar",
+      "link": "https://science.nasa.gov/earth/earth-observatory/a-second-cyclone-slams-madagascar/",
+      "source": "NASA",
+      "date": "2026-02-18T05:01:00Z",
+      "summary": "Widespread flooding affected tens of thousands of people after cyclones Fytia and Gezani drenched the island."
+    },
+    {
       "title": "Curiosity Blog Sols 4804-4811: Kicking Off the Final Phase of Boxwork Exploration",
       "link": "https://science.nasa.gov/blog/curiosity-blog-sols-4804-4811-kicking-off-the-final-phase-of-boxwork-exploration/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-02-17T17:44:19Z",
       "summary": "\nChinese launch startup Space Epoch has secured B-round funding as the company moves towards a first orbital launch and recovery attempt late this year.\nThe post China’s Space Epoch raises new funding, targets 2026 launch and recovery attempt appeared first on SpaceNews."
-    },
-    {
-      "title": "Stormy, Snowy Winter for Hokkaido",
-      "link": "https://www.nasa.gov/image-article/stormy-snowy-winter-for-hokkaido/",
-      "source": "NASA",
-      "date": "2026-02-17T17:26:32Z",
-      "summary": "On February 5, 2026, the MODIS (Moderate Resolution Imaging Spectroradiometer) on NASA’s Terra satellite acquired this image of snow-covered landscapes across Hokkaido. With more than 31 active volcanoes, the island features several large caldera lakes, including at least five that are visible in the image. (Calderas are large depressions formed by volcanic eruptions.) In the east, forested windbreaks around Nakashibetsu form […]"
     }
   ],
-  "updated": "2026-02-18T04:47:53.278Z"
+  "updated": "2026-02-18T05:19:53.296Z"
 }
