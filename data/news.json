@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Starliner investigation identifies flawed NASA decision making",
+      "link": "https://spacenews.com/starliner-investigation-identifies-flawed-nasa-decision-making/",
+      "source": "SpaceNews",
+      "date": "2026-02-19T21:47:28Z",
+      "summary": "\nNASA has classified the flawed Starliner crewed test flight in 2024 as its most serious level of mishap, with the agency’s leadership citing shortfalls in how officials oversaw the program.\nThe post Starliner investigation identifies flawed NASA decision making appeared first on SpaceNews."
+    },
+    {
       "title": "NASA Investigates How People Respond to Air Taxi Noise",
       "link": "https://www.nasa.gov/image-article/nasa-investigates-how-people-respond-to-air-taxi-noise/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-02-19T16:31:41Z",
       "summary": "Imagine trying to photograph wind. That’s similar to what NASA engineers dealt with during a recent effort to study how air moves around planes, rockets, and other kinds of aerospace vehicles. Air is invisible, but our understanding of how it flows is crucial for building better, safer aircraft. For 80 years, researchers used a technique […]"
-    },
-    {
-      "title": "Sophie Adenot exercising on the CEVIS bike",
-      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/02/Sophie_Adenot_exercising_on_the_CEVIS_bike",
-      "source": "ESA",
-      "date": "2026-02-19T16:21:00Z",
-      "summary": "From the ESA Blogs."
     }
   ],
-  "updated": "2026-02-19T21:47:12.386Z"
+  "updated": "2026-02-19T21:59:07.759Z"
 }
