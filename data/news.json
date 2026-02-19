@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Northern Glow Spans Iceland and Canada",
+      "link": "https://science.nasa.gov/earth/earth-observatory/northern-glow-spans-iceland-and-canada/",
+      "source": "NASA",
+      "date": "2026-02-19T05:00:00Z",
+      "summary": "A vivid display of the aurora lit up skies over the Denmark Strait and eastern Canada during a minor geomagnetic storm in February 2026."
+    },
+    {
       "title": "Pentagon seeks commercially built GEO spy satellites",
       "link": "https://spacenews.com/pentagon-seeks-commercially-built-geo-spy-satellites/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-02-18T20:42:16Z",
       "summary": "The CSDA Program’s Data Acquisition Request System lets authorized users submit proposals for yet-to-be-collected data from CSDA’s commercial partners."
-    },
-    {
-      "title": "CSDA Program Announces Eight New Data Agreements",
-      "link": "https://science.nasa.gov/uncategorized/csda-program-announces-eight-new-data-agreements/",
-      "source": "NASA",
-      "date": "2026-02-18T20:23:53Z",
-      "summary": "NASA’s Commercial Satellite Data Acquisition (CSDA) Program announced eight new agreements with seven of its commercial partners to give users more access to near‑global multispectral and synthetic aperture radar data."
     }
   ],
-  "updated": "2026-02-19T04:52:00.707Z"
+  "updated": "2026-02-19T05:23:21.475Z"
 }
