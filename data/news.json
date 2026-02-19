@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "EarthDaily in Orbit: From First Launch to Commercial Operations",
+      "link": "https://spacenews.com/earthdaily-in-orbit-from-first-launch-to-commercial-operations/",
+      "source": "SpaceNews",
+      "date": "2026-02-19T14:09:50Z",
+      "summary": "\nWith six additional satellites launching in May and continued expansion later this year, the EarthDaily Constellation will enter commercial operations in Summer 2026, delivering daily, consistent global coverage.\nThe post EarthDaily in Orbit: From First Launch to Commercial Operations appeared first on SpaceNews."
+    },
+    {
+      "title": "Golden Dome will fail without software-defined warfare",
+      "link": "https://spacenews.com/golden-dome-will-fail-without-software-defined-warfare/",
+      "source": "SpaceNews",
+      "date": "2026-02-19T14:00:00Z",
+      "summary": "\nIf the United States wants to defend the homeland against the next generation of missile and aerial threats, hardware alone will not save us. Sensors, radars and interceptors are necessary but no longer sufficient. The decisive advantage for Golden Dome for America will come from software and the ability to integrate, test, adapt and fight […]\nThe post Golden Dome will fail without software-defined warfare appeared first on SpaceNews."
+    },
+    {
       "title": "Webb maps Uranus's mysterious upper atmosphere",
       "link": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_maps_Uranus_s_mysterious_upper_atmosphere",
       "source": "ESA",
@@ -8,33 +22,19 @@
       "summary": "For the first time, an international team of astronomers have mapped the vertical structure of Uranus’s upper atmosphere, uncovering how temperature and charged particles vary with height across the planet. Using NASA/ESA/CSA James Webb Space Telescope's NIRSpec instrument, the team observed Uranus for nearly a full rotation, detecting the faint glow from molecules high above the clouds. The results offer a new window into how ice-giant planets distribute energy in their upper layers."
     },
     {
-      "title": "NASA teams set for second Artemis II wet dress rehearsal",
-      "link": "https://www.spacedaily.com/reports/NASA_teams_set_for_second_Artemis_II_wet_dress_rehearsal_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-02-19T12:07:23Z",
-      "summary": "Sydney, Australia (SPX) Feb 17, 2026\r\n\r\n\r\nNASA is preparing for the second wet dress rehearsal of the Space Launch System rocket and Orion spacecraft ahead of the Artemis II test flight, targeting Thursday, Feb. 19, as the day to load propellants into the vehicle at Kennedy Space Center in Florida. \r\n\r\nTeams spent the weekend replacing a filter in ground support equipment that was suspected of restricting liquid hydrogen flow during a"
+      "title": "ESA’s 5G laboratory on wheels",
+      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/02/ESA_s_5G_laboratory_on_wheels",
+      "source": "ESA",
+      "date": "2026-02-19T14:00:00Z",
+      "summary": "From the ESA Blogs."
     },
     {
-      "title": "Hypersonica completes milestone hypersonic missile flight test in Norway",
-      "link": "https://www.spacedaily.com/reports/Hypersonica_completes_milestone_hypersonic_missile_flight_test_in_Norway_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-02-19T12:07:23Z",
-      "summary": "Los Angeles CA (SPX) Feb 17, 2026\n\n\nHypersonica has completed its first hypersonic test flight at Andoya Space in Norway, marking what the company describes as a major step toward a European sovereign hypersonic strike capability by 2029. \n\nThe Anglo-German defense and aerospace company reported that its missile prototype accelerated to speeds above Mach 6 and flew more than 300 kilometers during the mission. All systems perfo"
-    },
-    {
-      "title": "Russian era ends at abandoned launchpad in South American jungle",
-      "link": "https://www.spacedaily.com/reports/Russian_era_ends_at_abandoned_launchpad_in_South_American_jungle_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-02-19T12:07:23Z",
-      "summary": "Kourou (AFP) Feb 18, 2026\r\n\r\n\r\n \"Stop. Danger of death. Work in progress.\" \r\n\r\nThis sign, written in Russian, is still hanging inside an office at the site where Russia once launched its Soyuz rockets from Europe's spaceport in Kourou, French Guiana. \r\n\r\nHowever the jungle has been slowly reclaiming the launchpad on South America's northeastern coast ever since Russia hastily left in the aftermath of invading Ukraine in Februa"
-    },
-    {
-      "title": "Curiosity Blog, Sols 4798-4803: Back for More Science",
-      "link": "https://www.spacedaily.com/reports/Curiosity_Blog_Sols_4798_4803_Back_for_More_Science_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-02-19T12:07:23Z",
-      "summary": "Pasadena CA (JPL) Feb 17, 2026\r\n\r\n\r\nThe results from our first visit to the \"Nevado Sajama\" drill location were intriguing enough to motivate our return to do a deeper dive into the minerals and compounds locked in this rock with SAM (the Sample Analysis at Mars instrument suite). \r\n\r\nAs explained in the last blog, that deeper dive involves using the second of two vials of a chemical reagent, tetramethylammonium hydroxide (TMAH)"
+      "title": "Small But Mighty Lab Device Could Transform NASA Research",
+      "link": "https://science.nasa.gov/science-research/biological-physical-sciences/small-but-mighty-lab-device-could-transform-nasa-research/",
+      "source": "NASA",
+      "date": "2026-02-19T13:34:35Z",
+      "summary": "A small but mighty piece of lab equipment, about the size of a cellphone, has arrived at the International Space Station after launching with NASA’s SpaceX Crew-12 mission. NASA aims to use the off-the-shelf device, called a microplate reader, to conduct vital biological research in space and get real-time access to data."
     }
   ],
-  "updated": "2026-02-19T14:09:18.689Z"
+  "updated": "2026-02-19T14:32:11.606Z"
 }
