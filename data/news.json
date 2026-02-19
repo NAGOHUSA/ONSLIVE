@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Independent report sharply criticizes NASA management, Boeing for troubled Starliner flight",
+      "link": "https://spaceflightnow.com/2026/02/19/independent-report-sharply-criticizes-nasa-management-boeing-for-troubled-starliner-flight/",
+      "source": "Spaceflight Now",
+      "date": "2026-02-19T23:24:05Z",
+      "summary": "NASA Administrator Jared Isaacman said NASA will continue working with Boeing to make the Starliner a viable crew transport vehicle, adding that \"sustained crew and cargo access to low Earth orbit will remain essential, and America benefits from competition and redundancy.\" "
+    },
+    {
       "title": "NASA Classifies Starliner CFT as Type-A Mishap, Leadership Changes Coming",
       "link": "https://spacepolicyonline.com/news/nasa-classifies-starliner-cft-as-type-a-mishap-leadership-changes-coming/",
       "source": "SpacePolicyOnline.com",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-02-19T21:47:28Z",
       "summary": "\nNASA has classified the flawed Starliner crewed test flight in 2024 as its most serious level of mishap, with the agency’s leadership citing shortfalls in how officials oversaw the program.\nThe post Starliner investigation identifies flawed NASA decision making appeared first on SpaceNews."
-    },
-    {
-      "title": "NASA Investigates How People Respond to Air Taxi Noise",
-      "link": "https://www.nasa.gov/image-article/nasa-investigates-how-people-respond-to-air-taxi-noise/",
-      "source": "NASA",
-      "date": "2026-02-19T20:54:07Z",
-      "summary": "New kinds of aircraft taking to the skies could mean unfamiliar sounds overhead — and where you’re hearing them might matter, according to new NASA research. NASA aeronautics has worked for years to enable new air transportation options for people and goods, and to find ways to make sure they can be safely and effectively […]"
     }
   ],
-  "updated": "2026-02-19T23:28:33.697Z"
+  "updated": "2026-02-19T23:43:47.711Z"
 }
