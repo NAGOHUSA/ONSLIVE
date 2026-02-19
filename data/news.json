@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Creating new demand in the nascent orbital economy",
+      "link": "https://spacenews.com/creating-new-demand-in-the-nascent-orbital-economy/",
+      "source": "SpaceNews",
+      "date": "2026-02-19T15:45:34Z",
+      "summary": "\nIn this episode of Space Minds, David Ariosto interviews Matt Kuta, president and co-founder of Voyager Technologies about how the company is pursuing a commercialized future in low Earth orbit. […]\nThe post Creating new demand in the nascent orbital economy appeared first on SpaceNews."
+    },
+    {
       "title": "Map the Earth’s Magnetic Shield with the Space Umbrella Project",
       "link": "https://science.nasa.gov/get-involved/citizen-science/map-the-earths-magnetic-shield-with-the-space-umbrella-project/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "ESA",
       "date": "2026-02-19T14:00:00Z",
       "summary": "From the ESA Blogs."
-    },
-    {
-      "title": "Golden Dome will fail without software-defined warfare",
-      "link": "https://spacenews.com/golden-dome-will-fail-without-software-defined-warfare/",
-      "source": "SpaceNews",
-      "date": "2026-02-19T14:00:00Z",
-      "summary": "\nIf the United States wants to defend the homeland against the next generation of missile and aerial threats, hardware alone will not save us. Sensors, radars and interceptors are necessary but no longer sufficient. The decisive advantage for Golden Dome for America will come from software and the ability to integrate, test, adapt and fight […]\nThe post Golden Dome will fail without software-defined warfare appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-02-19T15:32:47.110Z"
+  "updated": "2026-02-19T15:54:45.431Z"
 }
