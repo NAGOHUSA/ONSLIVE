@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA to Provide Starliner Crew Flight Test Review Findings Today",
+      "link": "https://www.nasa.gov/news-release/nasa-to-provide-starliner-crew-flight-test-review-findings-today/",
+      "source": "NASA",
+      "date": "2026-02-19T17:09:06Z",
+      "summary": "During a news conference at 2 p.m. EST on Thursday NASA will discuss the findings of investigations into the 2024 crewed test flight of Boeing Starliner to the International Space Station. The news conference will stream live on NASA’s YouTube channel. An instant replay will be available online. NASA participants include: To ask questions during […]"
+    },
+    {
       "title": "Award-Winning NASA Camera Revolutionizes How We See the Invisible",
       "link": "https://www.nasa.gov/aeronautics/award-winning-nasa-camera-revolutionizes-how-we-see-the-invisible/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-02-19T15:45:34Z",
       "summary": "\nIn this episode of Space Minds, David Ariosto interviews Matt Kuta, president and co-founder of Voyager Technologies about how the company is pursuing a commercialized future in low Earth orbit. […]\nThe post Creating new demand in the nascent orbital economy appeared first on SpaceNews."
-    },
-    {
-      "title": "Map the Earth’s Magnetic Shield with the Space Umbrella Project",
-      "link": "https://science.nasa.gov/get-involved/citizen-science/map-the-earths-magnetic-shield-with-the-space-umbrella-project/",
-      "source": "NASA",
-      "date": "2026-02-19T14:28:32Z",
-      "summary": "Use data from NASA’s Magnetosphere Multiscale Mission to shed light on solar storms. For anyone with a laptop or cell."
     }
   ],
-  "updated": "2026-02-19T16:57:21.717Z"
+  "updated": "2026-02-19T17:22:33.760Z"
 }
