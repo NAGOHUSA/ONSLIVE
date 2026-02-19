@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "SSC Space Opens Orbital Launch Control Center at Esrange",
+      "link": "https://europeanspaceflight.com/ssc-space-opens-orbital-launch-control-center-at-esrange/",
+      "source": "European Spaceflight",
+      "date": "2026-02-19T07:53:02Z",
+      "summary": "SSC Space has officially opened the Esrange Space Center’s new Orbital Launch Control Center, which will be used to manage future rocket launches from the facility. The Esrange Space Center in northern Sweden has hosted suborbital rocket launches since the 1960s. In October 2020, the Swedish government and the Swedish Space Corporation (SSC), now known […]\nThe post SSC Space Opens Orbital Launch Control Center at Esrange appeared first on European Spaceflight."
+    },
+    {
       "title": "Northern Glow Spans Iceland and Canada",
       "link": "https://science.nasa.gov/earth/earth-observatory/northern-glow-spans-iceland-and-canada/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-02-18T20:54:31Z",
       "summary": "NASA’s Commercial Satellite Data Acquisition (CSDA) Program announces the addition of imagery from Vantor to its Satellite Data Explorer (SDX) data access and discovery tool."
-    },
-    {
-      "title": "CSDA Releases New Data Acquisition Request System",
-      "link": "https://science.nasa.gov/uncategorized/csda-releases-new-data-acquisition-request-system/",
-      "source": "NASA",
-      "date": "2026-02-18T20:42:16Z",
-      "summary": "The CSDA Program’s Data Acquisition Request System lets authorized users submit proposals for yet-to-be-collected data from CSDA’s commercial partners."
     }
   ],
-  "updated": "2026-02-19T08:24:12.508Z"
+  "updated": "2026-02-19T08:42:59.012Z"
 }
