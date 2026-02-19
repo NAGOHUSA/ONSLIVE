@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Award-Winning NASA Camera Revolutionizes How We See the Invisible",
+      "link": "https://www.nasa.gov/aeronautics/award-winning-nasa-camera-revolutionizes-how-we-see-the-invisible/",
+      "source": "NASA",
+      "date": "2026-02-19T16:31:41Z",
+      "summary": "Imagine trying to photograph wind. That’s similar to what NASA engineers dealt with during a recent effort to study how air moves around planes, rockets, and other kinds of aerospace vehicles. Air is invisible, but our understanding of how it flows is crucial for building better, safer aircraft. For 80 years, researchers used a technique […]"
+    },
+    {
+      "title": "Sophie Adenot exercising on the CEVIS bike",
+      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/02/Sophie_Adenot_exercising_on_the_CEVIS_bike",
+      "source": "ESA",
+      "date": "2026-02-19T16:21:00Z",
+      "summary": "From the ESA Blogs."
+    },
+    {
       "title": "Crystals Grown in Space",
       "link": "https://www.nasa.gov/image-article/crystals-grown-in-space/",
       "source": "NASA",
@@ -20,21 +34,7 @@
       "source": "NASA",
       "date": "2026-02-19T14:28:32Z",
       "summary": "Use data from NASA’s Magnetosphere Multiscale Mission to shed light on solar storms. For anyone with a laptop or cell."
-    },
-    {
-      "title": "EarthDaily in Orbit: From First Launch to Commercial Operations",
-      "link": "https://spacenews.com/earthdaily-in-orbit-from-first-launch-to-commercial-operations/",
-      "source": "SpaceNews",
-      "date": "2026-02-19T14:09:50Z",
-      "summary": "With six additional satellites launching in May and continued expansion later this year, the EarthDaily Constellation will enter commercial operations in Summer 2026, delivering daily, consistent global coverage.\r\nThe post EarthDaily in Orbit: From First Launch to Commercial Operations appeared first on SpaceNews."
-    },
-    {
-      "title": "Webb maps Uranus's mysterious upper atmosphere",
-      "link": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_maps_Uranus_s_mysterious_upper_atmosphere",
-      "source": "ESA",
-      "date": "2026-02-19T14:00:00Z",
-      "summary": "For the first time, an international team of astronomers have mapped the vertical structure of Uranus’s upper atmosphere, uncovering how temperature and charged particles vary with height across the planet. Using NASA/ESA/CSA James Webb Space Telescope's NIRSpec instrument, the team observed Uranus for nearly a full rotation, detecting the faint glow from molecules high above the clouds. The results offer a new window into how ice-giant planets distribute energy in their upper layers."
     }
   ],
-  "updated": "2026-02-19T16:34:06.960Z"
+  "updated": "2026-02-19T16:57:21.717Z"
 }
