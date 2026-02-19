@@ -1,18 +1,18 @@
 {
   "articles": [
     {
+      "title": "Map the Earth’s Magnetic Shield with the Space Umbrella Project",
+      "link": "https://science.nasa.gov/get-involved/citizen-science/map-the-earths-magnetic-shield-with-the-space-umbrella-project/",
+      "source": "NASA",
+      "date": "2026-02-19T14:28:32Z",
+      "summary": "Use data from NASA’s Magnetosphere Multiscale Mission to shed light on solar storms. For anyone with a laptop or cell."
+    },
+    {
       "title": "EarthDaily in Orbit: From First Launch to Commercial Operations",
       "link": "https://spacenews.com/earthdaily-in-orbit-from-first-launch-to-commercial-operations/",
       "source": "SpaceNews",
       "date": "2026-02-19T14:09:50Z",
       "summary": "With six additional satellites launching in May and continued expansion later this year, the EarthDaily Constellation will enter commercial operations in Summer 2026, delivering daily, consistent global coverage.\r\nThe post EarthDaily in Orbit: From First Launch to Commercial Operations appeared first on SpaceNews."
-    },
-    {
-      "title": "Golden Dome will fail without software-defined warfare",
-      "link": "https://spacenews.com/golden-dome-will-fail-without-software-defined-warfare/",
-      "source": "SpaceNews",
-      "date": "2026-02-19T14:00:00Z",
-      "summary": "\nIf the United States wants to defend the homeland against the next generation of missile and aerial threats, hardware alone will not save us. Sensors, radars and interceptors are necessary but no longer sufficient. The decisive advantage for Golden Dome for America will come from software and the ability to integrate, test, adapt and fight […]\nThe post Golden Dome will fail without software-defined warfare appeared first on SpaceNews."
     },
     {
       "title": "Webb maps Uranus's mysterious upper atmosphere",
@@ -29,12 +29,12 @@
       "summary": "From the ESA Blogs."
     },
     {
-      "title": "Small But Mighty Lab Device Could Transform NASA Research",
-      "link": "https://science.nasa.gov/science-research/biological-physical-sciences/small-but-mighty-lab-device-could-transform-nasa-research/",
-      "source": "NASA",
-      "date": "2026-02-19T13:34:35Z",
-      "summary": "A small but mighty piece of lab equipment, about the size of a cellphone, has arrived at the International Space Station after launching with NASA’s SpaceX Crew-12 mission. NASA aims to use the off-the-shelf device, called a microplate reader, to conduct vital biological research in space and get real-time access to data."
+      "title": "Golden Dome will fail without software-defined warfare",
+      "link": "https://spacenews.com/golden-dome-will-fail-without-software-defined-warfare/",
+      "source": "SpaceNews",
+      "date": "2026-02-19T14:00:00Z",
+      "summary": "\nIf the United States wants to defend the homeland against the next generation of missile and aerial threats, hardware alone will not save us. Sensors, radars and interceptors are necessary but no longer sufficient. The decisive advantage for Golden Dome for America will come from software and the ability to integrate, test, adapt and fight […]\nThe post Golden Dome will fail without software-defined warfare appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-02-19T14:53:53.843Z"
+  "updated": "2026-02-19T15:12:50.096Z"
 }
