@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Japan’s ispace warns of delays in new lunar lander engine",
+      "link": "https://spacenews.com/japans-ispace-warns-of-delays-in-new-lunar-lander-engine/",
+      "source": "SpaceNews",
+      "date": "2026-02-19T10:03:52Z",
+      "summary": "Japanese lunar company ispace said work on a new engine for its lunar landers is facing delays and that it is keeping open the option of switching engines.\r\nThe post Japan’s ispace warns of delays in new lunar lander engine appeared first on SpaceNews."
+    },
+    {
       "title": "SSC Space Opens Orbital Launch Control Center at Esrange",
       "link": "https://europeanspaceflight.com/ssc-space-opens-orbital-launch-control-center-at-esrange/",
       "source": "European Spaceflight",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-02-18T21:05:58Z",
       "summary": "The CSDA Program added three digital elevation and digital terrain products from Vantor’s Precision3D Product Line to the Satellite Data Explorer."
-    },
-    {
-      "title": "Vantor Archive Imagery Added to Satellite Data Explorer",
-      "link": "https://science.nasa.gov/uncategorized/vantor-archive-imagery-added-to-satellite-data-explorer/",
-      "source": "NASA",
-      "date": "2026-02-18T20:54:31Z",
-      "summary": "NASA’s Commercial Satellite Data Acquisition (CSDA) Program announces the addition of imagery from Vantor to its Satellite Data Explorer (SDX) data access and discovery tool."
     }
   ],
-  "updated": "2026-02-19T10:05:41.842Z"
+  "updated": "2026-02-19T10:25:40.263Z"
 }
