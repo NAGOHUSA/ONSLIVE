@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA chief classifies Starliner flight as \"Type A\" mishap, says agency made mistakes",
+      "link": "https://arstechnica.com/space/2026/02/nasa-chief-classifies-starliner-flight-as-type-a-mishap-says-agency-made-mistakes/",
+      "source": "Arstechnica",
+      "date": "2026-02-19T21:59:10Z",
+      "summary": "\"The most troubling failure revealed by this investigation is not hardware.\""
+    },
+    {
       "title": "Starliner investigation identifies flawed NASA decision making",
       "link": "https://spacenews.com/starliner-investigation-identifies-flawed-nasa-decision-making/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-02-19T17:09:06Z",
       "summary": "During a news conference at 2 p.m. EST on Thursday NASA will discuss the findings of investigations into the 2024 crewed test flight of Boeing Starliner to the International Space Station. The news conference will stream live on NASA’s YouTube channel. An instant replay will be available online. NASA participants include: To ask questions during […]"
-    },
-    {
-      "title": "Award-Winning NASA Camera Revolutionizes How We See the Invisible",
-      "link": "https://www.nasa.gov/aeronautics/award-winning-nasa-camera-revolutionizes-how-we-see-the-invisible/",
-      "source": "NASA",
-      "date": "2026-02-19T16:31:41Z",
-      "summary": "Imagine trying to photograph wind. That’s similar to what NASA engineers dealt with during a recent effort to study how air moves around planes, rockets, and other kinds of aerospace vehicles. Air is invisible, but our understanding of how it flows is crucial for building better, safer aircraft. For 80 years, researchers used a technique […]"
     }
   ],
-  "updated": "2026-02-19T21:59:07.759Z"
+  "updated": "2026-02-19T22:13:37.547Z"
 }
