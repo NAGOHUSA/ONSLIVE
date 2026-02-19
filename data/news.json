@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "NASA Classifies Starliner CFT as Type-A Mishap, Leadership Changes Coming",
+      "link": "https://spacepolicyonline.com/news/nasa-classifies-starliner-cft-as-type-a-mishap-leadership-changes-coming/",
+      "source": "SpacePolicyOnline.com",
+      "date": "2026-02-19T23:12:01Z",
+      "summary": "At a quickly announced news conference today, NASA Administrator Jared Isaacman released NASA’s investigation into the 2024 Boeing Starliner Crew Flight Test incident. Acknowledging that the Starliner spacecraft itself has […]"
+    },
+    {
+      "title": "Live coverage: SpaceX to launch second Falcon 9 rocket to return to a landing in The Bahamas",
+      "link": "https://spaceflightnow.com/2026/02/19/live-coverage-spacex-to-launch-second-falcon-9-rocket-with-booster-landing-adjacent-to-the-bahamas/",
+      "source": "Spaceflight Now",
+      "date": "2026-02-19T23:11:26Z",
+      "summary": "The Starlink 10-34 mission will be SpaceX’s 20th Falcon 9 launch of the year so far. Liftoff from pad 40 is set for 8:41:40 p.m. EST (0141:40). "
+    },
+    {
       "title": "NASA chief classifies Starliner flight as \"Type A\" mishap, says agency made mistakes",
       "link": "https://arstechnica.com/space/2026/02/nasa-chief-classifies-starliner-flight-as-type-a-mishap-says-agency-made-mistakes/",
       "source": "Arstechnica",
@@ -20,21 +34,7 @@
       "source": "NASA",
       "date": "2026-02-19T20:54:07Z",
       "summary": "New kinds of aircraft taking to the skies could mean unfamiliar sounds overhead — and where you’re hearing them might matter, according to new NASA research. NASA aeronautics has worked for years to enable new air transportation options for people and goods, and to find ways to make sure they can be safely and effectively […]"
-    },
-    {
-      "title": "NASA Releases Report on Starliner Crewed Flight Test Investigation",
-      "link": "https://www.nasa.gov/news-release/nasa-releases-report-on-starliner-crewed-flight-test-investigation/",
-      "source": "NASA",
-      "date": "2026-02-19T19:06:45Z",
-      "summary": "At a news conference on Thursday, NASA released a report of findings from the Program Investigation Team examining the Boeing CST-100 Starliner Crewed Flight Test as part of the agency’s Commercial Crew Program.   “The Boeing Starliner spacecraft has faced challenges throughout its uncrewed and most recent crewed missions. While Boeing built Starliner, NASA accepted it and launched two astronauts to space. […]"
-    },
-    {
-      "title": "NASA to Provide Starliner Crew Flight Test Review Findings Today",
-      "link": "https://www.nasa.gov/news-release/nasa-to-provide-starliner-crew-flight-test-review-findings-today/",
-      "source": "NASA",
-      "date": "2026-02-19T17:09:06Z",
-      "summary": "During a news conference at 2 p.m. EST on Thursday NASA will discuss the findings of investigations into the 2024 crewed test flight of Boeing Starliner to the International Space Station. The news conference will stream live on NASA’s YouTube channel. An instant replay will be available online. NASA participants include: To ask questions during […]"
     }
   ],
-  "updated": "2026-02-19T23:14:38.180Z"
+  "updated": "2026-02-19T23:28:33.697Z"
 }
