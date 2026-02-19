@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Crystals Grown in Space",
+      "link": "https://www.nasa.gov/image-article/crystals-grown-in-space/",
+      "source": "NASA",
+      "date": "2026-02-19T16:12:03Z",
+      "summary": "This June 5, 2024, image shows lysozyme crystals aboard the International Space Station. Lysozyme is a protein found in bodily fluids like tears, saliva, and milk, and is used as a control compound to demonstrate well-formed crystals. Lysozyme plays a vital role in innate immunity, protecting against bacteria, viruses, and fungi. The crystals were grown with […]"
+    },
+    {
       "title": "Creating new demand in the nascent orbital economy",
       "link": "https://spacenews.com/creating-new-demand-in-the-nascent-orbital-economy/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "ESA",
       "date": "2026-02-19T14:00:00Z",
       "summary": "For the first time, an international team of astronomers have mapped the vertical structure of Uranus’s upper atmosphere, uncovering how temperature and charged particles vary with height across the planet. Using NASA/ESA/CSA James Webb Space Telescope's NIRSpec instrument, the team observed Uranus for nearly a full rotation, detecting the faint glow from molecules high above the clouds. The results offer a new window into how ice-giant planets distribute energy in their upper layers."
-    },
-    {
-      "title": "ESA’s 5G laboratory on wheels",
-      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/02/ESA_s_5G_laboratory_on_wheels",
-      "source": "ESA",
-      "date": "2026-02-19T14:00:00Z",
-      "summary": "From the ESA Blogs."
     }
   ],
-  "updated": "2026-02-19T16:13:17.025Z"
+  "updated": "2026-02-19T16:34:06.960Z"
 }
