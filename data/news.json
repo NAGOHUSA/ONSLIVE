@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Live coverage: Falcon 9 to launch 25 Starlink satellites after weather delays",
+      "link": "https://spaceflightnow.com/2026/02/20/live-coverage-falcon-9-to-launch-25-starlink-satellites-after-weather-delays/",
+      "source": "Spaceflight Now",
+      "date": "2026-02-20T22:46:55Z",
+      "summary": "SpaceX is counting down to the launch of a Falcon 9 rocket carrying 25 Starlink satellites from California, after days of delay. Liftoff from Space Launch Complex 4 East at Vandenberg Space Force Base is scheduled for 1 a.m. PST (4 a.m. EST / 0900 UTC). "
+    },
+    {
       "title": "Aalto plots Australia base to boost planned high-altitude pseudo satellite service",
       "link": "https://spacenews.com/aalto-plots-australia-base-to-boost-planned-high-altitude-pseudo-satellite-service/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpacePolicyOnline.com",
       "date": "2026-02-20T19:28:13Z",
       "summary": "NASA confirmed today that March 6 is their target for sending astronauts around the Moon for the first time in more than 50 years on the Artemis II mission. The […]"
-    },
-    {
-      "title": "NASA targeting March 6 for Artemis 2 launch",
-      "link": "https://spacenews.com/nasa-targeting-march-6-for-artemis-2-launch/",
-      "source": "SpaceNews",
-      "date": "2026-02-20T18:40:05Z",
-      "summary": "\nNASA is targeting a March 6 launch for Artemis 2 after completing a countdown test with few problems.\nThe post NASA targeting March 6 for Artemis 2 launch appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-02-20T22:38:38.406Z"
+  "updated": "2026-02-20T22:50:57.038Z"
 }
