@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Boeing insists NASA criticism will reinforce efforts on Starliner",
+      "link": "https://www.nasaspaceflight.com/2026/02/boeing-nasa-criticism-reinforce-starliner/",
+      "source": "NASASpaceflight",
+      "date": "2026-02-20T21:08:38Z",
+      "summary": "Following NASA Administrator Jared Isaacman’s stark assessment of the Boeing CST-100 Starliner program’s troubled history—pinning…\nThe post Boeing insists NASA criticism will reinforce efforts on Starliner appeared first on NASASpaceFlight.com."
+    },
+    {
       "title": "NASA Is Helping Bring Giant Tortoises Back to the Galápagos",
       "link": "https://science.nasa.gov/earth/nasa-is-helping-bring-giant-tortoises-back-to-the-galapagos/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "European Spaceflight",
       "date": "2026-02-20T15:01:00Z",
       "summary": "An amendment to the United Kingdom’s Space Industry Act will mandate that limits are set on how much launch operators are financially liable for if something goes wrong. The government has framed the change as a necessary step to strengthen the country’s position as a competitive launch location. The concept of states being liable for […]\nThe post The UK Amends Launch Liability Rules as RFA Prepares for Inaugural Flight appeared first on European Spaceflight."
-    },
-    {
-      "title": "Artemis II Crew Trains on T-38",
-      "link": "https://www.nasa.gov/image-article/artemis-ii-crew-trains-on-t-38/",
-      "source": "NASA",
-      "date": "2026-02-20T14:50:53Z",
-      "summary": "NASA astronaut Christina Koch and Canadian Space Agency astronaut Jeremy Hansen take off on a T-38 training flight from Ellington Field on Feb. 11, 2026, as a waning crescent Moon hovers above. Koch and Hansen, along with NASA astronauts Reid Wiseman and Victor Glover, are part of NASA’s Artemis II mission, the first crewed flight […]"
     }
   ],
-  "updated": "2026-02-20T21:04:55.557Z"
+  "updated": "2026-02-20T21:15:30.958Z"
 }
