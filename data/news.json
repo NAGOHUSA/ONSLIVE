@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Moon mission fueling test concludes with no major problems",
+      "link": "https://spaceflightnow.com/2026/02/20/moon-mission-fueling-test-concludes-with-no-major-problems/",
+      "source": "Spaceflight Now",
+      "date": "2026-02-20T04:11:56Z",
+      "summary": "The practice countdown began Tuesday night, kicking off a carefully choreographed series of steps to ready the world's most powerful operational rocket for what amounted to a simulated launch Thursday at 8:42 p.m. EST. Controllers then carried out additional tests to make sure the team can recycle, hold and restart an actual launch countdown as needed to handle unexpected problems. "
+    },
+    {
+      "title": "Artemis II Could Launch As Soon as March Following Successful WDR",
+      "link": "https://spacepolicyonline.com/news/artemis-ii-could-launch-as-soon-as-march-following-successful-wdr/",
+      "source": "SpacePolicyOnline.com",
+      "date": "2026-02-20T04:09:36Z",
+      "summary": "Today’s successful Artemis II Wet Dress Rehearsal (WDR) positions NASA to launch astronauts around the Moon  for the first time in over 50 yearsa s soon as next month. This […]"
+    },
+    {
       "title": "Independent report sharply criticizes NASA management, Boeing for troubled Starliner flight",
       "link": "https://spaceflightnow.com/2026/02/19/independent-report-sharply-criticizes-nasa-management-boeing-for-troubled-starliner-flight/",
       "source": "Spaceflight Now",
@@ -20,21 +34,7 @@
       "source": "Spaceflight Now",
       "date": "2026-02-19T23:11:26Z",
       "summary": "The Starlink 10-34 mission will be SpaceX’s 20th Falcon 9 launch of the year so far. Liftoff from pad 40 is set for 8:41:40 p.m. EST (0141:40). "
-    },
-    {
-      "title": "NASA chief classifies Starliner flight as \"Type A\" mishap, says agency made mistakes",
-      "link": "https://arstechnica.com/space/2026/02/nasa-chief-classifies-starliner-flight-as-type-a-mishap-says-agency-made-mistakes/",
-      "source": "Arstechnica",
-      "date": "2026-02-19T21:59:10Z",
-      "summary": "\"The most troubling failure revealed by this investigation is not hardware.\""
-    },
-    {
-      "title": "Starliner investigation identifies flawed NASA decision making",
-      "link": "https://spacenews.com/starliner-investigation-identifies-flawed-nasa-decision-making/",
-      "source": "SpaceNews",
-      "date": "2026-02-19T21:47:28Z",
-      "summary": "\nNASA has classified the flawed Starliner crewed test flight in 2024 as its most serious level of mishap, with the agency’s leadership citing shortfalls in how officials oversaw the program.\nThe post Starliner investigation identifies flawed NASA decision making appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-02-20T04:00:19.929Z"
+  "updated": "2026-02-20T04:40:52.289Z"
 }
