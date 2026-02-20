@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Week in images: 16-20 February 2026",
+      "link": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_16-20_February_2026",
+      "source": "ESA",
+      "date": "2026-02-20T14:10:00Z",
+      "summary": "Week in images: 16-20 February 2026"
+    },
+    {
       "title": "Boeing to boost production of missile-tracking sensors for military satellites",
       "link": "https://spacenews.com/boeing-to-boost-production-of-missile-tracking-sensors-for-military-satellites/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "ESA",
       "date": "2026-02-20T09:05:00Z",
       "summary": "Just over a year since Smile arrived in the Netherlands in two parts, the now-complete and thoroughly-tested spacecraft has left for good. With a launch window set for 8 April – 7 May on a Vega-C rocket, the joint European-Chinese mission is almost ready to embark upon its unique space mission."
-    },
-    {
-      "title": "Earth from Space: Ouarzazate, Morocco",
-      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/02/Earth_from_Space_Ouarzazate_Morocco",
-      "source": "ESA",
-      "date": "2026-02-20T09:00:00Z",
-      "summary": "From the ESA Blogs."
     }
   ],
-  "updated": "2026-02-20T14:00:41.833Z"
+  "updated": "2026-02-20T14:22:31.906Z"
 }
