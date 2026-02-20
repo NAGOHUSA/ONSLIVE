@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Winds Whip Up Fires and Dust on the Southern Plains",
+      "link": "https://science.nasa.gov/earth/earth-observatory/winds-whip-up-fires-and-dust-on-the-southern-plains/",
+      "source": "NASA",
+      "date": "2026-02-20T05:01:00Z",
+      "summary": "Dry, gusty conditions spurred fast-growing fires in Oklahoma and Kansas, along with dangerous dust storms across the region."
+    },
+    {
       "title": "Moon mission fueling test concludes with no major problems",
       "link": "https://spaceflightnow.com/2026/02/20/moon-mission-fueling-test-concludes-with-no-major-problems/",
       "source": "Spaceflight Now",
@@ -27,14 +34,7 @@
       "source": "SpacePolicyOnline.com",
       "date": "2026-02-19T23:12:01Z",
       "summary": "At a quickly announced news conference today, NASA Administrator Jared Isaacman released NASA’s investigation into the 2024 Boeing Starliner Crew Flight Test incident. Acknowledging that the Starliner spacecraft itself has […]"
-    },
-    {
-      "title": "Live coverage: SpaceX to launch second Falcon 9 rocket to return to a landing in The Bahamas",
-      "link": "https://spaceflightnow.com/2026/02/19/live-coverage-spacex-to-launch-second-falcon-9-rocket-with-booster-landing-adjacent-to-the-bahamas/",
-      "source": "Spaceflight Now",
-      "date": "2026-02-19T23:11:26Z",
-      "summary": "The Starlink 10-34 mission will be SpaceX’s 20th Falcon 9 launch of the year so far. Liftoff from pad 40 is set for 8:41:40 p.m. EST (0141:40). "
     }
   ],
-  "updated": "2026-02-20T05:09:59.878Z"
+  "updated": "2026-02-20T05:36:05.928Z"
 }
