@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Smile sets sail for Europe’s Spaceport in French Guiana",
+      "link": "https://www.esa.int/Science_Exploration/Space_Science/Smile/Smile_sets_sail_for_Europe_s_Spaceport_in_French_Guiana",
+      "source": "ESA",
+      "date": "2026-02-20T09:05:00Z",
+      "summary": "Just over a year since Smile arrived in the Netherlands in two parts, the now-complete and thoroughly-tested spacecraft has left for good. With a launch window set for 8 April – 7 May on a Vega-C rocket, the joint European-Chinese mission is almost ready to embark upon its unique space mission."
+    },
+    {
       "title": "Winds Whip Up Fires and Dust on the Southern Plains",
       "link": "https://science.nasa.gov/earth/earth-observatory/winds-whip-up-fires-and-dust-on-the-southern-plains/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "Spaceflight Now",
       "date": "2026-02-19T23:24:05Z",
       "summary": "NASA Administrator Jared Isaacman said NASA will continue working with Boeing to make the Starliner a viable crew transport vehicle, adding that \"sustained crew and cargo access to low Earth orbit will remain essential, and America benefits from competition and redundancy.\" "
-    },
-    {
-      "title": "NASA Classifies Starliner CFT as Type-A Mishap, Leadership Changes Coming",
-      "link": "https://spacepolicyonline.com/news/nasa-classifies-starliner-cft-as-type-a-mishap-leadership-changes-coming/",
-      "source": "SpacePolicyOnline.com",
-      "date": "2026-02-19T23:12:01Z",
-      "summary": "At a quickly announced news conference today, NASA Administrator Jared Isaacman released NASA’s investigation into the 2024 Boeing Starliner Crew Flight Test incident. Acknowledging that the Starliner spacecraft itself has […]"
     }
   ],
-  "updated": "2026-02-20T08:42:59.457Z"
+  "updated": "2026-02-20T09:00:37.954Z"
 }
