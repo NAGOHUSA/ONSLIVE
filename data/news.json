@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA targeting March 6 for Artemis 2 launch",
+      "link": "https://spacenews.com/nasa-targeting-march-6-for-artemis-2-launch/",
+      "source": "SpaceNews",
+      "date": "2026-02-20T18:40:05Z",
+      "summary": "\nNASA is targeting a March 6 launch for Artemis 2 after completing a countdown test with few problems.\nThe post NASA targeting March 6 for Artemis 2 launch appeared first on SpaceNews."
+    },
+    {
       "title": "Artemis II Crew Trains on T-38",
       "link": "https://www.nasa.gov/image-article/artemis-ii-crew-trains-on-t-38/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-02-20T12:12:12Z",
       "summary": "NASA completed a second wet dress rehearsal for the Artemis 2 mission on Feb. 19 without any of the hydrogen leaks seen in the first such test earlier this month.\r\nThe post NASA completes second Artemis 2 fueling test appeared first on SpaceNews."
-    },
-    {
-      "title": "Annular solar eclipse seen from space",
-      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/02/Annular_solar_eclipse_seen_from_space",
-      "source": "ESA",
-      "date": "2026-02-20T11:00:00Z",
-      "summary": "From the ESA Blogs."
     }
   ],
-  "updated": "2026-02-20T18:24:12.351Z"
+  "updated": "2026-02-20T18:43:12.490Z"
 }
