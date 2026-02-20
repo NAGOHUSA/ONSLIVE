@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA completes second Artemis 2 fueling test",
+      "link": "https://spacenews.com/nasa-completes-second-artemis-2-fueling-test/",
+      "source": "SpaceNews",
+      "date": "2026-02-20T12:12:12Z",
+      "summary": "\nNASA completed a second wet dress rehearsal for the Artemis 2 mission on Feb. 19 without any of the hydrogen leaks seen in the first such test earlier this month.\nThe post NASA completes second Artemis 2 fueling test appeared first on SpaceNews."
+    },
+    {
       "title": "Smile sets sail for Europe’s Spaceport in French Guiana",
       "link": "https://www.esa.int/Science_Exploration/Space_Science/Smile/Smile_sets_sail_for_Europe_s_Spaceport_in_French_Guiana",
       "source": "ESA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-02-20T05:01:00Z",
       "summary": "Dry, gusty conditions spurred fast-growing fires in Oklahoma and Kansas, along with dangerous dust storms across the region."
-    },
-    {
-      "title": "Moon mission fueling test concludes with no major problems",
-      "link": "https://spaceflightnow.com/2026/02/20/moon-mission-fueling-test-concludes-with-no-major-problems/",
-      "source": "Spaceflight Now",
-      "date": "2026-02-20T04:11:56Z",
-      "summary": "The practice countdown began Tuesday night, kicking off a carefully choreographed series of steps to ready the world's most powerful operational rocket for what amounted to a simulated launch Thursday at 8:42 p.m. EST. Controllers then carried out additional tests to make sure the team can recycle, hold and restart an actual launch countdown as needed to handle unexpected problems."
     }
   ],
-  "updated": "2026-02-20T11:59:49.138Z"
+  "updated": "2026-02-20T12:22:04.420Z"
 }
