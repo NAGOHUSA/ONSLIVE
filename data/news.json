@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Following Near-Perfect Rehearsal, Artemis II Faces a Rollback",
+      "link": "https://www.spacescout.info/2026/02/following-near-perfect-rehearsal-artemis-ii-faces-a-rollback/",
+      "source": "Space Scout",
+      "date": "2026-02-21T20:46:43Z",
+      "summary": "After an issue with the SLS rocket's upper stage, NASA has made the difficult decision to roll the Artemis II stack back to the Vehicle Assembly Building (VAB)."
+    },
+    {
+      "title": "NASA prepares for likely rollback of SLS, delaying Artemis II to April",
+      "link": "https://www.nasaspaceflight.com/2026/02/nasa-rollback-sls-delaying-artemis-april/",
+      "source": "NASASpaceflight",
+      "date": "2026-02-21T20:45:33Z",
+      "summary": "NASA is gearing up for a likely rollback of the Space Launch System (SLS) rocket…\nThe post NASA prepares for likely rollback of SLS, delaying Artemis II to April appeared first on NASASpaceFlight.com."
+    },
+    {
       "title": "NASA’s Artemis 2 rocket hit by new problem expected to bump moonshot into early April",
       "link": "https://spaceflightnow.com/2026/02/21/nasas-artemis-2-rocket-hit-by-new-problem-expected-to-bump-moonshot-into-early-april/",
       "source": "Spaceflight Now",
@@ -20,21 +34,7 @@
       "source": "SpacePolicyOnline.com",
       "date": "2026-02-21T16:00:56Z",
       "summary": "Just one day after excitedly sharing the successful results of the second Artemis II Wet Dress Rehearsal, NASA has a different message this morning. A problem with helium flow to […]"
-    },
-    {
-      "title": "Bruno says he joined Blue Origin to work on ‘urgent’ national security projects",
-      "link": "https://spacenews.com/bruno-says-he-joined-blue-origin-to-work-on-urgent-national-security-projects/",
-      "source": "SpaceNews",
-      "date": "2026-02-21T02:02:39Z",
-      "summary": "\nTory Bruno, former CEO of United Launch Alliance, said he decided to join Blue Origin to work on important national security projects, including applications of the company’s Blue Ring spacecraft.\nThe post Bruno says he joined Blue Origin to work on ‘urgent’ national security projects appeared first on SpaceNews."
-    },
-    {
-      "title": "Live coverage: Falcon 9 to launch 25 Starlink satellites after weather delays",
-      "link": "https://spaceflightnow.com/2026/02/20/live-coverage-falcon-9-to-launch-25-starlink-satellites-after-weather-delays/",
-      "source": "Spaceflight Now",
-      "date": "2026-02-20T22:46:55Z",
-      "summary": "SpaceX is counting down to the launch of a Falcon 9 rocket carrying 25 Starlink satellites from California, after days of delay. Liftoff from Space Launch Complex 4 East at Vandenberg Space Force Base is scheduled for 1 a.m. PST (4 a.m. EST / 0900 UTC)."
     }
   ],
-  "updated": "2026-02-21T20:57:58.269Z"
+  "updated": "2026-02-21T21:08:15.201Z"
 }
