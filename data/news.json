@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Live coverage: SpaceX’s most-flown Falcon booster to launch on record 33rd flight",
+      "link": "https://spaceflightnow.com/2026/02/21/live-coverage-spacexs-most-flown-falcon-booster-to-launch-on-record-33rd-flight/",
+      "source": "Spaceflight Now",
+      "date": "2026-02-21T22:24:04Z",
+      "summary": "The Starlink 6-104 mission will add another 28 Starlink V2 Mini Optimized satellites into low Earth orbit. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for 10:47 p.m. EST (0347 UTC). "
+    },
+    {
       "title": "Following Near-Perfect Rehearsal, Artemis II Faces a Rollback",
       "link": "https://www.spacescout.info/2026/02/following-near-perfect-rehearsal-artemis-ii-faces-a-rollback/",
       "source": "Space Scout",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-02-21T16:22:16Z",
       "summary": "\nJust 24 hours after setting a March 6 launch date for the Artemis 2 mission, NASA said a problem with the Space Launch System upper stage could delay the launch.\nThe post NASA preparing for Artemis 2 rollback to fix upper stage problem appeared first on SpaceNews."
-    },
-    {
-      "title": "Artemis II Likely Delayed Due to Upper Stage Problem",
-      "link": "https://spacepolicyonline.com/news/artemis-ii-likely-delayed-due-to-upper-stage-problem/",
-      "source": "SpacePolicyOnline.com",
-      "date": "2026-02-21T16:00:56Z",
-      "summary": "Just one day after excitedly sharing the successful results of the second Artemis II Wet Dress Rehearsal, NASA has a different message this morning. A problem with helium flow to […]"
     }
   ],
-  "updated": "2026-02-21T22:20:02.889Z"
+  "updated": "2026-02-21T22:34:26.289Z"
 }
