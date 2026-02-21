@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA’s Artemis 2 rocket hit by new problem expected to bump moonshot into early April",
+      "link": "https://spaceflightnow.com/2026/02/21/nasas-artemis-2-rocket-hit-by-new-problem-expected-to-bump-moonshot-into-early-april/",
+      "source": "Spaceflight Now",
+      "date": "2026-02-21T18:26:20Z",
+      "summary": "Engineers ran into problems repressurizing the Artemis 2 moon rocket’s upper stage helium tanks overnight Friday, a problem that will require rolling the huge rocket off the launch pad and back to its processing hangar for troubleshooting. The work will push the already delayed mission from March to at least early April, officials said Saturday. "
+    },
+    {
       "title": "NASA preparing for Artemis 2 rollback to fix upper stage problem",
       "link": "https://spacenews.com/nasa-preparing-for-artemis-2-rollback-to-fix-upper-stage-problem/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "Spaceflight Now",
       "date": "2026-02-20T22:46:55Z",
       "summary": "SpaceX is counting down to the launch of a Falcon 9 rocket carrying 25 Starlink satellites from California, after days of delay. Liftoff from Space Launch Complex 4 East at Vandenberg Space Force Base is scheduled for 1 a.m. PST (4 a.m. EST / 0900 UTC)."
-    },
-    {
-      "title": "Aalto plots Australia base to boost planned high-altitude pseudo satellite service",
-      "link": "https://spacenews.com/aalto-plots-australia-base-to-boost-planned-high-altitude-pseudo-satellite-service/",
-      "source": "SpaceNews",
-      "date": "2026-02-20T22:04:17Z",
-      "summary": "\nAalto is turning to Australia as a key operating base to bolster the business case for initial commercial services of its stratospheric pseudo-satellite over Japan, now pushed to 2027 amid regulatory hurdles and ongoing system-integration work.\nThe post Aalto plots Australia base to boost planned high-altitude pseudo satellite service appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-02-21T18:20:13.944Z"
+  "updated": "2026-02-21T18:36:26.447Z"
 }
