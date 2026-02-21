@@ -17,50 +17,50 @@
     {
       "name": "STARLINK-1017",
       "id": "2019-074L",
-      "epoch": "2026-02-20T19:29:31.683264",
-      "meanMotion": 15.22510232,
-      "inclination": 53.0506
+      "epoch": "2026-02-21T12:49:20.190144",
+      "meanMotion": 15.22526313,
+      "inclination": 53.0496
     },
     {
       "name": "STARLINK-1019",
       "id": "2019-074M",
-      "epoch": "2026-02-21T06:00:02.000160",
-      "meanMotion": 15.76918966,
-      "inclination": 53.0439
+      "epoch": "2026-02-21T14:00:01.999008",
+      "meanMotion": 15.77042656,
+      "inclination": 53.044
     },
     {
       "name": "STARLINK-1020",
       "id": "2019-074N",
-      "epoch": "2026-02-21T06:00:02.000160",
-      "meanMotion": 15.20565251,
-      "inclination": 53.1129
+      "epoch": "2026-02-21T14:00:01.999008",
+      "meanMotion": 15.20482815,
+      "inclination": 53.116
     },
     {
       "name": "STARLINK-1031",
       "id": "2019-074Z",
-      "epoch": "2026-02-21T06:00:02.000160",
-      "meanMotion": 15.83889099,
-      "inclination": 53.0415
+      "epoch": "2026-02-21T14:00:01.999008",
+      "meanMotion": 15.84045561,
+      "inclination": 53.0416
     },
     {
       "name": "STARLINK-1036",
       "id": "2019-074AE",
-      "epoch": "2026-02-21T06:00:02.000160",
-      "meanMotion": 15.52282883,
-      "inclination": 53.0524
+      "epoch": "2026-02-21T08:00:00.999360",
+      "meanMotion": 15.52285462,
+      "inclination": 53.0526
     },
     {
       "name": "STARLINK-1039",
       "id": "2019-074AH",
-      "epoch": "2026-02-21T01:18:25.624800",
-      "meanMotion": 15.200762,
-      "inclination": 53.0449
+      "epoch": "2026-02-21T09:11:48.941376",
+      "meanMotion": 15.20102802,
+      "inclination": 53.044
     },
     {
       "name": "STARLINK-1042",
       "id": "2019-074AL",
-      "epoch": "2026-02-20T13:24:59.268384",
-      "meanMotion": 15.48872084,
+      "epoch": "2026-02-21T07:59:59.013888",
+      "meanMotion": 15.48911398,
       "inclination": 53.0441
     },
     {
@@ -72,11 +72,11 @@
     }
   ],
   "iss": {
-    "latitude": -7.1412683729891,
-    "longitude": -55.602529882154,
-    "altitude": 421.89702768212,
-    "velocity": 27576.478774499,
+    "latitude": -37.658153267839,
+    "longitude": -26.598769567498,
+    "altitude": 436.15359613531,
+    "velocity": 27535.578139335,
     "visibility": "daylight"
   },
-  "updated": "2026-02-21T16:04:51.368Z"
+  "updated": "2026-02-21T16:15:40.777Z"
 }
