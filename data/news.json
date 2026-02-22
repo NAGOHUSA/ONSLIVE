@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "German defense firm said to be weighing bid for Mynaric",
+      "link": "https://spacenews.com/german-defense-firm-said-to-be-weighing-bid-for-mynaric/",
+      "source": "SpaceNews",
+      "date": "2026-02-22T11:50:26Z",
+      "summary": "\nRheinmetall’s reported interest in the laser communications firm would complicate Rocket Lab’s planned acquisition\nThe post German defense firm said to be weighing bid for Mynaric appeared first on SpaceNews."
+    },
+    {
       "title": "Live coverage: SpaceX’s most-flown Falcon booster to launch on record 33rd flight",
       "link": "https://spaceflightnow.com/2026/02/21/live-coverage-spacexs-most-flown-falcon-booster-to-launch-on-record-33rd-flight/",
       "source": "Spaceflight Now",
@@ -27,14 +34,7 @@
       "source": "Spaceflight Now",
       "date": "2026-02-21T18:26:20Z",
       "summary": "Engineers ran into problems repressurizing the Artemis 2 moon rocket’s upper stage helium tanks overnight Friday, a problem that will require rolling the huge rocket off the launch pad and back to its processing hangar for troubleshooting. The work will push the already delayed mission from March to at least early April, officials said Saturday. "
-    },
-    {
-      "title": "NASA preparing for Artemis 2 rollback to fix upper stage problem",
-      "link": "https://spacenews.com/nasa-preparing-for-artemis-2-rollback-to-fix-upper-stage-problem/",
-      "source": "SpaceNews",
-      "date": "2026-02-21T16:22:16Z",
-      "summary": "\nJust 24 hours after setting a March 6 launch date for the Artemis 2 mission, NASA said a problem with the Space Launch System upper stage could delay the launch.\nThe post NASA preparing for Artemis 2 rollback to fix upper stage problem appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-02-22T11:42:32.300Z"
+  "updated": "2026-02-22T11:50:57.718Z"
 }
