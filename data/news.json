@@ -1,6 +1,27 @@
 {
   "articles": [
     {
+      "title": "AST SpaceMobile wins $30 million contract for military  broadband demo",
+      "link": "https://spacenews.com/ast-spacemobile-wins-30-million-contract-for-military-broadband-demo/",
+      "source": "SpaceNews",
+      "date": "2026-02-23T18:08:47Z",
+      "summary": "\nThe Space Development Agency will explore the use of commercial satellites to test direct-to-device connectivity for future warfighting network\nThe post AST SpaceMobile wins $30 million contract for military  broadband demo appeared first on SpaceNews."
+    },
+    {
+      "title": "Curiosity Studies Nodules on Boxwork Formations",
+      "link": "https://science.nasa.gov/photojournal/curiosity-studies-nodules-on-boxwork-formations/",
+      "source": "NASA",
+      "date": "2026-02-23T17:58:30Z",
+      "summary": "Description NASA’s Curiosity Mars rover discovered these bumpy, pea-sized nodules while exploring a region filled with boxwork formations — low ridges standing roughly 3 to 6 feet (1 to 2 meters) tall with sandy hollows in-between. This mosaic is made up of 50 individual images taken by Curiosity’s Mars Hand Lens Imager (MAHLI), a camera on […]"
+    },
+    {
+      "title": "Curiosity Surveys the Boxwork Region",
+      "link": "https://science.nasa.gov/photojournal/curiosity-surveys-the-boxwork-region/",
+      "source": "NASA",
+      "date": "2026-02-23T17:34:16Z",
+      "summary": "Description NASA’s Curiosity Mars rover captured this panorama of boxwork formations — the low ridges seen here with hollows in between them — using its Mastcam on Sept. 26, 2025, the 4,671st Martian day, or sol, of the mission. These boxwork formations were created billions of years ago when water leaked through rock cracks. Minerals […]"
+    },
+    {
       "title": "Aalyria hits $1.3 billion valuation after raising funds for satellite mesh network",
       "link": "https://spacenews.com/aalyria-hits-1-3-billion-valuation-after-raising-funds-for-satellite-mesh-network/",
       "source": "SpaceNews",
@@ -13,28 +34,7 @@
       "source": "NASA",
       "date": "2026-02-23T16:52:28Z",
       "summary": "For about six months, NASA’s Curiosity Mars rover has been exploring a region full of geologic formations called boxwork, low ridges standing roughly 3 to 6 feet (1 to 2 meters) tall with sandy hollows in between. Crisscrossing the surface for miles, the formations suggest ancient groundwater flowed on this part of the Red Planet […]"
-    },
-    {
-      "title": "Perseverance’s Landing",
-      "link": "https://www.nasa.gov/image-article/perseverances-landing/",
-      "source": "NASA",
-      "date": "2026-02-23T16:27:16Z",
-      "summary": "NASA’s Perseverance Rover approaches Mars in this Feb. 18, 2020, top-down still image captured by a camera on the rover’s descent stage. Perseverance is searching for signs of ancient microbial life, to advance NASA’s quest to explore the past habitability of Mars. NASA chose Jezero Crater as the landing because scientists believe the area was once […]"
-    },
-    {
-      "title": "Europe’s progress on future access-to-space gains momentum with upcoming reusable launcher flight test",
-      "link": "https://spacenews.com/europes-progress-on-future-access-to-space-gains-momentum-with-upcoming-reusable-launcher-flight-test/",
-      "source": "SpaceNews",
-      "date": "2026-02-23T15:19:13Z",
-      "summary": "\nFollowing the successful launch of Ariane 6 in 2025, Europe’s access to space ambitions gain momentum. The launch of the reusable launcher first stage demonstrator Themis T1H under the SALTO […]\nThe post Europe’s progress on future access-to-space gains momentum with upcoming reusable launcher flight test  appeared first on SpaceNews."
-    },
-    {
-      "title": "NASA’s Webb Telescope Locates Former Star That Exploded as Supernova",
-      "link": "https://science.nasa.gov/missions/webb/nasas-webb-telescope-locates-former-star-that-exploded-as-supernova/",
-      "source": "NASA",
-      "date": "2026-02-23T15:00:00Z",
-      "summary": "Forty million years ago, a star in a nearby galaxy exploded, spewing material across space and generating a brilliant beacon of light. That light traveled across the cosmos, reaching Earth June 29, 2025, where it was detected by the All-Sky Automated Survey for Supernovae. Astronomers immediately turned their resources to this new supernova, designated 2025pht, […]"
     }
   ],
-  "updated": "2026-02-23T17:54:11.082Z"
+  "updated": "2026-02-23T18:15:50.803Z"
 }
