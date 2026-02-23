@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "ESA Awards Contracts for Lunar Remote Camp Studies",
+      "link": "https://europeanspaceflight.com/esa-awards-contracts-for-lunar-remote-camp-studies/",
+      "source": "European Spaceflight",
+      "date": "2026-02-23T08:09:24Z",
+      "summary": "The European Space Agency (ESA) has awarded a pair of contracts for studies focused on lunar habitat concepts that could support future operations on the surface of the Moon. In late 2024, ESA issued a request for proposals for its Lunar Remote Camp study initiative. The programme aims to advance the early development of a […]\nThe post ESA Awards Contracts for Lunar Remote Camp Studies appeared first on European Spaceflight."
+    },
+    {
       "title": "Juno data provides insight into thickness of Europa’s surface ice sheet",
       "link": "https://www.nasaspaceflight.com/2026/02/juno-europa-ice-sheet/",
       "source": "NASASpaceflight",
@@ -27,14 +34,7 @@
       "source": "Spaceflight Now",
       "date": "2026-02-21T22:24:04Z",
       "summary": "The Starlink 6-104 mission will add another 28 Starlink V2 Mini Optimized satellites into low Earth orbit. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for 10:47 p.m. EST (0347 UTC)."
-    },
-    {
-      "title": "Following Near-Perfect Rehearsal, Artemis II Faces a Rollback",
-      "link": "https://www.spacescout.info/2026/02/following-near-perfect-rehearsal-artemis-ii-faces-a-rollback/",
-      "source": "Space Scout",
-      "date": "2026-02-21T20:46:43Z",
-      "summary": "After an issue with the SLS rocket's upper stage, NASA has made the difficult decision to roll the Artemis II stack back to the Vehicle Assembly Building (VAB)."
     }
   ],
-  "updated": "2026-02-23T08:31:56.247Z"
+  "updated": "2026-02-23T08:53:57.911Z"
 }
