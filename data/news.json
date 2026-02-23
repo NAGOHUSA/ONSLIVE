@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Flawless Second Artemis II Launch Rehearsal Shows Readiness, Despite Setbacks",
+      "link": "https://www.spacescout.info/2026/02/flawless-second-artemis-ii-launch-rehearsal-shows-readiness-despite-setbacks/",
+      "source": "Space Scout",
+      "date": "2026-02-23T19:16:51Z",
+      "summary": "The second launch rehearsal for Artemis II was a massive success and a showcase of the propellant loading process and systems working as designed."
+    },
+    {
       "title": "Space Force seeks market answers on in-orbit refueling",
       "link": "https://spacenews.com/space-force-seeks-market-answers-on-in-orbit-refueling/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-02-23T17:58:30Z",
       "summary": "Description NASA’s Curiosity Mars rover discovered these bumpy, pea-sized nodules while exploring a region filled with boxwork formations — low ridges standing roughly 3 to 6 feet (1 to 2 meters) tall with sandy hollows in-between. This mosaic is made up of 50 individual images taken by Curiosity’s Mars Hand Lens Imager (MAHLI), a camera on […]"
-    },
-    {
-      "title": "Curiosity Surveys the Boxwork Region",
-      "link": "https://science.nasa.gov/photojournal/curiosity-surveys-the-boxwork-region/",
-      "source": "NASA",
-      "date": "2026-02-23T17:34:16Z",
-      "summary": "Description NASA’s Curiosity Mars rover captured this panorama of boxwork formations — the low ridges seen here with hollows in between them — using its Mastcam on Sept. 26, 2025, the 4,671st Martian day, or sol, of the mission. These boxwork formations were created billions of years ago when water leaked through rock cracks. Minerals […]"
     }
   ],
-  "updated": "2026-02-23T19:05:03.301Z"
+  "updated": "2026-02-23T19:33:45.298Z"
 }
