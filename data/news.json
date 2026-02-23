@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Young ‘Sun’ Caught Blowing Bubbles by NASA’s Chandra",
+      "link": "https://www.nasa.gov/missions/chandra/young-sun-caught-blowing-bubbles-by-nasas-chandra/",
+      "source": "NASA",
+      "date": "2026-02-23T20:07:28Z",
+      "summary": "For the first time, a much younger version of the Sun has been caught red-handed blowing bubbles in the galaxy, by astronomers using NASA’s Chandra X-ray Observatory. The bubble – called an “astrosphere” – completely surrounds the juvenile star. Winds from the star’s surface are blowing up the bubble and filling it with hot gas […]"
+    },
+    {
+      "title": "Astronomy Activation Ambassadors: Embracing Multiple Perspectives",
+      "link": "https://science.nasa.gov/learning-resources/science-activation/astronomy-activation-ambassadors-embracing-multiple-perspectives/",
+      "source": "NASA",
+      "date": "2026-02-23T20:03:22Z",
+      "summary": "The Astronomy Activation Ambassadors (AAA) project, part of the NASA Science Activation program, aims to measurably enhance student STEM (Science, Technology, Engineering, & Mathematics) engagement via middle school, high school, and community college science teacher professional development."
+    },
+    {
       "title": "Flawless Second Artemis II Launch Rehearsal Shows Readiness, Despite Setbacks",
       "link": "https://www.spacescout.info/2026/02/flawless-second-artemis-ii-launch-rehearsal-shows-readiness-despite-setbacks/",
       "source": "Space Scout",
@@ -20,21 +34,7 @@
       "source": "NASA",
       "date": "2026-02-23T18:47:50Z",
       "summary": "NASA and its international partners will receive scientific research samples and hardware when a SpaceX Dragon spacecraft departs the International Space Station on Thursday, Feb. 26, and returns to Earth. Watch NASA’s live coverage of the undocking and departure of the agency’s 33rd SpaceX Commercial Resupply Services mission starting at 11:45 a.m. EST on NASA+, […]"
-    },
-    {
-      "title": "AST SpaceMobile wins $30 million contract for military  broadband demo",
-      "link": "https://spacenews.com/ast-spacemobile-wins-30-million-contract-for-military-broadband-demo/",
-      "source": "SpaceNews",
-      "date": "2026-02-23T18:08:47Z",
-      "summary": "\nThe Space Development Agency will explore the use of commercial satellites to test direct-to-device connectivity for future warfighting network\nThe post AST SpaceMobile wins $30 million contract for military  broadband demo appeared first on SpaceNews."
-    },
-    {
-      "title": "Curiosity Studies Nodules on Boxwork Formations",
-      "link": "https://science.nasa.gov/photojournal/curiosity-studies-nodules-on-boxwork-formations/",
-      "source": "NASA",
-      "date": "2026-02-23T17:58:30Z",
-      "summary": "Description NASA’s Curiosity Mars rover discovered these bumpy, pea-sized nodules while exploring a region filled with boxwork formations — low ridges standing roughly 3 to 6 feet (1 to 2 meters) tall with sandy hollows in-between. This mosaic is made up of 50 individual images taken by Curiosity’s Mars Hand Lens Imager (MAHLI), a camera on […]"
     }
   ],
-  "updated": "2026-02-23T19:56:56.650Z"
+  "updated": "2026-02-23T20:15:15.699Z"
 }
