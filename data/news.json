@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Perseverance’s Landing",
+      "link": "https://www.nasa.gov/image-article/perseverances-landing/",
+      "source": "NASA",
+      "date": "2026-02-23T16:27:16Z",
+      "summary": "NASA’s Perseverance Rover approaches Mars in this Feb. 18, 2020, top-down still image captured by a camera on the rover’s descent stage. Perseverance is searching for signs of ancient microbial life, to advance NASA’s quest to explore the past habitability of Mars. NASA chose Jezero Crater as the landing because scientists believe the area was once […]"
+    },
+    {
       "title": "Europe’s progress on future access-to-space gains momentum with upcoming reusable launcher flight test",
       "link": "https://spacenews.com/europes-progress-on-future-access-to-space-gains-momentum-with-upcoming-reusable-launcher-flight-test/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceDaily",
       "date": "2026-02-23T14:45:10Z",
       "summary": "Berlin, Germany (SPX) Feb 18, 2026\n\n\nFor more than sixty years, astronomers have conducted systematic searches for technosignatures, looking for artificial radio emissions, laser flashes, or excess heat that could reveal advanced civilizations in the Milky Way. \n\nDespite decades of monitoring across radio, optical, and infrared bands, no technosignature has been confirmed, a result often attributed to the fact that only a small"
-    },
-    {
-      "title": "Dusty early galaxies shed new light on how the universe built its first giants",
-      "link": "https://www.spacedaily.com/reports/Dusty_early_galaxies_shed_new_light_on_how_the_universe_built_its_first_giants_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-02-23T14:45:10Z",
-      "summary": "Los Angeles CA (SPX) Feb 18, 2026\n\n\nA team of 48 astronomers from 14 countries, led by the University of Massachusetts Amherst, has identified a previously unseen population of dusty, star-forming galaxies located at the far reaches of the observable universe and dating to only about one billion years after the Big Bang, which is estimated to have occurred 13.7 billion years ago. \n\nThese galaxies appear to provide a missing ev"
     }
   ],
-  "updated": "2026-02-23T16:12:05.832Z"
+  "updated": "2026-02-23T16:35:09.943Z"
 }
