@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Juno data provides insight into thickness of Europa’s surface ice sheet",
+      "link": "https://www.nasaspaceflight.com/2026/02/juno-europa-ice-sheet/",
+      "source": "NASASpaceflight",
+      "date": "2026-02-23T00:50:12Z",
+      "summary": "Using recent data from NASA’s Juno orbiter, scientists have uncovered new details on the thickness…\nThe post Juno data provides insight into thickness of Europa’s surface ice sheet appeared first on NASASpaceFlight.com."
+    },
+    {
       "title": "What’s Happening in Space Policy February 22-28, 2026",
       "link": "https://spacepolicyonline.com/news/whats-happening-in-space-policy-february-22-28-2026/",
       "source": "SpacePolicyOnline.com",
@@ -27,14 +34,7 @@
       "source": "Space Scout",
       "date": "2026-02-21T20:46:43Z",
       "summary": "After an issue with the SLS rocket's upper stage, NASA has made the difficult decision to roll the Artemis II stack back to the Vehicle Assembly Building (VAB)."
-    },
-    {
-      "title": "NASA prepares for likely rollback of SLS, delaying Artemis II to April",
-      "link": "https://www.nasaspaceflight.com/2026/02/nasa-rollback-sls-delaying-artemis-april/",
-      "source": "NASASpaceflight",
-      "date": "2026-02-21T20:45:33Z",
-      "summary": "NASA is gearing up for a likely rollback of the Space Launch System (SLS) rocket…\nThe post NASA prepares for likely rollback of SLS, delaying Artemis II to April appeared first on NASASpaceFlight.com."
     }
   ],
-  "updated": "2026-02-23T00:33:18.655Z"
+  "updated": "2026-02-23T00:58:51.415Z"
 }
