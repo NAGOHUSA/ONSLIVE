@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Meet Regina Senegal, Acting Chief of Johnson’s Quality and Flight Equipment Division",
+      "link": "https://www.nasa.gov/centers-and-facilities/johnson/meet-regina-senegal-acting-chief-of-johnsons-quality-and-flight-equipment-division/",
+      "source": "NASA",
+      "date": "2026-02-23T10:00:00Z",
+      "summary": "Safety and quality management are integral to every program at NASA’s Johnson Space Center in Houston, and across the entire agency. That gives team members like Regina Senegal, acting chief of the Safety and Mission Assurance Directorate’s (SMA) Quality and Flight Equipment Division, a unique opportunity to collaborate with diverse organizations and personnel. “I’m responsible […]"
+    },
+    {
+      "title": "Israeli startup targets the economics of high-resolution Earth observation",
+      "link": "https://spacenews.com/israeli-startup-targets-economics-of-high-resolution-earth-observation/",
+      "source": "SpaceNews",
+      "date": "2026-02-23T10:00:00Z",
+      "summary": "\nRemondo says its imaging payload could deliver sub-30 centimeter resolution from suitcase-size satellites\nThe post Israeli startup targets the economics of high-resolution Earth observation appeared first on SpaceNews."
+    },
+    {
       "title": "ESA Awards Contracts for Lunar Remote Camp Studies",
       "link": "https://europeanspaceflight.com/esa-awards-contracts-for-lunar-remote-camp-studies/",
       "source": "European Spaceflight",
@@ -20,21 +34,7 @@
       "source": "SpacePolicyOnline.com",
       "date": "2026-02-23T00:23:52Z",
       "summary": "Here is SpacePolicyOnline.com’s list of space policy events for the week of February 22-28, 2026 and any insight we can offer about them. The Senate is scheduled to be in […]"
-    },
-    {
-      "title": "German defense firm said to be weighing bid for Mynaric",
-      "link": "https://spacenews.com/german-defense-firm-said-to-be-weighing-bid-for-mynaric/",
-      "source": "SpaceNews",
-      "date": "2026-02-22T11:50:26Z",
-      "summary": "\nRheinmetall’s reported interest in the laser communications firm would complicate Rocket Lab’s planned acquisition\nThe post German defense firm said to be weighing bid for Mynaric appeared first on SpaceNews."
-    },
-    {
-      "title": "Live coverage: SpaceX’s most-flown Falcon booster to launch on record 33rd flight",
-      "link": "https://spaceflightnow.com/2026/02/21/live-coverage-spacexs-most-flown-falcon-booster-to-launch-on-record-33rd-flight/",
-      "source": "Spaceflight Now",
-      "date": "2026-02-21T22:24:04Z",
-      "summary": "The Starlink 6-104 mission will add another 28 Starlink V2 Mini Optimized satellites into low Earth orbit. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for 10:47 p.m. EST (0347 UTC)."
     }
   ],
-  "updated": "2026-02-23T09:58:58.580Z"
+  "updated": "2026-02-23T10:25:49.815Z"
 }
