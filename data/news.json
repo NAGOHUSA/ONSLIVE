@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Space Force seeks market answers on in-orbit refueling",
+      "link": "https://spacenews.com/space-force-seeks-market-answers-on-in-orbit-refueling/",
+      "source": "SpaceNews",
+      "date": "2026-02-23T19:00:00Z",
+      "summary": "\nA new RFI poses questions to industry on future refueling architecture\nThe post Space Force seeks market answers on in-orbit refueling appeared first on SpaceNews."
+    },
+    {
+      "title": "NASA to Cover 33rd SpaceX Resupply Mission Station Departure",
+      "link": "https://www.nasa.gov/news-release/nasa-to-cover-33rd-spacex-resupply-mission-station-departure/",
+      "source": "NASA",
+      "date": "2026-02-23T18:47:50Z",
+      "summary": "NASA and its international partners will receive scientific research samples and hardware when a SpaceX Dragon spacecraft departs the International Space Station on Thursday, Feb. 26, and returns to Earth. Watch NASA’s live coverage of the undocking and departure of the agency’s 33rd SpaceX Commercial Resupply Services mission starting at 11:45 a.m. EST on NASA+, […]"
+    },
+    {
       "title": "AST SpaceMobile wins $30 million contract for military  broadband demo",
       "link": "https://spacenews.com/ast-spacemobile-wins-30-million-contract-for-military-broadband-demo/",
       "source": "SpaceNews",
@@ -20,21 +34,7 @@
       "source": "NASA",
       "date": "2026-02-23T17:34:16Z",
       "summary": "Description NASA’s Curiosity Mars rover captured this panorama of boxwork formations — the low ridges seen here with hollows in between them — using its Mastcam on Sept. 26, 2025, the 4,671st Martian day, or sol, of the mission. These boxwork formations were created billions of years ago when water leaked through rock cracks. Minerals […]"
-    },
-    {
-      "title": "Aalyria hits $1.3 billion valuation after raising funds for satellite mesh network",
-      "link": "https://spacenews.com/aalyria-hits-1-3-billion-valuation-after-raising-funds-for-satellite-mesh-network/",
-      "source": "SpaceNews",
-      "date": "2026-02-23T17:03:45Z",
-      "summary": "\nAalyria announced a $100 million funding round Feb. 23 that values the Californian venture at $1.3 billion, supporting deployment of laser terminals and software for dynamically routing data across space, air and ground networks.\nThe post Aalyria hits $1.3 billion valuation after raising funds for satellite mesh network appeared first on SpaceNews."
-    },
-    {
-      "title": "NASA’s Curiosity Rover Sees Martian ‘Spiderwebs’ Up Close",
-      "link": "https://www.nasa.gov/missions/mars-science-laboratory/curiosity-rover/nasas-curiosity-rover-sees-martian-spiderwebs-up-close/",
-      "source": "NASA",
-      "date": "2026-02-23T16:52:28Z",
-      "summary": "For about six months, NASA’s Curiosity Mars rover has been exploring a region full of geologic formations called boxwork, low ridges standing roughly 3 to 6 feet (1 to 2 meters) tall with sandy hollows in between. Crisscrossing the surface for miles, the formations suggest ancient groundwater flowed on this part of the Red Planet […]"
     }
   ],
-  "updated": "2026-02-23T18:39:16.861Z"
+  "updated": "2026-02-23T19:05:03.301Z"
 }
