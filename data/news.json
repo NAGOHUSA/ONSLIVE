@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Launch Preview: Falcon 9 to launch five Starlink missions, Firefly to launch Alpha",
+      "link": "https://www.nasaspaceflight.com/2026/02/launch-preview-022326/",
+      "source": "NASASpaceflight",
+      "date": "2026-02-23T23:31:22Z",
+      "summary": "Seven missions are on this week’s launch manifest, with SpaceX’s Falcon 9 dominating the schedule.…\nThe post Launch Preview: Falcon 9 to launch five Starlink missions, Firefly to launch Alpha appeared first on NASASpaceFlight.com."
+    },
+    {
       "title": "Young ‘Sun’ Caught Blowing Bubbles by NASA’s Chandra",
       "link": "https://www.nasa.gov/missions/chandra/young-sun-caught-blowing-bubbles-by-nasas-chandra/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-02-23T19:00:00Z",
       "summary": "\nA new RFI poses questions to industry on future refueling architecture\nThe post Space Force seeks market answers on in-orbit refueling appeared first on SpaceNews."
-    },
-    {
-      "title": "NASA to Cover 33rd SpaceX Resupply Mission Station Departure",
-      "link": "https://www.nasa.gov/news-release/nasa-to-cover-33rd-spacex-resupply-mission-station-departure/",
-      "source": "NASA",
-      "date": "2026-02-23T18:47:50Z",
-      "summary": "NASA and its international partners will receive scientific research samples and hardware when a SpaceX Dragon spacecraft departs the International Space Station on Thursday, Feb. 26, and returns to Earth. Watch NASA’s live coverage of the undocking and departure of the agency’s 33rd SpaceX Commercial Resupply Services mission starting at 11:45 a.m. EST on NASA+, […]"
     }
   ],
-  "updated": "2026-02-23T23:19:48.014Z"
+  "updated": "2026-02-23T23:35:38.943Z"
 }
