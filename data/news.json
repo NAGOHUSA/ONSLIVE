@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "A banner year for military space funding— with an unclear path beyond",
+      "link": "https://spacenews.com/a-banner-year-for-military-space-funding-with-an-unclear-path-beyond/",
+      "source": "SpaceNews",
+      "date": "2026-02-24T22:48:38Z",
+      "summary": "\nReconciliation boost lifts 2026 totals, but sustainability questions loom for missile defense and Space Development Agency\nThe post A banner year for military space funding— with an unclear path beyond appeared first on SpaceNews."
+    },
+    {
       "title": "Curiosity Blog, Sols 4812-4819: Back Into the Hollows",
       "link": "https://science.nasa.gov/blog/curiosity-blog-sols-4812-4819-back-into-the-hollows/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "Spaceflight Now",
       "date": "2026-02-24T17:56:08Z",
       "summary": "The Starlink 6-110 mission will be the 18th flight this years supporting SpaceX’s broadband internet constellation. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for 6:04:10 p.m. EST (2304:10 UTC). "
-    },
-    {
-      "title": "Lockheed Martin presses case that GPS upgrade will counter jamming threats",
-      "link": "https://spacenews.com/lockheed-martin-presses-case-that-gps-upgrade-will-counter-jamming-threats/",
-      "source": "SpaceNews",
-      "date": "2026-02-24T15:30:00Z",
-      "summary": "\nGPS IIIF features, including regional spot beams, will ‘change the calculus’ for adversaries\nThe post Lockheed Martin presses case that GPS upgrade will counter jamming threats appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-02-24T22:50:16.324Z"
+  "updated": "2026-02-24T23:03:00.723Z"
 }
