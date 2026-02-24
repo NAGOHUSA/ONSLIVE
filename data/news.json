@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "New Volunteer Data from 143 Observatories Unveils the 2024 Total Solar Eclipse",
+      "link": "https://science.nasa.gov/get-involved/citizen-science/new-volunteer-data-from-143-observatories-unveils-the-2024-total-solar-eclipse/",
+      "source": "NASA",
+      "date": "2026-02-24T19:48:18Z",
+      "summary": "On April 8, 2024, volunteers participating in NASA’s Eclipse Megamovie citizen science project all around the United States hurried to photograph the solar eclipse with the latest, greatest equipment, capturing groundbreaking images of the Sun’s corona."
+    },
+    {
       "title": "Avio to Build $500 Million Facility in Hurt, Virginia",
       "link": "https://europeanspaceflight.com/avio-to-build-500-million-facility-in-hurt-virginia/",
       "source": "European Spaceflight",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-02-24T15:00:39Z",
       "summary": "NASA’s James Webb Space Telescope provided the first vertical view of Uranus’s ionosphere in this image released on Feb. 19, 2026, revealing auroras shaped by its tilted magnetic field. Getting a look at the structure of the region where the atmosphere interacts strongly with the planet’s magnetic field is giving us the most detailed portrait […]"
-    },
-    {
-      "title": "Technology Originally Developed for Space Missions Now Integral to Everyday Life",
-      "link": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/technology-originally-developed-for-space-missions-now-integral-to-everyday-life/",
-      "source": "NASA",
-      "date": "2026-02-24T14:29:00Z",
-      "summary": "Groundbreaking “camera-on-a-chip” technology that was originally developed at NASA’s Jet Propulsion Laboratory (JPL) for use in space missions is currently employed in billions of devices like cell phones that are used daily by people worldwide."
     }
   ],
-  "updated": "2026-02-24T20:01:21.457Z"
+  "updated": "2026-02-24T20:18:13.799Z"
 }
