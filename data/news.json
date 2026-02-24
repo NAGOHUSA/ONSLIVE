@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "At Colorado space firms, Hegseth casts Pentagon bureaucracy as the enemy",
+      "link": "https://spacenews.com/at-colorado-space-firms-hegseth-casts-pentagon-bureaucracy-as-the-enemy/",
+      "source": "SpaceNews",
+      "date": "2026-02-24T13:00:43Z",
+      "summary": "\nHegseth contrasts “builders” with Beltway primes as administration leans into procurement overhaul\nThe post At Colorado space firms, Hegseth casts Pentagon bureaucracy as the enemy appeared first on SpaceNews."
+    },
+    {
       "title": "LambdaVision books space on Starlab commercial space station",
       "link": "https://spacenews.com/lambdavision-books-space-on-starlab-commercial-space-station/",
       "source": "SpaceNews",
@@ -15,13 +22,6 @@
       "summary": "\nSAN FRANCISCO – Sophia Space raised $10 million in seed funding to accelerate development of space-based edge computers and orbital data centers. “The $10 million round is a validation that we are progressing from slideware to hardware,” Rob DeMillo, Sophia Space CEO and co-founder, told SpaceNews. “And it’s evidence that capital is shifting towards orbital-compute […]\nThe post Sophia Space claims $10 million in seed round appeared first on SpaceNews."
     },
     {
-      "title": "TotalEnergies in high-stakes French trial over climate change",
-      "link": "https://www.spacedaily.com/reports/TotalEnergies_in_high-stakes_French_trial_over_climate_change_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-02-24T11:35:37Z",
-      "summary": "Paris, France (AFP) Feb 20, 2026\n\n\n TotalEnergies faces cutting back oil and gas production if NGOs prevail in a trial that began Thursday over accusations the French energy giant failed to properly consider environmental risks. \n\nThe case, brought by several NGOs and the city of Paris, is based upon a 2017 law that imposed a \"duty of vigilance\" on large companies. \n\nThe law seeks to counter companies offloading responsibility"
-    },
-    {
       "title": "India chases 'DeepSeek moment' with homegrown AI models",
       "link": "https://www.spacedaily.com/reports/India_chases_DeepSeek_moment_with_homegrown_AI_models_999.html",
       "source": "SpaceDaily",
@@ -29,12 +29,12 @@
       "summary": "New Delhi (AFP) Feb 20, 2026\n\n\n Fledgling Indian artificial intelligence companies showcased homegrown technologies this week at a major summit in New Delhi, underpinning big dreams of becoming a global AI power. \n\nBut analysts said the country was unlikely to have a \"DeepSeek moment\" - the sort of boom China had last year with a high-performance, low-cost chatbot - any time soon. \n\nStill, building custom AI tools could"
     },
     {
-      "title": "Galileo vs. spoofing: ESA tests in real-world environments",
-      "link": "https://www.esa.int/Applications/Satellite_navigation/Galileo_vs._spoofing_ESA_tests_in_real-world_environments",
-      "source": "ESA",
-      "date": "2026-02-24T10:24:00Z",
-      "summary": "From adding timestamps to banking transactions to mapping the best route to a destination, satellite navigation plays a significant role in daily life. At the same time, attempts to interfere with and fake navigation signals are increasing. For the last seven months, a new verification service for Galileo has mitigated the threat of spoofing in the Open Service by confirming that the satellite navigation data used for positioning originated in the Galileo system."
+      "title": "TotalEnergies in high-stakes French trial over climate change",
+      "link": "https://www.spacedaily.com/reports/TotalEnergies_in_high-stakes_French_trial_over_climate_change_999.html",
+      "source": "SpaceDaily",
+      "date": "2026-02-24T11:35:37Z",
+      "summary": "Paris, France (AFP) Feb 20, 2026\n\n\n TotalEnergies faces cutting back oil and gas production if NGOs prevail in a trial that began Thursday over accusations the French energy giant failed to properly consider environmental risks. \n\nThe case, brought by several NGOs and the city of Paris, is based upon a 2017 law that imposed a \"duty of vigilance\" on large companies. \n\nThe law seeks to counter companies offloading responsibility"
     }
   ],
-  "updated": "2026-02-24T13:17:22.521Z"
+  "updated": "2026-02-24T13:48:03.047Z"
 }
