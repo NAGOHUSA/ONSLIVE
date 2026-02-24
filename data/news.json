@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Meink, Saltzman make case for Space Force expansion",
+      "link": "https://spacenews.com/meink-saltzman-make-case-for-space-force-expansion/",
+      "source": "SpaceNews",
+      "date": "2026-02-24T00:42:02Z",
+      "summary": "\nMeink: How the future force is designed ‘will be critical as the Space Force expands even faster in the next few years’\nThe post Meink, Saltzman make case for Space Force expansion  appeared first on SpaceNews."
+    },
+    {
       "title": "Launch Preview: Falcon 9 to launch five Starlink missions, Firefly to launch Alpha",
       "link": "https://www.nasaspaceflight.com/2026/02/launch-preview-022326/",
       "source": "NASASpaceflight",
@@ -27,14 +34,7 @@
       "source": "Space Scout",
       "date": "2026-02-23T19:16:51Z",
       "summary": "The second launch rehearsal for Artemis II was a massive success and a showcase of the propellant loading process and systems working as designed."
-    },
-    {
-      "title": "Space Force seeks market answers on in-orbit refueling",
-      "link": "https://spacenews.com/space-force-seeks-market-answers-on-in-orbit-refueling/",
-      "source": "SpaceNews",
-      "date": "2026-02-23T19:00:00Z",
-      "summary": "\nA new RFI poses questions to industry on future refueling architecture\nThe post Space Force seeks market answers on in-orbit refueling appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-02-24T00:45:28.907Z"
+  "updated": "2026-02-24T01:16:18.805Z"
 }
