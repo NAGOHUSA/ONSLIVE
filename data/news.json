@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Curiosity Blog, Sols 4812-4819: Back Into the Hollows",
+      "link": "https://science.nasa.gov/blog/curiosity-blog-sols-4812-4819-back-into-the-hollows/",
+      "source": "NASA",
+      "date": "2026-02-24T21:21:38Z",
+      "summary": "Written by Diana Hayes, Graduate student at York University, Toronto Earth planning date: Friday, Feb. 20, 2026 This has been a pretty routine week for Curiosity. As was mentioned last week, we’re now in the final phase of the boxwork exploration campaign. We’re currently making our way toward the eastern contact of the boxwork formation […]"
+    },
+    {
       "title": "New Volunteer Data from 143 Observatories Unveils the 2024 Total Solar Eclipse",
       "link": "https://science.nasa.gov/get-involved/citizen-science/new-volunteer-data-from-143-observatories-unveils-the-2024-total-solar-eclipse/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-02-24T15:30:00Z",
       "summary": "\nGPS IIIF features, including regional spot beams, will ‘change the calculus’ for adversaries\nThe post Lockheed Martin presses case that GPS upgrade will counter jamming threats appeared first on SpaceNews."
-    },
-    {
-      "title": "Webb Maps Uranus’ Upper Atmosphere",
-      "link": "https://www.nasa.gov/image-article/webb-maps-uranus-upper-atmosphere/",
-      "source": "NASA",
-      "date": "2026-02-24T15:00:39Z",
-      "summary": "NASA’s James Webb Space Telescope provided the first vertical view of Uranus’s ionosphere in this image released on Feb. 19, 2026, revealing auroras shaped by its tilted magnetic field. Getting a look at the structure of the region where the atmosphere interacts strongly with the planet’s magnetic field is giving us the most detailed portrait […]"
     }
   ],
-  "updated": "2026-02-24T22:03:27.559Z"
+  "updated": "2026-02-24T22:17:02.821Z"
 }
