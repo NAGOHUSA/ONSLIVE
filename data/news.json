@@ -1,11 +1,11 @@
 {
   "articles": [
     {
-      "title": "Lithium trace in upper air linked to Falcon 9 rocket breakup",
-      "link": "https://www.spacedaily.com/reports/Lithium_trace_in_upper_air_linked_to_Falcon_9_rocket_breakup_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-02-24T08:42:37Z",
-      "summary": "New York (SDX) Feb 23, 2026\r\n\r\n\r\nA plume of lithium pollution detected in the upper atmosphere in February 2025 has now been directly linked to the uncontrolled re-entry of a Falcon 9 rocket stage. Researchers report that this event provides the first direct measurement of upper-atmospheric contamination from disintegrating space hardware as it re-enters the atmosphere. \r\n\r\nDefunct satellites and spent rocket stages are gener"
+      "title": "Galileo vs. spoofing: ESA tests in real-world environments",
+      "link": "https://www.esa.int/Applications/Satellite_navigation/Galileo_vs._spoofing_ESA_tests_in_real-world_environments",
+      "source": "ESA",
+      "date": "2026-02-24T10:24:00Z",
+      "summary": "From adding timestamps to banking transactions to mapping the best route to a destination, satellite navigation plays a significant role in daily life. At the same time, attempts to interfere with and fake navigation signals are increasing. For the last seven months, a new verification service for Galileo has mitigated the threat of spoofing in the Open Service by confirming that the satellite navigation data used for positioning originated in the Galileo system."
     },
     {
       "title": "Perseverance rover now self-locates precisely on Mars",
@@ -29,12 +29,12 @@
       "summary": "London (SDX) Feb 23, 2026\r\n\r\nA Northumbria University PhD student has led an international collaboration to construct the first three-dimensional view of Uranus upper atmosphere, showing how the planet's unusual magnetic field sculpts bright auroras thousands of kilometers above its clouds. \r\n\r\nUsing the James Webb Space Telescope, operated by NASA with ESA and CSA, lead author Paola Tiranti and colleagues observed Uranus"
     },
     {
-      "title": "Simple collapse may build cosmic snowman worlds",
-      "link": "https://www.spacedaily.com/reports/Simple_collapse_may_build_cosmic_snowman_worlds_999.html",
+      "title": "Lithium trace in upper air linked to Falcon 9 rocket breakup",
+      "link": "https://www.spacedaily.com/reports/Lithium_trace_in_upper_air_linked_to_Falcon_9_rocket_breakup_999.html",
       "source": "SpaceDaily",
       "date": "2026-02-24T08:42:37Z",
-      "summary": "New York (SDX) Feb 23, 2026\n\n\nAstronomers have puzzled over why many icy worlds in the distant Kuiper Belt look like snowmen, with two round lobes joined together. New work from Michigan State University points to a surprisingly simple explanation: these so called contact binaries can form directly through gravitational collapse. \n\nFar beyond Neptune, the Kuiper Belt holds icy, largely untouched planetesimals that preser"
+      "summary": "New York (SDX) Feb 23, 2026\r\n\r\n\r\nA plume of lithium pollution detected in the upper atmosphere in February 2025 has now been directly linked to the uncontrolled re-entry of a Falcon 9 rocket stage. Researchers report that this event provides the first direct measurement of upper-atmospheric contamination from disintegrating space hardware as it re-enters the atmosphere. \r\n\r\nDefunct satellites and spent rocket stages are gener"
     }
   ],
-  "updated": "2026-02-24T10:11:46.881Z"
+  "updated": "2026-02-24T10:32:05.959Z"
 }
