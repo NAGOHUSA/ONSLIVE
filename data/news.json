@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Lockheed Martin presses case that GPS upgrade will counter jamming threats",
+      "link": "https://spacenews.com/lockheed-martin-presses-case-that-gps-upgrade-will-counter-jamming-threats/",
+      "source": "SpaceNews",
+      "date": "2026-02-24T15:30:00Z",
+      "summary": "\nGPS IIIF features, including regional spot beams, will ‘change the calculus’ for adversaries\nThe post Lockheed Martin presses case that GPS upgrade will counter jamming threats appeared first on SpaceNews."
+    },
+    {
       "title": "Webb Maps Uranus’ Upper Atmosphere",
       "link": "https://www.nasa.gov/image-article/webb-maps-uranus-upper-atmosphere/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-02-24T13:00:43Z",
       "summary": "\nHegseth contrasts “builders” with Beltway primes as administration leans into procurement overhaul\nThe post At Colorado space firms, Hegseth casts Pentagon bureaucracy as the enemy appeared first on SpaceNews."
-    },
-    {
-      "title": "LambdaVision books space on Starlab commercial space station",
-      "link": "https://spacenews.com/lambdavision-books-space-on-starlab-commercial-space-station/",
-      "source": "SpaceNews",
-      "date": "2026-02-24T12:32:19Z",
-      "summary": "\nLambdaVision, a company that has used microgravity experiments on the International Space Station to develop an artificial retina, has booked space on a planned commercial successor.\nThe post LambdaVision books space on Starlab commercial space station appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-02-24T15:28:14.450Z"
+  "updated": "2026-02-24T15:51:01.090Z"
 }
