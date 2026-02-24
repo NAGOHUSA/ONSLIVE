@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Live coverage: SpaceX to launch 29 Starlink satellites on Falcon 9 rocket from Cape Canaveral",
+      "link": "https://spaceflightnow.com/2026/02/24/live-coverage-spacex-to-launch-29-starlink-satellites-on-falcon-9-rocket-from-cape-canaveral-8/",
+      "source": "Spaceflight Now",
+      "date": "2026-02-24T17:56:08Z",
+      "summary": "The Starlink 6-110 mission will be the 18th flight this years supporting SpaceX’s broadband internet constellation. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for 6:04:10 p.m. EST (2304:10 UTC). "
+    },
+    {
       "title": "Lockheed Martin presses case that GPS upgrade will counter jamming threats",
       "link": "https://spacenews.com/lockheed-martin-presses-case-that-gps-upgrade-will-counter-jamming-threats/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-02-24T14:00:00Z",
       "summary": "\nFebruary 24, 2026 – Washington, DC – The Commercial Space Federation (CSF) is proud to announce the release of a new paper titled “Perfecting Public-Private Partnerships: The Future of Government […]\nThe post The Commercial Space Federation Releases New White Paper “Perfecting Public-Private Partnerships” appeared first on SpaceNews."
-    },
-    {
-      "title": "At Colorado space firms, Hegseth casts Pentagon bureaucracy as the enemy",
-      "link": "https://spacenews.com/at-colorado-space-firms-hegseth-casts-pentagon-bureaucracy-as-the-enemy/",
-      "source": "SpaceNews",
-      "date": "2026-02-24T13:00:43Z",
-      "summary": "\nHegseth contrasts “builders” with Beltway primes as administration leans into procurement overhaul\nThe post At Colorado space firms, Hegseth casts Pentagon bureaucracy as the enemy appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-02-24T17:55:10.608Z"
+  "updated": "2026-02-24T18:15:48.808Z"
 }
