@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "TotalEnergies in high-stakes French trial over climate change",
+      "link": "https://www.spacedaily.com/reports/TotalEnergies_in_high-stakes_French_trial_over_climate_change_999.html",
+      "source": "SpaceDaily",
+      "date": "2026-02-24T11:35:37Z",
+      "summary": "Paris, France (AFP) Feb 20, 2026\n\n\n TotalEnergies faces cutting back oil and gas production if NGOs prevail in a trial that began Thursday over accusations the French energy giant failed to properly consider environmental risks. \n\nThe case, brought by several NGOs and the city of Paris, is based upon a 2017 law that imposed a \"duty of vigilance\" on large companies. \n\nThe law seeks to counter companies offloading responsibility"
+    },
+    {
+      "title": "India chases 'DeepSeek moment' with homegrown AI models",
+      "link": "https://www.spacedaily.com/reports/India_chases_DeepSeek_moment_with_homegrown_AI_models_999.html",
+      "source": "SpaceDaily",
+      "date": "2026-02-24T11:35:37Z",
+      "summary": "New Delhi (AFP) Feb 20, 2026\n\n\n Fledgling Indian artificial intelligence companies showcased homegrown technologies this week at a major summit in New Delhi, underpinning big dreams of becoming a global AI power. \n\nBut analysts said the country was unlikely to have a \"DeepSeek moment\" - the sort of boom China had last year with a high-performance, low-cost chatbot - any time soon. \n\nStill, building custom AI tools could"
+    },
+    {
       "title": "Galileo vs. spoofing: ESA tests in real-world environments",
       "link": "https://www.esa.int/Applications/Satellite_navigation/Galileo_vs._spoofing_ESA_tests_in_real-world_environments",
       "source": "ESA",
@@ -15,26 +29,12 @@
       "summary": "New York (SDX) Feb 23, 2026\r\n\r\n\r\nNASA's Perseverance rover can now determine its exact position on Mars without relying on ground teams, using a new system called Mars Global Localization that compares navigation camera panoramas to orbital terrain maps. Running on a powerful processor originally dedicated to the Ingenuity Mars Helicopter, the algorithm can pinpoint the rover's location to within about 25 centimeters in roughly"
     },
     {
-      "title": "Rocket re-entry pollution measured in atmosphere for first time",
-      "link": "https://www.spacedaily.com/reports/Rocket_re-entry_pollution_measured_in_atmosphere_for_first_time_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-02-24T08:42:37Z",
-      "summary": "Paris, France (AFP) Feb 19, 2026\r\n\r\n\r\n When part of a SpaceX rocket re-entered Earth's atmosphere exactly a year ago, it created a spectacular fireball that streaked across Europe's skies, delighting stargazers and sending a team of scientists rushing towards their instruments. \r\n\r\nThe German team managed to measure the pollution the rocket's upper stage emitted in our planet's difficult-to-study upper atmosphere - the first time th"
-    },
-    {
       "title": "Webb maps Uranus upper atmosphere in 3D",
       "link": "https://www.spacedaily.com/reports/Webb_maps_Uranus_upper_atmosphere_in_3D_999.html",
       "source": "SpaceDaily",
       "date": "2026-02-24T08:42:37Z",
       "summary": "London (SDX) Feb 23, 2026\r\n\r\nA Northumbria University PhD student has led an international collaboration to construct the first three-dimensional view of Uranus upper atmosphere, showing how the planet's unusual magnetic field sculpts bright auroras thousands of kilometers above its clouds. \r\n\r\nUsing the James Webb Space Telescope, operated by NASA with ESA and CSA, lead author Paola Tiranti and colleagues observed Uranus"
-    },
-    {
-      "title": "Lithium trace in upper air linked to Falcon 9 rocket breakup",
-      "link": "https://www.spacedaily.com/reports/Lithium_trace_in_upper_air_linked_to_Falcon_9_rocket_breakup_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-02-24T08:42:37Z",
-      "summary": "New York (SDX) Feb 23, 2026\r\n\r\n\r\nA plume of lithium pollution detected in the upper atmosphere in February 2025 has now been directly linked to the uncontrolled re-entry of a Falcon 9 rocket stage. Researchers report that this event provides the first direct measurement of upper-atmospheric contamination from disintegrating space hardware as it re-enters the atmosphere. \r\n\r\nDefunct satellites and spent rocket stages are gener"
     }
   ],
-  "updated": "2026-02-24T11:29:34.082Z"
+  "updated": "2026-02-24T11:48:53.225Z"
 }
