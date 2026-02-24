@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Boeing demonstrates large language model for space-grade hardware",
+      "link": "https://spacenews.com/boeing-demonstrates-large-language-model-for-space-grade-hardware/",
+      "source": "SpaceNews",
+      "date": "2026-02-24T01:47:12Z",
+      "summary": "\nSAN FRANCISCO – Before uploading a large language model to space-grade hardware, Boeing Space Mission Systems engineers sought guidance from the hardware manufacturer. “They told us it wasn’t possible, but we are skilled engineers who were going to figure out a pathway to make it happen,” Arvel Chappell III, Boeing Space Mission Systems AI Lab […]\nThe post Boeing demonstrates large language model for space-grade hardware appeared first on SpaceNews."
+    },
+    {
       "title": "Meink, Saltzman make case for Space Force expansion",
       "link": "https://spacenews.com/meink-saltzman-make-case-for-space-force-expansion/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-02-23T20:03:22Z",
       "summary": "The Astronomy Activation Ambassadors (AAA) project, part of the NASA Science Activation program, aims to measurably enhance student STEM (Science, Technology, Engineering, & Mathematics) engagement via middle school, high school, and community college science teacher professional development."
-    },
-    {
-      "title": "Flawless Second Artemis II Launch Rehearsal Shows Readiness, Despite Setbacks",
-      "link": "https://www.spacescout.info/2026/02/flawless-second-artemis-ii-launch-rehearsal-shows-readiness-despite-setbacks/",
-      "source": "Space Scout",
-      "date": "2026-02-23T19:16:51Z",
-      "summary": "The second launch rehearsal for Artemis II was a massive success and a showcase of the propellant loading process and systems working as designed."
     }
   ],
-  "updated": "2026-02-24T01:16:18.805Z"
+  "updated": "2026-02-24T02:01:17.566Z"
 }
