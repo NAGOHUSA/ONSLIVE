@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Webb Maps Uranus’ Upper Atmosphere",
+      "link": "https://www.nasa.gov/image-article/webb-maps-uranus-upper-atmosphere/",
+      "source": "NASA",
+      "date": "2026-02-24T15:00:39Z",
+      "summary": "NASA’s James Webb Space Telescope provided the first vertical view of Uranus’s ionosphere in this image released on Feb. 19, 2026, revealing auroras shaped by its tilted magnetic field. Getting a look at the structure of the region where the atmosphere interacts strongly with the planet’s magnetic field is giving us the most detailed portrait […]"
+    },
+    {
+      "title": "Technology Originally Developed for Space Missions Now Integral to Everyday Life",
+      "link": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/technology-originally-developed-for-space-missions-now-integral-to-everyday-life/",
+      "source": "NASA",
+      "date": "2026-02-24T14:29:00Z",
+      "summary": "Groundbreaking “camera-on-a-chip” technology that was originally developed at NASA’s Jet Propulsion Laboratory (JPL) for use in space missions is currently employed in billions of devices like cell phones that are used daily by people worldwide."
+    },
+    {
       "title": "The Commercial Space Federation Releases New White Paper “Perfecting Public-Private Partnerships”",
       "link": "https://spacenews.com/the-commercial-space-federation-releases-new-white-paper-perfecting-public-private-partnerships/",
       "source": "SpaceNews",
@@ -20,21 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-02-24T12:32:19Z",
       "summary": "\nLambdaVision, a company that has used microgravity experiments on the International Space Station to develop an artificial retina, has booked space on a planned commercial successor.\nThe post LambdaVision books space on Starlab commercial space station appeared first on SpaceNews."
-    },
-    {
-      "title": "Sophia Space claims $10 million in seed round",
-      "link": "https://spacenews.com/sophia-space-claims-10-million-in-seed-round/",
-      "source": "SpaceNews",
-      "date": "2026-02-24T12:00:00Z",
-      "summary": "\nSAN FRANCISCO – Sophia Space raised $10 million in seed funding to accelerate development of space-based edge computers and orbital data centers. “The $10 million round is a validation that we are progressing from slideware to hardware,” Rob DeMillo, Sophia Space CEO and co-founder, told SpaceNews. “And it’s evidence that capital is shifting towards orbital-compute […]\nThe post Sophia Space claims $10 million in seed round appeared first on SpaceNews."
-    },
-    {
-      "title": "India chases 'DeepSeek moment' with homegrown AI models",
-      "link": "https://www.spacedaily.com/reports/India_chases_DeepSeek_moment_with_homegrown_AI_models_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-02-24T11:35:37Z",
-      "summary": "New Delhi (AFP) Feb 20, 2026\n\n\n Fledgling Indian artificial intelligence companies showcased homegrown technologies this week at a major summit in New Delhi, underpinning big dreams of becoming a global AI power. \n\nBut analysts said the country was unlikely to have a \"DeepSeek moment\" - the sort of boom China had last year with a high-performance, low-cost chatbot - any time soon. \n\nStill, building custom AI tools could"
     }
   ],
-  "updated": "2026-02-24T15:01:15.846Z"
+  "updated": "2026-02-24T15:28:14.450Z"
 }
