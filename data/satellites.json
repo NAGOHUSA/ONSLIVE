@@ -17,30 +17,30 @@
     {
       "name": "STARLINK-1017",
       "id": "2019-074L",
-      "epoch": "2026-02-24T11:42:46.231776",
-      "meanMotion": 15.22752166,
-      "inclination": 53.0522
+      "epoch": "2026-02-24T18:00:48.907584",
+      "meanMotion": 15.22778991,
+      "inclination": 53.051
     },
     {
       "name": "STARLINK-1019",
       "id": "2019-074M",
-      "epoch": "2026-02-24T09:19:36.691968",
-      "meanMotion": 15.77666146,
-      "inclination": 53.0441
+      "epoch": "2026-02-24T22:00:01.999584",
+      "meanMotion": 15.77799007,
+      "inclination": 53.0423
     },
     {
       "name": "STARLINK-1020",
       "id": "2019-074N",
-      "epoch": "2026-02-24T14:00:04.000032",
-      "meanMotion": 15.24318187,
-      "inclination": 53.1328
+      "epoch": "2026-02-24T22:00:01.999584",
+      "meanMotion": 15.24737791,
+      "inclination": 53.1346
     },
     {
       "name": "STARLINK-1031",
       "id": "2019-074Z",
-      "epoch": "2026-02-24T14:00:04.000032",
-      "meanMotion": 15.85118337,
-      "inclination": 53.0407
+      "epoch": "2026-02-24T22:00:01.999584",
+      "meanMotion": 15.85223069,
+      "inclination": 53.0401
     },
     {
       "name": "STARLINK-1036",
@@ -59,24 +59,24 @@
     {
       "name": "STARLINK-1042",
       "id": "2019-074AL",
-      "epoch": "2026-02-24T13:25:29.073792",
-      "meanMotion": 15.4907788,
-      "inclination": 53.0431
+      "epoch": "2026-02-24T14:58:23.357280",
+      "meanMotion": 15.49081836,
+      "inclination": 53.043
     },
     {
       "name": "STARLINK-1043",
       "id": "2019-074AM",
-      "epoch": "2026-02-24T14:17:08.100960",
-      "meanMotion": 15.52694352,
-      "inclination": 53.0518
+      "epoch": "2026-02-24T20:27:53.240256",
+      "meanMotion": 15.52709315,
+      "inclination": 53.0516
     }
   ],
   "iss": {
-    "latitude": 26.067727084785,
-    "longitude": 3.3284377626211,
-    "altitude": 423.40881171729,
-    "velocity": 27578.163312624,
-    "visibility": "eclipsed"
+    "latitude": -22.276176904275,
+    "longitude": 168.0428736481,
+    "altitude": 426.65389498046,
+    "velocity": 27562.650602206,
+    "visibility": "daylight"
   },
-  "updated": "2026-02-24T23:58:10.853Z"
+  "updated": "2026-02-25T00:43:13.328Z"
 }
