@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "OQ Technology secures $30 million from Europe for satellite-to-smartphone expansion",
+      "link": "https://spacenews.com/oq-technology-secures-30-million-from-europe-for-satellite-to-smartphone-expansion/",
+      "source": "SpaceNews",
+      "date": "2026-02-25T11:00:00Z",
+      "summary": "\nEurope’s investment arm is lending Luxembourg-based OQ Technology 25 million euros ($30 million) to expand its direct-to-device constellation, bolstering the continent’s push to compete with U.S.-led efforts to connect smartphones from space.\nThe post OQ Technology secures $30 million from Europe for satellite-to-smartphone expansion appeared first on SpaceNews."
+    },
+    {
       "title": "AAC Clyde Space adds Sedna satellites to boost maritime data services",
       "link": "https://www.spacedaily.com/reports/AAC_Clyde_Space_adds_Sedna_satellites_to_boost_maritime_data_services_999.html",
       "source": "SpaceDaily",
@@ -15,13 +22,6 @@
       "summary": "London (SDX) Feb 25, 2026\n\n\nNew observations of Jupiter's largest moon, Ganymede, reveal that its auroras share detailed structural similarities with auroras on Earth, suggesting that the physical processes that generate these lights may be universal across different types of celestial bodies. \n\nA team from the Laboratory of Atmospheric and Planetary Physics (LPAP) at the University of Liege has used NASA's Juno spacec"
     },
     {
-      "title": "Rare lensed supernova offers new route to measure cosmic expansion",
-      "link": "https://www.spacedaily.com/reports/Rare_lensed_supernova_offers_new_route_to_measure_cosmic_expansion_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-02-25T10:14:21Z",
-      "summary": "London (SDX) Feb 25, 2026\n\n\nThat the universe is expanding has been known for almost a century, but its exact rate of expansion remains one of cosmology's most hotly debated questions. A team from the Technical University of Munich (TUM), Ludwig Maximilians University (LMU) and the Max Planck Institutes for Astrophysics (MPA) and for Extraterrestrial Physics (MPE) has now imaged and modelled an exceptionally rare supernova"
-    },
-    {
       "title": "AST SpaceMobile wins SDA HALO Europa contract for direct to device tactical links",
       "link": "https://www.spacedaily.com/reports/AST_SpaceMobile_wins_SDA_HALO_Europa_contract_for_direct_to_device_tactical_links_999.html",
       "source": "SpaceDaily",
@@ -29,12 +29,12 @@
       "summary": "New York (SDX) Feb 23, 2026\n\n\nAST SpaceMobile has secured a prime contract worth about 30 million dollars with the United States Space Development Agency for the Europa Track 2 Commercial Solutions program under the Hybrid Acquisition for proliferated Low Earth Orbit, or HALO, initiative. \n\nThe agreement calls for AST SpaceMobile to use its BlueBird low Earth orbit satellite constellation to demonstrate resilient, low la"
     },
     {
-      "title": "Seafloor weathering may explain ancient global glaciation puzzle",
-      "link": "https://www.spacedaily.com/reports/Seafloor_weathering_may_explain_ancient_global_glaciation_puzzle_999.html",
+      "title": "Rare lensed supernova offers new route to measure cosmic expansion",
+      "link": "https://www.spacedaily.com/reports/Rare_lensed_supernova_offers_new_route_to_measure_cosmic_expansion_999.html",
       "source": "SpaceDaily",
       "date": "2026-02-25T10:14:21Z",
-      "summary": "New York (SDX) Feb 25, 2026\n\n\nIn Earth history, a few episodes stand out for their extreme cold, when geologic evidence indicates that ice covered the planet from pole to pole during so-called Snowball Earth events. These episodes represent some of the coldest conditions the planet has ever experienced, with the entire surface essentially below the freezing point of water. Scientists link the onset and end of these global gl"
+      "summary": "London (SDX) Feb 25, 2026\n\n\nThat the universe is expanding has been known for almost a century, but its exact rate of expansion remains one of cosmology's most hotly debated questions. A team from the Technical University of Munich (TUM), Ludwig Maximilians University (LMU) and the Max Planck Institutes for Astrophysics (MPA) and for Extraterrestrial Physics (MPE) has now imaged and modelled an exceptionally rare supernova"
     }
   ],
-  "updated": "2026-02-25T10:57:19.264Z"
+  "updated": "2026-02-25T11:19:10.009Z"
 }
