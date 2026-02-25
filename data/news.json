@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Valve malfunction blamed for failure of Indian satellite to raise its orbit",
+      "link": "https://spacenews.com/valve-malfunction-blamed-for-failure-of-indian-satellite-to-raise-its-orbit/",
+      "source": "SpaceNews",
+      "date": "2026-02-25T17:45:01Z",
+      "summary": "\nIndia’s space agency says a valve failure prevented a navigation spacecraft launched more than a year ago from raising its orbit.\nThe post Valve malfunction blamed for failure of Indian satellite to raise its orbit appeared first on SpaceNews."
+    },
+    {
       "title": "Listen to This Month’s ‘Planetary Parade’ With NASA’s Chandra",
       "link": "https://www.nasa.gov/missions/chandra/listen-to-this-months-planetary-parade-with-nasas-chandra/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-02-25T14:00:00Z",
       "summary": "\nA recent SpaceNews opinion article argued that it is time to “take astronomy off Earth.” The suggestion is straightforward: If satellite constellations and commercial space activity threaten ground-based astronomy, perhaps astronomers should simply move their work into space. As current, incoming and past presidents of the American Astronomical Society, we feel impelled to respond. As […]\nThe post The future of astronomy is both on Earth and in space appeared first on SpaceNews."
-    },
-    {
-      "title": "Live coverage: SpaceX to launch 500th Starlink satellite in 2026 during Wednesday Falcon 9 flight",
-      "link": "https://spaceflightnow.com/2026/02/25/live-coverage-spacex-to-launch-500th-starlink-satellite-in-2026-during-wednesday-falcon-9-flight/",
-      "source": "Spaceflight Now",
-      "date": "2026-02-25T12:21:36Z",
-      "summary": "The Starlink 17-26 mission will also be the 540th launch of a previously flown Falcon booster. Liftoff from pad 4 East at Vandenberg Space Force Base is scheduled for 6:17:49 a.m. PST (9:17:49 a.m. EST / 1417:49 UTC)."
     }
   ],
-  "updated": "2026-02-25T17:38:01.532Z"
+  "updated": "2026-02-25T18:32:41.350Z"
 }
