@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "SLS rocket hauled back to VAB for repairs",
+      "link": "https://spaceflightnow.com/2026/02/25/sls-rocket-hauled-back-to-vab-for-repairs/",
+      "source": "Spaceflight Now",
+      "date": "2026-02-25T19:01:30Z",
+      "summary": "A 6.6-million-pound Apollo-era crawler-transporter rolled up the ramp to pad 38B on Tuesday and was positioned directly under the 3.5-million-pound Space Launch System rocket and its 11.3-million-pound mobile launch platform. "
+    },
+    {
       "title": "Valve malfunction blamed for failure of Indian satellite to raise its orbit",
       "link": "https://spacenews.com/valve-malfunction-blamed-for-failure-of-indian-satellite-to-raise-its-orbit/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-02-25T15:00:00Z",
       "summary": "Two heads are better than one in the latest images from NASA’s James Webb Space Telescope, which reveal new detail in a mysterious, little-studied nebula surrounding a dying star.  Nebula PMR 1 is a cloud of gas and dust that bears an uncanny resemblance to a brain in a transparent skull, inspiring its nickname, the […]"
-    },
-    {
-      "title": "The future of astronomy is both on Earth and in space",
-      "link": "https://spacenews.com/the-future-of-astronomy-is-both-on-earth-and-in-space/",
-      "source": "SpaceNews",
-      "date": "2026-02-25T14:00:00Z",
-      "summary": "\nA recent SpaceNews opinion article argued that it is time to “take astronomy off Earth.” The suggestion is straightforward: If satellite constellations and commercial space activity threaten ground-based astronomy, perhaps astronomers should simply move their work into space. As current, incoming and past presidents of the American Astronomical Society, we feel impelled to respond. As […]\nThe post The future of astronomy is both on Earth and in space appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-02-25T18:56:50.774Z"
+  "updated": "2026-02-25T19:24:10.960Z"
 }
