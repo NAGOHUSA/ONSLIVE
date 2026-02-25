@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA Study to Analyze Fermented Food Samples from Space",
+      "link": "https://www.nasa.gov/general/nasa-study-to-analyze-fermented-food-samples-from-space/",
+      "source": "NASA",
+      "date": "2026-02-25T15:58:57Z",
+      "summary": "Certain nutrients critical for human health lack the shelf life needed to span multi-year missions to the Moon, Mars, and beyond. NASA’s BioNutrients-3 is part of an experiment series testing ways to use microorganisms to produce these nutrients in space and on demand. The on-demand nature of this experiment is similar to making nutrient-dense fermented […]"
+    },
+    {
       "title": "NASA’s Webb Examines Cranium Nebula",
       "link": "https://science.nasa.gov/missions/webb/nasas-webb-examines-cranium-nebula/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-02-25T11:28:26Z",
       "summary": "\nAs the number of satellites in orbit grows, one emerging challenge is the difficulty some satellite operators have contacting counterparts to avoid potential collisions.\nThe post In space traffic coordination, the biggest challenge may be coordination appeared first on SpaceNews."
-    },
-    {
-      "title": "OQ Technology secures $30 million from Europe for satellite-to-smartphone expansion",
-      "link": "https://spacenews.com/oq-technology-secures-30-million-from-europe-for-satellite-to-smartphone-expansion/",
-      "source": "SpaceNews",
-      "date": "2026-02-25T11:00:00Z",
-      "summary": "\nEurope’s investment arm is lending Luxembourg-based OQ Technology 25 million euros ($30 million) to expand its direct-to-device constellation, bolstering the continent’s push to compete with U.S.-led efforts to connect smartphones from space.\nThe post OQ Technology secures $30 million from Europe for satellite-to-smartphone expansion appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-02-25T15:51:13.644Z"
+  "updated": "2026-02-25T16:17:40.939Z"
 }
