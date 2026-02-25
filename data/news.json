@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "In space traffic coordination, the biggest challenge may be coordination",
+      "link": "https://spacenews.com/in-space-traffic-coordination-the-biggest-challenge-may-be-coordination/",
+      "source": "SpaceNews",
+      "date": "2026-02-25T11:28:26Z",
+      "summary": "\nAs the number of satellites in orbit grows, one emerging challenge is the difficulty some satellite operators have contacting counterparts to avoid potential collisions.\nThe post In space traffic coordination, the biggest challenge may be coordination appeared first on SpaceNews."
+    },
+    {
       "title": "OQ Technology secures $30 million from Europe for satellite-to-smartphone expansion",
       "link": "https://spacenews.com/oq-technology-secures-30-million-from-europe-for-satellite-to-smartphone-expansion/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceDaily",
       "date": "2026-02-25T10:14:21Z",
       "summary": "New York (SDX) Feb 23, 2026\n\n\nAST SpaceMobile has secured a prime contract worth about 30 million dollars with the United States Space Development Agency for the Europa Track 2 Commercial Solutions program under the Hybrid Acquisition for proliferated Low Earth Orbit, or HALO, initiative. \n\nThe agreement calls for AST SpaceMobile to use its BlueBird low Earth orbit satellite constellation to demonstrate resilient, low la"
-    },
-    {
-      "title": "Rare lensed supernova offers new route to measure cosmic expansion",
-      "link": "https://www.spacedaily.com/reports/Rare_lensed_supernova_offers_new_route_to_measure_cosmic_expansion_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-02-25T10:14:21Z",
-      "summary": "London (SDX) Feb 25, 2026\n\n\nThat the universe is expanding has been known for almost a century, but its exact rate of expansion remains one of cosmology's most hotly debated questions. A team from the Technical University of Munich (TUM), Ludwig Maximilians University (LMU) and the Max Planck Institutes for Astrophysics (MPA) and for Extraterrestrial Physics (MPE) has now imaged and modelled an exceptionally rare supernova"
     }
   ],
-  "updated": "2026-02-25T11:19:10.009Z"
+  "updated": "2026-02-25T11:36:07.730Z"
 }
