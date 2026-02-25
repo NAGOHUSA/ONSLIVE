@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Live coverage: SpaceX to launch 500th Starlink satellite in 2026 during Wednesday Falcon 9 flight",
+      "link": "https://spaceflightnow.com/2026/02/25/live-coverage-spacex-to-launch-500th-starlink-satellite-in-2026-during-wednesday-falcon-9-flight/",
+      "source": "Spaceflight Now",
+      "date": "2026-02-25T12:21:36Z",
+      "summary": "The Starlink 17-26 mission will also be the 540th launch of a previously flown Falcon booster. Liftoff from pad 4 East at Vandenberg Space Force Base is scheduled for 6:17:49 a.m. PST (9:17:49 a.m. EST / 1417:49 UTC). "
+    },
+    {
       "title": "In space traffic coordination, the biggest challenge may be coordination",
       "link": "https://spacenews.com/in-space-traffic-coordination-the-biggest-challenge-may-be-coordination/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceDaily",
       "date": "2026-02-25T10:14:21Z",
       "summary": "London (SDX) Feb 25, 2026\n\n\nNew observations of Jupiter's largest moon, Ganymede, reveal that its auroras share detailed structural similarities with auroras on Earth, suggesting that the physical processes that generate these lights may be universal across different types of celestial bodies. \n\nA team from the Laboratory of Atmospheric and Planetary Physics (LPAP) at the University of Liege has used NASA's Juno spacec"
-    },
-    {
-      "title": "AST SpaceMobile wins SDA HALO Europa contract for direct to device tactical links",
-      "link": "https://www.spacedaily.com/reports/AST_SpaceMobile_wins_SDA_HALO_Europa_contract_for_direct_to_device_tactical_links_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-02-25T10:14:21Z",
-      "summary": "New York (SDX) Feb 23, 2026\n\n\nAST SpaceMobile has secured a prime contract worth about 30 million dollars with the United States Space Development Agency for the Europa Track 2 Commercial Solutions program under the Hybrid Acquisition for proliferated Low Earth Orbit, or HALO, initiative. \n\nThe agreement calls for AST SpaceMobile to use its BlueBird low Earth orbit satellite constellation to demonstrate resilient, low la"
     }
   ],
-  "updated": "2026-02-25T12:27:09.012Z"
+  "updated": "2026-02-25T12:48:20.037Z"
 }
