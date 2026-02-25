@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Students kick off experiments on ESA’s flat floor",
+      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/02/Students_kick_off_experiments_on_ESA_s_flat_floor",
+      "source": "ESA",
+      "date": "2026-02-25T09:27:00Z",
+      "summary": "From the ESA Blogs."
+    },
+    {
+      "title": "Greta rocket engine completes first test campaign",
+      "link": "https://www.esa.int/Enabling_Support/Space_Transportation/Future_space_transportation/Greta_rocket_engine_completes_first_test_campaign",
+      "source": "ESA",
+      "date": "2026-02-25T07:30:00Z",
+      "summary": "From the ESA Blogs."
+    },
+    {
       "title": "No Mention of Artemis in SOTU, But Trump Briefly References Rockets to the Stars",
       "link": "https://spacepolicyonline.com/news/no-mention-of-artemis-in-sotu-but-trump-briefly-references-rockets-to-the-stars/",
       "source": "SpacePolicyOnline.com",
@@ -20,21 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-02-24T22:48:38Z",
       "summary": "\nReconciliation boost lifts 2026 totals, but sustainability questions loom for missile defense and Space Development Agency\nThe post A banner year for military space funding— with an unclear path beyond appeared first on SpaceNews."
-    },
-    {
-      "title": "Curiosity Blog, Sols 4812-4819: Back Into the Hollows",
-      "link": "https://science.nasa.gov/blog/curiosity-blog-sols-4812-4819-back-into-the-hollows/",
-      "source": "NASA",
-      "date": "2026-02-24T21:21:38Z",
-      "summary": "Written by Diana Hayes, Graduate student at York University, Toronto Earth planning date: Friday, Feb. 20, 2026 This has been a pretty routine week for Curiosity. As was mentioned last week, we’re now in the final phase of the boxwork exploration campaign. We’re currently making our way toward the eastern contact of the boxwork formation […]"
-    },
-    {
-      "title": "New Volunteer Data from 143 Observatories Unveils the 2024 Total Solar Eclipse",
-      "link": "https://science.nasa.gov/get-involved/citizen-science/new-volunteer-data-from-143-observatories-unveils-the-2024-total-solar-eclipse/",
-      "source": "NASA",
-      "date": "2026-02-24T19:48:18Z",
-      "summary": "On April 8, 2024, volunteers participating in NASA’s Eclipse Megamovie citizen science project all around the United States hurried to photograph the solar eclipse with the latest, greatest equipment, capturing groundbreaking images of the Sun’s corona."
     }
   ],
-  "updated": "2026-02-25T09:08:03.865Z"
+  "updated": "2026-02-25T09:31:28.276Z"
 }
