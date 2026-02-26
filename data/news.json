@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "A non-public document reveals that science may not be prioritized on next Mars mission",
+      "link": "https://arstechnica.com/space/2026/02/a-non-public-document-reveals-that-science-may-not-be-prioritized-on-next-mars-mission/",
+      "source": "Arstechnica",
+      "date": "2026-02-26T14:44:25Z",
+      "summary": "For some reason, NASA chose not to publicly release its Mars orbiter objectives."
+    },
+    {
       "title": "NordSpace founder backs Wyvern with new Canada-focused venture arm",
       "link": "https://spacenews.com/nordspace-founder-backs-wyvern-with-new-canada-focused-venture-arm/",
       "source": "SpaceNews",
@@ -15,13 +22,6 @@
       "summary": "\nSAN FRANCISCO – CesiumAstro announced the acquisition Feb. 26 of Vidrovr, a startup that specializes in artificial intelligence for multimodal signals analysis. Terms of the transaction, which closed in late 2025, were not disclosed. CesiumAstro acquired Vidrovr to accelerate its campaign to embed AI in space telecommunications and intelligence, surveillance and reconnaissance infrastructure, enabling radio-frequency […]\nThe post CesiumAstro acquires Vidrovr to embed AI in communications systems appeared first on SpaceNews."
     },
     {
-      "title": "Sierra Space names Dan Jablonsky CEO",
-      "link": "https://spacenews.com/sierra-space-names-dan-jablonsky-ceo/",
-      "source": "SpaceNews",
-      "date": "2026-02-26T13:00:00Z",
-      "summary": "\nFounder Fatih Ozmen, who was interim CEO, remains board chair \nThe post Sierra Space names Dan Jablonsky CEO appeared first on SpaceNews."
-    },
-    {
       "title": "Phantom Space reclaims former Vector launch technology",
       "link": "https://spacenews.com/phantom-space-reclaims-former-vector-launch-technology/",
       "source": "SpaceNews",
@@ -29,12 +29,12 @@
       "summary": "\nRemnants of Vector Launch have made it back to one of its original architects after Phantom Space bought launch assets that were sold off in 2020 during the small rocket developer’s bankruptcy.\nThe post Phantom Space reclaims former Vector launch technology appeared first on SpaceNews."
     },
     {
-      "title": "NASA astronaut says his medical issue led to early return from the ISS",
-      "link": "https://spacenews.com/nasa-astronaut-says-his-medical-issue-led-to-early-return-from-the-iss/",
+      "title": "Sierra Space names Dan Jablonsky CEO",
+      "link": "https://spacenews.com/sierra-space-names-dan-jablonsky-ceo/",
       "source": "SpaceNews",
-      "date": "2026-02-26T11:44:08Z",
-      "summary": "NASA astronaut Mike Fincke said he was the crew member whose medical issue prompted the early return of the Crew-11 mission from the International Space Station last month.\r\nThe post NASA astronaut says his medical issue led to early return from the ISS appeared first on SpaceNews."
+      "date": "2026-02-26T13:00:00Z",
+      "summary": "\nFounder Fatih Ozmen, who was interim CEO, remains board chair \nThe post Sierra Space names Dan Jablonsky CEO appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-02-26T14:35:09.383Z"
+  "updated": "2026-02-26T14:57:10.320Z"
 }
