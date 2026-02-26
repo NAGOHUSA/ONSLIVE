@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "JPL 3D-Printed Part Springs Forward",
+      "link": "https://science.nasa.gov/photojournal/jpl-3d-printed-part-springs-forward/",
+      "source": "NASA",
+      "date": "2026-02-26T20:23:05Z",
+      "summary": "Description With a simple motion, a jack-in-the-box-like spring designed at NASA’s Jet Propulsion Laboratory showed the potential of additive manufacturing, also known as 3D printing, to cut costs and complexity for futuristic space antennas. Called JPL Additive Compliant Canister (JACC), the spring deployed on the small commercial spacecraft Proteus Space’s Mercury One on Feb. 3, 2026. […]"
+    },
+    {
       "title": "Vast and Axiom awarded new private missions to ISS, continue work on commercial space stations",
       "link": "https://www.nasaspaceflight.com/2026/02/vast-axiom-2026-pam/",
       "source": "NASASpaceflight",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-02-26T16:20:31Z",
       "summary": "\nMILAN – Two of Europe’s largest primes, Airbus and Leonardo, reported increased revenues in their respective space businesses from last year. The results, which were announced earlier this week in separate earnings reports, come as the two companies are in discussions with Thales on a joint venture named Project Bromo. Neither discussed the topic on […]\nThe post Airbus and Leonardo report increased space revenues for 2025 appeared first on SpaceNews."
-    },
-    {
-      "title": "NASA Invites Media to Discuss Next Steps for Artemis Campaign",
-      "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-discuss-next-steps-for-artemis-campaign/",
-      "source": "NASA",
-      "date": "2026-02-26T16:07:56Z",
-      "summary": "With rollback of NASA’s Artemis II SLS (Space Launch System) rocket and Orion spacecraft to the Vehicle Assembly Building complete, the agency will host a news conference at 10 a.m. on Friday, Feb. 27. Live from NASA’s Kennedy Space Center in Florida, leadership will discuss the work ahead for the test flight, as well as […]"
     }
   ],
-  "updated": "2026-02-26T21:06:37.110Z"
+  "updated": "2026-02-26T21:20:33.449Z"
 }
