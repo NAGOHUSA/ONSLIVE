@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Seraphim closes second early-stage space fund above $100 million target",
+      "link": "https://spacenews.com/seraphim-closes-second-early-stage-space-fund-above-100-million-target/",
+      "source": "SpaceNews",
+      "date": "2026-02-26T00:01:00Z",
+      "summary": "\nSeraphim Space announced Feb. 25 it has completed fundraising for its second private early-stage venture fund, after exceeding its $100 million target to back young space technology startups.\nThe post Seraphim closes second early-stage space fund above $100 million target appeared first on SpaceNews."
+    },
+    {
       "title": "NASA’s Aerospace Safety Advisory Panel Releases 2025 Annual Report",
       "link": "https://www.nasa.gov/news-release/nasas-aerospace-safety-advisory-panel-releases-2025-annual-report/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "Spaceflight Now",
       "date": "2026-02-25T19:01:30Z",
       "summary": "A 6.6-million-pound Apollo-era crawler-transporter rolled up the ramp to pad 38B on Tuesday and was positioned directly under the 3.5-million-pound Space Launch System rocket and its 11.3-million-pound mobile launch platform. "
-    },
-    {
-      "title": "Valve malfunction blamed for failure of Indian satellite to raise its orbit",
-      "link": "https://spacenews.com/valve-malfunction-blamed-for-failure-of-indian-satellite-to-raise-its-orbit/",
-      "source": "SpaceNews",
-      "date": "2026-02-25T17:45:01Z",
-      "summary": "\nIndia’s space agency says a valve failure prevented a navigation spacecraft launched more than a year ago from raising its orbit.\nThe post Valve malfunction blamed for failure of Indian satellite to raise its orbit appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-02-25T23:55:38.715Z"
+  "updated": "2026-02-26T00:11:20.898Z"
 }
