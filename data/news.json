@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA Names Acting Leaders for Two Key Human Spaceflight Roles",
+      "link": "https://www.nasa.gov/news-release/nasa-names-acting-leaders-for-two-key-human-spaceflight-roles/",
+      "source": "NASA",
+      "date": "2026-02-26T15:08:57Z",
+      "summary": "On Thursday, NASA announced Joel Montalbano will serve as the acting associate administrator for the Space Operations Mission Directorate (SOMD) at NASA Headquarters in Washington, and Dana Hutcherson will serve as the acting program manager of the Commercial Crew Program.  SOMD’s programs and activities include the Commercial Crew Program, the Commercial Low Earth Orbit Program, the Human Research Program, […]"
+    },
+    {
       "title": "A non-public document reveals that science may not be prioritized on next Mars mission",
       "link": "https://arstechnica.com/space/2026/02/a-non-public-document-reveals-that-science-may-not-be-prioritized-on-next-mars-mission/",
       "source": "Arstechnica",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-02-26T13:00:00Z",
       "summary": "\nRemnants of Vector Launch have made it back to one of its original architects after Phantom Space bought launch assets that were sold off in 2020 during the small rocket developer’s bankruptcy.\nThe post Phantom Space reclaims former Vector launch technology appeared first on SpaceNews."
-    },
-    {
-      "title": "Sierra Space names Dan Jablonsky CEO",
-      "link": "https://spacenews.com/sierra-space-names-dan-jablonsky-ceo/",
-      "source": "SpaceNews",
-      "date": "2026-02-26T13:00:00Z",
-      "summary": "\nFounder Fatih Ozmen, who was interim CEO, remains board chair \nThe post Sierra Space names Dan Jablonsky CEO appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-02-26T14:57:10.320Z"
+  "updated": "2026-02-26T15:19:55.377Z"
 }
