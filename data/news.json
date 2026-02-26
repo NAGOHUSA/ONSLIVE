@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Dry-Season Floods Drench Northern Colombia",
+      "link": "https://science.nasa.gov/earth/earth-observatory/dry-season-floods-drench-northern-colombia/",
+      "source": "NASA",
+      "date": "2026-02-26T05:01:00Z",
+      "summary": "Villages and farmland were swamped after unusually heavy early-February rains pushed the Sinú River over its banks."
+    },
+    {
       "title": "Seraphim closes second early-stage space fund above $100 million target",
       "link": "https://spacenews.com/seraphim-closes-second-early-stage-space-fund-above-100-million-target/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-02-25T19:44:15Z",
       "summary": "NASA astronaut Jack Hathaway smiles up at the camera as he enters the International Space Station Feb. 14, 2026, after docking to the orbiting laboratory aboard a SpaceX Dragon spacecraft. Since Hathaway and fellow Crew-12 members Jessica Meir of NASA, Sophie Adenot of ESA (European Space Agency), and Andrey Fedyaev of Roscosmos began their mission […]"
-    },
-    {
-      "title": "SLS rocket hauled back to VAB for repairs",
-      "link": "https://spaceflightnow.com/2026/02/25/sls-rocket-hauled-back-to-vab-for-repairs/",
-      "source": "Spaceflight Now",
-      "date": "2026-02-25T19:01:30Z",
-      "summary": "A 6.6-million-pound Apollo-era crawler-transporter rolled up the ramp to pad 38B on Tuesday and was positioned directly under the 3.5-million-pound Space Launch System rocket and its 11.3-million-pound mobile launch platform. "
     }
   ],
-  "updated": "2026-02-26T04:42:31.010Z"
+  "updated": "2026-02-26T05:13:32.215Z"
 }
