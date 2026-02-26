@@ -1,6 +1,27 @@
 {
   "articles": [
     {
+      "title": "Airbus and Leonardo report increased space revenues for 2025",
+      "link": "https://spacenews.com/airbus-and-leonardo-report-increased-space-revenues-for-2025/",
+      "source": "SpaceNews",
+      "date": "2026-02-26T16:20:31Z",
+      "summary": "\nMILAN – Two of Europe’s largest primes, Airbus and Leonardo, reported increased revenues in their respective space businesses from last year. The results, which were announced earlier this week in separate earnings reports, come as the two companies are in discussions with Thales on a joint venture named Project Bromo. Neither discussed the topic on […]\nThe post Airbus and Leonardo report increased space revenues for 2025 appeared first on SpaceNews."
+    },
+    {
+      "title": "NASA Invites Media to Discuss Next Steps for Artemis Campaign",
+      "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-discuss-next-steps-for-artemis-campaign/",
+      "source": "NASA",
+      "date": "2026-02-26T16:07:56Z",
+      "summary": "With rollback of NASA’s Artemis II SLS (Space Launch System) rocket and Orion spacecraft to the Vehicle Assembly Building complete, the agency will host a news conference at 10 a.m. on Friday, Feb. 27. Live from NASA’s Kennedy Space Center in Florida, leadership will discuss the work ahead for the test flight, as well as […]"
+    },
+    {
+      "title": "NASA’s ESCAPADE Ready to Study Space Weather from Earth to Mars",
+      "link": "https://science.nasa.gov/science-research/heliophysics/nasas-escapade-ready-to-study-space-weather-from-earth-to-mars/",
+      "source": "NASA",
+      "date": "2026-02-26T15:24:23Z",
+      "summary": "Mars is not what it used to be. Once warm, watery, and blanketed by a thick atmosphere, today the Red Planet is cold, dry, and draped by a thin atmospheric veil. The main culprit is a relentless stream of particles from the Sun, known as the solar wind. Over billions of years, the solar wind has stripped away […]"
+    },
+    {
       "title": "NASA Names Acting Leaders for Two Key Human Spaceflight Roles",
       "link": "https://www.nasa.gov/news-release/nasa-names-acting-leaders-for-two-key-human-spaceflight-roles/",
       "source": "NASA",
@@ -13,28 +34,7 @@
       "source": "Arstechnica",
       "date": "2026-02-26T14:44:25Z",
       "summary": "For some reason, NASA chose not to publicly release its Mars orbiter objectives."
-    },
-    {
-      "title": "NordSpace founder backs Wyvern with new Canada-focused venture arm",
-      "link": "https://spacenews.com/nordspace-founder-backs-wyvern-with-new-canada-focused-venture-arm/",
-      "source": "SpaceNews",
-      "date": "2026-02-26T13:59:09Z",
-      "summary": "\nThe founder and sole investor behind Canadian launch startup NordSpace has invested in Earth observation operator Wyvern with a new venture arm focused on advancing Canada’s sovereign space capabilities.\nThe post NordSpace founder backs Wyvern with new Canada-focused venture arm appeared first on SpaceNews."
-    },
-    {
-      "title": "CesiumAstro acquires Vidrovr to embed AI in communications systems",
-      "link": "https://spacenews.com/cesiumastro-acquires-vidrovr-to-embed-ai-in-communications-systems/",
-      "source": "SpaceNews",
-      "date": "2026-02-26T13:00:00Z",
-      "summary": "\nSAN FRANCISCO – CesiumAstro announced the acquisition Feb. 26 of Vidrovr, a startup that specializes in artificial intelligence for multimodal signals analysis. Terms of the transaction, which closed in late 2025, were not disclosed. CesiumAstro acquired Vidrovr to accelerate its campaign to embed AI in space telecommunications and intelligence, surveillance and reconnaissance infrastructure, enabling radio-frequency […]\nThe post CesiumAstro acquires Vidrovr to embed AI in communications systems appeared first on SpaceNews."
-    },
-    {
-      "title": "Phantom Space reclaims former Vector launch technology",
-      "link": "https://spacenews.com/phantom-space-reclaims-former-vector-launch-technology/",
-      "source": "SpaceNews",
-      "date": "2026-02-26T13:00:00Z",
-      "summary": "\nRemnants of Vector Launch have made it back to one of its original architects after Phantom Space bought launch assets that were sold off in 2020 during the small rocket developer’s bankruptcy.\nThe post Phantom Space reclaims former Vector launch technology appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-02-26T16:02:32.652Z"
+  "updated": "2026-02-26T16:27:28.631Z"
 }
