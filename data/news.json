@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Inside Project Hail Mary",
+      "link": "https://www.nasa.gov/image-article/inside-project-hail-mary/",
+      "source": "NASA",
+      "date": "2026-02-26T17:19:03Z",
+      "summary": "NASA astronaut and deputy director of the Flight Operations Directorate Kjell Lindgren takes a selfie with panelists and the audience at the agency’s Jet Propulsion Laboratory on Feb. 25, 2026. Actors Ryan Gosling and Sandra Huller, screenwriter Drew Goddard, directors Phil Lord and Christopher Miller, and producer and writer of the “Project Hail Mary” novel […]"
+    },
+    {
       "title": "Airbus and Leonardo report increased space revenues for 2025",
       "link": "https://spacenews.com/airbus-and-leonardo-report-increased-space-revenues-for-2025/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-02-26T15:08:57Z",
       "summary": "On Thursday, NASA announced Joel Montalbano will serve as the acting associate administrator for the Space Operations Mission Directorate (SOMD) at NASA Headquarters in Washington, and Dana Hutcherson will serve as the acting program manager of the Commercial Crew Program.  SOMD’s programs and activities include the Commercial Crew Program, the Commercial Low Earth Orbit Program, the Human Research Program, […]"
-    },
-    {
-      "title": "A non-public document reveals that science may not be prioritized on next Mars mission",
-      "link": "https://arstechnica.com/space/2026/02/a-non-public-document-reveals-that-science-may-not-be-prioritized-on-next-mars-mission/",
-      "source": "Arstechnica",
-      "date": "2026-02-26T14:44:25Z",
-      "summary": "For some reason, NASA chose not to publicly release its Mars orbiter objectives."
     }
   ],
-  "updated": "2026-02-26T17:15:07.817Z"
+  "updated": "2026-02-26T17:40:14.495Z"
 }
