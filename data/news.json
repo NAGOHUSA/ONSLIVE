@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Vast and Axiom awarded new private missions to ISS, continue work on commercial space stations",
+      "link": "https://www.nasaspaceflight.com/2026/02/vast-axiom-2026-pam/",
+      "source": "NASASpaceflight",
+      "date": "2026-02-26T19:17:45Z",
+      "summary": "With NASA awarding back-to-back Private Astronaut Missions to aerospace companies Vast Space and Axiom Space…\nThe post Vast and Axiom awarded new private missions to ISS, continue work on commercial space stations appeared first on NASASpaceFlight.com."
+    },
+    {
       "title": "Landsat 9: More Than Just A Picture",
       "link": "https://science.nasa.gov/missions/landsat/landsat-9-more-than-just-a-picture/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-02-26T16:07:56Z",
       "summary": "With rollback of NASA’s Artemis II SLS (Space Launch System) rocket and Orion spacecraft to the Vehicle Assembly Building complete, the agency will host a news conference at 10 a.m. on Friday, Feb. 27. Live from NASA’s Kennedy Space Center in Florida, leadership will discuss the work ahead for the test flight, as well as […]"
-    },
-    {
-      "title": "NASA’s ESCAPADE Ready to Study Space Weather from Earth to Mars",
-      "link": "https://science.nasa.gov/science-research/heliophysics/nasas-escapade-ready-to-study-space-weather-from-earth-to-mars/",
-      "source": "NASA",
-      "date": "2026-02-26T15:24:23Z",
-      "summary": "Mars is not what it used to be. Once warm, watery, and blanketed by a thick atmosphere, today the Red Planet is cold, dry, and draped by a thin atmospheric veil. The main culprit is a relentless stream of particles from the Sun, known as the solar wind. Over billions of years, the solar wind has stripped away […]"
     }
   ],
-  "updated": "2026-02-26T19:08:57.719Z"
+  "updated": "2026-02-26T19:29:40.780Z"
 }
