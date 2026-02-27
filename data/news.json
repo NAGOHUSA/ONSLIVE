@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Hyperion author Dan Simmons dies from stroke at 77",
+      "link": "https://arstechnica.com/culture/2026/02/hyperion-author-dan-simmons-dies-from-stroke-at-77/",
+      "source": "Arstechnica",
+      "date": "2026-02-27T18:36:04Z",
+      "summary": "I went into <em>Hyperion</em> blind, decades ago, knowing almost nothing about it. I was never the same."
+    },
+    {
       "title": "NASA announces major overhaul of Artemis moon program:  “We’ve got to get back to basics”",
       "link": "https://spaceflightnow.com/2026/02/27/nasa-announces-major-overhaul-of-artemis-moon-program/",
       "source": "Spaceflight Now",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-02-27T15:37:07Z",
       "summary": "As part of a Golden Age of exploration and discovery, NASA announced Friday the agency is increasing its cadence of missions under the Artemis program to achieve the national objective of returning American astronauts to the Moon and establishing an enduring presence. This includes standardizing vehicle configuration, adding an additional mission in 2027, and undertaking at least one surface […]"
-    },
-    {
-      "title": "NASA revises plans for future Artemis missions, cancels upgrades to SLS",
-      "link": "https://spacenews.com/nasa-revises-plans-for-future-artemis-missions-cancels-upgrades-to-sls/",
-      "source": "SpaceNews",
-      "date": "2026-02-27T15:09:48Z",
-      "summary": "\nNASA announced major changes to its Artemis lunar architecture, adding a test flight of lunar landers in low Earth orbit while canceling planned upgrades to the Space Launch System.\nThe post NASA revises plans for future Artemis missions, cancels upgrades to SLS appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-02-27T18:26:38.992Z"
+  "updated": "2026-02-27T18:46:32.981Z"
 }
