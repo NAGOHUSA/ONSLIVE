@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA announces major overhaul of Artemis moon program:  “We’ve got to get back to basics”",
+      "link": "https://spaceflightnow.com/2026/02/27/nasa-announces-major-overhaul-of-artemis-moon-program/",
+      "source": "Spaceflight Now",
+      "date": "2026-02-27T17:31:13Z",
+      "summary": "New NASA Administrator Jared Isaacman announced a major overhaul of the agency's Artemis moon program Friday, acknowledging that the agency's plan to land astronauts on the moon in 2028 was not realistic without another preparatory mission first to lay the groundwork.  "
+    },
+    {
       "title": "NASA’s Home for Experimental Flight Advances Aeronautics Mission",
       "link": "https://www.nasa.gov/centers-and-facilities/armstrong/nasas-home-for-experimental-flight-advances-aeronautics-mission/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-02-27T15:09:48Z",
       "summary": "\nNASA announced major changes to its Artemis lunar architecture, adding a test flight of lunar landers in low Earth orbit while canceling planned upgrades to the Space Launch System.\nThe post NASA revises plans for future Artemis missions, cancels upgrades to SLS appeared first on SpaceNews."
-    },
-    {
-      "title": "NASA shakes up its Artemis program to speed up lunar return",
-      "link": "https://arstechnica.com/staff/2026/02/nasa-shakes-up-its-artemis-program-to-speed-up-lunar-return/",
-      "source": "Arstechnica",
-      "date": "2026-02-27T15:08:08Z",
-      "summary": "\"Launching SLS every three and a half years or so is not a recipe for success.\""
     }
   ],
-  "updated": "2026-02-27T17:41:08.821Z"
+  "updated": "2026-02-27T17:56:46.101Z"
 }
