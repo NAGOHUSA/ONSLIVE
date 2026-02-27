@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Harnessing the Sun to Extract Oxygen on the Moon",
+      "link": "https://www.nasa.gov/image-article/harnessing-the-sun-to-extract-oxygen-on-the-moon/",
+      "source": "NASA",
+      "date": "2026-02-27T18:48:01Z",
+      "summary": "Light shines onto a solar concentrator being tested in this Aug. 7, 2025, photo. The concentrator is part of the Carbothermal Reduction Demonstration (CaRD) project, which aims to produce oxygen from simulated lunar regolith for use at the Moon’s south pole. For this test, the team integrated the solar concentrator, mirrors, and software and confirmed […]"
+    },
+    {
       "title": "Hyperion author Dan Simmons dies from stroke at 77",
       "link": "https://arstechnica.com/culture/2026/02/hyperion-author-dan-simmons-dies-from-stroke-at-77/",
       "source": "Arstechnica",
@@ -27,14 +34,7 @@
       "source": "NASASpaceflight",
       "date": "2026-02-27T16:12:08Z",
       "summary": "After spending a few months in Mega Bay 2 fully stacked, Ship 39 – the…\nThe post Flight 12: Ship 39 rolls out to Masseys to begin testing appeared first on NASASpaceFlight.com."
-    },
-    {
-      "title": "NASA Adds Mission to Artemis Lunar Program, Updates Architecture",
-      "link": "https://www.nasa.gov/news-release/nasa-adds-mission-to-artemis-lunar-program-updates-architecture/",
-      "source": "NASA",
-      "date": "2026-02-27T15:37:07Z",
-      "summary": "As part of a Golden Age of exploration and discovery, NASA announced Friday the agency is increasing its cadence of missions under the Artemis program to achieve the national objective of returning American astronauts to the Moon and establishing an enduring presence. This includes standardizing vehicle configuration, adding an additional mission in 2027, and undertaking at least one surface […]"
     }
   ],
-  "updated": "2026-02-27T18:46:32.981Z"
+  "updated": "2026-02-27T19:04:57.136Z"
 }
