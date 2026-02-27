@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA revises plans for future Artemis missions, cancels upgrades to SLS",
+      "link": "https://spacenews.com/nasa-revises-plans-for-future-artemis-missions-cancels-upgrades-to-sls/",
+      "source": "SpaceNews",
+      "date": "2026-02-27T15:09:48Z",
+      "summary": "\nNASA announced major changes to its Artemis lunar architecture, adding a test flight of lunar landers in low Earth orbit while canceling planned upgrades to the Space Launch System.\nThe post NASA revises plans for future Artemis missions, cancels upgrades to SLS appeared first on SpaceNews."
+    },
+    {
       "title": "Week in images: 23-27 February 2026",
       "link": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_23-27_February_2026",
       "source": "ESA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-02-27T10:09:46Z",
       "summary": "\nChina will begin its first one-year duration astronaut mission this year, while the first international astronaut will make a short visit to Tiangong space station.\nThe post China set for its first one-year human spaceflight mission, confirms Pakistani astronaut flight appeared first on SpaceNews."
-    },
-    {
-      "title": "Earth from Space: Terra Nova Bay, Antarctica",
-      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/02/Earth_from_Space_Terra_Nova_Bay_Antarctica",
-      "source": "ESA",
-      "date": "2026-02-27T09:00:00Z",
-      "summary": "From the ESA Blogs."
     }
   ],
-  "updated": "2026-02-27T14:57:30.117Z"
+  "updated": "2026-02-27T15:17:34.836Z"
 }
