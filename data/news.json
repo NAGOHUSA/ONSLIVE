@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Chesapeake Bay Locked in Ice",
+      "link": "https://science.nasa.gov/earth/earth-observatory/chesapeake-bay-locked-in-ice/",
+      "source": "NASA",
+      "date": "2026-02-27T05:00:00Z",
+      "summary": "Nearly 50 years ago, the first Landsat satellite captured the rare sight of Mid-Atlantic waterways frozen over."
+    },
+    {
       "title": "NASA Safety Panel Warns of “High Risk” for Artemis III",
       "link": "https://spacepolicyonline.com/news/nasa-safety-panel-warns-of-high-risk-for-artemis-iii/",
       "source": "SpacePolicyOnline.com",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-02-26T23:14:49Z",
       "summary": "\nOfficials insist there are no plans to deploy troops in orbit, but commercial infrastructure and cislunar ambitions are reshaping the debate\nThe post Space Force keeps door open to future human presence in orbit appeared first on SpaceNews."
-    },
-    {
-      "title": "Virgin Media O2 launches Europe’s first Starlink direct-to-smartphone service",
-      "link": "https://spacenews.com/virgin-media-o2-launches-europes-first-starlink-direct-to-smartphone-service/",
-      "source": "SpaceNews",
-      "date": "2026-02-26T21:14:26Z",
-      "summary": "\nBritish mobile operator Virgin Media O2 said it started offering satellite-to-smartphone connectivity in the United Kingdom Feb. 26, marking the first commercial deployment of Starlink’s Direct-to-Cell service in Europe.\nThe post Virgin Media O2 launches Europe’s first Starlink direct-to-smartphone service appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-02-27T05:09:08.056Z"
+  "updated": "2026-02-27T05:35:21.311Z"
 }
