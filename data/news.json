@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA’s Home for Experimental Flight Advances Aeronautics Mission",
+      "link": "https://www.nasa.gov/centers-and-facilities/armstrong/nasas-home-for-experimental-flight-advances-aeronautics-mission/",
+      "source": "NASA",
+      "date": "2026-02-27T16:46:41Z",
+      "summary": "Nestled in the Mojave Desert, NASA’s Armstrong Flight Research Center in Edwards, California, pushes the boundaries of flight to advance the agency’s aeronautics mission. This is where Chuck Yeager broke the sound barrier and engineers are now pioneering the future of high-speed, autonomous, and electrified aircraft. Armstrong contributes to NASA’s broader mission of innovation and […]"
+    },
+    {
       "title": "Flight 12: Ship 39 rolls out to Masseys to begin testing",
       "link": "https://www.nasaspaceflight.com/2026/02/ship-39-masseys-testing/",
       "source": "NASASpaceflight",
@@ -27,14 +34,7 @@
       "source": "Arstechnica",
       "date": "2026-02-27T15:08:08Z",
       "summary": "\"Launching SLS every three and a half years or so is not a recipe for success.\""
-    },
-    {
-      "title": "In-flight call with ESA astronaut Sophie Adenot",
-      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/02/In-flight_call_with_ESA_astronaut_Sophie_Adenot",
-      "source": "ESA",
-      "date": "2026-02-27T15:00:00Z",
-      "summary": "On 26 February, ESA astronaut Sophie Adenot conducted her first in-flight call with selected French media."
     }
   ],
-  "updated": "2026-02-27T16:36:31.968Z"
+  "updated": "2026-02-27T16:55:22.643Z"
 }
