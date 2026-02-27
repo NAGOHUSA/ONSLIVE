@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA Adds Mission to Artemis Lunar Program, Updates Architecture",
+      "link": "https://www.nasa.gov/news-release/nasa-adds-mission-to-artemis-lunar-program-updates-architecture/",
+      "source": "NASA",
+      "date": "2026-02-27T15:37:07Z",
+      "summary": "As part of a Golden Age of exploration and discovery, NASA announced Friday the agency is increasing its cadence of missions under the Artemis program to achieve the national objective of returning American astronauts to the Moon and establishing an enduring presence. This includes standardizing vehicle configuration, adding an additional mission in 2027, and undertaking at least one surface […]"
+    },
+    {
       "title": "NASA revises plans for future Artemis missions, cancels upgrades to SLS",
       "link": "https://spacenews.com/nasa-revises-plans-for-future-artemis-missions-cancels-upgrades-to-sls/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-02-27T12:53:07Z",
       "summary": "\nThe failure of a propellant tank during testing in January will delay the first launch of Rocket Lab’s Neutron rocket to at least the fourth quarter of this year.\nThe post Rocket Lab delays Neutron debut to late 2026 appeared first on SpaceNews."
-    },
-    {
-      "title": "Rocket Report: Neutron launch date is delayed again; Vector Launch is back—sort of",
-      "link": "https://arstechnica.com/space/2026/02/rocket-report-neutron-launch-date-is-delayed-again-vector-launch-is-back-sort-of/",
-      "source": "Arstechnica",
-      "date": "2026-02-27T12:00:13Z",
-      "summary": "\"As the original architect of Vector’s vision, it’s deeply meaningful to bring these assets home.\""
     }
   ],
-  "updated": "2026-02-27T15:33:38.474Z"
+  "updated": "2026-02-27T15:50:59.006Z"
 }
