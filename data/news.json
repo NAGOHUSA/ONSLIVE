@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Week in images: 23-27 February 2026",
+      "link": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_23-27_February_2026",
+      "source": "ESA",
+      "date": "2026-02-27T14:15:00Z",
+      "summary": "Week in images: 23-27 February 2026"
+    },
+    {
       "title": "Rocket Lab delays Neutron debut to late 2026",
       "link": "https://spacenews.com/rocket-lab-delays-neutron-debut-to-late-2026/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "ESA",
       "date": "2026-02-27T09:00:00Z",
       "summary": "From the ESA Blogs."
-    },
-    {
-      "title": "ArianeGroup Test Fires Greta Engine and Secures New ESA Contract",
-      "link": "https://europeanspaceflight.com/arianegroup-test-fires-greta-engine-and-secures-new-esa-contract/",
-      "source": "European Spaceflight",
-      "date": "2026-02-27T07:02:22Z",
-      "summary": "ArianeGroup announced on 25 February that it had successfully completed a months-long test campaign of its Greta rocket engine and secured a European Space Agency contract to continue its development. Greta is an evolution of the Berta rocket engine, which was also developed by ArianeGroup under an ESA Future Launchers Preparatory Programme contract and first […]\nThe post ArianeGroup Test Fires Greta Engine and Secures New ESA Contract appeared first on European Spaceflight."
     }
   ],
-  "updated": "2026-02-27T14:00:01.561Z"
+  "updated": "2026-02-27T14:21:27.217Z"
 }
