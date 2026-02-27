@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Earth from Space: Terra Nova Bay, Antarctica",
+      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/02/Earth_from_Space_Terra_Nova_Bay_Antarctica",
+      "source": "ESA",
+      "date": "2026-02-27T09:00:00Z",
+      "summary": "From the ESA Blogs."
+    },
+    {
       "title": "ArianeGroup Test Fires Greta Engine and Secures New ESA Contract",
       "link": "https://europeanspaceflight.com/arianegroup-test-fires-greta-engine-and-secures-new-esa-contract/",
       "source": "European Spaceflight",
@@ -27,14 +34,7 @@
       "source": "Spaceflight Now",
       "date": "2026-02-27T01:14:27Z",
       "summary": "Liftoff from pad 40 at Cape Canaveral Space Force Station in Florida with 29 Starlink satellites is scheduled for 5:20:50 a.m. EST (1020:50 UTC)."
-    },
-    {
-      "title": "Two Top NASA Spaceflight Leaders Replaced",
-      "link": "https://spacepolicyonline.com/news/two-top-nasa-spaceflight-leaders-replaced/",
-      "source": "SpacePolicyOnline.com",
-      "date": "2026-02-27T00:43:25Z",
-      "summary": "One week after promising leadership changes stemming from the 2024 Boeing Starliner Crew Flight Test incident, NASA Administrator Jared Isaacman has replaced the heads of the Space Operations Mission Directorate […]"
     }
   ],
-  "updated": "2026-02-27T09:21:50.977Z"
+  "updated": "2026-02-27T09:39:27.356Z"
 }
