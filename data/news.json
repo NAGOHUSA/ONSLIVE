@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Live Coverage: SpaceX to launch 25 Starlink Satellites from the West Coast",
+      "link": "https://spaceflightnow.com/2026/03/01/live-coverage-spacex-to-launch-25-starlink-satellites-from-the-west-coast/",
+      "source": "Spaceflight Now",
+      "date": "2026-03-01T02:49:12Z",
+      "summary": "Liftoff from Space Launch Complex 4 East is scheduled for 1:55:50 a.m. PST (4:55:50 a.m. EST / 0955:50 UTC). The rocket will take southerly trajectory on departure from the launch site in central California. "
+    },
+    {
       "title": "Intuitive Machines raises $175 million in stock sale",
       "link": "https://spacenews.com/intuitive-machines-raises-175-million-in-stock-sale/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASASpaceflight",
       "date": "2026-02-28T14:27:24Z",
       "summary": "Firefly Aerospace is returning its Alpha launch vehicle to flight after a nearly 10-month stand…\nThe post Firefly Alpha FLTA007 “Stairway to Seven” set for launch from California coast appeared first on NASASpaceFlight.com."
-    },
-    {
-      "title": "NASA Makes a “Course Correction” for the Artemis Program",
-      "link": "https://spacepolicyonline.com/news/nasa-makes-a-course-correction-for-the-artemis-program/",
-      "source": "SpacePolicyOnline.com",
-      "date": "2026-02-27T20:30:41Z",
-      "summary": "NASA Administrator Jared Isaacman revealed a reconfigured plan for the Artemis program today that increases the cadence of launches and adds an earth-orbit test flight before a lunar surface return. […]"
     }
   ],
-  "updated": "2026-03-01T02:38:11.320Z"
+  "updated": "2026-03-01T03:35:42.379Z"
 }
