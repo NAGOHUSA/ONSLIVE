@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Intuitive Machines raises $175 million in stock sale",
+      "link": "https://spacenews.com/intuitive-machines-raises-175-million-in-stock-sale/",
+      "source": "SpaceNews",
+      "date": "2026-03-01T00:10:05Z",
+      "summary": "\nIntuitive Machines raised $175 million in a stock sale Feb. 25 and plans to use the proceeds to help build out a deep space communications network.\nThe post Intuitive Machines raises $175 million in stock sale appeared first on SpaceNews."
+    },
+    {
       "title": "Rocket Lab Showcases Hypersonic Test Flight",
       "link": "https://www.spacescout.info/2026/02/rocket-lab-showcases-hypersonic-test-flight/",
       "source": "Space Scout",
@@ -27,14 +34,7 @@
       "source": "SpacePolicyOnline.com",
       "date": "2026-02-27T20:30:41Z",
       "summary": "NASA Administrator Jared Isaacman revealed a reconfigured plan for the Artemis program today that increases the cadence of launches and adds an earth-orbit test flight before a lunar surface return. […]"
-    },
-    {
-      "title": "Firefly Eyes Late February for Return to Flight",
-      "link": "https://www.spacescout.info/2026/02/firefly-eyes-late-february-for-return-to-flight/",
-      "source": "Space Scout",
-      "date": "2026-02-27T20:29:19Z",
-      "summary": "Following a mishap in April of 2025, Firefly Aerospace is aiming to return its Alpha rocket to launch on the 28th of February."
     }
   ],
-  "updated": "2026-02-28T23:57:22.294Z"
+  "updated": "2026-03-01T00:35:01.426Z"
 }
