@@ -1,6 +1,27 @@
 {
   "articles": [
     {
+      "title": "NASA astronaut who required evacuation from ISS 'doing very well'",
+      "link": "https://www.spacedaily.com/reports/NASA_astronaut_who_required_evacuation_from_ISS_doing_very_well_999.html",
+      "source": "SpaceDaily",
+      "date": "2026-03-01T10:13:48Z",
+      "summary": "New York (AFP) Feb 25, 2026\n\n\n The astronaut who faced a health issue prompting the first-ever medical evacuation in International Space Station history is \"doing very well,\" he said in a statement issued by NASA on Wednesday. \n\nMike Fincke, 58, said he's \"doing very well and continuing standard post-flight reconditioning\" at NASA's center in Houston. \n\nNASA had previously declined to identify which astronaut experienced"
+    },
+    {
+      "title": "NASA announces overhaul of Artemis lunar program amid technical delays",
+      "link": "https://www.spacedaily.com/reports/NASA_announces_overhaul_of_Artemis_lunar_program_amid_technical_delays_999.html",
+      "source": "SpaceDaily",
+      "date": "2026-03-01T10:13:48Z",
+      "summary": "Cape Canaveral (AFP) Feb 27, 2026\n\n\n NASA on Friday abruptly said it was shaking up its Artemis lunar program that has suffered multiple delays in recent years, a bid to ensure Americans can return to the Moon's surface by 2028. \n\nThat goal remains unchanged, but the US space agency is shifting its flight lineup to include a test mission before an eventual lunar landing to improve launch \"muscle memory,\" NASA administrator Jared"
+    },
+    {
+      "title": "NASA rolls Moon rocket off launchpad for repairs",
+      "link": "https://www.spacedaily.com/reports/NASA_rolls_Moon_rocket_off_launchpad_for_repairs_999.html",
+      "source": "SpaceDaily",
+      "date": "2026-03-01T10:13:48Z",
+      "summary": "Washington, United States (AFP) Feb 25, 2026\n\n\n NASA on Wednesday was rolling its towering Moon rocket back to its hangar for repairs, after windows for liftoff were pushed back over technical issues. \n\nThe US space agency said it would roll its 322-foot (98-meter) SLS rocket off the launchpad in Cape Canaveral, Florida after teams detected issues with helium flow. \n\nThe decision means further delays for the highly anticipated Artemis 2 m"
+    },
+    {
       "title": "CAS Space to launch Kinetica-2 in late March carrying prototype cargo spacecraft",
       "link": "https://spacenews.com/cas-space-to-launch-kinetica-2-in-late-march-carrying-prototype-cargo-spacecraft/",
       "source": "SpaceNews",
@@ -13,28 +34,7 @@
       "source": "Spaceflight Now",
       "date": "2026-03-01T02:49:12Z",
       "summary": "Liftoff from Space Launch Complex 4 East is scheduled for 1:55:50 a.m. PST (4:55:50 a.m. EST / 0955:50 UTC). The rocket will take southerly trajectory on departure from the launch site in central California."
-    },
-    {
-      "title": "Intuitive Machines raises $175 million in stock sale",
-      "link": "https://spacenews.com/intuitive-machines-raises-175-million-in-stock-sale/",
-      "source": "SpaceNews",
-      "date": "2026-03-01T00:10:05Z",
-      "summary": "\nIntuitive Machines raised $175 million in a stock sale Feb. 25 and plans to use the proceeds to help build out a deep space communications network.\nThe post Intuitive Machines raises $175 million in stock sale appeared first on SpaceNews."
-    },
-    {
-      "title": "Rocket Lab Showcases Hypersonic Test Flight",
-      "link": "https://www.spacescout.info/2026/02/rocket-lab-showcases-hypersonic-test-flight/",
-      "source": "Space Scout",
-      "date": "2026-02-28T19:47:55Z",
-      "summary": "On February 27th, 2026, Rocket Lab launched the “That’s Not A Knife” mission from Wallops Island, Virginia, carrying a hypersonic test vehicle for the Defense Innovation Unit."
-    },
-    {
-      "title": "NASA on ‘aggressive’ schedule to complete SLS repairs for April launch",
-      "link": "https://spacenews.com/nasa-on-aggressive-schedule-to-complete-sls-repairs-for-april-launch/",
-      "source": "SpaceNews",
-      "date": "2026-02-28T17:40:30Z",
-      "summary": "NASA has about three weeks to complete repairs to the Space Launch System’s upper stage to make the next launch window for the Artemis 2 mission in early April.\r\nThe post NASA on ‘aggressive’ schedule to complete SLS repairs for April launch appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-01T10:11:33.223Z"
+  "updated": "2026-03-01T10:23:46.882Z"
 }
