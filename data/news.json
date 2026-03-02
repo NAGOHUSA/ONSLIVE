@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "ESA announces 100 million euro satellite-mobile convergence initiative",
+      "link": "https://spacenews.com/esa-announces-100-million-euro-satellite-mobile-convergence-initiative/",
+      "source": "SpaceNews",
+      "date": "2026-03-02T08:00:00Z",
+      "summary": "\nThe European Space Agency announced up to $118 million in funding March 2 for projects promising to accelerate the convergence of satellite and terrestrial communications.\nThe post ESA announces 100 million euro satellite-mobile convergence initiative appeared first on SpaceNews."
+    },
+    {
       "title": "NASA outlines objectives for Mars communications orbiter",
       "link": "https://spacenews.com/nasa-outlines-objectives-for-mars-communications-orbiter/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-01T19:08:42Z",
       "summary": "\nOfficials says commercial data and software can sharpen space threat detection\nThe post Space Force opens secretive space tracking to commercial firms appeared first on SpaceNews."
-    },
-    {
-      "title": "Live coverage: SpaceX to launch 29 Starlink satellites on Falcon 9 rocket from Cape Canaveral",
-      "link": "https://spaceflightnow.com/2026/03/01/live-coverage-spacex-to-launch-29-starlink-satellites-on-falcon-9-rocket-from-cape-canaveral-9/",
-      "source": "Spaceflight Now",
-      "date": "2026-03-01T16:37:30Z",
-      "summary": "The Starlink 10-41 mission will see the Falcon 9 rocket head out on a north-easterly trajectory upon leaving pad 40 at Cape Canaveral Space Force Station. Liftoff is expected on March 1 at 7:34 p.m. EST (0034 UTC)."
     }
   ],
-  "updated": "2026-03-02T07:54:03.951Z"
+  "updated": "2026-03-02T08:06:10.876Z"
 }
