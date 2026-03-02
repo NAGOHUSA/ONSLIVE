@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Former NASA chief turned ULA lobbyist seeks law to limit SpaceX funding",
+      "link": "https://arstechnica.com/space/2026/03/former-nasa-chief-turned-ula-lobbyist-seeks-law-to-limit-spacex-funding/",
+      "source": "Arstechnica",
+      "date": "2026-03-02T13:58:30Z",
+      "summary": "America succeeds in space when American companies compete."
+    },
+    {
       "title": "World Space Week 2025 Set Record With 50,000 Events in 102 Countries",
       "link": "https://spacenews.com/world-space-week-2025-set-record-with-50000-events-in-102-countries/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-02T08:00:00Z",
       "summary": "\nThe European Space Agency announced up to $118 million in funding March 2 for projects promising to accelerate the convergence of satellite and terrestrial communications.\nThe post ESA announces 100 million euro satellite-mobile convergence initiative appeared first on SpaceNews."
-    },
-    {
-      "title": "NASA outlines objectives for Mars communications orbiter",
-      "link": "https://spacenews.com/nasa-outlines-objectives-for-mars-communications-orbiter/",
-      "source": "SpaceNews",
-      "date": "2026-03-02T00:26:37Z",
-      "summary": "\nNASA has provided new details about its plans to procure a Mars communications orbiter funded under last year’s budget reconciliation bill as companies continue positioning themselves to bid on it.\nThe post NASA outlines objectives for Mars communications orbiter appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-02T13:37:55.552Z"
+  "updated": "2026-03-02T14:02:29.114Z"
 }
