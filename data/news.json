@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Collaborating Through Data: Inside the PSI Users Group",
+      "link": "https://science.nasa.gov/science-research/biological-physical-sciences/collaborating-through-data-inside-the-psi-users-group/",
+      "source": "NASA",
+      "date": "2026-03-02T17:30:01Z",
+      "summary": "About the PSI Users Group The Physical Sciences Informatics (PSI) Users Group is a recurring Webex forum that brings together researchers, open-science practitioners, and collaborators from across the physical sciences community. Designed to foster collaboration, knowledge-sharing, and data-driven discovery, each meeting provides participants with a platform to directly engage with leading researchers and PIs. Each […]"
+    },
+    {
       "title": "Sunglint on Atlantic Ocean",
       "link": "https://www.nasa.gov/image-article/sunglint-on-atlantic-ocean/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-02T14:50:04Z",
       "summary": "\nU.S. Cyber Command and U.S. Space Command have ‘continuously layered effects to disrupt, disorient and confuse the enemy’\nThe post Pentagon details cyber, space ‘first mover’ role in Iran operations appeared first on SpaceNews."
-    },
-    {
-      "title": "Hardware is no longer the problem holding back space-based data centers — the supply chain is",
-      "link": "https://spacenews.com/hardware-is-no-longer-the-problem-holding-back-space-based-data-centers-the-supply-chain-is/",
-      "source": "SpaceNews",
-      "date": "2026-03-02T14:00:00Z",
-      "summary": "\nOrbital and lunar data centers are often framed as engineering challenges or launch economics problems. Those matter, but they are not the limiting factor. The real bottleneck is the absence of a procurement and logistics architecture capable of sourcing, qualifying, transporting, assembling and sustaining the technologies these systems require. If companies are going to realize […]\nThe post Hardware is no longer the problem holding back space-based data centers — the supply chain is appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-02T19:06:26.401Z"
+  "updated": "2026-03-02T19:27:46.639Z"
 }
