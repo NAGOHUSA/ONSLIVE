@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Stargazing into the future of SSA",
+      "link": "https://spacenews.com/stargazing-into-the-future-of-ssa/",
+      "source": "SpaceNews",
+      "date": "2026-03-02T16:00:00Z",
+      "summary": "\nSpaceX has disrupted the launch business with the Falcon 9 and the satellite communications business with Starlink. Now it may be taking aim at the emerging space situational awareness (SSA) field. In late January, SpaceX announced Stargaze, a new SSA service. Stargaze uses data from star tracker cameras on its Starlink satellites to track satellites […]\nThe post Stargazing into the future of SSA appeared first on SpaceNews."
+    },
+    {
       "title": "Pentagon details cyber, space ‘first mover’ role in Iran operations",
       "link": "https://spacenews.com/pentagon-details-cyber-space-first-mover-role-in-iran-operations/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-02T13:00:00Z",
       "summary": "\nMarch 2, 2026 Houston, Texas – World Space Week 2025 recorded nearly 50,000 activities across 102 nations, marking the highest global participation in its history, World Space Week Association announced […]\nThe post World Space Week 2025 Set Record With 50,000 Events in 102 Countries appeared first on SpaceNews."
-    },
-    {
-      "title": "Space Force rethinks satellite ground station strategy",
-      "link": "https://spacenews.com/space-force-rethinks-satellite-ground-station-strategy/",
-      "source": "SpaceNews",
-      "date": "2026-03-02T12:00:00Z",
-      "summary": "\nInstead of customized development, Space Force will seek commercially derived ground stations\nThe post Space Force rethinks satellite ground station strategy appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-02T15:57:33.599Z"
+  "updated": "2026-03-02T16:16:18.046Z"
 }
