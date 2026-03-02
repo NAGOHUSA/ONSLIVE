@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "What’s Up: March 2026 Skywatching Tips from NASA",
+      "link": "https://science.nasa.gov/solar-system/whats-up-march-2026-skywatching-tips-from-nasa/",
+      "source": "NASA",
+      "date": "2026-03-02T20:45:51Z",
+      "summary": "What are some skywatching highlights in March 2026? A total lunar eclipse blood moon takes centre stage, Venus and Saturn cozy up for a conjunction, and we celebrate the vernal equinox."
+    },
+    {
       "title": "Kelli Kedis Ogborn Joining Commercial Space Federation as Strategic Advisor for Global Markets and Industry Engagement",
       "link": "https://spacenews.com/kelli-kedis-ogborn-joining-commercial-space-federation-as-strategic-advisor-for-global-markets-and-industry-engagement/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-02T16:50:30Z",
       "summary": "After delivering about 12,000 pounds of supplies, scientific investigations, hardware, and other cargo to the International Space Station for NASA and its international partners, JAXA’s (Japan Aerospace Exploration Agency’s) uncrewed HTV‑X1 cargo spacecraft is scheduled to depart Friday, March 6. Watch NASA’s live coverage beginning at 11:45 a.m. EST on NASA+, Amazon Prime, and the […]"
-    },
-    {
-      "title": "Stargazing into the future of SSA",
-      "link": "https://spacenews.com/stargazing-into-the-future-of-ssa/",
-      "source": "SpaceNews",
-      "date": "2026-03-02T16:00:00Z",
-      "summary": "\nSpaceX has disrupted the launch business with the Falcon 9 and the satellite communications business with Starlink. Now it may be taking aim at the emerging space situational awareness (SSA) field. In late January, SpaceX announced Stargaze, a new SSA service. Stargaze uses data from star tracker cameras on its Starlink satellites to track satellites […]\nThe post Stargazing into the future of SSA appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-02T21:02:40.577Z"
+  "updated": "2026-03-02T21:17:41.644Z"
 }
