@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Sunglint on Atlantic Ocean",
+      "link": "https://www.nasa.gov/image-article/sunglint-on-atlantic-ocean/",
+      "source": "NASA",
+      "date": "2026-03-02T16:54:04Z",
+      "summary": "Sunlight beams off a partly cloudy Atlantic Ocean just after sunrise as the International Space Station orbited 263 miles above on March 5, 2025. This is an example of sunglint, an optical phenomenon that occurs when sunlight reflects off the surface of water at the same angle that a satellite sensor views it. The result is […]"
+    },
+    {
+      "title": "NASA, JAXA to Cover HTV-X1 Spacecraft Departure from Space Station",
+      "link": "https://www.nasa.gov/news-release/nasa-jaxa-to-cover-htv-x1-spacecraft-departure-from-space-station/",
+      "source": "NASA",
+      "date": "2026-03-02T16:50:30Z",
+      "summary": "After delivering about 12,000 pounds of supplies, scientific investigations, hardware, and other cargo to the International Space Station for NASA and its international partners, JAXA’s (Japan Aerospace Exploration Agency’s) uncrewed HTV‑X1 cargo spacecraft is scheduled to depart Friday, March 6. Watch NASA’s live coverage beginning at 11:45 a.m. EST on NASA+, Amazon Prime, and the […]"
+    },
+    {
       "title": "Stargazing into the future of SSA",
       "link": "https://spacenews.com/stargazing-into-the-future-of-ssa/",
       "source": "SpaceNews",
@@ -20,21 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-02T14:00:00Z",
       "summary": "\nOrbital and lunar data centers are often framed as engineering challenges or launch economics problems. Those matter, but they are not the limiting factor. The real bottleneck is the absence of a procurement and logistics architecture capable of sourcing, qualifying, transporting, assembling and sustaining the technologies these systems require. If companies are going to realize […]\nThe post Hardware is no longer the problem holding back space-based data centers — the supply chain is appeared first on SpaceNews."
-    },
-    {
-      "title": "Former NASA chief turned ULA lobbyist seeks law to limit SpaceX funding",
-      "link": "https://arstechnica.com/space/2026/03/former-nasa-chief-turned-ula-lobbyist-seeks-law-to-limit-spacex-funding/",
-      "source": "Arstechnica",
-      "date": "2026-03-02T13:58:30Z",
-      "summary": "America succeeds in space when American companies compete."
-    },
-    {
-      "title": "World Space Week 2025 Set Record With 50,000 Events in 102 Countries",
-      "link": "https://spacenews.com/world-space-week-2025-set-record-with-50000-events-in-102-countries/",
-      "source": "SpaceNews",
-      "date": "2026-03-02T13:00:00Z",
-      "summary": "\nMarch 2, 2026 Houston, Texas – World Space Week 2025 recorded nearly 50,000 activities across 102 nations, marking the highest global participation in its history, World Space Week Association announced […]\nThe post World Space Week 2025 Set Record With 50,000 Events in 102 Countries appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-02T16:54:42.181Z"
+  "updated": "2026-03-02T17:12:42.616Z"
 }
