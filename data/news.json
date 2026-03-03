@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Spectrum showdown",
+      "link": "https://spacenews.com/spectrum-showdown/",
+      "source": "SpaceNews",
+      "date": "2026-03-03T12:00:00Z",
+      "summary": "\nAs satellite communications constellations grow in size and number, they are also competing for a scarce and increasingly valuable resource: spectrum, the bands of radio frequencies that are crucial for communications and broadband service — and for tracking weather. The pace is intensifying as companies race to expand global communications networks, raising alarms at some […]\nThe post Spectrum showdown appeared first on SpaceNews."
+    },
+    {
       "title": "Antarctica retreat study signals future ice loss",
       "link": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1/Antarctica_retreat_study_signals_future_ice_loss",
       "source": "ESA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-02T22:37:43Z",
       "summary": "\nDeutsche Telekom plans to deliver Europe’s first direct-to-smartphone services via upgraded Starlink satellites in 2028, aiming to use MSS spectrum to bring 5G speeds to remote areas across 10 countries.\nThe post Deutsche Telekom aims to bring Starlink Mobile V2 to Europe in 2028 appeared first on SpaceNews."
-    },
-    {
-      "title": "Launch Preview: Japan to launch Kairos as Falcon 9 launches Starlink missions",
-      "link": "https://www.nasaspaceflight.com/2026/03/launch-preview-030226/",
-      "source": "NASASpaceflight",
-      "date": "2026-03-02T22:20:29Z",
-      "summary": "Five missions are expected to launch this week, with Falcon 9 scheduled to launch four…\r\nThe post Launch Preview: Japan to launch Kairos as Falcon 9 launches Starlink missions appeared first on NASASpaceFlight.com."
     }
   ],
-  "updated": "2026-03-03T11:56:47.250Z"
+  "updated": "2026-03-03T12:12:32.526Z"
 }
