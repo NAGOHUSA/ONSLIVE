@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Russia Completes Repairs to Site 31, Next Cargo Launch on March 22",
+      "link": "https://spacepolicyonline.com/news/russia-completes-repairs-to-site-31-next-cargo-launch-on-march-22/",
+      "source": "SpacePolicyOnline.com",
+      "date": "2026-03-03T22:17:55Z",
+      "summary": "Russia has completed repairs to Site 31, the launch pad at the Baikonur Cosmodrome used for sending crews and cargo to the International Space Station. A structure that supports the […]"
+    },
+    {
       "title": "Space Force modernization push runs into acquisition workforce shortfall",
       "link": "https://spacenews.com/space-force-modernization-push-runs-into-acquisition-workforce-shortfall/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-03T21:00:25Z",
       "summary": "The food flying aboard Artemis II is designed to support crew health and performance during the mission around the Moon. With no resupply, refrigeration, or late-load capability, all meals must be carefully selected to remain safe, shelf-stable, and easy to prepare and consume in NASA’s Orion spacecraft. Food selections are developed in coordination with space […]"
-    },
-    {
-      "title": "Curiosity Blog, Sols 4818-4824: Thinking Out of the Boxwork",
-      "link": "https://science.nasa.gov/blog/curiosity-blog-sols-4818-4824-thinking-out-of-the-boxwork/",
-      "source": "NASA",
-      "date": "2026-03-03T18:40:37Z",
-      "summary": "Written by Ashley Stroupe, Operations Systems Engineer at NASA’s Jet Propulsion Laboratory Earth planning date: Friday, Feb. 27, 2026 This week we had three planning sessions, exploring the eastern side of the boxwork unit. As a Rover Planner on Monday, I worked on the arm and drive activities, while on Friday I served as the […]"
     }
   ],
-  "updated": "2026-03-03T22:13:47.966Z"
+  "updated": "2026-03-03T22:27:20.927Z"
 }
