@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "La NASA refuerza Artemis: añade una misión y perfecciona su arquitectura general",
+      "link": "https://www.nasa.gov/missions/artemis/la-nasa-refuerza-artemis-anade-una-mision-y-perfecciona-su-arquitectura-general/",
+      "source": "NASA",
+      "date": "2026-03-03T22:34:27Z",
+      "summary": "Read this story in English here. A fin de lograr el objetivo nacional de llevar astronautas estadounidenses a la superficie de la Luna y mantener la superioridad de Estados Unidos en exploración y descubrimientos, la NASA anunció el 27 de febrero que aumentará la frecuencia de sus misiones con el programa Artemis, estandarizará la configuración del […]"
+    },
+    {
       "title": "Russia Completes Repairs to Site 31, Next Cargo Launch on March 22",
       "link": "https://spacepolicyonline.com/news/russia-completes-repairs-to-site-31-next-cargo-launch-on-march-22/",
       "source": "SpacePolicyOnline.com",
@@ -27,14 +34,7 @@
       "source": "Spaceflight Now",
       "date": "2026-03-03T21:18:24Z",
       "summary": "The Starlink 10-40 mission includes the 600th Starlink satellite launched so far in 2026. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled during a launch window that opens at 1:58 a.m. EST (0658 UTC). "
-    },
-    {
-      "title": "Artemis II: What’s on the Menu?",
-      "link": "https://www.nasa.gov/missions/artemis/artemis-2/artemis-ii-whats-on-the-menu/",
-      "source": "NASA",
-      "date": "2026-03-03T21:00:25Z",
-      "summary": "The food flying aboard Artemis II is designed to support crew health and performance during the mission around the Moon. With no resupply, refrigeration, or late-load capability, all meals must be carefully selected to remain safe, shelf-stable, and easy to prepare and consume in NASA’s Orion spacecraft. Food selections are developed in coordination with space […]"
     }
   ],
-  "updated": "2026-03-03T22:27:20.927Z"
+  "updated": "2026-03-03T22:44:04.299Z"
 }
