@@ -1,6 +1,27 @@
 {
   "articles": [
     {
+      "title": "Two Observatories, One Cosmic Eye: Hubble and Euclid View Cat’s Eye Nebula",
+      "link": "https://science.nasa.gov/missions/hubble/two-observatories-one-cosmic-eye-hubble-and-euclid-view-cats-eye-nebula/",
+      "source": "NASA",
+      "date": "2026-03-03T14:00:09Z",
+      "summary": "This new NASA/ESA Hubble Space Telescope image features one of the most visually intricate remnants of a dying star: the Cat’s Eye Nebula, also known as NGC 6543. This extraordinary planetary nebula lies in the constellation Draco and has captivated astronomers for decades with its elaborate and multilayered structure. Observations with ESA’s Gaia mission place the nebula at 4,400 light-years away. […]"
+    },
+    {
+      "title": "Hubble & Euclid zoom into cosmic eye",
+      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/03/Hubble_Euclid_zoom_into_cosmic_eye",
+      "source": "ESA",
+      "date": "2026-03-03T14:00:00Z",
+      "summary": "This video takes the viewer on a journey through space to one of the most visually remnants of a dying star: the Cat’s Eye Nebula, also known as NGC 6543."
+    },
+    {
+      "title": "Hubble & Euclid zoom into cosmic eye",
+      "link": "https://www.esa.int/Science_Exploration/Space_Science/Hubble_Euclid_zoom_into_cosmic_eye",
+      "source": "ESA",
+      "date": "2026-03-03T14:00:00Z",
+      "summary": "For this month’s ESA/Hubble Picture of the Month, NASA/ESA's Hubble Space Telescope is joined by ESA’s Euclid to create a new view of the most visually intricate remnants of a dying star: the Cat’s Eye Nebula, also known as NGC 6543."
+    },
+    {
       "title": "Redwire unveils new solar array",
       "link": "https://spacenews.com/redwire-unveils-new-solar-array/",
       "source": "SpaceNews",
@@ -13,28 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-03T12:00:00Z",
       "summary": "\nAs satellite communications constellations grow in size and number, they are also competing for a scarce and increasingly valuable resource: spectrum, the bands of radio frequencies that are crucial for communications and broadband service — and for tracking weather. The pace is intensifying as companies race to expand global communications networks, raising alarms at some […]\nThe post Spectrum showdown appeared first on SpaceNews."
-    },
-    {
-      "title": "Antarctica retreat study signals future ice loss",
-      "link": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1/Antarctica_retreat_study_signals_future_ice_loss",
-      "source": "ESA",
-      "date": "2026-03-03T08:25:00Z",
-      "summary": "The ice along Antarctica’s ‘grounding lines’ has been largely stable over the past 30 years – but ice has retreated by more than 40 km in some areas, a new study based on satellite data finds."
-    },
-    {
-      "title": "Self-repairing spacecraft could change future missions",
-      "link": "https://www.esa.int/Enabling_Support/Space_Transportation/Future_space_transportation/Self-repairing_spacecraft_could_change_future_missions",
-      "source": "ESA",
-      "date": "2026-03-03T07:51:00Z",
-      "summary": "From the ESA Blogs."
-    },
-    {
-      "title": "Smoke Rises Over Big Cypress National Preserve",
-      "link": "https://science.nasa.gov/earth/earth-observatory/smoke-rises-over-big-cypress-national-preserve/",
-      "source": "NASA",
-      "date": "2026-03-03T05:00:00Z",
-      "summary": "The National fire has burned tens of thousands of acres within the Florida preserve, fueled by vegetation dried by prolonged drought and killed by recent frost."
     }
   ],
-  "updated": "2026-03-03T14:05:10.621Z"
+  "updated": "2026-03-03T14:25:13.055Z"
 }
