@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Live coverage: SpaceX to launch 29 Starlink satellites on Falcon 9 rocket from Cape Canaveral",
+      "link": "https://spaceflightnow.com/2026/03/03/live-coverage-spacex-to-launch-29-starlink-satellites-on-falcon-9-rocket-from-cape-canaveral-10/",
+      "source": "Spaceflight Now",
+      "date": "2026-03-03T21:18:24Z",
+      "summary": "The Starlink 10-40 mission includes the 600th Starlink satellite launched so far in 2026. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled during a launch window that opens at 1:58 a.m. EST (0658 UTC). "
+    },
+    {
       "title": "Artemis II: What’s on the Menu?",
       "link": "https://www.nasa.gov/missions/artemis/artemis-2/artemis-ii-whats-on-the-menu/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-03T16:00:00Z",
       "summary": "\nA lesson from private equity investing in defense and space technology is that while the sector has become trendy among investors, success in the long run depends on sustained government engagement\nThe post When space is hot, Washington holds a match appeared first on SpaceNews."
-    },
-    {
-      "title": "As Moon interest heats up, two companies unveil plans for a lunar \"harvester\"",
-      "link": "https://arstechnica.com/space/2026/03/as-moon-interest-heats-up-two-companies-unveil-plans-for-a-lunar-harvester/",
-      "source": "Arstechnica",
-      "date": "2026-03-03T15:00:21Z",
-      "summary": "\"Ultimately, we want to build a fleet of electric harvesters.\""
     }
   ],
-  "updated": "2026-03-03T21:09:18.521Z"
+  "updated": "2026-03-03T21:22:24.734Z"
 }
