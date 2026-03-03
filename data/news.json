@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA Strengthens Artemis: Adds Mission, Refines Overall Architecture",
+      "link": "https://www.nasa.gov/directorates/esdmd/nasa-strengthens-artemis-adds-mission-refines-overall-architecture/",
+      "source": "NASA",
+      "date": "2026-03-03T21:50:18Z",
+      "summary": "To achieve the national goal of landing American astronauts on the surface of the Moon and maintaining U.S. superiority in exploration and discovery, NASA announced Feb. 27 it is increasing its cadence of missions under the Artemis program, standardizing the SLS (Space Launch System) rocket configuration, and adding a new mission. The plans were shared […]"
+    },
+    {
       "title": "Live coverage: SpaceX to launch 29 Starlink satellites on Falcon 9 rocket from Cape Canaveral",
       "link": "https://spaceflightnow.com/2026/03/03/live-coverage-spacex-to-launch-29-starlink-satellites-on-falcon-9-rocket-from-cape-canaveral-10/",
       "source": "Spaceflight Now",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-03T18:29:23Z",
       "summary": "NASA’s Glenn Research Center is seeking proposals to lease select land parcels at its Neil Armstrong Test Facility in Sandusky, Ohio. Proposals are due by 5 p.m. EST on July 2, 2026. The parcels are part of an area of land that currently serves as a buffer for ongoing NASA operations. The solicitation includes the […]"
-    },
-    {
-      "title": "When space is hot, Washington holds a match",
-      "link": "https://spacenews.com/when-space-is-hot-washington-holds-a-match/",
-      "source": "SpaceNews",
-      "date": "2026-03-03T16:00:00Z",
-      "summary": "\nA lesson from private equity investing in defense and space technology is that while the sector has become trendy among investors, success in the long run depends on sustained government engagement\nThe post When space is hot, Washington holds a match appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-03T21:39:03.778Z"
+  "updated": "2026-03-03T21:52:13.005Z"
 }
