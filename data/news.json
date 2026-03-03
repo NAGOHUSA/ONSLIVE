@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Curiosity Blog, Sols 4818-4824: Thinking Out of the Boxwork",
+      "link": "https://science.nasa.gov/blog/curiosity-blog-sols-4818-4824-thinking-out-of-the-boxwork/",
+      "source": "NASA",
+      "date": "2026-03-03T18:40:37Z",
+      "summary": "Written by Ashley Stroupe, Operations Systems Engineer at NASA’s Jet Propulsion Laboratory Earth planning date: Friday, Feb. 27, 2026 This week we had three planning sessions, exploring the eastern side of the boxwork unit. As a Rover Planner on Monday, I worked on the arm and drive activities, while on Friday I served as the […]"
+    },
+    {
       "title": "NASA Invites Proposals to Lease Land Parcels at Sandusky Facility",
       "link": "https://www.nasa.gov/news-release/nasa-invites-land-lease-proposals/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-03T14:00:09Z",
       "summary": "This new NASA/ESA Hubble Space Telescope image features one of the most visually intricate remnants of a dying star: the Cat’s Eye Nebula, also known as NGC 6543. This extraordinary planetary nebula lies in the constellation Draco and has captivated astronomers for decades with its elaborate and multilayered structure. Observations with ESA’s Gaia mission place the nebula at 4,400 light-years away. […]"
-    },
-    {
-      "title": "Hubble & Euclid zoom into cosmic eye",
-      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/03/Hubble_Euclid_zoom_into_cosmic_eye",
-      "source": "ESA",
-      "date": "2026-03-03T14:00:00Z",
-      "summary": "This video takes the viewer on a journey through space to one of the most visually remnants of a dying star: the Cat’s Eye Nebula, also known as NGC 6543."
     }
   ],
-  "updated": "2026-03-03T19:08:31.431Z"
+  "updated": "2026-03-03T19:27:42.282Z"
 }
