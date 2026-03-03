@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Starship Flight 12: Ship 39 moving through preflight test objectives",
+      "link": "https://www.nasaspaceflight.com/2026/03/ship-39-preflight-test-objectives/",
+      "source": "NASASpaceflight",
+      "date": "2026-03-03T23:15:14Z",
+      "summary": "Progress on the path to Flight 12 continues to be focused on testing at Massey’s…\nThe post Starship Flight 12: Ship 39 moving through preflight test objectives appeared first on NASASpaceFlight.com."
+    },
+    {
       "title": "La NASA refuerza Artemis: añade una misión y perfecciona su arquitectura general",
       "link": "https://www.nasa.gov/missions/artemis/la-nasa-refuerza-artemis-anade-una-mision-y-perfecciona-su-arquitectura-general/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-03T21:50:18Z",
       "summary": "To achieve the national goal of landing American astronauts on the surface of the Moon and maintaining U.S. superiority in exploration and discovery, NASA announced Feb. 27 it is increasing its cadence of missions under the Artemis program, standardizing the SLS (Space Launch System) rocket configuration, and adding a new mission. The plans were shared […]"
-    },
-    {
-      "title": "Live coverage: SpaceX to launch 29 Starlink satellites on Falcon 9 rocket from Cape Canaveral",
-      "link": "https://spaceflightnow.com/2026/03/03/live-coverage-spacex-to-launch-29-starlink-satellites-on-falcon-9-rocket-from-cape-canaveral-10/",
-      "source": "Spaceflight Now",
-      "date": "2026-03-03T21:18:24Z",
-      "summary": "The Starlink 10-40 mission includes the 600th Starlink satellite launched so far in 2026. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled during a launch window that opens at 1:58 a.m. EST (0658 UTC). "
     }
   ],
-  "updated": "2026-03-03T23:14:46.646Z"
+  "updated": "2026-03-03T23:28:25.480Z"
 }
