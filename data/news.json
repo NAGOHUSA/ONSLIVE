@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA Invites Proposals to Lease Land Parcels at Sandusky Facility",
+      "link": "https://www.nasa.gov/news-release/nasa-invites-land-lease-proposals/",
+      "source": "NASA",
+      "date": "2026-03-03T18:29:23Z",
+      "summary": "NASA’s Glenn Research Center is seeking proposals to lease select land parcels at its Neil Armstrong Test Facility in Sandusky, Ohio. Proposals are due by 5 p.m. EST on July 2, 2026. The parcels are part of an area of land that currently serves as a buffer for ongoing NASA operations. The solicitation includes the […]"
+    },
+    {
       "title": "When space is hot, Washington holds a match",
       "link": "https://spacenews.com/when-space-is-hot-washington-holds-a-match/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "ESA",
       "date": "2026-03-03T14:00:00Z",
       "summary": "This video takes the viewer on a journey through space to one of the most visually remnants of a dying star: the Cat’s Eye Nebula, also known as NGC 6543."
-    },
-    {
-      "title": "Hubble & Euclid zoom into cosmic eye",
-      "link": "https://www.esa.int/Science_Exploration/Space_Science/Hubble_Euclid_zoom_into_cosmic_eye",
-      "source": "ESA",
-      "date": "2026-03-03T14:00:00Z",
-      "summary": "For this month’s ESA/Hubble Picture of the Month, NASA/ESA's Hubble Space Telescope is joined by ESA’s Euclid to create a new view of the most visually intricate remnants of a dying star: the Cat’s Eye Nebula, also known as NGC 6543."
     }
   ],
-  "updated": "2026-03-03T18:24:59.708Z"
+  "updated": "2026-03-03T18:44:16.685Z"
 }
