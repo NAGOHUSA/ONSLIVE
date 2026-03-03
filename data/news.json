@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "When space is hot, Washington holds a match",
+      "link": "https://spacenews.com/when-space-is-hot-washington-holds-a-match/",
+      "source": "SpaceNews",
+      "date": "2026-03-03T16:00:00Z",
+      "summary": "\nA lesson from private equity investing in defense and space technology is that while the sector has become trendy among investors, success in the long run depends on sustained government engagement\nThe post When space is hot, Washington holds a match appeared first on SpaceNews."
+    },
+    {
       "title": "As Moon interest heats up, two companies unveil plans for a lunar \"harvester\"",
       "link": "https://arstechnica.com/space/2026/03/as-moon-interest-heats-up-two-companies-unveil-plans-for-a-lunar-harvester/",
       "source": "Arstechnica",
@@ -27,14 +34,7 @@
       "source": "ESA",
       "date": "2026-03-03T14:00:00Z",
       "summary": "For this month’s ESA/Hubble Picture of the Month, NASA/ESA's Hubble Space Telescope is joined by ESA’s Euclid to create a new view of the most visually intricate remnants of a dying star: the Cat’s Eye Nebula, also known as NGC 6543."
-    },
-    {
-      "title": "Redwire unveils new solar array",
-      "link": "https://spacenews.com/redwire-unveils-new-solar-array/",
-      "source": "SpaceNews",
-      "date": "2026-03-03T12:50:51Z",
-      "summary": "\nRedwire has introduced a new solar array product designed for mass-produced satellites that require high performance while minimizing mass.\nThe post Redwire unveils new solar array appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-03T15:50:52.358Z"
+  "updated": "2026-03-03T16:07:25.802Z"
 }
