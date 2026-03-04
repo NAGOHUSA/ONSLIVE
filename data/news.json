@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "NASA, OPM Launch NASA Force to Recruit Top Talent for US Space Program",
+      "link": "https://www.nasa.gov/news-release/nasa-opm-launch-nasa-force-to-recruit-top-talent-for-us-space-program/",
+      "source": "NASA",
+      "date": "2026-03-04T16:17:19Z",
+      "summary": "The U.S. Office of Personnel Management (OPM) and NASA announced NASA Force on Wednesday, a dedicated talent track within the US Tech Force initiative designed to recruit and deploy the nation’s top engineers and technologists to support America’s space program. NASA Force will identify and place high-impact technical talent into mission-critical roles supporting NASA’s exploration, […]"
+    },
+    {
+      "title": "US-French Satellite Takes Stock of World’s River Water",
+      "link": "https://www.nasa.gov/earth/us-french-satellite-takes-stock-of-worlds-river-water/",
+      "source": "NASA",
+      "date": "2026-03-04T16:12:55Z",
+      "summary": "Rivers rise and fall throughout the year, but by how much? Perhaps less than previously thought, according to new data from the SWOT mission. Hidden riverbed contours are also emerging. In a first, a space mission led by NASA and France has tracked Earth’s rivers swelling and shrinking from month to month over the course […]"
+    },
+    {
       "title": "Return of the (space) SPAC",
       "link": "https://spacenews.com/return-of-the-space-spac/",
       "source": "SpaceNews",
@@ -20,21 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-04T12:58:54Z",
       "summary": "Workers have completed repairs to the helium pressurization system in the upper stage of the Space Launch System, keeping a potential April launch of the Artemis 2 mission on track.\r\nThe post SLS upper stage helium flow problem fixed appeared first on SpaceNews."
-    },
-    {
-      "title": "Blue Origin’s surprise TeraWave constellation jolts LEO broadband race",
-      "link": "https://spacenews.com/blue-origins-surprise-terawave-constellation-jolts-leo-broadband-race/",
-      "source": "SpaceNews",
-      "date": "2026-03-04T12:00:00Z",
-      "summary": "\nBlue Origin, the rocket company founded by Jeff Bezos, is preparing to enter one of the most hotly contested arenas in the space industry: global broadband from low Earth orbit (LEO). In a regulatory filing that caught many in the industry off guard, Blue Origin set forth plans for a network called TeraWave comprising more […]\nThe post Blue Origin’s surprise TeraWave constellation jolts LEO broadband race appeared first on SpaceNews."
-    },
-    {
-      "title": "Counting craters",
-      "link": "https://www.esa.int/Science_Exploration/Space_Science/Mars_Express/Counting_craters",
-      "source": "ESA",
-      "date": "2026-03-04T10:00:00Z",
-      "summary": "Craters, craters, and yet more craters: this snapshot from ESA’s Mars Express is packed full of them, each as fascinating as the last."
     }
   ],
-  "updated": "2026-03-04T16:16:23.940Z"
+  "updated": "2026-03-04T16:33:14.405Z"
 }
