@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "House Science Committee leaders criticize FCC rulemaking on space safety",
+      "link": "https://spacenews.com/house-science-committee-leaders-criticize-fcc-rulemaking-on-space-safety/",
+      "source": "SpaceNews",
+      "date": "2026-03-04T00:32:34Z",
+      "summary": "\nThe leaders of the House Science Committee say the FCC is overstepping its authority with parts of a space licensing rulemaking.\nThe post House Science Committee leaders criticize FCC rulemaking on space safety appeared first on SpaceNews."
+    },
+    {
       "title": "Starship Flight 12: Ship 39 moving through preflight test objectives",
       "link": "https://www.nasaspaceflight.com/2026/03/ship-39-preflight-test-objectives/",
       "source": "NASASpaceflight",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-03T21:59:55Z",
       "summary": "\nNew training for program managers shifting focus from hardware buys to integrated warfighting systems\nThe post Space Force modernization push runs into acquisition workforce shortfall appeared first on SpaceNews."
-    },
-    {
-      "title": "NASA Strengthens Artemis: Adds Mission, Refines Overall Architecture",
-      "link": "https://www.nasa.gov/directorates/esdmd/nasa-strengthens-artemis-adds-mission-refines-overall-architecture/",
-      "source": "NASA",
-      "date": "2026-03-03T21:50:18Z",
-      "summary": "To achieve the national goal of landing American astronauts on the surface of the Moon and maintaining U.S. superiority in exploration and discovery, NASA announced Feb. 27 it is increasing its cadence of missions under the Artemis program, standardizing the SLS (Space Launch System) rocket configuration, and adding a new mission. The plans were shared […]"
     }
   ],
-  "updated": "2026-03-04T00:00:32.907Z"
+  "updated": "2026-03-04T00:46:26.469Z"
 }
