@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "The US Senate empowers NASA to fully engage in lunar space race",
+      "link": "https://arstechnica.com/space/2026/03/the-us-senate-empowers-nasa-to-fully-engage-in-lunar-space-race/",
+      "source": "Arstechnica",
+      "date": "2026-03-04T18:50:26Z",
+      "summary": "\"Our bill authorizes critical funding for, and gives strategic direction to, the agency.\""
+    },
+    {
       "title": "Blowing Stellar Bubbles",
       "link": "https://www.nasa.gov/image-article/blowing-stellar-bubbles/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-04T16:17:19Z",
       "summary": "The U.S. Office of Personnel Management (OPM) and NASA announced NASA Force on Wednesday, a dedicated talent track within the US Tech Force initiative designed to recruit and deploy the nation’s top engineers and technologists to support America’s space program. NASA Force will identify and place high-impact technical talent into mission-critical roles supporting NASA’s exploration, […]"
-    },
-    {
-      "title": "US-French Satellite Takes Stock of World’s River Water",
-      "link": "https://www.nasa.gov/earth/us-french-satellite-takes-stock-of-worlds-river-water/",
-      "source": "NASA",
-      "date": "2026-03-04T16:12:55Z",
-      "summary": "Rivers rise and fall throughout the year, but by how much? Perhaps less than previously thought, according to new data from the SWOT mission. Hidden riverbed contours are also emerging. In a first, a space mission led by NASA and France has tracked Earth’s rivers swelling and shrinking from month to month over the course […]"
     }
   ],
-  "updated": "2026-03-04T18:43:44.387Z"
+  "updated": "2026-03-04T19:05:41.663Z"
 }
