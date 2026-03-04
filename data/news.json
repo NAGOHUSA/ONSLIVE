@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Return of the (space) SPAC",
+      "link": "https://spacenews.com/return-of-the-space-spac/",
+      "source": "SpaceNews",
+      "date": "2026-03-04T16:00:00Z",
+      "summary": "\nFormer investment banker Raphael Roettgen had to abandon a space-focused special purpose acquisition company in 2022 as hype around mergers with blank-check shell companies turned radioactive. Four years later, he’s back after helping raise more than $200 million to take a private space company public. SPACs raise cash on the stock market and then use […]\nThe post Return of the (space) SPAC appeared first on SpaceNews."
+    },
+    {
       "title": "Reliable space rescue is a prerequisite for continued economic opportunity in space and we have a long way to go",
       "link": "https://spacenews.com/reliable-space-rescue-is-a-prerequisite-for-continued-economic-opportunity-in-space-and-we-have-a-long-way-to-go/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "ESA",
       "date": "2026-03-04T10:00:00Z",
       "summary": "Craters, craters, and yet more craters: this snapshot from ESA’s Mars Express is packed full of them, each as fascinating as the last."
-    },
-    {
-      "title": "Spain’s PLD Space Raises €180 Million in Series C Funding",
-      "link": "https://europeanspaceflight.com/spains-pld-space-raises-e180-million-in-series-c-funding/",
-      "source": "European Spaceflight",
-      "date": "2026-03-04T07:20:59Z",
-      "summary": "Spanish rocket builder PLD Space has closed a €180 million Series C funding round led by Japanese satellite manufacturer Mitsubishi Electric Corporation, which has also committed to becoming a strategic customer. The company plans to use the funding to ramp up production capacity as it prepares for the inaugural flight of its MIURA 5 rocket […]\nThe post Spain’s PLD Space Raises €180 Million in Series C Funding appeared first on European Spaceflight."
     }
   ],
-  "updated": "2026-03-04T15:57:50.247Z"
+  "updated": "2026-03-04T16:16:23.940Z"
 }
