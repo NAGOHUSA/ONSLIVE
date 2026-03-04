@@ -1,6 +1,27 @@
 {
   "articles": [
     {
+      "title": "Blowing Stellar Bubbles",
+      "link": "https://www.nasa.gov/image-article/blowing-stellar-bubbles/",
+      "source": "NASA",
+      "date": "2026-03-04T16:34:38Z",
+      "summary": "For the first time, a young, Sun-like star has been caught red-handed blowing bubbles in the galaxy, by astronomers using NASA’s Chandra X-ray Observatory. The bubble – called an “astrosphere” – completely surrounds the juvenile star in this image released on Feb. 23, 2026. Winds from the star’s surface are blowing up the bubble and […]"
+    },
+    {
+      "title": "I Am Artemis: Paul Boehm",
+      "link": "https://www.nasa.gov/missions/artemis/i-am-artemis/i-am-artemis-paul-boehm/",
+      "source": "NASA",
+      "date": "2026-03-04T16:31:50Z",
+      "summary": "Listen to this audio excerpt from Paul Boehm, Orion crew support and thermal systems functional area manager: As the Artemis II astronauts fly around the Moon, they’ll rely on systems inside the Orion spacecraft to live, work, and keep them safe during their mission. At NASA’s Johnson Space Center in Houston, Paul Boehm, crew support and […]"
+    },
+    {
+      "title": "Mutable Tactics raises $2.1 million for AI drone coordination in satellite-denied environments",
+      "link": "https://spacenews.com/mutable-tactics-raises-2-1-million-for-ai-drone-coordination-in-satellite-denied-environments/",
+      "source": "SpaceNews",
+      "date": "2026-03-04T16:31:01Z",
+      "summary": "\nBritish startup Mutable Tactics has raised $2.1 million in pre-seed funding to develop AI software enabling groups of military drones to operate autonomously, even when satellite navigation and communications are disrupted.\nThe post Mutable Tactics raises $2.1 million for AI drone coordination in satellite-denied environments appeared first on SpaceNews."
+    },
+    {
       "title": "NASA, OPM Launch NASA Force to Recruit Top Talent for US Space Program",
       "link": "https://www.nasa.gov/news-release/nasa-opm-launch-nasa-force-to-recruit-top-talent-for-us-space-program/",
       "source": "NASA",
@@ -13,28 +34,7 @@
       "source": "NASA",
       "date": "2026-03-04T16:12:55Z",
       "summary": "Rivers rise and fall throughout the year, but by how much? Perhaps less than previously thought, according to new data from the SWOT mission. Hidden riverbed contours are also emerging. In a first, a space mission led by NASA and France has tracked Earth’s rivers swelling and shrinking from month to month over the course […]"
-    },
-    {
-      "title": "Return of the (space) SPAC",
-      "link": "https://spacenews.com/return-of-the-space-spac/",
-      "source": "SpaceNews",
-      "date": "2026-03-04T16:00:00Z",
-      "summary": "\nFormer investment banker Raphael Roettgen had to abandon a space-focused special purpose acquisition company in 2022 as hype around mergers with blank-check shell companies turned radioactive. Four years later, he’s back after helping raise more than $200 million to take a private space company public. SPACs raise cash on the stock market and then use […]\nThe post Return of the (space) SPAC appeared first on SpaceNews."
-    },
-    {
-      "title": "Reliable space rescue is a prerequisite for continued economic opportunity in space and we have a long way to go",
-      "link": "https://spacenews.com/reliable-space-rescue-is-a-prerequisite-for-continued-economic-opportunity-in-space-and-we-have-a-long-way-to-go/",
-      "source": "SpaceNews",
-      "date": "2026-03-04T14:00:00Z",
-      "summary": "\nOn January 15, 2026, a collective cheer coincided with relief as four astronauts from SpaceX Crew 11 were safely returned to Earth from the International Space Station (ISS). The evacuation came after a crew member experienced a medical emergency that left them in stable condition but in need of terrestrial medical care. The successful return […]\nThe post Reliable space rescue is a prerequisite for continued economic opportunity in space and we have a long way to go appeared first on SpaceNews."
-    },
-    {
-      "title": "SLS upper stage helium flow problem fixed",
-      "link": "https://spacenews.com/sls-upper-stage-helium-flow-problem-fixed/",
-      "source": "SpaceNews",
-      "date": "2026-03-04T12:58:54Z",
-      "summary": "Workers have completed repairs to the helium pressurization system in the upper stage of the Space Launch System, keeping a potential April launch of the Artemis 2 mission on track.\r\nThe post SLS upper stage helium flow problem fixed appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-04T16:33:14.405Z"
+  "updated": "2026-03-04T16:55:04.631Z"
 }
