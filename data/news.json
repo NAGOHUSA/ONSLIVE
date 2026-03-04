@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Isaacman’s “NASA Force” Envisions Term-Limited Industry Positions in NASA",
+      "link": "https://spacepolicyonline.com/news/isaacmans-nasa-force-envisions-term-limited-industry-positions-in-nasa/",
+      "source": "SpacePolicyOnline.com",
+      "date": "2026-03-04T04:49:00Z",
+      "summary": "Four weeks after announcing that he wants to restore NASA’s core competencies, NASA Administrator Jared Isaacman said today that includes recruiting “technical talent” from industry to join the agency for […]"
+    },
+    {
       "title": "House Science Committee leaders criticize FCC rulemaking on space safety",
       "link": "https://spacenews.com/house-science-committee-leaders-criticize-fcc-rulemaking-on-space-safety/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpacePolicyOnline.com",
       "date": "2026-03-03T22:17:55Z",
       "summary": "Russia has completed repairs to Site 31, the launch pad at the Baikonur Cosmodrome used for sending crews and cargo to the International Space Station. A structure that supports the […]"
-    },
-    {
-      "title": "Space Force modernization push runs into acquisition workforce shortfall",
-      "link": "https://spacenews.com/space-force-modernization-push-runs-into-acquisition-workforce-shortfall/",
-      "source": "SpaceNews",
-      "date": "2026-03-03T21:59:55Z",
-      "summary": "\nNew training for program managers shifting focus from hardware buys to integrated warfighting systems\nThe post Space Force modernization push runs into acquisition workforce shortfall appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-04T04:27:23.401Z"
+  "updated": "2026-03-04T04:57:40.478Z"
 }
