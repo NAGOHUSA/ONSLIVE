@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Spain’s PLD Space Raises €180 Million in Series C Funding",
+      "link": "https://europeanspaceflight.com/spains-pld-space-raises-e180-million-in-series-c-funding/",
+      "source": "European Spaceflight",
+      "date": "2026-03-04T07:20:59Z",
+      "summary": "Spanish rocket builder PLD Space has closed a €180 million Series C funding round led by Japanese satellite manufacturer Mitsubishi Electric Corporation, which has also committed to becoming a strategic customer. The company plans to use the funding to ramp up production capacity as it prepares for the inaugural flight of its MIURA 5 rocket […]\nThe post Spain’s PLD Space Raises €180 Million in Series C Funding appeared first on European Spaceflight."
+    },
+    {
       "title": "PLD Space raises $209 million to shift into serial rocket production",
       "link": "https://spacenews.com/pld-space-raises-209-million-to-shift-into-serial-rocket-production/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-04T00:32:34Z",
       "summary": "\nThe leaders of the House Science Committee say the FCC is overstepping its authority with parts of a space licensing rulemaking.\nThe post House Science Committee leaders criticize FCC rulemaking on space safety appeared first on SpaceNews."
-    },
-    {
-      "title": "Starship Flight 12: Ship 39 moving through preflight test objectives",
-      "link": "https://www.nasaspaceflight.com/2026/03/ship-39-preflight-test-objectives/",
-      "source": "NASASpaceflight",
-      "date": "2026-03-03T23:15:14Z",
-      "summary": "Progress on the path to Flight 12 continues to be focused on testing at Massey’s…\r\nThe post Starship Flight 12: Ship 39 moving through preflight test objectives appeared first on NASASpaceFlight.com."
     }
   ],
-  "updated": "2026-03-04T08:20:32.945Z"
+  "updated": "2026-03-04T08:37:22.098Z"
 }
