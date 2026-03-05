@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Third Kairos launch fails",
+      "link": "https://spacenews.com/third-kairos-launch-fails/",
+      "source": "SpaceNews",
+      "date": "2026-03-05T03:26:48Z",
+      "summary": "\nThe third launch of a small launch vehicle developed by a Japanese company failed shortly after liftoff March 4, raising questions about the rocket’s future.\nThe post Third Kairos launch fails appeared first on SpaceNews."
+    },
+    {
       "title": "Spanish launch startup PLD Space raises $209 million to scale its rocket production",
       "link": "https://spaceflightnow.com/2026/03/05/spanish-launch-startup-pld-space-raises-209-million-to-scale-its-rocket-production/",
       "source": "Spaceflight Now",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-04T23:18:20Z",
       "summary": "\nCanadian telco Telus has agreed to take a stake in AST SpaceMobile and invest in ground infrastructure needed to connect subscribers to the operator’s planned direct-to-smartphone constellation.\nThe post Telus invests in AST SpaceMobile to expand D2D coverage in Canada appeared first on SpaceNews."
-    },
-    {
-      "title": "Space Force presses case for more personnel and training",
-      "link": "https://spacenews.com/space-force-presses-case-for-more-personnel-and-training/",
-      "source": "SpaceNews",
-      "date": "2026-03-04T23:06:12Z",
-      "summary": "\nAt Senate Armed Services subcommittee hearing, Vice Chief Bratton said Space Force ‘must aggressively increase its end strength and infrastructure’\nThe post Space Force presses case for more personnel and training appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-05T03:09:02.387Z"
+  "updated": "2026-03-05T03:57:50.304Z"
 }
