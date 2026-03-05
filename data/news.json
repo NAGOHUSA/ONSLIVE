@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Preparing first Ariane 6 with four boosters and liftoff",
+      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/03/Preparing_first_Ariane_6_with_four_boosters_and_liftoff",
+      "source": "ESA",
+      "date": "2026-03-05T15:00:00Z",
+      "summary": "Timelapse showing the steps to build the most powerful version of Europe’s Ariane 6 rocket on the launch pad at Europe’s Spaceport in French Guiana."
+    },
+    {
       "title": "Unlocking AI in space: the case for greater industry and space agency collaboration",
       "link": "https://spacenews.com/unlocking-ai-in-space-the-case-for-greater-industry-and-space-agency-collaboration/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-05T13:00:00Z",
       "summary": "\nInvestment comes as company shifts toward national security programs\nThe post Sierra Space raises $550 million in Series C funding appeared first on SpaceNews."
-    },
-    {
-      "title": "Jared Isaacman on rebuilding, Artemis and what he’s learned during his first months as NASA administrator",
-      "link": "https://spacenews.com/jared-isaacman-on-rebuilding-artemis-and-what-hes-learned-during-his-first-months-as-nasa-administrator/",
-      "source": "SpaceNews",
-      "date": "2026-03-05T12:00:00Z",
-      "summary": "\nWhen Jared Isaacman was sworn in as NASA administrator Dec. 18, he hit the ground running — or, perhaps more accurately, hit the air flying. At a town hall the next day, he said he would visit all the agency’s field centers, a task he completed by late January. In some cases he showed up […]\nThe post Jared Isaacman on rebuilding, Artemis and what he’s learned during his first months as NASA administrator appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-05T15:05:40.256Z"
+  "updated": "2026-03-05T15:28:10.896Z"
 }
