@@ -1,6 +1,27 @@
 {
   "articles": [
     {
+      "title": "Biosafety Review Board (BRB)",
+      "link": "https://www.nasa.gov/directorates/esdmd/hhp/biosafety-review-board-brb/",
+      "source": "NASA",
+      "date": "2026-03-05T15:59:07Z",
+      "summary": "The mission of the Biosafety Review Board (BRB) is to identify, evaluate, control and prevent biological hazards in conformance with NASA, federal and international health and safety regulations. The BRB includes a team of microbiologists, cell biologists, physicians, industrial hygienists, and occupational health professionals to assess the wide range of biohazardous materials encountered. Biohazardous materials may consist of bacteria, fungi, viruses, […]"
+    },
+    {
+      "title": "Asteroid 2024 YR4 will not impact the Moon",
+      "link": "https://www.esa.int/Space_Safety/Planetary_Defence/Asteroid_2024_YR4_will_not_impact_the_Moon",
+      "source": "ESA",
+      "date": "2026-03-05T15:50:00Z",
+      "summary": "Last year, an approximately 60 metre near-Earth object captured global attention. For a brief period, asteroid 2024 YR4 became the most dangerous asteroid discovered in the last 20 years. While an Earth impact was soon ruled out, the asteroid faded from view with a lingering 4% chance of striking the Moon on 22 December 2032."
+    },
+    {
+      "title": "Texas as a strategic space hub",
+      "link": "https://spacenews.com/texas-as-a-strategic-space-hub/",
+      "source": "SpaceNews",
+      "date": "2026-03-05T15:41:59Z",
+      "summary": "\nIn this episode of Space Minds, Jeff Foust moderates a panel at AIAA AscendxTexas on the role Texas is playing in the space economy. With a series of industry leaders they […]\nThe post Texas as a strategic space hub appeared first on SpaceNews."
+    },
+    {
       "title": "Preparing first Ariane 6 with four boosters and liftoff",
       "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/03/Preparing_first_Ariane_6_with_four_boosters_and_liftoff",
       "source": "ESA",
@@ -13,28 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-05T14:00:00Z",
       "summary": "\nFor decades, space has served as humanity’s most demanding testing laboratory, where only the most resilient technologies survive the vacuum, radiation and temperature extremes beyond Earth’s protective embrace. Today, we stand at an inflection point where artificial intelligence is poised to fundamentally transform how we explore, understand and operate in space. But making AI-powered space […]\nThe post Unlocking AI in space: the case for greater industry and space agency collaboration appeared first on SpaceNews."
-    },
-    {
-      "title": "UK announces £500 million package for industrial growth and national security",
-      "link": "https://spacenews.com/uk-announces-500-million-package-for-industrial-growth-and-national-security/",
-      "source": "SpaceNews",
-      "date": "2026-03-05T13:28:47Z",
-      "summary": "\nLONDON – The United Kingdom is refocusing its funding priorities with a new 500 million pound ($668 million) space funding package that aligns more closely with economic growth and national security priorities, Liz Lloyd, the UK minister for the Digital Economy at the Department for Science, Innovation and Technology, said March 4. Speaking here at […]\nThe post UK announces £500 million package for industrial growth and national security appeared first on SpaceNews."
-    },
-    {
-      "title": "Vast raises $500 million for commercial space station development",
-      "link": "https://spacenews.com/vast-raises-500-million-for-commercial-space-station-development/",
-      "source": "SpaceNews",
-      "date": "2026-03-05T13:01:00Z",
-      "summary": "\nCommercial space station developer Vast has raised $500 million in its first significant outside investment round.\nThe post Vast raises $500 million for commercial space station development appeared first on SpaceNews."
-    },
-    {
-      "title": "Sierra Space raises $550 million in Series C funding",
-      "link": "https://spacenews.com/sierra-space-raises-550-million-in-series-c-funding/",
-      "source": "SpaceNews",
-      "date": "2026-03-05T13:00:00Z",
-      "summary": "\nInvestment comes as company shifts toward national security programs\nThe post Sierra Space raises $550 million in Series C funding appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-05T15:49:31.645Z"
+  "updated": "2026-03-05T16:08:10.012Z"
 }
