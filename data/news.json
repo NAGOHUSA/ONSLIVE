@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Infinite Orbits acquires UK startup Lunasa to expand satellite servicing capabilities",
+      "link": "https://spacenews.com/infinite-orbits-acquires-uk-startup-lunasa-to-expand-satellite-servicing-capabilities/",
+      "source": "SpaceNews",
+      "date": "2026-03-05T19:19:48Z",
+      "summary": "\nLONDON – In-orbit services provider Infinite Orbits announced plans March 3 to acquireLondon-based in-orbit servicing and manufacturing startup Lunasa, marking a step in the company’s expansion into the United Kingdom.  The acquisition, the value of which the companies didn’t disclose, will bring together the Infinite Orbits’ and Lunasa’s investments into complementary spacecraft rendezvous and life […]\nThe post Infinite Orbits acquires UK startup Lunasa to expand satellite servicing capabilities appeared first on SpaceNews."
+    },
+    {
       "title": "Congress steps up pressure on NASA to support private space stations",
       "link": "https://arstechnica.com/space/2026/03/congress-steps-up-pressure-on-nasa-to-support-private-space-stations/",
       "source": "Arstechnica",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-05T16:27:19Z",
       "summary": "The Moon appears red during a total lunar eclipse over New Orleans, home of NASA’s Michoud Assembly Facility, on March 3, 2026. This “blood moon” occurs during a total lunar eclipse, as Earth lines up between the Moon and the Sun. When this happens, the only light that reaches the Moon’s surface is from the edges […]"
-    },
-    {
-      "title": "Biosafety Review Board (BRB)",
-      "link": "https://www.nasa.gov/directorates/esdmd/hhp/biosafety-review-board-brb/",
-      "source": "NASA",
-      "date": "2026-03-05T15:59:07Z",
-      "summary": "The mission of the Biosafety Review Board (BRB) is to identify, evaluate, control and prevent biological hazards in conformance with NASA, federal and international health and safety regulations. The BRB includes a team of microbiologists, cell biologists, physicians, industrial hygienists, and occupational health professionals to assess the wide range of biohazardous materials encountered. Biohazardous materials may consist of bacteria, fungi, viruses, […]"
     }
   ],
-  "updated": "2026-03-05T18:52:53.887Z"
+  "updated": "2026-03-05T19:23:13.144Z"
 }
