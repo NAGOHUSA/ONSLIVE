@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Spanish launch startup PLD Space raises $209 million to scale its rocket production",
+      "link": "https://spaceflightnow.com/2026/03/05/spanish-launch-startup-pld-space-raises-209-million-to-scale-its-rocket-production/",
+      "source": "Spaceflight Now",
+      "date": "2026-03-05T01:07:07Z",
+      "summary": "This Series C funding was led by Mitsubishi Electric Corporation, which invested €50 million ($58 million). To date, PLD Space raised more than €350 million ($407 million). "
+    },
+    {
+      "title": "High-Speed Flight Project Overview",
+      "link": "https://www.nasa.gov/directorates/armd/aavp/hsf/high-speed-flight-project-overview/",
+      "source": "NASA",
+      "date": "2026-03-05T01:05:42Z",
+      "summary": "What We do The High-Speed Flight (HSF) project develops technologies that make high-speed, airbreathing, commercial flight possible from Mach 1 to Mach 5 and above. HSF creates tools, technologies, and knowledge that will help eliminate today’s technical barriers to practical supersonic flight, most notably sonic boom. The project supports the X-59 quiet supersonic vehicle testing […]"
+    },
+    {
       "title": "Senate committee advances NASA authorization bill that changes Artemis and extends ISS",
       "link": "https://spacenews.com/senate-committee-advances-nasa-authorization-bill-that-changes-artemis-and-extends-iss/",
       "source": "SpaceNews",
@@ -20,21 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-04T23:06:12Z",
       "summary": "\nAt Senate Armed Services subcommittee hearing, Vice Chief Bratton said Space Force ‘must aggressively increase its end strength and infrastructure’\nThe post Space Force presses case for more personnel and training appeared first on SpaceNews."
-    },
-    {
-      "title": "China to test capsule further, attempt booster recoveries on land and sea",
-      "link": "https://www.nasaspaceflight.com/2026/03/china-roundup-202603/",
-      "source": "NASASpaceflight",
-      "date": "2026-03-04T20:44:14Z",
-      "summary": "China is set to perform additional testing of its Mengzhou crew capsule following a successful…\nThe post China to test capsule further, attempt booster recoveries on land and sea appeared first on NASASpaceFlight.com."
-    },
-    {
-      "title": "About Advanced Air Vehicles Program (AAVP)",
-      "link": "https://www.nasa.gov/directorates/armd/aavp/about-aavp/",
-      "source": "NASA",
-      "date": "2026-03-04T19:00:00Z",
-      "summary": "NASA’s Advanced Air Vehicles Program (AAVP) studies, evaluates, and develops technologies and capabilities for new aircraft systems and explores far-future concepts for revolutionary air travel improvements. AAVP develops technologies for all flight regimes from hover to hypersonic to enable safe, new aircraft that are faster, quieter, and more fuel efficient. AAVP develops a broad range […]"
     }
   ],
-  "updated": "2026-03-05T00:48:15.013Z"
+  "updated": "2026-03-05T01:20:14.226Z"
 }
