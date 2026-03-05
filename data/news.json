@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Vast raises $500 million for commercial space station development",
+      "link": "https://spacenews.com/vast-raises-500-million-for-commercial-space-station-development/",
+      "source": "SpaceNews",
+      "date": "2026-03-05T13:01:00Z",
+      "summary": "\nCommercial space station developer Vast has raised $500 million in its first significant outside investment round.\nThe post Vast raises $500 million for commercial space station development appeared first on SpaceNews."
+    },
+    {
+      "title": "Sierra Space raises $550 million in Series C funding",
+      "link": "https://spacenews.com/sierra-space-raises-550-million-in-series-c-funding/",
+      "source": "SpaceNews",
+      "date": "2026-03-05T13:00:00Z",
+      "summary": "\nInvestment comes as company shifts toward national security programs\nThe post Sierra Space raises $550 million in Series C funding appeared first on SpaceNews."
+    },
+    {
       "title": "Jared Isaacman on rebuilding, Artemis and what he’s learned during his first months as NASA administrator",
       "link": "https://spacenews.com/jared-isaacman-on-rebuilding-artemis-and-what-hes-learned-during-his-first-months-as-nasa-administrator/",
       "source": "SpaceNews",
@@ -20,21 +34,7 @@
       "source": "ESA",
       "date": "2026-03-05T10:00:00Z",
       "summary": "What happens when a solar superstorm hits Mars? Thanks to the European Space Agency’s Mars orbiters, we now know: glitching spacecraft and a supercharged upper atmosphere."
-    },
-    {
-      "title": "Ancient impact may explain moons contrasting sides",
-      "link": "https://www.spacedaily.com/reports/Ancient_impact_may_explain_moons_contrasting_sides_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-03-05T09:54:43Z",
-      "summary": "Tokyo, Japan (SPX) Mar 05, 2026\n\n\nFor decades scientists have puzzled over why the moons two hemispheres look so different despite sharing a common origin in the early solar system. \n\nThe near side that always faces Earth is dominated by dark flat volcanic plains called maria that create the familiar man in the moon pattern seen with the naked eye. In contrast the far side has a much thicker crust and appears as a rugged hea"
-    },
-    {
-      "title": "Lunar impacts limit late delivery of Earth ocean water",
-      "link": "https://www.spacedaily.com/reports/Lunar_impacts_limit_late_delivery_of_Earth_ocean_water_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-03-05T09:54:43Z",
-      "summary": "Washington DC (SPX) Mar 05, 2026\n\n\nA long-standing idea in planetary science proposes that water rich meteorites arriving late in Earth history delivered a major share of the planet's water inventory. A new study led by researchers at Universities Space Research Association and the University of New Mexico uses the Moon's surface record to impose strict limits on that scenario, concluding that impacts over the last 4 billion year"
     }
   ],
-  "updated": "2026-03-05T12:43:04.487Z"
+  "updated": "2026-03-05T13:10:12.789Z"
 }
