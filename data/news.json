@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Senate Committee Clears New NASA Authorization Bill, Calls for Moon Base",
+      "link": "https://spacepolicyonline.com/news/senate-committee-clears-new-nasa-authorization-bill-calls-for-moon-base/",
+      "source": "SpacePolicyOnline.com",
+      "date": "2026-03-05T04:47:14Z",
+      "summary": "The Senate Commerce, Science, and Transportation Committee approved a new NASA authorization bill today. Among its many provisions, the bill supports recent changes to the Artemis program, directs NASA to […]"
+    },
+    {
       "title": "Third Kairos launch fails",
       "link": "https://spacenews.com/third-kairos-launch-fails/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-05T00:20:44Z",
       "summary": "\nThe Senate Commerce Committee advanced a revised NASA authorization bill that implements some of the changes to Artemis sought by the agency while also extending the life of the ISS\nThe post Senate committee advances NASA authorization bill that changes Artemis and extends ISS appeared first on SpaceNews."
-    },
-    {
-      "title": "Telus invests in AST SpaceMobile to expand D2D coverage in Canada",
-      "link": "https://spacenews.com/telus-invests-in-ast-spacemobile-to-expand-d2d-coverage-in-canada/",
-      "source": "SpaceNews",
-      "date": "2026-03-04T23:18:20Z",
-      "summary": "\nCanadian telco Telus has agreed to take a stake in AST SpaceMobile and invest in ground infrastructure needed to connect subscribers to the operator’s planned direct-to-smartphone constellation.\nThe post Telus invests in AST SpaceMobile to expand D2D coverage in Canada appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-05T04:37:38.418Z"
+  "updated": "2026-03-05T05:06:03.090Z"
 }
