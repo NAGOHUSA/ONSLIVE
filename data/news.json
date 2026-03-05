@@ -1,40 +1,40 @@
 {
   "articles": [
     {
+      "title": "Congress steps up pressure on NASA to support private space stations",
+      "link": "https://arstechnica.com/space/2026/03/congress-steps-up-pressure-on-nasa-to-support-private-space-stations/",
+      "source": "Arstechnica",
+      "date": "2026-03-05T17:45:18Z",
+      "summary": "\"We were happy to see the renewed commitment to transition from the ISS.\""
+    },
+    {
+      "title": "NASA Wallops Supports First Rocket Lab HASTE Launch of 2026",
+      "link": "https://www.nasa.gov/image-article/nasa-wallops-supports-first-rocket-lab-haste-launch-of-2026/",
+      "source": "NASA",
+      "date": "2026-03-05T17:13:49Z",
+      "summary": "NASA’s Wallops Flight Facility supported a Rocket Lab HASTE suborbital launch from the company’s Launch Complex 2 in Virginia on Feb. 27, 2026. The mission, called Cassowary Vex, supported a flight of a hypersonic test platform for the Department of War’s Defense Innovation Unit.  The NASA Wallops launch range supported by providing services such as tracking, telemetry, and range safety […]"
+    },
+    {
+      "title": "Major Artemis Shift Leaves Questions About SLS, Gateway Future",
+      "link": "https://www.spacescout.info/2026/03/major-artemis-shift-leaves-questions-about-sls-gateway-future/",
+      "source": "Space Scout",
+      "date": "2026-03-05T16:39:46Z",
+      "summary": "In a major announcement Friday, 27 February, NASA announced a revision of the Artemis Program architecture. To accommodate the change, the design of the SLS rocket will be significantly reworked."
+    },
+    {
+      "title": "Total Lunar Eclipse",
+      "link": "https://www.nasa.gov/image-article/total-lunar-eclipse/",
+      "source": "NASA",
+      "date": "2026-03-05T16:27:19Z",
+      "summary": "The Moon appears red during a total lunar eclipse over New Orleans, home of NASA’s Michoud Assembly Facility, on March 3, 2026. This “blood moon” occurs during a total lunar eclipse, as Earth lines up between the Moon and the Sun. When this happens, the only light that reaches the Moon’s surface is from the edges […]"
+    },
+    {
       "title": "Biosafety Review Board (BRB)",
       "link": "https://www.nasa.gov/directorates/esdmd/hhp/biosafety-review-board-brb/",
       "source": "NASA",
       "date": "2026-03-05T15:59:07Z",
       "summary": "The mission of the Biosafety Review Board (BRB) is to identify, evaluate, control and prevent biological hazards in conformance with NASA, federal and international health and safety regulations. The BRB includes a team of microbiologists, cell biologists, physicians, industrial hygienists, and occupational health professionals to assess the wide range of biohazardous materials encountered. Biohazardous materials may consist of bacteria, fungi, viruses, […]"
-    },
-    {
-      "title": "Asteroid 2024 YR4 will not impact the Moon",
-      "link": "https://www.esa.int/Space_Safety/Planetary_Defence/Asteroid_2024_YR4_will_not_impact_the_Moon",
-      "source": "ESA",
-      "date": "2026-03-05T15:50:00Z",
-      "summary": "Last year, an approximately 60 metre near-Earth object captured global attention. For a brief period, asteroid 2024 YR4 became the most dangerous asteroid discovered in the last 20 years. While an Earth impact was soon ruled out, the asteroid faded from view with a lingering 4% chance of striking the Moon on 22 December 2032."
-    },
-    {
-      "title": "Texas as a strategic space hub",
-      "link": "https://spacenews.com/texas-as-a-strategic-space-hub/",
-      "source": "SpaceNews",
-      "date": "2026-03-05T15:41:59Z",
-      "summary": "\nIn this episode of Space Minds, Jeff Foust moderates a panel at AIAA AscendxTexas on the role Texas is playing in the space economy. With a series of industry leaders they […]\nThe post Texas as a strategic space hub appeared first on SpaceNews."
-    },
-    {
-      "title": "Preparing first Ariane 6 with four boosters and liftoff",
-      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/03/Preparing_first_Ariane_6_with_four_boosters_and_liftoff",
-      "source": "ESA",
-      "date": "2026-03-05T15:00:00Z",
-      "summary": "Timelapse showing the steps to build the most powerful version of Europe’s Ariane 6 rocket on the launch pad at Europe’s Spaceport in French Guiana."
-    },
-    {
-      "title": "Unlocking AI in space: the case for greater industry and space agency collaboration",
-      "link": "https://spacenews.com/unlocking-ai-in-space-the-case-for-greater-industry-and-space-agency-collaboration/",
-      "source": "SpaceNews",
-      "date": "2026-03-05T14:00:00Z",
-      "summary": "\nFor decades, space has served as humanity’s most demanding testing laboratory, where only the most resilient technologies survive the vacuum, radiation and temperature extremes beyond Earth’s protective embrace. Today, we stand at an inflection point where artificial intelligence is poised to fundamentally transform how we explore, understand and operate in space. But making AI-powered space […]\nThe post Unlocking AI in space: the case for greater industry and space agency collaboration appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-05T16:08:10.012Z"
+  "updated": "2026-03-05T18:13:45.523Z"
 }
