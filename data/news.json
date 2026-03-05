@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "General Galactic aims to become “the galaxy’s energy logistics company”",
+      "link": "https://spacenews.com/general-galactic-aims-to-become-the-galaxys-energy-logistics-company/",
+      "source": "SpaceNews",
+      "date": "2026-03-05T20:30:50Z",
+      "summary": "\nSAN FRANCISCO – Southern California startup General Galactic plans to launch a 500-kilogram satellite later this year to demonstrate a novel multimode propulsion system. When the Trinity mission travels to low-Earth orbit on the SpaceX Transporter-18 rideshare, no earlier than October, General Galactic will test its Genesis platform, which pairs chemical and electric engines. “We’re […]\nThe post General Galactic aims to become “the galaxy’s energy logistics company” appeared first on SpaceNews."
+    },
+    {
       "title": "Infinite Orbits acquires UK startup Lunasa to expand satellite servicing capabilities",
       "link": "https://spacenews.com/infinite-orbits-acquires-uk-startup-lunasa-to-expand-satellite-servicing-capabilities/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "Space Scout",
       "date": "2026-03-05T16:39:46Z",
       "summary": "In a major announcement Friday, 27 February, NASA announced a revision of the Artemis Program architecture. To accommodate the change, the design of the SLS rocket will be significantly reworked."
-    },
-    {
-      "title": "Total Lunar Eclipse",
-      "link": "https://www.nasa.gov/image-article/total-lunar-eclipse/",
-      "source": "NASA",
-      "date": "2026-03-05T16:27:19Z",
-      "summary": "The Moon appears red during a total lunar eclipse over New Orleans, home of NASA’s Michoud Assembly Facility, on March 3, 2026. This “blood moon” occurs during a total lunar eclipse, as Earth lines up between the Moon and the Sun. When this happens, the only light that reaches the Moon’s surface is from the edges […]"
     }
   ],
-  "updated": "2026-03-05T20:36:35.553Z"
+  "updated": "2026-03-05T20:53:22.830Z"
 }
