@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Jared Isaacman on rebuilding, Artemis and what he’s learned during his first months as NASA administrator",
+      "link": "https://spacenews.com/jared-isaacman-on-rebuilding-artemis-and-what-hes-learned-during-his-first-months-as-nasa-administrator/",
+      "source": "SpaceNews",
+      "date": "2026-03-05T12:00:00Z",
+      "summary": "\nWhen Jared Isaacman was sworn in as NASA administrator Dec. 18, he hit the ground running — or, perhaps more accurately, hit the air flying. At a town hall the next day, he said he would visit all the agency’s field centers, a task he completed by late January. In some cases he showed up […]\nThe post Jared Isaacman on rebuilding, Artemis and what he’s learned during his first months as NASA administrator appeared first on SpaceNews."
+    },
+    {
       "title": "Lunar Link antennas complete testing",
       "link": "https://www.esa.int/ESA_Multimedia/Images/2026/03/Lunar_Link_antennas_complete_testing",
       "source": "ESA",
@@ -27,14 +34,7 @@
       "source": "SpaceDaily",
       "date": "2026-03-05T09:54:43Z",
       "summary": "Washington DC (SPX) Mar 05, 2026\n\n\nA long-standing idea in planetary science proposes that water rich meteorites arriving late in Earth history delivered a major share of the planet's water inventory. A new study led by researchers at Universities Space Research Association and the University of New Mexico uses the Moon's surface record to impose strict limits on that scenario, concluding that impacts over the last 4 billion year"
-    },
-    {
-      "title": "Lunar dust study links space weathering to changes in Moon ultraviolet brightness",
-      "link": "https://www.spacedaily.com/reports/Lunar_dust_study_links_space_weathering_to_changes_in_Moon_ultraviolet_brightness_999.html",
-      "source": "SpaceDaily",
-      "date": "2026-03-05T09:54:43Z",
-      "summary": "Los Angeles CA (SPX) Mar 05, 2026\n\n\nSAN ANTONIO - Southwest Research Institute (SwRI) scientists working with researchers at UT San Antonio have analyzed Apollo lunar soil samples to determine how space weathering alters the Moon's surface and affects its far-ultraviolet (FUV) reflectance. The team examined how exposure to solar wind and micrometeoroid impacts over long periods changes the FUV spectral response of lunar grains, us"
     }
   ],
-  "updated": "2026-03-05T11:59:38.106Z"
+  "updated": "2026-03-05T12:23:42.343Z"
 }
