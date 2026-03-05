@@ -10,23 +10,23 @@
     {
       "name": "STARLINK-1012",
       "id": "2019-074F",
-      "epoch": "2026-03-04T12:38:51.690624",
-      "meanMotion": 15.30202591,
-      "inclination": 53.162
+      "epoch": "2026-03-04T18:55:04.393056",
+      "meanMotion": 15.30203619,
+      "inclination": 53.1619
     },
     {
       "name": "STARLINK-1017",
       "id": "2019-074L",
-      "epoch": "2026-03-04T08:41:30.431328",
-      "meanMotion": 15.23555619,
-      "inclination": 53.0548
+      "epoch": "2026-03-04T18:08:16.686816",
+      "meanMotion": 15.23592263,
+      "inclination": 53.0553
     },
     {
       "name": "STARLINK-1019",
       "id": "2019-074M",
-      "epoch": "2026-03-04T16:00:05.999904",
-      "meanMotion": 15.79856571,
-      "inclination": 53.044
+      "epoch": "2026-03-04T22:00:01.999584",
+      "meanMotion": 15.79962839,
+      "inclination": 53.0438
     },
     {
       "name": "STARLINK-1020",
@@ -38,16 +38,16 @@
     {
       "name": "STARLINK-1031",
       "id": "2019-074Z",
-      "epoch": "2026-03-04T16:00:05.999904",
-      "meanMotion": 15.88333802,
-      "inclination": 53.0403
+      "epoch": "2026-03-04T22:00:01.999584",
+      "meanMotion": 15.88481312,
+      "inclination": 53.0398
     },
     {
       "name": "STARLINK-1036",
       "id": "2019-074AE",
-      "epoch": "2026-03-04T09:47:10.455360",
-      "meanMotion": 15.54640484,
-      "inclination": 53.052
+      "epoch": "2026-03-04T22:00:01.999584",
+      "meanMotion": 15.54737015,
+      "inclination": 53.0506
     },
     {
       "name": "STARLINK-1039",
@@ -72,11 +72,11 @@
     }
   ],
   "iss": {
-    "latitude": 22.360844944109,
-    "longitude": -48.675672493724,
-    "altitude": 425.30939940085,
-    "velocity": 27567.171457707,
-    "visibility": "eclipsed"
+    "latitude": -23.74455713582,
+    "longitude": 120.78035902352,
+    "altitude": 424.49797445172,
+    "velocity": 27571.258011057,
+    "visibility": "daylight"
   },
-  "updated": "2026-03-05T00:01:24.079Z"
+  "updated": "2026-03-05T00:48:16.897Z"
 }

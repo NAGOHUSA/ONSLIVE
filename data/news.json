@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Senate committee advances NASA authorization bill that changes Artemis and extends ISS",
+      "link": "https://spacenews.com/senate-committee-advances-nasa-authorization-bill-that-changes-artemis-and-extends-iss/",
+      "source": "SpaceNews",
+      "date": "2026-03-05T00:20:44Z",
+      "summary": "\nThe Senate Commerce Committee advanced a revised NASA authorization bill that implements some of the changes to Artemis sought by the agency while also extending the life of the ISS\nThe post Senate committee advances NASA authorization bill that changes Artemis and extends ISS appeared first on SpaceNews."
+    },
+    {
       "title": "Telus invests in AST SpaceMobile to expand D2D coverage in Canada",
       "link": "https://spacenews.com/telus-invests-in-ast-spacemobile-to-expand-d2d-coverage-in-canada/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-04T19:00:00Z",
       "summary": "NASA’s Advanced Air Vehicles Program (AAVP) studies, evaluates, and develops technologies and capabilities for new aircraft systems and explores far-future concepts for revolutionary air travel improvements. AAVP develops technologies for all flight regimes from hover to hypersonic to enable safe, new aircraft that are faster, quieter, and more fuel efficient. AAVP develops a broad range […]"
-    },
-    {
-      "title": "The US Senate empowers NASA to fully engage in lunar space race",
-      "link": "https://arstechnica.com/space/2026/03/the-us-senate-empowers-nasa-to-fully-engage-in-lunar-space-race/",
-      "source": "Arstechnica",
-      "date": "2026-03-04T18:50:26Z",
-      "summary": "\"Our bill authorizes critical funding for, and gives strategic direction to, the agency.\""
     }
   ],
-  "updated": "2026-03-05T00:00:39.111Z"
+  "updated": "2026-03-05T00:48:15.013Z"
 }
