@@ -1,4 +1,40 @@
 {
-  "articles": [],
-  "updated": "2026-03-06T08:48:05.568Z"
+  "articles": [
+    {
+      "title": "Earth from Space: Dhaka, Bangladesh",
+      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/03/Earth_from_Space_Dhaka_Bangladesh",
+      "source": "ESA",
+      "date": "2026-03-06T09:00:00Z",
+      "summary": "From the ESA Blogs."
+    },
+    {
+      "title": "New AI Hub to empower space-enabled connectivity",
+      "link": "https://www.esa.int/Space_in_Member_States/United_Kingdom/New_AI_Hub_to_empower_space-enabled_connectivity",
+      "source": "ESA",
+      "date": "2026-03-06T08:25:00Z",
+      "summary": "New AI Hub to empower space-enabled connectivity"
+    },
+    {
+      "title": "Ailing “Megaberg” Sparks Surge of Microscopic Life",
+      "link": "https://science.nasa.gov/earth/earth-observatory/ailing-megaberg-sparks-surge-of-microscopic-life/",
+      "source": "NASA",
+      "date": "2026-03-06T05:01:00Z",
+      "summary": "As Iceberg A-23A disintegrated, it shed meltwater that helped fuel an extensive phytoplankton bloom in the South Atlantic Ocean."
+    },
+    {
+      "title": "About Air Traffic Management and Safety Project",
+      "link": "https://www.nasa.gov/directorates/armd/aosp/atms/about-atms/",
+      "source": "NASA",
+      "date": "2026-03-06T04:29:02Z",
+      "summary": "The Air Traffic Management and Safety (ATMS) project defines, validates, and transfers advanced requirements and technologies to shift air traffic management from tactical to strategic.  This change enables efficient, productive, and resilient operations while reducing safety assurance and compliance costs for highly automated systems.   ATMS researches and develops technologies that safely integrate new air vehicles with traditional aviation operations to meet growing demand. Through close collaboration with the FAA, ATMS delivers actionable automation solutions, advanced operational concepts, […]"
+    },
+    {
+      "title": "About Advanced Air Mobility Pathfinders Project",
+      "link": "https://www.nasa.gov/directorates/armd/aosp/amp/about-aamp/",
+      "source": "NASA",
+      "date": "2026-03-06T02:59:34Z",
+      "summary": "The Advanced Air Mobility Pathfinders (AAMP) project accelerates advanced air mobility technologies for wildfire response and urban transportation through real-world demonstrations and strategic partnerships. AAMP researches emerging technologies, establishes aircraft strategic deconfliction frameworks, and validates solutions in metropolitan areas to enable larger-scale urban air mobility. The project enhances Unmanned Aircraft Systems capabilities for wildfire mitigation and disaster response by transferring Portable Airspace Management System technologies to enable routine, safe, […]"
+    }
+  ],
+  "updated": "2026-03-06T09:03:00.832Z"
 }
