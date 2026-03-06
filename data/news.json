@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "About Advanced Air Mobility Pathfinders Project",
+      "link": "https://www.nasa.gov/directorates/armd/aosp/amp/about-aamp/",
+      "source": "NASA",
+      "date": "2026-03-06T02:59:34Z",
+      "summary": "The Advanced Air Mobility Pathfinders (AAMP) project accelerates advanced air mobility technologies for wildfire response and urban transportation through real-world demonstrations and strategic partnerships. AAMP researches emerging technologies, establishes aircraft strategic deconfliction frameworks, and validates solutions in metropolitan areas to enable larger-scale urban air mobility. The project enhances Unmanned Aircraft Systems capabilities for wildfire mitigation and disaster response by transferring Portable Airspace Management System technologies to enable routine, safe, […]"
+    },
+    {
       "title": "Anderson Breezes Through Senate Nomination Hearing to be NASA Deputy Administrator",
       "link": "https://spacepolicyonline.com/news/anderson-breezes-through-senate-nomination-hearing-to-be-nasa-deputy-administrator/",
       "source": "SpacePolicyOnline.com",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-05T21:00:00Z",
       "summary": "\nIRVINE, Calif., March 5, 2026 — Terran Orbital, a Lockheed Martin Company and a leading satellite solutions provider, announced today the appointment of Kwon Park as senior director of manufacturing […]\nThe post Terran Orbital Appoints Kwon Park as Senior Director of Manufacturing Operations appeared first on SpaceNews."
-    },
-    {
-      "title": "General Galactic aims to become “the galaxy’s energy logistics company”",
-      "link": "https://spacenews.com/general-galactic-aims-to-become-the-galaxys-energy-logistics-company/",
-      "source": "SpaceNews",
-      "date": "2026-03-05T20:30:50Z",
-      "summary": "\nSAN FRANCISCO – Southern California startup General Galactic plans to launch a 500-kilogram satellite later this year to demonstrate a novel multimode propulsion system. When the Trinity mission travels to low-Earth orbit on the SpaceX Transporter-18 rideshare, no earlier than October, General Galactic will test its Genesis platform, which pairs chemical and electric engines. “We’re […]\nThe post General Galactic aims to become “the galaxy’s energy logistics company” appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-06T02:17:55.615Z"
+  "updated": "2026-03-06T03:15:09.252Z"
 }
