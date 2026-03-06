@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Week in images: 02-06 March 2026",
+      "link": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_02-06_March_2026",
+      "source": "ESA",
+      "date": "2026-03-06T14:15:00Z",
+      "summary": "Week in images: 02-06 March 2026"
+    },
+    {
       "title": "Hyperscalers are coming to an orbit near you. Power will decide the winners.",
       "link": "https://spacenews.com/hyperscalers-are-coming-to-an-orbit-near-you-power-will-decide-the-winners/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-06T10:20:31Z",
       "summary": "\nChina has designated aerospace to be an “emerging pillar industry” in a draft national economic plan, also setting major objectives for the five years ahead.\nThe post China designates space sector an “emerging pillar industry,” sets deep space ambitions in new economic blueprint appeared first on SpaceNews."
-    },
-    {
-      "title": "Work ongoing to restore contact with Proba-3's Coronagraph",
-      "link": "https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Work_ongoing_to_restore_contact_with_Proba-3_s_Coronagraph",
-      "source": "ESA",
-      "date": "2026-03-06T10:00:00Z",
-      "summary": "An anomaly onboard the Proba-3 mission’s Coronagraph spacecraft led to loss of contact between the spacecraft and ground control. The root cause of the anomaly is under investigation and mission teams are working hard to recover the situation."
     }
   ],
-  "updated": "2026-03-06T14:19:56.813Z"
+  "updated": "2026-03-06T14:36:31.590Z"
 }
