@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Eutelsat completes $5.8 billion refinancing plan",
+      "link": "https://spacenews.com/eutelsat-completes-5-8-billion-refinancing-plan/",
+      "source": "SpaceNews",
+      "date": "2026-03-06T17:16:18Z",
+      "summary": "\nEutelsat has completed the last step in a 5 billion euro ($5.8 billion) refinancing plan to refresh its OneWeb constellation and support Europe’s IRIS² sovereign connectivity program, the French satellite operator announced March 6.\nThe post Eutelsat completes $5.8 billion refinancing plan appeared first on SpaceNews."
+    },
+    {
+      "title": "Live coverage: SpaceX plans mid-afternoon Falcon 9 rocket launch from Vandenberg SFB",
+      "link": "https://spaceflightnow.com/2026/03/06/live-coverage-spacex-plans-mid-afternoon-falcon-9-rocket-launch-from-vandenberg-sfb/",
+      "source": "Spaceflight Now",
+      "date": "2026-03-06T17:13:23Z",
+      "summary": "The Starlink 17-18 mission will add 25 more satellites to SpaceX’s low Earth orbit megaconstellation. Liftoff from pad 4E is scheduled during a launch window that opens at 1 p.m. PST (4 p.m. EST / 2100 UTC). "
+    },
+    {
       "title": "UK domestic launch milestone as RFA ONE rocket arrives in Scotland",
       "link": "https://www.nasaspaceflight.com/2026/03/uk-milestone-domestic-launch-rfa-one-scotland/",
       "source": "NASASpaceflight",
@@ -20,21 +34,7 @@
       "source": "Space Scout",
       "date": "2026-03-06T16:30:03Z",
       "summary": "Following a failure on KAIROS' first two flights in early and late 2024, there was hope for a success on the rocket’s third launch attempt. However, roughly two minutes post launch, the rocket exploded leaving multiple fragments falling from the sky."
-    },
-    {
-      "title": "Commercial Space Federation (CSF) Welcomes New Members",
-      "link": "https://spacenews.com/commercial-space-federation-csf-welcomes-new-members/",
-      "source": "SpaceNews",
-      "date": "2026-03-06T16:00:00Z",
-      "summary": "\nMarch 6, 2026 – Washington, D.C.—The Commercial Space Federation (CSF) is pleased to welcome Leolabs,  the American Society for Gravitational and Space Research (ASGSR), and SurgeStreams. Together, these organizations strengthen […]\nThe post Commercial Space Federation (CSF) Welcomes New Members appeared first on SpaceNews."
-    },
-    {
-      "title": "Weekends on the Space Station",
-      "link": "https://www.nasa.gov/image-article/weekends-on-the-space-station/",
-      "source": "NASA",
-      "date": "2026-03-06T15:23:52Z",
-      "summary": "NASA astronaut Jessica Meir trims the hair of fellow NASA astronaut Jack Hathaway in this March 1, 2026, image. Meir uses an electric razor attached to a vacuum that collects loose clippings to keep the station’s atmosphere clean in microgravity. Crew on the International Space Station also use weekends to complete housekeeping tasks. Learn more […]"
     }
   ],
-  "updated": "2026-03-06T17:19:12.077Z"
+  "updated": "2026-03-06T17:35:07.022Z"
 }
