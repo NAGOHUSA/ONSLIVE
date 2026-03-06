@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA’s DART Mission Changed Orbit of Asteroid Didymos Around Sun",
+      "link": "https://www.nasa.gov/missions/dart/nasas-dart-mission-changed-orbit-of-asteroid-didymos-around-sun/",
+      "source": "NASA",
+      "date": "2026-03-06T19:00:36Z",
+      "summary": "New research reveals that when NASA’s DART (Double Asteroid Redirection Test) spacecraft intentionally impacted the asteroid moonlet Dimorphos in September 2022, it didn’t just change the motion of Dimorphos around its larger companion, Didymos; the crash also shifted the orbit of both asteroids around the Sun. Linked together by gravity, Didymos and Dimorphos orbit each […]"
+    },
+    {
       "title": "Eutelsat completes $5.8 billion refinancing plan",
       "link": "https://spacenews.com/eutelsat-completes-5-8-billion-refinancing-plan/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-06T16:40:25Z",
       "summary": "As NASA invites the public to follow the Artemis II mission as a crew of four astronauts venture around the Moon inside the agency’s Orion spacecraft, people around the world can pinpoint Orion during its journey using the Artemis Real-time Orbit Website (AROW). During the approximately 10-day mission, NASA will test how the spacecraft’s systems […]"
-    },
-    {
-      "title": "KAIROS Three for Three on Launch Failures",
-      "link": "https://www.spacescout.info/2026/03/kairos-three-for-three-on-launch-failures/",
-      "source": "Space Scout",
-      "date": "2026-03-06T16:30:03Z",
-      "summary": "Following a failure on KAIROS' first two flights in early and late 2024, there was hope for a success on the rocket’s third launch attempt. However, roughly two minutes post launch, the rocket exploded leaving multiple fragments falling from the sky."
     }
   ],
-  "updated": "2026-03-06T19:01:53.807Z"
+  "updated": "2026-03-06T19:20:36.534Z"
 }
