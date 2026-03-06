@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA’s Artemis ‘Course Correction’ Boosts Moonward Momentum: Key Details Still Maturing",
+      "link": "https://www.nasaspaceflight.com/2026/03/artemis-course-correction-moonward-details/",
+      "source": "NASASpaceflight",
+      "date": "2026-03-06T21:02:09Z",
+      "summary": "NASA Administrator Jared Isaacman unveiled sweeping changes to the Artemis program, aimed at restoring momentum,…\nThe post NASA’s Artemis ‘Course Correction’ Boosts Moonward Momentum: Key Details Still Maturing appeared first on NASASpaceFlight.com."
+    },
+    {
       "title": "NASA’s DART Mission Changed Orbit of Asteroid Didymos Around Sun",
       "link": "https://www.nasa.gov/missions/dart/nasas-dart-mission-changed-orbit-of-asteroid-didymos-around-sun/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASASpaceflight",
       "date": "2026-03-06T16:46:04Z",
       "summary": "German aerospace company Rocket Factory Augsburg (RFA) has achieved a significant milestone in its quest…\nThe post UK domestic launch milestone as RFA ONE rocket arrives in Scotland appeared first on NASASpaceFlight.com."
-    },
-    {
-      "title": "Track NASA’s Artemis II Mission in Real Time",
-      "link": "https://www.nasa.gov/missions/artemis/artemis-2/track-nasas-artemis-ii-mission-in-real-time/",
-      "source": "NASA",
-      "date": "2026-03-06T16:40:25Z",
-      "summary": "As NASA invites the public to follow the Artemis II mission as a crew of four astronauts venture around the Moon inside the agency’s Orion spacecraft, people around the world can pinpoint Orion during its journey using the Artemis Real-time Orbit Website (AROW). During the approximately 10-day mission, NASA will test how the spacecraft’s systems […]"
     }
   ],
-  "updated": "2026-03-06T21:10:14.274Z"
+  "updated": "2026-03-06T21:22:51.011Z"
 }
