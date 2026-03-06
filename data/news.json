@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Weekends on the Space Station",
+      "link": "https://www.nasa.gov/image-article/weekends-on-the-space-station/",
+      "source": "NASA",
+      "date": "2026-03-06T15:23:52Z",
+      "summary": "NASA astronaut Jessica Meir trims the hair of fellow NASA astronaut Jack Hathaway in this March 1, 2026, image. Meir uses an electric razor attached to a vacuum that collects loose clippings to keep the station’s atmosphere clean in microgravity. Crew on the International Space Station also use weekends to complete housekeeping tasks. Learn more […]"
+    },
+    {
+      "title": "NASA has shuffled its Artemis rockets. But what of the lunar landers?",
+      "link": "https://arstechnica.com/space/2026/03/nasa-has-shuffled-its-artemis-rockets-but-what-of-the-lunar-landers/",
+      "source": "Arstechnica",
+      "date": "2026-03-06T15:20:37Z",
+      "summary": "\"We will challenge every requirement, clear every obstacle, delete every blocker.\""
+    },
+    {
       "title": "NASA to Cover Northrop Grumman Cargo Spacecraft Departure",
       "link": "https://www.nasa.gov/news-release/nasa-to-cover-northrop-grumman-cargo-spacecraft-departure/",
       "source": "NASA",
@@ -20,21 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-06T14:00:00Z",
       "summary": "\nAmid the explosive growth surrounding telecommunications megaconstellations, orbital data centers and next-generation payloads, the space ecosystem is entering a period of rapid and irreversible change. Announcements and filings for satellite constellations numbering in the tens of thousands, hundreds of thousands and now even 1 million-plus are becoming commonplace. The waves that even a fraction of […]\nThe post Hyperscalers are coming to an orbit near you. Power will decide the winners.  appeared first on SpaceNews."
-    },
-    {
-      "title": "Rocket Lab launches satellite for undisclosed customer",
-      "link": "https://spacenews.com/rocket-lab-launches-satellite-for-undisclosed-customer/",
-      "source": "SpaceNews",
-      "date": "2026-03-06T12:45:10Z",
-      "summary": "Rocket Lab launched a spacecraft March 5 for a confidential customer, most likely Earth observation company BlackSky.\r\nThe post Rocket Lab launches satellite for undisclosed customer appeared first on SpaceNews."
-    },
-    {
-      "title": "From space to your plate",
-      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/03/From_space_to_your_plate",
-      "source": "ESA",
-      "date": "2026-03-06T11:22:00Z",
-      "summary": "From the ESA Blogs."
     }
   ],
-  "updated": "2026-03-06T15:23:41.544Z"
+  "updated": "2026-03-06T15:41:18.885Z"
 }
