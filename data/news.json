@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Work ongoing to restore contact with Proba-3's Coronagraph",
+      "link": "https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Work_ongoing_to_restore_contact_with_Proba-3_s_Coronagraph",
+      "source": "ESA",
+      "date": "2026-03-06T10:00:00Z",
+      "summary": "An anomaly onboard the Proba-3 mission’s Coronagraph spacecraft led to loss of contact between the spacecraft and ground control. The root cause of the anomaly is under investigation and mission teams are working hard to recover the situation. "
+    },
+    {
       "title": "Earth from Space: Dhaka, Bangladesh",
       "link": "https://www.esa.int/ESA_Multimedia/Images/2026/03/Earth_from_Space_Dhaka_Bangladesh",
       "source": "ESA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-06T04:29:02Z",
       "summary": "The Air Traffic Management and Safety (ATMS) project defines, validates, and transfers advanced requirements and technologies to shift air traffic management from tactical to strategic.  This change enables efficient, productive, and resilient operations while reducing safety assurance and compliance costs for highly automated systems.   ATMS researches and develops technologies that safely integrate new air vehicles with traditional aviation operations to meet growing demand. Through close collaboration with the FAA, ATMS delivers actionable automation solutions, advanced operational concepts, […]"
-    },
-    {
-      "title": "About Advanced Air Mobility Pathfinders Project",
-      "link": "https://www.nasa.gov/directorates/armd/aosp/amp/about-aamp/",
-      "source": "NASA",
-      "date": "2026-03-06T02:59:34Z",
-      "summary": "The Advanced Air Mobility Pathfinders (AAMP) project accelerates advanced air mobility technologies for wildfire response and urban transportation through real-world demonstrations and strategic partnerships. AAMP researches emerging technologies, establishes aircraft strategic deconfliction frameworks, and validates solutions in metropolitan areas to enable larger-scale urban air mobility. The project enhances Unmanned Aircraft Systems capabilities for wildfire mitigation and disaster response by transferring Portable Airspace Management System technologies to enable routine, safe, […]"
     }
   ],
-  "updated": "2026-03-06T09:37:32.386Z"
+  "updated": "2026-03-06T09:55:37.227Z"
 }
