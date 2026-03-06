@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Commercial Space Federation (CSF) Welcomes New Members",
+      "link": "https://spacenews.com/commercial-space-federation-csf-welcomes-new-members/",
+      "source": "SpaceNews",
+      "date": "2026-03-06T16:00:00Z",
+      "summary": "\nMarch 6, 2026 – Washington, D.C.—The Commercial Space Federation (CSF) is pleased to welcome Leolabs,  the American Society for Gravitational and Space Research (ASGSR), and SurgeStreams. Together, these organizations strengthen […]\nThe post Commercial Space Federation (CSF) Welcomes New Members appeared first on SpaceNews."
+    },
+    {
       "title": "Weekends on the Space Station",
       "link": "https://www.nasa.gov/image-article/weekends-on-the-space-station/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "ESA",
       "date": "2026-03-06T14:15:00Z",
       "summary": "Week in images: 02-06 March 2026"
-    },
-    {
-      "title": "Hyperscalers are coming to an orbit near you. Power will decide the winners.",
-      "link": "https://spacenews.com/hyperscalers-are-coming-to-an-orbit-near-you-power-will-decide-the-winners/",
-      "source": "SpaceNews",
-      "date": "2026-03-06T14:00:00Z",
-      "summary": "\nAmid the explosive growth surrounding telecommunications megaconstellations, orbital data centers and next-generation payloads, the space ecosystem is entering a period of rapid and irreversible change. Announcements and filings for satellite constellations numbering in the tens of thousands, hundreds of thousands and now even 1 million-plus are becoming commonplace. The waves that even a fraction of […]\nThe post Hyperscalers are coming to an orbit near you. Power will decide the winners.  appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-06T15:56:03.833Z"
+  "updated": "2026-03-06T16:10:12.930Z"
 }
