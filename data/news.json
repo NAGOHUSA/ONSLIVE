@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "China designates space sector an “emerging pillar industry,” sets deep space ambitions in new economic blueprint",
+      "link": "https://spacenews.com/china-designates-space-sector-an-emerging-pillar-industry-sets-deep-space-ambitions-in-new-economic-blueprint/",
+      "source": "SpaceNews",
+      "date": "2026-03-06T10:20:31Z",
+      "summary": "\nChina has designated aerospace to be an “emerging pillar industry” in a draft national economic plan, also setting major objectives for the five years ahead.\nThe post China designates space sector an “emerging pillar industry,” sets deep space ambitions in new economic blueprint appeared first on SpaceNews."
+    },
+    {
       "title": "Work ongoing to restore contact with Proba-3's Coronagraph",
       "link": "https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Work_ongoing_to_restore_contact_with_Proba-3_s_Coronagraph",
       "source": "ESA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-06T05:01:00Z",
       "summary": "As Iceberg A-23A disintegrated, it shed meltwater that helped fuel an extensive phytoplankton bloom in the South Atlantic Ocean."
-    },
-    {
-      "title": "About Air Traffic Management and Safety Project",
-      "link": "https://www.nasa.gov/directorates/armd/aosp/atms/about-atms/",
-      "source": "NASA",
-      "date": "2026-03-06T04:29:02Z",
-      "summary": "The Air Traffic Management and Safety (ATMS) project defines, validates, and transfers advanced requirements and technologies to shift air traffic management from tactical to strategic.  This change enables efficient, productive, and resilient operations while reducing safety assurance and compliance costs for highly automated systems.   ATMS researches and develops technologies that safely integrate new air vehicles with traditional aviation operations to meet growing demand. Through close collaboration with the FAA, ATMS delivers actionable automation solutions, advanced operational concepts, […]"
     }
   ],
-  "updated": "2026-03-06T10:21:26.836Z"
+  "updated": "2026-03-06T10:38:02.714Z"
 }
