@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA Invites Media to Northrop Grumman CRS-24 Station Resupply Launch",
+      "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-northrop-grumman-crs-24-station-resupply-launch/",
+      "source": "NASA",
+      "date": "2026-03-06T21:36:22Z",
+      "summary": "Media accreditation is open for the next launch to deliver NASA science investigations, supplies, and equipment to the International Space Station. A Northrop Grumman Cygnus XL spacecraft will launch in April to the orbital laboratory on a SpaceX Falcon 9 rocket for NASA. The mission is known as NASA’s Northrop Grumman Commercial Resupply Services 24 […]"
+    },
+    {
       "title": "NASA’s Artemis ‘Course Correction’ Boosts Moonward Momentum: Key Details Still Maturing",
       "link": "https://www.nasaspaceflight.com/2026/03/artemis-course-correction-moonward-details/",
       "source": "NASASpaceflight",
@@ -27,14 +34,7 @@
       "source": "Spaceflight Now",
       "date": "2026-03-06T17:13:23Z",
       "summary": "The Starlink 17-18 mission will add 25 more satellites to SpaceX’s low Earth orbit megaconstellation. Liftoff from pad 4E is scheduled during a launch window that opens at 1 p.m. PST (4 p.m. EST / 2100 UTC). "
-    },
-    {
-      "title": "UK domestic launch milestone as RFA ONE rocket arrives in Scotland",
-      "link": "https://www.nasaspaceflight.com/2026/03/uk-milestone-domestic-launch-rfa-one-scotland/",
-      "source": "NASASpaceflight",
-      "date": "2026-03-06T16:46:04Z",
-      "summary": "German aerospace company Rocket Factory Augsburg (RFA) has achieved a significant milestone in its quest…\nThe post UK domestic launch milestone as RFA ONE rocket arrives in Scotland appeared first on NASASpaceFlight.com."
     }
   ],
-  "updated": "2026-03-06T21:37:53.970Z"
+  "updated": "2026-03-06T21:49:41.473Z"
 }
