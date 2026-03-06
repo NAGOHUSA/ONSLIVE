@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "About Air Traffic Management and Safety Project",
+      "link": "https://www.nasa.gov/directorates/armd/aosp/atms/about-atms/",
+      "source": "NASA",
+      "date": "2026-03-06T04:29:02Z",
+      "summary": "The Air Traffic Management and Safety (ATMS) project defines, validates, and transfers advanced requirements and technologies to shift air traffic management from tactical to strategic.  This change enables efficient, productive, and resilient operations while reducing safety assurance and compliance costs for highly automated systems.   ATMS researches and develops technologies that safely integrate new air vehicles with traditional aviation operations to meet growing demand. Through close collaboration with the FAA, ATMS delivers actionable automation solutions, advanced operational concepts, […]"
+    },
+    {
       "title": "About Advanced Air Mobility Pathfinders Project",
       "link": "https://www.nasa.gov/directorates/armd/aosp/amp/about-aamp/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-05T23:14:15Z",
       "summary": "\nThe White House’s nominee to be deputy administrator of NASA received bipartisan support at a Senate confirmation hearing March 5.\nThe post NASA deputy administrator nominee sails through confirmation hearing appeared first on SpaceNews."
-    },
-    {
-      "title": "Terran Orbital Appoints Kwon Park as Senior Director of Manufacturing Operations",
-      "link": "https://spacenews.com/terran-orbital-appoints-kwon-park-as-senior-director-of-manufacturing-operations/",
-      "source": "SpaceNews",
-      "date": "2026-03-05T21:00:00Z",
-      "summary": "\nIRVINE, Calif., March 5, 2026 — Terran Orbital, a Lockheed Martin Company and a leading satellite solutions provider, announced today the appointment of Kwon Park as senior director of manufacturing […]\nThe post Terran Orbital Appoints Kwon Park as Senior Director of Manufacturing Operations appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-06T04:00:43.455Z"
+  "updated": "2026-03-06T04:39:43.370Z"
 }
