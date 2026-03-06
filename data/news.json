@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA to Cover Northrop Grumman Cargo Spacecraft Departure",
+      "link": "https://www.nasa.gov/news-release/nasa-to-cover-northrop-grumman-cargo-spacecraft-departure/",
+      "source": "NASA",
+      "date": "2026-03-06T15:13:36Z",
+      "summary": "After delivering more than 11,000 pounds of supplies, science investigations, hardware, and other cargo to the International Space Station for NASA and its international partners, the Cygnus XL spacecraft supporting Northrop Grumman’s 23rd Commercial Resupply Services mission is scheduled to depart the orbiting laboratory Thursday, March 12. Watch NASA’s live coverage of undocking and departure […]"
+    },
+    {
       "title": "Week in images: 02-06 March 2026",
       "link": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_02-06_March_2026",
       "source": "ESA",
@@ -27,14 +34,7 @@
       "source": "ESA",
       "date": "2026-03-06T11:22:00Z",
       "summary": "From the ESA Blogs."
-    },
-    {
-      "title": "China designates space sector an “emerging pillar industry,” sets deep space ambitions in new economic blueprint",
-      "link": "https://spacenews.com/china-designates-space-sector-an-emerging-pillar-industry-sets-deep-space-ambitions-in-new-economic-blueprint/",
-      "source": "SpaceNews",
-      "date": "2026-03-06T10:20:31Z",
-      "summary": "\nChina has designated aerospace to be an “emerging pillar industry” in a draft national economic plan, also setting major objectives for the five years ahead.\nThe post China designates space sector an “emerging pillar industry,” sets deep space ambitions in new economic blueprint appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-06T15:09:09.777Z"
+  "updated": "2026-03-06T15:23:41.544Z"
 }
