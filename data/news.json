@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Rocket Lab launches satellite for undisclosed customer",
+      "link": "https://spacenews.com/rocket-lab-launches-satellite-for-undisclosed-customer/",
+      "source": "SpaceNews",
+      "date": "2026-03-06T12:45:10Z",
+      "summary": "Rocket Lab launched a spacecraft March 5 for a confidential customer, most likely Earth observation company BlackSky.\r\nThe post Rocket Lab launches satellite for undisclosed customer appeared first on SpaceNews."
+    },
+    {
       "title": "From space to your plate",
       "link": "https://www.esa.int/ESA_Multimedia/Images/2026/03/From_space_to_your_plate",
       "source": "ESA",
@@ -27,14 +34,7 @@
       "source": "ESA",
       "date": "2026-03-06T09:00:00Z",
       "summary": "From the ESA Blogs."
-    },
-    {
-      "title": "New AI Hub to empower space-enabled connectivity",
-      "link": "https://www.esa.int/Space_in_Member_States/United_Kingdom/New_AI_Hub_to_empower_space-enabled_connectivity",
-      "source": "ESA",
-      "date": "2026-03-06T08:25:00Z",
-      "summary": "New AI Hub to empower space-enabled connectivity"
     }
   ],
-  "updated": "2026-03-06T12:44:40.835Z"
+  "updated": "2026-03-06T13:12:14.502Z"
 }
