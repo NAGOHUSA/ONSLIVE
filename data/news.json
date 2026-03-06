@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Ding-dong! The Exploration Upper Stage is dead",
+      "link": "https://arstechnica.com/space/2026/03/ding-dong-the-exploration-upper-stage-is-dead/",
+      "source": "Arstechnica",
+      "date": "2026-03-06T23:40:35Z",
+      "summary": "The Exploration Upper Stage did not in any way get NASA closer to landing on the Moon."
+    },
+    {
       "title": "NASA Invites Media to Northrop Grumman CRS-24 Station Resupply Launch",
       "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-northrop-grumman-crs-24-station-resupply-launch/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-06T17:16:18Z",
       "summary": "\nEutelsat has completed the last step in a 5 billion euro ($5.8 billion) refinancing plan to refresh its OneWeb constellation and support Europe’s IRIS² sovereign connectivity program, the French satellite operator announced March 6.\nThe post Eutelsat completes $5.8 billion refinancing plan appeared first on SpaceNews."
-    },
-    {
-      "title": "Live coverage: SpaceX plans mid-afternoon Falcon 9 rocket launch from Vandenberg SFB",
-      "link": "https://spaceflightnow.com/2026/03/06/live-coverage-spacex-plans-mid-afternoon-falcon-9-rocket-launch-from-vandenberg-sfb/",
-      "source": "Spaceflight Now",
-      "date": "2026-03-06T17:13:23Z",
-      "summary": "The Starlink 17-18 mission will add 25 more satellites to SpaceX’s low Earth orbit megaconstellation. Liftoff from pad 4E is scheduled during a launch window that opens at 1 p.m. PST (4 p.m. EST / 2100 UTC). "
     }
   ],
-  "updated": "2026-03-06T23:40:00.739Z"
+  "updated": "2026-03-06T23:50:35.352Z"
 }
