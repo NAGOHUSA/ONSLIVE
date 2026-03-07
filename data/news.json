@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA contract confirms selection of ULA’s Centaur 5 as new upper stage for the SLS rocket",
+      "link": "https://spaceflightnow.com/2026/03/07/nasa-contract-confirms-selection-of-ulas-centaur-5-as-new-upper-stage-for-the-sls-rocket/",
+      "source": "Spaceflight Now",
+      "date": "2026-03-07T00:40:15Z",
+      "summary": "The upper stage of United launch Alliance’s Vulcan rockets performed successfully across the first four flights of the rocket since 2024. The first launch of a Centaur 5 as part of a Space Launch System rocket would be on the Artemis 4 mission. "
+    },
+    {
       "title": "NASA selects Centaur for new SLS upper stage",
       "link": "https://spacenews.com/nasa-selects-centaur-for-new-sls-upper-stage/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASASpaceflight",
       "date": "2026-03-06T21:02:09Z",
       "summary": "NASA Administrator Jared Isaacman unveiled sweeping changes to the Artemis program, aimed at restoring momentum,…\nThe post NASA’s Artemis ‘Course Correction’ Boosts Moonward Momentum: Key Details Still Maturing appeared first on NASASpaceFlight.com."
-    },
-    {
-      "title": "NASA’s DART Mission Changed Orbit of Asteroid Didymos Around Sun",
-      "link": "https://www.nasa.gov/missions/dart/nasas-dart-mission-changed-orbit-of-asteroid-didymos-around-sun/",
-      "source": "NASA",
-      "date": "2026-03-06T19:00:36Z",
-      "summary": "New research reveals that when NASA’s DART (Double Asteroid Redirection Test) spacecraft intentionally impacted the asteroid moonlet Dimorphos in September 2022, it didn’t just change the motion of Dimorphos around its larger companion, Didymos; the crash also shifted the orbit of both asteroids around the Sun. Linked together by gravity, Didymos and Dimorphos orbit each […]"
     }
   ],
-  "updated": "2026-03-07T00:44:52.048Z"
+  "updated": "2026-03-07T01:15:02.382Z"
 }
