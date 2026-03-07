@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA selects Centaur for new SLS upper stage",
+      "link": "https://spacenews.com/nasa-selects-centaur-for-new-sls-upper-stage/",
+      "source": "SpaceNews",
+      "date": "2026-03-06T23:42:43Z",
+      "summary": "\nNASA has selected the Centaur upper stage currently used on United Launch Alliance’s Vulcan rocket for future flights of the Space Launch System.\nThe post NASA selects Centaur for new SLS upper stage appeared first on SpaceNews."
+    },
+    {
       "title": "Ding-dong! The Exploration Upper Stage is dead",
       "link": "https://arstechnica.com/space/2026/03/ding-dong-the-exploration-upper-stage-is-dead/",
       "source": "Arstechnica",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-06T19:00:36Z",
       "summary": "New research reveals that when NASA’s DART (Double Asteroid Redirection Test) spacecraft intentionally impacted the asteroid moonlet Dimorphos in September 2022, it didn’t just change the motion of Dimorphos around its larger companion, Didymos; the crash also shifted the orbit of both asteroids around the Sun. Linked together by gravity, Didymos and Dimorphos orbit each […]"
-    },
-    {
-      "title": "Eutelsat completes $5.8 billion refinancing plan",
-      "link": "https://spacenews.com/eutelsat-completes-5-8-billion-refinancing-plan/",
-      "source": "SpaceNews",
-      "date": "2026-03-06T17:16:18Z",
-      "summary": "\nEutelsat has completed the last step in a 5 billion euro ($5.8 billion) refinancing plan to refresh its OneWeb constellation and support Europe’s IRIS² sovereign connectivity program, the French satellite operator announced March 6.\nThe post Eutelsat completes $5.8 billion refinancing plan appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-06T23:58:55.303Z"
+  "updated": "2026-03-07T00:44:52.048Z"
 }
