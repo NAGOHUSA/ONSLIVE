@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Baikonur Launch Pad restored, clearing path for Progress MS-33 ISS Mission",
+      "link": "https://www.nasaspaceflight.com/2026/03/baikonur-launch-pad-restored-progress-ms-33/",
+      "source": "NASASpaceflight",
+      "date": "2026-03-07T19:49:38Z",
+      "summary": "Russia’s crucial launch infrastructure at Baikonur Cosmodrome’s Site 31/6 has been fully repaired following a…\nThe post Baikonur Launch Pad restored, clearing path for Progress MS-33 ISS Mission appeared first on NASASpaceFlight.com."
+    },
+    {
       "title": "Air Force lab awards BlackSky contract worth up to $99 million for large optical satellite payload",
       "link": "https://spacenews.com/air-force-lab-awards-blacksky-contract-worth-up-to-99-million-for-large-optical-satellite-payload/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "Arstechnica",
       "date": "2026-03-06T23:40:35Z",
       "summary": "The Exploration Upper Stage did not in any way get NASA closer to landing on the Moon."
-    },
-    {
-      "title": "NASA Invites Media to Northrop Grumman CRS-24 Station Resupply Launch",
-      "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-northrop-grumman-crs-24-station-resupply-launch/",
-      "source": "NASA",
-      "date": "2026-03-06T21:36:22Z",
-      "summary": "Media accreditation is open for the next launch to deliver NASA science investigations, supplies, and equipment to the International Space Station. A Northrop Grumman Cygnus XL spacecraft will launch in April to the orbital laboratory on a SpaceX Falcon 9 rocket for NASA. The mission is known as NASA’s Northrop Grumman Commercial Resupply Services 24 […]"
     }
   ],
-  "updated": "2026-03-07T19:56:05.686Z"
+  "updated": "2026-03-07T20:03:45.545Z"
 }
