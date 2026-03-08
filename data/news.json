@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "What’s Happening in Space Policy March 8-14, 2026",
+      "link": "https://spacepolicyonline.com/news/whats-happening-in-space-policy-march-8-14-2026/",
+      "source": "SpacePolicyOnline.com",
+      "date": "2026-03-08T20:17:38Z",
+      "summary": "Here is SpacePolicyOnline.com’s list of space policy events for the week of March 8-14, 2026 and any insight we can offer about them. The Senate is in session this week. […]"
+    },
+    {
       "title": "RFA plans first launch this summer",
       "link": "https://spacenews.com/rfa-plans-first-launch-this-summer/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "Spaceflight Now",
       "date": "2026-03-07T00:40:15Z",
       "summary": "The upper stage of United launch Alliance’s Vulcan rockets performed successfully across the first four flights of the rocket since 2024. The first launch of a Centaur 5 as part of a Space Launch System rocket would be on the Artemis 4 mission."
-    },
-    {
-      "title": "NASA selects Centaur for new SLS upper stage",
-      "link": "https://spacenews.com/nasa-selects-centaur-for-new-sls-upper-stage/",
-      "source": "SpaceNews",
-      "date": "2026-03-06T23:42:43Z",
-      "summary": "NASA has selected the Centaur upper stage currently used on United Launch Alliance’s Vulcan rocket for future flights of the Space Launch System.\r\nThe post NASA selects Centaur for new SLS upper stage appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-08T20:19:08.881Z"
+  "updated": "2026-03-08T20:33:46.195Z"
 }
