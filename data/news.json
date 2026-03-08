@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "RFA plans first launch this summer",
+      "link": "https://spacenews.com/rfa-plans-first-launch-this-summer/",
+      "source": "SpaceNews",
+      "date": "2026-03-08T01:31:17Z",
+      "summary": "\nGerman launch startup Rocket Factory Augsburg (RFA) says it is planning its first launch for this summer after delivering two of its stages to the launch site.\nThe post RFA plans first launch this summer appeared first on SpaceNews."
+    },
+    {
       "title": "Baikonur Launch Pad restored, clearing path for Progress MS-33 ISS Mission",
       "link": "https://www.nasaspaceflight.com/2026/03/baikonur-launch-pad-restored-progress-ms-33/",
       "source": "NASASpaceflight",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-06T23:42:43Z",
       "summary": "\nNASA has selected the Centaur upper stage currently used on United Launch Alliance’s Vulcan rocket for future flights of the Space Launch System.\nThe post NASA selects Centaur for new SLS upper stage appeared first on SpaceNews."
-    },
-    {
-      "title": "Ding-dong! The Exploration Upper Stage is dead",
-      "link": "https://arstechnica.com/space/2026/03/ding-dong-the-exploration-upper-stage-is-dead/",
-      "source": "Arstechnica",
-      "date": "2026-03-06T23:40:35Z",
-      "summary": "The Exploration Upper Stage did not in any way get NASA closer to landing on the Moon."
     }
   ],
-  "updated": "2026-03-08T01:10:10.894Z"
+  "updated": "2026-03-08T01:52:13.465Z"
 }
