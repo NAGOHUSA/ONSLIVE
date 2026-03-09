@@ -1,11 +1,18 @@
 {
   "articles": [
     {
-      "title": "Voyager Technologies invests in Max Space",
-      "link": "https://spacenews.com/voyager-technologies-invests-in-max-space/",
-      "source": "SpaceNews",
-      "date": "2026-03-09T13:00:00Z",
-      "summary": "\nVoyager Technologies is investing in Max Space to help accelerate a partnership between the two companies on developing lunar habitats.\nThe post Voyager Technologies invests in Max Space appeared first on SpaceNews."
+      "title": "Webb Studies Cranium Nebula",
+      "link": "https://www.nasa.gov/image-article/webb-studies-cranium-nebula/",
+      "source": "NASA",
+      "date": "2026-03-09T15:09:37Z",
+      "summary": "Nebula PMR 1 is a cloud of gas and dust that bears an uncanny resemblance to a brain in a transparent skull, inspiring its nickname, the “Exposed Cranium” nebula. Webb captured its unusual features in both near- and mid-infrared light. The nebula was first revealed in infrared light by a predecessor to Webb, NASA’s now-retired Spitzer Space […]"
+    },
+    {
+      "title": "NASA Astronauts to Answer Questions from Students in New York",
+      "link": "https://www.nasa.gov/news-release/nasa-astronauts-to-answer-questions-from-students-in-new-york-3/",
+      "source": "NASA",
+      "date": "2026-03-09T15:06:15Z",
+      "summary": "Students in New York will hear from NASA astronauts Jack Hathaway and Chris Williams as they answer prerecorded science, technology, engineering, and mathematics (STEM) questions while aboard the International Space Station. The Earth-to-space call will begin at 12:05 p.m. EDT Wednesday, March 11, and will stream live on the agency’s Learn With NASA YouTube channel. […]"
     },
     {
       "title": "GNSS resilience is an economic and security priority",
@@ -15,26 +22,19 @@
       "summary": "\nModern society has become profoundly reliant on Global Navigation Satellite Systems (GNSS). These systems support aviation safety, emergency services, finance, communications, energy networks and an expanding array of autonomous and industrial systems. Yet despite this reliance, GNSS remains inherently fragile: low‑power signals transmitted from medium Earth orbit are surprisingly easy to degrade, and the consequences […]\nThe post GNSS resilience is an economic and security priority appeared first on SpaceNews."
     },
     {
+      "title": "Voyager Technologies invests in Max Space",
+      "link": "https://spacenews.com/voyager-technologies-invests-in-max-space/",
+      "source": "SpaceNews",
+      "date": "2026-03-09T13:00:00Z",
+      "summary": "\nVoyager Technologies is investing in Max Space to help accelerate a partnership between the two companies on developing lunar habitats.\nThe post Voyager Technologies invests in Max Space appeared first on SpaceNews."
+    },
+    {
       "title": "First Starship V3 launch slips",
       "link": "https://spacenews.com/first-starship-v3-launch-slips/",
       "source": "SpaceNews",
       "date": "2026-03-09T12:16:09Z",
       "summary": "SpaceX is pushing back the first launch of the latest version of Starship even as NASA is asking it to accelerate work on a lunar lander version of the vehicle.\r\nThe post First Starship V3 launch slips appeared first on SpaceNews."
-    },
-    {
-      "title": "From Cabbages to Countdowns: NASA Marks 100 Years of Modern Rocketry",
-      "link": "https://www.nasa.gov/centers-and-facilities/goddard/from-cabbages-to-craters-nasa-marks-one-century-of-modern-rocketry/",
-      "source": "NASA",
-      "date": "2026-03-09T12:00:00Z",
-      "summary": "Snow covered the ground that Tuesday morning 100 years ago, when a college professor and his wife took a morning drive to the family farm a few miles south in Auburn, Massachusetts. Along for the ride, the couple brought two work colleagues — and “Nell.” They may not have known it at the time, but […]"
-    },
-    {
-      "title": "Chinese official calls for prioritizing Neptune orbiter mission",
-      "link": "https://spacenews.com/chinese-official-calls-for-prioritizing-neptune-orbiter-mission/",
-      "source": "SpaceNews",
-      "date": "2026-03-09T11:28:40Z",
-      "summary": "\nA senior Chinese space scientist and delegate to the country’s national congress is proposing the prioritization of an unprecedented orbiter mission to ice giant Neptune.\nThe post Chinese official calls for prioritizing Neptune orbiter mission appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-09T14:54:36.926Z"
+  "updated": "2026-03-09T15:15:05.188Z"
 }
