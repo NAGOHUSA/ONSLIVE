@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Voyager Technologies invests in Max Space",
+      "link": "https://spacenews.com/voyager-technologies-invests-in-max-space/",
+      "source": "SpaceNews",
+      "date": "2026-03-09T13:00:00Z",
+      "summary": "\nVoyager Technologies is investing in Max Space to help accelerate a partnership between the two companies on developing lunar habitats.\nThe post Voyager Technologies invests in Max Space appeared first on SpaceNews."
+    },
+    {
+      "title": "GNSS resilience is an economic and security priority",
+      "link": "https://spacenews.com/gnss-resilience-is-an-economic-and-security-priority/",
+      "source": "SpaceNews",
+      "date": "2026-03-09T13:00:00Z",
+      "summary": "\nModern society has become profoundly reliant on Global Navigation Satellite Systems (GNSS). These systems support aviation safety, emergency services, finance, communications, energy networks and an expanding array of autonomous and industrial systems. Yet despite this reliance, GNSS remains inherently fragile: low‑power signals transmitted from medium Earth orbit are surprisingly easy to degrade, and the consequences […]\nThe post GNSS resilience is an economic and security priority appeared first on SpaceNews."
+    },
+    {
       "title": "First Starship V3 launch slips",
       "link": "https://spacenews.com/first-starship-v3-launch-slips/",
       "source": "SpaceNews",
@@ -20,21 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-09T11:28:40Z",
       "summary": "\nA senior Chinese space scientist and delegate to the country’s national congress is proposing the prioritization of an unprecedented orbiter mission to ice giant Neptune.\nThe post Chinese official calls for prioritizing Neptune orbiter mission appeared first on SpaceNews."
-    },
-    {
-      "title": "Smile arrives at Europe’s Spaceport",
-      "link": "https://www.esa.int/Science_Exploration/Space_Science/Smile/Smile_arrives_at_Europe_s_Spaceport",
-      "source": "ESA",
-      "date": "2026-03-09T11:00:00Z",
-      "summary": "The Smile spacecraft has arrived at Europe’s Spaceport in French Guiana. During the coming weeks, the spacecraft will go through final preparations for its launch on a Vega-C rocket between 8 April and 7 May."
-    },
-    {
-      "title": "ESA analysing fireball over Europe on 8 March 2026",
-      "link": "https://www.esa.int/Space_Safety/Planetary_Defence/ESA_analysing_fireball_over_Europe_on_8_March_2026",
-      "source": "ESA",
-      "date": "2026-03-09T10:40:00Z",
-      "summary": "At approximately 18:55 CET (17:55 UTC) on Sunday 8 March 2026, a very bright fireball moving from the southwest to the northeast was observed by many people in Belgium, France, Germany, Luxembourg, and the Netherlands."
     }
   ],
-  "updated": "2026-03-09T12:44:17.187Z"
+  "updated": "2026-03-09T13:12:26.264Z"
 }
