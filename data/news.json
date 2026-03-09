@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Missile detection satellite designed by BAE Systems passes early review",
+      "link": "https://spacenews.com/missile-detection-satellite-designed-by-bae-systems-passes-early-review/",
+      "source": "SpaceNews",
+      "date": "2026-03-09T21:15:08Z",
+      "summary": "\nSpace Force pushes ahead with medium Earth orbit sensor layer for hypersonic tracking\nThe post Missile detection satellite designed by BAE Systems passes early review appeared first on SpaceNews."
+    },
+    {
       "title": "NASA’s Van Allen Probe A to Re-Enter Atmosphere",
       "link": "https://www.nasa.gov/missions/van-allen-probes/nasa-van-allen-probe-a-to-re-enter-atmosphere/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-09T18:30:00Z",
       "summary": "The FDC project conducts complex integrated small-scale flight research to validate the benefits of new technologies. By modifying aircraft from FDC’s support fleet, the project enables aggressive, success-oriented flight campaign schedules. While many technologies are at mid-levels of technology readiness, the FDC project supports all phases of technology maturation.   FDC’s support aircraft fleet enables safety chase and in-flight experimental measurements for a variety of […]"
-    },
-    {
-      "title": "What Is Pi? (Grades 5-8)",
-      "link": "https://www.nasa.gov/learning-resources/what-is-pi-grades-5-8/",
-      "source": "NASA",
-      "date": "2026-03-09T18:10:28Z",
-      "summary": "This article is for students grades 5-8. What is Pi? Pi is a number. You might know it as 3.14 or the symbol π. But it’s way more than that! What Makes Pi Special? Pi is an irrational number. That means it goes on forever and it never repeats its sequence of numbers. Pi has […]"
     }
   ],
-  "updated": "2026-03-09T21:15:21.214Z"
+  "updated": "2026-03-09T21:29:51.470Z"
 }
