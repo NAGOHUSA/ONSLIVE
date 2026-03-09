@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Live coverage: SpaceX to launch direct television satellite for EchoStar",
+      "link": "https://spaceflightnow.com/2026/03/09/live-coverage-spacex-to-launch-direct-television-satellite-for-echostar/",
+      "source": "Spaceflight Now",
+      "date": "2026-03-09T21:58:19Z",
+      "summary": "The launch of the EchoStar 25 satellite is SpaceX’s first launch to a geosynchronous transfer orbit so far this year. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for 11:19 p.m. EDT (0319 UTC). "
+    },
+    {
+      "title": "Meridian Space Diplomacy Forum & Executive Space Training – March 25 & 26",
+      "link": "https://spacenews.com/meridian-space-diplomacy-forum-executive-space-training-march-25-26/",
+      "source": "SpaceNews",
+      "date": "2026-03-09T21:52:59Z",
+      "summary": "\nWashington, D.C. — Meridian International Center today announced the return of its Space Diplomacy Forum: Shared Horizons (https://diplomacyforum.meridian.org/space), a half-day forum dedicated to advancing cooperation in outer space at a […]\nThe post Meridian Space Diplomacy Forum & Executive Space Training – March 25 & 26 appeared first on SpaceNews."
+    },
+    {
       "title": "SSTL to build spacecraft for private space telescope",
       "link": "https://spacenews.com/sstl-to-build-spacecraft-for-private-space-telescope/",
       "source": "SpaceNews",
@@ -20,21 +34,7 @@
       "source": "NASA",
       "date": "2026-03-09T19:55:37Z",
       "summary": "NASA’s Van Allen Probe A is expected to re-enter Earth’s atmosphere, almost 14 years after launch. From 2012 to 2019, the spacecraft and its twin, Van Allen Probe B, flew through the Van Allen belts, rings of charged particles trapped by Earth’s magnetic field, to understand how particles were gained and lost. The belts shield Earth from cosmic radiation, solar storms, and the constantly streaming […]"
-    },
-    {
-      "title": "SpaceX’s Enters a new era with Booster 19 rolling to Pad 2",
-      "link": "https://www.nasaspaceflight.com/2026/03/spacexs-booster-19-pad-2/",
-      "source": "NASASpaceflight",
-      "date": "2026-03-09T19:23:30Z",
-      "summary": "For the first time since Flight 11 on Oct 13, 2025, 147 days ago, SpaceX…\nThe post SpaceX’s Enters a new era with Booster 19 rolling to Pad 2 appeared first on NASASpaceFlight.com."
-    },
-    {
-      "title": "About Subsonic Flight Demonstrator (SFD) Project",
-      "link": "https://www.nasa.gov/directorates/armd/iasp/sfd/about-sfd/",
-      "source": "NASA",
-      "date": "2026-03-09T19:00:00Z",
-      "summary": "The purpose of the Subsonic Flight Demonstrator (SFD) project is to engage with industry and other government organizations to identify, select, and mature key airframe technologies, such as new wing designs, that have a high probability of transition to the next generation single-aisle seat class airliner.  Moving technologies from a research environment to a production environment […]"
     }
   ],
-  "updated": "2026-03-09T21:56:56.637Z"
+  "updated": "2026-03-09T22:08:16.751Z"
 }
