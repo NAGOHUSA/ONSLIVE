@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "SpaceX’s Enters a new era with Booster 19 rolling to Pad 2",
+      "link": "https://www.nasaspaceflight.com/2026/03/spacexs-booster-19-pad-2/",
+      "source": "NASASpaceflight",
+      "date": "2026-03-09T19:23:30Z",
+      "summary": "For the first time since Flight 11 on Oct 13, 2025, 147 days ago, SpaceX…\nThe post SpaceX’s Enters a new era with Booster 19 rolling to Pad 2 appeared first on NASASpaceFlight.com."
+    },
+    {
       "title": "About Flight Demonstrations and Capabilities (FDC) Project",
       "link": "https://www.nasa.gov/directorates/armd/iasp/fdc/about-fdc/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "ESA",
       "date": "2026-03-09T16:04:00Z",
       "summary": "From the ESA Blogs."
-    },
-    {
-      "title": "NASA to Share Artemis II Flight Readiness Review Update",
-      "link": "https://www.nasa.gov/news-release/nasa-to-share-artemis-ii-flight-readiness-review-update/",
-      "source": "NASA",
-      "date": "2026-03-09T15:57:36Z",
-      "summary": "NASA will host a news conference at 3 p.m. EDT, Thursday, March 12, to highlight progress toward the Artemis II crewed mission around the Moon. The media briefing will take place from the agency’s Kennedy Space Center in Florida after the conclusion of an Artemis II Flight Readiness Review. The news conference will stream live […]"
     }
   ],
-  "updated": "2026-03-09T19:29:54.116Z"
+  "updated": "2026-03-09T19:47:16.601Z"
 }
