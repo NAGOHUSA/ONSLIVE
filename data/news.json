@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA Armstrong Director Brad Flick to Retire After 40 Years of Service",
+      "link": "https://www.nasa.gov/news-release/nasa-armstrong-director-brad-flick-to-retire-after-40-years-of-service/",
+      "source": "NASA",
+      "date": "2026-03-09T18:07:59Z",
+      "summary": "On Monday, NASA announced Bradley Flick, director of NASA’s Armstrong Flight Research Center in Edwards, California, will retire Thursday, March 19, after a nearly 40-year career advancing aeronautics and flight research. Flick began his NASA journey in 1986 as a flight systems engineer and rose through the ranks to lead the center. His career spanned […]"
+    },
+    {
       "title": "Ariane 6 and Vega-C over Earth (artist impression)",
       "link": "https://www.esa.int/ESA_Multimedia/Images/2026/03/Ariane_6_and_Vega-C_over_Earth_artist_impression",
       "source": "ESA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-09T15:09:37Z",
       "summary": "Nebula PMR 1 is a cloud of gas and dust that bears an uncanny resemblance to a brain in a transparent skull, inspiring its nickname, the “Exposed Cranium” nebula. Webb captured its unusual features in both near- and mid-infrared light. The nebula was first revealed in infrared light by a predecessor to Webb, NASA’s now-retired Spitzer Space […]"
-    },
-    {
-      "title": "NASA Astronauts to Answer Questions from Students in New York",
-      "link": "https://www.nasa.gov/news-release/nasa-astronauts-to-answer-questions-from-students-in-new-york-3/",
-      "source": "NASA",
-      "date": "2026-03-09T15:06:15Z",
-      "summary": "Students in New York will hear from NASA astronauts Jack Hathaway and Chris Williams as they answer prerecorded science, technology, engineering, and mathematics (STEM) questions while aboard the International Space Station. The Earth-to-space call will begin at 12:05 p.m. EDT Wednesday, March 11, and will stream live on the agency’s Learn With NASA YouTube channel. […]"
     }
   ],
-  "updated": "2026-03-09T17:54:55.285Z"
+  "updated": "2026-03-09T18:10:41.522Z"
 }
