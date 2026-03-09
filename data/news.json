@@ -1,6 +1,27 @@
 {
   "articles": [
     {
+      "title": "Ariane 6 and Vega-C over Earth (artist impression)",
+      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/03/Ariane_6_and_Vega-C_over_Earth_artist_impression",
+      "source": "ESA",
+      "date": "2026-03-09T16:04:00Z",
+      "summary": "From the ESA Blogs."
+    },
+    {
+      "title": "NASA to Share Artemis II Flight Readiness Review Update",
+      "link": "https://www.nasa.gov/news-release/nasa-to-share-artemis-ii-flight-readiness-review-update/",
+      "source": "NASA",
+      "date": "2026-03-09T15:57:36Z",
+      "summary": "NASA will host a news conference at 3 p.m. EDT, Thursday, March 12, to highlight progress toward the Artemis II crewed mission around the Moon. The media briefing will take place from the agency’s Kennedy Space Center in Florida after the conclusion of an Artemis II Flight Readiness Review. The news conference will stream live […]"
+    },
+    {
+      "title": "Flammability Testing Configuration and Approach of Barrier MaterialAssemblies Designed for Space Flight Applications",
+      "link": "https://www.nasa.gov/centers-and-facilities/nesc/flammability-testing-configuration-and-approach-of-barrier-materialassemblies-designed-for-space-flight-applications/",
+      "source": "NASA",
+      "date": "2026-03-09T15:50:56Z",
+      "summary": "The NASA Engineering and Safety Center (NESC) partnered with Materials and Processes and Flammability subject matter experts from the Johnson Space Center, White Sands Test Facility, and the Marshall Space Flight Center to design and develop a test for evaluating the effectiveness of material assemblies to serve as a barrier between a potential cabin ignition […]"
+    },
+    {
       "title": "Webb Studies Cranium Nebula",
       "link": "https://www.nasa.gov/image-article/webb-studies-cranium-nebula/",
       "source": "NASA",
@@ -13,28 +34,7 @@
       "source": "NASA",
       "date": "2026-03-09T15:06:15Z",
       "summary": "Students in New York will hear from NASA astronauts Jack Hathaway and Chris Williams as they answer prerecorded science, technology, engineering, and mathematics (STEM) questions while aboard the International Space Station. The Earth-to-space call will begin at 12:05 p.m. EDT Wednesday, March 11, and will stream live on the agency’s Learn With NASA YouTube channel. […]"
-    },
-    {
-      "title": "Voyager Technologies invests in Max Space",
-      "link": "https://spacenews.com/voyager-technologies-invests-in-max-space/",
-      "source": "SpaceNews",
-      "date": "2026-03-09T13:00:00Z",
-      "summary": "\nVoyager Technologies is investing in Max Space to help accelerate a partnership between the two companies on developing lunar habitats.\nThe post Voyager Technologies invests in Max Space appeared first on SpaceNews."
-    },
-    {
-      "title": "GNSS resilience is an economic and security priority",
-      "link": "https://spacenews.com/gnss-resilience-is-an-economic-and-security-priority/",
-      "source": "SpaceNews",
-      "date": "2026-03-09T13:00:00Z",
-      "summary": "\nModern society has become profoundly reliant on Global Navigation Satellite Systems (GNSS). These systems support aviation safety, emergency services, finance, communications, energy networks and an expanding array of autonomous and industrial systems. Yet despite this reliance, GNSS remains inherently fragile: low‑power signals transmitted from medium Earth orbit are surprisingly easy to degrade, and the consequences […]\nThe post GNSS resilience is an economic and security priority appeared first on SpaceNews."
-    },
-    {
-      "title": "First Starship V3 launch slips",
-      "link": "https://spacenews.com/first-starship-v3-launch-slips/",
-      "source": "SpaceNews",
-      "date": "2026-03-09T12:16:09Z",
-      "summary": "SpaceX is pushing back the first launch of the latest version of Starship even as NASA is asking it to accelerate work on a lunar lander version of the vehicle.\r\nThe post First Starship V3 launch slips appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-09T16:03:13.766Z"
+  "updated": "2026-03-09T16:29:56.156Z"
 }
