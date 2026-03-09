@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "SSTL to build spacecraft for private space telescope",
+      "link": "https://spacenews.com/sstl-to-build-spacecraft-for-private-space-telescope/",
+      "source": "SpaceNews",
+      "date": "2026-03-09T21:48:28Z",
+      "summary": "\nSurrey Satellite Technology Ltd. (SSTL), a British company best known for developing small satellites, will help build a large, privately funded space telescope.\nThe post SSTL to build spacecraft for private space telescope appeared first on SpaceNews."
+    },
+    {
       "title": "Missile detection satellite designed by BAE Systems passes early review",
       "link": "https://spacenews.com/missile-detection-satellite-designed-by-bae-systems-passes-early-review/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-09T19:00:00Z",
       "summary": "The purpose of the Subsonic Flight Demonstrator (SFD) project is to engage with industry and other government organizations to identify, select, and mature key airframe technologies, such as new wing designs, that have a high probability of transition to the next generation single-aisle seat class airliner.  Moving technologies from a research environment to a production environment […]"
-    },
-    {
-      "title": "About Flight Demonstrations and Capabilities (FDC) Project",
-      "link": "https://www.nasa.gov/directorates/armd/iasp/fdc/about-fdc/",
-      "source": "NASA",
-      "date": "2026-03-09T18:30:00Z",
-      "summary": "The FDC project conducts complex integrated small-scale flight research to validate the benefits of new technologies. By modifying aircraft from FDC’s support fleet, the project enables aggressive, success-oriented flight campaign schedules. While many technologies are at mid-levels of technology readiness, the FDC project supports all phases of technology maturation.   FDC’s support aircraft fleet enables safety chase and in-flight experimental measurements for a variety of […]"
     }
   ],
-  "updated": "2026-03-09T21:45:44.142Z"
+  "updated": "2026-03-09T21:56:56.637Z"
 }
