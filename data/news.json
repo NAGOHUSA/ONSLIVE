@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "About Flight Demonstrations and Capabilities (FDC) Project",
+      "link": "https://www.nasa.gov/directorates/armd/iasp/fdc/about-fdc/",
+      "source": "NASA",
+      "date": "2026-03-09T18:30:00Z",
+      "summary": "The FDC project conducts complex integrated small-scale flight research to validate the benefits of new technologies. By modifying aircraft from FDC’s support fleet, the project enables aggressive, success-oriented flight campaign schedules. While many technologies are at mid-levels of technology readiness, the FDC project supports all phases of technology maturation.   FDC’s support aircraft fleet enables safety chase and in-flight experimental measurements for a variety of […]"
+    },
+    {
       "title": "What Is Pi? (Grades 5-8)",
       "link": "https://www.nasa.gov/learning-resources/what-is-pi-grades-5-8/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-09T15:57:36Z",
       "summary": "NASA will host a news conference at 3 p.m. EDT, Thursday, March 12, to highlight progress toward the Artemis II crewed mission around the Moon. The media briefing will take place from the agency’s Kennedy Space Center in Florida after the conclusion of an Artemis II Flight Readiness Review. The news conference will stream live […]"
-    },
-    {
-      "title": "Flammability Testing Configuration and Approach of Barrier MaterialAssemblies Designed for Space Flight Applications",
-      "link": "https://www.nasa.gov/centers-and-facilities/nesc/flammability-testing-configuration-and-approach-of-barrier-materialassemblies-designed-for-space-flight-applications/",
-      "source": "NASA",
-      "date": "2026-03-09T15:50:56Z",
-      "summary": "The NASA Engineering and Safety Center (NESC) partnered with Materials and Processes and Flammability subject matter experts from the Johnson Space Center, White Sands Test Facility, and the Marshall Space Flight Center to design and develop a test for evaluating the effectiveness of material assemblies to serve as a barrier between a potential cabin ignition […]"
     }
   ],
-  "updated": "2026-03-09T19:12:51.303Z"
+  "updated": "2026-03-09T19:29:54.116Z"
 }
