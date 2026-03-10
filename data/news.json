@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Insights into Spallation Mechanisms of Thermal Protection System Materials from Mass Spectrometry and HyMETS Testing",
+      "link": "https://www.nasa.gov/centers-and-facilities/nesc/insights-into-spallation-mechanisms-of-thermal-protection-system-materials-from-mass-spectrometry-and-hymets-testing/",
+      "source": "NASA",
+      "date": "2026-03-10T19:43:07Z",
+      "summary": "An effort was undertaken to investigate the mechanisms responsible for internal pressure build up within thermal protection system (TPS) materials subjected to high-enthalpy environments. Understanding how gases evolve, migrate, and interact with the microstructure of a TPS is essential for predicting degradation and failure modes such as spallation. To this end, complementary experimental approaches were […]"
+    },
+    {
       "title": "Computational Modeling of Failure at the Fabric Weave Level in Reentry Parachute Energy Modulators",
       "link": "https://www.nasa.gov/centers-and-facilities/nesc/computational-modeling-of-failure-at-the-fabric-weave-level-in-reentry-parachute-energy-modulators/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-10T16:47:09Z",
       "summary": "This article is from the 2025 Technical Update. The human factors TDT looks for and creates opportunities to influence design to leverage human strengths and to protect people and missions. The human factors team has experts with knowledge of human performance in all aspects of NASA missions as well as from other safety-critical industries. The […]"
-    },
-    {
-      "title": "Precision in Orbit: Heraeus Catalysts Safeguard Satellite Control",
-      "link": "https://spacenews.com/precision-in-orbit-heraeus-catalysts-safeguard-satellite-control/",
-      "source": "SpaceNews",
-      "date": "2026-03-10T16:30:38Z",
-      "summary": "\nWhen a satellite travels through orbit at up to 17,500 mph, a fraction of a second can determine whether a course correction is successful, as even minor trajectory deviations can […]\nThe post Precision in Orbit: Heraeus Catalysts Safeguard Satellite Control appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-10T19:43:19.861Z"
+  "updated": "2026-03-10T19:56:48.936Z"
 }
