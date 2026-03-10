@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Lux Aeterna raises $10 million ahead of 2027 reusable satellite demo",
+      "link": "https://spacenews.com/lux-aeterna-raises-10-million-for-reusable-satellite-ahead-of-2027-demo/",
+      "source": "SpaceNews",
+      "date": "2026-03-10T13:00:00Z",
+      "summary": "\nDenver-based Lux Aeterna has secured $10 million in seed funding to develop a reusable satellite designed to survive atmospheric reentry and fly again with new payloads, starting with a demonstration flight slated for early 2027.\nThe post Lux Aeterna raises $10 million ahead of 2027 reusable satellite demo appeared first on SpaceNews."
+    },
+    {
+      "title": "Starliner and Artemis: commercial label vs. commercial discipline",
+      "link": "https://spacenews.com/starliner-and-artemis-commercial-label-vs-commercial-discipline/",
+      "source": "SpaceNews",
+      "date": "2026-03-10T13:00:00Z",
+      "summary": "\nNASA’s Commercial Crew Program was supposed to be the template: services-based procurement, private ownership of hardware and competition between providers. Yet NASA has now formally designated Boeing’s 2024 Starliner crewed test flight as a Type A mishap — its most serious category — and leadership has been explicit that the most troubling failure was not […]\nThe post Starliner and Artemis: commercial label vs. commercial discipline appeared first on SpaceNews."
+    },
+    {
       "title": "NASA Invites Media to 63rd Annual Goddard Space Science Symposium",
       "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-63rd-annual-goddard-space-science-symposium/",
       "source": "NASA",
@@ -20,21 +34,7 @@
       "source": "NASA",
       "date": "2026-03-10T04:01:00Z",
       "summary": "A series of nighttime satellite images revealed how moonlight reaching Earth varied throughout a total lunar eclipse."
-    },
-    {
-      "title": "After years of missteps, Blue Origin to finally offer meaningful stock options",
-      "link": "https://arstechnica.com/space/2026/03/after-years-of-missteps-blue-origin-to-finally-offer-meaningful-stock-options/",
-      "source": "Arstechnica",
-      "date": "2026-03-09T23:00:18Z",
-      "summary": "\"It's a big fat middle finger for those that thought they had something.\""
-    },
-    {
-      "title": "Live coverage: SpaceX to launch direct television satellite for EchoStar",
-      "link": "https://spaceflightnow.com/2026/03/09/live-coverage-spacex-to-launch-direct-television-satellite-for-echostar/",
-      "source": "Spaceflight Now",
-      "date": "2026-03-09T21:58:19Z",
-      "summary": "The launch of the EchoStar 25 satellite is SpaceX’s first launch to a geosynchronous transfer orbit so far this year. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for 11:19 p.m. EDT (0319 UTC)."
     }
   ],
-  "updated": "2026-03-10T12:37:48.002Z"
+  "updated": "2026-03-10T13:03:03.901Z"
 }
