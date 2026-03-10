@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Viasat wins $14 million contract to provide in-flight satcom for Navy executive aircraft",
+      "link": "https://spacenews.com/viasat-wins-14-million-contract-to-provide-in-flight-satcom-for-navy-executive-aircraft/",
+      "source": "SpaceNews",
+      "date": "2026-03-10T22:38:12Z",
+      "summary": "\nThe two-year deal covers satellite communications for Navy C-37 executive jets used to transport senior leaders \nThe post Viasat wins $14 million contract to provide in-flight satcom for Navy executive aircraft appeared first on SpaceNews."
+    },
+    {
       "title": "Launch Preview: Falcon 9 to dominate another busy week of missions",
       "link": "https://www.nasaspaceflight.com/2026/03/launch-preview-031026/",
       "source": "NASASpaceflight",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-10T19:12:01Z",
       "summary": "Your challenge is to tell us the location of the satellite image and why it is interesting."
-    },
-    {
-      "title": "Computational Modeling of Failure at the Fabric Weave Level in Reentry Parachute Energy Modulators",
-      "link": "https://www.nasa.gov/centers-and-facilities/nesc/computational-modeling-of-failure-at-the-fabric-weave-level-in-reentry-parachute-energy-modulators/",
-      "source": "NASA",
-      "date": "2026-03-10T19:06:18Z",
-      "summary": "Download PDF: Computational Modeling of Failure at the Fabric Weave Level in Reentry Parachute Energy Modulators Energy modulators (EM) are textile mechanical devices designed to dissipate snatch loads that occur when parachutes are deployed. Although critical for mitigating shock loads, recent flight testing has shown increasing variability in EM behavior, raising concerns about their performance predictability and […]"
     }
   ],
-  "updated": "2026-03-10T22:25:45.200Z"
+  "updated": "2026-03-10T22:41:53.884Z"
 }
