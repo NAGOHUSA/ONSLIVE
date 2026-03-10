@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Computational Modeling of Failure at the Fabric Weave Level in Reentry Parachute Energy Modulators",
+      "link": "https://www.nasa.gov/centers-and-facilities/nesc/computational-modeling-of-failure-at-the-fabric-weave-level-in-reentry-parachute-energy-modulators/",
+      "source": "NASA",
+      "date": "2026-03-10T19:06:18Z",
+      "summary": "Download PDF: Computational Modeling of Failure at the Fabric Weave Level in Reentry Parachute Energy Modulators Energy modulators (EM) are textile mechanical devices designed to dissipate snatch loads that occur when parachutes are deployed. Although critical for mitigating shock loads, recent flight testing has shown increasing variability in EM behavior, raising concerns about their performance predictability and […]"
+    },
+    {
       "title": "Ice to Fuel: NASA Tests Technology for Refueling Landers",
       "link": "https://www.nasa.gov/general/nasa-tests-lander-refueling-tech/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-10T16:30:38Z",
       "summary": "\nWhen a satellite travels through orbit at up to 17,500 mph, a fraction of a second can determine whether a course correction is successful, as even minor trajectory deviations can […]\nThe post Precision in Orbit: Heraeus Catalysts Safeguard Satellite Control appeared first on SpaceNews."
-    },
-    {
-      "title": "Webinar 3/25: NASA CSDA Vendor Focus – Satellogic",
-      "link": "https://science.nasa.gov/science-research/earth-science/webinar-3-25-nasa-csda-vendor-focus-satellogic/",
-      "source": "NASA",
-      "date": "2026-03-10T16:21:25Z",
-      "summary": "Join us March 25 at 2:00 p.m. EDT to learn more about the data offered by CSDA program vendor Satellogic."
     }
   ],
-  "updated": "2026-03-10T19:08:15.356Z"
+  "updated": "2026-03-10T19:26:25.497Z"
 }
