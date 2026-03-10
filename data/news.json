@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA Discovers Crash of Extreme Stars in Unexpected Site",
+      "link": "https://www.nasa.gov/missions/chandra/nasa-discovers-crash-of-extreme-stars-in-unexpected-site/",
+      "source": "NASA",
+      "date": "2026-03-10T15:40:14Z",
+      "summary": "A fleet of NASA missions has likely uncovered a collision between two ultradense stars in a tiny galaxy buried in a huge stream of gas. Astronomers have never seen this type of explosive event in an environment like this before — and it may help solve two outstanding cosmic mysteries. A paper describing these results […]"
+    },
+    {
       "title": "Lux Aeterna raises $10 million ahead of 2027 reusable satellite demo",
       "link": "https://spacenews.com/lux-aeterna-raises-10-million-for-reusable-satellite-ahead-of-2027-demo/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-10T11:30:54Z",
       "summary": "\nChinese launch startup Landspace says it has completed a long-duration full-system hot-fire test of its new 220-ton-class methane rocket engine for new-generation launchers.\nThe post Landspace tests 220-ton methane engine for future heavy-lift launchers appeared first on SpaceNews."
-    },
-    {
-      "title": "Shades of a Lunar Eclipse",
-      "link": "https://science.nasa.gov/earth/earth-observatory/shades-of-a-lunar-eclipse/",
-      "source": "NASA",
-      "date": "2026-03-10T04:01:00Z",
-      "summary": "A series of nighttime satellite images revealed how moonlight reaching Earth varied throughout a total lunar eclipse."
     }
   ],
-  "updated": "2026-03-10T15:33:06.000Z"
+  "updated": "2026-03-10T15:56:53.611Z"
 }
