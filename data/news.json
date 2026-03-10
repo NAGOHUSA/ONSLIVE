@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA and SpaceX disagree about manual controls for lunar lander",
+      "link": "https://arstechnica.com/space/2026/03/nasa-and-spacex-disagree-about-manual-controls-for-lunar-lander/",
+      "source": "Arstechnica",
+      "date": "2026-03-10T17:48:59Z",
+      "summary": "\"NASA’s tracking of SpaceX’s manual control risk indicates a worsening trend.\""
+    },
+    {
       "title": "Expanding the Human Factors Toolbox:  An Approach to Balancing Crew and Mission Design Parameters",
       "link": "https://www.nasa.gov/centers-and-facilities/nesc/expanding-the-human-factors-toolbox-an-approach-to-balancing-crew-and-mission-design-parameters/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-10T16:19:10Z",
       "summary": "The NESC has invested significant time and resources to better understand composite overwrapped pressure vessels (COPV) performance and more importantly, how these complex, high-pressure storage systems can fail. These vessels, which store high pressure propulsion and life-support system fluids on launch vehicles and spacecraft, are ubiquitous at NASA, and failures have the potential to be catastrophic.  This year the […]"
-    },
-    {
-      "title": "A Technical Resource for the Agency",
-      "link": "https://www.nasa.gov/centers-and-facilities/nesc/a-technical-resource-for-the-agency/",
-      "source": "NASA",
-      "date": "2026-03-10T16:14:18Z",
-      "summary": "The NESC’s Thermal Control & Protection Technical Discipline Team (TDT) is a resource providing subject matter expertise in active and passive thermal control as well as ascent and entry thermal protection across the spectrum of agency needs. TDT members led or supported a variety of key activities including the ongoing Artemis I heat shield char […]"
     }
   ],
-  "updated": "2026-03-10T17:47:07.362Z"
+  "updated": "2026-03-10T18:04:27.474Z"
 }
