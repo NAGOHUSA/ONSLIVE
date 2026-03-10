@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Expanding the Human Factors Toolbox:  An Approach to Balancing Crew and Mission Design Parameters",
+      "link": "https://www.nasa.gov/centers-and-facilities/nesc/expanding-the-human-factors-toolbox-an-approach-to-balancing-crew-and-mission-design-parameters/",
+      "source": "NASA",
+      "date": "2026-03-10T16:47:09Z",
+      "summary": "This article is from the 2025 Technical Update. The human factors TDT looks for and creates opportunities to influence design to leverage human strengths and to protect people and missions. The human factors team has experts with knowledge of human performance in all aspects of NASA missions as well as from other safety-critical industries. The […]"
+    },
+    {
       "title": "Precision in Orbit: Heraeus Catalysts Safeguard Satellite Control",
       "link": "https://spacenews.com/precision-in-orbit-heraeus-catalysts-safeguard-satellite-control/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-10T16:10:58Z",
       "summary": "NASA’s Mars Reconnaissance Orbiter (MRO) captures a detailed view of a relatively fresh crater in this image released on June 3, 2015. The crater has a sharp rim and well-preserved ejecta. The steep inner slopes are carved by gullies and include possible recurring slope lineae on the equator-facing slopes. This crater is monitored for changes […]"
-    },
-    {
-      "title": "Impulse Space expands Colorado presence",
-      "link": "https://spacenews.com/impulse-space-expands-colorado-presence/",
-      "source": "SpaceNews",
-      "date": "2026-03-10T16:00:00Z",
-      "summary": "\nSpace mobility company Impulse Space has opened a Colorado facility to support development of its spacecraft.\nThe post Impulse Space expands Colorado presence appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-10T16:44:10.938Z"
+  "updated": "2026-03-10T17:06:58.746Z"
 }
