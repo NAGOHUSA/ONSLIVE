@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Precision in Orbit: Heraeus Catalysts Safeguard Satellite Control",
+      "link": "https://spacenews.com/precision-in-orbit-heraeus-catalysts-safeguard-satellite-control/",
+      "source": "SpaceNews",
+      "date": "2026-03-10T16:30:38Z",
+      "summary": "\nWhen a satellite travels through orbit at up to 17,500 mph, a fraction of a second can determine whether a course correction is successful, as even minor trajectory deviations can […]\nThe post Precision in Orbit: Heraeus Catalysts Safeguard Satellite Control appeared first on SpaceNews."
+    },
+    {
       "title": "COPV Damage Tolerance Life Demonstration Guidelines",
       "link": "https://www.nasa.gov/centers-and-facilities/nesc/copv-damage-tolerance-life-demonstration-guidelines/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-10T16:00:00Z",
       "summary": "\nSpace mobility company Impulse Space has opened a Colorado facility to support development of its spacecraft.\nThe post Impulse Space expands Colorado presence appeared first on SpaceNews."
-    },
-    {
-      "title": "NASA Discovers Crash of Extreme Stars in Unexpected Site",
-      "link": "https://www.nasa.gov/missions/chandra/nasa-discovers-crash-of-extreme-stars-in-unexpected-site/",
-      "source": "NASA",
-      "date": "2026-03-10T15:40:14Z",
-      "summary": "A fleet of NASA missions has likely uncovered a collision between two ultradense stars in a tiny galaxy buried in a huge stream of gas. Astronomers have never seen this type of explosive event in an environment like this before — and it may help solve two outstanding cosmic mysteries. A paper describing these results […]"
     }
   ],
-  "updated": "2026-03-10T16:23:50.046Z"
+  "updated": "2026-03-10T16:44:10.938Z"
 }
