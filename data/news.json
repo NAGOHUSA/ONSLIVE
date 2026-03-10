@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Starlab Space fully books commercial payload space on planned space station",
+      "link": "https://spacenews.com/starlab-space-fully-books-commercial-payload-space-on-planned-space-station/",
+      "source": "SpaceNews",
+      "date": "2026-03-10T23:11:13Z",
+      "summary": "\nThe Starlab commercial space station has fully booked its commercial payload space as the joint venture developing it awaits the next phase of a NASA program.\nThe post Starlab Space fully books commercial payload space on planned space station appeared first on SpaceNews."
+    },
+    {
       "title": "Viasat wins $14 million contract to provide in-flight satcom for Navy executive aircraft",
       "link": "https://spacenews.com/viasat-wins-14-million-contract-to-provide-in-flight-satcom-for-navy-executive-aircraft/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-10T19:43:07Z",
       "summary": "An effort was undertaken to investigate the mechanisms responsible for internal pressure build up within thermal protection system (TPS) materials subjected to high-enthalpy environments. Understanding how gases evolve, migrate, and interact with the microstructure of a TPS is essential for predicting degradation and failure modes such as spallation. To this end, complementary experimental approaches were […]"
-    },
-    {
-      "title": "March 2026 Satellite Puzzler",
-      "link": "https://science.nasa.gov/earth/earth-observatory/march-2026-satellite-puzzler/",
-      "source": "NASA",
-      "date": "2026-03-10T19:12:01Z",
-      "summary": "Your challenge is to tell us the location of the satellite image and why it is interesting."
     }
   ],
-  "updated": "2026-03-10T23:14:19.601Z"
+  "updated": "2026-03-10T23:28:02.769Z"
 }
