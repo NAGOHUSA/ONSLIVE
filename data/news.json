@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA Invites Media to 63rd Annual Goddard Space Science Symposium",
+      "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-63rd-annual-goddard-space-science-symposium/",
+      "source": "NASA",
+      "date": "2026-03-10T12:00:00Z",
+      "summary": "Media are invited to attend the 63rd annual Goddard Space Science Symposium, taking place Thursday, March 12, and Friday, March 13, at the National Housing Center in Washington. The event also will be streamed online. Organized by the American Astronautical Society (AAS) in conjunction with NASA’s Goddard Space Flight Center in Greenbelt, Maryland, the symposium […]"
+    },
+    {
       "title": "Landspace tests 220-ton methane engine for future heavy-lift launchers",
       "link": "https://spacenews.com/landspace-tests-220-ton-methane-engine-for-future-heavy-lift-launchers/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "Spaceflight Now",
       "date": "2026-03-09T21:58:19Z",
       "summary": "The launch of the EchoStar 25 satellite is SpaceX’s first launch to a geosynchronous transfer orbit so far this year. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for 11:19 p.m. EDT (0319 UTC)."
-    },
-    {
-      "title": "Meridian Space Diplomacy Forum & Executive Space Training – March 25 & 26",
-      "link": "https://spacenews.com/meridian-space-diplomacy-forum-executive-space-training-march-25-26/",
-      "source": "SpaceNews",
-      "date": "2026-03-09T21:52:59Z",
-      "summary": "\nWashington, D.C. — Meridian International Center today announced the return of its Space Diplomacy Forum: Shared Horizons (https://diplomacyforum.meridian.org/space), a half-day forum dedicated to advancing cooperation in outer space at a […]\nThe post Meridian Space Diplomacy Forum & Executive Space Training – March 25 & 26 appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-10T12:19:49.487Z"
+  "updated": "2026-03-10T12:37:48.002Z"
 }
