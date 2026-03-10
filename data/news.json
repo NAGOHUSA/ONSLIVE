@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Launch Preview: Falcon 9 to dominate another busy week of missions",
+      "link": "https://www.nasaspaceflight.com/2026/03/launch-preview-031026/",
+      "source": "NASASpaceflight",
+      "date": "2026-03-10T21:11:28Z",
+      "summary": "Eight launches are scheduled worldwide this week, with Falcon 9 again dominating the launch schedule.…\nThe post Launch Preview: Falcon 9 to dominate another busy week of missions appeared first on NASASpaceFlight.com."
+    },
+    {
       "title": "Suspended NOAA satellite chief warns of threats to federal science programs",
       "link": "https://spacenews.com/suspended-noaa-satellite-chief-warns-of-threats-to-federal-science-programs/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-10T19:06:18Z",
       "summary": "Download PDF: Computational Modeling of Failure at the Fabric Weave Level in Reentry Parachute Energy Modulators Energy modulators (EM) are textile mechanical devices designed to dissipate snatch loads that occur when parachutes are deployed. Although critical for mitigating shock loads, recent flight testing has shown increasing variability in EM behavior, raising concerns about their performance predictability and […]"
-    },
-    {
-      "title": "Ice to Fuel: NASA Tests Technology for Refueling Landers",
-      "link": "https://www.nasa.gov/general/nasa-tests-lander-refueling-tech/",
-      "source": "NASA",
-      "date": "2026-03-10T18:40:00Z",
-      "summary": "The farther the destination, the more fuel a rocket needs. The more fuel the rocket carries, the heavier the spacecraft. The heavier the spacecraft, the more fuel it requires to launch. Experts at NASA’s Glenn Research Center in Cleveland are testing technology that could solve this problem.  The CryoFILL (Cryogenic Fluid In-Situ Liquefaction for Landers) project could transform the way NASA fuels future space exploration missions, reducing costs and extending the duration of planetary surface operations.   “If […]"
     }
   ],
-  "updated": "2026-03-10T21:16:32.824Z"
+  "updated": "2026-03-10T21:30:42.806Z"
 }
