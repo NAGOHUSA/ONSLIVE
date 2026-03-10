@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Shades of a Lunar Eclipse",
+      "link": "https://science.nasa.gov/earth/earth-observatory/shades-of-a-lunar-eclipse/",
+      "source": "NASA",
+      "date": "2026-03-10T04:01:00Z",
+      "summary": "A series of nighttime satellite images revealed how moonlight reaching Earth varied throughout a total lunar eclipse."
+    },
+    {
       "title": "After years of missteps, Blue Origin to finally offer meaningful stock options",
       "link": "https://arstechnica.com/space/2026/03/after-years-of-missteps-blue-origin-to-finally-offer-meaningful-stock-options/",
       "source": "Arstechnica",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-09T21:48:28Z",
       "summary": "\nSurrey Satellite Technology Ltd. (SSTL), a British company best known for developing small satellites, will help build a large, privately funded space telescope.\nThe post SSTL to build spacecraft for private space telescope appeared first on SpaceNews."
-    },
-    {
-      "title": "Missile detection satellite designed by BAE Systems passes early review",
-      "link": "https://spacenews.com/missile-detection-satellite-designed-by-bae-systems-passes-early-review/",
-      "source": "SpaceNews",
-      "date": "2026-03-09T21:15:08Z",
-      "summary": "\nSpace Force pushes ahead with medium Earth orbit sensor layer for hypersonic tracking\nThe post Missile detection satellite designed by BAE Systems passes early review appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-10T03:34:29.915Z"
+  "updated": "2026-03-10T04:18:22.501Z"
 }
