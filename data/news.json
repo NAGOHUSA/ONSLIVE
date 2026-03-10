@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Suspended NOAA satellite chief warns of threats to federal science programs",
+      "link": "https://spacenews.com/suspended-noaa-satellite-chief-warns-of-threats-to-federal-science-programs/",
+      "source": "SpaceNews",
+      "date": "2026-03-10T20:29:04Z",
+      "summary": "\nThe head of NOAA’s satellite division, on administrative leave for more than half a year, warned that workforce reductions and cuts to science programs have “lobotomized” the federal government.\nThe post Suspended NOAA satellite chief warns of threats to federal science programs appeared first on SpaceNews."
+    },
+    {
       "title": "Insights into Spallation Mechanisms of Thermal Protection System Materials from Mass Spectrometry and HyMETS Testing",
       "link": "https://www.nasa.gov/centers-and-facilities/nesc/insights-into-spallation-mechanisms-of-thermal-protection-system-materials-from-mass-spectrometry-and-hymets-testing/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-10T18:40:00Z",
       "summary": "The farther the destination, the more fuel a rocket needs. The more fuel the rocket carries, the heavier the spacecraft. The heavier the spacecraft, the more fuel it requires to launch. Experts at NASA’s Glenn Research Center in Cleveland are testing technology that could solve this problem.  The CryoFILL (Cryogenic Fluid In-Situ Liquefaction for Landers) project could transform the way NASA fuels future space exploration missions, reducing costs and extending the duration of planetary surface operations.   “If […]"
-    },
-    {
-      "title": "NASA and SpaceX disagree about manual controls for lunar lander",
-      "link": "https://arstechnica.com/space/2026/03/nasa-and-spacex-disagree-about-manual-controls-for-lunar-lander/",
-      "source": "Arstechnica",
-      "date": "2026-03-10T17:48:59Z",
-      "summary": "\"NASA’s tracking of SpaceX’s manual control risk indicates a worsening trend.\""
     }
   ],
-  "updated": "2026-03-10T20:22:07.966Z"
+  "updated": "2026-03-10T20:38:48.513Z"
 }
