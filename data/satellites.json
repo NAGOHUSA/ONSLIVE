@@ -10,7 +10,7 @@
     {
       "name": "STARLINK-1012",
       "id": "2019-074F",
-      "epoch": "2026-03-09T14:55:02.288928",
+      "epoch": "2026-03-09T14:55:02.288064",
       "meanMotion": 15.30183402,
       "inclination": 53.1621
     },
@@ -24,23 +24,23 @@
     {
       "name": "STARLINK-1019",
       "id": "2019-074M",
-      "epoch": "2026-03-09T16:00:03.000096",
-      "meanMotion": 15.81337154,
-      "inclination": 53.0412
+      "epoch": "2026-03-09T22:00:01.999584",
+      "meanMotion": 15.81424678,
+      "inclination": 53.0417
     },
     {
       "name": "STARLINK-1020",
       "id": "2019-074N",
-      "epoch": "2026-03-09T14:29:10.927680",
-      "meanMotion": 15.30189974,
-      "inclination": 53.159
+      "epoch": "2026-03-09T16:03:14.161824",
+      "meanMotion": 15.30188453,
+      "inclination": 53.1589
     },
     {
       "name": "STARLINK-1031",
       "id": "2019-074Z",
-      "epoch": "2026-03-09T16:00:03.000096",
-      "meanMotion": 15.90733708,
-      "inclination": 53.0376
+      "epoch": "2026-03-09T22:00:01.999584",
+      "meanMotion": 15.90842672,
+      "inclination": 53.0381
     },
     {
       "name": "STARLINK-1036",
@@ -52,7 +52,7 @@
     {
       "name": "STARLINK-1039",
       "id": "2019-074AH",
-      "epoch": "2026-03-09T14:46:14.326176",
+      "epoch": "2026-03-09T14:46:14.325312",
       "meanMotion": 15.21697508,
       "inclination": 53.0506
     },
@@ -66,17 +66,17 @@
     {
       "name": "STARLINK-1043",
       "id": "2019-074AM",
-      "epoch": "2026-03-09T12:42:02.212128",
-      "meanMotion": 15.53664411,
-      "inclination": 53.0524
+      "epoch": "2026-03-09T15:47:17.837376",
+      "meanMotion": 15.53675122,
+      "inclination": 53.0519
     }
   ],
   "iss": {
-    "latitude": -6.8696353080147,
-    "longitude": 89.000281559988,
-    "altitude": 417.50566089745,
-    "velocity": 27592.03680041,
+    "latitude": -11.100858578228,
+    "longitude": -115.64982215326,
+    "altitude": 429.17790872979,
+    "velocity": 27545.793288401,
     "visibility": "daylight"
   },
-  "updated": "2026-03-09T23:58:20.793Z"
+  "updated": "2026-03-10T00:38:57.135Z"
 }
