@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Space Force officially terminates AeroVironment contract for satellite control antennas",
+      "link": "https://spacenews.com/space-force-officially-terminates-aerovironment-contract-for-satellite-control-antennas/",
+      "source": "SpaceNews",
+      "date": "2026-03-11T12:21:07Z",
+      "summary": "\nThe company says it will rework its BADGER antenna design and compete for the follow-on effort\nThe post Space Force officially terminates AeroVironment contract for satellite control antennas appeared first on SpaceNews."
+    },
+    {
       "title": "NASA disqualifies X-ray telescope from Probe mission competition",
       "link": "https://spacenews.com/nasa-disqualifies-x-ray-telescope-from-probe-mission-competition/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "ESA",
       "date": "2026-03-11T10:00:00Z",
       "summary": "Every day, we rely on satellite navigation – so much so that it has become a target for disruption. As our dependence on the technology grows, so do the risks associated with its interruption. Some antennas offer protection from the most common types of interference, but they are bulky and expensive to manufacture. A PhD researcher’s project explores an alternative: a football-sized, 3D-printed lens antenna that could provide resilience for satellite navigation while staying simple and cheap."
-    },
-    {
-      "title": "Curiosity Blog, Sols 4825-4831: Exploring the Borderlands",
-      "link": "https://science.nasa.gov/blog/curiosity-blog-sols-4825-4831-exploring-the-borderlands/",
-      "source": "NASA",
-      "date": "2026-03-11T05:24:17Z",
-      "summary": "Written by William Farrand, Senior Research Scientist, Space Science Institute Earth planning date: Friday, March 6, 2026 Curiosity is in the last stage of its exploration of the spiderweb-like boxwork unit. This stage consists of exploring the eastern and southern borders of this terrain. There were two multi-sol plans assembled this week. The previous plan […]"
     }
   ],
-  "updated": "2026-03-11T12:20:38.907Z"
+  "updated": "2026-03-11T12:38:54.007Z"
 }
