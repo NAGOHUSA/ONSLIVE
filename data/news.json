@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "The perils of political impatience in the Artemis program",
+      "link": "https://spacenews.com/the-perils-of-political-impatience-in-the-artemis-program/",
+      "source": "SpaceNews",
+      "date": "2026-03-11T13:00:00Z",
+      "summary": "\nRecent engineering setbacks, specifically regarding helium system issues associated with the improper flow of helium into the Space Launch System (SLS) rocket’s upper stage, and persistent hydrogen leaks, have forced NASA to delay the crewed Artemis 2 mission to no earlier than April. While frustrating for the public, these delays are a necessary byproduct of […]\nThe post The perils of political impatience in the Artemis program appeared first on SpaceNews."
+    },
+    {
       "title": "Space Force officially terminates AeroVironment contract for satellite control antennas",
       "link": "https://spacenews.com/space-force-officially-terminates-aerovironment-contract-for-satellite-control-antennas/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-11T10:00:34Z",
       "summary": "\nShanghai-based laser communications startup BlueStar Optical Domain has raised funding in the region of $70 million, highlighting growing demand from China’s emerging satellite internet constellations.\nThe post Large Series C signals scale-up of China’s laser satellite communications sector appeared first on SpaceNews."
-    },
-    {
-      "title": "The tiny lens antenna with big potential",
-      "link": "https://www.esa.int/Enabling_Support/Space_Engineering_Technology/The_tiny_lens_antenna_with_big_potential",
-      "source": "ESA",
-      "date": "2026-03-11T10:00:00Z",
-      "summary": "Every day, we rely on satellite navigation – so much so that it has become a target for disruption. As our dependence on the technology grows, so do the risks associated with its interruption. Some antennas offer protection from the most common types of interference, but they are bulky and expensive to manufacture. A PhD researcher’s project explores an alternative: a football-sized, 3D-printed lens antenna that could provide resilience for satellite navigation while staying simple and cheap."
     }
   ],
-  "updated": "2026-03-11T12:38:54.007Z"
+  "updated": "2026-03-11T13:04:36.445Z"
 }
