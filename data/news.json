@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA inspector general assesses agency’s management of moon lander risk",
+      "link": "https://spaceflightnow.com/2026/03/10/nasa-inspector-general-assesses-agencys-management-of-moon-lander-risk/",
+      "source": "Spaceflight Now",
+      "date": "2026-03-10T23:54:04Z",
+      "summary": "NASA's Office of Inspector General said that while NASA is working to \"mitigate and prevent hazards\" associated with lunar landers being built by SpaceX and Blue Origin, \"there are currently gaps in the agency's approach, including in its testing posture and crew survival analyses,\" including what might happen after a catastrophic but non-fatal event. "
+    },
+    {
       "title": "Starlab Space fully books commercial payload space on planned space station",
       "link": "https://spacenews.com/starlab-space-fully-books-commercial-payload-space-on-planned-space-station/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-10T20:29:04Z",
       "summary": "\nThe head of NOAA’s satellite division, on administrative leave for more than half a year, warned that workforce reductions and cuts to science programs have “lobotomized” the federal government.\nThe post Suspended NOAA satellite chief warns of threats to federal science programs appeared first on SpaceNews."
-    },
-    {
-      "title": "Insights into Spallation Mechanisms of Thermal Protection System Materials from Mass Spectrometry and HyMETS Testing",
-      "link": "https://www.nasa.gov/centers-and-facilities/nesc/insights-into-spallation-mechanisms-of-thermal-protection-system-materials-from-mass-spectrometry-and-hymets-testing/",
-      "source": "NASA",
-      "date": "2026-03-10T19:43:07Z",
-      "summary": "An effort was undertaken to investigate the mechanisms responsible for internal pressure build up within thermal protection system (TPS) materials subjected to high-enthalpy environments. Understanding how gases evolve, migrate, and interact with the microstructure of a TPS is essential for predicting degradation and failure modes such as spallation. To this end, complementary experimental approaches were […]"
     }
   ],
-  "updated": "2026-03-10T23:58:53.546Z"
+  "updated": "2026-03-11T00:44:07.806Z"
 }
