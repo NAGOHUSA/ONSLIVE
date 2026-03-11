@@ -1,4 +1,40 @@
 {
-  "articles": [],
-  "updated": "2026-03-11T21:30:48.344Z"
+  "articles": [
+    {
+      "title": "2026 William T. Pecora Award Nominations Now Being Accepted",
+      "link": "https://science.nasa.gov/missions/landsat/2026-william-t-pecora-award-nominations-now-being-accepted/",
+      "source": "NASA",
+      "date": "2026-03-11T20:18:22Z",
+      "summary": "The William T. Pecora Award is presented annually to individuals or teams using satellite or aerial remote sensing that make outstanding contributions toward understanding the Earth (land, oceans, and air), educating the next generation of scientists, informing decision-makers, or supporting natural or human-induced disaster response. Both national and international nominations are welcome."
+    },
+    {
+      "title": "Missile strike hits SES teleport in Israel",
+      "link": "https://spacenews.com/missile-strike-hits-ses-teleport-in-israel/",
+      "source": "SpaceNews",
+      "date": "2026-03-11T18:57:37Z",
+      "summary": "\nSatellite operator SES said a missile “targeted and struck” its teleport facility in Israel March 9 as tensions spill across the region amid ongoing Israeli and U.S. military operations against Iran.\nThe post Missile strike hits SES teleport in Israel appeared first on SpaceNews."
+    },
+    {
+      "title": "About University Innovation Project (UI)",
+      "link": "https://www.nasa.gov/directorates/armd/tacp/ui/about-ui/",
+      "source": "NASA",
+      "date": "2026-03-11T17:00:00Z",
+      "summary": "NASA’s University Innovation (UI) project funds university-led innovation to address the agency’s Aeronautics Research Mission Directorate’s system-level challenges via independent, NASA-alternate-path, multi-disciplinary awards. Strategic Goals The UI portfolio’s strategic goals in descending order of importance are: 1.    Assist in achieving aviation outcomes defined in the ARMD Strategic Implementation Plan through NASA-complementary research. 2.    Transition research […]"
+    },
+    {
+      "title": "Telescopes Team Up for New View of Cat’s Eye Nebula",
+      "link": "https://www.nasa.gov/image-article/telescopes-team-up-for-new-view-of-cats-eye-nebula/",
+      "source": "NASA",
+      "date": "2026-03-11T15:53:43Z",
+      "summary": "This March 3, 2026, image combines views from ESA’s (European Space Agency) Euclid and NASA’s Hubble Space Telescope to feature one of the most visually intricate remnants of a dying star: the Cat’s Eye Nebula, also known as NGC 6543. This extraordinary planetary nebula lies 4,400 light-years away in the constellation Draco and has captivated astronomers for decades […]"
+    },
+    {
+      "title": "The perils of political impatience in the Artemis program",
+      "link": "https://spacenews.com/the-perils-of-political-impatience-in-the-artemis-program/",
+      "source": "SpaceNews",
+      "date": "2026-03-11T13:00:00Z",
+      "summary": "\nRecent engineering setbacks, specifically regarding helium system issues associated with the improper flow of helium into the Space Launch System (SLS) rocket’s upper stage, and persistent hydrogen leaks, have forced NASA to delay the crewed Artemis 2 mission to no earlier than April. While frustrating for the public, these delays are a necessary byproduct of […]\nThe post The perils of political impatience in the Artemis program appeared first on SpaceNews."
+    }
+  ],
+  "updated": "2026-03-11T21:46:11.024Z"
 }
