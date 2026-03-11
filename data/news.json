@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Report criticizes delays in Artemis lunar lander development",
+      "link": "https://spacenews.com/report-criticizes-delays-in-artemis-lunar-lander-development/",
+      "source": "SpaceNews",
+      "date": "2026-03-11T22:57:28Z",
+      "summary": "\nNASA’s approach to managing the development of crewed lunar landers for Artemis has successfully controlled costs but not schedule, raising questions about NASA’s desire to accelerate those efforts.\nThe post Report criticizes delays in Artemis lunar lander development appeared first on SpaceNews."
+    },
+    {
       "title": "New crew arrivals and science highlight February aboard the ISS",
       "link": "https://www.nasaspaceflight.com/2026/03/iss-roundup-022026/",
       "source": "NASASpaceflight",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-11T18:57:37Z",
       "summary": "\nSatellite operator SES said a missile “targeted and struck” its teleport facility in Israel March 9 as tensions spill across the region amid ongoing Israeli and U.S. military operations against Iran.\nThe post Missile strike hits SES teleport in Israel appeared first on SpaceNews."
-    },
-    {
-      "title": "About University Innovation Project (UI)",
-      "link": "https://www.nasa.gov/directorates/armd/tacp/ui/about-ui/",
-      "source": "NASA",
-      "date": "2026-03-11T17:00:00Z",
-      "summary": "NASA’s University Innovation (UI) project funds university-led innovation to address the agency’s Aeronautics Research Mission Directorate’s system-level challenges via independent, NASA-alternate-path, multi-disciplinary awards. Strategic Goals The UI portfolio’s strategic goals in descending order of importance are: 1.    Assist in achieving aviation outcomes defined in the ARMD Strategic Implementation Plan through NASA-complementary research. 2.    Transition research […]"
     }
   ],
-  "updated": "2026-03-11T22:56:02.947Z"
+  "updated": "2026-03-11T23:05:21.809Z"
 }
