@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Telescopes Team Up for New View of Cat’s Eye Nebula",
+      "link": "https://www.nasa.gov/image-article/telescopes-team-up-for-new-view-of-cats-eye-nebula/",
+      "source": "NASA",
+      "date": "2026-03-11T15:53:43Z",
+      "summary": "This March 3, 2026, image combines views from ESA’s (European Space Agency) Euclid and NASA’s Hubble Space Telescope to feature one of the most visually intricate remnants of a dying star: the Cat’s Eye Nebula, also known as NGC 6543. This extraordinary planetary nebula lies 4,400 light-years away in the constellation Draco and has captivated astronomers for decades […]"
+    },
+    {
       "title": "The perils of political impatience in the Artemis program",
       "link": "https://spacenews.com/the-perils-of-political-impatience-in-the-artemis-program/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-11T11:49:11Z",
       "summary": "\nTelesat has gained access to more land across Canada to set up landing stations ahead of plans to deploy pathfinders for its Lightspeed broadband constellation in December.\nThe post Telesat expands Canadian landing station footprint for Lightspeed appeared first on SpaceNews."
-    },
-    {
-      "title": "Large Series C signals scale-up of China’s laser satellite communications sector",
-      "link": "https://spacenews.com/large-series-c-signals-scale-up-of-chinas-laser-satellite-communications-sector/",
-      "source": "SpaceNews",
-      "date": "2026-03-11T10:00:34Z",
-      "summary": "\nShanghai-based laser communications startup BlueStar Optical Domain has raised funding in the region of $70 million, highlighting growing demand from China’s emerging satellite internet constellations.\nThe post Large Series C signals scale-up of China’s laser satellite communications sector appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-11T15:47:59.945Z"
+  "updated": "2026-03-11T16:06:52.057Z"
 }
