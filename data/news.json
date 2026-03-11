@@ -1,11 +1,11 @@
 {
   "articles": [
     {
-      "title": "Anduril to acquire space-tracking firm ExoAnalytic Solutions",
-      "link": "https://spacenews.com/anduril-to-acquire-space-tracking-firm-exoanalytic-solutions/",
-      "source": "SpaceNews",
-      "date": "2026-03-11T04:01:00Z",
-      "summary": "\nDeal adds ground-based telescope network and space surveillance data to defense tech company’s expanding space business\nThe post Anduril to acquire space-tracking firm ExoAnalytic Solutions appeared first on SpaceNews."
+      "title": "Curiosity Blog, Sols 4825-4831: Exploring the Borderlands",
+      "link": "https://science.nasa.gov/blog/curiosity-blog-sols-4825-4831-exploring-the-borderlands/",
+      "source": "NASA",
+      "date": "2026-03-11T05:24:17Z",
+      "summary": "Written by William Farrand, Senior Research Scientist, Space Science Institute Earth planning date: Friday, March 6, 2026 Curiosity is in the last stage of its exploration of the spiderweb-like boxwork unit. This stage consists of exploring the eastern and southern borders of this terrain. There were two multi-sol plans assembled this week. The previous plan […]"
     },
     {
       "title": "A Most Unusual Lake",
@@ -13,6 +13,13 @@
       "source": "NASA",
       "date": "2026-03-11T04:01:00Z",
       "summary": "Lake Unter-See in Antarctica, sealed beneath thick ice, contains unusually high levels of dissolved oxygen and cone-shaped microbial reefs resembling some of Earth’s oldest fossils."
+    },
+    {
+      "title": "Anduril to acquire space-tracking firm ExoAnalytic Solutions",
+      "link": "https://spacenews.com/anduril-to-acquire-space-tracking-firm-exoanalytic-solutions/",
+      "source": "SpaceNews",
+      "date": "2026-03-11T04:01:00Z",
+      "summary": "\nDeal adds ground-based telescope network and space surveillance data to defense tech company’s expanding space business\nThe post Anduril to acquire space-tracking firm ExoAnalytic Solutions appeared first on SpaceNews."
     },
     {
       "title": "NASA IG Applauds NASA Contracting for Artemis HLS, Raises Concerns About Crew Safety",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-11T02:32:09Z",
       "summary": "Project Overview NASA’s Subsonic Vehicle Technologies and Tools (SVTT) project develops technologies and tools for various types of aircraft that fly in different speed regimes, including next-generation vertical take-off and landing and fixed-wing subsonic aircraft. The research advances knowledge, technologies, and concepts that enable major steps to lowering operating costs of the next-generation single-aisle aircraft. […]"
-    },
-    {
-      "title": "NASA inspector general assesses agency’s management of moon lander risk",
-      "link": "https://spaceflightnow.com/2026/03/10/nasa-inspector-general-assesses-agencys-management-of-moon-lander-risk/",
-      "source": "Spaceflight Now",
-      "date": "2026-03-10T23:54:04Z",
-      "summary": "NASA's Office of Inspector General said that while NASA is working to \"mitigate and prevent hazards\" associated with lunar landers being built by SpaceX and Blue Origin, \"there are currently gaps in the agency's approach, including in its testing posture and crew survival analyses,\" including what might happen after a catastrophic but non-fatal event. "
     }
   ],
-  "updated": "2026-03-11T06:05:35.452Z"
+  "updated": "2026-03-11T06:28:05.553Z"
 }
