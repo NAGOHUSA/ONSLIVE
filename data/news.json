@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "FCC chair blasts Amazon after it criticizes SpaceX megaconstellation",
+      "link": "https://arstechnica.com/space/2026/03/fcc-chair-blasts-amazon-after-it-criticizes-spacex-megaconstellation/",
+      "source": "Arstechnica",
+      "date": "2026-03-11T22:04:42Z",
+      "summary": "Will it really take \"centuries\" for SpaceX to deploy its megaconstellation?"
+    },
+    {
       "title": "2026 William T. Pecora Award Nominations Now Being Accepted",
       "link": "https://science.nasa.gov/missions/landsat/2026-william-t-pecora-award-nominations-now-being-accepted/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-11T15:53:43Z",
       "summary": "This March 3, 2026, image combines views from ESA’s (European Space Agency) Euclid and NASA’s Hubble Space Telescope to feature one of the most visually intricate remnants of a dying star: the Cat’s Eye Nebula, also known as NGC 6543. This extraordinary planetary nebula lies 4,400 light-years away in the constellation Draco and has captivated astronomers for decades […]"
-    },
-    {
-      "title": "The perils of political impatience in the Artemis program",
-      "link": "https://spacenews.com/the-perils-of-political-impatience-in-the-artemis-program/",
-      "source": "SpaceNews",
-      "date": "2026-03-11T13:00:00Z",
-      "summary": "\nRecent engineering setbacks, specifically regarding helium system issues associated with the improper flow of helium into the Space Launch System (SLS) rocket’s upper stage, and persistent hydrogen leaks, have forced NASA to delay the crewed Artemis 2 mission to no earlier than April. While frustrating for the public, these delays are a necessary byproduct of […]\nThe post The perils of political impatience in the Artemis program appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-11T22:09:10.448Z"
+  "updated": "2026-03-11T22:21:07.401Z"
 }
