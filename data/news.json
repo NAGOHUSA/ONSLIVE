@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Anduril to acquire space-tracking firm ExoAnalytic Solutions",
+      "link": "https://spacenews.com/anduril-to-acquire-space-tracking-firm-exoanalytic-solutions/",
+      "source": "SpaceNews",
+      "date": "2026-03-11T04:01:00Z",
+      "summary": "\nDeal adds ground-based telescope network and space surveillance data to defense tech company’s expanding space business\nThe post Anduril to acquire space-tracking firm ExoAnalytic Solutions appeared first on SpaceNews."
+    },
+    {
+      "title": "A Most Unusual Lake",
+      "link": "https://science.nasa.gov/earth/earth-observatory/a-most-unusual-lake/",
+      "source": "NASA",
+      "date": "2026-03-11T04:01:00Z",
+      "summary": "Lake Unter-See in Antarctica, sealed beneath thick ice, contains unusually high levels of dissolved oxygen and cone-shaped microbial reefs resembling some of Earth’s oldest fossils."
+    },
+    {
       "title": "NASA IG Applauds NASA Contracting for Artemis HLS, Raises Concerns About Crew Safety",
       "link": "https://spacepolicyonline.com/news/nasa-ig-applauds-nasa-contracting-for-artemis-hls-raises-concerns-about-crew-safety/",
       "source": "SpacePolicyOnline.com",
@@ -20,21 +34,7 @@
       "source": "Spaceflight Now",
       "date": "2026-03-10T23:54:04Z",
       "summary": "NASA's Office of Inspector General said that while NASA is working to \"mitigate and prevent hazards\" associated with lunar landers being built by SpaceX and Blue Origin, \"there are currently gaps in the agency's approach, including in its testing posture and crew survival analyses,\" including what might happen after a catastrophic but non-fatal event. "
-    },
-    {
-      "title": "Starlab Space fully books commercial payload space on planned space station",
-      "link": "https://spacenews.com/starlab-space-fully-books-commercial-payload-space-on-planned-space-station/",
-      "source": "SpaceNews",
-      "date": "2026-03-10T23:11:13Z",
-      "summary": "\nThe Starlab commercial space station has fully booked its commercial payload space as the joint venture developing it awaits the next phase of a NASA program.\nThe post Starlab Space fully books commercial payload space on planned space station appeared first on SpaceNews."
-    },
-    {
-      "title": "Viasat wins $14 million contract to provide in-flight satcom for Navy executive aircraft",
-      "link": "https://spacenews.com/viasat-wins-14-million-contract-to-provide-in-flight-satcom-for-navy-executive-aircraft/",
-      "source": "SpaceNews",
-      "date": "2026-03-10T22:38:12Z",
-      "summary": "\nThe two-year deal covers satellite communications for Navy C-37 executive jets used to transport senior leaders \nThe post Viasat wins $14 million contract to provide in-flight satcom for Navy executive aircraft appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-11T03:51:40.153Z"
+  "updated": "2026-03-11T04:26:11.923Z"
 }
