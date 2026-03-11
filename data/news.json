@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "New crew arrivals and science highlight February aboard the ISS",
+      "link": "https://www.nasaspaceflight.com/2026/03/iss-roundup-022026/",
+      "source": "NASASpaceflight",
+      "date": "2026-03-11T22:38:16Z",
+      "summary": "Following the early departure of Crew-11 in mid-January due to a medical concern, the International…\nThe post New crew arrivals and science highlight February aboard the ISS appeared first on NASASpaceFlight.com."
+    },
+    {
       "title": "FCC chair blasts Amazon after it criticizes SpaceX megaconstellation",
       "link": "https://arstechnica.com/space/2026/03/fcc-chair-blasts-amazon-after-it-criticizes-spacex-megaconstellation/",
       "source": "Arstechnica",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-11T17:00:00Z",
       "summary": "NASA’s University Innovation (UI) project funds university-led innovation to address the agency’s Aeronautics Research Mission Directorate’s system-level challenges via independent, NASA-alternate-path, multi-disciplinary awards. Strategic Goals The UI portfolio’s strategic goals in descending order of importance are: 1.    Assist in achieving aviation outcomes defined in the ARMD Strategic Implementation Plan through NASA-complementary research. 2.    Transition research […]"
-    },
-    {
-      "title": "Telescopes Team Up for New View of Cat’s Eye Nebula",
-      "link": "https://www.nasa.gov/image-article/telescopes-team-up-for-new-view-of-cats-eye-nebula/",
-      "source": "NASA",
-      "date": "2026-03-11T15:53:43Z",
-      "summary": "This March 3, 2026, image combines views from ESA’s (European Space Agency) Euclid and NASA’s Hubble Space Telescope to feature one of the most visually intricate remnants of a dying star: the Cat’s Eye Nebula, also known as NGC 6543. This extraordinary planetary nebula lies 4,400 light-years away in the constellation Draco and has captivated astronomers for decades […]"
     }
   ],
-  "updated": "2026-03-11T22:36:01.370Z"
+  "updated": "2026-03-11T22:46:56.163Z"
 }
