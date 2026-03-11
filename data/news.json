@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "About Subsonic Vehicle Technologies and Tools Project",
+      "link": "https://www.nasa.gov/directorates/armd/aavp/svtt/about-svtt/",
+      "source": "NASA",
+      "date": "2026-03-11T02:32:09Z",
+      "summary": "Project Overview NASA’s Subsonic Vehicle Technologies and Tools (SVTT) project develops technologies and tools for various types of aircraft that fly in different speed regimes, including next-generation vertical take-off and landing and fixed-wing subsonic aircraft. The research advances knowledge, technologies, and concepts that enable major steps to lowering operating costs of the next-generation single-aisle aircraft. […]"
+    },
+    {
       "title": "NASA inspector general assesses agency’s management of moon lander risk",
       "link": "https://spaceflightnow.com/2026/03/10/nasa-inspector-general-assesses-agencys-management-of-moon-lander-risk/",
       "source": "Spaceflight Now",
@@ -27,14 +34,7 @@
       "source": "NASASpaceflight",
       "date": "2026-03-10T21:11:28Z",
       "summary": "Eight launches are scheduled worldwide this week, with Falcon 9 again dominating the launch schedule.…\nThe post Launch Preview: Falcon 9 to dominate another busy week of missions appeared first on NASASpaceFlight.com."
-    },
-    {
-      "title": "Suspended NOAA satellite chief warns of threats to federal science programs",
-      "link": "https://spacenews.com/suspended-noaa-satellite-chief-warns-of-threats-to-federal-science-programs/",
-      "source": "SpaceNews",
-      "date": "2026-03-10T20:29:04Z",
-      "summary": "\nThe head of NOAA’s satellite division, on administrative leave for more than half a year, warned that workforce reductions and cuts to science programs have “lobotomized” the federal government.\nThe post Suspended NOAA satellite chief warns of threats to federal science programs appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-11T01:57:33.377Z"
+  "updated": "2026-03-11T02:59:54.983Z"
 }
