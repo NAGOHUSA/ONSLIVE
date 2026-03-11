@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA IG Applauds NASA Contracting for Artemis HLS, Raises Concerns About Crew Safety",
+      "link": "https://spacepolicyonline.com/news/nasa-ig-applauds-nasa-contracting-for-artemis-hls-raises-concerns-about-crew-safety/",
+      "source": "SpacePolicyOnline.com",
+      "date": "2026-03-11T03:45:52Z",
+      "summary": "NASA’s Office of Inspector General’s new report on development of Human Landing Systems for the Artemis program gives NASA credit for its contractual approach, but raises concerns about critical elements […]"
+    },
+    {
       "title": "About Subsonic Vehicle Technologies and Tools Project",
       "link": "https://www.nasa.gov/directorates/armd/aavp/svtt/about-svtt/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-10T22:38:12Z",
       "summary": "\nThe two-year deal covers satellite communications for Navy C-37 executive jets used to transport senior leaders \nThe post Viasat wins $14 million contract to provide in-flight satcom for Navy executive aircraft appeared first on SpaceNews."
-    },
-    {
-      "title": "Launch Preview: Falcon 9 to dominate another busy week of missions",
-      "link": "https://www.nasaspaceflight.com/2026/03/launch-preview-031026/",
-      "source": "NASASpaceflight",
-      "date": "2026-03-10T21:11:28Z",
-      "summary": "Eight launches are scheduled worldwide this week, with Falcon 9 again dominating the launch schedule.…\nThe post Launch Preview: Falcon 9 to dominate another busy week of missions appeared first on NASASpaceFlight.com."
     }
   ],
-  "updated": "2026-03-11T02:59:54.983Z"
+  "updated": "2026-03-11T03:51:40.153Z"
 }
