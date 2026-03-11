@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Large Series C signals scale-up of China’s laser satellite communications sector",
+      "link": "https://spacenews.com/large-series-c-signals-scale-up-of-chinas-laser-satellite-communications-sector/",
+      "source": "SpaceNews",
+      "date": "2026-03-11T10:00:34Z",
+      "summary": "\nShanghai-based laser communications startup BlueStar Optical Domain has raised funding in the region of $70 million, highlighting growing demand from China’s emerging satellite internet constellations.\nThe post Large Series C signals scale-up of China’s laser satellite communications sector appeared first on SpaceNews."
+    },
+    {
+      "title": "The tiny lens antenna with big potential",
+      "link": "https://www.esa.int/Enabling_Support/Space_Engineering_Technology/The_tiny_lens_antenna_with_big_potential",
+      "source": "ESA",
+      "date": "2026-03-11T10:00:00Z",
+      "summary": "Every day, we rely on satellite navigation – so much so that it has become a target for disruption. As our dependence on the technology grows, so do the risks associated with its interruption. Some antennas offer protection from the most common types of interference, but they are bulky and expensive to manufacture. A PhD researcher’s project explores an alternative: a football-sized, 3D-printed lens antenna that could provide resilience for satellite navigation while staying simple and cheap."
+    },
+    {
       "title": "Curiosity Blog, Sols 4825-4831: Exploring the Borderlands",
       "link": "https://science.nasa.gov/blog/curiosity-blog-sols-4825-4831-exploring-the-borderlands/",
       "source": "NASA",
@@ -20,21 +34,7 @@
       "source": "NASA",
       "date": "2026-03-11T04:01:00Z",
       "summary": "Lake Unter-See in Antarctica, sealed beneath thick ice, contains unusually high levels of dissolved oxygen and cone-shaped microbial reefs resembling some of Earth’s oldest fossils."
-    },
-    {
-      "title": "NASA IG Applauds NASA Contracting for Artemis HLS, Raises Concerns About Crew Safety",
-      "link": "https://spacepolicyonline.com/news/nasa-ig-applauds-nasa-contracting-for-artemis-hls-raises-concerns-about-crew-safety/",
-      "source": "SpacePolicyOnline.com",
-      "date": "2026-03-11T03:45:52Z",
-      "summary": "NASA’s Office of Inspector General’s new report on development of Human Landing Systems for the Artemis program gives NASA credit for its contractual approach, but raises concerns about critical elements […]"
-    },
-    {
-      "title": "About Subsonic Vehicle Technologies and Tools Project",
-      "link": "https://www.nasa.gov/directorates/armd/aavp/svtt/about-svtt/",
-      "source": "NASA",
-      "date": "2026-03-11T02:32:09Z",
-      "summary": "Project Overview NASA’s Subsonic Vehicle Technologies and Tools (SVTT) project develops technologies and tools for various types of aircraft that fly in different speed regimes, including next-generation vertical take-off and landing and fixed-wing subsonic aircraft. The research advances knowledge, technologies, and concepts that enable major steps to lowering operating costs of the next-generation single-aisle aircraft. […]"
     }
   ],
-  "updated": "2026-03-11T09:59:29.605Z"
+  "updated": "2026-03-11T10:20:55.424Z"
 }
