@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Voyager opens defense and space tech hub in Long Beach",
+      "link": "https://spacenews.com/voyager-opens-defense-and-space-tech-hub-in-long-beach/",
+      "source": "SpaceNews",
+      "date": "2026-03-12T18:00:00Z",
+      "summary": "\nNew facility to support electronics and software development for missile defense and space programs\nThe post Voyager opens defense and space tech hub in Long Beach appeared first on SpaceNews."
+    },
+    {
       "title": "Tiny NASA Spacecraft Delivers Exoplanet Mission’s First Images",
       "link": "https://www.nasa.gov/science-research/astrophysics/exoplanet-science/tiny-nasa-spacecraft-delivers-exoplanet-missions-first-images/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-12T15:56:51Z",
       "summary": "Stars peek through the dusty, winding arms of NGC 5134, a spiral galaxy located 65 million light-years away, in this Feb. 20, 2026, image from NASA’s James Webb Space Telescope. Webb’s Mid-Infrared Instrument collects the mid-infrared light emitted by the warm dust speckled through the galaxy’s clouds, tracing the clumps and strands of dusty gas. […]"
-    },
-    {
-      "title": "Help Galaxy Zoo: Tidal Tales Open Cosmic Storybook",
-      "link": "https://science.nasa.gov/get-involved/citizen-science/help-galaxy-zoo-tidal-tales-open-cosmic-storybook/",
-      "source": "NASA",
-      "date": "2026-03-12T15:41:54Z",
-      "summary": "Galaxies carry the imprints of past encounters. When they pass near one another or collide, gravity pulls their stars into long tails, thin streams, and faint shells – features that preserve the history of these dramatic events. Thanks to deep, high-resolution images from the Euclid space telescope, an ESA (European Space Agency) mission with critical contributions from NASA, we can now see these delicate structures more clearly than ever before in unprecedented numbers."
     }
   ],
-  "updated": "2026-03-12T17:52:27.008Z"
+  "updated": "2026-03-12T18:09:11.841Z"
 }
