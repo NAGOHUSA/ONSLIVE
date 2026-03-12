@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Enpulsion raises $26 million",
+      "link": "https://spacenews.com/enpulsion-raises-26-million/",
+      "source": "SpaceNews",
+      "date": "2026-03-12T00:21:11Z",
+      "summary": "\nEnpulsion, an Austrian company that produces satellite electric propulsion systems, has raised its first significant outside funding to increase production and potentially acquire other companies.\nThe post Enpulsion raises $26 million appeared first on SpaceNews."
+    },
+    {
       "title": "Report criticizes delays in Artemis lunar lander development",
       "link": "https://spacenews.com/report-criticizes-delays-in-artemis-lunar-lander-development/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-11T20:18:22Z",
       "summary": "The William T. Pecora Award is presented annually to individuals or teams using satellite or aerial remote sensing that make outstanding contributions toward understanding the Earth (land, oceans, and air), educating the next generation of scientists, informing decision-makers, or supporting natural or human-induced disaster response. Both national and international nominations are welcome."
-    },
-    {
-      "title": "Missile strike hits SES teleport in Israel",
-      "link": "https://spacenews.com/missile-strike-hits-ses-teleport-in-israel/",
-      "source": "SpaceNews",
-      "date": "2026-03-11T18:57:37Z",
-      "summary": "\nSatellite operator SES said a missile “targeted and struck” its teleport facility in Israel March 9 as tensions spill across the region amid ongoing Israeli and U.S. military operations against Iran.\nThe post Missile strike hits SES teleport in Israel appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-12T00:01:01.723Z"
+  "updated": "2026-03-12T00:42:09.814Z"
 }
