@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA Now Targeting April 1 for Artemis II’s Launch Around The Moon",
+      "link": "https://spacepolicyonline.com/news/nasa-now-targeting-april-1-for-artemis-ii-launch-around-the-moon/",
+      "source": "SpacePolicyOnline.com",
+      "date": "2026-03-12T22:38:00Z",
+      "summary": "NASA announced today they are targeting April 1 at 6:24 pm Eastern Daylight Time for sending the Artemis II crew around the Moon. In preparation, their Space Launch System rocket […]"
+    },
+    {
       "title": "China’s Tianwen-3 Mars sample return mission moves into spacecraft construction phase",
       "link": "https://spacenews.com/chinas-tianwen-3-mars-sample-return-mission-moves-into-spacecraft-construction-phase/",
       "source": "SpaceNews",
@@ -15,26 +22,19 @@
       "summary": "NASA astronauts will conduct a pair of spacewalks beginning Wednesday, March 18, outside of the International Space Station to prepare for the installation of two roll-out solar arrays. Experts from NASA will preview the spacewalks during a news conference at 2 p.m. EDT, Monday, March 16, at the agency’s Johnson Space Center in Houston. Watch […]"
     },
     {
+      "title": "About Integrated Aviation Systems Program (IASP)",
+      "link": "https://www.nasa.gov/directorates/armd/iasp/about-iasp/",
+      "source": "NASA",
+      "date": "2026-03-12T21:00:00Z",
+      "summary": "The Integrated Aviation Systems Program (IASP) conducts research and integrated, systems-level demonstrations in a flight environment to prove, mature and transition them into future aircraft and systems. The program aims to determine feasibility and accelerate development of less mature technologies, and for more mature technologies, execute highly complex flight demonstrations to prove and accelerate technology […]"
+    },
+    {
       "title": "Voyager opens defense and space tech hub in Long Beach",
       "link": "https://spacenews.com/voyager-opens-defense-and-space-tech-hub-in-long-beach/",
       "source": "SpaceNews",
       "date": "2026-03-12T18:00:00Z",
       "summary": "\nNew facility to support electronics and software development for missile defense and space programs\nThe post Voyager opens defense and space tech hub in Long Beach appeared first on SpaceNews."
-    },
-    {
-      "title": "Tiny NASA Spacecraft Delivers Exoplanet Mission’s First Images",
-      "link": "https://www.nasa.gov/science-research/astrophysics/exoplanet-science/tiny-nasa-spacecraft-delivers-exoplanet-missions-first-images/",
-      "source": "NASA",
-      "date": "2026-03-12T16:41:27Z",
-      "summary": "With the first images from the spacecraft now in hand, the team behind NASA’s Star-Planet Activity Research CubeSat, or SPARCS, is ready to begin charting the energetic lives of the galaxy’s most common stars to help answer one of humanity’s most profound questions: Which distant worlds beyond our solar system might be habitable?  Initial, or […]"
-    },
-    {
-      "title": "Another Earth raises $4 million to boost AI training with synthetic satellite data",
-      "link": "https://spacenews.com/another-earth-raises-4-million-to-boost-ai-training-with-synthetic-satellite-data/",
-      "source": "SpaceNews",
-      "date": "2026-03-12T16:10:25Z",
-      "summary": "\nA Vienna-based startup has raised $4 million to scale a software platform that generates synthetic satellite data for training AI models to detect environmental and operational risks.\nThe post Another Earth raises $4 million to boost AI training with synthetic satellite data appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-12T22:36:05.943Z"
+  "updated": "2026-03-12T22:48:15.772Z"
 }
