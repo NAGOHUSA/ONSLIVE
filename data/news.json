@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA to Cover Upcoming US Spacewalks 94, 95 Outside Space Station",
+      "link": "https://www.nasa.gov/news-release/nasa-to-cover-upcoming-us-spacewalks-94-95-outside-space-station/",
+      "source": "NASA",
+      "date": "2026-03-12T21:09:16Z",
+      "summary": "NASA astronauts will conduct a pair of spacewalks beginning Wednesday, March 18, outside of the International Space Station to prepare for the installation of two roll-out solar arrays. Experts from NASA will preview the spacewalks during a news conference at 2 p.m. EDT, Monday, March 16, at the agency’s Johnson Space Center in Houston. Watch […]"
+    },
+    {
       "title": "Voyager opens defense and space tech hub in Long Beach",
       "link": "https://spacenews.com/voyager-opens-defense-and-space-tech-hub-in-long-beach/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "Space Scout",
       "date": "2026-03-12T15:57:08Z",
       "summary": "Firefly Aerospace completed a successful return to flight on Wednesday, March 11, bringing their Alpha rocket back online after a mishap in April of last year."
-    },
-    {
-      "title": "Webb Spots Details in Nearby Spiral Galaxy",
-      "link": "https://www.nasa.gov/image-article/webb-spots-details-in-nearby-spiral-galaxy/",
-      "source": "NASA",
-      "date": "2026-03-12T15:56:51Z",
-      "summary": "Stars peek through the dusty, winding arms of NGC 5134, a spiral galaxy located 65 million light-years away, in this Feb. 20, 2026, image from NASA’s James Webb Space Telescope. Webb’s Mid-Infrared Instrument collects the mid-infrared light emitted by the warm dust speckled through the galaxy’s clouds, tracing the clumps and strands of dusty gas. […]"
     }
   ],
-  "updated": "2026-03-12T21:02:31.325Z"
+  "updated": "2026-03-12T21:16:54.315Z"
 }
