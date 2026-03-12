@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Mantis Space emerges from stealth with $10 million for solar-power constellation",
+      "link": "https://spacenews.com/mantis-space-emerges-from-stealth-with-10-million-for-solar-power-constellation/",
+      "source": "SpaceNews",
+      "date": "2026-03-12T12:00:00Z",
+      "summary": "\nSAN FRANCISCO – Mantis Space, a New Mexico startup planning a constellation to supply solar power to spacecraft, emerged from stealth March 12 with $10 million in seed funding. “We are building a constellation of satellites that deliver power directly to solar arrays that exist in the market today and bringing products to market that […]\nThe post Mantis Space emerges from stealth with $10 million for solar-power constellation appeared first on SpaceNews."
+    },
+    {
       "title": "Former NASA astronaut Jeanette Epps visits ESTEC",
       "link": "https://www.esa.int/ESA_Multimedia/Images/2026/03/Former_NASA_astronaut_Jeanette_Epps_visits_ESTEC",
       "source": "ESA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-12T04:01:00Z",
       "summary": "Clouds of dust lofted from the Sahara Desert brought hazy skies and muddy rain to Western Europe."
-    },
-    {
-      "title": "The Post-Capacity Era of Satellite Connectivity",
-      "link": "https://spacenews.com/the-post-capacity-era-of-satellite-connectivity/",
-      "source": "SpaceNews",
-      "date": "2026-03-12T01:10:51Z",
-      "summary": "\nParis, February 2026 — Novaspace’s Capacity Pricing Trends, 8th Edition finds the satellite connectivity market has entered a Post‑Capacity Era, where bandwidth is no longer the basis of differentiation. Starlink’s vertical integration and cost […]\nThe post The Post-Capacity Era of Satellite Connectivity appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-12T12:02:16.379Z"
+  "updated": "2026-03-12T12:23:44.301Z"
 }

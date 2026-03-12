@@ -3,9 +3,9 @@
     {
       "name": "STARLINK-1008",
       "id": "2019-074B",
-      "epoch": "2026-03-11T23:47:20.043744",
-      "meanMotion": 15.31033074,
-      "inclination": 53.157
+      "epoch": "2026-03-12T06:03:20.283840",
+      "meanMotion": 15.31031497,
+      "inclination": 53.1569
     },
     {
       "name": "STARLINK-1012",
@@ -24,7 +24,7 @@
     {
       "name": "STARLINK-1019",
       "id": "2019-074M",
-      "epoch": "2026-03-12T00:00:01.999296",
+      "epoch": "2026-03-12T00:00:02.000160",
       "meanMotion": 15.81996187,
       "inclination": 53.042
     },
@@ -38,16 +38,16 @@
     {
       "name": "STARLINK-1031",
       "id": "2019-074Z",
-      "epoch": "2026-03-12T06:00:00.998784",
-      "meanMotion": 15.92043144,
-      "inclination": 53.0381
+      "epoch": "2026-03-12T08:00:01.999872",
+      "meanMotion": 15.92066732,
+      "inclination": 53.0377
     },
     {
       "name": "STARLINK-1036",
       "id": "2019-074AE",
-      "epoch": "2026-03-12T06:00:00.998784",
-      "meanMotion": 15.56508287,
-      "inclination": 53.0486
+      "epoch": "2026-03-12T08:00:01.999872",
+      "meanMotion": 15.56548028,
+      "inclination": 53.0488
     },
     {
       "name": "STARLINK-1039",
@@ -59,9 +59,9 @@
     {
       "name": "STARLINK-1042",
       "id": "2019-074AL",
-      "epoch": "2026-03-11T07:55:12.546048",
-      "meanMotion": 15.49902672,
-      "inclination": 53.0437
+      "epoch": "2026-03-12T07:08:01.065120",
+      "meanMotion": 15.49955014,
+      "inclination": 53.044
     },
     {
       "name": "STARLINK-1043",
@@ -72,11 +72,11 @@
     }
   ],
   "iss": {
-    "latitude": 47.396010657278,
-    "longitude": -171.16356831987,
-    "altitude": 424.4031334774,
-    "velocity": 27588.72811602,
-    "visibility": "eclipsed"
+    "latitude": -10.860052988635,
+    "longitude": -109.05482636132,
+    "altitude": 418.25321545022,
+    "velocity": 27589.749006304,
+    "visibility": "daylight"
   },
-  "updated": "2026-03-12T12:02:22.259Z"
+  "updated": "2026-03-12T12:23:49.445Z"
 }
