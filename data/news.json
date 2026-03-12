@@ -1,40 +1,40 @@
 {
   "articles": [
     {
+      "title": "Another Earth raises $4 million to boost AI training with synthetic satellite data",
+      "link": "https://spacenews.com/another-earth-raises-4-million-to-boost-ai-training-with-synthetic-satellite-data/",
+      "source": "SpaceNews",
+      "date": "2026-03-12T16:10:25Z",
+      "summary": "\nA Vienna-based startup has raised $4 million to scale a software platform that generates synthetic satellite data for training AI models to detect environmental and operational risks.\nThe post Another Earth raises $4 million to boost AI training with synthetic satellite data appeared first on SpaceNews."
+    },
+    {
+      "title": "Firefly Sends off Alpha Block I with FLTA007",
+      "link": "https://www.spacescout.info/2026/03/firefly-sends-off-alpha-block-i-with-flta007/",
+      "source": "Space Scout",
+      "date": "2026-03-12T15:57:08Z",
+      "summary": "Firefly Aerospace completed a successful return to flight on Wednesday, March 11, bringing their Alpha rocket back online after a mishap in April of last year."
+    },
+    {
+      "title": "Webb Spots Details in Nearby Spiral Galaxy",
+      "link": "https://www.nasa.gov/image-article/webb-spots-details-in-nearby-spiral-galaxy/",
+      "source": "NASA",
+      "date": "2026-03-12T15:56:51Z",
+      "summary": "Stars peek through the dusty, winding arms of NGC 5134, a spiral galaxy located 65 million light-years away, in this Feb. 20, 2026, image from NASA’s James Webb Space Telescope. Webb’s Mid-Infrared Instrument collects the mid-infrared light emitted by the warm dust speckled through the galaxy’s clouds, tracing the clumps and strands of dusty gas. […]"
+    },
+    {
+      "title": "Help Galaxy Zoo: Tidal Tales Open Cosmic Storybook",
+      "link": "https://science.nasa.gov/get-involved/citizen-science/help-galaxy-zoo-tidal-tales-open-cosmic-storybook/",
+      "source": "NASA",
+      "date": "2026-03-12T15:41:54Z",
+      "summary": "Galaxies carry the imprints of past encounters. When they pass near one another or collide, gravity pulls their stars into long tails, thin streams, and faint shells – features that preserve the history of these dramatic events. Thanks to deep, high-resolution images from the Euclid space telescope, an ESA (European Space Agency) mission with critical contributions from NASA, we can now see these delicate structures more clearly than ever before in unprecedented numbers."
+    },
+    {
       "title": "The new wave of industry coming for the LEO frontier",
       "link": "https://spacenews.com/the-new-wave-of-industry-coming-for-the-leo-frontier/",
       "source": "SpaceNews",
       "date": "2026-03-12T14:57:50Z",
       "summary": "\nIn this episode of the SpaceNews Space Minds podcast, host David Ariosto talks with Jonathan Cirtain, CEO and President of Axiom Space. They discuss the challenges — and wonders — […]\nThe post The new wave of industry coming for the LEO frontier appeared first on SpaceNews."
-    },
-    {
-      "title": "Efficient Large Displacement/Large Rotation Dynamic Simulations Using Nonlinear Dynamic Substructures",
-      "link": "https://www.nasa.gov/general/efficient-large-displacement-large-rotation-dynamic-simulations-using-nonlinear-dynamic-substructures/",
-      "source": "NASA",
-      "date": "2026-03-12T14:24:33Z",
-      "summary": "Download PDF: Efficient Large Displacement/Large Rotation Dynamic Simulations Using Nonlinear Dynamic Substructures Utilizing reduced-order dynamic math models (DMM) in linear system-level dynamic analyses is a well-known practice that enables extreme computational efficiencies. But what about nonlinear system dynamics? Reduced-order DMMs have found their way into contact dynamics. The engineer must look no further than the […]"
-    },
-    {
-      "title": "CELESTE pre-launch media briefing",
-      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/03/CELESTE_pre-launch_media_briefing",
-      "source": "ESA",
-      "date": "2026-03-12T14:00:00Z",
-      "summary": "Watch the replay of the CELESTE pre-launch media briefing. The briefing covered the mission details of the ahead of the inaugural launch of ESA’s Celeste LEO-PNT in-orbit demonstration constellation. The first two satellites are scheduled to lift off no earlier than 24 March aboard Rocket Lab’s Electron rocket from New Zealand."
-    },
-    {
-      "title": "York Space acquires satellite propulsion manufacturer Orbion Space",
-      "link": "https://spacenews.com/york-space-acquires-satellite-propulsion-manufacturer-orbion-space/",
-      "source": "SpaceNews",
-      "date": "2026-03-12T13:00:00Z",
-      "summary": "\nThe Denver-based satellite manufacturer says the acquisition supports its strategy of building an ‘integrated space ecosystem’\nThe post York Space acquires satellite propulsion manufacturer Orbion Space appeared first on SpaceNews."
-    },
-    {
-      "title": "Astranis taps retired Gen. John Hyten to lead advisory board",
-      "link": "https://spacenews.com/astranis-taps-retired-gen-john-hyten-to-lead-advisory-board/",
-      "source": "SpaceNews",
-      "date": "2026-03-12T13:00:00Z",
-      "summary": "\nHyten has called for greater use of commercial technology and faster acquisition cycles\nThe post Astranis taps retired Gen. John Hyten to lead advisory board  appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-12T15:57:18.907Z"
+  "updated": "2026-03-12T16:25:59.867Z"
 }
