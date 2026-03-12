@@ -1,11 +1,18 @@
 {
   "articles": [
     {
-      "title": "Astranis taps retired Gen. John Hyten to lead advisory board",
-      "link": "https://spacenews.com/astranis-taps-retired-gen-john-hyten-to-lead-advisory-board/",
-      "source": "SpaceNews",
-      "date": "2026-03-12T13:00:00Z",
-      "summary": "\nHyten has called for greater use of commercial technology and faster acquisition cycles\nThe post Astranis taps retired Gen. John Hyten to lead advisory board  appeared first on SpaceNews."
+      "title": "Efficient Large Displacement/Large Rotation Dynamic Simulations Using Nonlinear Dynamic Substructures",
+      "link": "https://www.nasa.gov/general/efficient-large-displacement-large-rotation-dynamic-simulations-using-nonlinear-dynamic-substructures/",
+      "source": "NASA",
+      "date": "2026-03-12T14:24:33Z",
+      "summary": "Download PDF: Efficient Large Displacement/Large Rotation Dynamic Simulations Using Nonlinear Dynamic Substructures Utilizing reduced-order dynamic math models (DMM) in linear system-level dynamic analyses is a well-known practice that enables extreme computational efficiencies. But what about nonlinear system dynamics? Reduced-order DMMs have found their way into contact dynamics. The engineer must look no further than the […]"
+    },
+    {
+      "title": "CELESTE pre-launch media briefing",
+      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/03/CELESTE_pre-launch_media_briefing",
+      "source": "ESA",
+      "date": "2026-03-12T14:00:00Z",
+      "summary": "Watch the replay of the CELESTE pre-launch media briefing. The briefing covered the mission details of the ahead of the inaugural launch of ESA’s Celeste LEO-PNT in-orbit demonstration constellation. The first two satellites are scheduled to lift off no earlier than 24 March aboard Rocket Lab’s Electron rocket from New Zealand."
     },
     {
       "title": "York Space acquires satellite propulsion manufacturer Orbion Space",
@@ -15,26 +22,19 @@
       "summary": "\nThe Denver-based satellite manufacturer says the acquisition supports its strategy of building an ‘integrated space ecosystem’\nThe post York Space acquires satellite propulsion manufacturer Orbion Space appeared first on SpaceNews."
     },
     {
+      "title": "Astranis taps retired Gen. John Hyten to lead advisory board",
+      "link": "https://spacenews.com/astranis-taps-retired-gen-john-hyten-to-lead-advisory-board/",
+      "source": "SpaceNews",
+      "date": "2026-03-12T13:00:00Z",
+      "summary": "\nHyten has called for greater use of commercial technology and faster acquisition cycles\nThe post Astranis taps retired Gen. John Hyten to lead advisory board  appeared first on SpaceNews."
+    },
+    {
       "title": "Mantis Space emerges from stealth with $10 million for solar-power constellation",
       "link": "https://spacenews.com/mantis-space-emerges-from-stealth-with-10-million-for-solar-power-constellation/",
       "source": "SpaceNews",
       "date": "2026-03-12T12:00:00Z",
       "summary": "\nSAN FRANCISCO – Mantis Space, a New Mexico startup planning a constellation to supply solar power to spacecraft, emerged from stealth March 12 with $10 million in seed funding. “We are building a constellation of satellites that deliver power directly to solar arrays that exist in the market today and bringing products to market that […]\nThe post Mantis Space emerges from stealth with $10 million for solar-power constellation appeared first on SpaceNews."
-    },
-    {
-      "title": "Former NASA astronaut Jeanette Epps visits ESTEC",
-      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/03/Former_NASA_astronaut_Jeanette_Epps_visits_ESTEC",
-      "source": "ESA",
-      "date": "2026-03-12T08:30:00Z",
-      "summary": "From the ESA Blogs."
-    },
-    {
-      "title": "Thales Alenia Space Selects US Provider to Develop Lunar Habitat Wheels",
-      "link": "https://europeanspaceflight.com/thales-alenia-space-selects-us-provider-to-develop-lunar-habitat-wheels/",
-      "source": "European Spaceflight",
-      "date": "2026-03-12T08:08:13Z",
-      "summary": "Thales Alenia Space has awarded a contract to US-based Astrobotic to develop the wheels for the Multi-Purpose Habitation module, a mobile lunar habitat under development for the Italian Space Agency (ASI). In 2020, ASI and NASA signed a joint statement of intent to cooperate on the development of a lunar habitat that could support crewed […]\nThe post Thales Alenia Space Selects US Provider to Develop Lunar Habitat Wheels appeared first on European Spaceflight."
     }
   ],
-  "updated": "2026-03-12T14:27:19.435Z"
+  "updated": "2026-03-12T14:47:35.596Z"
 }
