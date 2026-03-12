@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Former NASA astronaut Jeanette Epps visits ESTEC",
+      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/03/Former_NASA_astronaut_Jeanette_Epps_visits_ESTEC",
+      "source": "ESA",
+      "date": "2026-03-12T08:30:00Z",
+      "summary": "From the ESA Blogs."
+    },
+    {
+      "title": "Thales Alenia Space Selects US Provider to Develop Lunar Habitat Wheels",
+      "link": "https://europeanspaceflight.com/thales-alenia-space-selects-us-provider-to-develop-lunar-habitat-wheels/",
+      "source": "European Spaceflight",
+      "date": "2026-03-12T08:08:13Z",
+      "summary": "Thales Alenia Space has awarded a contract to US-based Astrobotic to develop the wheels for the Multi-Purpose Habitation module, a mobile lunar habitat under development for the Italian Space Agency (ASI). In 2020, ASI and NASA signed a joint statement of intent to cooperate on the development of a lunar habitat that could support crewed […]\nThe post Thales Alenia Space Selects US Provider to Develop Lunar Habitat Wheels appeared first on European Spaceflight."
+    },
+    {
       "title": "Firefly Alpha returns to flight",
       "link": "https://spacenews.com/firefly-alpha-returns-to-flight/",
       "source": "SpaceNews",
@@ -20,21 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-12T01:10:51Z",
       "summary": "\nParis, February 2026 — Novaspace’s Capacity Pricing Trends, 8th Edition finds the satellite connectivity market has entered a Post‑Capacity Era, where bandwidth is no longer the basis of differentiation. Starlink’s vertical integration and cost […]\nThe post The Post-Capacity Era of Satellite Connectivity appeared first on SpaceNews."
-    },
-    {
-      "title": "Enpulsion raises $26 million",
-      "link": "https://spacenews.com/enpulsion-raises-26-million/",
-      "source": "SpaceNews",
-      "date": "2026-03-12T00:21:11Z",
-      "summary": "\nEnpulsion, an Austrian company that produces satellite electric propulsion systems, has raised its first significant outside funding to increase production and potentially acquire other companies.\nThe post Enpulsion raises $26 million appeared first on SpaceNews."
-    },
-    {
-      "title": "Report criticizes delays in Artemis lunar lander development",
-      "link": "https://spacenews.com/report-criticizes-delays-in-artemis-lunar-lander-development/",
-      "source": "SpaceNews",
-      "date": "2026-03-11T22:57:28Z",
-      "summary": "\nNASA’s approach to managing the development of crewed lunar landers for Artemis has successfully controlled costs but not schedule, raising questions about NASA’s desire to accelerate those efforts.\nThe post Report criticizes delays in Artemis lunar lander development appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-12T08:42:11.200Z"
+  "updated": "2026-03-12T09:02:08.884Z"
 }
