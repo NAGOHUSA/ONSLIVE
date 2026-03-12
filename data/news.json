@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Firefly Alpha returns to flight",
+      "link": "https://spacenews.com/firefly-alpha-returns-to-flight/",
+      "source": "SpaceNews",
+      "date": "2026-03-12T04:09:13Z",
+      "summary": "\nFirefly Aerospace’s Alpha rocket successfully returned to flight March 11, launching a technology demonstration mission more than 10 months after the rocket’s previous launch failed.\nThe post Firefly Alpha returns to flight appeared first on SpaceNews."
+    },
+    {
+      "title": "Dust Outbreak Reaches Europe",
+      "link": "https://science.nasa.gov/earth/earth-observatory/dust-outbreak-reaches-europe/",
+      "source": "NASA",
+      "date": "2026-03-12T04:01:00Z",
+      "summary": "Clouds of dust lofted from the Sahara Desert brought hazy skies and muddy rain to Western Europe."
+    },
+    {
       "title": "The Post-Capacity Era of Satellite Connectivity",
       "link": "https://spacenews.com/the-post-capacity-era-of-satellite-connectivity/",
       "source": "SpaceNews",
@@ -20,21 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-11T22:57:28Z",
       "summary": "\nNASA’s approach to managing the development of crewed lunar landers for Artemis has successfully controlled costs but not schedule, raising questions about NASA’s desire to accelerate those efforts.\nThe post Report criticizes delays in Artemis lunar lander development appeared first on SpaceNews."
-    },
-    {
-      "title": "New crew arrivals and science highlight February aboard the ISS",
-      "link": "https://www.nasaspaceflight.com/2026/03/iss-roundup-022026/",
-      "source": "NASASpaceflight",
-      "date": "2026-03-11T22:38:16Z",
-      "summary": "Following the early departure of Crew-11 in mid-January due to a medical concern, the International…\nThe post New crew arrivals and science highlight February aboard the ISS appeared first on NASASpaceFlight.com."
-    },
-    {
-      "title": "FCC chair blasts Amazon after it criticizes SpaceX megaconstellation",
-      "link": "https://arstechnica.com/space/2026/03/fcc-chair-blasts-amazon-after-it-criticizes-spacex-megaconstellation/",
-      "source": "Arstechnica",
-      "date": "2026-03-11T22:04:42Z",
-      "summary": "Will it really take \"centuries\" for SpaceX to deploy its megaconstellation?"
     }
   ],
-  "updated": "2026-03-12T03:42:11.706Z"
+  "updated": "2026-03-12T04:24:38.987Z"
 }
