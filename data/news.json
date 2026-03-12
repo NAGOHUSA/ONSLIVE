@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Tiny NASA Spacecraft Delivers Exoplanet Mission’s First Images",
+      "link": "https://www.nasa.gov/science-research/astrophysics/exoplanet-science/tiny-nasa-spacecraft-delivers-exoplanet-missions-first-images/",
+      "source": "NASA",
+      "date": "2026-03-12T16:41:27Z",
+      "summary": "With the first images from the spacecraft now in hand, the team behind NASA’s Star-Planet Activity Research CubeSat, or SPARCS, is ready to begin charting the energetic lives of the galaxy’s most common stars to help answer one of humanity’s most profound questions: Which distant worlds beyond our solar system might be habitable?  Initial, or […]"
+    },
+    {
       "title": "Another Earth raises $4 million to boost AI training with synthetic satellite data",
       "link": "https://spacenews.com/another-earth-raises-4-million-to-boost-ai-training-with-synthetic-satellite-data/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-12T15:41:54Z",
       "summary": "Galaxies carry the imprints of past encounters. When they pass near one another or collide, gravity pulls their stars into long tails, thin streams, and faint shells – features that preserve the history of these dramatic events. Thanks to deep, high-resolution images from the Euclid space telescope, an ESA (European Space Agency) mission with critical contributions from NASA, we can now see these delicate structures more clearly than ever before in unprecedented numbers."
-    },
-    {
-      "title": "The new wave of industry coming for the LEO frontier",
-      "link": "https://spacenews.com/the-new-wave-of-industry-coming-for-the-leo-frontier/",
-      "source": "SpaceNews",
-      "date": "2026-03-12T14:57:50Z",
-      "summary": "\nIn this episode of the SpaceNews Space Minds podcast, host David Ariosto talks with Jonathan Cirtain, CEO and President of Axiom Space. They discuss the challenges — and wonders — […]\nThe post The new wave of industry coming for the LEO frontier appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-12T16:47:28.688Z"
+  "updated": "2026-03-12T17:10:20.539Z"
 }
