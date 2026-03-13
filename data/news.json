@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Plato readies for space-like tests",
+      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/03/Plato_readies_for_space-like_tests",
+      "source": "ESA",
+      "date": "2026-03-13T10:00:00Z",
+      "summary": "The European Space Agency’s mission to discover Earth-like exoplanets, Plato, is now sealed in the Large Space Simulator (LSS) chamber at ESA’s Test Centre for a series of vital tests under space‑like conditions."
+    },
+    {
+      "title": "A cosmic rays simulator for extreme science on Earth",
+      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/03/A_cosmic_rays_simulator_for_extreme_science_on_Earth",
+      "source": "ESA",
+      "date": "2026-03-13T09:44:00Z",
+      "summary": "From the ESA Blogs."
+    },
+    {
       "title": "Earth from Space: Maritime highways in the Øresund Strait",
       "link": "https://www.esa.int/ESA_Multimedia/Images/2026/03/Earth_from_Space_Maritime_highways_in_the_OEresund_Strait",
       "source": "ESA",
@@ -20,21 +34,7 @@
       "source": "NASA",
       "date": "2026-03-13T04:01:00Z",
       "summary": "Activity at the volcano in the Philippines sent lava and pyroclastic flows down the volcano’s flanks and prompted evacuations in nearby communities."
-    },
-    {
-      "title": "Live coverage: SpaceX to launch 25 Starlink satellites on Falcon 9 rocket from Vandenberg Space Force Base",
-      "link": "https://spaceflightnow.com/2026/03/13/live-coverage-spacex-to-launch-25-starlink-satellites-on-falcon-9-rocket-from-vandenberg-space-force-base/",
-      "source": "Spaceflight Now",
-      "date": "2026-03-13T02:57:21Z",
-      "summary": "The Starlink 17-31 mission is SpaceX’s 26th mission supporting its broadband internet satellite constellation so far in 2026. Liftoff from pad 4 East at Vandenberg Space Force Base is scheduled for 7:33:50 a.m. PDT (10:33:50 a.m. EDT / 1433:50 UTC)."
-    },
-    {
-      "title": "Live coverage: SpaceX to launch Friday morning Starlink mission from Cape Canaveral",
-      "link": "https://spaceflightnow.com/2026/03/13/live-coverage-spacex-to-launch-friday-morning-starlink-mission-from-cape-canaveral/",
-      "source": "Spaceflight Now",
-      "date": "2026-03-13T02:08:35Z",
-      "summary": "The Starlink 10-48 mission will add another 29 broadband internet satellites to the company’s constellation in low Earth orbit. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for 8:10 a.m. EDT (1210 UTC)."
     }
   ],
-  "updated": "2026-03-13T09:37:01.489Z"
+  "updated": "2026-03-13T09:55:50.514Z"
 }
