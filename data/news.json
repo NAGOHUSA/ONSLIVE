@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "China is developing low-cost lunar cargo options for its expanding moon program",
+      "link": "https://spacenews.com/china-is-developing-low-cost-lunar-cargo-options-for-its-expanding-moon-program/",
+      "source": "SpaceNews",
+      "date": "2026-03-13T20:03:51Z",
+      "summary": "\nA state-owned space contractor has unveiled a concept for an “economical lunar cargo transport” system as China prepares for construction of a lunar base.\nThe post China is developing low-cost lunar cargo options for its expanding moon program appeared first on SpaceNews."
+    },
+    {
       "title": "NASA Selects Finalists in Student Aircraft Maintenance Competition",
       "link": "https://www.nasa.gov/aeronautics/nasa-selects-finalists-in-student-aircraft-maintenance-competition/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-13T17:13:49Z",
       "summary": "NASA’s Center of Excellence for Collaborative Innovation (CoECI) assists in the use of crowdsourcing across the federal government. CoECI’s NASA Tournament Lab offers the contract capability to run external crowdsourced challenges on behalf of NASA and other agencies. This three-phase challenge invites geophysicists, sensing specialists, nondestructive testing experts, and creative problem-solvers (including AI/ML practitioners) from […]"
-    },
-    {
-      "title": "NASA Volunteers Study Biofilm Adaptability in Space",
-      "link": "https://science.nasa.gov/get-involved/citizen-science/nasa-volunteers-study-biofilm-adaptability-in-space/",
-      "source": "NASA",
-      "date": "2026-03-13T17:08:49Z",
-      "summary": "Biofilms are communities of microorganisms that stick to one another and also adhere to a nearby surface. They are intricately associated with life on Earth, enabling functions essential to human and plant systems."
     }
   ],
-  "updated": "2026-03-13T19:59:57.654Z"
+  "updated": "2026-03-13T20:15:25.417Z"
 }
