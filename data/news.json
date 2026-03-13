@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Earth from Space: Maritime highways in the Øresund Strait",
+      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/03/Earth_from_Space_Maritime_highways_in_the_OEresund_Strait",
+      "source": "ESA",
+      "date": "2026-03-13T09:00:00Z",
+      "summary": "From the ESA Blogs."
+    },
+    {
       "title": "NASA working toward April 1 launch of Artemis 2",
       "link": "https://spacenews.com/nasa-working-toward-april-1-launch-of-artemis-2/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "Spaceflight Now",
       "date": "2026-03-13T02:08:35Z",
       "summary": "The Starlink 10-48 mission will add another 29 broadband internet satellites to the company’s constellation in low Earth orbit. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for 8:10 a.m. EDT (1210 UTC)."
-    },
-    {
-      "title": "NASA Now Targeting April 1 for Artemis II’s Launch Around The Moon",
-      "link": "https://spacepolicyonline.com/news/nasa-now-targeting-april-1-for-artemis-ii-launch-around-the-moon/",
-      "source": "SpacePolicyOnline.com",
-      "date": "2026-03-12T22:38:00Z",
-      "summary": "NASA announced today they are targeting April 1 at 6:24 pm Eastern Daylight Time for sending the Artemis II crew around the Moon. In preparation, their Space Launch System rocket […]"
     }
   ],
-  "updated": "2026-03-13T09:19:37.398Z"
+  "updated": "2026-03-13T09:37:01.489Z"
 }
