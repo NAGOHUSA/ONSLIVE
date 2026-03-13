@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA Selects Finalists in Student Aircraft Maintenance Competition",
+      "link": "https://www.nasa.gov/aeronautics/nasa-selects-finalists-in-student-aircraft-maintenance-competition/",
+      "source": "NASA",
+      "date": "2026-03-13T19:17:49Z",
+      "summary": "NASA has selected eight student teams as finalists in the 2026 Gateways to Blue Skies Competition, giving them the resources to help address a critical challenge for U.S. aviation: maintenance.  Challenges facing the commercial aviation industry include a shortage of qualified maintenance workers and increasing demands to keep complicated aircraft running for longer. With Gateways to Blue Skies, NASA taps into student innovation to address some of the biggest […]"
+    },
+    {
       "title": "Ukraine will host first test for Leonardo’s Michelangelo security dome",
       "link": "https://spacenews.com/ukraine-will-host-first-test-for-leonardos-michelangelo-security-dome/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-13T17:08:49Z",
       "summary": "Biofilms are communities of microorganisms that stick to one another and also adhere to a nearby surface. They are intricately associated with life on Earth, enabling functions essential to human and plant systems."
-    },
-    {
-      "title": "USBR Halt the Hitchhiker: Invasive Species Challenge",
-      "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/usbr-halt-the-hitchhiker-invasive-species-challenge/",
-      "source": "NASA",
-      "date": "2026-03-13T17:03:49Z",
-      "summary": "NASA’s Center of Excellence for Collaborative Innovation (CoECI) assists in the use of crowdsourcing across the federal government. CoECI’s NASA Tournament Lab offers the contract capability to run external crowdsourced challenges on behalf of NASA and other agencies. The Bureau of Reclamation (Reclamation) is sponsoring a 3-phase prize challenge (managed by yet2) for innovative solutions […]"
     }
   ],
-  "updated": "2026-03-13T19:18:47.766Z"
+  "updated": "2026-03-13T19:34:25.345Z"
 }
