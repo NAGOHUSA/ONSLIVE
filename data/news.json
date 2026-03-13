@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Extra Extra! Extra Data Stream Added to the Daily Minor Planet!",
+      "link": "https://science.nasa.gov/get-involved/citizen-science/extra-extra-extra-data-stream-added-to-the-daily-minor-planet/",
+      "source": "NASA",
+      "date": "2026-03-13T21:42:20Z",
+      "summary": "The Daily Minor Planet citizen science project is expanding! In addition to data received nightly from the Catalina Sky Survey’s Mt. Lemmon telescope in Arizona, the project’s science team is now processing images from the Bok 2.3-meter telescope at Kitt Peak National Observatory. The Bok is a mighty telescope run by the University of Arizona’s […]"
+    },
+    {
       "title": "Astroscale selects Isar Aerospace to launch ELSA-M mission",
       "link": "https://spacenews.com/astroscale-selects-isar-aerospace-to-launch-elsa-m-mission/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-13T20:03:51Z",
       "summary": "\nA state-owned space contractor has unveiled a concept for an “economical lunar cargo transport” system as China prepares for construction of a lunar base.\nThe post China is developing low-cost lunar cargo options for its expanding moon program appeared first on SpaceNews."
-    },
-    {
-      "title": "NASA Selects Finalists in Student Aircraft Maintenance Competition",
-      "link": "https://www.nasa.gov/aeronautics/nasa-selects-finalists-in-student-aircraft-maintenance-competition/",
-      "source": "NASA",
-      "date": "2026-03-13T19:17:49Z",
-      "summary": "NASA has selected eight student teams as finalists in the 2026 Gateways to Blue Skies Competition, giving them the resources to help address a critical challenge for U.S. aviation: maintenance.  Challenges facing the commercial aviation industry include a shortage of qualified maintenance workers and increasing demands to keep complicated aircraft running for longer. With Gateways to Blue Skies, NASA taps into student innovation to address some of the biggest […]"
     }
   ],
-  "updated": "2026-03-13T21:59:23.820Z"
+  "updated": "2026-03-13T22:13:27.075Z"
 }
