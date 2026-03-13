@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA working toward April 1 launch of Artemis 2",
+      "link": "https://spacenews.com/nasa-working-toward-april-1-launch-of-artemis-2/",
+      "source": "SpaceNews",
+      "date": "2026-03-13T08:32:09Z",
+      "summary": "\nNASA is pushing ahead with an Artemis 2 launch as soon as April 1 after completing repairs to a helium line that required rolling the rocket back from the pad.\nThe post NASA working toward April 1 launch of Artemis 2 appeared first on SpaceNews."
+    },
+    {
       "title": "Eruption at Mayon",
       "link": "https://science.nasa.gov/earth/earth-observatory/eruption-at-mayon/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpacePolicyOnline.com",
       "date": "2026-03-12T22:38:00Z",
       "summary": "NASA announced today they are targeting April 1 at 6:24 pm Eastern Daylight Time for sending the Artemis II crew around the Moon. In preparation, their Space Launch System rocket […]"
-    },
-    {
-      "title": "China’s Tianwen-3 Mars sample return mission moves into spacecraft construction phase",
-      "link": "https://spacenews.com/chinas-tianwen-3-mars-sample-return-mission-moves-into-spacecraft-construction-phase/",
-      "source": "SpaceNews",
-      "date": "2026-03-12T22:23:52Z",
-      "summary": "China’s Tianwen-3 Mars sample return mission is entering flight hardware development, targeting a late 2028 launch to seek out biosignatures on the Red Planet.\r\nThe post China’s Tianwen-3 Mars sample return mission moves into spacecraft construction phase appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-13T08:38:55.780Z"
+  "updated": "2026-03-13T08:58:21.581Z"
 }
