@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Volunteers Find Oddly High Solar Flare Rates",
+      "link": "https://science.nasa.gov/get-involved/citizen-science/volunteers-find-oddly-high-solar-flare-rates/",
+      "source": "NASA",
+      "date": "2026-03-13T22:07:28Z",
+      "summary": "Patches of the Sun’s surface often show strong magnetic fields. These fields can emerge within a matter of hours, and can decay slowly or quickly, sometimes over days, weeks, or even months. Thanks to a new study about these long-lived active regions, we now know much more about the patches where these strong magnetic fields […]"
+    },
+    {
       "title": "Extra Extra! Extra Data Stream Added to the Daily Minor Planet!",
       "link": "https://science.nasa.gov/get-involved/citizen-science/extra-extra-extra-data-stream-added-to-the-daily-minor-planet/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "Spaceflight Now",
       "date": "2026-03-13T20:34:15Z",
       "summary": "At the conclusion of a two-day flight readiness review, \"all the teams polled 'go' to launch and fly Artemis 2 around the moon, pending completion of some of the work before we roll out to the launch pad,\" said Lori Glaze, associate administrator of Exploration Systems Development at NASA Headquarters. "
-    },
-    {
-      "title": "China is developing low-cost lunar cargo options for its expanding moon program",
-      "link": "https://spacenews.com/china-is-developing-low-cost-lunar-cargo-options-for-its-expanding-moon-program/",
-      "source": "SpaceNews",
-      "date": "2026-03-13T20:03:51Z",
-      "summary": "\nA state-owned space contractor has unveiled a concept for an “economical lunar cargo transport” system as China prepares for construction of a lunar base.\nThe post China is developing low-cost lunar cargo options for its expanding moon program appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-13T23:02:14.293Z"
+  "updated": "2026-03-13T23:13:50.729Z"
 }
