@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Senate committee advances NASA deputy administrator nominee",
+      "link": "https://spacenews.com/senate-committee-advances-nasa-deputy-administrator-nominee/",
+      "source": "SpaceNews",
+      "date": "2026-03-13T10:16:41Z",
+      "summary": "\nThe Senate Commerce Committee voted March 12 to send the nomination of Matt Anderson as NASA deputy administrator to the full Senate.\nThe post Senate committee advances NASA deputy administrator nominee appeared first on SpaceNews."
+    },
+    {
       "title": "Plato readies for space-like tests",
       "link": "https://www.esa.int/ESA_Multimedia/Images/2026/03/Plato_readies_for_space-like_tests",
       "source": "ESA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-13T08:32:09Z",
       "summary": "\nNASA is pushing ahead with an Artemis 2 launch as soon as April 1 after completing repairs to a helium line that required rolling the rocket back from the pad.\nThe post NASA working toward April 1 launch of Artemis 2 appeared first on SpaceNews."
-    },
-    {
-      "title": "Eruption at Mayon",
-      "link": "https://science.nasa.gov/earth/earth-observatory/eruption-at-mayon/",
-      "source": "NASA",
-      "date": "2026-03-13T04:01:00Z",
-      "summary": "Activity at the volcano in the Philippines sent lava and pyroclastic flows down the volcano’s flanks and prompted evacuations in nearby communities."
     }
   ],
-  "updated": "2026-03-13T10:09:06.513Z"
+  "updated": "2026-03-13T10:22:25.100Z"
 }
