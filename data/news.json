@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA Armstrong to Host Partnership Days April 15-16",
+      "link": "https://www.nasa.gov/news-release/nasa-armstrong-to-host-partnership-days-april-15-16/",
+      "source": "NASA",
+      "date": "2026-03-13T17:33:41Z",
+      "summary": "NASA’s Armstrong Flight Research Center in Edwards, California, invites innovative companies, government agencies, and organizations to attend Partnership Days, scheduled for Wednesday and Thursday, April 15 and 16, at the center. The event offers a unique opportunity to explore collaboration with NASA on cutting-edge research and development in areas such as aerospace, autonomy, sustainability, and […]"
+    },
+    {
       "title": "USBR Crack the Case Challenge",
       "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/usbr-crack-the-case-challenge/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-13T16:19:57Z",
       "summary": "Early morning sunlight illuminates the western wall of this unnamed crater, leaving deep shadows on the ground and in the interior. The image was taken on August 30, 2023, by LROC (Lunar Reconnaissance Orbiter Camera). LROC is a system of three cameras and one of the seven instruments aboard NASA’s LRO (Lunar Reconnaissance Orbiter) mission, […]"
-    },
-    {
-      "title": "Agenda diaria de la misión a la Luna de Artemis II de la NASA",
-      "link": "https://www.nasa.gov/es/agenda-diaria-de-la-mision-a-la-luna-de-artemis-ii-de-la-nasa/",
-      "source": "NASA",
-      "date": "2026-03-13T15:40:17Z",
-      "summary": "Read this web article in English here. Unos ocho minutos después del despegue de Artemis II, la nave espacial Orion y su tripulación —los astronautas de la NASA Reid Wiseman, Victor Glover y Christina Koch, junto con el astronauta de la CSA (Agencia Espacial Canadiense) Jeremy Hansen— llegarán al espacio. Este vuelo de prueba de casi 10 días […]"
     }
   ],
-  "updated": "2026-03-13T17:24:10.743Z"
+  "updated": "2026-03-13T17:41:19.762Z"
 }
