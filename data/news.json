@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "From Steel Rolls to Starship at the Starfactory",
+      "link": "https://www.nasaspaceflight.com/2026/03/steel-rolls-to-starship/",
+      "source": "NASASpaceflight",
+      "date": "2026-03-13T20:53:11Z",
+      "summary": "As SpaceX accelerates its ambitious goal of sending humans to the Moon and Mars, the…\nThe post From Steel Rolls to Starship at the Starfactory appeared first on NASASpaceFlight.com."
+    },
+    {
       "title": "NASA ready for another shot at launching Artemis 2 moon mission",
       "link": "https://spaceflightnow.com/2026/03/13/nasa-ready-for-another-shot-at-launching-artemis-2-moon-mission/",
       "source": "Spaceflight Now",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-13T18:20:56Z",
       "summary": "\nMILAN — The first field test of Leonardo’s Michelangelo “security dome” architecture will take place in Ukraine by the end of 2026, CEO Roberto Cingolani announced March 12. Michelangelo, first announced in November 2025, is Leonardo’s proposal for an integrated, multi-domain structure spanning air, land, maritime and space. The system is designed as an interoperable […]\nThe post Ukraine will host first test for Leonardo’s Michelangelo security dome appeared first on SpaceNews."
-    },
-    {
-      "title": "NASA Armstrong to Host Partnership Days April 15-16",
-      "link": "https://www.nasa.gov/news-release/nasa-armstrong-to-host-partnership-days-april-15-16/",
-      "source": "NASA",
-      "date": "2026-03-13T17:33:41Z",
-      "summary": "NASA’s Armstrong Flight Research Center in Edwards, California, invites innovative companies, government agencies, and organizations to attend Partnership Days, scheduled for Wednesday and Thursday, April 15 and 16, at the center. The event offers a unique opportunity to explore collaboration with NASA on cutting-edge research and development in areas such as aerospace, autonomy, sustainability, and […]"
     }
   ],
-  "updated": "2026-03-13T20:49:10.800Z"
+  "updated": "2026-03-13T21:02:37.228Z"
 }
