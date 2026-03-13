@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Live coverage: SpaceX to launch 25 Starlink satellites on Falcon 9 rocket from Vandenberg Space Force Base",
+      "link": "https://spaceflightnow.com/2026/03/13/live-coverage-spacex-to-launch-25-starlink-satellites-on-falcon-9-rocket-from-vandenberg-space-force-base/",
+      "source": "Spaceflight Now",
+      "date": "2026-03-13T02:57:21Z",
+      "summary": "The Starlink 17-31 mission is SpaceX’s 26th mission supporting its broadband internet satellite constellation so far in 2026. Liftoff from pad 4 East at Vandenberg Space Force Base is scheduled for 7:33:50 a.m. PDT (10:33:50 a.m. EDT / 1433:50 UTC). "
+    },
+    {
+      "title": "Live coverage: SpaceX to launch Friday morning Starlink mission from Cape Canaveral",
+      "link": "https://spaceflightnow.com/2026/03/13/live-coverage-spacex-to-launch-friday-morning-starlink-mission-from-cape-canaveral/",
+      "source": "Spaceflight Now",
+      "date": "2026-03-13T02:08:35Z",
+      "summary": "The Starlink 10-48 mission will add another 29 broadband internet satellites to the company’s constellation in low Earth orbit. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for 8:10 a.m. EDT (1210 UTC). "
+    },
+    {
       "title": "NASA Now Targeting April 1 for Artemis II’s Launch Around The Moon",
       "link": "https://spacepolicyonline.com/news/nasa-now-targeting-april-1-for-artemis-ii-launch-around-the-moon/",
       "source": "SpacePolicyOnline.com",
@@ -20,21 +34,7 @@
       "source": "NASA",
       "date": "2026-03-12T22:00:00Z",
       "summary": "The Low Boom Flight Demonstrator project (LBFD) is part of NASA’s effort to help enable new aircraft noise standards that are required to open the market to commercial supersonic flight over land. The federal government banned all civilian supersonic flights over land more than fifty years ago due to sonic boom noise. If new standards are established, the U.S. aviation […]"
-    },
-    {
-      "title": "NASA to Cover Upcoming US Spacewalks 94, 95 Outside Space Station",
-      "link": "https://www.nasa.gov/news-release/nasa-to-cover-upcoming-us-spacewalks-94-95-outside-space-station/",
-      "source": "NASA",
-      "date": "2026-03-12T21:09:16Z",
-      "summary": "NASA astronauts will conduct a pair of spacewalks beginning Wednesday, March 18, outside of the International Space Station to prepare for the installation of two roll-out solar arrays. Experts from NASA will preview the spacewalks during a news conference at 2 p.m. EDT, Monday, March 16, at the agency’s Johnson Space Center in Houston. Watch […]"
-    },
-    {
-      "title": "About Integrated Aviation Systems Program (IASP)",
-      "link": "https://www.nasa.gov/directorates/armd/iasp/about-iasp/",
-      "source": "NASA",
-      "date": "2026-03-12T21:00:00Z",
-      "summary": "The Integrated Aviation Systems Program (IASP) conducts research and integrated, systems-level demonstrations in a flight environment to prove, mature and transition them into future aircraft and systems. The program aims to determine feasibility and accelerate development of less mature technologies, and for more mature technologies, execute highly complex flight demonstrations to prove and accelerate technology […]"
     }
   ],
-  "updated": "2026-03-13T01:58:37.492Z"
+  "updated": "2026-03-13T03:06:12.057Z"
 }
