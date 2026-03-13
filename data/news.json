@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "USBR Crack the Case Challenge",
+      "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/usbr-crack-the-case-challenge/",
+      "source": "NASA",
+      "date": "2026-03-13T17:13:49Z",
+      "summary": "NASA’s Center of Excellence for Collaborative Innovation (CoECI) assists in the use of crowdsourcing across the federal government. CoECI’s NASA Tournament Lab offers the contract capability to run external crowdsourced challenges on behalf of NASA and other agencies. This three-phase challenge invites geophysicists, sensing specialists, nondestructive testing experts, and creative problem-solvers (including AI/ML practitioners) from […]"
+    },
+    {
+      "title": "USBR Halt the Hitchhiker: Invasive Species Challenge",
+      "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/usbr-halt-the-hitchhiker-invasive-species-challenge/",
+      "source": "NASA",
+      "date": "2026-03-13T17:03:49Z",
+      "summary": "NASA’s Center of Excellence for Collaborative Innovation (CoECI) assists in the use of crowdsourcing across the federal government. CoECI’s NASA Tournament Lab offers the contract capability to run external crowdsourced challenges on behalf of NASA and other agencies. The Bureau of Reclamation (Reclamation) is sponsoring a 3-phase prize challenge (managed by yet2) for innovative solutions […]"
+    },
+    {
       "title": "Eutelsat exits two Russian capacity leases after satellite failure",
       "link": "https://spacenews.com/eutelsat-exits-two-russian-capacity-leases-after-satellite-failure/",
       "source": "SpaceNews",
@@ -20,21 +34,7 @@
       "source": "NASA",
       "date": "2026-03-13T15:40:17Z",
       "summary": "Read this web article in English here. Unos ocho minutos después del despegue de Artemis II, la nave espacial Orion y su tripulación —los astronautas de la NASA Reid Wiseman, Victor Glover y Christina Koch, junto con el astronauta de la CSA (Agencia Espacial Canadiense) Jeremy Hansen— llegarán al espacio. Este vuelo de prueba de casi 10 días […]"
-    },
-    {
-      "title": "NASA’s Artemis II Moon Mission Daily Agenda",
-      "link": "https://www.nasa.gov/missions/artemis/nasas-artemis-ii-moon-mission-daily-agenda/",
-      "source": "NASA",
-      "date": "2026-03-13T15:21:40Z",
-      "summary": "About eight minutes after Artemis II lifts off, the Orion spacecraft and its crew, NASA astronauts Reid Wiseman, Victor Glover, and Christina Koch, along with CSA (Canadian Space Agency) astronaut Jeremy Hansen, will be in space. The approximately 10-day test flight will be packed with activity as the astronauts venture around the Moon and back, […]"
-    },
-    {
-      "title": "Artifacts From NASA’s Webb, Parker Solar Probe on View at Smithsonian",
-      "link": "https://science.nasa.gov/missions/webb/artifacts-from-nasas-webb-parker-solar-probe-on-view-at-smithsonian/",
-      "source": "NASA",
-      "date": "2026-03-13T15:06:07Z",
-      "summary": "A testing replica of the “backbone” of NASA’s James Webb Space Telescope and a full-scale model of the agency’s Parker Solar Probe are now on permanent display at the Smithsonian’s National Air and Space Museum, Steven F. Udvar-Hazy Center in Chantilly, Virginia. “From touching the Sun with Parker Solar Probe to creating humanity’s most powerful […]"
     }
   ],
-  "updated": "2026-03-13T17:09:20.198Z"
+  "updated": "2026-03-13T17:24:10.743Z"
 }
