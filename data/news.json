@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Eutelsat exits two Russian capacity leases after satellite failure",
+      "link": "https://spacenews.com/eutelsat-exits-two-russian-capacity-leases-after-satellite-failure/",
+      "source": "SpaceNews",
+      "date": "2026-03-13T16:35:05Z",
+      "summary": "\nEutelsat has ended capacity leases on two Russian spacecraft after one failed in orbit and the other is set to relocate, escaping contracts hit by Western sanctions and the structural decline in TV broadcasts from GEO.\nThe post Eutelsat exits two Russian capacity leases after satellite failure appeared first on SpaceNews."
+    },
+    {
       "title": "Good Morning, Moon",
       "link": "https://www.nasa.gov/image-article/good-morning-moon/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-13T15:06:07Z",
       "summary": "A testing replica of the “backbone” of NASA’s James Webb Space Telescope and a full-scale model of the agency’s Parker Solar Probe are now on permanent display at the Smithsonian’s National Air and Space Museum, Steven F. Udvar-Hazy Center in Chantilly, Virginia. “From touching the Sun with Parker Solar Probe to creating humanity’s most powerful […]"
-    },
-    {
-      "title": "A look back at 2025 for Europe’s Spaceport",
-      "link": "https://www.esa.int/Enabling_Support/Space_Transportation/Europe_s_Spaceport/A_look_back_at_2025_for_Europe_s_Spaceport",
-      "source": "ESA",
-      "date": "2026-03-13T14:57:00Z",
-      "summary": "From the ESA Blogs."
     }
   ],
-  "updated": "2026-03-13T16:34:36.560Z"
+  "updated": "2026-03-13T16:54:35.019Z"
 }
