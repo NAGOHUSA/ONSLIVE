@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Eruption at Mayon",
+      "link": "https://science.nasa.gov/earth/earth-observatory/eruption-at-mayon/",
+      "source": "NASA",
+      "date": "2026-03-13T04:01:00Z",
+      "summary": "Activity at the volcano in the Philippines sent lava and pyroclastic flows down the volcano’s flanks and prompted evacuations in nearby communities."
+    },
+    {
       "title": "Live coverage: SpaceX to launch 25 Starlink satellites on Falcon 9 rocket from Vandenberg Space Force Base",
       "link": "https://spaceflightnow.com/2026/03/13/live-coverage-spacex-to-launch-25-starlink-satellites-on-falcon-9-rocket-from-vandenberg-space-force-base/",
       "source": "Spaceflight Now",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-12T22:23:52Z",
       "summary": "\nChina’s Tianwen-3 Mars sample return mission is entering flight hardware development, targeting a late 2028 launch to seek out biosignatures on the Red Planet.\nThe post China’s Tianwen-3 Mars sample return mission moves into spacecraft construction phase appeared first on SpaceNews."
-    },
-    {
-      "title": "About Low Boom Flight Demonstrator (LBFD) Project",
-      "link": "https://www.nasa.gov/directorates/armd/iasp/armd-iasp-lbfd/about-lbfd/",
-      "source": "NASA",
-      "date": "2026-03-12T22:00:00Z",
-      "summary": "The Low Boom Flight Demonstrator project (LBFD) is part of NASA’s effort to help enable new aircraft noise standards that are required to open the market to commercial supersonic flight over land. The federal government banned all civilian supersonic flights over land more than fifty years ago due to sonic boom noise. If new standards are established, the U.S. aviation […]"
     }
   ],
-  "updated": "2026-03-13T03:56:30.656Z"
+  "updated": "2026-03-13T04:34:19.558Z"
 }
