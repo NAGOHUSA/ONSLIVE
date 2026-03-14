@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Blue Origin Unveils NEO Hunter: A Hybrid Planetary Defense Concept",
+      "link": "https://www.nasaspaceflight.com/2026/03/blue-origin-neo-hunter-planetary-defense/",
+      "source": "NASASpaceflight",
+      "date": "2026-03-14T21:15:26Z",
+      "summary": "Blue Origin has unveiled a new mission concept called NEO Hunter, designed to protect Earth…\nThe post Blue Origin Unveils NEO Hunter: A Hybrid Planetary Defense Concept appeared first on NASASpaceFlight.com."
+    },
+    {
       "title": "NASA Administrator teases further Artemis program updates in one-on-one interview",
       "link": "https://spaceflightnow.com/2026/03/14/nasa-administrator-teases-further-artemis-program-updates-in-one-on-one-interview/",
       "source": "Spaceflight Now",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-13T21:42:20Z",
       "summary": "The Daily Minor Planet citizen science project is expanding! In addition to data received nightly from the Catalina Sky Survey’s Mt. Lemmon telescope in Arizona, the project’s science team is now processing images from the Bok 2.3-meter telescope at Kitt Peak National Observatory. The Bok is a mighty telescope run by the University of Arizona’s […]"
-    },
-    {
-      "title": "Astroscale selects Isar Aerospace to launch ELSA-M mission",
-      "link": "https://spacenews.com/astroscale-selects-isar-aerospace-to-launch-elsa-m-mission/",
-      "source": "SpaceNews",
-      "date": "2026-03-13T21:20:24Z",
-      "summary": "Japanese satellite servicing company Astroscale has selected Isar Aerospace to launch a deorbiting mission developed by its British subsidiary.\r\nThe post Astroscale selects Isar Aerospace to launch ELSA-M mission appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-14T21:12:27.826Z"
+  "updated": "2026-03-14T21:25:40.327Z"
 }
