@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Strait of Hormuz crisis drives demand for commercial geospatial intelligence",
+      "link": "https://spacenews.com/strait-of-hormuz-crisis-drives-demand-for-commercial-geospatial-intelligence/",
+      "source": "SpaceNews",
+      "date": "2026-03-15T15:06:01Z",
+      "summary": "\nAnalysts are relying on tools that fuse satellite imagery, ship data and open-source reporting into real-time insight\nThe post Strait of Hormuz crisis drives demand for commercial geospatial intelligence appeared first on SpaceNews."
+    },
+    {
       "title": "Raytheon contract for protected satellite communications terminals raised by $2 billion",
       "link": "https://spacenews.com/raytheon-contract-for-protected-satellite-communications-terminals-raised-by-2-billion/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-13T23:32:56Z",
       "summary": "\nSAN FRANCISCO – Northern California startup iMetalX Inc. emerged from stealth to announce a collaboration with Psionic, a Hampton, Virginia, company focused on autonomous navigation in GPS-denied environments. Pairing Psionic’s Space Navigation Dopper Lidar with iMetalX’s Asgard data and simulation platform offers customers the ability to create accurate 3D models of resident space objects (RSOs) […]\nThe post iMetalX emerges from stealth with technology to model resident space objects appeared first on SpaceNews."
-    },
-    {
-      "title": "Volunteers Find Oddly High Solar Flare Rates",
-      "link": "https://science.nasa.gov/get-involved/citizen-science/volunteers-find-oddly-high-solar-flare-rates/",
-      "source": "NASA",
-      "date": "2026-03-13T22:07:28Z",
-      "summary": "Patches of the Sun’s surface often show strong magnetic fields. These fields can emerge within a matter of hours, and can decay slowly or quickly, sometimes over days, weeks, or even months. Thanks to a new study about these long-lived active regions, we now know much more about the patches where these strong magnetic fields […]"
     }
   ],
-  "updated": "2026-03-15T14:59:06.153Z"
+  "updated": "2026-03-15T15:13:29.526Z"
 }
