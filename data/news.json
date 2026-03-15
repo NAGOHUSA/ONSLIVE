@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Raytheon contract for protected satellite communications terminals raised by $2 billion",
+      "link": "https://spacenews.com/raytheon-contract-for-protected-satellite-communications-terminals-raised-by-2-billion/",
+      "source": "SpaceNews",
+      "date": "2026-03-15T13:14:06Z",
+      "summary": "\nThe contract supports communications terminals used in the U.S. nuclear command-and-control architecture\nThe post Raytheon contract for protected satellite communications terminals raised by $2 billion appeared first on SpaceNews."
+    },
+    {
       "title": "Blue Origin Unveils NEO Hunter: A Hybrid Planetary Defense Concept",
       "link": "https://www.nasaspaceflight.com/2026/03/blue-origin-neo-hunter-planetary-defense/",
       "source": "NASASpaceflight",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-13T22:07:28Z",
       "summary": "Patches of the Sun’s surface often show strong magnetic fields. These fields can emerge within a matter of hours, and can decay slowly or quickly, sometimes over days, weeks, or even months. Thanks to a new study about these long-lived active regions, we now know much more about the patches where these strong magnetic fields […]"
-    },
-    {
-      "title": "Extra Extra! Extra Data Stream Added to the Daily Minor Planet!",
-      "link": "https://science.nasa.gov/get-involved/citizen-science/extra-extra-extra-data-stream-added-to-the-daily-minor-planet/",
-      "source": "NASA",
-      "date": "2026-03-13T21:42:20Z",
-      "summary": "The Daily Minor Planet citizen science project is expanding! In addition to data received nightly from the Catalina Sky Survey’s Mt. Lemmon telescope in Arizona, the project’s science team is now processing images from the Bok 2.3-meter telescope at Kitt Peak National Observatory. The Bok is a mighty telescope run by the University of Arizona’s […]"
     }
   ],
-  "updated": "2026-03-15T13:01:15.211Z"
+  "updated": "2026-03-15T13:26:16.439Z"
 }
