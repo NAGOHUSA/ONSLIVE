@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "OSTP taking on space policy coordination work in place of National Space Council",
+      "link": "https://spacenews.com/ostp-taking-on-space-policy-coordination-work-in-place-of-national-space-council/",
+      "source": "SpaceNews",
+      "date": "2026-03-15T16:04:52Z",
+      "summary": "\nIn the absence of the National Space Council, the White House Office of Science and Technology Policy (OSTP) has taken on a lead role in coordinating national space policy.\nThe post OSTP taking on space policy coordination work in place of National Space Council appeared first on SpaceNews."
+    },
+    {
       "title": "Strait of Hormuz crisis drives demand for commercial geospatial intelligence",
       "link": "https://spacenews.com/strait-of-hormuz-crisis-drives-demand-for-commercial-geospatial-intelligence/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "Spaceflight Now",
       "date": "2026-03-14T11:23:21Z",
       "summary": "The conversation took place amid the flight readiness review for the Artemis 2 mission, which is currently set to launch no earlier than April 1, 2026, pending work being completed in the Vehicle Assembly Building. "
-    },
-    {
-      "title": "iMetalX emerges from stealth with technology to model resident space objects",
-      "link": "https://spacenews.com/imetalx-emerges-from-stealth-with-technology-to-model-resident-space-objects/",
-      "source": "SpaceNews",
-      "date": "2026-03-13T23:32:56Z",
-      "summary": "\nSAN FRANCISCO – Northern California startup iMetalX Inc. emerged from stealth to announce a collaboration with Psionic, a Hampton, Virginia, company focused on autonomous navigation in GPS-denied environments. Pairing Psionic’s Space Navigation Dopper Lidar with iMetalX’s Asgard data and simulation platform offers customers the ability to create accurate 3D models of resident space objects (RSOs) […]\nThe post iMetalX emerges from stealth with technology to model resident space objects appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-15T16:01:24.893Z"
+  "updated": "2026-03-15T16:14:05.214Z"
 }
