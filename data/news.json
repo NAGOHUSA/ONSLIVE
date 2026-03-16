@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "SPARCS CubeSat ‘First Light’ Images",
+      "link": "https://science.nasa.gov/photojournal/sparcs-cubesat-first-light-images/",
+      "source": "NASA",
+      "date": "2026-03-16T18:52:50Z",
+      "summary": "Description This pair of images shows stars observed by the SPARCS (Star-Planet Activity Research CubeSat) space telescope simultaneously in the near-ultraviolet, left, and far-ultraviolet, right. These observations were recorded on Feb. 6, 2026, three weeks after the cube satellite, or CubeSat, launched aboard a SpaceX Falcon 9 on Jan. 11. The fact that one star […]"
+    },
+    {
+      "title": "To Protect Artemis II Astronauts, NASA Experts Keep Eyes on Sun",
+      "link": "https://science.nasa.gov/missions/artemis/artemis-2/to-protect-artemis-ii-astronauts-nasa-experts-keep-eyes-on-sun/",
+      "source": "NASA",
+      "date": "2026-03-16T18:42:13Z",
+      "summary": "As four astronauts travel around the Moon on NASA’s Artemis II mission, they will venture beyond Earth’s protective magnetic field. The crew’s spacecraft, Orion, will carry and protect them as they journey into deep space and serves as the main protection against the Sun’s intense power.  During their 10-day flight, NASA and the National Oceanic and Atmospheric Administration (NOAA) will monitor the […]"
+    },
+    {
       "title": "Melagen Labs and Satlyt Announce Joint ISS Mission to Demonstrate Radiation-Resilient In-Orbit Computing and Next-Gen Shielding",
       "link": "https://spacenews.com/melagen-labs-and-satlyt-announce-joint-iss-mission-to-demonstrate-radiation-resilient-in-orbit-computing-and-next-gen-shielding/",
       "source": "SpaceNews",
@@ -20,21 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-16T15:00:00Z",
       "summary": "\nKepler is issuing a call for payloads seeking persistent, real-time data streaming in Low Earth Orbit. Integration starts soon for the limited number of hosted payload slots remaining available across […]\nThe post Kepler Communications: Call for Live-Stream Payload Concepts appeared first on SpaceNews."
-    },
-    {
-      "title": "Celebrating 100 Years Since Goddard’s Breakthrough Moment in Modern Rocketry",
-      "link": "https://www.nasa.gov/image-article/celebrating-100-years-since-goddards-breakthrough-moment-in-modern-rocketry/",
-      "source": "NASA",
-      "date": "2026-03-16T13:58:05Z",
-      "summary": "From the voyages of spacecraft to the Moon and beyond, to the launches of satellites that help us navigate, communicate, and understand our planet and the universe, the use of liquid-fueled rockets has been key to humanity’s use and exploration of space. Today marks 100 years since the first successful test of this technology. On […]"
-    },
-    {
-      "title": "A Combination of Techniques Leads to Improved Friction Stir Welding",
-      "link": "https://www.nasa.gov/centers-and-facilities/nesc/a-combination-of-techniques-leads-to-improved-friction-stir-welding/",
-      "source": "NASA",
-      "date": "2026-03-16T13:52:01Z",
-      "summary": "Download PDF: A Combination of Techniques Leads to Improved Friction Stir Welding The NESC developed several innovative tools and techniques during an assessment to find the root cause of poor tensile strength and low topography anomalies (LTA) in welds formed using a solid-state welding process called self-reacting friction stir welding (SRFSW).    Using a combination of […]"
     }
   ],
-  "updated": "2026-03-16T18:53:37.055Z"
+  "updated": "2026-03-16T19:19:33.986Z"
 }
