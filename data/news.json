@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Live coverage: SpaceX to launch 25 Starlink satellites on Falcon 9 rocket from California",
+      "link": "https://spaceflightnow.com/2026/03/16/live-coverage-spacex-to-launch-25-starlink-satellites-on-falcon-9-rocket-from-california/",
+      "source": "Spaceflight Now",
+      "date": "2026-03-16T21:51:29Z",
+      "summary": "Liftoff of the Starlink 17-24 mission is scheduled for 8:39:30 p.m. PDT (11:39:30 p.m. EDT / 0339:30 UTC). "
+    },
+    {
       "title": "Kayrros sale signals rising demand for satellite intelligence amid Hormuz crisis",
       "link": "https://spacenews.com/kayrros-sale-signals-rising-demand-for-satellite-intelligence-amid-hormuz-crisis/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-16T18:42:13Z",
       "summary": "As four astronauts travel around the Moon on NASA’s Artemis II mission, they will venture beyond Earth’s protective magnetic field. The crew’s spacecraft, Orion, will carry and protect them as they journey into deep space and serves as the main protection against the Sun’s intense power.  During their 10-day flight, NASA and the National Oceanic and Atmospheric Administration (NOAA) will monitor the […]"
-    },
-    {
-      "title": "Melagen Labs and Satlyt Announce Joint ISS Mission to Demonstrate Radiation-Resilient In-Orbit Computing and Next-Gen Shielding",
-      "link": "https://spacenews.com/melagen-labs-and-satlyt-announce-joint-iss-mission-to-demonstrate-radiation-resilient-in-orbit-computing-and-next-gen-shielding/",
-      "source": "SpaceNews",
-      "date": "2026-03-16T16:00:00Z",
-      "summary": "\nNEW YORK, March 2026 — Melagen Labs and Satlyt today announced a joint technology demonstration aboard the International Space Station (ISS) through the AEGIS MISSE platform. The mission will generate […]\nThe post Melagen Labs and Satlyt Announce Joint ISS Mission to Demonstrate Radiation-Resilient In-Orbit Computing and Next-Gen Shielding appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-16T21:56:39.938Z"
+  "updated": "2026-03-16T22:10:44.471Z"
 }
