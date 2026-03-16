@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "NESC Develops Method for Estimating Risk When Reducing NDE",
+      "link": "https://www.nasa.gov/general/nesc-develops-method-for-estimating-risk-when-reducing-nde/",
+      "source": "NASA",
+      "date": "2026-03-16T13:03:57Z",
+      "summary": "Download PDF: NESC Develops Method for Estimating Risk When Reducing NDE  Performing nondestructive evaluation (NDE) can have both cost and schedule impacts, leading some to question whether descoping (i.e., reducing or eliminating) NDE inspections on certain spaceflight hardware could be possible. However, this approach would be counter to NASA’s Technical Standard NASA-STD-5019A, which outlines the spaceflight […]"
+    },
+    {
+      "title": "Investing in student programs is essential for America’s lead in space",
+      "link": "https://spacenews.com/investing-in-student-programs-is-essential-for-americas-lead-in-space/",
+      "source": "SpaceNews",
+      "date": "2026-03-16T13:00:00Z",
+      "summary": "\nThe University of Illinois’ Space Entanglement and Annealing Quantum Experiment (SEAQUE) is a compelling success story in the global race to develop quantum communication networks in space. The experiment’s success was enabled by a novel collaboration approach across academia, industry and government. As such, SEAQUE is more than a physics experiment. It’s a demonstration of […]\nThe post Investing in student programs is essential for America’s lead in space appeared first on SpaceNews."
+    },
+    {
       "title": "New Moog Innovations for the Satellite Market on Full Display at SATELLITE 2026 Conference",
       "link": "https://spacenews.com/new-moog-innovations-for-the-satellite-market-on-full-display-at-satellite-2026-conference/",
       "source": "SpaceNews",
@@ -20,21 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-16T10:59:46Z",
       "summary": "\nChina conducted a pair of launches Sunday, sending a second Yaogan-50 satellite into a highly retrograde orbit and completing a Kuaizhou-11 solid rocket rideshare mission.\nThe post China launches new highly retrograde Yaogan satellite, KZ-11 rideshare deploys 8 satellites appeared first on SpaceNews."
-    },
-    {
-      "title": "How does an ice satellite detect a geomagnetic storm?",
-      "link": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/CryoSat/How_does_an_ice_satellite_detect_a_geomagnetic_storm",
-      "source": "ESA",
-      "date": "2026-03-16T08:00:00Z",
-      "summary": "It seems improbable that a satellite designed to monitor polar ice sheets and floating sea ice could accurately measure a disturbance in Earth’s magnetic field. But that is just what ESA’s CryoSat mission did earlier this year."
-    },
-    {
-      "title": "Starcloud files plans for 88,000-satellite constellation",
-      "link": "https://spacenews.com/starcloud-files-plans-for-88000-satellite-constellation/",
-      "source": "SpaceNews",
-      "date": "2026-03-15T22:32:15Z",
-      "summary": "\nAn orbital data center startup is seeking approval from the Federal Communications Commission for a constellation of as many as 88,000 satellites.\nThe post Starcloud files plans for 88,000-satellite constellation appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-16T12:56:00.771Z"
+  "updated": "2026-03-16T13:31:07.919Z"
 }
