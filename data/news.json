@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "A century after the first rocket launch, Ars staffers pick their favorites",
+      "link": "https://arstechnica.com/space/2026/03/a-century-after-the-first-rocket-launch-ars-staffers-pick-their-favorites/",
+      "source": "Arstechnica",
+      "date": "2026-03-16T11:00:56Z",
+      "summary": "\"I realized that if something went wrong up there, things might go very badly down here.\""
+    },
+    {
+      "title": "China launches new highly retrograde Yaogan satellite, KZ-11 rideshare deploys 8 satellites",
+      "link": "https://spacenews.com/china-launches-new-highly-retrograde-yaogan-satellite-kz-11-rideshare-deploys-8-satellites/",
+      "source": "SpaceNews",
+      "date": "2026-03-16T10:59:46Z",
+      "summary": "\nChina conducted a pair of launches Sunday, sending a second Yaogan-50 satellite into a highly retrograde orbit and completing a Kuaizhou-11 solid rocket rideshare mission.\nThe post China launches new highly retrograde Yaogan satellite, KZ-11 rideshare deploys 8 satellites appeared first on SpaceNews."
+    },
+    {
       "title": "How does an ice satellite detect a geomagnetic storm?",
       "link": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/CryoSat/How_does_an_ice_satellite_detect_a_geomagnetic_storm",
       "source": "ESA",
@@ -20,21 +34,7 @@
       "source": "SpacePolicyOnline.com",
       "date": "2026-03-15T20:38:34Z",
       "summary": "Here is SpacePolicyOnline.com’s list of space policy events for the week plus a day of March 15-22, 2026 and any insight we can offer about them. The House and Senate […]"
-    },
-    {
-      "title": "OSTP taking on space policy coordination work in place of National Space Council",
-      "link": "https://spacenews.com/ostp-taking-on-space-policy-coordination-work-in-place-of-national-space-council/",
-      "source": "SpaceNews",
-      "date": "2026-03-15T16:04:52Z",
-      "summary": "\nIn the absence of the National Space Council, the White House Office of Science and Technology Policy (OSTP) has taken on a lead role in coordinating national space policy.\nThe post OSTP taking on space policy coordination work in place of National Space Council appeared first on SpaceNews."
-    },
-    {
-      "title": "Strait of Hormuz crisis drives demand for commercial geospatial intelligence",
-      "link": "https://spacenews.com/strait-of-hormuz-crisis-drives-demand-for-commercial-geospatial-intelligence/",
-      "source": "SpaceNews",
-      "date": "2026-03-15T15:06:01Z",
-      "summary": "\nAnalysts are relying on tools that fuse satellite imagery, ship data and open-source reporting into real-time insight\nThe post Strait of Hormuz crisis drives demand for commercial geospatial intelligence appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-16T10:52:51.248Z"
+  "updated": "2026-03-16T11:14:13.950Z"
 }
