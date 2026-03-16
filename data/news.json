@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Many Questions, Few Answers as Artemis II Targets April",
+      "link": "https://www.spacescout.info/2026/03/many-questions-few-answers-as-artemis-ii-targets-april/",
+      "source": "Space Scout",
+      "date": "2026-03-16T15:21:28Z",
+      "summary": "NASA is on track to launch Artemis II as soon as April 1st, with daily launch opportunities through April 6th. After major changes to the Artemis program, answers have been slow to materialize."
+    },
+    {
+      "title": "Kepler Communications: Call for Live-Stream Payload Concepts",
+      "link": "https://spacenews.com/kepler-communications-call-for-live-stream-payload-concepts/",
+      "source": "SpaceNews",
+      "date": "2026-03-16T15:00:00Z",
+      "summary": "\nKepler is issuing a call for payloads seeking persistent, real-time data streaming in Low Earth Orbit. Integration starts soon for the limited number of hosted payload slots remaining available across […]\nThe post Kepler Communications: Call for Live-Stream Payload Concepts appeared first on SpaceNews."
+    },
+    {
       "title": "Celebrating 100 Years Since Goddard’s Breakthrough Moment in Modern Rocketry",
       "link": "https://www.nasa.gov/image-article/celebrating-100-years-since-goddards-breakthrough-moment-in-modern-rocketry/",
       "source": "NASA",
@@ -20,21 +34,7 @@
       "source": "NASA",
       "date": "2026-03-16T13:03:57Z",
       "summary": "Download PDF: NESC Develops Method for Estimating Risk When Reducing NDE  Performing nondestructive evaluation (NDE) can have both cost and schedule impacts, leading some to question whether descoping (i.e., reducing or eliminating) NDE inspections on certain spaceflight hardware could be possible. However, this approach would be counter to NASA’s Technical Standard NASA-STD-5019A, which outlines the spaceflight […]"
-    },
-    {
-      "title": "Investing in student programs is essential for America’s lead in space",
-      "link": "https://spacenews.com/investing-in-student-programs-is-essential-for-americas-lead-in-space/",
-      "source": "SpaceNews",
-      "date": "2026-03-16T13:00:00Z",
-      "summary": "\nThe University of Illinois’ Space Entanglement and Annealing Quantum Experiment (SEAQUE) is a compelling success story in the global race to develop quantum communication networks in space. The experiment’s success was enabled by a novel collaboration approach across academia, industry and government. As such, SEAQUE is more than a physics experiment. It’s a demonstration of […]\nThe post Investing in student programs is essential for America’s lead in space appeared first on SpaceNews."
-    },
-    {
-      "title": "New Moog Innovations for the Satellite Market on Full Display at SATELLITE 2026 Conference",
-      "link": "https://spacenews.com/new-moog-innovations-for-the-satellite-market-on-full-display-at-satellite-2026-conference/",
-      "source": "SpaceNews",
-      "date": "2026-03-16T12:00:00Z",
-      "summary": "\nEast Aurora, NY — Moog Inc. (NYSE: MOG.A and MOG.B), a worldwide designer, manufacturer and systems integrator of high-performance precision motion and fluid controls and control systems will highlight its […]\nThe post New Moog Innovations for the Satellite Market on Full Display at SATELLITE 2026 Conference appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-16T15:01:53.846Z"
+  "updated": "2026-03-16T15:32:54.926Z"
 }
