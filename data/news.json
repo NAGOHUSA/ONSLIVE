@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA Invites Media to Learn About Upcoming X-59 Test Flights",
+      "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-learn-about-upcoming-x-59-test-flights/",
+      "source": "NASA",
+      "date": "2026-03-16T19:48:16Z",
+      "summary": "NASA will hold a media teleconference at 5:30 p.m. EDT on Thursday, March 19 to highlight plans for its X-59 quiet supersonic aircraft’s upcoming flight tests. The teleconference is set to take place after the X-59 is scheduled to complete its second flight, in California. For the media call, NASA leadership will join representatives from […]"
+    },
+    {
       "title": "SPARCS CubeSat ‘First Light’ Images",
       "link": "https://science.nasa.gov/photojournal/sparcs-cubesat-first-light-images/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "Space Scout",
       "date": "2026-03-16T15:21:28Z",
       "summary": "NASA is on track to launch Artemis II as soon as April 1st, with daily launch opportunities through April 6th. After major changes to the Artemis program, answers have been slow to materialize."
-    },
-    {
-      "title": "Kepler Communications: Call for Live-Stream Payload Concepts",
-      "link": "https://spacenews.com/kepler-communications-call-for-live-stream-payload-concepts/",
-      "source": "SpaceNews",
-      "date": "2026-03-16T15:00:00Z",
-      "summary": "\nKepler is issuing a call for payloads seeking persistent, real-time data streaming in Low Earth Orbit. Integration starts soon for the limited number of hosted payload slots remaining available across […]\nThe post Kepler Communications: Call for Live-Stream Payload Concepts appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-16T19:42:26.411Z"
+  "updated": "2026-03-16T19:58:03.769Z"
 }
