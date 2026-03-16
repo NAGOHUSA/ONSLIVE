@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Live coverage: SpaceX to launch a Falcon 9 rocket on St. Patrick’s Day morning",
+      "link": "https://spaceflightnow.com/2026/03/16/live-coverage-spacex-to-launch-a-falcon-9-rocket-on-st-patricks-day-morning/",
+      "source": "Spaceflight Now",
+      "date": "2026-03-16T22:28:23Z",
+      "summary": "The Starlink 10-46 mission will add another 29 Starlink V2 Mini satellites to the low Earth orbit constellation. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled during a window that opens at 6:26 a.m. EDT (1026 UTC). "
+    },
+    {
       "title": "Nvidia unveils AI computing module for space-based data centers",
       "link": "https://spacenews.com/nvidia-unveils-ai-computing-module-for-space-based-data-centers/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-16T19:48:16Z",
       "summary": "NASA will hold a media teleconference at 5:30 p.m. EDT on Thursday, March 19 to highlight plans for its X-59 quiet supersonic aircraft’s upcoming flight tests. The teleconference is set to take place after the X-59 is scheduled to complete its second flight, in California. For the media call, NASA leadership will join representatives from […]"
-    },
-    {
-      "title": "SPARCS CubeSat ‘First Light’ Images",
-      "link": "https://science.nasa.gov/photojournal/sparcs-cubesat-first-light-images/",
-      "source": "NASA",
-      "date": "2026-03-16T18:52:50Z",
-      "summary": "Description This pair of images shows stars observed by the SPARCS (Star-Planet Activity Research CubeSat) space telescope simultaneously in the near-ultraviolet, left, and far-ultraviolet, right. These observations were recorded on Feb. 6, 2026, three weeks after the cube satellite, or CubeSat, launched aboard a SpaceX Falcon 9 on Jan. 11. The fact that one star […]"
     }
   ],
-  "updated": "2026-03-16T22:24:04.446Z"
+  "updated": "2026-03-16T22:41:15.181Z"
 }
