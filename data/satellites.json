@@ -17,30 +17,30 @@
     {
       "name": "STARLINK-1017",
       "id": "2019-074L",
-      "epoch": "2026-03-15T12:13:20.985888",
-      "meanMotion": 15.24767771,
-      "inclination": 53.0547
+      "epoch": "2026-03-15T21:39:39.666816",
+      "meanMotion": 15.24814722,
+      "inclination": 53.0545
     },
     {
       "name": "STARLINK-1019",
       "id": "2019-074M",
-      "epoch": "2026-03-15T16:00:01.999584",
-      "meanMotion": 15.83101262,
-      "inclination": 53.0408
+      "epoch": "2026-03-16T00:00:02.000160",
+      "meanMotion": 15.83162257,
+      "inclination": 53.0429
     },
     {
       "name": "STARLINK-1020",
       "id": "2019-074N",
-      "epoch": "2026-03-15T13:07:56.193888",
-      "meanMotion": 15.30262487,
-      "inclination": 53.1623
+      "epoch": "2026-03-15T16:16:02.033184",
+      "meanMotion": 15.30265664,
+      "inclination": 53.1621
     },
     {
       "name": "STARLINK-1031",
       "id": "2019-074Z",
-      "epoch": "2026-03-15T16:00:01.999584",
-      "meanMotion": 15.93896529,
-      "inclination": 53.0365
+      "epoch": "2026-03-16T00:00:02.000160",
+      "meanMotion": 15.9403842,
+      "inclination": 53.0366
     },
     {
       "name": "STARLINK-1036",
@@ -52,9 +52,9 @@
     {
       "name": "STARLINK-1039",
       "id": "2019-074AH",
-      "epoch": "2026-03-15T11:01:53.644224",
-      "meanMotion": 15.22311001,
-      "inclination": 53.0526
+      "epoch": "2026-03-15T15:45:30.553632",
+      "meanMotion": 15.22336527,
+      "inclination": 53.0529
     },
     {
       "name": "STARLINK-1042",
@@ -72,11 +72,11 @@
     }
   ],
   "iss": {
-    "latitude": -31.068365990633,
-    "longitude": 143.15704293158,
-    "altitude": 433.42675684125,
-    "velocity": 27540.842125916,
-    "visibility": "daylight"
+    "latitude": -0.86288511877163,
+    "longitude": -22.410122125852,
+    "altitude": 418.34402072866,
+    "velocity": 27589.421763181,
+    "visibility": "eclipsed"
   },
-  "updated": "2026-03-16T03:40:43.737Z"
+  "updated": "2026-03-16T04:38:01.165Z"
 }
