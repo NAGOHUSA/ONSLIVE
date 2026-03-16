@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Celebrating 100 Years Since Goddard’s Breakthrough Moment in Modern Rocketry",
+      "link": "https://www.nasa.gov/image-article/celebrating-100-years-since-goddards-breakthrough-moment-in-modern-rocketry/",
+      "source": "NASA",
+      "date": "2026-03-16T13:58:05Z",
+      "summary": "From the voyages of spacecraft to the Moon and beyond, to the launches of satellites that help us navigate, communicate, and understand our planet and the universe, the use of liquid-fueled rockets has been key to humanity’s use and exploration of space. Today marks 100 years since the first successful test of this technology. On […]"
+    },
+    {
+      "title": "A Combination of Techniques Leads to Improved Friction Stir Welding",
+      "link": "https://www.nasa.gov/centers-and-facilities/nesc/a-combination-of-techniques-leads-to-improved-friction-stir-welding/",
+      "source": "NASA",
+      "date": "2026-03-16T13:52:01Z",
+      "summary": "Download PDF: A Combination of Techniques Leads to Improved Friction Stir Welding The NESC developed several innovative tools and techniques during an assessment to find the root cause of poor tensile strength and low topography anomalies (LTA) in welds formed using a solid-state welding process called self-reacting friction stir welding (SRFSW).    Using a combination of […]"
+    },
+    {
       "title": "NESC Develops Method for Estimating Risk When Reducing NDE",
       "link": "https://www.nasa.gov/general/nesc-develops-method-for-estimating-risk-when-reducing-nde/",
       "source": "NASA",
@@ -20,21 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-16T12:00:00Z",
       "summary": "\nEast Aurora, NY — Moog Inc. (NYSE: MOG.A and MOG.B), a worldwide designer, manufacturer and systems integrator of high-performance precision motion and fluid controls and control systems will highlight its […]\nThe post New Moog Innovations for the Satellite Market on Full Display at SATELLITE 2026 Conference appeared first on SpaceNews."
-    },
-    {
-      "title": "A century after the first rocket launch, Ars staffers pick their favorites",
-      "link": "https://arstechnica.com/space/2026/03/a-century-after-the-first-rocket-launch-ars-staffers-pick-their-favorites/",
-      "source": "Arstechnica",
-      "date": "2026-03-16T11:00:56Z",
-      "summary": "\"I realized that if something went wrong up there, things might go very badly down here.\""
-    },
-    {
-      "title": "China launches new highly retrograde Yaogan satellite, KZ-11 rideshare deploys 8 satellites",
-      "link": "https://spacenews.com/china-launches-new-highly-retrograde-yaogan-satellite-kz-11-rideshare-deploys-8-satellites/",
-      "source": "SpaceNews",
-      "date": "2026-03-16T10:59:46Z",
-      "summary": "\nChina conducted a pair of launches Sunday, sending a second Yaogan-50 satellite into a highly retrograde orbit and completing a Kuaizhou-11 solid rocket rideshare mission.\nThe post China launches new highly retrograde Yaogan satellite, KZ-11 rideshare deploys 8 satellites appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-16T13:31:07.919Z"
+  "updated": "2026-03-16T14:03:06.116Z"
 }
