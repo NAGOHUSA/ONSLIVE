@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "How does an ice satellite detect a geomagnetic storm?",
+      "link": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/CryoSat/How_does_an_ice_satellite_detect_a_geomagnetic_storm",
+      "source": "ESA",
+      "date": "2026-03-16T08:00:00Z",
+      "summary": "It seems improbable that a satellite designed to monitor polar ice sheets and floating sea ice could accurately measure a disturbance in Earth’s magnetic field. But that is just what ESA’s CryoSat mission did earlier this year."
+    },
+    {
       "title": "Starcloud files plans for 88,000-satellite constellation",
       "link": "https://spacenews.com/starcloud-files-plans-for-88000-satellite-constellation/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-15T15:06:01Z",
       "summary": "\nAnalysts are relying on tools that fuse satellite imagery, ship data and open-source reporting into real-time insight\nThe post Strait of Hormuz crisis drives demand for commercial geospatial intelligence appeared first on SpaceNews."
-    },
-    {
-      "title": "Raytheon contract for protected satellite communications terminals raised by $2 billion",
-      "link": "https://spacenews.com/raytheon-contract-for-protected-satellite-communications-terminals-raised-by-2-billion/",
-      "source": "SpaceNews",
-      "date": "2026-03-15T13:14:06Z",
-      "summary": "\nThe contract supports communications terminals used in the U.S. nuclear command-and-control architecture\nThe post Raytheon contract for protected satellite communications terminals raised by $2 billion appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-16T08:38:01.923Z"
+  "updated": "2026-03-16T09:02:33.662Z"
 }
