@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Launch Preview: Falcon 9, Spectrum, Electron to launch during busy week of launches",
+      "link": "https://www.nasaspaceflight.com/2026/03/launch-preview-031626/",
+      "source": "NASASpaceflight",
+      "date": "2026-03-16T23:24:31Z",
+      "summary": "Another busy launch manifest is scheduled for this week, with nine launches expected from various…\nThe post Launch Preview: Falcon 9, Spectrum, Electron to launch during busy week of launches appeared first on NASASpaceFlight.com."
+    },
+    {
       "title": "Live coverage: SpaceX to launch a Falcon 9 rocket on St. Patrick’s Day morning",
       "link": "https://spaceflightnow.com/2026/03/16/live-coverage-spacex-to-launch-a-falcon-9-rocket-on-st-patricks-day-morning/",
       "source": "Spaceflight Now",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-16T21:47:33Z",
       "summary": "\nTensions around the Strait of Hormuz have pushed interest in commercial geospatial intelligence services to unprecedented levels, an executive at Kayrros said after the satellite analytics provider agreed to be acquired by Energy Aspects.\nThe post Kayrros sale signals rising demand for satellite intelligence amid Hormuz crisis appeared first on SpaceNews."
-    },
-    {
-      "title": "NASA Invites Media to Learn About Upcoming X-59 Test Flights",
-      "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-learn-about-upcoming-x-59-test-flights/",
-      "source": "NASA",
-      "date": "2026-03-16T19:48:16Z",
-      "summary": "NASA will hold a media teleconference at 5:30 p.m. EDT on Thursday, March 19 to highlight plans for its X-59 quiet supersonic aircraft’s upcoming flight tests. The teleconference is set to take place after the X-59 is scheduled to complete its second flight, in California. For the media call, NASA leadership will join representatives from […]"
     }
   ],
-  "updated": "2026-03-16T23:16:50.369Z"
+  "updated": "2026-03-16T23:31:43.091Z"
 }
