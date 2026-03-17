@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "An astronaut’s tiny stand-in: tissue chips in space health",
+      "link": "https://spacenews.com/an-astronauts-tiny-stand-in-tissue-chips-in-space-health/",
+      "source": "SpaceNews",
+      "date": "2026-03-17T11:00:00Z",
+      "summary": "\nBefore you ever set foot on a spacecraft bound for deep space, tiny replicas of your organs might make the journey first. Suspended in microgravity aboard a research mission, this organ-on-a-chip, or tissue chip, engineered from your own cells, could reveal how your body will respond to cosmic radiation and the weightlessness of space. As […]\nThe post An astronaut’s tiny stand-in: tissue chips in space health appeared first on SpaceNews."
+    },
+    {
       "title": "Innospace completes investigation into Hanbit-Nano launch failure",
       "link": "https://spacenews.com/innospace-completes-investigation-into-hanbit-nano-launch-failure/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASASpaceflight",
       "date": "2026-03-16T23:24:31Z",
       "summary": "Another busy launch manifest is scheduled for this week, with nine launches expected from various…\r\nThe post Launch Preview: Falcon 9, Spectrum, Electron to launch during busy week of launches appeared first on NASASpaceFlight.com."
-    },
-    {
-      "title": "Live coverage: SpaceX to launch a Falcon 9 rocket on St. Patrick’s Day morning",
-      "link": "https://spaceflightnow.com/2026/03/16/live-coverage-spacex-to-launch-a-falcon-9-rocket-on-st-patricks-day-morning/",
-      "source": "Spaceflight Now",
-      "date": "2026-03-16T22:28:23Z",
-      "summary": "The Starlink 10-46 mission will add another 29 Starlink V2 Mini satellites to the low Earth orbit constellation. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled during a window that opens at 6:26 a.m. EDT (1026 UTC)."
     }
   ],
-  "updated": "2026-03-17T10:58:41.297Z"
+  "updated": "2026-03-17T11:22:18.945Z"
 }
