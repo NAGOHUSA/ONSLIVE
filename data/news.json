@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Hera on course for asteroid rendezvous",
+      "link": "https://www.esa.int/Space_Safety/Hera/Hera_on_course_for_asteroid_rendezvous",
+      "source": "ESA",
+      "date": "2026-03-17T12:00:00Z",
+      "summary": "A successful deep-space manoeuvre has put ESA’s Hera spacecraft on course for its rendezvous with the Didymos binary asteroid system later this year."
+    },
+    {
       "title": "Canadian military invests in sovereign launch",
       "link": "https://spacenews.com/canadian-military-invests-in-sovereign-launch/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-17T04:01:00Z",
       "summary": "Ireland is best known for its many greens, but the striking grays of the island’s Burren region also stand out in satellite images."
-    },
-    {
-      "title": "Kshatriya Hints NASA May Reconsider South Pole for Initial Artemis Landings",
-      "link": "https://spacepolicyonline.com/news/kshatriya-hints-nasa-may-reconsider-south-pole-for-initial-artemis-landings/",
-      "source": "SpacePolicyOnline.com",
-      "date": "2026-03-17T03:39:24Z",
-      "summary": "NASA Associate Administrator Amit Kshatriya said today that to be as agile as possible, the agency is opening up the specifications for early Artemis landings while keeping their sights on […]"
     }
   ],
-  "updated": "2026-03-17T12:39:30.736Z"
+  "updated": "2026-03-17T13:06:15.718Z"
 }
