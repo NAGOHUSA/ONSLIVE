@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Golden Dome cost estimate rises to $185 billion as Pentagon expands space layer",
+      "link": "https://spacenews.com/golden-dome-cost-estimate-rises-to-185-billion-as-pentagon-expands-space-layer/",
+      "source": "SpaceNews",
+      "date": "2026-03-17T18:37:01Z",
+      "summary": "\nGuetlein: ‘We were asked to procure some additional space capabilities’\nThe post Golden Dome cost estimate rises to $185 billion as Pentagon expands space layer appeared first on SpaceNews."
+    },
+    {
       "title": "ISPTech Raises €5.5M Seed Round to Redefine How Spacecraft Manoeuvre in Orbit",
       "link": "https://spacenews.com/isptech-raises-e5-5m-seed-round-to-redefine-how-spacecraft-manoeuvre-in-orbit/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "European Spaceflight",
       "date": "2026-03-17T14:22:19Z",
       "summary": "French launch startup Sirius Space Services has acquired the high-precision metal-component manufacturer AMM-42. The acquisition is part of the company’s vertical integration efforts to bring key manufacturing capabilities in-house. Sirius Space Services is developing a range of three rockets that all use a modular booster system. Sirius 1 will be a two-stage, single-stick rocket capable […]\nThe post Sirius Space Services Acquires AMM-42 as It Prepares for Inaugural Flight appeared first on European Spaceflight."
-    },
-    {
-      "title": "Asteroid Bennu’s Rugged Surface Baffled NASA, We Finally Know Why",
-      "link": "https://science.nasa.gov/missions/osiris-rex/asteroid-bennus-rugged-surface-baffled-nasa-we-finally-know-why/",
-      "source": "NASA",
-      "date": "2026-03-17T12:49:40Z",
-      "summary": "In one of the biggest surprises of NASA’s OSIRIS-REx mission, its target asteroid, Bennu, turned out to be a jagged, rugged world covered in large boulders, with few of the smooth patches of sandy or pebbly material scientists had expected based on observations with Earth-based instruments. Bennu’s looks were quite deceiving, and until now, scientists struggled to figure out why."
     }
   ],
-  "updated": "2026-03-17T18:34:41.944Z"
+  "updated": "2026-03-17T18:58:43.698Z"
 }
