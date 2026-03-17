@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Space boom strains supply chain, industry report warns",
+      "link": "https://spacenews.com/space-boom-strains-supply-chain-industry-report-warns/",
+      "source": "SpaceNews",
+      "date": "2026-03-17T19:08:32Z",
+      "summary": "\nThe industry’s supply network, built for smaller volumes and slower production cycles, is struggling to keep pace.\nThe post Space boom strains supply chain, industry report warns appeared first on SpaceNews."
+    },
+    {
       "title": "Golden Dome cost estimate rises to $185 billion as Pentagon expands space layer",
       "link": "https://spacenews.com/golden-dome-cost-estimate-rises-to-185-billion-as-pentagon-expands-space-layer/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-17T14:40:29Z",
       "summary": "These X-ray computed tomography (XCT) scans released on March 17, 2026, give us a glimpse inside asteroid Bennu. They show the most common types of crack networks observed in Bennu samples; these networks solved a mystery that baffled NASA for years. When NASA’s OSIRIS-REx spacecraft first approached asteroid Bennu in 2018, scientists expected to see smooth, sandy beach-like surfaces. Instead, they […]"
-    },
-    {
-      "title": "Sirius Space Services Acquires AMM-42 as It Prepares for Inaugural Flight",
-      "link": "https://europeanspaceflight.com/sirius-space-services-acquires-amm-42-as-it-prepares-for-inaugural-flight/",
-      "source": "European Spaceflight",
-      "date": "2026-03-17T14:22:19Z",
-      "summary": "French launch startup Sirius Space Services has acquired the high-precision metal-component manufacturer AMM-42. The acquisition is part of the company’s vertical integration efforts to bring key manufacturing capabilities in-house. Sirius Space Services is developing a range of three rockets that all use a modular booster system. Sirius 1 will be a two-stage, single-stick rocket capable […]\nThe post Sirius Space Services Acquires AMM-42 as It Prepares for Inaugural Flight appeared first on European Spaceflight."
     }
   ],
-  "updated": "2026-03-17T18:58:43.698Z"
+  "updated": "2026-03-17T19:28:36.237Z"
 }
