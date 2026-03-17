@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Innospace completes investigation into Hanbit-Nano launch failure",
+      "link": "https://spacenews.com/innospace-completes-investigation-into-hanbit-nano-launch-failure/",
+      "source": "SpaceNews",
+      "date": "2026-03-17T10:29:51Z",
+      "summary": "\nSouth Korean startup Innospace says its inaugural launch failed in December when exhaust leaked from a combustion chamber and caused the rocket to break up.\nThe post Innospace completes investigation into Hanbit-Nano launch failure appeared first on SpaceNews."
+    },
+    {
       "title": "A Bit of Gray on an Emerald Isle",
       "link": "https://science.nasa.gov/earth/earth-observatory/a-bit-of-gray-in-an-emerald-isle/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "Spaceflight Now",
       "date": "2026-03-16T22:28:23Z",
       "summary": "The Starlink 10-46 mission will add another 29 Starlink V2 Mini satellites to the low Earth orbit constellation. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled during a window that opens at 6:26 a.m. EDT (1026 UTC)."
-    },
-    {
-      "title": "Nvidia unveils AI computing module for space-based data centers",
-      "link": "https://spacenews.com/nvidia-unveils-ai-computing-module-for-space-based-data-centers/",
-      "source": "SpaceNews",
-      "date": "2026-03-16T22:17:41Z",
-      "summary": "\nChipmaker says new system is designed for satellites and other power-constrained missions\nThe post Nvidia unveils AI computing module for space-based data centers appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-17T10:15:46.037Z"
+  "updated": "2026-03-17T10:35:53.257Z"
 }
