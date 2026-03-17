@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Solving Asteroid Bennu’s Mysteries",
+      "link": "https://www.nasa.gov/image-article/solving-asteroid-bennus-mysteries/",
+      "source": "NASA",
+      "date": "2026-03-17T14:40:29Z",
+      "summary": "These X-ray computed tomography (XCT) scans released on March 17, 2026, give us a glimpse inside asteroid Bennu. They show the most common types of crack networks observed in Bennu samples; these networks solved a mystery that baffled NASA for years. When NASA’s OSIRIS-REx spacecraft first approached asteroid Bennu in 2018, scientists expected to see smooth, sandy beach-like surfaces. Instead, they […]"
+    },
+    {
       "title": "Asteroid Bennu’s Rugged Surface Baffled NASA, We Finally Know Why",
       "link": "https://science.nasa.gov/missions/osiris-rex/asteroid-bennus-rugged-surface-baffled-nasa-we-finally-know-why/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-17T11:44:29Z",
       "summary": "\nThe Canadian military announced March 16 a major investment in both launch facilities and companies in a bid to create a sovereign space access capability.\nThe post Canadian military invests in sovereign launch appeared first on SpaceNews."
-    },
-    {
-      "title": "An astronaut’s tiny stand-in: tissue chips in space health",
-      "link": "https://spacenews.com/an-astronauts-tiny-stand-in-tissue-chips-in-space-health/",
-      "source": "SpaceNews",
-      "date": "2026-03-17T11:00:00Z",
-      "summary": "\nBefore you ever set foot on a spacecraft bound for deep space, tiny replicas of your organs might make the journey first. Suspended in microgravity aboard a research mission, this organ-on-a-chip, or tissue chip, engineered from your own cells, could reveal how your body will respond to cosmic radiation and the weightlessness of space. As […]\nThe post An astronaut’s tiny stand-in: tissue chips in space health appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-17T14:40:46.557Z"
+  "updated": "2026-03-17T15:06:26.721Z"
 }
