@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "A large meteor is visible from much of Ohio and parts of neighboring states",
+      "link": "https://arstechnica.com/science/2026/03/a-large-meteor-is-visible-from-much-of-ohio-and-parts-of-neighboring-states/",
+      "source": "Arstechnica",
+      "date": "2026-03-17T15:21:01Z",
+      "summary": "Meteor's fiery passage through the atmosphere was captured by a space-based lightning mapper."
+    },
+    {
       "title": "Solving Asteroid Bennu’s Mysteries",
       "link": "https://www.nasa.gov/image-article/solving-asteroid-bennus-mysteries/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "ESA",
       "date": "2026-03-17T12:00:00Z",
       "summary": "A successful deep-space manoeuvre has put ESA’s Hera spacecraft on course for its rendezvous with the Didymos binary asteroid system later this year."
-    },
-    {
-      "title": "Canadian military invests in sovereign launch",
-      "link": "https://spacenews.com/canadian-military-invests-in-sovereign-launch/",
-      "source": "SpaceNews",
-      "date": "2026-03-17T11:44:29Z",
-      "summary": "\nThe Canadian military announced March 16 a major investment in both launch facilities and companies in a bid to create a sovereign space access capability.\nThe post Canadian military invests in sovereign launch appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-17T15:06:26.721Z"
+  "updated": "2026-03-17T15:33:54.441Z"
 }
