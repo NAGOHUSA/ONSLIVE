@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "A Bit of Gray on an Emerald Isle",
+      "link": "https://science.nasa.gov/earth/earth-observatory/a-bit-of-gray-in-an-emerald-isle/",
+      "source": "NASA",
+      "date": "2026-03-17T04:01:00Z",
+      "summary": "Ireland is best known for its many greens, but the striking grays of the island’s Burren region also stand out in satellite images."
+    },
+    {
       "title": "Kshatriya Hints NASA May Reconsider South Pole for Initial Artemis Landings",
       "link": "https://spacepolicyonline.com/news/kshatriya-hints-nasa-may-reconsider-south-pole-for-initial-artemis-landings/",
       "source": "SpacePolicyOnline.com",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-16T22:17:41Z",
       "summary": "\nChipmaker says new system is designed for satellites and other power-constrained missions\nThe post Nvidia unveils AI computing module for space-based data centers appeared first on SpaceNews."
-    },
-    {
-      "title": "Live coverage: SpaceX to launch 25 Starlink satellites on Falcon 9 rocket from California",
-      "link": "https://spaceflightnow.com/2026/03/16/live-coverage-spacex-to-launch-25-starlink-satellites-on-falcon-9-rocket-from-california/",
-      "source": "Spaceflight Now",
-      "date": "2026-03-16T21:51:29Z",
-      "summary": "Liftoff of the Starlink 17-24 mission is scheduled for 8:39:30 p.m. PDT (11:39:30 p.m. EDT / 0339:30 UTC). "
     }
   ],
-  "updated": "2026-03-17T04:03:33.139Z"
+  "updated": "2026-03-17T04:44:13.158Z"
 }
