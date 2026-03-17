@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Asteroid Bennu’s Rugged Surface Baffled NASA, We Finally Know Why",
+      "link": "https://science.nasa.gov/missions/osiris-rex/asteroid-bennus-rugged-surface-baffled-nasa-we-finally-know-why/",
+      "source": "NASA",
+      "date": "2026-03-17T12:49:40Z",
+      "summary": "In one of the biggest surprises of NASA’s OSIRIS-REx mission, its target asteroid, Bennu, turned out to be a jagged, rugged world covered in large boulders, with few of the smooth patches of sandy or pebbly material scientists had expected based on observations with Earth-based instruments. Bennu’s looks were quite deceiving, and until now, scientists struggled to figure out why."
+    },
+    {
+      "title": "Hail Yeah! NASA Researchers Use Volunteer Observations for Hail Estimates",
+      "link": "https://science.nasa.gov/get-involved/citizen-science/hail-yeah-nasa-researchers-use-volunteer-observations-for-hail-estimates/",
+      "source": "NASA",
+      "date": "2026-03-17T12:28:29Z",
+      "summary": "The bigger the hailstone, the more damage it can cause. But scientists find that predicting hailstone size can be challenging. How quickly does hail melt as it falls?"
+    },
+    {
       "title": "Hera on course for asteroid rendezvous",
       "link": "https://www.esa.int/Space_Safety/Hera/Hera_on_course_for_asteroid_rendezvous",
       "source": "ESA",
@@ -20,21 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-17T11:00:00Z",
       "summary": "\nBefore you ever set foot on a spacecraft bound for deep space, tiny replicas of your organs might make the journey first. Suspended in microgravity aboard a research mission, this organ-on-a-chip, or tissue chip, engineered from your own cells, could reveal how your body will respond to cosmic radiation and the weightlessness of space. As […]\nThe post An astronaut’s tiny stand-in: tissue chips in space health appeared first on SpaceNews."
-    },
-    {
-      "title": "Innospace completes investigation into Hanbit-Nano launch failure",
-      "link": "https://spacenews.com/innospace-completes-investigation-into-hanbit-nano-launch-failure/",
-      "source": "SpaceNews",
-      "date": "2026-03-17T10:29:51Z",
-      "summary": "South Korean startup Innospace says its inaugural launch failed in December when exhaust leaked from a combustion chamber and caused the rocket to break up.\r\nThe post Innospace completes investigation into Hanbit-Nano launch failure appeared first on SpaceNews."
-    },
-    {
-      "title": "A Bit of Gray on an Emerald Isle",
-      "link": "https://science.nasa.gov/earth/earth-observatory/a-bit-of-gray-in-an-emerald-isle/",
-      "source": "NASA",
-      "date": "2026-03-17T04:01:00Z",
-      "summary": "Ireland is best known for its many greens, but the striking grays of the island’s Burren region also stand out in satellite images."
     }
   ],
-  "updated": "2026-03-17T13:06:15.718Z"
+  "updated": "2026-03-17T13:44:15.694Z"
 }
