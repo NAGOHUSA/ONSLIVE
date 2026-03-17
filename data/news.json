@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Canadian military invests in sovereign launch",
+      "link": "https://spacenews.com/canadian-military-invests-in-sovereign-launch/",
+      "source": "SpaceNews",
+      "date": "2026-03-17T11:44:29Z",
+      "summary": "\nThe Canadian military announced March 16 a major investment in both launch facilities and companies in a bid to create a sovereign space access capability.\nThe post Canadian military invests in sovereign launch appeared first on SpaceNews."
+    },
+    {
       "title": "An astronaut’s tiny stand-in: tissue chips in space health",
       "link": "https://spacenews.com/an-astronauts-tiny-stand-in-tissue-chips-in-space-health/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpacePolicyOnline.com",
       "date": "2026-03-17T03:39:24Z",
       "summary": "NASA Associate Administrator Amit Kshatriya said today that to be as agile as possible, the agency is opening up the specifications for early Artemis landings while keeping their sights on […]"
-    },
-    {
-      "title": "Launch Preview: Falcon 9, Spectrum, Electron to launch during busy week of launches",
-      "link": "https://www.nasaspaceflight.com/2026/03/launch-preview-031626/",
-      "source": "NASASpaceflight",
-      "date": "2026-03-16T23:24:31Z",
-      "summary": "Another busy launch manifest is scheduled for this week, with nine launches expected from various…\r\nThe post Launch Preview: Falcon 9, Spectrum, Electron to launch during busy week of launches appeared first on NASASpaceFlight.com."
     }
   ],
-  "updated": "2026-03-17T11:40:42.570Z"
+  "updated": "2026-03-17T11:57:22.577Z"
 }
