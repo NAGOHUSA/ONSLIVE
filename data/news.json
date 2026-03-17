@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Dim Delights in Cancer",
+      "link": "https://science.nasa.gov/solar-system/skywatching/night-sky-network/dim-delights-in-cancer/",
+      "source": "NASA",
+      "date": "2026-03-17T19:41:48Z",
+      "summary": "Cancer the Crab is a dim constellation, yet it contains one of the most beautiful and easy-to-spot star clusters in our sky: the Beehive Cluster. Cancer also possesses one of the most studied exoplanets: the superhot super-Earth, 55 Cancri e. Find Cancer’s dim stars by looking in between the brighter neighboring constellations of Gemini and […]"
+    },
+    {
       "title": "Space boom strains supply chain, industry report warns",
       "link": "https://spacenews.com/space-boom-strains-supply-chain-industry-report-warns/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "Arstechnica",
       "date": "2026-03-17T15:21:01Z",
       "summary": "Meteor's fiery passage through the atmosphere was captured by a space-based lightning mapper."
-    },
-    {
-      "title": "Solving Asteroid Bennu’s Mysteries",
-      "link": "https://www.nasa.gov/image-article/solving-asteroid-bennus-mysteries/",
-      "source": "NASA",
-      "date": "2026-03-17T14:40:29Z",
-      "summary": "These X-ray computed tomography (XCT) scans released on March 17, 2026, give us a glimpse inside asteroid Bennu. They show the most common types of crack networks observed in Bennu samples; these networks solved a mystery that baffled NASA for years. When NASA’s OSIRIS-REx spacecraft first approached asteroid Bennu in 2018, scientists expected to see smooth, sandy beach-like surfaces. Instead, they […]"
     }
   ],
-  "updated": "2026-03-17T20:04:34.946Z"
+  "updated": "2026-03-17T20:20:57.524Z"
 }
