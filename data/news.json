@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Wave of Dust Rolls Through Texas",
+      "link": "https://science.nasa.gov/earth/earth-observatory/wave-of-dust-rolls-through-texas/",
+      "source": "NASA",
+      "date": "2026-03-18T04:01:00Z",
+      "summary": "An advancing cold front kicked up a sharp line of sand and other small particles that swept over the high plains."
+    },
+    {
       "title": "Space Force overhauls buying structure with new mission portfolios",
       "link": "https://spacenews.com/space-force-overhauls-buying-structure-with-new-mission-portfolios/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-17T20:48:46Z",
       "summary": "\nThe Trump administration has not yet decided whether to charge for space safety data despite a change in space policy enabling the government to do so.\nThe post Office of Space Commerce weighing options for TraCSS user fees appeared first on SpaceNews."
-    },
-    {
-      "title": "Dim Delights in Cancer",
-      "link": "https://science.nasa.gov/solar-system/skywatching/night-sky-network/dim-delights-in-cancer/",
-      "source": "NASA",
-      "date": "2026-03-17T19:41:48Z",
-      "summary": "Cancer the Crab is a dim constellation, yet it contains one of the most beautiful and easy-to-spot star clusters in our sky: the Beehive Cluster. Cancer also possesses one of the most studied exoplanets: the superhot super-Earth, 55 Cancri e. Find Cancer’s dim stars by looking in between the brighter neighboring constellations of Gemini and […]"
     }
   ],
-  "updated": "2026-03-18T03:59:04.067Z"
+  "updated": "2026-03-18T04:47:04.774Z"
 }
