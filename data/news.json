@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Rocket Lab wins $190 million Pentagon deal for hypersonic test flights",
+      "link": "https://spacenews.com/rocket-lab-wins-190-million-pentagon-deal-for-hypersonic-test-flights/",
+      "source": "SpaceNews",
+      "date": "2026-03-18T21:56:59Z",
+      "summary": "\nThe contract is for 20 hypersonic flight missions over four years\nThe post Rocket Lab wins $190 million Pentagon deal for hypersonic test flights appeared first on SpaceNews."
+    },
+    {
       "title": "Space Command classified wargame to include 25 commercial players",
       "link": "https://spacenews.com/space-command-classified-wargame-to-include-25-commercial-players/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASASpaceflight",
       "date": "2026-03-18T19:09:46Z",
       "summary": "Starship Flight 12 took another step toward launch, with Booster 19 completing an initial test…\nThe post Booster 19 concludes initial test campaign on Pad 2 appeared first on NASASpaceFlight.com."
-    },
-    {
-      "title": "A private space company has a radical new plan to bag an asteroid",
-      "link": "https://arstechnica.com/space/2026/03/a-private-space-company-has-a-radical-new-plan-to-bag-an-asteroid/",
-      "source": "Arstechnica",
-      "date": "2026-03-18T19:00:40Z",
-      "summary": "Company has previously tested its technology on the International Space Station."
     }
   ],
-  "updated": "2026-03-18T22:01:38.780Z"
+  "updated": "2026-03-18T22:16:19.888Z"
 }
