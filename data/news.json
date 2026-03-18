@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "China signals new target for 2027 asteroid deflection test",
+      "link": "https://spacenews.com/china-signals-new-target-for-2027-asteroid-deflection-test/",
+      "source": "SpaceNews",
+      "date": "2026-03-18T12:45:19Z",
+      "summary": "\nChina has identified a new target near-Earth asteroid for its first planetary defense kinetic test mission, which is scheduled to launch in December 2027. \nThe post China signals new target for 2027 asteroid deflection test appeared first on SpaceNews."
+    },
+    {
       "title": "NASA grappling with planetary science funding shortfall",
       "link": "https://spacenews.com/nasa-grappling-with-planetary-science-funding-shortfall/",
       "source": "SpaceNews",
@@ -15,26 +22,19 @@
       "summary": "ESA Impact: our story so far this year"
     },
     {
+      "title": "OHB Sweden to build Sterna weather constellation",
+      "link": "https://www.esa.int/Applications/Observing_the_Earth/Meteorological_missions/Arctic_Weather_Satellite/OHB_Sweden_to_build_Sterna_weather_constellation",
+      "source": "ESA",
+      "date": "2026-03-18T09:00:00Z",
+      "summary": "Thanks to the success of the Arctic Weather Satellite prototype and Eumetsat’s recent greenlight to develop a full constellation of similar satellites called Sterna, the European Space Agency has awarded OHB Sweden with the contract to build 20 satellites."
+    },
+    {
       "title": "Wave of Dust Rolls Through Texas",
       "link": "https://science.nasa.gov/earth/earth-observatory/wave-of-dust-rolls-through-texas/",
       "source": "NASA",
       "date": "2026-03-18T04:01:00Z",
       "summary": "An advancing cold front kicked up a sharp line of sand and other small particles that swept over the high plains."
-    },
-    {
-      "title": "Space Force overhauls buying structure with new mission portfolios",
-      "link": "https://spacenews.com/space-force-overhauls-buying-structure-with-new-mission-portfolios/",
-      "source": "SpaceNews",
-      "date": "2026-03-17T22:44:40Z",
-      "summary": "\nNew structure gives ‘Portfolio Acquisition Executives’ authority over funding, requirements and integration across major space missions\nThe post Space Force overhauls buying structure with new mission portfolios appeared first on SpaceNews."
-    },
-    {
-      "title": "Telesat pivots Lightspeed toward defense as delays push global service to 2028",
-      "link": "https://spacenews.com/telesat-pivots-lightspeed-toward-defense-as-delays-push-global-service-to-2028/",
-      "source": "SpaceNews",
-      "date": "2026-03-17T21:22:08Z",
-      "summary": "\nTelesat plans to carve out 25% of its Lightspeed broadband constellation for military Ka-band as the program’s latest delay pushes global service into early 2028, creating more room to align the design with shifting geopolitical priorities.\nThe post Telesat pivots Lightspeed toward defense as delays push global service to 2028 appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-18T12:30:33.150Z"
+  "updated": "2026-03-18T12:53:36.292Z"
 }
