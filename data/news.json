@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "ESA Impact: our story so far this year",
+      "link": "https://www.esa.int/About_Us/ESA_Publications/ESA_Impact_2026_-_January-March",
+      "source": "ESA",
+      "date": "2026-03-18T09:57:00Z",
+      "summary": "ESA Impact: our story so far this year"
+    },
+    {
       "title": "Wave of Dust Rolls Through Texas",
       "link": "https://science.nasa.gov/earth/earth-observatory/wave-of-dust-rolls-through-texas/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-17T20:55:48Z",
       "summary": "NASA’s X-59 experimental aircraft is preparing for its second flight, a step that will set the pace for more flight testing in 2026.  Over the coming months, NASA will take the quiet supersonic jet faster and higher, while validating safety and performance, a process known as envelope expansion.  NASA test pilot Jim “Clue” Less will be at the X-59’s […]"
-    },
-    {
-      "title": "Office of Space Commerce weighing options for TraCSS user fees",
-      "link": "https://spacenews.com/office-of-space-commerce-weighing-options-for-tracss-user-fees/",
-      "source": "SpaceNews",
-      "date": "2026-03-17T20:48:46Z",
-      "summary": "\nThe Trump administration has not yet decided whether to charge for space safety data despite a change in space policy enabling the government to do so.\nThe post Office of Space Commerce weighing options for TraCSS user fees appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-18T09:55:11.535Z"
+  "updated": "2026-03-18T10:16:05.159Z"
 }
