@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Space Command classified wargame to include 25 commercial players",
+      "link": "https://spacenews.com/space-command-classified-wargame-to-include-25-commercial-players/",
+      "source": "SpaceNews",
+      "date": "2026-03-18T21:14:13Z",
+      "summary": "\nMaj. Gen. Keener:  The exercise will help Space Command ‘better understand commercial challenges, requirements, and how we can better work together’\nThe post Space Command classified wargame to include 25 commercial players appeared first on SpaceNews."
+    },
+    {
       "title": "Live coverage: SpaceX to launch 29 Starlink satellites on Falcon 9 rocket from Cape Canaveral",
       "link": "https://spaceflightnow.com/2026/03/18/live-coverage-spacex-to-launch-29-starlink-satellites-on-falcon-9-rocket-from-cape-canaveral-11/",
       "source": "Spaceflight Now",
@@ -27,14 +34,7 @@
       "source": "Arstechnica",
       "date": "2026-03-18T19:00:40Z",
       "summary": "Company has previously tested its technology on the International Space Station."
-    },
-    {
-      "title": "TransAstra aims to move 100-ton asteroid to stable orbit for processing",
-      "link": "https://spacenews.com/transastra-aims-to-move-100-ton-asteroid-to-stable-orbit-for-processing/",
-      "source": "SpaceNews",
-      "date": "2026-03-18T19:00:00Z",
-      "summary": "\nSAN FRANCISCO — TransAstra is performing a study, funded by investors and customers, to explore the technical feasibility of moving a 100-metric-ton asteroid to a stable near-Earth orbit. “We want to bring an asteroid to the Earth-moon system and turn it into a robotic research outpost for materials processing and manufacturing in space,” Joel Sercel, […]\nThe post TransAstra aims to move 100-ton asteroid to stable orbit for processing appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-18T21:19:06.729Z"
+  "updated": "2026-03-18T21:35:08.215Z"
 }
