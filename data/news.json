@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Lava Flows Down Mayon",
+      "link": "https://www.nasa.gov/image-article/lava-flows-down-mayon/",
+      "source": "NASA",
+      "date": "2026-03-18T15:19:59Z",
+      "summary": "The OLI (Operational Land Imager) on Landsat 8 acquired this rare, relatively clear image of  Mayon, the most active volcano in the Philippines, on Feb. 26, 2026. The natural-color scene is overlaid with infrared observations to highlight the lava’s heat signature. On that day, the Philippine Institute of Volcanology and Seismology (PHIVOLCS) reported volcanic earthquakes, rockfalls, and hot clouds of ash […]"
+    },
+    {
+      "title": "From Service to Space Systems: A Pathways Journey to NASA",
+      "link": "https://www.nasa.gov/general/from-service-to-space-systems-a-pathways-journey-to-nasa/",
+      "source": "NASA",
+      "date": "2026-03-18T15:06:08Z",
+      "summary": "For Corey Elmore, the path to NASA’s Kennedy Space Center did not begin in engineering. It began in service. Today he serves as a NASA Pathways engineering intern in the Technical Processes and Tools Branch (KSC-NE-TA) at Kennedy Space Center. Through the Pathways program, he is gaining hands-on experience supporting the engineering environments, technical tools […]"
+    },
+    {
       "title": "Solar array deal sheds more light on South Korea’s defense constellation",
       "link": "https://spacenews.com/solar-array-deal-sheds-more-light-on-south-koreas-defense-constellation/",
       "source": "SpaceNews",
@@ -20,21 +34,7 @@
       "source": "ESA",
       "date": "2026-03-18T14:00:00Z",
       "summary": "Comet K1, whose full name is Comet C/2025 K1 (ATLAS), had just passed its closest approach to the Sun and was heading out of the Solar System. Though it had been intact just days before, K1 fragmented into at least four pieces while the NASA/ESA Hubble Space Telescope was watching. The odds of that happening while Hubble viewed the comet are extraordinarily miniscule."
-    },
-    {
-      "title": "Frontier justice: navigating the future legal landscape for private actors in space law",
-      "link": "https://spacenews.com/frontier-justice-navigating-the-future-legal-landscape-for-private-actors-in-space-law/",
-      "source": "SpaceNews",
-      "date": "2026-03-18T13:00:00Z",
-      "summary": "\nAt the dawn of the Space Age, then President-elect John F. Kennedy spoke to the American people of “a new frontier” of unknown opportunities and perils, unfulfilled hopes and unfilled threats, uncharted science and unsolved problems. Six years later, Star Trek expanded on President Kennedy’s new frontier premise with tales of the starship Enterprise boldly […]\nThe post Frontier justice: navigating the future legal landscape for private actors in space law appeared first on SpaceNews."
-    },
-    {
-      "title": "China signals new target for 2027 asteroid deflection test",
-      "link": "https://spacenews.com/china-signals-new-target-for-2027-asteroid-deflection-test/",
-      "source": "SpaceNews",
-      "date": "2026-03-18T12:45:19Z",
-      "summary": "\nChina has identified a new target near-Earth asteroid for its first planetary defense kinetic test mission, which is scheduled to launch in December 2027. \nThe post China signals new target for 2027 asteroid deflection test appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-18T15:04:43.689Z"
+  "updated": "2026-03-18T15:36:43.914Z"
 }
