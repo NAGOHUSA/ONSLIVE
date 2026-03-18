@@ -1,6 +1,27 @@
 {
   "articles": [
     {
+      "title": "Booster 19 concludes initial test campaign on Pad 2",
+      "link": "https://www.nasaspaceflight.com/2026/03/booster-19-initial-test-pad-2/",
+      "source": "NASASpaceflight",
+      "date": "2026-03-18T19:09:46Z",
+      "summary": "Starship Flight 12 took another step toward launch, with Booster 19 completing an initial test…\nThe post Booster 19 concludes initial test campaign on Pad 2 appeared first on NASASpaceFlight.com."
+    },
+    {
+      "title": "A private space company has a radical new plan to bag an asteroid",
+      "link": "https://arstechnica.com/space/2026/03/a-private-space-company-has-a-radical-new-plan-to-bag-an-asteroid/",
+      "source": "Arstechnica",
+      "date": "2026-03-18T19:00:40Z",
+      "summary": "Company has previously tested its technology on the International Space Station."
+    },
+    {
+      "title": "TransAstra aims to move 100-ton asteroid to stable orbit for processing",
+      "link": "https://spacenews.com/transastra-aims-to-move-100-ton-asteroid-to-stable-orbit-for-processing/",
+      "source": "SpaceNews",
+      "date": "2026-03-18T19:00:00Z",
+      "summary": "\nSAN FRANCISCO — TransAstra is performing a study, funded by investors and customers, to explore the technical feasibility of moving a 100-metric-ton asteroid to a stable near-Earth orbit. “We want to bring an asteroid to the Earth-moon system and turn it into a robotic research outpost for materials processing and manufacturing in space,” Joel Sercel, […]\nThe post TransAstra aims to move 100-ton asteroid to stable orbit for processing appeared first on SpaceNews."
+    },
+    {
       "title": "Lava Flows Down Mayon",
       "link": "https://www.nasa.gov/image-article/lava-flows-down-mayon/",
       "source": "NASA",
@@ -13,28 +34,7 @@
       "source": "NASA",
       "date": "2026-03-18T15:06:08Z",
       "summary": "For Corey Elmore, the path to NASA’s Kennedy Space Center did not begin in engineering. It began in service. Today he serves as a NASA Pathways engineering intern in the Technical Processes and Tools Branch (KSC-NE-TA) at Kennedy Space Center. Through the Pathways program, he is gaining hands-on experience supporting the engineering environments, technical tools […]"
-    },
-    {
-      "title": "Solar array deal sheds more light on South Korea’s defense constellation",
-      "link": "https://spacenews.com/solar-array-deal-sheds-more-light-on-south-koreas-defense-constellation/",
-      "source": "SpaceNews",
-      "date": "2026-03-18T14:57:51Z",
-      "summary": "\nSouth Korea’s plans for a national security constellation are coming into sharper focus after a March 18 solar array supply deal set the stage for a first demonstrator as early as the second half of 2027.\nThe post Solar array deal sheds more light on South Korea’s defense constellation appeared first on SpaceNews."
-    },
-    {
-      "title": "NASA’s Hubble Unexpectedly Catches Comet Breaking Up",
-      "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-unexpectedly-catches-comet-breaking-up/",
-      "source": "NASA",
-      "date": "2026-03-18T14:00:36Z",
-      "summary": "In a happy twist of fate, NASA’s Hubble Space Telescope just witnessed a comet in the act of breaking apart. The chance of that happening while Hubble watched is extraordinarily minuscule. The findings published Wednesday in the journal Icarus. The comet K1, whose full name is C/2025 K1 (ATLAS)—not to be confused with interstellar comet […]"
-    },
-    {
-      "title": "Hubble unexpectedly catches comet breaking up",
-      "link": "https://www.esa.int/Science_Exploration/Space_Science/Hubble_unexpectedly_catches_comet_breaking_up",
-      "source": "ESA",
-      "date": "2026-03-18T14:00:00Z",
-      "summary": "Comet K1, whose full name is Comet C/2025 K1 (ATLAS), had just passed its closest approach to the Sun and was heading out of the Solar System. Though it had been intact just days before, K1 fragmented into at least four pieces while the NASA/ESA Hubble Space Telescope was watching. The odds of that happening while Hubble viewed the comet are extraordinarily miniscule."
     }
   ],
-  "updated": "2026-03-18T18:56:58.920Z"
+  "updated": "2026-03-18T19:22:51.189Z"
 }
