@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "NASA’s Hubble Unexpectedly Catches Comet Breaking Up",
+      "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-unexpectedly-catches-comet-breaking-up/",
+      "source": "NASA",
+      "date": "2026-03-18T14:00:36Z",
+      "summary": "In a happy twist of fate, NASA’s Hubble Space Telescope just witnessed a comet in the act of breaking apart. The chance of that happening while Hubble watched is extraordinarily minuscule. The findings published Wednesday in the journal Icarus. The comet K1, whose full name is C/2025 K1 (ATLAS)—not to be confused with interstellar comet […]"
+    },
+    {
+      "title": "Hubble unexpectedly catches comet breaking up",
+      "link": "https://www.esa.int/Science_Exploration/Space_Science/Hubble_unexpectedly_catches_comet_breaking_up",
+      "source": "ESA",
+      "date": "2026-03-18T14:00:00Z",
+      "summary": "Comet K1, whose full name is Comet C/2025 K1 (ATLAS), had just passed its closest approach to the Sun and was heading out of the Solar System. Though it had been intact just days before, K1 fragmented into at least four pieces while the NASA/ESA Hubble Space Telescope was watching. The odds of that happening while Hubble viewed the comet are extraordinarily miniscule."
+    },
+    {
       "title": "Frontier justice: navigating the future legal landscape for private actors in space law",
       "link": "https://spacenews.com/frontier-justice-navigating-the-future-legal-landscape-for-private-actors-in-space-law/",
       "source": "SpaceNews",
@@ -20,21 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-18T12:09:38Z",
       "summary": "\nNASA’s planetary science program, while spared steep cuts proposed last year, is still facing a funding shortfall that requires “strategic choices” about which missions to continue.\nThe post NASA grappling with planetary science funding shortfall appeared first on SpaceNews."
-    },
-    {
-      "title": "ESA Impact: our story so far this year",
-      "link": "https://www.esa.int/About_Us/ESA_Publications/ESA_Impact_2026_-_January-March",
-      "source": "ESA",
-      "date": "2026-03-18T09:57:00Z",
-      "summary": "ESA Impact: our story so far this year"
-    },
-    {
-      "title": "OHB Sweden to build Sterna weather constellation",
-      "link": "https://www.esa.int/Applications/Observing_the_Earth/Meteorological_missions/Arctic_Weather_Satellite/OHB_Sweden_to_build_Sterna_weather_constellation",
-      "source": "ESA",
-      "date": "2026-03-18T09:00:00Z",
-      "summary": "Thanks to the success of the Arctic Weather Satellite prototype and Eumetsat’s recent greenlight to develop a full constellation of similar satellites called Sterna, the European Space Agency has awarded OHB Sweden with the contract to build 20 satellites."
     }
   ],
-  "updated": "2026-03-18T13:59:36.288Z"
+  "updated": "2026-03-18T14:38:42.738Z"
 }
