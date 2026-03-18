@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Live coverage: SpaceX to launch 29 Starlink satellites on Falcon 9 rocket from Cape Canaveral",
+      "link": "https://spaceflightnow.com/2026/03/18/live-coverage-spacex-to-launch-29-starlink-satellites-on-falcon-9-rocket-from-cape-canaveral-11/",
+      "source": "Spaceflight Now",
+      "date": "2026-03-18T20:15:28Z",
+      "summary": "The Starlink 10-33 mission is the 35th mission so far in 2026 supporting SpaceX’s low Earth orbit constellation. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for 6:35 a.m. EDT (1035 UTC). "
+    },
+    {
       "title": "Curiosity Blog, Sols 4832–4837: Driving the (Contact) Line!",
       "link": "https://science.nasa.gov/blog/curiosity-blog-sols-4832-4837-driving-the-contact-line/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-18T19:00:00Z",
       "summary": "\nSAN FRANCISCO — TransAstra is performing a study, funded by investors and customers, to explore the technical feasibility of moving a 100-metric-ton asteroid to a stable near-Earth orbit. “We want to bring an asteroid to the Earth-moon system and turn it into a robotic research outpost for materials processing and manufacturing in space,” Joel Sercel, […]\nThe post TransAstra aims to move 100-ton asteroid to stable orbit for processing appeared first on SpaceNews."
-    },
-    {
-      "title": "Lava Flows Down Mayon",
-      "link": "https://www.nasa.gov/image-article/lava-flows-down-mayon/",
-      "source": "NASA",
-      "date": "2026-03-18T15:19:59Z",
-      "summary": "The OLI (Operational Land Imager) on Landsat 8 acquired this rare, relatively clear image of  Mayon, the most active volcano in the Philippines, on Feb. 26, 2026. The natural-color scene is overlaid with infrared observations to highlight the lava’s heat signature. On that day, the Philippine Institute of Volcanology and Seismology (PHIVOLCS) reported volcanic earthquakes, rockfalls, and hot clouds of ash […]"
     }
   ],
-  "updated": "2026-03-18T20:13:59.910Z"
+  "updated": "2026-03-18T20:28:36.931Z"
 }
