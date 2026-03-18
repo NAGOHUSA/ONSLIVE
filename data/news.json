@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Curiosity Blog, Sols 4832–4837: Driving the (Contact) Line!",
+      "link": "https://science.nasa.gov/blog/curiosity-blog-sols-4832-4837-driving-the-contact-line/",
+      "source": "NASA",
+      "date": "2026-03-18T19:16:35Z",
+      "summary": "Written by Catherine O’Connell-Cooper, APXS Strategic Planner and Payload Uplink/Downlink Lead, University of New Brunswick, Canada Earth planning date: Friday, March 13, 2026 We are in our final phase of the boxwork campaign, investigating the contacts between the boxwork unit and the layered sulfate unit. As my colleague Bill reported here, last week we crossed […]"
+    },
+    {
       "title": "Booster 19 concludes initial test campaign on Pad 2",
       "link": "https://www.nasaspaceflight.com/2026/03/booster-19-initial-test-pad-2/",
       "source": "NASASpaceflight",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-18T15:19:59Z",
       "summary": "The OLI (Operational Land Imager) on Landsat 8 acquired this rare, relatively clear image of  Mayon, the most active volcano in the Philippines, on Feb. 26, 2026. The natural-color scene is overlaid with infrared observations to highlight the lava’s heat signature. On that day, the Philippine Institute of Volcanology and Seismology (PHIVOLCS) reported volcanic earthquakes, rockfalls, and hot clouds of ash […]"
-    },
-    {
-      "title": "From Service to Space Systems: A Pathways Journey to NASA",
-      "link": "https://www.nasa.gov/general/from-service-to-space-systems-a-pathways-journey-to-nasa/",
-      "source": "NASA",
-      "date": "2026-03-18T15:06:08Z",
-      "summary": "For Corey Elmore, the path to NASA’s Kennedy Space Center did not begin in engineering. It began in service. Today he serves as a NASA Pathways engineering intern in the Technical Processes and Tools Branch (KSC-NE-TA) at Kennedy Space Center. Through the Pathways program, he is gaining hands-on experience supporting the engineering environments, technical tools […]"
     }
   ],
-  "updated": "2026-03-18T19:57:18.215Z"
+  "updated": "2026-03-18T20:13:59.910Z"
 }
