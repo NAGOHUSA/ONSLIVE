@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Meet the Platypi: NASA’s Newest Astronaut Candidate Class",
+      "link": "https://www.nasa.gov/centers-and-facilities/johnson/meet-the-platypi-nasas-newest-astronaut-candidate-class/",
+      "source": "NASA",
+      "date": "2026-03-19T13:00:00Z",
+      "summary": "Ten explorers are currently training at NASA’s Johnson Space Center in Houston to become flight-eligible astronauts.  Selected in 2025, the astronaut candidates are building the technical and operational skills needed for future missions to the International Space Station, the Moon, and eventually Mars. Now, NASA’s newest astronaut candidates have a class name: the Platypi.  The name was selected […]"
+    },
+    {
+      "title": "NASA’s Roman Observatory Passes Final Major Prelaunch Tests",
+      "link": "https://www.nasa.gov/universe/nasas-roman-observatory-passes-final-major-prelaunch-tests/",
+      "source": "NASA",
+      "date": "2026-03-19T12:55:00Z",
+      "summary": "NASA’s Nancy Grace Roman Space Telescope team recently blasted the observatory with extreme sound, shook it, and listened to its electronic hum. Roman passed all three assessments, which aimed to confirm that the observatory will withstand launch conditions and function as expected in space. The achievement keeps the mission on track for launch as early […]"
+    },
+    {
       "title": "NASA considering sharp increase in robotic lunar landings",
       "link": "https://spacenews.com/nasa-considering-sharp-increase-in-robotic-lunar-landings/",
       "source": "SpaceNews",
@@ -20,21 +34,7 @@
       "source": "ESA",
       "date": "2026-03-19T07:19:00Z",
       "summary": "From the ESA Blogs."
-    },
-    {
-      "title": "Apex sells satellite for Japanese technology demonstration mission",
-      "link": "https://spacenews.com/apex-sells-satellite-for-japanese-technology-demonstration-mission/",
-      "source": "SpaceNews",
-      "date": "2026-03-19T07:00:00Z",
-      "summary": "\nSatellite manufacturer Apex has won a contract from a Japanese company to provide a spacecraft bus for a technology demonstration mission.\nThe post Apex sells satellite for Japanese technology demonstration mission appeared first on SpaceNews."
-    },
-    {
-      "title": "Australia’s “Red Centre” Turns Green",
-      "link": "https://science.nasa.gov/earth/earth-observatory/australias-red-centre-turns-green/",
-      "source": "NASA",
-      "date": "2026-03-19T04:00:00Z",
-      "summary": "Abundant rainfall in February and March 2026 transformed the desert landscape of Central Australia."
     }
   ],
-  "updated": "2026-03-19T12:45:35.532Z"
+  "updated": "2026-03-19T13:14:02.855Z"
 }
