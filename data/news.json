@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA Laser Reflecting Instrument Makes GPS Satellite More Accurate",
+      "link": "https://science.nasa.gov/centers-and-facilities/goddard/nasa-laser-reflecting-instrument-makes-gps-satellite-more-accurate/",
+      "source": "NASA",
+      "date": "2026-03-19T15:00:00Z",
+      "summary": "A NASA laser reflecting technology that will aid Global Positioning System (GPS) accuracy is now operational as of March 9. The instrument, known as a laser retroreflector array, or LRA, launched aboard GPS III SV-09, the ninth of U.S. Space Force’s Block III Global Positioning System satellites, on Jan. 27. LRAs are sets of mirrors […]"
+    },
+    {
       "title": "NASA to Cover Progress 94 Spacecraft Launch, Space Station Docking",
       "link": "https://www.nasa.gov/news-release/nasa-to-cover-progress-94-spacecraft-launch-space-station-docking/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "ESA",
       "date": "2026-03-19T14:00:00Z",
       "summary": "A month after an anomaly onboard the Proba-3 mission caused ground control to lose contact with the Coronagraph spacecraft, the mission team shares great news: the spacecraft has phoned home, re-establishing the lost connection. "
-    },
-    {
-      "title": "Meet the Platypi: NASA’s Newest Astronaut Candidate Class",
-      "link": "https://www.nasa.gov/centers-and-facilities/johnson/meet-the-platypi-nasas-newest-astronaut-candidate-class/",
-      "source": "NASA",
-      "date": "2026-03-19T13:00:00Z",
-      "summary": "Ten explorers are currently training at NASA’s Johnson Space Center in Houston to become flight-eligible astronauts.  Selected in 2025, the astronaut candidates are building the technical and operational skills needed for future missions to the International Space Station, the Moon, and eventually Mars. Now, NASA’s newest astronaut candidates have a class name: the Platypi.  The name was selected […]"
     }
   ],
-  "updated": "2026-03-19T14:53:41.550Z"
+  "updated": "2026-03-19T15:11:50.450Z"
 }
