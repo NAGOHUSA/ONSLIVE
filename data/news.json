@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Australia’s “Red Centre” Turns Green",
+      "link": "https://science.nasa.gov/earth/earth-observatory/australias-red-centre-turns-green/",
+      "source": "NASA",
+      "date": "2026-03-19T04:00:00Z",
+      "summary": "Abundant rainfall in February and March 2026 transformed the desert landscape of Central Australia."
+    },
+    {
       "title": "Rocket Lab wins $190 million Pentagon deal for hypersonic test flights",
       "link": "https://spacenews.com/rocket-lab-wins-190-million-pentagon-deal-for-hypersonic-test-flights/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-18T19:16:35Z",
       "summary": "Written by Catherine O’Connell-Cooper, APXS Strategic Planner and Payload Uplink/Downlink Lead, University of New Brunswick, Canada Earth planning date: Friday, March 13, 2026 We are in our final phase of the boxwork campaign, investigating the contacts between the boxwork unit and the layered sulfate unit. As my colleague Bill reported here, last week we crossed […]"
-    },
-    {
-      "title": "Booster 19 concludes initial test campaign on Pad 2",
-      "link": "https://www.nasaspaceflight.com/2026/03/booster-19-initial-test-pad-2/",
-      "source": "NASASpaceflight",
-      "date": "2026-03-18T19:09:46Z",
-      "summary": "Starship Flight 12 took another step toward launch, with Booster 19 completing an initial test…\nThe post Booster 19 concludes initial test campaign on Pad 2 appeared first on NASASpaceFlight.com."
     }
   ],
-  "updated": "2026-03-19T04:08:40.388Z"
+  "updated": "2026-03-19T04:50:27.736Z"
 }
