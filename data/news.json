@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Apex sells satellite for Japanese technology demonstration mission",
+      "link": "https://spacenews.com/apex-sells-satellite-for-japanese-technology-demonstration-mission/",
+      "source": "SpaceNews",
+      "date": "2026-03-19T07:00:00Z",
+      "summary": "\nSatellite manufacturer Apex has won a contract from a Japanese company to provide a spacecraft bus for a technology demonstration mission.\nThe post Apex sells satellite for Japanese technology demonstration mission appeared first on SpaceNews."
+    },
+    {
       "title": "Australia’s “Red Centre” Turns Green",
       "link": "https://science.nasa.gov/earth/earth-observatory/australias-red-centre-turns-green/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "Spaceflight Now",
       "date": "2026-03-18T20:15:28Z",
       "summary": "The Starlink 10-33 mission is the 35th mission so far in 2026 supporting SpaceX’s low Earth orbit constellation. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for 6:35 a.m. EDT (1035 UTC). "
-    },
-    {
-      "title": "Curiosity Blog, Sols 4832–4837: Driving the (Contact) Line!",
-      "link": "https://science.nasa.gov/blog/curiosity-blog-sols-4832-4837-driving-the-contact-line/",
-      "source": "NASA",
-      "date": "2026-03-18T19:16:35Z",
-      "summary": "Written by Catherine O’Connell-Cooper, APXS Strategic Planner and Payload Uplink/Downlink Lead, University of New Brunswick, Canada Earth planning date: Friday, March 13, 2026 We are in our final phase of the boxwork campaign, investigating the contacts between the boxwork unit and the layered sulfate unit. As my colleague Bill reported here, last week we crossed […]"
     }
   ],
-  "updated": "2026-03-19T06:59:01.145Z"
+  "updated": "2026-03-19T07:27:21.215Z"
 }
