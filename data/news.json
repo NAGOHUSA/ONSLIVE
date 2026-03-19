@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Kratos wins $446 million Space Force contract for missile-tracking ground systems",
+      "link": "https://spacenews.com/kratos-wins-446-million-space-force-contract-for-missile-tracking-ground-systems/",
+      "source": "SpaceNews",
+      "date": "2026-03-19T18:03:01Z",
+      "summary": "\nThe agreement is for ground management and integration for the Resilient Missile Warning and Tracking satellite program\nThe post Kratos wins $446 million Space Force contract for missile-tracking ground systems appeared first on SpaceNews."
+    },
+    {
       "title": "Portal Space Systems and Paladin Space plan debris removal service",
       "link": "https://spacenews.com/portal-space-systems-and-paladin-space-plan-debris-removal-service/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-19T15:13:24Z",
       "summary": "Commercial launch providers continue to advance propulsion technology with a renewed focus on liquid oxygen and methane propelled rockets and spacecraft. As systems grow in scale, carrying millions of pounds of propellant, so too does the responsibility to fully understand the safety profile. Engineers at NASA, with decades of cryogenic and test operations expertise, are […]"
-    },
-    {
-      "title": "NASA Laser Reflecting Instrument Makes GPS Satellite More Accurate",
-      "link": "https://science.nasa.gov/centers-and-facilities/goddard/nasa-laser-reflecting-instrument-makes-gps-satellite-more-accurate/",
-      "source": "NASA",
-      "date": "2026-03-19T15:00:00Z",
-      "summary": "A NASA laser reflecting technology that will aid Global Positioning System (GPS) accuracy is now operational as of March 9. The instrument, known as a laser retroreflector array, or LRA, launched aboard GPS III SV-09, the ninth of U.S. Space Force’s Block III Global Positioning System satellites, on Jan. 27. LRAs are sets of mirrors […]"
     }
   ],
-  "updated": "2026-03-19T18:10:10.369Z"
+  "updated": "2026-03-19T18:31:04.222Z"
 }
