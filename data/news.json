@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "American Bald Eagle at NASA’s Kennedy Space Center",
+      "link": "https://www.nasa.gov/image-article/american-bald-eagle-at-nasas-kennedy-space-center/",
+      "source": "NASA",
+      "date": "2026-03-19T15:16:25Z",
+      "summary": "An American bald eagle flies away from its nest and tree at NASA’s Kennedy Space Center in Florida on Friday, March 13, 2026. Bald eagle nesting surveys across NASA Kennedy, Merritt Island National Wildlife Refuge, and Canaveral National Seashore are conducted annually to document the number of bald eagle active and inactive nests in support […]"
+    },
+    {
+      "title": "How NASA is Collecting Explosion Data for Next Generation Rockets",
+      "link": "https://www.nasa.gov/centers-and-facilities/stennis/collecting-explosion-data-for-next-generation-rockets/",
+      "source": "NASA",
+      "date": "2026-03-19T15:13:24Z",
+      "summary": "Commercial launch providers continue to advance propulsion technology with a renewed focus on liquid oxygen and methane propelled rockets and spacecraft. As systems grow in scale, carrying millions of pounds of propellant, so too does the responsibility to fully understand the safety profile. Engineers at NASA, with decades of cryogenic and test operations expertise, are […]"
+    },
+    {
       "title": "NASA Laser Reflecting Instrument Makes GPS Satellite More Accurate",
       "link": "https://science.nasa.gov/centers-and-facilities/goddard/nasa-laser-reflecting-instrument-makes-gps-satellite-more-accurate/",
       "source": "NASA",
@@ -20,21 +34,7 @@
       "source": "European Spaceflight",
       "date": "2026-03-19T14:02:26Z",
       "summary": "German space technology company OHB has been awarded a €248 million contract by the European Space Agency to develop and build 20 small satellites for EUMETSAT’s EPS-Sterna weather satellite constellation. The EPS-Sterna constellation is an expansion of the capabilities successfully demonstrated by the Arctic Weather Satellite, which was launched aboard a SpaceX Falcon 9 in […]\nThe post ESA Awards OHB a €248 Million Contract to Build Weather Satellite Constellation appeared first on European Spaceflight."
-    },
-    {
-      "title": "345th ESA Council: Media information session",
-      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/03/345th_ESA_Council_Media_information_session",
-      "source": "ESA",
-      "date": "2026-03-19T14:00:00Z",
-      "summary": "Watch the replay of the media information session where ESA Director General Josef Aschbacher and ESA Council Chair Renato Krpoun outline the key decisions and main outcomes of the Council meeting held in Interlaken, Switzerland, on 18 and 19 March 2026."
-    },
-    {
-      "title": "Proba-3’s Coronagraph is alive!",
-      "link": "https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Proba-3_s_Coronagraph_is_alive",
-      "source": "ESA",
-      "date": "2026-03-19T14:00:00Z",
-      "summary": "A month after an anomaly onboard the Proba-3 mission caused ground control to lose contact with the Coronagraph spacecraft, the mission team shares great news: the spacecraft has phoned home, re-establishing the lost connection. "
     }
   ],
-  "updated": "2026-03-19T15:11:50.450Z"
+  "updated": "2026-03-19T15:33:39.418Z"
 }
