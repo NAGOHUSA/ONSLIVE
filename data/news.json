@@ -1,6 +1,27 @@
 {
   "articles": [
     {
+      "title": "NASA to Cover Progress 94 Spacecraft Launch, Space Station Docking",
+      "link": "https://www.nasa.gov/news-release/nasa-to-cover-progress-94-spacecraft-launch-space-station-docking/",
+      "source": "NASA",
+      "date": "2026-03-19T14:15:03Z",
+      "summary": "NASA will provide live coverage of the launch and docking of a Roscosmos cargo spacecraft carrying about three tons of food, fuel, and supplies for the crew aboard the International Space Station. The unpiloted Roscosmos Progress 94 resupply spacecraft is scheduled to launch at 7:59 a.m. EDT (4:59 p.m. Baikonur time) Sunday, March 22, on […]"
+    },
+    {
+      "title": "ESA Awards OHB a €248 Million Contract to Build Weather Satellite Constellation",
+      "link": "https://europeanspaceflight.com/esa-awards-ohb-a-e248-million-contract-to-build-weather-satellite-constellation/",
+      "source": "European Spaceflight",
+      "date": "2026-03-19T14:02:26Z",
+      "summary": "German space technology company OHB has been awarded a €248 million contract by the European Space Agency to develop and build 20 small satellites for EUMETSAT’s EPS-Sterna weather satellite constellation. The EPS-Sterna constellation is an expansion of the capabilities successfully demonstrated by the Arctic Weather Satellite, which was launched aboard a SpaceX Falcon 9 in […]\nThe post ESA Awards OHB a €248 Million Contract to Build Weather Satellite Constellation appeared first on European Spaceflight."
+    },
+    {
+      "title": "Proba-3’s Coronagraph is alive!",
+      "link": "https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Proba-3_s_Coronagraph_is_alive",
+      "source": "ESA",
+      "date": "2026-03-19T14:00:00Z",
+      "summary": "A month after an anomaly onboard the Proba-3 mission caused ground control to lose contact with the Coronagraph spacecraft, the mission team shares great news: the spacecraft has phoned home, re-establishing the lost connection. "
+    },
+    {
       "title": "Meet the Platypi: NASA’s Newest Astronaut Candidate Class",
       "link": "https://www.nasa.gov/centers-and-facilities/johnson/meet-the-platypi-nasas-newest-astronaut-candidate-class/",
       "source": "NASA",
@@ -13,28 +34,7 @@
       "source": "NASA",
       "date": "2026-03-19T12:55:00Z",
       "summary": "NASA’s Nancy Grace Roman Space Telescope team recently blasted the observatory with extreme sound, shook it, and listened to its electronic hum. Roman passed all three assessments, which aimed to confirm that the observatory will withstand launch conditions and function as expected in space. The achievement keeps the mission on track for launch as early […]"
-    },
-    {
-      "title": "NASA considering sharp increase in robotic lunar landings",
-      "link": "https://spacenews.com/nasa-considering-sharp-increase-in-robotic-lunar-landings/",
-      "source": "SpaceNews",
-      "date": "2026-03-19T12:10:34Z",
-      "summary": "\nNASA is proposing a sharp increase in the rate of robotic lunar lander missions, a move that has excited but also puzzled the space community.\nThe post NASA considering sharp increase in robotic lunar landings appeared first on SpaceNews."
-    },
-    {
-      "title": "ReOrbit sells two small GEO satellites to SLI",
-      "link": "https://spacenews.com/reorbit-sells-two-small-geo-satellites-to-sli/",
-      "source": "SpaceNews",
-      "date": "2026-03-19T12:00:00Z",
-      "summary": "\nFinnish satellite manufacturer ReOrbit has signed a contract with asset-financing company SLI for two small geostationary orbit communications satellites.\nThe post ReOrbit sells two small GEO satellites to SLI appeared first on SpaceNews."
-    },
-    {
-      "title": "Upcoming ESA–Industry events on CM25 implementation",
-      "link": "https://www.esa.int/About_Us/Business_with_ESA/Upcoming_ESA_Industry_events_on_CM25_implementation",
-      "source": "ESA",
-      "date": "2026-03-19T10:30:00Z",
-      "summary": "The European Space Agency, ESA, invites the industrial community to a series of events at which ESA directorates will present the follow-up to the Council Meeting at Ministerial Level 2025, CM25, held in November 2025 in Bremen, Germany."
     }
   ],
-  "updated": "2026-03-19T14:11:17.629Z"
+  "updated": "2026-03-19T14:32:04.550Z"
 }
