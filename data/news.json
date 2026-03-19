@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Register now: The energy imperative driving the push toward orbital data centers",
+      "link": "https://spacenews.com/the-energy-imperative-orbital-data-centers-virtual-event/",
+      "source": "SpaceNews",
+      "date": "2026-03-19T18:37:29Z",
+      "summary": "\nJoin us on March 31 for a virtual event, sponsored by Star Catcher and in partnership with the Commercial Space Federation\nThe post Register now: The energy imperative driving the push toward orbital data centers appeared first on SpaceNews."
+    },
+    {
       "title": "Kratos wins $446 million Space Force contract for missile-tracking ground systems",
       "link": "https://spacenews.com/kratos-wins-446-million-space-force-contract-for-missile-tracking-ground-systems/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-19T15:16:25Z",
       "summary": "An American bald eagle flies away from its nest and tree at NASA’s Kennedy Space Center in Florida on Friday, March 13, 2026. Bald eagle nesting surveys across NASA Kennedy, Merritt Island National Wildlife Refuge, and Canaveral National Seashore are conducted annually to document the number of bald eagle active and inactive nests in support […]"
-    },
-    {
-      "title": "How NASA is Collecting Explosion Data for Next Generation Rockets",
-      "link": "https://www.nasa.gov/centers-and-facilities/stennis/collecting-explosion-data-for-next-generation-rockets/",
-      "source": "NASA",
-      "date": "2026-03-19T15:13:24Z",
-      "summary": "Commercial launch providers continue to advance propulsion technology with a renewed focus on liquid oxygen and methane propelled rockets and spacecraft. As systems grow in scale, carrying millions of pounds of propellant, so too does the responsibility to fully understand the safety profile. Engineers at NASA, with decades of cryogenic and test operations expertise, are […]"
     }
   ],
-  "updated": "2026-03-19T18:31:04.222Z"
+  "updated": "2026-03-19T18:53:31.953Z"
 }
