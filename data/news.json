@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Another GPS launch shifts from ULA to SpaceX as Vulcan investigation continues",
+      "link": "https://spacenews.com/another-gps-launch-shifts-from-ula-to-spacex-as-vulcan-investigation-continues/",
+      "source": "SpaceNews",
+      "date": "2026-03-20T20:42:24Z",
+      "summary": "\nThe change affects the GPS III SV-10 satellite, which had been slated to launch on ULA’s Vulcan Centaur rocket.\nThe post Another GPS launch shifts from ULA to SpaceX as Vulcan investigation continues appeared first on SpaceNews."
+    },
+    {
       "title": "NASA Selects University Finalists for Technology Concepts Competition",
       "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/nasa-selects-university-finalists-for-technology-concepts-competition/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-20T18:27:04Z",
       "summary": "NASA astronaut Chris Williams smiles at the camera during a spacesuit fit verification on Jan. 2, 2026, inside the International Space Station’s Quest airlock. This procedure confirms that the spacesuit is airtight and properly configured, assesses comfort and mobility, and helps prevent potential safety risks. Williams and fellow NASA astronaut Jessica Meir completed an approximately […]"
-    },
-    {
-      "title": "NASA Exploration, Science Inspire “Project Hail Mary” Film",
-      "link": "https://www.nasa.gov/general/nasa-exploration-science-inspire-project-hail-mary-film/",
-      "source": "NASA",
-      "date": "2026-03-20T17:22:28Z",
-      "summary": "Real-life space exploration and big-screen science fiction will converge on Friday. As NASA prepares to launch Artemis II, the first crewed mission under the agency’s Artemis program and another step toward sending the first astronauts – Americans – to Mars, the fictional film “Project Hail Mary” premiere will take audiences on a journey into deep […]"
     }
   ],
-  "updated": "2026-03-20T20:47:15.046Z"
+  "updated": "2026-03-20T20:59:39.516Z"
 }
