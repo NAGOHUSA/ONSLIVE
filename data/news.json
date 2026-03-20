@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA Selects University Finalists for Technology Concepts Competition",
+      "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/nasa-selects-university-finalists-for-technology-concepts-competition/",
+      "source": "NASA",
+      "date": "2026-03-20T19:30:44Z",
+      "summary": "NASA selected 14 university teams from across the nation as finalists in the 2026 Revolutionary Aerospace Systems Concepts – Academic Linkage (RASC-AL) Competition. This NASA challenge tasks students to design innovative concepts that could further human life and work on the Moon, Mars, and beyond. The competition links academia and the aerospace community, fostering innovation, […]"
+    },
+    {
       "title": "OHB Sweden wins €248 million contract to build EPS-Sterna constellation",
       "link": "https://spacenews.com/ohb-sweden-wins-e248-million-contract-to-build-eps-sterna-constellation/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "Arstechnica",
       "date": "2026-03-20T14:46:39Z",
       "summary": "\"Space-based data centers will be a complement to terrestrial infrastructure.\""
-    },
-    {
-      "title": "Artemis II rolls again",
-      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/03/Artemis_II_rolls_again",
-      "source": "ESA",
-      "date": "2026-03-20T14:30:00Z",
-      "summary": "From the ESA Blogs."
     }
   ],
-  "updated": "2026-03-20T19:39:59.620Z"
+  "updated": "2026-03-20T19:52:42.358Z"
 }
