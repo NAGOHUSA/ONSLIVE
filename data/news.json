@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Kayhan targets investors, insurers with expanded orbital intelligence platform",
+      "link": "https://spacenews.com/kayhan-targets-investors-insurers-with-expanded-orbital-intelligence-platform/",
+      "source": "SpaceNews",
+      "date": "2026-03-20T11:00:00Z",
+      "summary": "\nTAMPA, Fla. — Kayhan Space is branching out from providing orbital intelligence used to coordinate satellite fleets with a new software platform that turns that data into business insights for investors and insurers. The Colorado-based venture unveiled its Satcat Terminal March 20, akin to the Bloomberg Terminal widely used by finance professionals for real-time market […]\nThe post Kayhan targets investors, insurers with expanded orbital intelligence platform appeared first on SpaceNews."
+    },
+    {
       "title": "Earth from Space: Jostedalsbreen, Norway",
       "link": "https://www.esa.int/ESA_Multimedia/Images/2026/03/Earth_from_Space_Jostedalsbreen_Norway",
       "source": "ESA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-19T23:30:09Z",
       "summary": "\nBlue Origin is the latest company to propose an orbital data center system, filing plans for a constellation of up to 51,600 satellites.\nThe post Blue Origin joins the orbital data center race appeared first on SpaceNews."
-    },
-    {
-      "title": "Live coverage: NASA to roll its SLS rocket back to the launch pad ahead of planned April flight of Artemis 2",
-      "link": "https://spaceflightnow.com/2026/03/19/live-coverage-nasa-to-roll-its-sls-rocket-back-to-the-launch-pad-ahead-of-planned-april-flight-of-artemis-2/",
-      "source": "Spaceflight Now",
-      "date": "2026-03-19T21:19:51Z",
-      "summary": "The rollout of the 322-foot-tall rocket is anticipated to take about 12 hours after first motion. NASA hopes to launch the crewed test flight to the Moon no earlier than April 1."
     }
   ],
-  "updated": "2026-03-20T10:50:04.020Z"
+  "updated": "2026-03-20T11:05:20.424Z"
 }
