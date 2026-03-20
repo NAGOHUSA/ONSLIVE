@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Rocket Report: Canada makes a major move, US Space Force says actually, let's be hasty",
+      "link": "https://arstechnica.com/space/2026/03/rocket-report-canada-makes-a-major-move-us-space-force-says-actually-lets-be-hasty/",
+      "source": "Arstechnica",
+      "date": "2026-03-20T11:45:25Z",
+      "summary": "\"Our security, our prosperity, and our sovereignty will increasingly extend beyond our atmosphere.\""
+    },
+    {
       "title": "Kayhan targets investors, insurers with expanded orbital intelligence platform",
       "link": "https://spacenews.com/kayhan-targets-investors-insurers-with-expanded-orbital-intelligence-platform/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpacePolicyOnline.com",
       "date": "2026-03-20T00:13:38Z",
       "summary": "NASA is bringing together the international partners in the Artemis program next week to discuss the program’s new architecture. NASA differentiates Artemis from the Apollo program by emphasizing that this […]"
-    },
-    {
-      "title": "Blue Origin joins the orbital data center race",
-      "link": "https://spacenews.com/blue-origin-joins-the-orbital-data-center-race/",
-      "source": "SpaceNews",
-      "date": "2026-03-19T23:30:09Z",
-      "summary": "\nBlue Origin is the latest company to propose an orbital data center system, filing plans for a constellation of up to 51,600 satellites.\nThe post Blue Origin joins the orbital data center race appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-20T11:47:34.008Z"
+  "updated": "2026-03-20T11:57:37.458Z"
 }
