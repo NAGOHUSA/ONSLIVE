@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA Exploration, Science Inspire “Project Hail Mary” Film",
+      "link": "https://www.nasa.gov/general/nasa-exploration-science-inspire-project-hail-mary-film/",
+      "source": "NASA",
+      "date": "2026-03-20T17:22:28Z",
+      "summary": "Real-life space exploration and big-screen science fiction will converge on Friday. As NASA prepares to launch Artemis II, the first crewed mission under the agency’s Artemis program and another step toward sending the first astronauts – Americans – to Mars, the fictional film “Project Hail Mary” premiere will take audiences on a journey into deep […]"
+    },
+    {
       "title": "Jeff Bezos throws his hat in the ring for an orbital data center megaconstellation, too",
       "link": "https://arstechnica.com/space/2026/03/jeff-bezos-throws-his-hat-in-the-ring-for-an-orbital-data-center-megaconstellation-too/",
       "source": "Arstechnica",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-20T14:00:00Z",
       "summary": "Airflow around rockets as they travel from Earth into space can have a dramatic impact on a mission, which is why NASA used advanced simulations to provide the best possible launch conditions for the Artemis II test flight around the Moon.  To better understand the Artemis Space Launch System (SLS) rocket’s flight environment, engineers turned to a NASA-developed tool called the Launch, Ascent, and Vehicle Aerodynamics […]"
-    },
-    {
-      "title": "Seven scientific benefits of ESA’s Genesis mission",
-      "link": "https://www.esa.int/Applications/Satellite_navigation/Seven_scientific_benefits_of_ESA_s_Genesis_mission",
-      "source": "ESA",
-      "date": "2026-03-20T13:55:00Z",
-      "summary": "Genesis is the European Space Agency’s (ESA) navigation mission to measure Earth down to the millimetre. This precise measurement of Earth will have wide-ranging benefits, from satellite navigation to orbit determination to Earth science."
     }
   ],
-  "updated": "2026-03-20T17:20:11.872Z"
+  "updated": "2026-03-20T17:36:09.280Z"
 }
