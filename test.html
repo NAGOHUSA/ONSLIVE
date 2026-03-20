@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Nagoh Worker</title>
+</head>
+<body>
+    <h1>Test Nagoh Worker</h1>
+    <button onclick="testWorker()">Send Test Request</button>
+    <pre id="response"></pre>
+
+    <script>
+        async function testWorker() {
+            const responseDiv = document.getElementById('response');
+            const encryptedPayload = "YOUR_ENCRYPTED_PAYLOAD_HERE"; // Replace with actual encrypted data
+            
+            try {
+                const response = await fetch('https://alerts.nagoh.xyz/v1/push/' + encryptedPayload, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        signedPayload: "YOUR_SIGNED_PAYLOAD_HERE" // Replace with actual signed payload
+                    })
+                });
+                
+                const data = await response.text();
+                responseDiv.textContent = 'Response: ' + data;
+            } catch (error) {
+                responseDiv.textContent = 'Error: ' + error.message;
+            }
+        }
+    </script>
+</body>
+</html>
