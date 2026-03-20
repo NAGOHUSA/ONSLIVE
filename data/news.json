@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Jeff Bezos throws his hat in the ring for an orbital data center megaconstellation, too",
+      "link": "https://arstechnica.com/space/2026/03/jeff-bezos-throws-his-hat-in-the-ring-for-an-orbital-data-center-megaconstellation-too/",
+      "source": "Arstechnica",
+      "date": "2026-03-20T14:46:39Z",
+      "summary": "\"Space-based data centers will be a complement to terrestrial infrastructure.\""
+    },
+    {
       "title": "NASA Simulations Improve Artemis II Launch Environment",
       "link": "https://www.nasa.gov/aeronautics/artemis-sls-launch-sim/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-20T13:00:00Z",
       "summary": "NASA’s Glenn Research Center in Cleveland is hosting the 2026 NASA Glenn High School Engineering Institute this July. The hands-on learning experience is designed to help high school students prepare for a future in the aerospace workforce.   Rising high school juniors and seniors can submit applications for this summer program beginning Friday, March 20, through Friday, May 1.  The institute will immerse students in NASA’s work while providing essential career readiness tools to help them in future science, […]"
-    },
-    {
-      "title": "Holistic space observation: the shift from SSA to SDA",
-      "link": "https://spacenews.com/holistic-space-observation-the-shift-from-ssa-to-sda/",
-      "source": "SpaceNews",
-      "date": "2026-03-20T13:00:00Z",
-      "summary": "\nRecent reporting on SpaceX’s proposal to deploy up to one million satellites in low Earth orbit — paired with a vision of AI-enabled, autonomous orbital infrastructure — marks a decisive moment for the space community. Regardless of whether these numbers ultimately materialize, the direction is unmistakable: space is moving toward unprecedented scale, autonomy and strategic […]\nThe post Holistic space observation: the shift from SSA to SDA appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-20T14:46:54.587Z"
+  "updated": "2026-03-20T15:05:54.347Z"
 }
