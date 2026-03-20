@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "SLS enters pad flow ahead of historic Artemis II mission",
+      "link": "https://www.nasaspaceflight.com/2026/03/sls-pad-flow-historic-artemis-ii-mission/",
+      "source": "NASASpaceflight",
+      "date": "2026-03-20T22:45:20Z",
+      "summary": "NASA’s Artemis II Space Launch System (SLS) rocket and Orion spacecraft arrived at Launch Pad…\nThe post SLS enters pad flow ahead of historic Artemis II mission appeared first on NASASpaceFlight.com."
+    },
+    {
       "title": "Officina Stellare wins $2 million contract for lasercom ground station in Spain",
       "link": "https://spacenews.com/officina-stellare-wins-2-million-contract-for-lasercom-ground-station-in-spain/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-20T20:42:24Z",
       "summary": "\nThe change affects the GPS III SV-10 satellite, which had been slated to launch on ULA’s Vulcan Centaur rocket.\nThe post Another GPS launch shifts from ULA to SpaceX as Vulcan investigation continues appeared first on SpaceNews."
-    },
-    {
-      "title": "NASA Selects University Finalists for Technology Concepts Competition",
-      "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/nasa-selects-university-finalists-for-technology-concepts-competition/",
-      "source": "NASA",
-      "date": "2026-03-20T19:30:44Z",
-      "summary": "NASA selected 14 university teams from across the nation as finalists in the 2026 Revolutionary Aerospace Systems Concepts – Academic Linkage (RASC-AL) Competition. This NASA challenge tasks students to design innovative concepts that could further human life and work on the Moon, Mars, and beyond. The competition links academia and the aerospace community, fostering innovation, […]"
     }
   ],
-  "updated": "2026-03-20T22:42:34.194Z"
+  "updated": "2026-03-20T22:55:33.483Z"
 }
