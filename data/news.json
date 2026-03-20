@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Officina Stellare wins $2 million contract for lasercom ground station in Spain",
+      "link": "https://spacenews.com/officina-stellare-wins-2-million-contract-for-lasercom-ground-station-in-spain/",
+      "source": "SpaceNews",
+      "date": "2026-03-20T21:49:39Z",
+      "summary": "\nMILAN – Officina Stellare, an Italian manufacturer of advanced opto-mechanical systems, has signed a 1.84 million euro ($2.0 million) contract with the Barcelona-based Institute of Photonic Sciences (ICFO), the company announced March 17. The contract covers the design and construction of an optical ground station for future laser and quantum-encrypted space-to-Earth communications. The infrastructure will […]\nThe post Officina Stellare wins $2 million contract for lasercom ground station in Spain appeared first on SpaceNews."
+    },
+    {
       "title": "Rocket Lab launches eighth Synspective radar imaging satellite",
       "link": "https://spacenews.com/rocket-lab-launches-eighth-synspective-radar-imaging-satellite/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-20T19:30:44Z",
       "summary": "NASA selected 14 university teams from across the nation as finalists in the 2026 Revolutionary Aerospace Systems Concepts – Academic Linkage (RASC-AL) Competition. This NASA challenge tasks students to design innovative concepts that could further human life and work on the Moon, Mars, and beyond. The competition links academia and the aerospace community, fostering innovation, […]"
-    },
-    {
-      "title": "How Open NASA Data on Comet 3I/ATLAS Will Power Tomorrow’s Discoveries",
-      "link": "https://science.nasa.gov/open-science/interstellar-comet-3i-atlas-data/",
-      "source": "NASA",
-      "date": "2026-03-20T19:06:43Z",
-      "summary": "The interstellar comet 3I/ATLAS will soon leave our solar system, never to return, but the observations of the comet will live on in NASA’s public data archives. More than a dozen NASA science missions turned their instruments to observe the comet, which is only the third identified object to be visiting our solar system from […]"
     }
   ],
-  "updated": "2026-03-20T21:42:39.068Z"
+  "updated": "2026-03-20T21:53:54.604Z"
 }
