@@ -1,11 +1,25 @@
 {
   "articles": [
     {
-      "title": "NASA Glenn Opens Applications for Free Summer Engineering Institute",
-      "link": "https://www.nasa.gov/news-release/nasa-glenn-hosts-engineering-institute/",
+      "title": "NASA Simulations Improve Artemis II Launch Environment",
+      "link": "https://www.nasa.gov/aeronautics/artemis-sls-launch-sim/",
       "source": "NASA",
-      "date": "2026-03-20T13:00:00Z",
-      "summary": "NASA’s Glenn Research Center in Cleveland is hosting the 2026 NASA Glenn High School Engineering Institute this July. The hands-on learning experience is designed to help high school students prepare for a future in the aerospace workforce.   Rising high school juniors and seniors can submit applications for this summer program beginning Friday, March 20, through Friday, May 1.  The institute will immerse students in NASA’s work while providing essential career readiness tools to help them in future science, […]"
+      "date": "2026-03-20T14:00:00Z",
+      "summary": "Airflow around rockets as they travel from Earth into space can have a dramatic impact on a mission, which is why NASA used advanced simulations to provide the best possible launch conditions for the Artemis II test flight around the Moon.  To better understand the Artemis Space Launch System (SLS) rocket’s flight environment, engineers turned to a NASA-developed tool called the Launch, Ascent, and Vehicle Aerodynamics […]"
+    },
+    {
+      "title": "Seven scientific benefits of ESA’s Genesis mission",
+      "link": "https://www.esa.int/Applications/Satellite_navigation/Seven_scientific_benefits_of_ESA_s_Genesis_mission",
+      "source": "ESA",
+      "date": "2026-03-20T13:55:00Z",
+      "summary": "Genesis is the European Space Agency’s (ESA) navigation mission to measure Earth down to the millimetre. This precise measurement of Earth will have wide-ranging benefits, from satellite navigation to orbit determination to Earth science."
+    },
+    {
+      "title": "Live coverage: SpaceX to launch 25 Starlink satellites on Falcon 9 rocket from Vandenberg SFB",
+      "link": "https://spaceflightnow.com/2026/03/20/live-coverage-spacex-to-launch-25-starlink-satellites-on-falcon-9-rocket-from-vandenberg-sfb-2/",
+      "source": "Spaceflight Now",
+      "date": "2026-03-20T13:54:00Z",
+      "summary": "The Starlink 17-30 mission will be SpaceX’s 30th mission supporting its broadband internet satellites megaconstellation so far this year. Liftoff from pad 4 East at Vandenberg Space Force Base is scheduled for a launch window that opens at 2:48 p.m. PDT (5:48 p.m. EDT / 2148 UTC). "
     },
     {
       "title": "Holistic space observation: the shift from SSA to SDA",
@@ -15,26 +29,12 @@
       "summary": "\nRecent reporting on SpaceX’s proposal to deploy up to one million satellites in low Earth orbit — paired with a vision of AI-enabled, autonomous orbital infrastructure — marks a decisive moment for the space community. Regardless of whether these numbers ultimately materialize, the direction is unmistakable: space is moving toward unprecedented scale, autonomy and strategic […]\nThe post Holistic space observation: the shift from SSA to SDA appeared first on SpaceNews."
     },
     {
-      "title": "ESA to fly dedicated Crew Dragon mission to ISS",
-      "link": "https://spacenews.com/esa-to-fly-dedicated-crew-dragon-mission-to-iss/",
-      "source": "SpaceNews",
-      "date": "2026-03-20T12:18:38Z",
-      "summary": "\nThe European Space Agency plans to charter a SpaceX Crew Dragon mission to the International Space Station to give more flight opportunities for its astronauts.\nThe post ESA to fly dedicated Crew Dragon mission to ISS appeared first on SpaceNews."
-    },
-    {
-      "title": "Rocket Report: Canada makes a major move, US Space Force says actually, let's be hasty",
-      "link": "https://arstechnica.com/space/2026/03/rocket-report-canada-makes-a-major-move-us-space-force-says-actually-lets-be-hasty/",
-      "source": "Arstechnica",
-      "date": "2026-03-20T11:45:25Z",
-      "summary": "\"Our security, our prosperity, and our sovereignty will increasingly extend beyond our atmosphere.\""
-    },
-    {
-      "title": "Kayhan targets investors, insurers with expanded orbital intelligence platform",
-      "link": "https://spacenews.com/kayhan-targets-investors-insurers-with-expanded-orbital-intelligence-platform/",
-      "source": "SpaceNews",
-      "date": "2026-03-20T11:00:00Z",
-      "summary": "\nTAMPA, Fla. — Kayhan Space is branching out from providing orbital intelligence used to coordinate satellite fleets with a new software platform that turns that data into business insights for investors and insurers. The Colorado-based venture unveiled its Satcat Terminal March 20, akin to the Bloomberg Terminal widely used by finance professionals for real-time market […]\nThe post Kayhan targets investors, insurers with expanded orbital intelligence platform appeared first on SpaceNews."
+      "title": "NASA Glenn Opens Applications for Free Summer Engineering Institute",
+      "link": "https://www.nasa.gov/news-release/nasa-glenn-hosts-engineering-institute/",
+      "source": "NASA",
+      "date": "2026-03-20T13:00:00Z",
+      "summary": "NASA’s Glenn Research Center in Cleveland is hosting the 2026 NASA Glenn High School Engineering Institute this July. The hands-on learning experience is designed to help high school students prepare for a future in the aerospace workforce.   Rising high school juniors and seniors can submit applications for this summer program beginning Friday, March 20, through Friday, May 1.  The institute will immerse students in NASA’s work while providing essential career readiness tools to help them in future science, […]"
     }
   ],
-  "updated": "2026-03-20T13:50:12.908Z"
+  "updated": "2026-03-20T14:08:54.816Z"
 }
