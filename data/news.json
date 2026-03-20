@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA’s X-59 Experimental Supersonic Aircraft Makes Second Flight",
+      "link": "https://www.nasa.gov/missions/quesst/nasas-x-59-experimental-supersonic-aircraft-makes-second-flight/",
+      "source": "NASA",
+      "date": "2026-03-20T23:27:18Z",
+      "summary": "NASA’s quiet supersonic X-59 aircraft made its second flight on Friday, kicking off a series of dozens of test flights in 2026.  Although the flight duration was abbreviated due to a technical issue, the team was able to collect information that will inform future tests.  “Despite the early landing, this is a good day for the team. We collected more data, and the pilot landed safely,” said Cathy Bahm, project manager for NASA’s Low-Boom […]"
+    },
+    {
       "title": "SLS enters pad flow ahead of historic Artemis II mission",
       "link": "https://www.nasaspaceflight.com/2026/03/sls-pad-flow-historic-artemis-ii-mission/",
       "source": "NASASpaceflight",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-20T20:53:29Z",
       "summary": "Editor’s Note: This article was originally published on April 25, 2022 and has been updated to reflect changes including the completion of Hangar One’s restoration. Restoration has been completed on Hangar One, a historic landmark in the San Francisco Bay Area and a key part of the region’s early aviation history.   In December 2025, Planetary Ventures completed restoration of […]"
-    },
-    {
-      "title": "Another GPS launch shifts from ULA to SpaceX as Vulcan investigation continues",
-      "link": "https://spacenews.com/another-gps-launch-shifts-from-ula-to-spacex-as-vulcan-investigation-continues/",
-      "source": "SpaceNews",
-      "date": "2026-03-20T20:42:24Z",
-      "summary": "\nThe change affects the GPS III SV-10 satellite, which had been slated to launch on ULA’s Vulcan Centaur rocket.\nThe post Another GPS launch shifts from ULA to SpaceX as Vulcan investigation continues appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-20T23:17:22.389Z"
+  "updated": "2026-03-20T23:31:47.277Z"
 }
