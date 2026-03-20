@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Earth from Space: Jostedalsbreen, Norway",
+      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/03/Earth_from_Space_Jostedalsbreen_Norway",
+      "source": "ESA",
+      "date": "2026-03-20T09:00:00Z",
+      "summary": "From the ESA Blogs."
+    },
+    {
       "title": "Restless Kīlauea Launches Lava and Ash",
       "link": "https://science.nasa.gov/earth/earth-observatory/restless-kilauea-launches-lava-and-ash/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "Spaceflight Now",
       "date": "2026-03-19T21:19:51Z",
       "summary": "The rollout of the 322-foot-tall rocket is anticipated to take about 12 hours after first motion. NASA hopes to launch the crewed test flight to the Moon no earlier than April 1. "
-    },
-    {
-      "title": "Register now: The energy imperative driving the push toward orbital data centers",
-      "link": "https://spacenews.com/the-energy-imperative-orbital-data-centers-virtual-event/",
-      "source": "SpaceNews",
-      "date": "2026-03-19T18:37:29Z",
-      "summary": "\nJoin us on March 31 for a virtual event, sponsored by Star Catcher and in partnership with the Commercial Space Federation\nThe post Register now: The energy imperative driving the push toward orbital data centers appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-20T09:21:03.668Z"
+  "updated": "2026-03-20T09:38:25.464Z"
 }
