@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Restless Kīlauea Launches Lava and Ash",
+      "link": "https://science.nasa.gov/earth/earth-observatory/restless-kilauea-launches-lava-and-ash/",
+      "source": "NASA",
+      "date": "2026-03-20T04:01:00Z",
+      "summary": "Episode 43 of the Hawaiian volcano’s current eruption was marked by high lava fountains and widespread ash dispersal."
+    },
+    {
       "title": "NASA Convening Artemis International Partners Next Week",
       "link": "https://spacepolicyonline.com/news/nasa-convening-artemis-international-partners-next-week/",
       "source": "SpacePolicyOnline.com",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-19T18:37:29Z",
       "summary": "\nJoin us on March 31 for a virtual event, sponsored by Star Catcher and in partnership with the Commercial Space Federation\nThe post Register now: The energy imperative driving the push toward orbital data centers appeared first on SpaceNews."
-    },
-    {
-      "title": "Kratos wins $446 million Space Force contract for missile-tracking ground systems",
-      "link": "https://spacenews.com/kratos-wins-446-million-space-force-contract-for-missile-tracking-ground-systems/",
-      "source": "SpaceNews",
-      "date": "2026-03-19T18:03:01Z",
-      "summary": "\nThe agreement is for ground management and integration for the Resilient Missile Warning and Tracking satellite program\nThe post Kratos wins $446 million Space Force contract for missile-tracking ground systems appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-20T04:00:38.405Z"
+  "updated": "2026-03-20T04:40:55.639Z"
 }
