@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Rocket Lab launches eighth Synspective radar imaging satellite",
+      "link": "https://spacenews.com/rocket-lab-launches-eighth-synspective-radar-imaging-satellite/",
+      "source": "SpaceNews",
+      "date": "2026-03-20T21:15:03Z",
+      "summary": "\nRocket Lab launched the latest in a series of satellites for Japanese radar imaging company Synspective on March 20.\nThe post Rocket Lab launches eighth Synspective radar imaging satellite appeared first on SpaceNews."
+    },
+    {
       "title": "Hangar One Restoration Project",
       "link": "https://www.nasa.gov/centers-and-facilities/ames/hangar-one-restoration-project/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-20T19:06:43Z",
       "summary": "The interstellar comet 3I/ATLAS will soon leave our solar system, never to return, but the observations of the comet will live on in NASA’s public data archives. More than a dozen NASA science missions turned their instruments to observe the comet, which is only the third identified object to be visiting our solar system from […]"
-    },
-    {
-      "title": "OHB Sweden wins €248 million contract to build EPS-Sterna constellation",
-      "link": "https://spacenews.com/ohb-sweden-wins-e248-million-contract-to-build-eps-sterna-constellation/",
-      "source": "SpaceNews",
-      "date": "2026-03-20T18:28:40Z",
-      "summary": "\nOHB Sweden has won a record contract for Sweden’s space sector to build 20 satellites to boost Europe’s weather forecasting and climate monitoring capabilities.\nThe post OHB Sweden wins €248 million contract to build EPS-Sterna constellation appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-20T21:13:53.206Z"
+  "updated": "2026-03-20T21:27:36.321Z"
 }
