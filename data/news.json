@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "ESA to fly dedicated Crew Dragon mission to ISS",
+      "link": "https://spacenews.com/esa-to-fly-dedicated-crew-dragon-mission-to-iss/",
+      "source": "SpaceNews",
+      "date": "2026-03-20T12:18:38Z",
+      "summary": "\nThe European Space Agency plans to charter a SpaceX Crew Dragon mission to the International Space Station to give more flight opportunities for its astronauts.\nThe post ESA to fly dedicated Crew Dragon mission to ISS appeared first on SpaceNews."
+    },
+    {
       "title": "Rocket Report: Canada makes a major move, US Space Force says actually, let's be hasty",
       "link": "https://arstechnica.com/space/2026/03/rocket-report-canada-makes-a-major-move-us-space-force-says-actually-lets-be-hasty/",
       "source": "Arstechnica",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-20T04:01:00Z",
       "summary": "Episode 43 of the Hawaiian volcano’s current eruption was marked by high lava fountains and widespread ash dispersal."
-    },
-    {
-      "title": "NASA Convening Artemis International Partners Next Week",
-      "link": "https://spacepolicyonline.com/news/nasa-convening-artemis-international-partners-next-week/",
-      "source": "SpacePolicyOnline.com",
-      "date": "2026-03-20T00:13:38Z",
-      "summary": "NASA is bringing together the international partners in the Artemis program next week to discuss the program’s new architecture. NASA differentiates Artemis from the Apollo program by emphasizing that this […]"
     }
   ],
-  "updated": "2026-03-20T12:16:25.084Z"
+  "updated": "2026-03-20T12:33:01.178Z"
 }
