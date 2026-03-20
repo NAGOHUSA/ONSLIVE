@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Hangar One Restoration Project",
+      "link": "https://www.nasa.gov/centers-and-facilities/ames/hangar-one-restoration-project/",
+      "source": "NASA",
+      "date": "2026-03-20T20:53:29Z",
+      "summary": "Editor’s Note: This article was originally published on April 25, 2022 and has been updated to reflect changes including the completion of Hangar One’s restoration. Restoration has been completed on Hangar One, a historic landmark in the San Francisco Bay Area and a key part of the region’s early aviation history.   In December 2025, Planetary Ventures completed restoration of […]"
+    },
+    {
       "title": "Another GPS launch shifts from ULA to SpaceX as Vulcan investigation continues",
       "link": "https://spacenews.com/another-gps-launch-shifts-from-ula-to-spacex-as-vulcan-investigation-continues/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-20T18:28:40Z",
       "summary": "\nOHB Sweden has won a record contract for Sweden’s space sector to build 20 satellites to boost Europe’s weather forecasting and climate monitoring capabilities.\nThe post OHB Sweden wins €248 million contract to build EPS-Sterna constellation appeared first on SpaceNews."
-    },
-    {
-      "title": "Smiles and Spacesuits",
-      "link": "https://www.nasa.gov/image-article/smiles-and-spacesuits/",
-      "source": "NASA",
-      "date": "2026-03-20T18:27:04Z",
-      "summary": "NASA astronaut Chris Williams smiles at the camera during a spacesuit fit verification on Jan. 2, 2026, inside the International Space Station’s Quest airlock. This procedure confirms that the spacesuit is airtight and properly configured, assesses comfort and mobility, and helps prevent potential safety risks. Williams and fellow NASA astronaut Jessica Meir completed an approximately […]"
     }
   ],
-  "updated": "2026-03-20T20:59:39.516Z"
+  "updated": "2026-03-20T21:13:53.206Z"
 }
