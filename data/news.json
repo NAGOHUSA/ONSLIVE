@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "OHB Sweden wins €248 million contract to build EPS-Sterna constellation",
+      "link": "https://spacenews.com/ohb-sweden-wins-e248-million-contract-to-build-eps-sterna-constellation/",
+      "source": "SpaceNews",
+      "date": "2026-03-20T18:28:40Z",
+      "summary": "\nOHB Sweden has won a record contract for Sweden’s space sector to build 20 satellites to boost Europe’s weather forecasting and climate monitoring capabilities.\nThe post OHB Sweden wins €248 million contract to build EPS-Sterna constellation appeared first on SpaceNews."
+    },
+    {
+      "title": "Smiles and Spacesuits",
+      "link": "https://www.nasa.gov/image-article/smiles-and-spacesuits/",
+      "source": "NASA",
+      "date": "2026-03-20T18:27:04Z",
+      "summary": "NASA astronaut Chris Williams smiles at the camera during a spacesuit fit verification on Jan. 2, 2026, inside the International Space Station’s Quest airlock. This procedure confirms that the spacesuit is airtight and properly configured, assesses comfort and mobility, and helps prevent potential safety risks. Williams and fellow NASA astronaut Jessica Meir completed an approximately […]"
+    },
+    {
       "title": "NASA Exploration, Science Inspire “Project Hail Mary” Film",
       "link": "https://www.nasa.gov/general/nasa-exploration-science-inspire-project-hail-mary-film/",
       "source": "NASA",
@@ -20,21 +34,7 @@
       "source": "ESA",
       "date": "2026-03-20T14:30:00Z",
       "summary": "From the ESA Blogs."
-    },
-    {
-      "title": "Week in images: 16-20 March 2026",
-      "link": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_16-20_March_2026",
-      "source": "ESA",
-      "date": "2026-03-20T14:10:00Z",
-      "summary": "Week in images: 16-20 March 2026"
-    },
-    {
-      "title": "NASA Simulations Improve Artemis II Launch Environment",
-      "link": "https://www.nasa.gov/aeronautics/artemis-sls-launch-sim/",
-      "source": "NASA",
-      "date": "2026-03-20T14:00:00Z",
-      "summary": "Airflow around rockets as they travel from Earth into space can have a dramatic impact on a mission, which is why NASA used advanced simulations to provide the best possible launch conditions for the Artemis II test flight around the Moon.  To better understand the Artemis Space Launch System (SLS) rocket’s flight environment, engineers turned to a NASA-developed tool called the Launch, Ascent, and Vehicle Aerodynamics […]"
     }
   ],
-  "updated": "2026-03-20T18:23:39.427Z"
+  "updated": "2026-03-20T18:42:26.709Z"
 }
