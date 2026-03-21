@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Progress MS-33 set to resume Russian flights to ISS from repaired pad",
+      "link": "https://www.nasaspaceflight.com/2026/03/progress-ms33/",
+      "source": "NASASpaceflight",
+      "date": "2026-03-21T23:18:14Z",
+      "summary": "Just under four months after Soyuz MS-28 launched from Site 31/6 at Baikonur Cosmodrome in…\nThe post Progress MS-33 set to resume Russian flights to ISS from repaired pad appeared first on NASASpaceFlight.com."
+    },
+    {
       "title": "Artemis 2 returns to the pad for April launch attempt",
       "link": "https://spacenews.com/artemis-2-returns-to-the-pad-for-april-launch-attempt/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASASpaceflight",
       "date": "2026-03-20T22:45:20Z",
       "summary": "NASA’s Artemis II Space Launch System (SLS) rocket and Orion spacecraft arrived at Launch Pad…\nThe post SLS enters pad flow ahead of historic Artemis II mission appeared first on NASASpaceFlight.com."
-    },
-    {
-      "title": "Officina Stellare wins $2 million contract for lasercom ground station in Spain",
-      "link": "https://spacenews.com/officina-stellare-wins-2-million-contract-for-lasercom-ground-station-in-spain/",
-      "source": "SpaceNews",
-      "date": "2026-03-20T21:49:39Z",
-      "summary": "\nMILAN – Officina Stellare, an Italian manufacturer of advanced opto-mechanical systems, has signed a 1.84 million euro ($2.0 million) contract with the Barcelona-based Institute of Photonic Sciences (ICFO), the company announced March 17. The contract covers the design and construction of an optical ground station for future laser and quantum-encrypted space-to-Earth communications. The infrastructure will […]\nThe post Officina Stellare wins $2 million contract for lasercom ground station in Spain appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-21T23:17:51.875Z"
+  "updated": "2026-03-21T23:31:50.145Z"
 }
