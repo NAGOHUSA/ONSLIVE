@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Artemis 2 returns to the pad for April launch attempt",
+      "link": "https://spacenews.com/artemis-2-returns-to-the-pad-for-april-launch-attempt/",
+      "source": "SpaceNews",
+      "date": "2026-03-21T15:14:03Z",
+      "summary": "\nThe Artemis 2 launch vehicle and spacecraft have returned to the launch pad for a launch as soon as April 1.\nThe post Artemis 2 returns to the pad for April launch attempt appeared first on SpaceNews."
+    },
+    {
       "title": "Blue Origin ramps up New Glenn manufacturing, unveils Orbital Data Center ambitions",
       "link": "https://www.nasaspaceflight.com/2026/03/blue-new-glenn-manufacturing-data-ambitions/",
       "source": "NASASpaceflight",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-20T21:49:39Z",
       "summary": "\nMILAN – Officina Stellare, an Italian manufacturer of advanced opto-mechanical systems, has signed a 1.84 million euro ($2.0 million) contract with the Barcelona-based Institute of Photonic Sciences (ICFO), the company announced March 17. The contract covers the design and construction of an optical ground station for future laser and quantum-encrypted space-to-Earth communications. The infrastructure will […]\nThe post Officina Stellare wins $2 million contract for lasercom ground station in Spain appeared first on SpaceNews."
-    },
-    {
-      "title": "Rocket Lab launches eighth Synspective radar imaging satellite",
-      "link": "https://spacenews.com/rocket-lab-launches-eighth-synspective-radar-imaging-satellite/",
-      "source": "SpaceNews",
-      "date": "2026-03-20T21:15:03Z",
-      "summary": "\nRocket Lab launched the latest in a series of satellites for Japanese radar imaging company Synspective on March 20.\nThe post Rocket Lab launches eighth Synspective radar imaging satellite appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-21T15:12:11.918Z"
+  "updated": "2026-03-21T15:24:40.518Z"
 }
