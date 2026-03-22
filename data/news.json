@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Transformational Tools and Technologies Resources",
+      "link": "https://www.nasa.gov/directorates/armd/tacp/ttt/ttt-resources/",
+      "source": "NASA",
+      "date": "2026-03-22T18:59:32Z",
+      "summary": "Vision Studies, Analysis of Alternatives (AoA) Studies, and White Papers"
+    },
+    {
       "title": "SpaceX offers details on orbital data center satellites",
       "link": "https://spacenews.com/spacex-offers-details-on-orbital-data-center-satellites/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-22T00:53:32Z",
       "summary": "\nNearly 140 million euros ($162 million) that European Space Agency member states allocated to a program to support launch vehicle development remains in limbo and could be lost.\nThe post Some European Launcher Challenge funding remains in limbo appeared first on SpaceNews."
-    },
-    {
-      "title": "Progress MS-33 set to resume Russian flights to ISS from repaired pad",
-      "link": "https://www.nasaspaceflight.com/2026/03/progress-ms33/",
-      "source": "NASASpaceflight",
-      "date": "2026-03-21T23:18:14Z",
-      "summary": "Just under four months after Soyuz MS-28 launched from Site 31/6 at Baikonur Cosmodrome in…\nThe post Progress MS-33 set to resume Russian flights to ISS from repaired pad appeared first on NASASpaceFlight.com."
     }
   ],
-  "updated": "2026-03-22T18:50:39.803Z"
+  "updated": "2026-03-22T19:03:46.502Z"
 }
