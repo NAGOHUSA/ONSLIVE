@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Some European Launcher Challenge funding remains in limbo",
+      "link": "https://spacenews.com/some-european-launcher-challenge-funding-remains-in-limbo/",
+      "source": "SpaceNews",
+      "date": "2026-03-22T00:53:32Z",
+      "summary": "\nNearly 140 million euros ($162 million) that European Space Agency member states allocated to a program to support launch vehicle development remains in limbo and could be lost.\nThe post Some European Launcher Challenge funding remains in limbo appeared first on SpaceNews."
+    },
+    {
       "title": "Progress MS-33 set to resume Russian flights to ISS from repaired pad",
       "link": "https://www.nasaspaceflight.com/2026/03/progress-ms33/",
       "source": "NASASpaceflight",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-20T23:27:18Z",
       "summary": "NASA’s quiet supersonic X-59 aircraft made its second flight on Friday, kicking off a series of dozens of test flights in 2026.  Although the flight duration was abbreviated due to a technical issue, the team was able to collect information that will inform future tests.  “Despite the early landing, this is a good day for the team. We collected more data, and the pilot landed safely,” said Cathy Bahm, project manager for NASA’s Low-Boom […]"
-    },
-    {
-      "title": "SLS enters pad flow ahead of historic Artemis II mission",
-      "link": "https://www.nasaspaceflight.com/2026/03/sls-pad-flow-historic-artemis-ii-mission/",
-      "source": "NASASpaceflight",
-      "date": "2026-03-20T22:45:20Z",
-      "summary": "NASA’s Artemis II Space Launch System (SLS) rocket and Orion spacecraft arrived at Launch Pad…\nThe post SLS enters pad flow ahead of historic Artemis II mission appeared first on NASASpaceFlight.com."
     }
   ],
-  "updated": "2026-03-22T00:51:35.231Z"
+  "updated": "2026-03-22T01:25:05.574Z"
 }
