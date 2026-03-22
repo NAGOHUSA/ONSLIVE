@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Live coverage: SpaceX to launch 29 Starlink satellites on Falcon 9 rocket from Cape Canaveral",
+      "link": "https://spaceflightnow.com/2026/03/22/live-coverage-spacex-to-launch-29-starlink-satellites-on-falcon-9-rocket-from-cape-canaveral-12/",
+      "source": "Spaceflight Now",
+      "date": "2026-03-22T13:14:25Z",
+      "summary": "Liftoff of the Starlink 10-62 mission from pad 40 at Cape Canaveral Space Force Station is scheduled for 10:47 a.m. EDT (1447 UTC). The rocket will fly on a northeasterly trajectory. "
+    },
+    {
       "title": "ESA Regains Contact With Lost Proba-3 Spacecraft",
       "link": "https://europeanspaceflight.com/esa-regains-contact-with-lost-proba-3-spacecraft/",
       "source": "European Spaceflight",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-21T15:14:03Z",
       "summary": "\nThe Artemis 2 launch vehicle and spacecraft have returned to the launch pad for a launch as soon as April 1.\nThe post Artemis 2 returns to the pad for April launch attempt appeared first on SpaceNews."
-    },
-    {
-      "title": "Blue Origin ramps up New Glenn manufacturing, unveils Orbital Data Center ambitions",
-      "link": "https://www.nasaspaceflight.com/2026/03/blue-new-glenn-manufacturing-data-ambitions/",
-      "source": "NASASpaceflight",
-      "date": "2026-03-21T13:19:28Z",
-      "summary": "Blue Origin is showcasing the production cadence of its New Glenn heavy-lift rocket at its…\nThe post Blue Origin ramps up New Glenn manufacturing, unveils Orbital Data Center ambitions appeared first on NASASpaceFlight.com."
     }
   ],
-  "updated": "2026-03-22T12:58:43.186Z"
+  "updated": "2026-03-22T13:23:05.594Z"
 }
