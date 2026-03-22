@@ -10,23 +10,23 @@
     {
       "name": "STARLINK-1012",
       "id": "2019-074F",
-      "epoch": "2026-03-21T19:57:24.090912",
-      "meanMotion": 15.31181745,
+      "epoch": "2026-03-22T06:55:20.271648",
+      "meanMotion": 15.31215968,
       "inclination": 53.1606
     },
     {
       "name": "STARLINK-1017",
       "id": "2019-074L",
-      "epoch": "2026-03-21T19:13:08.151456",
-      "meanMotion": 15.25173845,
-      "inclination": 53.0507
+      "epoch": "2026-03-22T06:13:40.075104",
+      "meanMotion": 15.25186296,
+      "inclination": 53.0495
     },
     {
       "name": "STARLINK-1019",
       "id": "2019-074M",
-      "epoch": "2026-03-22T00:00:02.000160",
-      "meanMotion": 15.84796227,
-      "inclination": 53.0408
+      "epoch": "2026-03-22T05:44:50.419680",
+      "meanMotion": 15.8489008,
+      "inclination": 53.0412
     },
     {
       "name": "STARLINK-1020",
@@ -38,9 +38,9 @@
     {
       "name": "STARLINK-1031",
       "id": "2019-074Z",
-      "epoch": "2026-03-22T00:00:02.000160",
-      "meanMotion": 15.97478989,
-      "inclination": 53.0365
+      "epoch": "2026-03-22T06:00:02.000160",
+      "meanMotion": 15.97628268,
+      "inclination": 53.0359
     },
     {
       "name": "STARLINK-1036",
@@ -59,9 +59,9 @@
     {
       "name": "STARLINK-1042",
       "id": "2019-074AL",
-      "epoch": "2026-03-21T21:40:51.974112",
-      "meanMotion": 15.50434314,
-      "inclination": 53.0454
+      "epoch": "2026-03-22T03:52:09.528096",
+      "meanMotion": 15.50452488,
+      "inclination": 53.0451
     },
     {
       "name": "STARLINK-1043",
@@ -72,11 +72,11 @@
     }
   ],
   "iss": {
-    "latitude": 7.8522127014367,
-    "longitude": 153.27753125139,
-    "altitude": 418.62805841411,
-    "velocity": 27588.277871653,
+    "latitude": -26.112903199638,
+    "longitude": 179.32773409655,
+    "altitude": 424.58037896267,
+    "velocity": 27572.390173087,
     "visibility": "eclipsed"
   },
-  "updated": "2026-03-22T13:56:09.554Z"
+  "updated": "2026-03-22T14:07:29.904Z"
 }
