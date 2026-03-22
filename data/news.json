@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "ESA Regains Contact With Lost Proba-3 Spacecraft",
+      "link": "https://europeanspaceflight.com/esa-regains-contact-with-lost-proba-3-spacecraft/",
+      "source": "European Spaceflight",
+      "date": "2026-03-22T06:16:35Z",
+      "summary": "The European Space Agency has regained contact with the Coronagraph spacecraft of its Proba-3 mission after more than a month of silence. Launched aboard an ISRO PSLV-XL rocket in December 2024, the Proba-3 mission’s Coronagraph and Occulter spacecraft work in tandem to create and observe an artificial solar eclipse that enables observations of the Sun’s […]\nThe post ESA Regains Contact With Lost Proba-3 Spacecraft appeared first on European Spaceflight."
+    },
+    {
       "title": "Some European Launcher Challenge funding remains in limbo",
       "link": "https://spacenews.com/some-european-launcher-challenge-funding-remains-in-limbo/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASASpaceflight",
       "date": "2026-03-21T13:19:28Z",
       "summary": "Blue Origin is showcasing the production cadence of its New Glenn heavy-lift rocket at its…\nThe post Blue Origin ramps up New Glenn manufacturing, unveils Orbital Data Center ambitions appeared first on NASASpaceFlight.com."
-    },
-    {
-      "title": "NASA’s X-59 Experimental Supersonic Aircraft Makes Second Flight",
-      "link": "https://www.nasa.gov/missions/quesst/nasas-x-59-experimental-supersonic-aircraft-makes-second-flight/",
-      "source": "NASA",
-      "date": "2026-03-20T23:27:18Z",
-      "summary": "NASA’s quiet supersonic X-59 aircraft made its second flight on Friday, kicking off a series of dozens of test flights in 2026.  Although the flight duration was abbreviated due to a technical issue, the team was able to collect information that will inform future tests.  “Despite the early landing, this is a good day for the team. We collected more data, and the pilot landed safely,” said Cathy Bahm, project manager for NASA’s Low-Boom […]"
     }
   ],
-  "updated": "2026-03-22T08:43:27.281Z"
+  "updated": "2026-03-22T08:57:29.092Z"
 }
