@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "SpaceX offers details on orbital data center satellites",
+      "link": "https://spacenews.com/spacex-offers-details-on-orbital-data-center-satellites/",
+      "source": "SpaceNews",
+      "date": "2026-03-22T18:08:55Z",
+      "summary": "\nSpaceX Chief Executive Elon Musk revealed more technical, but not financial, details about his company’s plans to deploy an orbital data center constellation.\nThe post SpaceX offers details on orbital data center satellites appeared first on SpaceNews."
+    },
+    {
       "title": "Live coverage: SpaceX to launch 29 Starlink satellites on Falcon 9 rocket from Cape Canaveral",
       "link": "https://spaceflightnow.com/2026/03/22/live-coverage-spacex-to-launch-29-starlink-satellites-on-falcon-9-rocket-from-cape-canaveral-12/",
       "source": "Spaceflight Now",
@@ -27,14 +34,7 @@
       "source": "NASASpaceflight",
       "date": "2026-03-21T23:18:14Z",
       "summary": "Just under four months after Soyuz MS-28 launched from Site 31/6 at Baikonur Cosmodrome in…\nThe post Progress MS-33 set to resume Russian flights to ISS from repaired pad appeared first on NASASpaceFlight.com."
-    },
-    {
-      "title": "Artemis 2 returns to the pad for April launch attempt",
-      "link": "https://spacenews.com/artemis-2-returns-to-the-pad-for-april-launch-attempt/",
-      "source": "SpaceNews",
-      "date": "2026-03-21T15:14:03Z",
-      "summary": "\nThe Artemis 2 launch vehicle and spacecraft have returned to the launch pad for a launch as soon as April 1.\nThe post Artemis 2 returns to the pad for April launch attempt appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-22T18:15:55.050Z"
+  "updated": "2026-03-22T18:30:50.019Z"
 }
