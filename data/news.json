@@ -1,11 +1,25 @@
 {
   "articles": [
     {
+      "title": "Launch Preview: Russia to debut Soyuz-5; Falcon 9 and Atlas V to launch internet satellites",
+      "link": "https://www.nasaspaceflight.com/2026/03/launch-preview-032326/",
+      "source": "NASASpaceflight",
+      "date": "2026-03-23T21:50:46Z",
+      "summary": "The United States, Russia, China, New Zealand, and Norway are all set to host launches…\nThe post Launch Preview: Russia to debut Soyuz-5; Falcon 9 and Atlas V to launch internet satellites appeared first on NASASpaceFlight.com."
+    },
+    {
       "title": "Space Force adds cyber units to guard rocket launches",
       "link": "https://spacenews.com/space-force-adds-cyber-units-to-guard-rocket-launches/",
       "source": "SpaceNews",
       "date": "2026-03-23T21:37:35Z",
       "summary": "\n‘Cyber defense’ squadrons at Cape Canaveral and Vandenberg reflect growing concern over malicious hacks\nThe post Space Force adds cyber units to guard rocket launches appeared first on SpaceNews."
+    },
+    {
+      "title": "NASA Data Hackathon Inspires Community Action",
+      "link": "https://science.nasa.gov/get-involved/citizen-science/nasa-data-hackathon-inspires-community-action/",
+      "source": "NASA",
+      "date": "2026-03-23T21:30:46Z",
+      "summary": "On Jan. 31, students, library staff, researchers, and community members gathered at the University of Florida’s (UF) Marston Science Library for the Environmental Monitoring through Education, Research, and Geospatial Engagement (EMERGE) NASA Data Hackathon. This initiative empowers libraries, educators, and individuals to engage in public health and environmental science using real-world data tools and citizen […]"
     },
     {
       "title": "Amazon Leo targets faster deployment cadence as deadline pressure mounts",
@@ -20,21 +34,7 @@
       "source": "NASA",
       "date": "2026-03-23T19:47:57Z",
       "summary": "When one celestial object passes in front of another, it can cast a shadow that travels across space – and sometimes across Earth. These moments of alignment, known as eclipses, occultations, and transits, allow scientists to study distant objects in remarkable ways. By observing how light changes when an object briefly blocks another, astronomers can measure sizes and shapes, detect atmospheres, and refine the orbits of asteroids and planets."
-    },
-    {
-      "title": "Parsons unveils new satellite antenna aimed at military market",
-      "link": "https://spacenews.com/parsons-unveils-new-satellite-antenna-aimed-at-military-market/",
-      "source": "SpaceNews",
-      "date": "2026-03-23T19:00:00Z",
-      "summary": "\nHybrid antenna developed by Parsons and Raven Defense combines a six-meter parabolic dish with an electronically steered phased-array feed\nThe post Parsons unveils new satellite antenna aimed at military market appeared first on SpaceNews."
-    },
-    {
-      "title": "See NASA’s GUARDIAN Catch a Tsunami",
-      "link": "https://www.nasa.gov/science-research/earth-science/see-nasas-guardian-catch-a-tsunami/",
-      "source": "NASA",
-      "date": "2026-03-23T18:10:21Z",
-      "summary": "A new data visualization illustrates how an experimental NASA technology can provide extra lead time to communities in the path of a tsunami. Called GUARDIAN (GNSS Upper Atmospheric Real-time Disaster Information and Alert Network), the software detects slight distortions in satellite navigation signals to spot hazards on the move.. The animation breaks down a real-life […]"
     }
   ],
-  "updated": "2026-03-23T22:01:41.771Z"
+  "updated": "2026-03-23T22:14:52.183Z"
 }
