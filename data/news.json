@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Parsons unveils new satellite antenna aimed at military market",
+      "link": "https://spacenews.com/parsons-unveils-new-satellite-antenna-aimed-at-military-market/",
+      "source": "SpaceNews",
+      "date": "2026-03-23T19:00:00Z",
+      "summary": "\nHybrid antenna developed by Parsons and Raven Defense combines a six-meter parabolic dish with an electronically steered phased-array feed\nThe post Parsons unveils new satellite antenna aimed at military market appeared first on SpaceNews."
+    },
+    {
       "title": "See NASA’s GUARDIAN Catch a Tsunami",
       "link": "https://www.nasa.gov/science-research/earth-science/see-nasas-guardian-catch-a-tsunami/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-23T16:32:17Z",
       "summary": "This March 16, 2026, image from NASA’s Hubble Space Telescope and the James Webb Space Telescope takes a closer look at the core of Messier 101, also known as the Pinwheel Galaxy. At 25 million light-years away, M101 is one of the closest “face-on” spiral galaxies to us. With that in mind, Hubble’s ultraviolet, visible, […]"
-    },
-    {
-      "title": "Celeste: Countdown to Launch 1",
-      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/03/Celeste_Countdown_to_Launch_1",
-      "source": "ESA",
-      "date": "2026-03-23T16:00:00Z",
-      "summary": "On 25 March, the first two satellites of the Celeste in-orbit demonstration mission will lift off aboard Rocket Lab’s Electron rocket from the company’s Māhia Launch Complex in New Zealand."
     }
   ],
-  "updated": "2026-03-23T18:59:54.866Z"
+  "updated": "2026-03-23T19:24:39.023Z"
 }
