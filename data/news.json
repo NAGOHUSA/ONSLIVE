@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "See NASA’s GUARDIAN Catch a Tsunami",
+      "link": "https://www.nasa.gov/science-research/earth-science/see-nasas-guardian-catch-a-tsunami/",
+      "source": "NASA",
+      "date": "2026-03-23T18:10:21Z",
+      "summary": "A new data visualization illustrates how an experimental NASA technology can provide extra lead time to communities in the path of a tsunami. Called GUARDIAN (GNSS Upper Atmospheric Real-time Disaster Information and Alert Network), the software detects slight distortions in satellite navigation signals to spot hazards on the move.. The animation breaks down a real-life […]"
+    },
+    {
       "title": "Sovereign demand and institutional capital reshape space economy",
       "link": "https://spacenews.com/sovereign-demand-and-institutional-capital-reshape-space-economy/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "ESA",
       "date": "2026-03-23T16:00:00Z",
       "summary": "On 25 March, the first two satellites of the Celeste in-orbit demonstration mission will lift off aboard Rocket Lab’s Electron rocket from the company’s Māhia Launch Complex in New Zealand."
-    },
-    {
-      "title": "Arianespace to launch Katalyst servicing spacecraft",
-      "link": "https://spacenews.com/arianespace-to-launch-katalyst-servicing-spacecraft/",
-      "source": "SpaceNews",
-      "date": "2026-03-23T15:30:00Z",
-      "summary": "\nKatalyst Space Technologies will launch a geosynchronous orbit servicing spacecraft on an Ariane 6 in 2027.\nThe post Arianespace to launch Katalyst servicing spacecraft appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-23T18:18:19.566Z"
+  "updated": "2026-03-23T18:36:06.531Z"
 }
