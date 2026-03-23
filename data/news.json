@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "The software behind Artemis, Gateway and America’s defense in space deserves its own strategy",
+      "link": "https://spacenews.com/the-software-behind-artemis-gateway-and-americas-defense-in-space-deserves-its-own-strategy/",
+      "source": "SpaceNews",
+      "date": "2026-03-23T13:00:00Z",
+      "summary": "\nWhen we talk about national space infrastructure, we talk about rockets, launch pads and ground stations. We invest billions in the vehicles that carry astronauts to the moon and the telescopes that peer to the edge of the universe. But we rarely talk about the software that makes all of it work. That is a […]\nThe post The software behind Artemis, Gateway and America’s defense in space deserves its own strategy appeared first on SpaceNews."
+    },
+    {
       "title": "Watch live: First Celeste launch",
       "link": "https://www.esa.int/Applications/Satellite_navigation/Watch_live_First_Celeste_launch",
       "source": "ESA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-23T04:01:00Z",
       "summary": "Plains around the San Andreas Fault and across Carrizo Plain National Monument are awash with yellow as wildflowers bloom."
-    },
-    {
-      "title": "Swissto12 to build small optical relay GEO satellite for Space Compass",
-      "link": "https://spacenews.com/swissto12-to-build-small-optical-relay-geo-satellite-for-space-compass/",
-      "source": "SpaceNews",
-      "date": "2026-03-23T04:01:00Z",
-      "summary": "\nSwissto12, the Switzerland-based small geostationary satellite specialist, has signed a contract to build the first optical relay spacecraft using its washing machine-sized HummingSat platform.\nThe post Swissto12 to build small optical relay GEO satellite for Space Compass appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-23T12:51:57.675Z"
+  "updated": "2026-03-23T13:23:10.520Z"
 }
