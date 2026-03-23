@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Celeste: Countdown to Launch 1",
+      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/03/Celeste_Countdown_to_Launch_1",
+      "source": "ESA",
+      "date": "2026-03-23T16:00:00Z",
+      "summary": "On 25 March, the first two satellites of the Celeste in-orbit demonstration mission will lift off aboard Rocket Lab’s Electron rocket from the company’s Māhia Launch Complex in New Zealand."
+    },
+    {
       "title": "Arianespace to launch Katalyst servicing spacecraft",
       "link": "https://spacenews.com/arianespace-to-launch-katalyst-servicing-spacecraft/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-23T14:00:00Z",
       "summary": "\nThe company points to backlog and commercial wins as it navigates transition in Space Development Agency-led programs\nThe post York Space rides defense demand as procurement changes cloud outlook appeared first on SpaceNews."
-    },
-    {
-      "title": "Tracking Arctic freshwater flow from space",
-      "link": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Tracking_Arctic_freshwater_flow_from_space",
-      "source": "ESA",
-      "date": "2026-03-23T13:28:00Z",
-      "summary": "Arctic rivers and runoff from the land pour vast volumes of freshwater into the Arctic Ocean, influencing seawater salinity, sea-ice formation and ocean circulation, thereby playing an important role in regulating Earth’s heat balance."
     }
   ],
-  "updated": "2026-03-23T15:59:38.663Z"
+  "updated": "2026-03-23T16:27:23.045Z"
 }
