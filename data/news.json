@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Arianespace to launch Katalyst servicing spacecraft",
+      "link": "https://spacenews.com/arianespace-to-launch-katalyst-servicing-spacecraft/",
+      "source": "SpaceNews",
+      "date": "2026-03-23T15:30:00Z",
+      "summary": "\nKatalyst Space Technologies will launch a geosynchronous orbit servicing spacecraft on an Ariane 6 in 2027.\nThe post Arianespace to launch Katalyst servicing spacecraft appeared first on SpaceNews."
+    },
+    {
       "title": "NASA to Provide Update on Implementation of National Space Policy",
       "link": "https://www.nasa.gov/news-release/nasa-to-provide-update-on-implementation-of-national-space-policy/",
       "source": "NASA",
@@ -22,19 +29,12 @@
       "summary": "\nThe company points to backlog and commercial wins as it navigates transition in Space Development Agency-led programs\nThe post York Space rides defense demand as procurement changes cloud outlook appeared first on SpaceNews."
     },
     {
-      "title": "The software behind Artemis, Gateway and America’s defense in space deserves its own strategy",
-      "link": "https://spacenews.com/the-software-behind-artemis-gateway-and-americas-defense-in-space-deserves-its-own-strategy/",
-      "source": "SpaceNews",
-      "date": "2026-03-23T13:00:00Z",
-      "summary": "\nWhen we talk about national space infrastructure, we talk about rockets, launch pads and ground stations. We invest billions in the vehicles that carry astronauts to the moon and the telescopes that peer to the edge of the universe. But we rarely talk about the software that makes all of it work. That is a […]\nThe post The software behind Artemis, Gateway and America’s defense in space deserves its own strategy appeared first on SpaceNews."
-    },
-    {
-      "title": "Watch live: First Celeste launch",
-      "link": "https://www.esa.int/Applications/Satellite_navigation/Watch_live_First_Celeste_launch",
+      "title": "Tracking Arctic freshwater flow from space",
+      "link": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Tracking_Arctic_freshwater_flow_from_space",
       "source": "ESA",
-      "date": "2026-03-23T10:06:00Z",
-      "summary": "On 25 March, the first two satellites of the Celeste LEO-PNT in-orbit demonstration mission will lift off aboard Rocket Lab’s Electron rocket from the company’s Māhia Launch Complex in New Zealand."
+      "date": "2026-03-23T13:28:00Z",
+      "summary": "Arctic rivers and runoff from the land pour vast volumes of freshwater into the Arctic Ocean, influencing seawater salinity, sea-ice formation and ocean circulation, thereby playing an important role in regulating Earth’s heat balance."
     }
   ],
-  "updated": "2026-03-23T15:09:45.085Z"
+  "updated": "2026-03-23T15:35:31.113Z"
 }
