@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "A rare encounter: How Juice came to observe 3I/ATLAS",
+      "link": "https://www.esa.int/Enabling_Support/Operations/A_rare_encounter_How_Juice_came_to_observe_3I_ATLAS",
+      "source": "ESA",
+      "date": "2026-03-23T07:30:00Z",
+      "summary": "No matter how much planning goes into space missions, one must always expect the unexpected. But luck favours the prepared. In July 2025, an unexpected visitor entered our Solar System, interstellar object 3I/ATLAS. ESA’s Jupiter Icy Moons Explorer – Juice – happened to be in the right place, with the right equipment, at the right time to see it."
+    },
+    {
       "title": "A Fault Line in Full Bloom",
       "link": "https://science.nasa.gov/earth/earth-observatory/a-fault-line-in-full-bloom/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-22T18:59:32Z",
       "summary": "Vision Studies, Analysis of Alternatives (AoA) Studies, and White Papers"
-    },
-    {
-      "title": "SpaceX offers details on orbital data center satellites",
-      "link": "https://spacenews.com/spacex-offers-details-on-orbital-data-center-satellites/",
-      "source": "SpaceNews",
-      "date": "2026-03-22T18:08:55Z",
-      "summary": "\nSpaceX Chief Executive Elon Musk revealed more technical, but not financial, details about his company’s plans to deploy an orbital data center constellation.\nThe post SpaceX offers details on orbital data center satellites appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-23T07:07:14.191Z"
+  "updated": "2026-03-23T07:39:15.870Z"
 }
