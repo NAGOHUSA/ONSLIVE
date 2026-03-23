@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA to Provide Update on Implementation of National Space Policy",
+      "link": "https://www.nasa.gov/news-release/nasa-to-provide-update-on-implementation-of-national-space-policy/",
+      "source": "NASA",
+      "date": "2026-03-23T14:20:59Z",
+      "summary": "NASA will host a public event at 9 a.m. EDT on Tuesday, March 24, at the Mary W. Jackson NASA Headquarters in Washington to outline how the agency is executing President Donald J. Trump’s National Space Policy and accelerating preparations for America’s return to the surface of the Moon by 2028. The program will open with remarks from NASA […]"
+    },
+    {
       "title": "NASA’s Hubble Revisits Crab Nebula to Track 25 Years of Expansion",
       "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-revisits-crab-nebula-to-track-25-years-of-expansion/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "ESA",
       "date": "2026-03-23T10:06:00Z",
       "summary": "On 25 March, the first two satellites of the Celeste LEO-PNT in-orbit demonstration mission will lift off aboard Rocket Lab’s Electron rocket from the company’s Māhia Launch Complex in New Zealand."
-    },
-    {
-      "title": "Lunar lander developers say they are ready to meet anticipated increased NASA demand",
-      "link": "https://spacenews.com/lunar-lander-developers-say-they-are-ready-to-meet-anticipated-increased-nasa-demand/",
-      "source": "SpaceNews",
-      "date": "2026-03-23T09:40:29Z",
-      "summary": "\nTwo lunar lander companies say they’re ready to meet NASA’s plans for a major increase in the cadence of landings but offered few details about how they would do so.\nThe post Lunar lander developers say they are ready to meet anticipated increased NASA demand appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-23T14:22:19.392Z"
+  "updated": "2026-03-23T14:44:14.201Z"
 }
