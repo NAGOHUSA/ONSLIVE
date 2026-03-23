@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Science Through Shadows: How Astronomical Alignments Reveal the Universe",
+      "link": "https://science.nasa.gov/learning-resources/science-activation/science-through-shadows-how-astronomical-alignments-reveal-the-universe/",
+      "source": "NASA",
+      "date": "2026-03-23T19:47:57Z",
+      "summary": "When one celestial object passes in front of another, it can cast a shadow that travels across space – and sometimes across Earth. These moments of alignment, known as eclipses, occultations, and transits, allow scientists to study distant objects in remarkable ways. By observing how light changes when an object briefly blocks another, astronomers can measure sizes and shapes, detect atmospheres, and refine the orbits of asteroids and planets."
+    },
+    {
       "title": "Parsons unveils new satellite antenna aimed at military market",
       "link": "https://spacenews.com/parsons-unveils-new-satellite-antenna-aimed-at-military-market/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-23T17:22:04Z",
       "summary": "Explore how rivers move, change, and sustain life across the planet with SWOT data."
-    },
-    {
-      "title": "NASA’s Hubble, Webb Telescopes Survey Pinwheel Galaxy",
-      "link": "https://www.nasa.gov/image-article/nasas-hubble-webb-telescopes-survey-pinwheel-galaxy/",
-      "source": "NASA",
-      "date": "2026-03-23T16:32:17Z",
-      "summary": "This March 16, 2026, image from NASA’s Hubble Space Telescope and the James Webb Space Telescope takes a closer look at the core of Messier 101, also known as the Pinwheel Galaxy. At 25 million light-years away, M101 is one of the closest “face-on” spiral galaxies to us. With that in mind, Hubble’s ultraviolet, visible, […]"
     }
   ],
-  "updated": "2026-03-23T19:59:46.080Z"
+  "updated": "2026-03-23T20:20:22.845Z"
 }
