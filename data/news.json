@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Smile fuelled for launch",
+      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/03/Smile_fuelled_for_launch",
+      "source": "ESA",
+      "date": "2026-03-24T10:00:00Z",
+      "summary": "From the ESA Blogs."
+    },
+    {
       "title": "XRISM solves famous star’s 50-year mystery",
       "link": "https://www.esa.int/Science_Exploration/Space_Science/XRISM_solves_famous_star_s_50-year_mystery",
       "source": "ESA",
@@ -27,14 +34,7 @@
       "source": "NASASpaceflight",
       "date": "2026-03-24T02:21:59Z",
       "summary": "In a flurry of ground activity that underscores SpaceX’s relentless drive for launch cadence, engineers…\r\nThe post Progress on Starbase Pads ahead of Block 3 Starships appeared first on NASASpaceFlight.com."
-    },
-    {
-      "title": "Launch Preview: Russia to debut Soyuz-5; Falcon 9 and Atlas V to launch internet satellites",
-      "link": "https://www.nasaspaceflight.com/2026/03/launch-preview-032326/",
-      "source": "NASASpaceflight",
-      "date": "2026-03-23T21:50:46Z",
-      "summary": "The United States, Russia, China, New Zealand, and Norway are all set to host launches…\r\nThe post Launch Preview: Russia to debut Soyuz-5; Falcon 9 and Atlas V to launch internet satellites appeared first on NASASpaceFlight.com."
     }
   ],
-  "updated": "2026-03-24T09:56:51.877Z"
+  "updated": "2026-03-24T10:19:19.183Z"
 }
