@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA X-Ray Mission Gets Fresh Look at 2,000-Year-Old Supernova",
+      "link": "https://www.nasa.gov/image-article/nasa-x-ray-mission-gets-fresh-look-at-2000-year-old-supernova/",
+      "source": "NASA",
+      "date": "2026-03-24T19:57:21Z",
+      "summary": "NASA’s IXPE (Imaging X-ray Polarimetry Explorer) mission has taken a new observation of a supernova, RCW 86, helping fill in a fuller picture of what other telescopes have observed. When astronomers using NASA’s Chandra X-ray Observatory previously targeted RCW 86, they discovered that a large “cavity” region around the system led the supernova to expand […]"
+    },
+    {
       "title": "Moog taps Redwire to provide solar arrays for Meteor",
       "link": "https://spacenews.com/moog-taps-redwire-to-provide-solar-arrays-for-meteor/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASASpaceflight",
       "date": "2026-03-24T18:52:39Z",
       "summary": "In a significant NASA announcement, Administrator Jared Isaacman and agency leaders outlined plans for a…\nThe post NASA unveils Space Reactor-1 Freedom mission to Mars in 2028 appeared first on NASASpaceFlight.com."
-    },
-    {
-      "title": "La NASA presenta iniciativas para cumplir con la política espacial nacional de Estados Unidos",
-      "link": "https://www.nasa.gov/news-release/la-nasa-presenta-iniciativas-para-cumplir-con-la-politica-espacial-nacional-de-estados-unidos/",
-      "source": "NASA",
-      "date": "2026-03-24T18:24:46Z",
-      "summary": "Read this news release in English here. Como parte de su evento “Ignition” (Encendido) celebrado el martes, la NASA anunció una serie de iniciativas transformadoras a nivel de toda la agencia, diseñadas para cumplir con la Política Espacial Nacional del presidente Donald J. Trump y promover el liderazgo estadounidense en el espacio. Estas acciones reflejan […]"
     }
   ],
-  "updated": "2026-03-24T20:02:02.503Z"
+  "updated": "2026-03-24T20:21:35.444Z"
 }
