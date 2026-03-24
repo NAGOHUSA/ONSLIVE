@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "NASA Unveils Initiatives to Achieve America’s National Space Policy",
+      "link": "https://www.nasa.gov/news-release/nasa-unveils-initiatives-to-achieve-americas-national-space-policy/",
+      "source": "NASA",
+      "date": "2026-03-24T13:01:25Z",
+      "summary": "As part of its “Ignition” event on Tuesday, NASA announced a series of transformative agencywide initiatives designed to achieve President Donald J. Trump’s National Space Policy and advance American leadership in space. These actions reflect the urgency of the moment, but also the tremendous opportunity ahead for world-changing science and discovery. “NASA is committed to […]"
+    },
+    {
+      "title": "SES targets 28 satellites with K2 Space for next-gen MEO network",
+      "link": "https://spacenews.com/ses-targets-28-satellites-with-k2-space-for-next-gen-meo-network/",
+      "source": "SpaceNews",
+      "date": "2026-03-24T13:00:14Z",
+      "summary": "\nSES announced plans March 24 to order an initial 28 satellites from manufacturing startup K2 Space for meoSphere, a next-generation MEO network slated to be in operation by 2030.\nThe post SES targets 28 satellites with K2 Space for next-gen MEO network appeared first on SpaceNews."
+    },
+    {
       "title": "Orbital data centers, part 1: There’s no way this is economically viable, right?",
       "link": "https://arstechnica.com/space/2026/03/orbital-data-centers-part-1-theres-no-way-this-is-economically-viable-right/",
       "source": "Arstechnica",
@@ -20,21 +34,7 @@
       "source": "ESA",
       "date": "2026-03-24T10:00:00Z",
       "summary": "From the ESA Blogs."
-    },
-    {
-      "title": "XRISM solves famous star’s 50-year mystery",
-      "link": "https://www.esa.int/Science_Exploration/Space_Science/XRISM_solves_famous_star_s_50-year_mystery",
-      "source": "ESA",
-      "date": "2026-03-24T08:00:00Z",
-      "summary": "An invisible companion consuming material from the naked-eye star gamma-Cas has been revealed as the culprit for curious X-rays coming from the stellar system. This closes the case on a mystery that has puzzled astronomers for more than fifty years."
-    },
-    {
-      "title": "US-Based Katalyst Selects Ariane 6 to Launch Satellite Servicing Spacecraft",
-      "link": "https://europeanspaceflight.com/us-based-katalyst-selects-ariane-6-to-launch-satellite-servicing-spacecraft/",
-      "source": "European Spaceflight",
-      "date": "2026-03-24T07:05:02Z",
-      "summary": "Arizona-headquartered space operations company Katalyst Space Technologies has signed a contract with Arianespace to launch its NEXUS-1 satellite servicing spacecraft aboard an Ariane 6 in 2027. The NEXUS-1 spacecraft is designed to operate in geostationary orbit (GEO), docking with satellites to perform a range of in-orbit servicing duties, including installing new hardware, repositioning satellites, and […]\r\nThe post US-Based Katalyst Selects Ariane 6 to Launch Satellite Servicing Spacecraft appeared first on European Spaceflight."
     }
   ],
-  "updated": "2026-03-24T12:50:54.658Z"
+  "updated": "2026-03-24T13:22:10.584Z"
 }
