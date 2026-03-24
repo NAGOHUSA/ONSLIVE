@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Space Force officer shares intelligence on threats to space systems",
+      "link": "https://spacenews.com/space-force-officer-shares-intelligence-on-threats-to-space-systems/",
+      "source": "SpaceNews",
+      "date": "2026-03-24T15:48:00Z",
+      "summary": "\nWASHINGTON – Electronic warfare is a growing threat to U.S. space systems, according to a March 23 unclassified briefing by U.S. Space Force Chief Master Sergeant Ron Lerch, senior enlisted advisor to the Deputy Chief of Space Operations for Intelligence. During the Satellite 2026 presentation, Lerch discussed technologies designed to disrupt proliferated low-Earth orbit (PLEO) […]\nThe post Space Force officer shares intelligence on threats to space systems appeared first on SpaceNews."
+    },
+    {
       "title": "NASA Research Proposes Technology to Seek Earth-Like Exoplanets",
       "link": "https://www.nasa.gov/directorates/stmd/nasa-research-proposes-technology-to-seek-earth-like-exoplanets/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-24T13:01:25Z",
       "summary": "As part of its “Ignition” event on Tuesday, NASA announced a series of transformative agencywide initiatives designed to achieve President Donald J. Trump’s National Space Policy and advance American leadership in space. These actions reflect the urgency of the moment, but also the tremendous opportunity ahead for world-changing science and discovery. “NASA is committed to […]"
-    },
-    {
-      "title": "SES targets 28 satellites with K2 Space for next-gen MEO network",
-      "link": "https://spacenews.com/ses-targets-28-satellites-with-k2-space-for-next-gen-meo-network/",
-      "source": "SpaceNews",
-      "date": "2026-03-24T13:00:14Z",
-      "summary": "\nSES announced plans March 24 to order an initial 28 satellites from manufacturing startup K2 Space for meoSphere, a next-generation MEO network slated to be in operation by 2030.\nThe post SES targets 28 satellites with K2 Space for next-gen MEO network appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-24T15:41:28.006Z"
+  "updated": "2026-03-24T16:08:20.574Z"
 }
