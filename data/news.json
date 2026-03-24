@@ -1,6 +1,27 @@
 {
   "articles": [
     {
+      "title": "NASA Research Proposes Technology to Seek Earth-Like Exoplanets",
+      "link": "https://www.nasa.gov/directorates/stmd/nasa-research-proposes-technology-to-seek-earth-like-exoplanets/",
+      "source": "NASA",
+      "date": "2026-03-24T14:18:59Z",
+      "summary": "As NASA seeks to understand the mysteries of the universe, the agency is advancing technologies to locate and explore Earth-like planets far beyond our solar system. A key element of this research involves observing reflected light from exoplanets, which can reveal indicators of Earth-like features such as water and oxygen. However, detecting this faint reflected […]"
+    },
+    {
+      "title": "SpaceEye-T: 25 cm Satellite Imagery and Tasking Now Available Through Pacific Geomatics Limited",
+      "link": "https://spacenews.com/spaceeye-t-25-cm-satellite-imagery-and-tasking-now-available-through-pacific-geomatics-limited/",
+      "source": "SpaceNews",
+      "date": "2026-03-24T14:00:00Z",
+      "summary": "\nVictoria, Canada / Daejeon, South Korea – March 24, 2026 – Canadian and international organizations can now access SpaceEye-T imagery and tasking services through Pacific Geomatics Limited, one of the […]\nThe post SpaceEye-T: 25 cm Satellite Imagery and Tasking Now Available Through Pacific Geomatics Limited appeared first on SpaceNews."
+    },
+    {
+      "title": "NASA’s Water-Hunting Tool Will Help Scout Moon’s South Pole",
+      "link": "https://www.nasa.gov/solar-system/moon/nasas-water-hunting-tool-will-help-scout-moons-south-pole/",
+      "source": "NASA",
+      "date": "2026-03-24T13:59:00Z",
+      "summary": "NASA is joining international partners to hunt for ice on the Moon in support of future human exploration. The agency is providing a water-detecting instrument, the Neutron Spectrometer System (NSS), to the Lunar Polar Exploration (LUPEX) mission led by JAXA (Japan Aerospace Exploration Agency) and ISRO (Indian Space Research Organisation)."
+    },
+    {
       "title": "NASA Unveils Initiatives to Achieve America’s National Space Policy",
       "link": "https://www.nasa.gov/news-release/nasa-unveils-initiatives-to-achieve-americas-national-space-policy/",
       "source": "NASA",
@@ -13,28 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-24T13:00:14Z",
       "summary": "\nSES announced plans March 24 to order an initial 28 satellites from manufacturing startup K2 Space for meoSphere, a next-generation MEO network slated to be in operation by 2030.\nThe post SES targets 28 satellites with K2 Space for next-gen MEO network appeared first on SpaceNews."
-    },
-    {
-      "title": "Orbital data centers, part 1: There’s no way this is economically viable, right?",
-      "link": "https://arstechnica.com/space/2026/03/orbital-data-centers-part-1-theres-no-way-this-is-economically-viable-right/",
-      "source": "Arstechnica",
-      "date": "2026-03-24T11:00:59Z",
-      "summary": "\"This is not physically impossible; it’s only a question of whether this is a rational thing.\""
-    },
-    {
-      "title": "Fusion engine for missile warning lacks a government dataset",
-      "link": "https://spacenews.com/fusion-engine-for-missile-warning-lacks-a-government-dataset/",
-      "source": "SpaceNews",
-      "date": "2026-03-24T10:30:00Z",
-      "summary": "\nWASHINGTON – National missile warning and tracking could be improved if all government agencies shared the raw data they gather. “There are agencies that have sensors that can provide data that would be very supplemental to the missile-defense mission, but they designed it for a completely different purpose,” Devin Elder, Northrop Grumman Strategic Space Systems […]\nThe post Fusion engine for missile warning lacks a government dataset appeared first on SpaceNews."
-    },
-    {
-      "title": "Smile fuelled for launch",
-      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/03/Smile_fuelled_for_launch",
-      "source": "ESA",
-      "date": "2026-03-24T10:00:00Z",
-      "summary": "From the ESA Blogs."
     }
   ],
-  "updated": "2026-03-24T13:55:00.746Z"
+  "updated": "2026-03-24T14:22:59.470Z"
 }
