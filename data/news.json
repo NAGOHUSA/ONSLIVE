@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Tropical Cyclone Narelle Crosses Australia",
+      "link": "https://science.nasa.gov/earth/earth-observatory/tropical-cyclone-narelle-crosses-australia/",
+      "source": "NASA",
+      "date": "2026-03-24T04:01:00Z",
+      "summary": "The powerful storm lashed the northern edge of the continent with damaging winds and drenching rain as it made landfall multiple times."
+    },
+    {
       "title": "Progress on Starbase Pads ahead of Block 3 Starships",
       "link": "https://www.nasaspaceflight.com/2026/03/progress-starbase-pads-block-3-starships/",
       "source": "NASASpaceflight",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-23T21:30:46Z",
       "summary": "On Jan. 31, students, library staff, researchers, and community members gathered at the University of Florida’s (UF) Marston Science Library for the Environmental Monitoring through Education, Research, and Geospatial Engagement (EMERGE) NASA Data Hackathon. This initiative empowers libraries, educators, and individuals to engage in public health and environmental science using real-world data tools and citizen […]"
-    },
-    {
-      "title": "Amazon Leo targets faster deployment cadence as deadline pressure mounts",
-      "link": "https://spacenews.com/amazon-leo-targets-faster-deployment-cadence-as-deadline-pressure-mounts/",
-      "source": "SpaceNews",
-      "date": "2026-03-23T20:39:35Z",
-      "summary": "\nAmazon vowed to double the annual launch rate for its low Earth orbit broadband constellation to more than 20 missions, hinging largely on rockets yet to prove themselves at scale.\nThe post Amazon Leo targets faster deployment cadence as deadline pressure mounts appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-24T04:08:47.154Z"
+  "updated": "2026-03-24T04:50:15.437Z"
 }
