@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Fusion engine for missile warning lacks a government dataset",
+      "link": "https://spacenews.com/fusion-engine-for-missile-warning-lacks-a-government-dataset/",
+      "source": "SpaceNews",
+      "date": "2026-03-24T10:30:00Z",
+      "summary": "\nWASHINGTON – National missile warning and tracking could be improved if all government agencies shared the raw data they gather. “There are agencies that have sensors that can provide data that would be very supplemental to the missile-defense mission, but they designed it for a completely different purpose,” Devin Elder, Northrop Grumman Strategic Space Systems […]\nThe post Fusion engine for missile warning lacks a government dataset appeared first on SpaceNews."
+    },
+    {
       "title": "Smile fuelled for launch",
       "link": "https://www.esa.int/ESA_Multimedia/Images/2026/03/Smile_fuelled_for_launch",
       "source": "ESA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-24T04:01:00Z",
       "summary": "The powerful storm lashed the northern edge of the continent with damaging winds and drenching rain as it made landfall multiple times."
-    },
-    {
-      "title": "Progress on Starbase Pads ahead of Block 3 Starships",
-      "link": "https://www.nasaspaceflight.com/2026/03/progress-starbase-pads-block-3-starships/",
-      "source": "NASASpaceflight",
-      "date": "2026-03-24T02:21:59Z",
-      "summary": "In a flurry of ground activity that underscores SpaceX’s relentless drive for launch cadence, engineers…\r\nThe post Progress on Starbase Pads ahead of Block 3 Starships appeared first on NASASpaceFlight.com."
     }
   ],
-  "updated": "2026-03-24T10:19:19.183Z"
+  "updated": "2026-03-24T10:37:54.850Z"
 }
