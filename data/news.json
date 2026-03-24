@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "XRISM solves famous star’s 50-year mystery",
+      "link": "https://www.esa.int/Science_Exploration/Space_Science/XRISM_solves_famous_star_s_50-year_mystery",
+      "source": "ESA",
+      "date": "2026-03-24T08:00:00Z",
+      "summary": "An invisible companion consuming material from the naked-eye star gamma-Cas has been revealed as the culprit for curious X-rays coming from the stellar system. This closes the case on a mystery that has puzzled astronomers for more than fifty years. "
+    },
+    {
       "title": "Tropical Cyclone Narelle Crosses Australia",
       "link": "https://science.nasa.gov/earth/earth-observatory/tropical-cyclone-narelle-crosses-australia/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-23T21:37:35Z",
       "summary": "\n‘Cyber defense’ squadrons at Cape Canaveral and Vandenberg reflect growing concern over malicious hacks\nThe post Space Force adds cyber units to guard rocket launches appeared first on SpaceNews."
-    },
-    {
-      "title": "NASA Data Hackathon Inspires Community Action",
-      "link": "https://science.nasa.gov/get-involved/citizen-science/nasa-data-hackathon-inspires-community-action/",
-      "source": "NASA",
-      "date": "2026-03-23T21:30:46Z",
-      "summary": "On Jan. 31, students, library staff, researchers, and community members gathered at the University of Florida’s (UF) Marston Science Library for the Environmental Monitoring through Education, Research, and Geospatial Engagement (EMERGE) NASA Data Hackathon. This initiative empowers libraries, educators, and individuals to engage in public health and environmental science using real-world data tools and citizen […]"
     }
   ],
-  "updated": "2026-03-24T08:08:44.947Z"
+  "updated": "2026-03-24T08:28:42.549Z"
 }
