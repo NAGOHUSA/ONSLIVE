@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA PC-12 Aircraft Makes Move to Support Flight Research Across Agency",
+      "link": "https://www.nasa.gov/image-article/nasa-pc-12-aircraft-makes-move-to-support-flight-research-across-agency/",
+      "source": "NASA",
+      "date": "2026-03-24T21:49:35Z",
+      "summary": "A NASA Pilatus PC-12 aircraft will now be based at NASA’s Armstrong Flight Research Center in Edwards, California, in order to support flight research efforts across the agency. The PC-12 was acquired in 2022 by NASA’s Glenn Research Center in Cleveland for use in advanced technology development. The PC-12 will continue to support research at […]"
+    },
+    {
       "title": "Geopolitical shifts bring opportunities and headaches for satellite execs",
       "link": "https://spacenews.com/geopolitical-shifts-bring-opportunities-and-headaches-for-satellite-execs/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-24T19:57:21Z",
       "summary": "NASA’s IXPE (Imaging X-ray Polarimetry Explorer) mission has taken a new observation of a supernova, RCW 86, helping fill in a fuller picture of what other telescopes have observed. When astronomers using NASA’s Chandra X-ray Observatory previously targeted RCW 86, they discovered that a large “cavity” region around the system led the supernova to expand […]"
-    },
-    {
-      "title": "Moog taps Redwire to provide solar arrays for Meteor",
-      "link": "https://spacenews.com/moog-taps-redwire-to-provide-solar-arrays-for-meteor/",
-      "source": "SpaceNews",
-      "date": "2026-03-24T19:24:51Z",
-      "summary": "\nWASHINGTON — Redwire announced the first award for its new solar arrays, a $12.8 million contract from Moog. Under the contract announced March 24, Redwire will deliver Extensible Low-Profile Solar Array  (ELSA) wings for Moog’s Meteor satellite bus ordered by an undisclosed national security customer. ELSA unveiled earlier this month, is designed to provide 50% more […]\nThe post Moog taps Redwire to provide solar arrays for Meteor appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-24T21:50:03.804Z"
+  "updated": "2026-03-24T22:02:51.076Z"
 }
