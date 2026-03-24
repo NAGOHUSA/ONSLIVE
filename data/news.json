@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA halts work on Gateway to develop a lunar base",
+      "link": "https://spacenews.com/nasa-halts-work-on-gateway-to-develop-a-lunar-base/",
+      "source": "SpaceNews",
+      "date": "2026-03-24T16:09:46Z",
+      "summary": "\nNASA is halting plans to develop the lunar Gateway and instead focusing on the development of a lunar base.\nThe post NASA halts work on Gateway to develop a lunar base appeared first on SpaceNews."
+    },
+    {
       "title": "Space Force officer shares intelligence on threats to space systems",
       "link": "https://spacenews.com/space-force-officer-shares-intelligence-on-threats-to-space-systems/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-24T13:59:00Z",
       "summary": "NASA is joining international partners to hunt for ice on the Moon in support of future human exploration. The agency is providing a water-detecting instrument, the Neutron Spectrometer System (NSS), to the Lunar Polar Exploration (LUPEX) mission led by JAXA (Japan Aerospace Exploration Agency) and ISRO (Indian Space Research Organisation)."
-    },
-    {
-      "title": "NASA Unveils Initiatives to Achieve America’s National Space Policy",
-      "link": "https://www.nasa.gov/news-release/nasa-unveils-initiatives-to-achieve-americas-national-space-policy/",
-      "source": "NASA",
-      "date": "2026-03-24T13:01:25Z",
-      "summary": "As part of its “Ignition” event on Tuesday, NASA announced a series of transformative agencywide initiatives designed to achieve President Donald J. Trump’s National Space Policy and advance American leadership in space. These actions reflect the urgency of the moment, but also the tremendous opportunity ahead for world-changing science and discovery. “NASA is committed to […]"
     }
   ],
-  "updated": "2026-03-24T16:08:20.574Z"
+  "updated": "2026-03-24T16:34:56.434Z"
 }
