@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "La NASA anuncia la cobertura de la misión lunar Artemis II",
+      "link": "https://www.nasa.gov/es/la-nasa-anuncia-la-cobertura-de-la-mision-lunar-artemis-ii/",
+      "source": "NASA",
+      "date": "2026-03-25T23:48:10Z",
+      "summary": "Nota del editor: La NASA actualizará continuamente esta página de sesiones informativas y eventos de la misión Artemis II a lo largo de las actividades previas al lanzamiento, el lanzamiento y las operaciones de la misión. La NASA ofrecerá cobertura en vivo de los eventos previos al lanzamiento, el lanzamiento y las actividades de la […]"
+    },
+    {
       "title": "NASA outlines Moon Base plans, pivots on Gateway",
       "link": "https://www.nasaspaceflight.com/2026/03/nasa-moon-base-pivots-gateway/",
       "source": "NASASpaceflight",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-25T22:55:37Z",
       "summary": "\nOfficials explore shifting missions, extending satellites already in orbit\nThe post Space Force weighs launch alternatives as Vulcan faces potential months-long grounding appeared first on SpaceNews."
-    },
-    {
-      "title": "NASA Sets Coverage for Artemis II Moon Mission",
-      "link": "https://www.nasa.gov/missions/artemis/artemis-2/nasa-sets-coverage-for-artemis-ii-moon-mission/",
-      "source": "NASA",
-      "date": "2026-03-25T21:55:11Z",
-      "summary": "Editor’s note: NASA will continuously update this Artemis II briefings and mission events page throughout prelaunch, launch, and mission activities. NASA will provide live coverage of prelaunch, launch, and mission events for the agency’s upcoming Artemis II crewed test flight around the Moon. Launch is targeted for no earlier than 6:24 p.m. EDT Wednesday, April […]"
     }
   ],
-  "updated": "2026-03-25T23:39:31.054Z"
+  "updated": "2026-03-25T23:53:37.915Z"
 }
