@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA-JAXA’s XRISM Telescope Clocks Hot Wind of Galaxy M82",
+      "link": "https://science.nasa.gov/missions/xrism/nasa-jaxas-xrism-telescope-clocks-hot-wind-of-galaxy-m82/",
+      "source": "NASA",
+      "date": "2026-03-25T16:10:32Z",
+      "summary": "For the first time, astronomers have directly measured the speed of superheated gas billowing from a cauldron of stellar activity at the heart of M82."
+    },
+    {
       "title": "NASA Awards Astrophysics Postdoctoral Fellowships for 2026",
       "link": "https://science.nasa.gov/missions/hubble/nasa-awards-astrophysics-postdoctoral-fellowships-for-2026/",
       "source": "NASA",
@@ -15,13 +22,6 @@
       "summary": "Seattle and Portland, Oregon, are among the cloudiest cities in the United States. But that infamous cloud cover is no match for the U.S.-Indian Earth satellite NISAR (NASA-ISRO Synthetic Aperture Radar), which is designed to peer straight through clouds. Doing so allows scientists to study the Pacific Northwest’s natural landmarks and bustling port cities like […]"
     },
     {
-      "title": "Space for Sustainability",
-      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/03/Space_for_Sustainability",
-      "source": "ESA",
-      "date": "2026-03-25T15:50:00Z",
-      "summary": "The Space for Sustainability project sponsors the European Space for Sustainability Award."
-    },
-    {
       "title": "2026 European Space for Sustainability Award is now open for bold ideas",
       "link": "https://www.esa.int/About_Us/Climate_and_Sustainability/2026_European_Space_for_Sustainability_Award_is_now_open_for_bold_ideas",
       "source": "ESA",
@@ -29,12 +29,12 @@
       "summary": "From the ESA Blogs."
     },
     {
-      "title": "Telesat eyes defense role with laser comms test ahead of LEO debut",
-      "link": "https://spacenews.com/telesat-eyes-defense-role-with-laser-comms-test-ahead-of-leo-debut/",
-      "source": "SpaceNews",
-      "date": "2026-03-25T15:20:04Z",
-      "summary": "\nCanadian operator adds military Ka-band and plans 2027 NASA demonstration as Pentagon seeks faster space data transport\nThe post Telesat eyes defense role with laser comms test ahead of LEO debut appeared first on SpaceNews."
+      "title": "Space for Sustainability",
+      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/03/Space_for_Sustainability",
+      "source": "ESA",
+      "date": "2026-03-25T15:50:00Z",
+      "summary": "The Space for Sustainability project sponsors the European Space for Sustainability Award."
     }
   ],
-  "updated": "2026-03-25T17:04:38.363Z"
+  "updated": "2026-03-25T17:31:40.399Z"
 }
