@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "We got an audience with the \"Lunar Viceroy\" to talk how NASA will build a Moon base",
+      "link": "https://arstechnica.com/space/2026/03/we-got-an-audience-with-the-lunar-viceroy-to-talk-how-nasa-will-build-a-moon-base/",
+      "source": "Arstechnica",
+      "date": "2026-03-25T19:21:57Z",
+      "summary": "\"It has been clear that we all need to be focused on one thing, not 10 things.\""
+    },
+    {
       "title": "Webb Captures Saturn in Infrared",
       "link": "https://www.nasa.gov/image-article/webb-captures-saturn-in-infrared/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASASpaceflight",
       "date": "2026-03-25T17:41:57Z",
       "summary": "The European private space launch provider Isar Aerospace, headquartered in Ottobrunn, Germany, is planning to…\nThe post Isar Aerospace set for second launch of Spectrum rocket appeared first on NASASpaceFlight.com."
-    },
-    {
-      "title": "NASA-JAXA’s XRISM Telescope Clocks Hot Wind of Galaxy M82",
-      "link": "https://science.nasa.gov/missions/xrism/nasa-jaxas-xrism-telescope-clocks-hot-wind-of-galaxy-m82/",
-      "source": "NASA",
-      "date": "2026-03-25T16:10:32Z",
-      "summary": "For the first time, astronomers have directly measured the speed of superheated gas billowing from a cauldron of stellar activity at the heart of M82."
     }
   ],
-  "updated": "2026-03-25T19:21:53.800Z"
+  "updated": "2026-03-25T19:40:29.150Z"
 }
