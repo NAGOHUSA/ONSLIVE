@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "NASA Sets Coverage for First Artemis Crewed Mission Around Moon",
+      "link": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-first-artemis-crewed-mission-around-moon/",
+      "source": "NASA",
+      "date": "2026-03-25T22:58:26Z",
+      "summary": "A variety of prelaunch, launch, and mission events for NASA’s Artemis II mission around the Moon will stream online. The agency is targeting no earlier than Wednesday, April 1, for the test flight during a two-hour window that opens at 6:24 p.m. EDT, with additional launch opportunities through Monday, April 6. Artemis II is NASA’s […]"
+    },
+    {
+      "title": "Space Force weighs launch alternatives as Vulcan faces potential months-long grounding",
+      "link": "https://spacenews.com/space-force-weighs-launch-alternatives-as-vulcan-faces-potential-months-long-grounding/",
+      "source": "SpaceNews",
+      "date": "2026-03-25T22:55:37Z",
+      "summary": "\nOfficials explore shifting missions, extending satellites already in orbit\nThe post Space Force weighs launch alternatives as Vulcan faces potential months-long grounding appeared first on SpaceNews."
+    },
+    {
       "title": "NASA Sets Coverage for Artemis II Moon Mission",
       "link": "https://www.nasa.gov/missions/artemis/artemis-2/nasa-sets-coverage-for-artemis-ii-moon-mission/",
       "source": "NASA",
@@ -20,21 +34,7 @@
       "source": "NASA",
       "date": "2026-03-25T21:19:37Z",
       "summary": "On March 18, 2026, students, staff, and members of NASA’s Langley Research Center gathered at Mary W. Jackson Elementary School in Hampton to celebrate the dedication of a remarkable addition to the campus – an Artemis Moon Tree. Although formally dedicated on this day, the loblolly pine had already taken root months earlier, having been […]"
-    },
-    {
-      "title": "NASA Names Jennifer Lyons as Acting Launch Services Program Manager",
-      "link": "https://www.nasa.gov/centers-and-facilities/kennedy/nasa-names-jennifer-lyons-as-acting-launch-services-program-manager/",
-      "source": "NASA",
-      "date": "2026-03-25T19:59:37Z",
-      "summary": "NASA has selected Jennifer Lyons as acting program manager for the agency’s Launch Services Program (LSP) based at Kennedy Space Center in Florida. In this role, Lyons will lead NASA’s acquisition and management of domestic commercial launch services for science and robotic exploration missions beginning Wednesday, April 1. Lyons will oversee mission planning, launch vehicle […]"
-    },
-    {
-      "title": "Office of Space Commerce releases mission authorization proposal",
-      "link": "https://spacenews.com/office-of-space-commerce-releases-mission-authorization-proposal/",
-      "source": "SpaceNews",
-      "date": "2026-03-25T19:50:28Z",
-      "summary": "\nThe Office of Space Commerce has rolled out its proposal for a “light touch” approach to mission authorization, the latest attempt in an effort to regulate new commercial space applications.\nThe post Office of Space Commerce releases mission authorization proposal appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-25T22:55:45.711Z"
+  "updated": "2026-03-25T23:09:22.812Z"
 }
