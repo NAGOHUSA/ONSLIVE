@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Isar Aerospace set for second launch of Spectrum rocket",
+      "link": "https://www.nasaspaceflight.com/2026/03/isar-onward-and-upward/",
+      "source": "NASASpaceflight",
+      "date": "2026-03-25T17:41:57Z",
+      "summary": "The European private space launch provider Isar Aerospace, headquartered in Ottobrunn, Germany, is planning to…\nThe post Isar Aerospace set for second launch of Spectrum rocket appeared first on NASASpaceFlight.com."
+    },
+    {
       "title": "NASA-JAXA’s XRISM Telescope Clocks Hot Wind of Galaxy M82",
       "link": "https://science.nasa.gov/missions/xrism/nasa-jaxas-xrism-telescope-clocks-hot-wind-of-galaxy-m82/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "ESA",
       "date": "2026-03-25T15:50:00Z",
       "summary": "From the ESA Blogs."
-    },
-    {
-      "title": "Space for Sustainability",
-      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/03/Space_for_Sustainability",
-      "source": "ESA",
-      "date": "2026-03-25T15:50:00Z",
-      "summary": "The Space for Sustainability project sponsors the European Space for Sustainability Award."
     }
   ],
-  "updated": "2026-03-25T17:31:40.399Z"
+  "updated": "2026-03-25T17:54:45.677Z"
 }
