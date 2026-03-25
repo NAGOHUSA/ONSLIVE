@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA proposes new strategy for commercial space stations",
+      "link": "https://spacenews.com/nasa-proposes-new-strategy-for-commercial-space-stations/",
+      "source": "SpaceNews",
+      "date": "2026-03-25T10:37:39Z",
+      "summary": "\nNASA, concerned about slow development of commercial markets, is considering revamping its strategy for supporting the creation of commercial space stations to succeed the International Space Station.\nThe post NASA proposes new strategy for commercial space stations appeared first on SpaceNews."
+    },
+    {
       "title": "Kona Storms Flood Oʻahu",
       "link": "https://science.nasa.gov/earth/earth-observatory/kona-storms-flood-o%ca%bbahu/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-24T21:00:01Z",
       "summary": "\nA shifting geopolitical landscape is driving huge business opportunities for satcoms but also bringing new supply chain and regulatory challenges, industry executives said March 24 at the Satellite Conference in Washington, D.C.\nThe post Geopolitical shifts bring opportunities and headaches for satellite execs appeared first on SpaceNews."
-    },
-    {
-      "title": "Reminders of Where We’ve Been, Where We’re Going",
-      "link": "https://www.nasa.gov/image-article/reminders-of-where-weve-been-where-were-going/",
-      "source": "NASA",
-      "date": "2026-03-24T20:59:15Z",
-      "summary": "Three Moon rocks are on display during a March 24, 2026, event where NASA announced a series of transformative agencywide initiatives designed to achieve the National Space Policy and advance American leadership in space. NASA leadership provided updates on mission priorities, including sending the first astronauts to the lunar surface in more than 50 years, establishing […]"
     }
   ],
-  "updated": "2026-03-25T10:31:27.367Z"
+  "updated": "2026-03-25T10:52:49.845Z"
 }
