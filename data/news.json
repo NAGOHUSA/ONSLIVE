@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Pave Space raises $40 million to develop European heavy kickstage",
+      "link": "https://spacenews.com/pave-space-raises-40-million-to-develop-european-heavy-kickstage/",
+      "source": "SpaceNews",
+      "date": "2026-03-25T11:17:53Z",
+      "summary": "\nSwiss startup Pave Space has raised $40 million to develop an orbital transfer vehicle that could move satellites from LEO to their final destinations in hours instead of months.\nThe post Pave Space raises $40 million to develop European heavy kickstage appeared first on SpaceNews."
+    },
+    {
       "title": "NASA proposes new strategy for commercial space stations",
       "link": "https://spacenews.com/nasa-proposes-new-strategy-for-commercial-space-stations/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "Spaceflight Now",
       "date": "2026-03-25T00:56:20Z",
       "summary": "Along with plans for a moon base, senior NASA managers also outlined work to develop nuclear power systems for use on the moon and Mars to keep astronauts, habitats and other equipment warm while providing the electricity needed for research, construction and daily operations. "
-    },
-    {
-      "title": "NASA PC-12 Aircraft Makes Move to Support Flight Research Across Agency",
-      "link": "https://www.nasa.gov/image-article/nasa-pc-12-aircraft-makes-move-to-support-flight-research-across-agency/",
-      "source": "NASA",
-      "date": "2026-03-24T21:49:35Z",
-      "summary": "A NASA Pilatus PC-12 aircraft will now be based at NASA’s Armstrong Flight Research Center in Edwards, California, in order to support flight research efforts across the agency. The PC-12 was acquired in 2022 by NASA’s Glenn Research Center in Cleveland for use in advanced technology development. The PC-12 will continue to support research at […]"
     }
   ],
-  "updated": "2026-03-25T11:11:10.666Z"
+  "updated": "2026-03-25T11:29:01.291Z"
 }
