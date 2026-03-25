@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Kona Storms Flood Oʻahu",
+      "link": "https://science.nasa.gov/earth/earth-observatory/kona-storms-flood-o%ca%bbahu/",
+      "source": "NASA",
+      "date": "2026-03-25T04:01:00Z",
+      "summary": "Back-to-back subtropical cyclones in March fueled destructive flash flooding on several of the Hawaiian Islands."
+    },
+    {
       "title": "NASA outlines ambitious $20 billion plan for moon base",
       "link": "https://spaceflightnow.com/2026/03/25/nasa-outlines-ambitious-20-billion-plan-for-moon-base/",
       "source": "Spaceflight Now",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-24T20:59:15Z",
       "summary": "Three Moon rocks are on display during a March 24, 2026, event where NASA announced a series of transformative agencywide initiatives designed to achieve the National Space Policy and advance American leadership in space. NASA leadership provided updates on mission priorities, including sending the first astronauts to the lunar surface in more than 50 years, establishing […]"
-    },
-    {
-      "title": "3 Ways Students Can Get Involved With Artemis",
-      "link": "https://www.nasa.gov/learning-resources/3-ways-students-can-get-involved-with-artemis/",
-      "source": "NASA",
-      "date": "2026-03-24T20:41:08Z",
-      "summary": "NASA’s Artemis program will establish a sustainable lunar presence, unlock new scientific discoveries, and develop technologies for spaceflight to Mars and beyond – and students can help shape this new era of space exploration. As America launches this new Golden Age of innovation and exploration, NASA and its partners offer exciting opportunities for students to […]"
     }
   ],
-  "updated": "2026-03-25T03:25:03.388Z"
+  "updated": "2026-03-25T04:14:53.443Z"
 }
