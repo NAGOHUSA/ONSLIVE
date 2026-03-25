@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Infinity Avionics Unveils Aquila: The Next-Generation Space Imaging Solution for Complex Orbital Operations",
+      "link": "https://spacenews.com/infinity-avionics-unveils-aquila-the-next-generation-space-imaging-solution-for-complex-orbital-operations/",
+      "source": "SpaceNews",
+      "date": "2026-03-25T14:00:00Z",
+      "summary": "\nCANBERRA, Australia: Infinity Avionics, a leader in smart vision systems for the NewSpace economy, announced today the full commercial availability of Aquila. Following a standout debut at IAC Sydney, the […]\nThe post Infinity Avionics Unveils Aquila: The Next-Generation Space Imaging Solution for Complex Orbital Operations appeared first on SpaceNews."
+    },
+    {
       "title": "Airbase raises $5 million to tackle spectrum bottleneck as FCC eyes new space uses",
       "link": "https://spacenews.com/airbase-raises-5-million-to-tackle-spectrum-bottleneck-as-fcc-eyes-new-space-uses/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-25T10:37:39Z",
       "summary": "NASA, concerned about slow development of commercial markets, is considering revamping its strategy for supporting the creation of commercial space stations to succeed the International Space Station.\r\nThe post NASA proposes new strategy for commercial space stations appeared first on SpaceNews."
-    },
-    {
-      "title": "Amazon wildfire emissions up to three times higher than estimated",
-      "link": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-5P/Amazon_wildfire_emissions_up_to_three_times_higher_than_estimated",
-      "source": "ESA",
-      "date": "2026-03-25T09:30:00Z",
-      "summary": "Wildfires that swept across the Amazon in 2024 were the most devastating in more than two decades. New research funded by the European Space Agency (ESA) suggests emissions may have been up to three times higher than earlier estimates."
     }
   ],
-  "updated": "2026-03-25T13:54:50.499Z"
+  "updated": "2026-03-25T14:22:37.752Z"
 }
