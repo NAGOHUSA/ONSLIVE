@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA-ISRO Satellite Captures Pacific Northwest Through Clouds",
+      "link": "https://www.nasa.gov/missions/nisar/nasa-isro-satellite-captures-pacific-northwest-through-clouds/",
+      "source": "NASA",
+      "date": "2026-03-25T15:51:39Z",
+      "summary": "Seattle and Portland, Oregon, are among the cloudiest cities in the United States. But that infamous cloud cover is no match for the U.S.-Indian Earth satellite NISAR (NASA-ISRO Synthetic Aperture Radar), which is designed to peer straight through clouds. Doing so allows scientists to study the Pacific Northwest’s natural landmarks and bustling port cities like […]"
+    },
+    {
       "title": "Telesat eyes defense role with laser comms test ahead of LEO debut",
       "link": "https://spacenews.com/telesat-eyes-defense-role-with-laser-comms-test-ahead-of-leo-debut/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-25T13:17:09Z",
       "summary": "\nNew York-based software startup Airbase emerged from stealth March 25 after raising $5 million to modernize how governments coordinate radio frequencies used by satellites, 5G networks and other wireless systems.\nThe post Airbase raises $5 million to tackle spectrum bottleneck as FCC eyes new space uses appeared first on SpaceNews."
-    },
-    {
-      "title": "Musk wants to go to the moon. But how will he build his ‘self-growing city’?",
-      "link": "https://spacenews.com/musk-wants-to-go-to-the-moon-but-how-will-he-build-his-self-growing-city/",
-      "source": "SpaceNews",
-      "date": "2026-03-25T13:00:00Z",
-      "summary": "\nIt goes without saying that we shouldn’t take everything Elon Musk says too seriously. There are whole websites dedicated to those times when he has ‘talked the talk’ but failed to ‘walk the walk’ — as well as those times when he has been factually untrue. But his latest claim, which is that he will […]\nThe post Musk wants to go to the moon. But how will he build his ‘self-growing city’? appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-25T15:42:24.966Z"
+  "updated": "2026-03-25T16:09:49.874Z"
 }
