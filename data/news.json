@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "NASA to Unveil Complete Roman Telescope, Host Media Briefing",
+      "link": "https://www.nasa.gov/news-release/nasa-to-unveil-complete-roman-telescope-host-media-briefing/",
+      "source": "NASA",
+      "date": "2026-03-26T20:18:47Z",
+      "summary": "Media are invited Tuesday, April 21, to NASA’s Goddard Space Flight Center in Greenbelt, Maryland, for a look at the agency’s Nancy Grace Roman Space Telescope, which recently completed construction and is wrapping up prelaunch testing. This will be one of the last opportunities to view the fully integrated flagship telescope before it ships to […]"
+    },
+    {
+      "title": "NASA Releases Artemis II Moon Mission Launch Countdown",
+      "link": "https://www.nasa.gov/general/nasa-releases-artemis-ii-moon-mission-launch-countdown/",
+      "source": "NASA",
+      "date": "2026-03-26T20:12:30Z",
+      "summary": "Before NASA sends its astronauts Reid Wiseman, Victor Glover, Christina Koch, and CSA (Canadian Space Agency) astronaut Jeremy Hansen on their Artemis II mission around the Moon, the launch team at NASA’s Kennedy Space Center in Florida and teams across the country will begin counting down about two days before liftoff.  A launch countdown contains […]"
+    },
+    {
       "title": "Station Nation: Aaron Rose, Cold Stowage Mission Manager",
       "link": "https://www.nasa.gov/centers-and-facilities/johnson/station-nation-aaron-rose-cold-stowage-mission-manager/",
       "source": "NASA",
@@ -20,21 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-26T19:17:37Z",
       "summary": "\nThe company is scaling up production as it looks to build a 258-satellite network to provide positioning, navigation and timing services\nThe post Xona raises $170 million for satellite navigation network appeared first on SpaceNews."
-    },
-    {
-      "title": "China sends radar mapping and GNSS augmentation sats into orbit with pair of launches",
-      "link": "https://spacenews.com/china-sends-radar-mapping-and-gnss-augmentation-sats-into-orbit-with-pair-of-launches/",
-      "source": "SpaceNews",
-      "date": "2026-03-26T17:51:51Z",
-      "summary": "\nChina conducted a pair of launches in recent days, adding new satellites to the SuperView and CentiSpace low Earth orbit infrastructure constellations.\nThe post China sends radar mapping and GNSS augmentation sats into orbit with pair of launches appeared first on SpaceNews."
-    },
-    {
-      "title": "Arctic Winter Sea Ice Ties Record Low, NASA, NSIDC Scientists Find",
-      "link": "https://science.nasa.gov/earth/arctic-winter-sea-ice-2026/",
-      "source": "NASA",
-      "date": "2026-03-26T17:00:55Z",
-      "summary": "For the second consecutive year, winter sea ice in the Arctic reached a level that matches the lowest peak observed since satellite monitoring began in 1979. On March 15, Arctic sea ice extent reached 5.52 million square miles (14.29 million square kilometers), very close to the 2025 peak of 5.53 million square miles (14.31 million […]"
     }
   ],
-  "updated": "2026-03-26T20:16:31.159Z"
+  "updated": "2026-03-26T20:32:02.316Z"
 }
