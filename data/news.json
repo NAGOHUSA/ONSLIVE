@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "La NASA anuncia la cobertura de la de la primera misión tripulada Artemis alrededor de la Luna",
+      "link": "https://www.nasa.gov/news-release/la-nasa-anuncia-la-cobertura-de-la-de-la-primera-mision-tripulada-artemis-alrededor-de-la-luna/",
+      "source": "NASA",
+      "date": "2026-03-26T14:55:22Z",
+      "summary": "Diversos eventos previos al lanzamiento, del lanzamiento y de la misión Artemis II de la NASA alrededor de la Luna se transmitirán en línea. La agencia tiene como fecha objetivo no antes del miércoles 1 de abril para este vuelo de prueba, con una ventana de lanzamiento de dos horas que se abre a las […]"
+    },
+    {
       "title": "NASA’s Hubble Detects First-Ever Spin Reversal of Tiny Comet",
       "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-detects-first-ever-spin-reversal-of-tiny-comet/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-26T11:24:09Z",
       "summary": "\nNASA’s new exploration strategy includes the rapid development of a nuclear-powered mission to Mars in 2028, leveraging hardware originally built for the lunar Gateway.\nThe post NASA to test nuclear electric propulsion with 2028 mission to Mars appeared first on SpaceNews."
-    },
-    {
-      "title": "A Hot Start to Spring in the Southwest",
-      "link": "https://science.nasa.gov/earth/earth-observatory/a-hot-start-to-spring-in-the-southwest/",
-      "source": "NASA",
-      "date": "2026-03-26T04:00:00Z",
-      "summary": "Temperatures in several states climbed over 100 degrees Fahrenheit in March 2026, which in some places was the highest March temperature on record."
     }
   ],
-  "updated": "2026-03-26T14:45:16.925Z"
+  "updated": "2026-03-26T15:13:28.167Z"
 }
