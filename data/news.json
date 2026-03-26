@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "La NASA presentará el telescopio Roman completo y ofrecerá una conferencia de prensa",
+      "link": "https://www.nasa.gov/news-release/la-nasa-presentara-el-telescopio-roman-completo-y-ofrecera-una-conferencia-de-prensa/",
+      "source": "NASA",
+      "date": "2026-03-26T20:53:17Z",
+      "summary": "Se invita a los medios de comunicación el martes 21 de abril al Centro de Vuelo Espacial Goddard de la NASA en Greenbelt, Maryland, para conocer el telescopio espacial Nancy Grace Roman de la agencia, cuya construcción terminó recientemente y el cual se encuentra ultimando las pruebas previas a su lanzamiento. Esta será una de […]"
+    },
+    {
       "title": "NASA to Unveil Complete Roman Telescope, Host Media Briefing",
       "link": "https://www.nasa.gov/news-release/nasa-to-unveil-complete-roman-telescope-host-media-briefing/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-26T19:49:36Z",
       "summary": "\nWhile the space economy is expanding across multiple fronts, questions remain about how some of its most promising opportunities could translate growing demand into sustainable profits.\nThe post Turning growth into profits remains a challenge as space demand grows appeared first on SpaceNews."
-    },
-    {
-      "title": "Xona raises $170 million for satellite navigation network",
-      "link": "https://spacenews.com/xona-raises-170-million-for-satellite-navigation-network/",
-      "source": "SpaceNews",
-      "date": "2026-03-26T19:17:37Z",
-      "summary": "\nThe company is scaling up production as it looks to build a 258-satellite network to provide positioning, navigation and timing services\nThe post Xona raises $170 million for satellite navigation network appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-26T20:49:06.464Z"
+  "updated": "2026-03-26T21:02:41.139Z"
 }
