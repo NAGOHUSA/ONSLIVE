@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Golden Dome and the velocity race: Why ground-based optics are the key to mission persistence",
+      "link": "https://spacenews.com/golden-dome-and-the-velocity-race-why-ground-based-optics-are-the-key-to-mission-persistence/",
+      "source": "SpaceNews",
+      "date": "2026-03-26T13:00:00Z",
+      "summary": "\nWhile often described as a moonshot for missile defense, the Golden Dome for America mission is in reality something even more challenging: an exercise in disciplined systems engineering under threat. Hypersonic glide vehicles, maneuvering ballistic missiles and complex decoys are compressing timelines while raising the stakes for any gap in accuracy. In this environment, the […]\nThe post Golden Dome and the velocity race: Why ground-based optics are the key to mission persistence appeared first on SpaceNews."
+    },
+    {
       "title": "NASA to test nuclear electric propulsion with 2028 mission to Mars",
       "link": "https://spacenews.com/nasa-to-test-nuclear-electric-propulsion-with-2028-mission-to-mars/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASASpaceflight",
       "date": "2026-03-25T23:16:13Z",
       "summary": "In a major shift announced during its “Ignition” event this week, NASA unveiled a detailed…\r\nThe post NASA outlines Moon Base plans, pivots on Gateway appeared first on NASASpaceFlight.com."
-    },
-    {
-      "title": "NASA Ames Experts Available for Artemis II Flight Test Interviews",
-      "link": "https://www.nasa.gov/general/nasa-ames-experts-available-for-artemis-ii-flight-test-interviews/",
-      "source": "NASA",
-      "date": "2026-03-25T23:16:01Z",
-      "summary": "NASA’s Ames Research Center in Silicon Valley invites media to interview local subject matter experts on Friday, March 27 from 10 a.m. to 2 p.m. ahead of the agency sending astronauts around the Moon for the first time in more than 50 years with the Artemis II flight test. NASA teams are gearing up for […]"
     }
   ],
-  "updated": "2026-03-26T13:03:02.752Z"
+  "updated": "2026-03-26T13:40:21.053Z"
 }
