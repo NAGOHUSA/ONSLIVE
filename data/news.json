@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Xona raises $170 million for satellite navigation network",
+      "link": "https://spacenews.com/xona-raises-170-million-for-satellite-navigation-network/",
+      "source": "SpaceNews",
+      "date": "2026-03-26T19:17:37Z",
+      "summary": "\nThe company is scaling up production as it looks to build a 258-satellite network to provide positioning, navigation and timing services\nThe post Xona raises $170 million for satellite navigation network appeared first on SpaceNews."
+    },
+    {
       "title": "China sends radar mapping and GNSS augmentation sats into orbit with pair of launches",
       "link": "https://spacenews.com/china-sends-radar-mapping-and-gnss-augmentation-sats-into-orbit-with-pair-of-launches/",
       "source": "SpaceNews",
@@ -9,14 +16,14 @@
     },
     {
       "title": "Arctic Winter Sea Ice Ties Record Low, NASA, NSIDC Scientists Find",
-      "link": "https://science.nasa.gov/earth/arctic-winter-sea-ice-2026/",
+      "link": "https://science.nasa.gov/uncategorized/arctic-winter-sea-ice-2026/",
       "source": "NASA",
       "date": "2026-03-26T17:00:55Z",
       "summary": "For the second consecutive year, winter sea ice in the Arctic reached a level that matches the lowest peak observed since satellite monitoring began in 1979. On March 15, Arctic sea ice extent reached 5.52 million square miles (14.29 million square kilometers), very close to the 2025 peak of 5.53 million square miles (14.31 million […]"
     },
     {
       "title": "Arctic Winter Sea Ice Ties Record Low, NASA, NSIDC Scientists Find",
-      "link": "https://science.nasa.gov/uncategorized/arctic-winter-sea-ice-2026/",
+      "link": "https://science.nasa.gov/earth/arctic-winter-sea-ice-2026/",
       "source": "NASA",
       "date": "2026-03-26T17:00:55Z",
       "summary": "For the second consecutive year, winter sea ice in the Arctic reached a level that matches the lowest peak observed since satellite monitoring began in 1979. On March 15, Arctic sea ice extent reached 5.52 million square miles (14.29 million square kilometers), very close to the 2025 peak of 5.53 million square miles (14.31 million […]"
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-26T16:58:30Z",
       "summary": "NASA’s IXPE (Imaging X-ray Polarimetry Explorer) mission has taken a new observation of a supernova, RCW 86, seen here in an image released on March 24, 2026. This observation helps fill in a fuller picture of what other telescopes have seen. The full image combines IXPE’s data with legacy observations from two other X-ray telescopes: […]"
-    },
-    {
-      "title": "Live Coverage: SpaceX to launch batch of Starlink satellites from the West Coast",
-      "link": "https://spaceflightnow.com/2026/03/26/spacex-to-launch-batch-of-starlink-satellites-from-the-west-coast/",
-      "source": "Spaceflight Now",
-      "date": "2026-03-26T16:50:00Z",
-      "summary": "Liftoff of the Starlink 17-17 mission from Vandenberg Space Force Base, in California is scheduled during a launch window that opens at 4:03 p.m. PDT (7:03 p.m. EDT / 2303 UTC). "
     }
   ],
-  "updated": "2026-03-26T18:51:59.719Z"
+  "updated": "2026-03-26T19:21:09.744Z"
 }
