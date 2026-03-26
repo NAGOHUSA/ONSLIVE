@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Space Command begins phased move to Alabama",
+      "link": "https://spacenews.com/space-command-begins-phased-move-to-alabama/",
+      "source": "SpaceNews",
+      "date": "2026-03-26T21:20:42Z",
+      "summary": "\nThe new headquarters building is expected to be completed by 2031\nThe post Space Command begins phased move to Alabama  appeared first on SpaceNews."
+    },
+    {
       "title": "What’s Up: April 2026 Skywatching Tips from NASA",
       "link": "https://science.nasa.gov/solar-system/whats-up-april-2026-skywatching-tips-from-nasa/",
       "source": "NASA",
@@ -15,26 +22,19 @@
       "summary": "Se invita a los medios de comunicación el martes 21 de abril al Centro de Vuelo Espacial Goddard de la NASA en Greenbelt, Maryland, para conocer el telescopio espacial Nancy Grace Roman de la agencia, cuya construcción terminó recientemente y el cual se encuentra ultimando las pruebas previas a su lanzamiento. Esta será una de […]"
     },
     {
+      "title": "Government use of commercial procurement models has limitations in space",
+      "link": "https://spacenews.com/government-use-of-commercial-procurement-models-has-limitations-in-space/",
+      "source": "SpaceNews",
+      "date": "2026-03-26T20:36:34Z",
+      "summary": "\nWhile government agencies are increasingly turning to commercial contracting mechanisms for space capabilities, that does not necessarily translate to additional business opportunities for the companies offering them.\nThe post Government use of commercial procurement models has limitations in space appeared first on SpaceNews."
+    },
+    {
       "title": "NASA to Unveil Complete Roman Telescope, Host Media Briefing",
       "link": "https://www.nasa.gov/news-release/nasa-to-unveil-complete-roman-telescope-host-media-briefing/",
       "source": "NASA",
       "date": "2026-03-26T20:18:47Z",
       "summary": "Media are invited Tuesday, April 21, to NASA’s Goddard Space Flight Center in Greenbelt, Maryland, for a look at the agency’s Nancy Grace Roman Space Telescope, which recently completed construction and is wrapping up prelaunch testing. This will be one of the last opportunities to view the fully integrated flagship telescope before it ships to […]"
-    },
-    {
-      "title": "NASA Releases Artemis II Moon Mission Launch Countdown",
-      "link": "https://www.nasa.gov/general/nasa-releases-artemis-ii-moon-mission-launch-countdown/",
-      "source": "NASA",
-      "date": "2026-03-26T20:12:30Z",
-      "summary": "Before NASA sends its astronauts Reid Wiseman, Victor Glover, Christina Koch, and CSA (Canadian Space Agency) astronaut Jeremy Hansen on their Artemis II mission around the Moon, the launch team at NASA’s Kennedy Space Center in Florida and teams across the country will begin counting down about two days before liftoff.  A launch countdown contains […]"
-    },
-    {
-      "title": "Station Nation: Aaron Rose, Cold Stowage Mission Manager",
-      "link": "https://www.nasa.gov/centers-and-facilities/johnson/station-nation-aaron-rose-cold-stowage-mission-manager/",
-      "source": "NASA",
-      "date": "2026-03-26T19:50:28Z",
-      "summary": "As a member of the Crew and Thermal Systems Division, Aaron Rose supports critical cargo resupply missions to the International Space Station. In this role, he works with payload developers to safely transport temperature-controlled science experiments to and from station with portable coolers, freezers, and refrigerators.  For the full flight cycle, Rose and his team members ensure all cold stowage hardware, operations, and personnel are coordinated to […]"
     }
   ],
-  "updated": "2026-03-26T21:16:37.537Z"
+  "updated": "2026-03-26T21:31:14.914Z"
 }
