@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Arctic Winter Sea Ice Ties Record Low, NASA, NSIDC Scientists Find",
+      "link": "https://science.nasa.gov/uncategorized/arctic-winter-sea-ice-2026/",
+      "source": "NASA",
+      "date": "2026-03-26T17:00:55Z",
+      "summary": "For the second consecutive year, winter sea ice in the Arctic reached a level that matches the lowest peak observed since satellite monitoring began in 1979. On March 15, Arctic sea ice extent reached 5.52 million square miles (14.29 million square kilometers), very close to the 2025 peak of 5.53 million square miles (14.31 million […]"
+    },
+    {
       "title": "NASA’s IXPE Gets Fresh Look at Supernova",
       "link": "https://www.nasa.gov/image-article/nasas-ixpe-gets-fresh-look-at-supernova/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-26T15:46:21Z",
       "summary": "\nParis, France – March, 2026 – Novaspace’s latest High Throughput Satellites (HTS) report shows global demand reaching 218 Tbps by 2034, while service revenues are set to more than double to $76 billion over the same period. The findings […]\nThe post HTS Market Set to Reach $76B as Industry Enters Terabit Era appeared first on SpaceNews."
-    },
-    {
-      "title": "Curiosity Blog, Sols 4838-4844: Wrapping Up the Boxwork Terrain",
-      "link": "https://science.nasa.gov/blog/curiosity-blog-sols-4838-4844-wrapping-up-the-boxwork-terrain/",
-      "source": "NASA",
-      "date": "2026-03-26T15:26:13Z",
-      "summary": "Written by Deborah Padgett, MSL Operations Product Ground System Task Lead at NASA’s Jet Propulsion Laboratory Earth planning date: Friday, March 20, 2026 Curiosity has just concluded a very intense week of science observations and engineering activities, as it wraps up its monthslong investigation of the Martian boxwork terrain. Three days of planning this week […]"
     }
   ],
-  "updated": "2026-03-26T17:07:49.445Z"
+  "updated": "2026-03-26T17:33:56.164Z"
 }
