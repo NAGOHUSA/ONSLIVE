@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "HTS Market Set to Reach $76B as Industry Enters Terabit Era",
+      "link": "https://spacenews.com/hts-market-set-to-reach-76b-as-industry-enters-terabit-era/",
+      "source": "SpaceNews",
+      "date": "2026-03-26T15:46:21Z",
+      "summary": "\nParis, France – March, 2026 – Novaspace’s latest High Throughput Satellites (HTS) report shows global demand reaching 218 Tbps by 2034, while service revenues are set to more than double to $76 billion over the same period. The findings […]\nThe post HTS Market Set to Reach $76B as Industry Enters Terabit Era appeared first on SpaceNews."
+    },
+    {
+      "title": "Curiosity Blog, Sols 4838-4844: Wrapping Up the Boxwork Terrain",
+      "link": "https://science.nasa.gov/blog/curiosity-blog-sols-4838-4844-wrapping-up-the-boxwork-terrain/",
+      "source": "NASA",
+      "date": "2026-03-26T15:26:13Z",
+      "summary": "Written by Deborah Padgett, MSL Operations Product Ground System Task Lead at NASA’s Jet Propulsion Laboratory Earth planning date: Friday, March 20, 2026 Curiosity has just concluded a very intense week of science observations and engineering activities, as it wraps up its monthslong investigation of the Martian boxwork terrain. Three days of planning this week […]"
+    },
+    {
       "title": "La NASA anuncia la cobertura de la de la primera misión tripulada Artemis alrededor de la Luna",
       "link": "https://www.nasa.gov/news-release/la-nasa-anuncia-la-cobertura-de-la-de-la-primera-mision-tripulada-artemis-alrededor-de-la-luna/",
       "source": "NASA",
@@ -20,21 +34,7 @@
       "source": "NASA",
       "date": "2026-03-26T14:00:11Z",
       "summary": "Astronomers using NASA’s Hubble Space Telescope have found evidence that the spinning of a small comet slowed and then reversed its direction of rotation, offering a dramatic example of how volatile activity can affect the spin and physical evolution of small bodies in the solar system. This is the first time researchers have observed evidence […]"
-    },
-    {
-      "title": "Hughes targets sovereign satcom demand with network control software",
-      "link": "https://spacenews.com/hughes-targets-sovereign-satcom-demand-with-network-control-software/",
-      "source": "SpaceNews",
-      "date": "2026-03-26T14:00:00Z",
-      "summary": "\nCompany rolls out AI-enabled modem as militaries shift to hybrid networks\nThe post Hughes targets sovereign satcom demand with network control software appeared first on SpaceNews."
-    },
-    {
-      "title": "Golden Dome and the velocity race: Why ground-based optics are the key to mission persistence",
-      "link": "https://spacenews.com/golden-dome-and-the-velocity-race-why-ground-based-optics-are-the-key-to-mission-persistence/",
-      "source": "SpaceNews",
-      "date": "2026-03-26T13:00:00Z",
-      "summary": "\nWhile often described as a moonshot for missile defense, the Golden Dome for America mission is in reality something even more challenging: an exercise in disciplined systems engineering under threat. Hypersonic glide vehicles, maneuvering ballistic missiles and complex decoys are compressing timelines while raising the stakes for any gap in accuracy. In this environment, the […]\nThe post Golden Dome and the velocity race: Why ground-based optics are the key to mission persistence appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-26T15:45:32.900Z"
+  "updated": "2026-03-26T16:14:00.003Z"
 }
