@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA Gears Up for Artemis II Launch Around the Moon a Week From Now",
+      "link": "https://spacepolicyonline.com/news/nasa-gears-up-for-artemis-ii-launch-around-the-moon-a-week-from-now/",
+      "source": "SpacePolicyOnline.com",
+      "date": "2026-03-26T02:10:54Z",
+      "summary": "NASA continues to plan for the launch of the first crewed mission around the Moon in more than 50 years one week from today. Weather or technical issues could still […]"
+    },
+    {
       "title": "La NASA anuncia la cobertura de la misión lunar Artemis II",
       "link": "https://www.nasa.gov/es/la-nasa-anuncia-la-cobertura-de-la-mision-lunar-artemis-ii/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-25T22:58:26Z",
       "summary": "A variety of prelaunch, launch, and mission events for NASA’s Artemis II mission around the Moon will stream online. The agency is targeting no earlier than Wednesday, April 1, for the test flight during a two-hour window that opens at 6:24 p.m. EDT, with additional launch opportunities through Monday, April 6. Artemis II is NASA’s […]"
-    },
-    {
-      "title": "Space Force weighs launch alternatives as Vulcan faces potential months-long grounding",
-      "link": "https://spacenews.com/space-force-weighs-launch-alternatives-as-vulcan-faces-potential-months-long-grounding/",
-      "source": "SpaceNews",
-      "date": "2026-03-25T22:55:37Z",
-      "summary": "\nOfficials explore shifting missions, extending satellites already in orbit\nThe post Space Force weighs launch alternatives as Vulcan faces potential months-long grounding appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-26T01:29:36.837Z"
+  "updated": "2026-03-26T02:21:34.278Z"
 }
