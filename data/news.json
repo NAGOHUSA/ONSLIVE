@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "A Hot Start to Spring in the Southwest",
+      "link": "https://science.nasa.gov/earth/earth-observatory/a-hot-start-to-spring-in-the-southwest/",
+      "source": "NASA",
+      "date": "2026-03-26T04:00:00Z",
+      "summary": "Temperatures in several states climbed over 100 degrees Fahrenheit in March 2026, which in some places was the highest March temperature on record."
+    },
+    {
       "title": "NASA Gears Up for Artemis II Launch Around the Moon a Week From Now",
       "link": "https://spacepolicyonline.com/news/nasa-gears-up-for-artemis-ii-launch-around-the-moon-a-week-from-now/",
       "source": "SpacePolicyOnline.com",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-25T23:16:01Z",
       "summary": "NASA’s Ames Research Center in Silicon Valley invites media to interview local subject matter experts on Friday, March 27 from 10 a.m. to 2 p.m. ahead of the agency sending astronauts around the Moon for the first time in more than 50 years with the Artemis II flight test. NASA teams are gearing up for […]"
-    },
-    {
-      "title": "NASA Sets Coverage for First Artemis Crewed Mission Around Moon",
-      "link": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-first-artemis-crewed-mission-around-moon/",
-      "source": "NASA",
-      "date": "2026-03-25T22:58:26Z",
-      "summary": "A variety of prelaunch, launch, and mission events for NASA’s Artemis II mission around the Moon will stream online. The agency is targeting no earlier than Wednesday, April 1, for the test flight during a two-hour window that opens at 6:24 p.m. EDT, with additional launch opportunities through Monday, April 6. Artemis II is NASA’s […]"
     }
   ],
-  "updated": "2026-03-26T03:28:51.970Z"
+  "updated": "2026-03-26T04:21:46.952Z"
 }
