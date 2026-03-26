@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Satlantis earnings grow alongside demand for Earth-observation satellites",
+      "link": "https://spacenews.com/satlantis-earnings-grow-alongside-demand-for-earth-observation-satellites/",
+      "source": "SpaceNews",
+      "date": "2026-03-26T16:05:00Z",
+      "summary": "\nWASHINGTON – Satlantis reported revenues of 47.8 million euros ($56.4 million) in 2025, with more than 50% of the Spanish company’s income derived from small-satellite sales and operations. Audited earnings before interest, taxes, depreciation and amortization were 14.4 million euros. The results show remarkable evolution of a company focused primarily on developing and manufacturing high-resolution […]\nThe post Satlantis earnings grow alongside demand for Earth-observation satellites appeared first on SpaceNews."
+    },
+    {
       "title": "HTS Market Set to Reach $76B as Industry Enters Terabit Era",
       "link": "https://spacenews.com/hts-market-set-to-reach-76b-as-industry-enters-terabit-era/",
       "source": "SpaceNews",
@@ -15,26 +22,19 @@
       "summary": "Written by Deborah Padgett, MSL Operations Product Ground System Task Lead at NASA’s Jet Propulsion Laboratory Earth planning date: Friday, March 20, 2026 Curiosity has just concluded a very intense week of science observations and engineering activities, as it wraps up its monthslong investigation of the Martian boxwork terrain. Three days of planning this week […]"
     },
     {
+      "title": "We’re going to the Moon | Artemis II ESAxASH",
+      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/03/We_re_going_to_the_Moon_Artemis_II_ESAxASH",
+      "source": "ESA",
+      "date": "2026-03-26T15:00:00Z",
+      "summary": "For the first time in over 50 years, humans are going back to the Moon. This time, Europe is part of that journey."
+    },
+    {
       "title": "La NASA anuncia la cobertura de la de la primera misión tripulada Artemis alrededor de la Luna",
       "link": "https://www.nasa.gov/news-release/la-nasa-anuncia-la-cobertura-de-la-de-la-primera-mision-tripulada-artemis-alrededor-de-la-luna/",
       "source": "NASA",
       "date": "2026-03-26T14:55:22Z",
       "summary": "Diversos eventos previos al lanzamiento, del lanzamiento y de la misión Artemis II de la NASA alrededor de la Luna se transmitirán en línea. La agencia tiene como fecha objetivo no antes del miércoles 1 de abril para este vuelo de prueba, con una ventana de lanzamiento de dos horas que se abre a las […]"
-    },
-    {
-      "title": "Smile pre-launch media briefing",
-      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/03/Smile_pre-launch_media_briefing",
-      "source": "ESA",
-      "date": "2026-03-26T14:22:00Z",
-      "summary": "Watch the replay of the Smile pre-launch media briefing. The briefing covered key details ahead of the mission’s launch aboard a Vega-C rocket from Europe’s Spaceport in French Guiana. Smile is a joint mission between ESA and the Chinese Academy of Sciences, designed to study how the solar wind interacts with Earth’s magnetic field."
-    },
-    {
-      "title": "NASA’s Hubble Detects First-Ever Spin Reversal of Tiny Comet",
-      "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-detects-first-ever-spin-reversal-of-tiny-comet/",
-      "source": "NASA",
-      "date": "2026-03-26T14:00:11Z",
-      "summary": "Astronomers using NASA’s Hubble Space Telescope have found evidence that the spinning of a small comet slowed and then reversed its direction of rotation, offering a dramatic example of how volatile activity can affect the spin and physical evolution of small bodies in the solar system. This is the first time researchers have observed evidence […]"
     }
   ],
-  "updated": "2026-03-26T16:14:00.003Z"
+  "updated": "2026-03-26T16:41:25.644Z"
 }
