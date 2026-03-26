@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Station Nation: Aaron Rose, Cold Stowage Mission Manager",
+      "link": "https://www.nasa.gov/centers-and-facilities/johnson/station-nation-aaron-rose-cold-stowage-mission-manager/",
+      "source": "NASA",
+      "date": "2026-03-26T19:50:28Z",
+      "summary": "As a member of the Crew and Thermal Systems Division, Aaron Rose supports critical cargo resupply missions to the International Space Station. In this role, he works with payload developers to safely transport temperature-controlled science experiments to and from station with portable coolers, freezers, and refrigerators.  For the full flight cycle, Rose and his team members ensure all cold stowage hardware, operations, and personnel are coordinated to […]"
+    },
+    {
       "title": "Turning growth into profits remains a challenge as space demand grows",
       "link": "https://spacenews.com/turning-growth-into-profits-remains-a-challenge-as-space-demand-grows/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-26T17:00:55Z",
       "summary": "For the second consecutive year, winter sea ice in the Arctic reached a level that matches the lowest peak observed since satellite monitoring began in 1979. On March 15, Arctic sea ice extent reached 5.52 million square miles (14.29 million square kilometers), very close to the 2025 peak of 5.53 million square miles (14.31 million […]"
-    },
-    {
-      "title": "Arctic Winter Sea Ice Ties Record Low, NASA, NSIDC Scientists Find",
-      "link": "https://science.nasa.gov/uncategorized/arctic-winter-sea-ice-2026/",
-      "source": "NASA",
-      "date": "2026-03-26T17:00:55Z",
-      "summary": "For the second consecutive year, winter sea ice in the Arctic reached a level that matches the lowest peak observed since satellite monitoring began in 1979. On March 15, Arctic sea ice extent reached 5.52 million square miles (14.29 million square kilometers), very close to the 2025 peak of 5.53 million square miles (14.31 million […]"
     }
   ],
-  "updated": "2026-03-26T19:59:22.911Z"
+  "updated": "2026-03-26T20:16:31.159Z"
 }
