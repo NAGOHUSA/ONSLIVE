@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Hughes targets sovereign satcom demand with network control software",
+      "link": "https://spacenews.com/hughes-targets-sovereign-satcom-demand-with-network-control-software/",
+      "source": "SpaceNews",
+      "date": "2026-03-26T14:00:00Z",
+      "summary": "\nCompany rolls out AI-enabled modem as militaries shift to hybrid networks\nThe post Hughes targets sovereign satcom demand with network control software appeared first on SpaceNews."
+    },
+    {
       "title": "Golden Dome and the velocity race: Why ground-based optics are the key to mission persistence",
       "link": "https://spacenews.com/golden-dome-and-the-velocity-race-why-ground-based-optics-are-the-key-to-mission-persistence/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpacePolicyOnline.com",
       "date": "2026-03-26T02:10:54Z",
       "summary": "NASA continues to plan for the launch of the first crewed mission around the Moon in more than 50 years one week from today. Weather or technical issues could still […]"
-    },
-    {
-      "title": "NASA outlines Moon Base plans, pivots on Gateway",
-      "link": "https://www.nasaspaceflight.com/2026/03/nasa-moon-base-pivots-gateway/",
-      "source": "NASASpaceflight",
-      "date": "2026-03-25T23:16:13Z",
-      "summary": "In a major shift announced during its “Ignition” event this week, NASA unveiled a detailed…\r\nThe post NASA outlines Moon Base plans, pivots on Gateway appeared first on NASASpaceFlight.com."
     }
   ],
-  "updated": "2026-03-26T13:40:21.053Z"
+  "updated": "2026-03-26T14:13:46.719Z"
 }
