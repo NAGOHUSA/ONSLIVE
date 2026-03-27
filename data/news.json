@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Artemis II Crew’s Suits",
+      "link": "https://www.nasa.gov/image-article/artemis-ii-crews-suits/",
+      "source": "NASA",
+      "date": "2026-03-27T15:21:21Z",
+      "summary": "The Orion Crew Survival System suits that Commander Reid Wiseman, Pilot Victor Glover, and Mission Specialist Christina Koch from NASA, and Mission Specialist Jeremy Hansen from the CSA (Canadian Space Agency) will wear on the Artemis II test flight are seen in the suit-up room of the Neil A. Armstrong Operations and Checkout Building, Saturday, […]"
+    },
+    {
       "title": "Live coverage: Artemis 2 astronauts head to Florida ahead of April 1 launch attempt",
       "link": "https://spaceflightnow.com/2026/03/27/live-coverage-artemis-2-astronauts-head-to-florida-ahead-of-april-1-launch-attempt/",
       "source": "Spaceflight Now",
@@ -27,14 +34,7 @@
       "source": "ESA",
       "date": "2026-03-27T14:10:00Z",
       "summary": "Week in images: 23-27 March 2026"
-    },
-    {
-      "title": "We’re about to see Earth’s magnetic shield like never before",
-      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/03/We_re_about_to_see_Earth_s_magnetic_shield_like_never_before",
-      "source": "ESA",
-      "date": "2026-03-27T14:00:00Z",
-      "summary": "What really happens when the Sun’s charged particles slam into Earth’s magnetic shield? "
     }
   ],
-  "updated": "2026-03-27T15:24:29.083Z"
+  "updated": "2026-03-27T15:44:27.404Z"
 }
