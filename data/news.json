@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "I Am Artemis: Erik Richards",
+      "link": "https://www.nasa.gov/missions/artemis/i-am-artemis/i-am-artemis-erik-richards/",
+      "source": "NASA",
+      "date": "2026-03-27T21:30:40Z",
+      "summary": "Listen to this audio excerpt from Erik Richards, Near Space Network Mission Manager: For Erik Richards, supporting NASA’s first crewed Artemis mission to the Moon and back is the culmination of a career spent helping spacecraft communicate with Earth.  Like many kids who grew up at the height of the Space Shuttle Program, Richards dreamed of spaceflight — a dream that eventually took him from the remote McMurdo Station in Antarctica to […]"
+    },
+    {
       "title": "NASA Selects Intuitive Machines to Deliver Artemis Science, Tech to Moon",
       "link": "https://www.nasa.gov/missions/artemis/clps/nasa-selects-intuitive-machines-to-deliver-artemis-science-tech-to-moon/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-27T18:55:53Z",
       "summary": "\nMUNICH — For more than a year, questions have swirled about Artemis changes and the Gateway’s role in U.S. lunar ambitions. Following NASA’s March 24 decision to halt work on Gateway, the lunar-orbiting station that had been intended to support astronauts before and after lunar surface missions, Europe now faces the challenge of redefining its […]\nThe post ESA to decide by June on Europe’s Gateway contributions  appeared first on SpaceNews."
-    },
-    {
-      "title": "NISAR’s View of Mount Rainier",
-      "link": "https://science.nasa.gov/photojournal/nisars-view-of-mount-rainier/",
-      "source": "NASA",
-      "date": "2026-03-27T18:32:40Z",
-      "summary": "Description This image captured by U.S.-Indian Earth satellite NISAR on Nov. 10, 2025, shows Washington’s Mount Rainier. The image is cropped from a much larger swath spanning the Pacific Northwest on a cloudy day; NISAR’s L-band SAR instrument is able to peer through the clouds at the surface below. In Pacific Northwest imagery from the […]"
     }
   ],
-  "updated": "2026-03-27T21:37:32.046Z"
+  "updated": "2026-03-27T21:52:17.908Z"
 }
