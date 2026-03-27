@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "I Am Artemis: Michael Guzman",
+      "link": "https://www.nasa.gov/missions/artemis/artemis-2/i-am-artemis-michael-guzman/",
+      "source": "NASA",
+      "date": "2026-03-27T17:40:08Z",
+      "summary": "Listen to this audio excerpt from Michael Guzman, Artemis II main propulsion systems engineer: A clue to what Mike Guzman, main propulsion systems engineer at NASA’s Kennedy Space Center in Florida, loves most can be found in the signature of his work email: a complex string of equations for rocket thrust, specific impulse, and the […]"
+    },
+    {
       "title": "India’s Bellatrix raises $20 million following overseas expansion drive",
       "link": "https://spacenews.com/indias-bellatrix-raises-20-million-following-overseas-expansion-drive/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-27T15:21:21Z",
       "summary": "The Orion Crew Survival System suits that Commander Reid Wiseman, Pilot Victor Glover, and Mission Specialist Christina Koch from NASA, and Mission Specialist Jeremy Hansen from the CSA (Canadian Space Agency) will wear on the Artemis II test flight are seen in the suit-up room of the Neil A. Armstrong Operations and Checkout Building, Saturday, […]"
-    },
-    {
-      "title": "Live coverage: Artemis 2 astronauts head to Florida ahead of April 1 launch attempt",
-      "link": "https://spaceflightnow.com/2026/03/27/live-coverage-artemis-2-astronauts-head-to-florida-ahead-of-april-1-launch-attempt/",
-      "source": "Spaceflight Now",
-      "date": "2026-03-27T14:58:06Z",
-      "summary": "The crew is expected to land in Florida around 2:30 p.m. EDT (1830 UTC) on Friday. April 1 at 6:24 p.m. EDT (2224 UTC) is the earliest launch opportunity during a six-day window. "
     }
   ],
-  "updated": "2026-03-27T17:33:42.998Z"
+  "updated": "2026-03-27T17:55:15.391Z"
 }
