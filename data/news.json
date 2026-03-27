@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Live coverage: Artemis 2 astronauts head to Florida ahead of April 1 launch attempt",
+      "link": "https://spaceflightnow.com/2026/03/27/live-coverage-artemis-2-astronauts-head-to-florida-ahead-of-april-1-launch-attempt/",
+      "source": "Spaceflight Now",
+      "date": "2026-03-27T14:58:06Z",
+      "summary": "The crew is expected to land in Florida around 2:30 p.m. EDT (1830 UTC) on Friday. April 1 at 6:24 p.m. EDT (2224 UTC) is the earliest launch opportunity during a six-day window. "
+    },
+    {
       "title": "Building a hypersonic pathway to orbit with Mark Bigham",
       "link": "https://spacenews.com/building-a-hypersonic-pathway-to-orbit-with-mark-bigham/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "ESA",
       "date": "2026-03-27T14:00:00Z",
       "summary": "What really happens when the Sun’s charged particles slam into Earth’s magnetic shield? "
-    },
-    {
-      "title": "The ‘ground truth’ gap in AgTech: Why satellites alone can’t save supply chains",
-      "link": "https://spacenews.com/the-ground-truth-gap-in-agtech-why-satellites-alone-cant-save-supply-chains/",
-      "source": "SpaceNews",
-      "date": "2026-03-27T13:00:00Z",
-      "summary": "\nThe Earth observation sector is experiencing a golden age. Satellite hardware and launch costs have plummeted, and computer power, driven by AI and analytics, continues to improve. That’s led to a genuine revolution in precision agriculture and automated supply chain monitoring.  For agribusinesses, investors and regulators, it’s an appealing mix: using satellite technology to track […]\nThe post The ‘ground truth’ gap in AgTech: Why satellites alone can’t save supply chains appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-27T15:00:38.785Z"
+  "updated": "2026-03-27T15:24:29.083Z"
 }
