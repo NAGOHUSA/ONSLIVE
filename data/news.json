@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "What happens next with NASA's plan to replace the ISS? Source: \"It could get ugly\"",
+      "link": "https://arstechnica.com/space/2026/03/what-happens-next-with-nasas-plan-to-replace-the-iss-source-it-could-get-ugly/",
+      "source": "Arstechnica",
+      "date": "2026-03-27T15:42:35Z",
+      "summary": "\"It reminds me of sort of Lucy and Charlie Brown with the football.\""
+    },
+    {
       "title": "Artemis II Crew’s Suits",
       "link": "https://www.nasa.gov/image-article/artemis-ii-crews-suits/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "ESA",
       "date": "2026-03-27T14:14:00Z",
       "summary": "Members of ESA’s astronaut reserve have returned to the European Astronaut Centre (EAC) in Cologne, Germany, for the final block of their Astronaut Reserve Training (ART) programme. This phase marks the last step in preparing members of the European astronaut reserve with the broad technical, operational and scientific foundation required to support future human spaceflight opportunities. "
-    },
-    {
-      "title": "Week in images: 23-27 March 2026",
-      "link": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_23-27_March_2026",
-      "source": "ESA",
-      "date": "2026-03-27T14:10:00Z",
-      "summary": "Week in images: 23-27 March 2026"
     }
   ],
-  "updated": "2026-03-27T15:44:27.404Z"
+  "updated": "2026-03-27T16:05:54.575Z"
 }
