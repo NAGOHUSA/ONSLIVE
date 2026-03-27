@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "NASA Tech and Science Bound for Low Earth Orbit on Commercial Launch",
+      "link": "https://www.nasa.gov/directorates/stmd/nasa-tech-and-science-bound-for-low-earth-orbit-on-commercial-launch/",
+      "source": "NASA",
+      "date": "2026-03-27T18:00:08Z",
+      "summary": "Technology and science demonstrations, supported by various NASA industry collaborations and agency developments, are set to launch to low Earth orbit aboard a SpaceX Falcon 9 rocket as part of the company’s Transporter-16 commercial rideshare mission. These demonstrations will test thermal protection systems, advance in-space communications, deepen our understanding of Earth’s atmosphere, and foster capabilities […]"
+    },
+    {
+      "title": "NASA Names Scientists to Support Lunar South Pole Science",
+      "link": "https://science.nasa.gov/missions/artemis/nasa-names-scientists-to-support-lunar-south-pole-science/",
+      "source": "NASA",
+      "date": "2026-03-27T17:50:06Z",
+      "summary": "NASA has selected 10 participating scientists to help shape a science plan for astronauts to complete on the lunar surface under the Artemis program – including deploying scientific instruments, making critical observations of the landing site, and collecting Moon rocks. “Congratulations to the scientists selected to participate in this important Artemis lunar surface science team,” […]"
+    },
+    {
       "title": "I Am Artemis: Michael Guzman",
       "link": "https://www.nasa.gov/missions/artemis/artemis-2/i-am-artemis-michael-guzman/",
       "source": "NASA",
@@ -20,21 +34,7 @@
       "source": "NASA",
       "date": "2026-03-27T17:04:03Z",
       "summary": "Synopsis | 03/23/26 https://sam.gov/workspace/contract/opp/e33cd0cc61064a6497a55fca8e9b30c6/view NASA intends to release a BAA under Next Space Technologies for Exploration Partnerships (NextSTEP-3), Appendix E, for Project NEXUS, Ka-band Backward- Compatible Relay. As the aging Tracking and Data Relay Satellite System (TDRS) declines, NASA’s objective is to acquire an end-to-end Ka-band relay service, including space, ground, launch, integration, and operations […]"
-    },
-    {
-      "title": "What happens next with NASA's plan to replace the ISS? Source: \"It could get ugly\"",
-      "link": "https://arstechnica.com/space/2026/03/what-happens-next-with-nasas-plan-to-replace-the-iss-source-it-could-get-ugly/",
-      "source": "Arstechnica",
-      "date": "2026-03-27T15:42:35Z",
-      "summary": "\"It reminds me of sort of Lucy and Charlie Brown with the football.\""
-    },
-    {
-      "title": "Artemis II Crew’s Suits",
-      "link": "https://www.nasa.gov/image-article/artemis-ii-crews-suits/",
-      "source": "NASA",
-      "date": "2026-03-27T15:21:21Z",
-      "summary": "The Orion Crew Survival System suits that Commander Reid Wiseman, Pilot Victor Glover, and Mission Specialist Christina Koch from NASA, and Mission Specialist Jeremy Hansen from the CSA (Canadian Space Agency) will wear on the Artemis II test flight are seen in the suit-up room of the Neil A. Armstrong Operations and Checkout Building, Saturday, […]"
     }
   ],
-  "updated": "2026-03-27T17:55:15.391Z"
+  "updated": "2026-03-27T18:13:52.647Z"
 }
