@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA’s Environment and Energy “Blue Marble” Awards Categories",
+      "link": "https://www.nasa.gov/general/nasas-environment-and-energy-blue-marble-awards-categories/",
+      "source": "NASA",
+      "date": "2026-03-27T19:27:09Z",
+      "summary": "Category I: NASA Environmental Quality Award Recognizes excellence in environmental management and planning, including stewardship of natural and cultural resources. This category highlights achievements in compliance, conservation, remediation, communication, and environmental information management, and the development of strong stakeholder partnerships. Category II: NASA Award for Excellence in Project or Program Execution Honors efforts that reduce […]"
+    },
+    {
       "title": "Commercial Space Federation (CSF) Welcomes Two New Associate Members",
       "link": "https://spacenews.com/commercial-space-federation-csf-welcomes-two-new-associate-members/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-27T18:29:54Z",
       "summary": "Description This image captured by U.S.-Indian Earth satellite NISAR on Nov. 10, 2025, shows Washington’s Mount St. Helens. The image is cropped from a much larger swath spanning the Pacific Northwest on a cloudy day; NISAR’s L-band SAR instrument is able to peer through the clouds at the surface below. In Pacific Northwest imagery from […]"
-    },
-    {
-      "title": "NASA Tech and Science Bound for Low Earth Orbit on Commercial Launch",
-      "link": "https://www.nasa.gov/directorates/stmd/nasa-tech-and-science-bound-for-low-earth-orbit-on-commercial-launch/",
-      "source": "NASA",
-      "date": "2026-03-27T18:00:08Z",
-      "summary": "Technology and science demonstrations, supported by various NASA industry collaborations and agency developments, are set to launch to low Earth orbit aboard a SpaceX Falcon 9 rocket as part of the company’s Transporter-16 commercial rideshare mission. These demonstrations will test thermal protection systems, advance in-space communications, deepen our understanding of Earth’s atmosphere, and foster capabilities […]"
     }
   ],
-  "updated": "2026-03-27T19:21:39.346Z"
+  "updated": "2026-03-27T19:39:16.435Z"
 }
