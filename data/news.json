@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Week in images: 23-27 March 2026",
+      "link": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_23-27_March_2026",
+      "source": "ESA",
+      "date": "2026-03-27T14:10:00Z",
+      "summary": "Week in images: 23-27 March 2026"
+    },
+    {
       "title": "We’re about to see Earth’s magnetic shield like never before",
       "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/03/We_re_about_to_see_Earth_s_magnetic_shield_like_never_before",
       "source": "ESA",
@@ -27,14 +34,7 @@
       "source": "ESA",
       "date": "2026-03-27T11:21:00Z",
       "summary": "Everyone knows what a hurricane is, but a lesser-known storm type – a medicane – recently made landfall in Libya. While the arrival of Medicane Jolina, a rare Mediterranean cyclone, brought extreme weather, it also provided scientists with a crucial test case."
-    },
-    {
-      "title": "How Europe will power the journey to the Moon and back",
-      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/03/How_Europe_will_power_the_journey_to_the_Moon_and_back",
-      "source": "ESA",
-      "date": "2026-03-27T09:15:00Z",
-      "summary": "Artemis II will send astronauts around the Moon and safely home. At the core of the mission is the European Service Module: providing propulsion, power and life support for their journey into deep space."
     }
   ],
-  "updated": "2026-03-27T14:15:22.089Z"
+  "updated": "2026-03-27T14:37:01.270Z"
 }
