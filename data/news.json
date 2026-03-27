@@ -1,11 +1,11 @@
 {
   "articles": [
     {
-      "title": "Where spiral arms and star formation meet",
-      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/03/Where_spiral_arms_and_star_formation_meet",
+      "title": "How Europe will power the journey to the Moon and back",
+      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/03/How_Europe_will_power_the_journey_to_the_Moon_and_back",
       "source": "ESA",
-      "date": "2026-03-27T09:00:00Z",
-      "summary": "From the ESA Blogs."
+      "date": "2026-03-27T09:15:00Z",
+      "summary": "Artemis II will send astronauts around the Moon and safely home. At the core of the mission is the European Service Module: providing propulsion, power and life support for their journey into deep space."
     },
     {
       "title": "SBQuantum and Spire to send quantum diamond magnetometer into orbit",
@@ -22,19 +22,19 @@
       "summary": "From the ESA Blogs."
     },
     {
+      "title": "Where spiral arms and star formation meet",
+      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/03/Where_spiral_arms_and_star_formation_meet",
+      "source": "ESA",
+      "date": "2026-03-27T09:00:00Z",
+      "summary": "From the ESA Blogs."
+    },
+    {
       "title": "ispace redesigns lunar lander, introduces lunar communications service",
       "link": "https://spacenews.com/ispace-redesigns-lunar-lander-introduces-lunar-communications-service/",
       "source": "SpaceNews",
       "date": "2026-03-27T08:50:57Z",
       "summary": "\nJapanese company ispace is revising its lunar lander design and further delaying the first mission by its American subsidiary while also unveiling plans for a lunar satellite constellation.\nThe post ispace redesigns lunar lander, introduces lunar communications service appeared first on SpaceNews."
-    },
-    {
-      "title": "Satellite Spots a Spawn",
-      "link": "https://science.nasa.gov/earth/earth-observatory/satellite-spots-a-spawn/",
-      "source": "NASA",
-      "date": "2026-03-27T04:01:00Z",
-      "summary": "The activity of herring around Vancouver Island in British Columbia brightened coastal waters enough to be detectable from space."
     }
   ],
-  "updated": "2026-03-27T09:30:32.349Z"
+  "updated": "2026-03-27T09:52:40.629Z"
 }
