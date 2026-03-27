@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Industry says proposed NASA changes to commercial space station plans create confusion",
+      "link": "https://spacenews.com/industry-says-proposed-nasa-changes-to-commercial-space-station-plans-create-confusion/",
+      "source": "SpaceNews",
+      "date": "2026-03-27T12:17:57Z",
+      "summary": "\nNASA’s proposed changes to its support of commercial space stations have created concern and confusion among companies developing them, the head of an industry organization warned.\nThe post Industry says proposed NASA changes to commercial space station plans create confusion appeared first on SpaceNews."
+    },
+    {
       "title": "How Europe will power the journey to the Moon and back",
       "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/03/How_Europe_will_power_the_journey_to_the_Moon_and_back",
       "source": "ESA",
@@ -15,13 +22,6 @@
       "summary": "\nSAN FRANCISCO – Canadian startup SBQuantum plans to send a quantum diamond magnetometer into low-Earth orbit March 30 on a Spire Global satellite flying on a SpaceX Falcon 9 rideshare. Spire is providing the satellite, ground stations and data processing for SBQuantum’s magnetometer, which is roughly the size of a quart of milk. SBQuantum and […]\nThe post SBQuantum and Spire to send quantum diamond magnetometer into orbit appeared first on SpaceNews."
     },
     {
-      "title": "Earth from Space: Kimberley, Australia",
-      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/03/Earth_from_Space_Kimberley_Australia",
-      "source": "ESA",
-      "date": "2026-03-27T09:00:00Z",
-      "summary": "From the ESA Blogs."
-    },
-    {
       "title": "Where spiral arms and star formation meet",
       "link": "https://www.esa.int/ESA_Multimedia/Images/2026/03/Where_spiral_arms_and_star_formation_meet",
       "source": "ESA",
@@ -29,12 +29,12 @@
       "summary": "From the ESA Blogs."
     },
     {
-      "title": "ispace redesigns lunar lander, introduces lunar communications service",
-      "link": "https://spacenews.com/ispace-redesigns-lunar-lander-introduces-lunar-communications-service/",
-      "source": "SpaceNews",
-      "date": "2026-03-27T08:50:57Z",
-      "summary": "\nJapanese company ispace is revising its lunar lander design and further delaying the first mission by its American subsidiary while also unveiling plans for a lunar satellite constellation.\nThe post ispace redesigns lunar lander, introduces lunar communications service appeared first on SpaceNews."
+      "title": "Earth from Space: Kimberley, Australia",
+      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/03/Earth_from_Space_Kimberley_Australia",
+      "source": "ESA",
+      "date": "2026-03-27T09:00:00Z",
+      "summary": "From the ESA Blogs."
     }
   ],
-  "updated": "2026-03-27T12:03:12.104Z"
+  "updated": "2026-03-27T12:26:37.258Z"
 }
