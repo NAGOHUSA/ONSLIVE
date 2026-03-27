@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "The ‘ground truth’ gap in AgTech: Why satellites alone can’t save supply chains",
+      "link": "https://spacenews.com/the-ground-truth-gap-in-agtech-why-satellites-alone-cant-save-supply-chains/",
+      "source": "SpaceNews",
+      "date": "2026-03-27T13:00:00Z",
+      "summary": "\nThe Earth observation sector is experiencing a golden age. Satellite hardware and launch costs have plummeted, and computer power, driven by AI and analytics, continues to improve. That’s led to a genuine revolution in precision agriculture and automated supply chain monitoring.  For agribusinesses, investors and regulators, it’s an appealing mix: using satellite technology to track […]\nThe post The ‘ground truth’ gap in AgTech: Why satellites alone can’t save supply chains appeared first on SpaceNews."
+    },
+    {
       "title": "Industry says proposed NASA changes to commercial space station plans create confusion",
       "link": "https://spacenews.com/industry-says-proposed-nasa-changes-to-commercial-space-station-plans-create-confusion/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "ESA",
       "date": "2026-03-27T09:00:00Z",
       "summary": "From the ESA Blogs."
-    },
-    {
-      "title": "Earth from Space: Kimberley, Australia",
-      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/03/Earth_from_Space_Kimberley_Australia",
-      "source": "ESA",
-      "date": "2026-03-27T09:00:00Z",
-      "summary": "From the ESA Blogs."
     }
   ],
-  "updated": "2026-03-27T12:47:57.494Z"
+  "updated": "2026-03-27T13:17:34.779Z"
 }
