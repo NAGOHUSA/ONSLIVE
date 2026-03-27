@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NextSTEP-3 E: Network Extension for User Continuity and Sustainability (NEXUS) Ka-Band Backward-Compatible Relay Broad",
+      "link": "https://www.nasa.gov/general/nextstep-3-e-network-extension-for-user-continuity-and-sustainability-nexus-ka-band-backward-compatible-relay-broad/",
+      "source": "NASA",
+      "date": "2026-03-27T17:04:03Z",
+      "summary": "Synopsis | 03/23/26 https://sam.gov/workspace/contract/opp/e33cd0cc61064a6497a55fca8e9b30c6/view NASA intends to release a BAA under Next Space Technologies for Exploration Partnerships (NextSTEP-3), Appendix E, for Project NEXUS, Ka-band Backward- Compatible Relay. As the aging Tracking and Data Relay Satellite System (TDRS) declines, NASA’s objective is to acquire an end-to-end Ka-band relay service, including space, ground, launch, integration, and operations […]"
+    },
+    {
       "title": "What happens next with NASA's plan to replace the ISS? Source: \"It could get ugly\"",
       "link": "https://arstechnica.com/space/2026/03/what-happens-next-with-nasas-plan-to-replace-the-iss-source-it-could-get-ugly/",
       "source": "Arstechnica",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-27T14:30:56Z",
       "summary": "\nOn this episode of the Space Minds podcast, host David Ariosto speaks with Mark Bigham, the Vice President of Defense Programs at Longshot Space Technologies Corporation, a new hardware startup […]\nThe post Building a hypersonic pathway to orbit with Mark Bigham appeared first on SpaceNews."
-    },
-    {
-      "title": "ESA’s astronaut reserve begins final training block",
-      "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/ESA_s_astronaut_reserve_begins_final_training_block",
-      "source": "ESA",
-      "date": "2026-03-27T14:14:00Z",
-      "summary": "Members of ESA’s astronaut reserve have returned to the European Astronaut Centre (EAC) in Cologne, Germany, for the final block of their Astronaut Reserve Training (ART) programme. This phase marks the last step in preparing members of the European astronaut reserve with the broad technical, operational and scientific foundation required to support future human spaceflight opportunities. "
     }
   ],
-  "updated": "2026-03-27T16:50:42.469Z"
+  "updated": "2026-03-27T17:12:19.031Z"
 }
