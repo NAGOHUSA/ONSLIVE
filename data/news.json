@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA Selects Intuitive Machines to Deliver Artemis Science, Tech to Moon",
+      "link": "https://www.nasa.gov/missions/artemis/clps/nasa-selects-intuitive-machines-to-deliver-artemis-science-tech-to-moon/",
+      "source": "NASA",
+      "date": "2026-03-27T21:12:52Z",
+      "summary": "NASA has awarded Intuitive Machines of Houston, $180.4 million to deliver NASA-funded science and technology to the lunar surface as part of the agency’s CLPS (Commercial Lunar Payload Services) initiative and Artemis program. This lunar delivery, which includes seven payloads — five of them NASA’s — is expected to increase understanding of the chemical composition […]"
+    },
+    {
       "title": "NASA’s Environment and Energy “Blue Marble” Awards Categories",
       "link": "https://www.nasa.gov/general/nasas-environment-and-energy-blue-marble-awards-categories/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-27T18:32:40Z",
       "summary": "Description This image captured by U.S.-Indian Earth satellite NISAR on Nov. 10, 2025, shows Washington’s Mount Rainier. The image is cropped from a much larger swath spanning the Pacific Northwest on a cloudy day; NISAR’s L-band SAR instrument is able to peer through the clouds at the surface below. In Pacific Northwest imagery from the […]"
-    },
-    {
-      "title": "NISAR Views Mount St. Helens",
-      "link": "https://science.nasa.gov/photojournal/nisar-views-mount-st-helens/",
-      "source": "NASA",
-      "date": "2026-03-27T18:29:54Z",
-      "summary": "Description This image captured by U.S.-Indian Earth satellite NISAR on Nov. 10, 2025, shows Washington’s Mount St. Helens. The image is cropped from a much larger swath spanning the Pacific Northwest on a cloudy day; NISAR’s L-band SAR instrument is able to peer through the clouds at the surface below. In Pacific Northwest imagery from […]"
     }
   ],
-  "updated": "2026-03-27T21:07:02.629Z"
+  "updated": "2026-03-27T21:21:09.072Z"
 }
