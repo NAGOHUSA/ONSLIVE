@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "We’re about to see Earth’s magnetic shield like never before",
+      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/03/We_re_about_to_see_Earth_s_magnetic_shield_like_never_before",
+      "source": "ESA",
+      "date": "2026-03-27T14:00:00Z",
+      "summary": "What really happens when the Sun’s charged particles slam into Earth’s magnetic shield? "
+    },
+    {
       "title": "The ‘ground truth’ gap in AgTech: Why satellites alone can’t save supply chains",
       "link": "https://spacenews.com/the-ground-truth-gap-in-agtech-why-satellites-alone-cant-save-supply-chains/",
       "source": "SpaceNews",
@@ -15,26 +22,19 @@
       "summary": "\nNASA’s proposed changes to its support of commercial space stations have created concern and confusion among companies developing them, the head of an industry organization warned.\nThe post Industry says proposed NASA changes to commercial space station plans create confusion appeared first on SpaceNews."
     },
     {
+      "title": "Getting to the core of a medicane",
+      "link": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Getting_to_the_core_of_a_medicane",
+      "source": "ESA",
+      "date": "2026-03-27T11:21:00Z",
+      "summary": "Everyone knows what a hurricane is, but a lesser-known storm type – a medicane – recently made landfall in Libya. While the arrival of Medicane Jolina, a rare Mediterranean cyclone, brought extreme weather, it also provided scientists with a crucial test case."
+    },
+    {
       "title": "How Europe will power the journey to the Moon and back",
       "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/03/How_Europe_will_power_the_journey_to_the_Moon_and_back",
       "source": "ESA",
       "date": "2026-03-27T09:15:00Z",
       "summary": "Artemis II will send astronauts around the Moon and safely home. At the core of the mission is the European Service Module: providing propulsion, power and life support for their journey into deep space."
-    },
-    {
-      "title": "SBQuantum and Spire to send quantum diamond magnetometer into orbit",
-      "link": "https://spacenews.com/sbquantum-and-spire-to-send-quantum-diamond-magnetometer-into-orbit/",
-      "source": "SpaceNews",
-      "date": "2026-03-27T09:00:00Z",
-      "summary": "\nSAN FRANCISCO – Canadian startup SBQuantum plans to send a quantum diamond magnetometer into low-Earth orbit March 30 on a Spire Global satellite flying on a SpaceX Falcon 9 rideshare. Spire is providing the satellite, ground stations and data processing for SBQuantum’s magnetometer, which is roughly the size of a quart of milk. SBQuantum and […]\nThe post SBQuantum and Spire to send quantum diamond magnetometer into orbit appeared first on SpaceNews."
-    },
-    {
-      "title": "Where spiral arms and star formation meet",
-      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/03/Where_spiral_arms_and_star_formation_meet",
-      "source": "ESA",
-      "date": "2026-03-27T09:00:00Z",
-      "summary": "From the ESA Blogs."
     }
   ],
-  "updated": "2026-03-27T13:48:02.714Z"
+  "updated": "2026-03-27T14:15:22.089Z"
 }
