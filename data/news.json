@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "U.S.-Canadian Astronaut Crew Ready for Flight Around the Moon",
+      "link": "https://spacepolicyonline.com/news/u-s-canadian-astronaut-crew-ready-for-flight-around-the-moon/",
+      "source": "SpacePolicyOnline.com",
+      "date": "2026-03-27T22:23:08Z",
+      "summary": "The four astronauts who will fly around the Moon as soon as next week and their backups arrived at Kennedy Space Center this afternoon. Full of enthusiasm, they also conveyed […]"
+    },
+    {
       "title": "I Am Artemis: Erik Richards",
       "link": "https://www.nasa.gov/missions/artemis/i-am-artemis/i-am-artemis-erik-richards/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-27T19:00:00Z",
       "summary": "\nMarch 27, 2026 – Washington, D.C.—The Commercial Space Federation (CSF) is pleased to welcome Astrolab and Zeno Power, two innovative companies advancing planetary mobility and reliable energy in extreme environments. […]\nThe post Commercial Space Federation (CSF) Welcomes Two New Associate Members appeared first on SpaceNews."
-    },
-    {
-      "title": "ESA to decide by June on Europe’s Gateway contributions",
-      "link": "https://spacenews.com/esa-to-decide-by-june-on-europes-gateway-contributions/",
-      "source": "SpaceNews",
-      "date": "2026-03-27T18:55:53Z",
-      "summary": "\nMUNICH — For more than a year, questions have swirled about Artemis changes and the Gateway’s role in U.S. lunar ambitions. Following NASA’s March 24 decision to halt work on Gateway, the lunar-orbiting station that had been intended to support astronauts before and after lunar surface missions, Europe now faces the challenge of redefining its […]\nThe post ESA to decide by June on Europe’s Gateway contributions  appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-27T22:29:26.533Z"
+  "updated": "2026-03-27T22:47:35.981Z"
 }
