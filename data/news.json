@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Artemis 2 astronauts arrive at KSC",
+      "link": "https://spacenews.com/artemis-2-astronauts-arrive-at-ksc/",
+      "source": "SpaceNews",
+      "date": "2026-03-28T00:45:26Z",
+      "summary": "\nThe four Artemis 2 astronauts arrived in Florida March 27 for final preparations ahead of a launch still scheduled as soon as April 1.\nThe post Artemis 2 astronauts arrive at KSC appeared first on SpaceNews."
+    },
+    {
       "title": "U.S.-Canadian Astronaut Crew Ready for Flight Around the Moon",
       "link": "https://spacepolicyonline.com/news/u-s-canadian-astronaut-crew-ready-for-flight-around-the-moon/",
       "source": "SpacePolicyOnline.com",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-27T19:27:09Z",
       "summary": "Category I: NASA Environmental Quality Award Recognizes excellence in environmental management and planning, including stewardship of natural and cultural resources. This category highlights achievements in compliance, conservation, remediation, communication, and environmental information management, and the development of strong stakeholder partnerships. Category II: NASA Award for Excellence in Project or Program Execution Honors efforts that reduce […]"
-    },
-    {
-      "title": "Commercial Space Federation (CSF) Welcomes Two New Associate Members",
-      "link": "https://spacenews.com/commercial-space-federation-csf-welcomes-two-new-associate-members/",
-      "source": "SpaceNews",
-      "date": "2026-03-27T19:00:00Z",
-      "summary": "\nMarch 27, 2026 – Washington, D.C.—The Commercial Space Federation (CSF) is pleased to welcome Astrolab and Zeno Power, two innovative companies advancing planetary mobility and reliable energy in extreme environments. […]\nThe post Commercial Space Federation (CSF) Welcomes Two New Associate Members appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-28T00:16:56.971Z"
+  "updated": "2026-03-28T00:53:35.417Z"
 }
