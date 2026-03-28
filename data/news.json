@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Celeste’s first satellites launched to explore LEO-based satellite navigation",
+      "link": "https://www.esa.int/Applications/Satellite_navigation/Celeste/Celeste_s_first_satellites_launched_to_explore_LEO-based_satellite_navigation",
+      "source": "ESA",
+      "date": "2026-03-28T11:07:00Z",
+      "summary": "On 28 March, the European Space Agency (ESA) took a major step forward in strengthening Europe's ambition for more resilient satellite navigation, as the first two satellites of the Celeste in-orbit demonstration mission lifted off from New Zealand aboard Rocket Lab’s Electron. Their mission is to begin testing a complementary low Earth orbit layer for Galileo."
+    },
+    {
       "title": "Celeste liftoff",
       "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/03/Celeste_liftoff",
       "source": "ESA",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-27T21:30:40Z",
       "summary": "Listen to this audio excerpt from Erik Richards, Near Space Network Mission Manager: For Erik Richards, supporting NASA’s first crewed Artemis mission to the Moon and back is the culmination of a career spent helping spacecraft communicate with Earth.  Like many kids who grew up at the height of the Space Shuttle Program, Richards dreamed of spaceflight — a dream that eventually took him from the remote McMurdo Station in Antarctica to […]"
-    },
-    {
-      "title": "NASA Selects Intuitive Machines to Deliver Artemis Science, Tech to Moon",
-      "link": "https://www.nasa.gov/missions/artemis/clps/nasa-selects-intuitive-machines-to-deliver-artemis-science-tech-to-moon/",
-      "source": "NASA",
-      "date": "2026-03-27T21:12:52Z",
-      "summary": "NASA has awarded Intuitive Machines of Houston, $180.4 million to deliver NASA-funded science and technology to the lunar surface as part of the agency’s CLPS (Commercial Lunar Payload Services) initiative and Artemis program. This lunar delivery, which includes seven payloads — five of them NASA’s — is expected to increase understanding of the chemical composition […]"
     }
   ],
-  "updated": "2026-03-28T11:13:40.062Z"
+  "updated": "2026-03-28T11:27:13.663Z"
 }
