@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Mike Fincke Shares More About His Medical Event",
+      "link": "https://spacepolicyonline.com/news/mike-fincke-shares-more-about-his-medical-event/",
+      "source": "SpacePolicyOnline.com",
+      "date": "2026-03-28T19:04:25Z",
+      "summary": "NASA astronaut Mike Fincke is sharing more about the medical event that caused an early end to the Crew-11 mission aboard the International Space Station. In an interview with the […]"
+    },
+    {
       "title": "Celeste’s first satellites launched to explore LEO-based satellite navigation",
       "link": "https://www.esa.int/Applications/Satellite_navigation/Celeste/Celeste_s_first_satellites_launched_to_explore_LEO-based_satellite_navigation",
       "source": "ESA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-28T00:45:26Z",
       "summary": "The four Artemis 2 astronauts arrived in Florida March 27 for final preparations ahead of a launch still scheduled as soon as April 1.\r\nThe post Artemis 2 astronauts arrive at KSC appeared first on SpaceNews."
-    },
-    {
-      "title": "U.S.-Canadian Astronaut Crew Ready for Flight Around the Moon",
-      "link": "https://spacepolicyonline.com/news/u-s-canadian-astronaut-crew-ready-for-flight-around-the-moon/",
-      "source": "SpacePolicyOnline.com",
-      "date": "2026-03-27T22:23:08Z",
-      "summary": "The four astronauts who will fly around the Moon as soon as next week and their backups arrived at Kennedy Space Center this afternoon. Full of enthusiasm, they also conveyed […]"
     }
   ],
-  "updated": "2026-03-28T19:01:09.190Z"
+  "updated": "2026-03-28T19:17:22.710Z"
 }
