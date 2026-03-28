@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Celeste liftoff",
+      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/03/Celeste_liftoff",
+      "source": "ESA",
+      "date": "2026-03-28T10:20:00Z",
+      "summary": "At 10:14 CET on 28 March, the first two satellites of ESA’s Celeste LEO-PNT in-orbit demonstration mission lifted off aboard a Rocket Lab Electron rocket from Māhia, New Zealand."
+    },
+    {
       "title": "Artemis 2 astronauts arrive at KSC",
       "link": "https://spacenews.com/artemis-2-astronauts-arrive-at-ksc/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-27T21:12:52Z",
       "summary": "NASA has awarded Intuitive Machines of Houston, $180.4 million to deliver NASA-funded science and technology to the lunar surface as part of the agency’s CLPS (Commercial Lunar Payload Services) initiative and Artemis program. This lunar delivery, which includes seven payloads — five of them NASA’s — is expected to increase understanding of the chemical composition […]"
-    },
-    {
-      "title": "NASA’s Environment and Energy “Blue Marble” Awards Categories",
-      "link": "https://www.nasa.gov/general/nasas-environment-and-energy-blue-marble-awards-categories/",
-      "source": "NASA",
-      "date": "2026-03-27T19:27:09Z",
-      "summary": "Category I: NASA Environmental Quality Award Recognizes excellence in environmental management and planning, including stewardship of natural and cultural resources. This category highlights achievements in compliance, conservation, remediation, communication, and environmental information management, and the development of strong stakeholder partnerships. Category II: NASA Award for Excellence in Project or Program Execution Honors efforts that reduce […]"
     }
   ],
-  "updated": "2026-03-28T10:16:31.756Z"
+  "updated": "2026-03-28T10:31:23.553Z"
 }
