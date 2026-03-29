@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Satellite imaging industry’s next challenge: getting systems to talk to each other",
+      "link": "https://spacenews.com/satellite-imaging-industrys-next-challenge-getting-systems-to-talk-to-each-other/",
+      "source": "SpaceNews",
+      "date": "2026-03-29T21:31:45Z",
+      "summary": "\nExecutives say lack of incentives and interoperability slows ‘tipping and cueing’ across vendors\nThe post Satellite imaging industry’s next challenge: getting systems to talk to each other appeared first on SpaceNews."
+    },
+    {
+      "title": "America’s Rocket Factory comes Full Circle with Artemis",
+      "link": "https://www.nasaspaceflight.com/2026/03/americas-rocket-factory-artemis/",
+      "source": "NASASpaceflight",
+      "date": "2026-03-29T21:28:30Z",
+      "summary": "As NASA prepares for its long-awaited return of crewed launches beyond low Earth orbit with…\nThe post America’s Rocket Factory comes Full Circle with Artemis appeared first on NASASpaceFlight.com."
+    },
+    {
       "title": "What’s Happening in Space Policy March 29-April 4, 2026",
       "link": "https://spacepolicyonline.com/news/whats-happening-in-space-policy-march-29-april-4-2026/",
       "source": "SpacePolicyOnline.com",
@@ -20,21 +34,7 @@
       "source": "NASASpaceflight",
       "date": "2026-03-28T23:48:46Z",
       "summary": "SpaceX is set to launch 119 payloads to Sun-synchronous orbit from California for the Transporter…\r\nThe post SpaceX to deliver 119 payloads to Sun-synchronous orbit on Transporter 16 appeared first on NASASpaceFlight.com."
-    },
-    {
-      "title": "Starfish Space finds a new partner for docking demonstration mission",
-      "link": "https://spacenews.com/starfish-space-finds-a-new-partner-for-docking-demonstration-mission/",
-      "source": "SpaceNews",
-      "date": "2026-03-28T20:28:54Z",
-      "summary": "\nStarfish Space has changed plans for a docking demonstration mission after its original partner backed out.\nThe post Starfish Space finds a new partner for docking demonstration mission appeared first on SpaceNews."
-    },
-    {
-      "title": "Mike Fincke Shares More About His Medical Event",
-      "link": "https://spacepolicyonline.com/news/mike-fincke-shares-more-about-his-medical-event/",
-      "source": "SpacePolicyOnline.com",
-      "date": "2026-03-28T19:04:25Z",
-      "summary": "NASA astronaut Mike Fincke is sharing more about the medical event that caused an early end to the Crew-11 mission aboard the International Space Station. In an interview with the […]"
     }
   ],
-  "updated": "2026-03-29T21:29:10.043Z"
+  "updated": "2026-03-29T21:45:08.772Z"
 }
