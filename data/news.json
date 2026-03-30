@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Falcon 9 booster to fly for 34th time on Starlink delivery mission",
+      "link": "https://spaceflightnow.com/2026/03/30/falcon-9-booster-to-fly-for-34th-time-on-starlink-delivery-mission/",
+      "source": "Spaceflight Now",
+      "date": "2026-03-30T19:58:17Z",
+      "summary": "Liftoff from pad 40 at Cape Canaveral Space Force Station in Florida is scheduled for the opening of the launch window at 5:15 p.m. EDT (2115 UTC).  "
+    },
+    {
       "title": "Varda flies navigation payload, heat shield tests on sixth reentry mission",
       "link": "https://spacenews.com/varda-flies-navigation-payload-heat-shield-tests-on-sixth-reentry-mission/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-30T16:31:19Z",
       "summary": "\nSpaceX launched the latest in its series of dedicated rideshare missions March 30, delivering more than 100 payloads to sun-synchronous orbit.\nThe post SpaceX launches Transporter-16 rideshare mission appeared first on SpaceNews."
-    },
-    {
-      "title": "China’s Kinetica-2 rocket debuts successfully, sending prototype cargo spacecraft to orbit",
-      "link": "https://spacenews.com/chinas-kinetica-2-rocket-debuts-successfully-sending-prototype-cargo-spacecraft-to-orbit/",
-      "source": "SpaceNews",
-      "date": "2026-03-30T15:39:07Z",
-      "summary": "\nChinese firm CAS Space successfully reached orbit with the first launch of its Kinetica-2 launch vehicle Monday, with a prototype cargo spacecraft among the payloads.\nThe post China’s Kinetica-2 rocket debuts successfully, sending prototype cargo spacecraft to orbit appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-30T19:42:10.452Z"
+  "updated": "2026-03-30T20:01:29.372Z"
 }
