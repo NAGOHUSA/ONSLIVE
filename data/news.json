@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Sendoff for Artemis II Crew",
+      "link": "https://www.nasa.gov/image-article/sendoff-for-artemis-ii-crew/",
+      "source": "NASA",
+      "date": "2026-03-30T18:18:27Z",
+      "summary": "From left to right, NASA astronauts Andre Douglas, Victor Glover, and Christina Koch, CSA (Canadian Space Agency) astronauts Jenni Gibbons, NASA astronaut Reid Wiseman, and CSA astronaut Jeremy Hansen pose for a photo before the Artemis II crew proceed to a media event on March 27, 2026. Douglas and Gibbons are the backup crew members […]"
+    },
+    {
       "title": "ESA launches first Celeste satellites to test complementary LEO navigation layer",
       "link": "https://spacenews.com/esa-launches-first-celeste-satellites-to-test-complementary-leo-navigation-layer/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "Space Scout",
       "date": "2026-03-30T15:32:07Z",
       "summary": "NASA’s Artemis II mission is ready to launch, and, if all goes to plan, will carry four people farther from Earth than ever before."
-    },
-    {
-      "title": "What is Smile about to discover?",
-      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/03/What_is_Smile_about_to_discover",
-      "source": "ESA",
-      "date": "2026-03-30T14:00:00Z",
-      "summary": "What really happens when the Sun’s charged particles slam into Earth’s magnetic shield?"
     }
   ],
-  "updated": "2026-03-30T18:03:03.444Z"
+  "updated": "2026-03-30T18:30:43.977Z"
 }
