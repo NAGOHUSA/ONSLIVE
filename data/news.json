@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Science finds a place on Artemis 2",
+      "link": "https://spacenews.com/science-finds-a-place-on-artemis-2/",
+      "source": "SpaceNews",
+      "date": "2026-03-30T10:03:11Z",
+      "summary": "\nWhile the Artemis 2 mission is primarily a test flight, the four astronauts on board will conduct some science during the nearly 10-day mission.\nThe post Science finds a place on Artemis 2 appeared first on SpaceNews."
+    },
+    {
       "title": "Live coverage: SpaceX to launch 119 payloads on smallsat rideshare mission from California",
       "link": "https://spaceflightnow.com/2026/03/30/live-coverage-spacex-to-launch-119-payloads-on-smallsat-rideshare-mission-from-california/",
       "source": "Spaceflight Now",
@@ -27,14 +34,7 @@
       "source": "SpacePolicyOnline.com",
       "date": "2026-03-29T15:16:40Z",
       "summary": "Here is SpacePolicyOnline.com’s list of space policy events for the week of March 29-April 4, 2026 and any insight we can offer about them. The House and Senate are in […]"
-    },
-    {
-      "title": "‘Shots on goal and win the game’: NASA’s effort to accelerate lunar landings",
-      "link": "https://spacenews.com/shots-on-goal-and-win-the-game-nasas-effort-to-accelerate-lunar-landings/",
-      "source": "SpaceNews",
-      "date": "2026-03-29T09:37:26Z",
-      "summary": "\nWhile NASA outlined plans to increase the cadence of robotic lunar lander missions at a recent event, it said little about accelerating work on crewed lunar landers.\nThe post ‘Shots on goal and win the game’: NASA’s effort to accelerate lunar landings appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-30T09:48:03.280Z"
+  "updated": "2026-03-30T10:18:06.882Z"
 }
