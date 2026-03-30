@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Artemis II Ready to Go on April 1, Weather Permitting",
+      "link": "https://spacepolicyonline.com/news/artemis-ii-ready-to-go-on-april-1-weather-permitting/",
+      "source": "SpacePolicyOnline.com",
+      "date": "2026-03-30T22:31:23Z",
+      "summary": "The Artemis II crew, rocket, and spacecraft are ready for liftoff on Wednesday, April 1, 2026 at 6:24 pm ET. No technical issues are currently being worked, with weather the […]"
+    },
+    {
       "title": "Rocket Lab wins German approval for Mynaric deal",
       "link": "https://spacenews.com/rocket-lab-wins-german-approval-for-mynaric-deal/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "Spaceflight Now",
       "date": "2026-03-30T19:58:17Z",
       "summary": "Liftoff from pad 40 at Cape Canaveral Space Force Station in Florida is scheduled for the opening of the launch window at 5:15 p.m. EDT (2115 UTC).  "
-    },
-    {
-      "title": "Varda flies navigation payload, heat shield tests on sixth reentry mission",
-      "link": "https://spacenews.com/varda-flies-navigation-payload-heat-shield-tests-on-sixth-reentry-mission/",
-      "source": "SpaceNews",
-      "date": "2026-03-30T18:48:36Z",
-      "summary": "\nRhea Space, Sandia and NASA hardware to gather data during high-speed descent\nThe post Varda flies navigation payload, heat shield tests on sixth reentry mission appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-30T22:29:39.741Z"
+  "updated": "2026-03-30T22:48:53.767Z"
 }
