@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Live coverage: SpaceX to launch 119 payloads on smallsat rideshare mission from California",
+      "link": "https://spaceflightnow.com/2026/03/30/live-coverage-spacex-to-launch-119-payloads-on-smallsat-rideshare-mission-from-california/",
+      "source": "Spaceflight Now",
+      "date": "2026-03-30T02:30:28Z",
+      "summary": "The Transporter-16 mission is the 21st mission in the company’s smallsat rideshare program. Liftoff of the Falcon 9 rocket from Vandenberg Space Force Base is scheduled for 4:02 a.m. PDT (7:02 a.m. EDT / 1102 UTC). "
+    },
+    {
       "title": "Satellite imaging industry’s next challenge: getting systems to talk to each other",
       "link": "https://spacenews.com/satellite-imaging-industrys-next-challenge-getting-systems-to-talk-to-each-other/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-29T09:37:26Z",
       "summary": "\nWhile NASA outlined plans to increase the cadence of robotic lunar lander missions at a recent event, it said little about accelerating work on crewed lunar landers.\nThe post ‘Shots on goal and win the game’: NASA’s effort to accelerate lunar landings appeared first on SpaceNews."
-    },
-    {
-      "title": "SpaceX to deliver 119 payloads to Sun-synchronous orbit on Transporter 16",
-      "link": "https://www.nasaspaceflight.com/2026/03/transporter-16/",
-      "source": "NASASpaceflight",
-      "date": "2026-03-28T23:48:46Z",
-      "summary": "SpaceX is set to launch 119 payloads to Sun-synchronous orbit from California for the Transporter…\r\nThe post SpaceX to deliver 119 payloads to Sun-synchronous orbit on Transporter 16 appeared first on NASASpaceFlight.com."
     }
   ],
-  "updated": "2026-03-30T02:27:03.202Z"
+  "updated": "2026-03-30T03:39:25.757Z"
 }
