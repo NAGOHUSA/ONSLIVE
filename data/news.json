@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "The race to build orbital data centers is missing its biggest variable: power",
+      "link": "https://spacenews.com/the-race-to-build-orbital-data-centers-is-missing-its-biggest-variable-power/",
+      "source": "SpaceNews",
+      "date": "2026-03-30T13:00:00Z",
+      "summary": "\nHere’s the version of the orbital data center story you keep reading: Elon Musk says space will be the cheapest place to run AI within 36 months. LoneStar announces plans for a lunar data center. NVIDIA’s Vera Rubin Space-1 makes headlines. These are real announcements, and they all have one thing in common. Nobody talks about the source of electricity. While […]\nThe post The race to build orbital data centers is missing its biggest variable: power appeared first on SpaceNews."
+    },
+    {
+      "title": "With Voyager’s help, Icarus Robotics to test free-flyer on ISS",
+      "link": "https://spacenews.com/with-voyagers-help-icarus-robotics-to-test-free-flyer-on-iss/",
+      "source": "SpaceNews",
+      "date": "2026-03-30T13:00:00Z",
+      "summary": "\nSAN FRANCISCO – Voyager Technologies announced plans March 30 to help Icarus Robotics test a free-flying platform, called Joyride, on the International Space Station. Under the agreement, Voyager will handle payload integration, safety certification, coordination of a 2027 launch, on-orbit operations planning and execution for Joyride-1, a technology demonstration. Icarus Robotics was founded in Brooklyn, […]\nThe post With Voyager’s help, Icarus Robotics to test free-flyer on ISS appeared first on SpaceNews."
+    },
+    {
       "title": "Starcloud achieves unicorn status with $170 million raise for orbital data centers",
       "link": "https://spacenews.com/starcloud-achieves-unicorn-status-with-170-million-raise-for-orbital-data-centers/",
       "source": "SpaceNews",
@@ -20,21 +34,7 @@
       "source": "Spaceflight Now",
       "date": "2026-03-30T02:30:28Z",
       "summary": "The Transporter-16 mission is the 21st mission in the company’s smallsat rideshare program. Liftoff of the Falcon 9 rocket from Vandenberg Space Force Base is scheduled for 4:02 a.m. PDT (7:02 a.m. EDT / 1102 UTC)."
-    },
-    {
-      "title": "Satellite imaging industry’s next challenge: getting systems to talk to each other",
-      "link": "https://spacenews.com/satellite-imaging-industrys-next-challenge-getting-systems-to-talk-to-each-other/",
-      "source": "SpaceNews",
-      "date": "2026-03-29T21:31:45Z",
-      "summary": "\nExecutives say lack of incentives and interoperability slows ‘tipping and cueing’ across vendors\nThe post Satellite imaging industry’s next challenge: getting systems to talk to each other appeared first on SpaceNews."
-    },
-    {
-      "title": "America’s Rocket Factory comes Full Circle with Artemis",
-      "link": "https://www.nasaspaceflight.com/2026/03/americas-rocket-factory-artemis/",
-      "source": "NASASpaceflight",
-      "date": "2026-03-29T21:28:30Z",
-      "summary": "As NASA prepares for its long-awaited return of crewed launches beyond low Earth orbit with…\r\nThe post America’s Rocket Factory comes Full Circle with Artemis appeared first on NASASpaceFlight.com."
     }
   ],
-  "updated": "2026-03-30T12:56:48.636Z"
+  "updated": "2026-03-30T13:33:53.767Z"
 }
