@@ -1,11 +1,18 @@
 {
   "articles": [
     {
-      "title": "Falcon 9 booster to fly for 34th time on Starlink delivery mission",
-      "link": "https://spaceflightnow.com/2026/03/30/falcon-9-booster-to-fly-for-34th-time-on-starlink-delivery-mission/",
-      "source": "Spaceflight Now",
-      "date": "2026-03-30T19:58:17Z",
-      "summary": "Liftoff from pad 40 at Cape Canaveral Space Force Station in Florida is scheduled for the opening of the launch window at 5:15 p.m. EDT (2115 UTC).  "
+      "title": "Rocket Lab wins German approval for Mynaric deal",
+      "link": "https://spacenews.com/rocket-lab-wins-german-approval-for-mynaric-deal/",
+      "source": "SpaceNews",
+      "date": "2026-03-30T21:19:55Z",
+      "summary": "\nDecision clears path for April closing after months of scrutiny over keeping key space technology in domestic hands\nThe post Rocket Lab wins German approval for Mynaric deal appeared first on SpaceNews."
+    },
+    {
+      "title": "Launch Preview: SLS, Falcon 9, Atlas V, and Soyuz launches comprise busy launch manifest",
+      "link": "https://www.nasaspaceflight.com/2026/03/launch-preview-033026/",
+      "source": "NASASpaceflight",
+      "date": "2026-03-30T21:07:43Z",
+      "summary": "Nine launches are scheduled this week, with rockets expected to liftoff from Florida, California, Russia,…\nThe post Launch Preview: SLS, Falcon 9, Atlas V, and Soyuz launches comprise busy launch manifest appeared first on NASASpaceFlight.com."
     },
     {
       "title": "Live coverage: Falcon 9 booster to fly for record 34th time on Starlink delivery mission",
@@ -15,26 +22,19 @@
       "summary": "Liftoff from pad 40 at Cape Canaveral Space Force Station in Florida is scheduled for the opening of the launch window at 5:15 p.m. EDT (2115 UTC). "
     },
     {
+      "title": "Falcon 9 booster to fly for 34th time on Starlink delivery mission",
+      "link": "https://spaceflightnow.com/2026/03/30/falcon-9-booster-to-fly-for-34th-time-on-starlink-delivery-mission/",
+      "source": "Spaceflight Now",
+      "date": "2026-03-30T19:58:17Z",
+      "summary": "Liftoff from pad 40 at Cape Canaveral Space Force Station in Florida is scheduled for the opening of the launch window at 5:15 p.m. EDT (2115 UTC).  "
+    },
+    {
       "title": "Varda flies navigation payload, heat shield tests on sixth reentry mission",
       "link": "https://spacenews.com/varda-flies-navigation-payload-heat-shield-tests-on-sixth-reentry-mission/",
       "source": "SpaceNews",
       "date": "2026-03-30T18:48:36Z",
       "summary": "\nRhea Space, Sandia and NASA hardware to gather data during high-speed descent\nThe post Varda flies navigation payload, heat shield tests on sixth reentry mission appeared first on SpaceNews."
-    },
-    {
-      "title": "Sendoff for Artemis II Crew",
-      "link": "https://www.nasa.gov/image-article/sendoff-for-artemis-ii-crew/",
-      "source": "NASA",
-      "date": "2026-03-30T18:18:27Z",
-      "summary": "From left to right, NASA astronauts Andre Douglas, Victor Glover, and Christina Koch, CSA (Canadian Space Agency) astronauts Jenni Gibbons, NASA astronaut Reid Wiseman, and CSA astronaut Jeremy Hansen pose for a photo before the Artemis II crew proceed to a media event on March 27, 2026. Douglas and Gibbons are the backup crew members […]"
-    },
-    {
-      "title": "ESA launches first Celeste satellites to test complementary LEO navigation layer",
-      "link": "https://spacenews.com/esa-launches-first-celeste-satellites-to-test-complementary-leo-navigation-layer/",
-      "source": "SpaceNews",
-      "date": "2026-03-30T16:44:46Z",
-      "summary": "\nMILAN — The European Space Agency has launched the first two satellites of the Celeste in-orbit demonstration mission from New Zealand aboard a Rocket Lab Electron launcher on March 28. The two satellites were launched at 10:14 CET and separated from the launcher about an hour later into a quasi-polar low Earth orbit at 510 […]\nThe post ESA launches first Celeste satellites to test complementary LEO navigation layer appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-30T21:00:52.677Z"
+  "updated": "2026-03-30T21:21:56.299Z"
 }
