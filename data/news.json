@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Varda flies navigation payload, heat shield tests on sixth reentry mission",
+      "link": "https://spacenews.com/varda-flies-navigation-payload-heat-shield-tests-on-sixth-reentry-mission/",
+      "source": "SpaceNews",
+      "date": "2026-03-30T18:48:36Z",
+      "summary": "\nRhea Space, Sandia and NASA hardware to gather data during high-speed descent\nThe post Varda flies navigation payload, heat shield tests on sixth reentry mission appeared first on SpaceNews."
+    },
+    {
       "title": "Sendoff for Artemis II Crew",
       "link": "https://www.nasa.gov/image-article/sendoff-for-artemis-ii-crew/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-30T15:39:07Z",
       "summary": "\nChinese firm CAS Space successfully reached orbit with the first launch of its Kinetica-2 launch vehicle Monday, with a prototype cargo spacecraft among the payloads.\nThe post China’s Kinetica-2 rocket debuts successfully, sending prototype cargo spacecraft to orbit appeared first on SpaceNews."
-    },
-    {
-      "title": "Meet History’s Next Lunar Astronauts",
-      "link": "https://www.spacescout.info/2026/03/meet-historys-next-lunar-astronauts/",
-      "source": "Space Scout",
-      "date": "2026-03-30T15:32:07Z",
-      "summary": "NASA’s Artemis II mission is ready to launch, and, if all goes to plan, will carry four people farther from Earth than ever before."
     }
   ],
-  "updated": "2026-03-30T18:30:43.977Z"
+  "updated": "2026-03-30T18:53:31.077Z"
 }
