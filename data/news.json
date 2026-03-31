@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Second Starlink satellite suffers anomaly, generating debris",
+      "link": "https://spacenews.com/second-starlink-satellite-suffers-anomaly-generating-debris/",
+      "source": "SpaceNews",
+      "date": "2026-03-30T23:50:44Z",
+      "summary": "\nFor the second time in just over three months, a SpaceX Starlink satellite has generated debris from an apparent on-orbit malfunction.\nThe post Second Starlink satellite suffers anomaly, generating debris appeared first on SpaceNews."
+    },
+    {
       "title": "Artemis II Ready to Go on April 1, Weather Permitting",
       "link": "https://spacepolicyonline.com/news/artemis-ii-ready-to-go-on-april-1-weather-permitting/",
       "source": "SpacePolicyOnline.com",
@@ -27,14 +34,7 @@
       "source": "Spaceflight Now",
       "date": "2026-03-30T19:58:17Z",
       "summary": "Liftoff from pad 40 at Cape Canaveral Space Force Station in Florida is scheduled for the opening of the launch window at 5:15 p.m. EDT (2115 UTC). "
-    },
-    {
-      "title": "Falcon 9 booster to fly for 34th time on Starlink delivery mission",
-      "link": "https://spaceflightnow.com/2026/03/30/falcon-9-booster-to-fly-for-34th-time-on-starlink-delivery-mission/",
-      "source": "Spaceflight Now",
-      "date": "2026-03-30T19:58:17Z",
-      "summary": "Liftoff from pad 40 at Cape Canaveral Space Force Station in Florida is scheduled for the opening of the launch window at 5:15 p.m. EDT (2115 UTC).  "
     }
   ],
-  "updated": "2026-03-30T23:52:04.460Z"
+  "updated": "2026-03-31T00:03:49.968Z"
 }
