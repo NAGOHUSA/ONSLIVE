@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Landsat Reveals Reservoir Changes and Bathymetry",
+      "link": "https://science.nasa.gov/missions/landsat/landsat-reveals-reservoir-changes-and-bathymetry/",
+      "source": "NASA",
+      "date": "2026-03-31T14:30:00Z",
+      "summary": "In two recent studies, researchers used Landsat data to fill key gaps in our knowledge of reservoir structure and dynamics."
+    },
+    {
       "title": "Agentic AI: the future of space warfare",
       "link": "https://spacenews.com/agentic-ai-the-future-of-space-warfare/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-31T09:00:00Z",
       "summary": "\nNew report from Aerospace Corp. highlights rising EU funding and defense focus \nThe post Europe’s space sector faces power shift as funding grows appeared first on SpaceNews."
-    },
-    {
-      "title": "Seven missions launched to test optimised data transfer from space",
-      "link": "https://www.esa.int/Applications/Connectivity_and_Secure_Communications/Seven_missions_launched_to_test_optimised_data_transfer_from_space",
-      "source": "ESA",
-      "date": "2026-03-31T08:05:00Z",
-      "summary": "Eight CubeSats and one payload supported by the European Space Agency (ESA) reached orbit, where they will demonstrate various applications aimed at improving how data is sent around and processed. Thanks to these demonstrations, practical and – sometimes – even life-saving data enabled from space will move more efficiently and reach the right actors on time in the future."
     }
   ],
-  "updated": "2026-03-31T14:45:53.335Z"
+  "updated": "2026-03-31T15:13:34.856Z"
 }
