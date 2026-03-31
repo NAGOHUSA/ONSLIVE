@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Godspeed, Artemis II!",
+      "link": "https://www.nasa.gov/image-article/godspeed-artemis-ii/",
+      "source": "NASA",
+      "date": "2026-03-31T15:54:19Z",
+      "summary": "NASA astronaut Jessica Meir took this photo of an Artemis program patch floating in the International Space Station’s cupola. She posted it on X on March 30, 2026, with the following caption: “Our work on the @Space_Station has provided the foundation to explore further, preparing us to return humans to the Moon this week. Stay […]"
+    },
+    {
       "title": "How Artemis II Will Return Astronauts to the Moon",
       "link": "https://www.spacescout.info/2026/03/how-artemis-ii-will-return-astronauts-to-the-moon/",
       "source": "Space Scout",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-31T12:00:00Z",
       "summary": "\nLos Altos, California — Antaris™, creator of the AI-powered Antaris Intelligence™ platform that simplifies satellite design, simulation, manufacturing, and operations for ISR and communications satellite missions, today announced the first close […]\nThe post Antaris™ Raises $28 Million Series A to Accelerate AI-Driven Space Missions appeared first on SpaceNews."
-    },
-    {
-      "title": "China targets 140 launches in 2026 amid commercial space surge",
-      "link": "https://spacenews.com/china-targets-140-launches-in-2026-amid-commercial-space-surge/",
-      "source": "SpaceNews",
-      "date": "2026-03-31T10:29:59Z",
-      "summary": "\nChina plans to conduct around 140 orbital launches this year, according to a commercial launch executive, marking a sharp acceleration in the country’s launch cadence.\nThe post China targets 140 launches in 2026 amid commercial space surge appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-31T15:44:40.664Z"
+  "updated": "2026-03-31T16:09:43.438Z"
 }
