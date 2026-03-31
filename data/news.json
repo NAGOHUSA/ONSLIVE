@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Fires Tear Through Nebraska Grasslands",
+      "link": "https://science.nasa.gov/earth/earth-observatory/fires-tear-through-nebraska-grasslands/",
+      "source": "NASA",
+      "date": "2026-03-31T04:01:00Z",
+      "summary": "Dry, warm, and windy conditions across the U.S. Great Plains led to extreme fire activity in March 2026."
+    },
+    {
       "title": "Second Starlink satellite suffers anomaly, generating debris",
       "link": "https://spacenews.com/second-starlink-satellite-suffers-anomaly-generating-debris/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASASpaceflight",
       "date": "2026-03-30T21:07:43Z",
       "summary": "Nine launches are scheduled this week, with rockets expected to liftoff from Florida, California, Russia,…\nThe post Launch Preview: SLS, Falcon 9, Atlas V, and Soyuz launches comprise busy launch manifest appeared first on NASASpaceFlight.com."
-    },
-    {
-      "title": "Live coverage: Falcon 9 booster to fly for record 34th time on Starlink delivery mission",
-      "link": "https://spaceflightnow.com/2026/03/30/falcon-9-booster-to-fly-for-record-34th-time-on-starlink-delivery-mission/",
-      "source": "Spaceflight Now",
-      "date": "2026-03-30T19:58:17Z",
-      "summary": "Liftoff from pad 40 at Cape Canaveral Space Force Station in Florida is scheduled for the opening of the launch window at 5:15 p.m. EDT (2115 UTC). "
     }
   ],
-  "updated": "2026-03-31T03:29:51.060Z"
+  "updated": "2026-03-31T04:23:35.052Z"
 }
