@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Artemis II set to return humanity to the Moon with launch on Wednesday evening",
+      "link": "https://www.nasaspaceflight.com/2026/03/artemis-ii-launch/",
+      "source": "NASASpaceflight",
+      "date": "2026-03-31T20:36:05Z",
+      "summary": "At 23:35 UTC on Dec. 16, 1972, the Apollo 17 command module, America, successfully completed…\nThe post Artemis II set to return humanity to the Moon with launch on Wednesday evening appeared first on NASASpaceFlight.com."
+    },
+    {
       "title": "Everything Still on Track for Artemis II Launch to the Moon on April 1",
       "link": "https://spacepolicyonline.com/news/everything-still-on-track-for-artemis-ii-launch-to-the-moon-on-april-1/",
       "source": "SpacePolicyOnline.com",
@@ -9,14 +16,14 @@
     },
     {
       "title": "This is my third Orion launch, but it feels totally different",
-      "link": "https://arstechnica.com/features/2026/03/this-is-my-third-orion-launch-but-it-feels-totally-different/",
+      "link": "https://arstechnica.com/space/2026/03/this-is-my-third-orion-launch-but-it-feels-totally-different/",
       "source": "Arstechnica",
       "date": "2026-03-31T17:09:31Z",
       "summary": "The first two launches of Orion felt hollow, but NASA is finally on a better course."
     },
     {
       "title": "This is my third Orion launch, but it feels totally different",
-      "link": "https://arstechnica.com/space/2026/03/this-is-my-third-orion-launch-but-it-feels-totally-different/",
+      "link": "https://arstechnica.com/features/2026/03/this-is-my-third-orion-launch-but-it-feels-totally-different/",
       "source": "Arstechnica",
       "date": "2026-03-31T17:09:31Z",
       "summary": "The first two launches of Orion felt hollow, but NASA is finally on a better course."
@@ -27,14 +34,7 @@
       "source": "ESA",
       "date": "2026-03-31T16:07:00Z",
       "summary": "The first launch opportunity for Artemis II, the first mission to bring astronauts towards the Moon in over 50 years, is set for 1 April at 18:24 local time (2 April at 00:24 CEST). Tune in from one hour before launch at 22:24 BST / 23:24 CEST on ESA Web TV to watch the launch."
-    },
-    {
-      "title": "Artemis II: let's go",
-      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/03/Artemis_II_let_s_go",
-      "source": "ESA",
-      "date": "2026-03-31T16:03:00Z",
-      "summary": "From the ESA Blogs."
     }
   ],
-  "updated": "2026-03-31T20:38:34.062Z"
+  "updated": "2026-03-31T20:57:10.920Z"
 }
