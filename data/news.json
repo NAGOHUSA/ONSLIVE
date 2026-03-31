@@ -2,6 +2,13 @@
   "articles": [
     {
       "title": "This is my third Orion launch, but it feels totally different",
+      "link": "https://arstechnica.com/features/2026/03/this-is-my-third-orion-launch-but-it-feels-totally-different/",
+      "source": "Arstechnica",
+      "date": "2026-03-31T17:09:31Z",
+      "summary": "The first two launches of Orion felt hollow, but NASA is finally on a better course."
+    },
+    {
+      "title": "This is my third Orion launch, but it feels totally different",
       "link": "https://arstechnica.com/space/2026/03/this-is-my-third-orion-launch-but-it-feels-totally-different/",
       "source": "Arstechnica",
       "date": "2026-03-31T17:09:31Z",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-03-31T15:54:19Z",
       "summary": "NASA astronaut Jessica Meir took this photo of an Artemis program patch floating in the International Space Station’s cupola. She posted it on X on March 30, 2026, with the following caption: “Our work on the @Space_Station has provided the foundation to explore further, preparing us to return humans to the Moon this week. Stay […]"
-    },
-    {
-      "title": "How Artemis II Will Return Astronauts to the Moon",
-      "link": "https://www.spacescout.info/2026/03/how-artemis-ii-will-return-astronauts-to-the-moon/",
-      "source": "Space Scout",
-      "date": "2026-03-31T15:15:06Z",
-      "summary": "NASA is preparing for the launch of Artemis II, the first mission to send humans to the moon since Apollo 17 in 1972. With launch now mere hours away, NASA and the astronauts are moving into final preparations for flight."
     }
   ],
-  "updated": "2026-03-31T17:25:56.637Z"
+  "updated": "2026-03-31T17:47:10.362Z"
 }
