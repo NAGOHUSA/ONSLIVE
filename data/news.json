@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Cast your vote for the best sci-fi spaceship and then watch debaters duke it out at Space Symposium",
+      "link": "https://spacenews.com/spaceship-smackdown-space-symposium-2026/",
+      "source": "SpaceNews",
+      "date": "2026-03-31T22:49:02Z",
+      "summary": "\nVoting ends April 14. Resistance is futile – you must comply.\nThe post Cast your vote for the best sci-fi spaceship and then watch debaters duke it out at Space Symposium appeared first on SpaceNews."
+    },
+    {
       "title": "Artemis II set to return humanity to the Moon with launch on Wednesday evening",
       "link": "https://www.nasaspaceflight.com/2026/03/artemis-ii-launch/",
       "source": "NASASpaceflight",
@@ -16,25 +23,18 @@
     },
     {
       "title": "This is my third Orion launch, but it feels totally different",
-      "link": "https://arstechnica.com/space/2026/03/this-is-my-third-orion-launch-but-it-feels-totally-different/",
-      "source": "Arstechnica",
-      "date": "2026-03-31T17:09:31Z",
-      "summary": "The first two launches of Orion felt hollow, but NASA is finally on a better course."
-    },
-    {
-      "title": "This is my third Orion launch, but it feels totally different",
       "link": "https://arstechnica.com/features/2026/03/this-is-my-third-orion-launch-but-it-feels-totally-different/",
       "source": "Arstechnica",
       "date": "2026-03-31T17:09:31Z",
       "summary": "The first two launches of Orion felt hollow, but NASA is finally on a better course."
     },
     {
-      "title": "Watch live: Artemis II launch",
-      "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Watch_live_Artemis_II_launch",
-      "source": "ESA",
-      "date": "2026-03-31T16:07:00Z",
-      "summary": "The first launch opportunity for Artemis II, the first mission to bring astronauts towards the Moon in over 50 years, is set for 1 April at 18:24 local time (2 April at 00:24 CEST). Tune in from one hour before launch at 22:24 BST / 23:24 CEST on ESA Web TV to watch the launch."
+      "title": "This is my third Orion launch, but it feels totally different",
+      "link": "https://arstechnica.com/space/2026/03/this-is-my-third-orion-launch-but-it-feels-totally-different/",
+      "source": "Arstechnica",
+      "date": "2026-03-31T17:09:31Z",
+      "summary": "The first two launches of Orion felt hollow, but NASA is finally on a better course."
     }
   ],
-  "updated": "2026-03-31T22:35:14.932Z"
+  "updated": "2026-03-31T22:52:15.227Z"
 }
