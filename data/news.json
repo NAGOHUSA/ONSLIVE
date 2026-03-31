@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Watch live: Artemis II launch",
+      "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Watch_live_Artemis_II_launch",
+      "source": "ESA",
+      "date": "2026-03-31T16:07:00Z",
+      "summary": "The first launch opportunity for Artemis II, the first mission to bring astronauts towards the Moon in over 50 years, is set for 1 April at 18:24 local time (2 April at 00:24 CEST). Tune in from one hour before launch at 22:24 BST / 23:24 CEST on ESA Web TV to watch the launch."
+    },
+    {
+      "title": "Artemis II: let's go",
+      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/03/Artemis_II_let_s_go",
+      "source": "ESA",
+      "date": "2026-03-31T16:03:00Z",
+      "summary": "From the ESA Blogs."
+    },
+    {
       "title": "Godspeed, Artemis II!",
       "link": "https://www.nasa.gov/image-article/godspeed-artemis-ii/",
       "source": "NASA",
@@ -20,21 +34,7 @@
       "source": "NASA",
       "date": "2026-03-31T14:30:00Z",
       "summary": "In two recent studies, researchers used Landsat data to fill key gaps in our knowledge of reservoir structure and dynamics."
-    },
-    {
-      "title": "Agentic AI: the future of space warfare",
-      "link": "https://spacenews.com/agentic-ai-the-future-of-space-warfare/",
-      "source": "SpaceNews",
-      "date": "2026-03-31T13:00:00Z",
-      "summary": "\nThe future of space warfare will be determined by the speed of decision. As satellite constellations proliferate and adversaries field increasingly sophisticated counterspace capabilities, the ability to sense, analyze and act faster than an opponent will dictate who controls the space domain. Artificial intelligence is already improving complex military decision-making. But agentic AI — a […]\nThe post Agentic AI: the future of space warfare appeared first on SpaceNews."
-    },
-    {
-      "title": "Antaris™ Raises $28 Million Series A to Accelerate AI-Driven Space Missions",
-      "link": "https://spacenews.com/antaris-raises-28-million-series-a-to-accelerate-ai-driven-space-missions/",
-      "source": "SpaceNews",
-      "date": "2026-03-31T12:00:00Z",
-      "summary": "\nLos Altos, California — Antaris™, creator of the AI-powered Antaris Intelligence™ platform that simplifies satellite design, simulation, manufacturing, and operations for ISR and communications satellite missions, today announced the first close […]\nThe post Antaris™ Raises $28 Million Series A to Accelerate AI-Driven Space Missions appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-31T16:09:43.438Z"
+  "updated": "2026-03-31T16:34:34.341Z"
 }
