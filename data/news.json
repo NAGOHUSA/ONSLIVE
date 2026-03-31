@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Europe’s space sector faces power shift as funding grows",
+      "link": "https://spacenews.com/europes-space-sector-faces-power-shift-as-funding-grows/",
+      "source": "SpaceNews",
+      "date": "2026-03-31T09:00:00Z",
+      "summary": "\nNew report from Aerospace Corp. highlights rising EU funding and defense focus \nThe post Europe’s space sector faces power shift as funding grows appeared first on SpaceNews."
+    },
+    {
       "title": "Eight more satellites added to IRIDE space programme",
       "link": "https://www.esa.int/Applications/Observing_the_Earth/IRIDE/Eight_more_satellites_added_to_IRIDE_space_programme",
       "source": "ESA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-30T23:50:44Z",
       "summary": "For the second time in just over three months, a SpaceX Starlink satellite has generated debris from an apparent on-orbit malfunction.\r\nThe post Second Starlink satellite suffers anomaly, generating debris appeared first on SpaceNews."
-    },
-    {
-      "title": "Artemis II Ready to Go on April 1, Weather Permitting",
-      "link": "https://spacepolicyonline.com/news/artemis-ii-ready-to-go-on-april-1-weather-permitting/",
-      "source": "SpacePolicyOnline.com",
-      "date": "2026-03-30T22:31:23Z",
-      "summary": "The Artemis II crew, rocket, and spacecraft are ready for liftoff on Wednesday, April 1, 2026 at 6:24 pm ET. No technical issues are currently being worked, with weather the […]"
     }
   ],
-  "updated": "2026-03-31T08:40:07.974Z"
+  "updated": "2026-03-31T09:05:45.048Z"
 }
