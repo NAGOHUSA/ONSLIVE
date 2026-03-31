@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "How Artemis II Will Return Astronauts to the Moon",
+      "link": "https://www.spacescout.info/2026/03/how-artemis-ii-will-return-astronauts-to-the-moon/",
+      "source": "Space Scout",
+      "date": "2026-03-31T15:15:06Z",
+      "summary": "NASA is preparing for the launch of Artemis II, the first mission to send humans to the moon since Apollo 17 in 1972. With launch now mere hours away, NASA and the astronauts are moving into final preparations for flight."
+    },
+    {
       "title": "Landsat Reveals Reservoir Changes and Bathymetry",
       "link": "https://science.nasa.gov/missions/landsat/landsat-reveals-reservoir-changes-and-bathymetry/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-03-31T10:29:59Z",
       "summary": "\nChina plans to conduct around 140 orbital launches this year, according to a commercial launch executive, marking a sharp acceleration in the country’s launch cadence.\nThe post China targets 140 launches in 2026 amid commercial space surge appeared first on SpaceNews."
-    },
-    {
-      "title": "Europe’s space sector faces power shift as funding grows",
-      "link": "https://spacenews.com/europes-space-sector-faces-power-shift-as-funding-grows/",
-      "source": "SpaceNews",
-      "date": "2026-03-31T09:00:00Z",
-      "summary": "\nNew report from Aerospace Corp. highlights rising EU funding and defense focus \nThe post Europe’s space sector faces power shift as funding grows appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-03-31T15:13:34.856Z"
+  "updated": "2026-03-31T15:44:40.664Z"
 }
