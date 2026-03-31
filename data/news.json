@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "This is my third Orion launch, but it feels totally different",
+      "link": "https://arstechnica.com/space/2026/03/this-is-my-third-orion-launch-but-it-feels-totally-different/",
+      "source": "Arstechnica",
+      "date": "2026-03-31T17:09:31Z",
+      "summary": "The first two launches of Orion felt hollow, but NASA is finally on a better course."
+    },
+    {
       "title": "Watch live: Artemis II launch",
       "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Watch_live_Artemis_II_launch",
       "source": "ESA",
@@ -27,14 +34,7 @@
       "source": "Space Scout",
       "date": "2026-03-31T15:15:06Z",
       "summary": "NASA is preparing for the launch of Artemis II, the first mission to send humans to the moon since Apollo 17 in 1972. With launch now mere hours away, NASA and the astronauts are moving into final preparations for flight."
-    },
-    {
-      "title": "Landsat Reveals Reservoir Changes and Bathymetry",
-      "link": "https://science.nasa.gov/missions/landsat/landsat-reveals-reservoir-changes-and-bathymetry/",
-      "source": "NASA",
-      "date": "2026-03-31T14:30:00Z",
-      "summary": "In two recent studies, researchers used Landsat data to fill key gaps in our knowledge of reservoir structure and dynamics."
     }
   ],
-  "updated": "2026-03-31T16:57:57.550Z"
+  "updated": "2026-03-31T17:25:56.637Z"
 }
