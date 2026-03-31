@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Everything Still on Track for Artemis II Launch to the Moon on April 1",
+      "link": "https://spacepolicyonline.com/news/everything-still-on-track-for-artemis-ii-launch-to-the-moon-on-april-1/",
+      "source": "SpacePolicyOnline.com",
+      "date": "2026-03-31T19:05:10Z",
+      "summary": "Just over a day from now, four astronauts may well be on their way to the Moon. Weather continues to be 80 percent favorable for launch at 6:24 pm ET […]"
+    },
+    {
       "title": "This is my third Orion launch, but it feels totally different",
       "link": "https://arstechnica.com/features/2026/03/this-is-my-third-orion-launch-but-it-feels-totally-different/",
       "source": "Arstechnica",
@@ -27,14 +34,7 @@
       "source": "ESA",
       "date": "2026-03-31T16:03:00Z",
       "summary": "From the ESA Blogs."
-    },
-    {
-      "title": "Godspeed, Artemis II!",
-      "link": "https://www.nasa.gov/image-article/godspeed-artemis-ii/",
-      "source": "NASA",
-      "date": "2026-03-31T15:54:19Z",
-      "summary": "NASA astronaut Jessica Meir took this photo of an Artemis program patch floating in the International Space Station’s cupola. She posted it on X on March 30, 2026, with the following caption: “Our work on the @Space_Station has provided the foundation to explore further, preparing us to return humans to the Moon this week. Stay […]"
     }
   ],
-  "updated": "2026-03-31T18:54:44.272Z"
+  "updated": "2026-03-31T19:20:11.637Z"
 }
