@@ -350,26 +350,12 @@
     ]
   ],
   "solarWind": [
-    "2026-03-31 08:13:00.000",
-    "1.22",
-    "444.6",
-    "131641"
+    "2026-03-31 08:37:00.000",
+    "1.08",
+    "438.8",
+    "71291"
   ],
   "solarFlares": [
-    {
-      "time_tag": "2026-03-24T08:18:00Z",
-      "begin_time": "2026-03-24T08:18:00Z",
-      "begin_class": "B6.3",
-      "max_time": null,
-      "max_class": null,
-      "max_xrlong": null,
-      "max_ratio": null,
-      "max_ratio_time": null,
-      "current_int_xrlong": 0.0005790162249468267,
-      "end_time": "2026-03-24T17:18:00Z",
-      "end_class": "C1.0",
-      "satellite": 18
-    },
     {
       "time_tag": "2026-03-24T17:18:00Z",
       "begin_time": "2026-03-24T17:18:00Z",
@@ -833,5 +819,5 @@
       "satellite": 18
     }
   ],
-  "lastUpdated": "2026-03-31T08:15:34.166Z"
+  "lastUpdated": "2026-03-31T08:40:06.216Z"
 }
