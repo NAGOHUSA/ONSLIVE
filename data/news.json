@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "From the Midwest to the Moon",
+      "link": "https://spacenews.com/from-the-midwest-to-the-moon-sn-focus/",
+      "source": "SpaceNews",
+      "date": "2026-04-01T11:25:31Z",
+      "summary": "\nWhy space companies are betting on Ohio\nThe post From the Midwest to the Moon appeared first on SpaceNews."
+    },
+    {
+      "title": "The Florida Model for Sustainable Aerospace Growth",
+      "link": "https://spacenews.com/florida-model-for-sustainable-aerospace-growth-sn-focus/",
+      "source": "SpaceNews",
+      "date": "2026-04-01T11:23:27Z",
+      "summary": "\nA conversation with Robert Long, President and CEO, Space Florida\nThe post The Florida Model for Sustainable Aerospace Growth appeared first on SpaceNews."
+    },
+    {
       "title": "After three years, Artemis 2 astronauts ready to launch",
       "link": "https://spacenews.com/after-three-years-artemis-2-astronauts-ready-to-launch/",
       "source": "SpaceNews",
@@ -20,21 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-04-01T07:50:44Z",
       "summary": "\nA Chinese commercial company has conducted an on-orbit demonstration of a flexible robotic arm, marking progress toward capabilities for satellite servicing, refueling and debris removal.\nThe post Chinese startup tests flexible robotic arm in space for on-orbit servicing appeared first on SpaceNews."
-    },
-    {
-      "title": "March of the Harmattan",
-      "link": "https://science.nasa.gov/earth/earth-observatory/march-of-the-harmattan/",
-      "source": "NASA",
-      "date": "2026-04-01T04:00:00Z",
-      "summary": "Strong winds in March 2026 carried Saharan dust across northwestern Africa and toward the Canary Islands, reducing visibility and prompting alerts."
-    },
-    {
-      "title": "Live coverage: NASA to launch Artemis 2, its first Moon-bound mission with astronauts since 1972",
-      "link": "https://spaceflightnow.com/2026/04/01/live-coverage-nasa-to-launch-artemis-2-its-first-moon-bound-mission-with-astronauts-since-1972/",
-      "source": "Spaceflight Now",
-      "date": "2026-04-01T01:16:07Z",
-      "summary": "The four astronauts will spend more than nine days onboard their Orion spacecraft and is poised to pass the distance record set by Apollo 13 in 1970. Liftoff from Launch Complex 39B is scheduled for Wednesday, April 1, at 6:24 p.m. EDT (2224 UTC). "
     }
   ],
-  "updated": "2026-04-01T11:15:12.302Z"
+  "updated": "2026-04-01T11:36:40.449Z"
 }
