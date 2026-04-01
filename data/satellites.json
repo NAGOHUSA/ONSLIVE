@@ -60,7 +60,7 @@
       "name": "STARLINK-1042",
       "id": "2019-074AL",
       "epoch": "2026-03-31T22:58:33.788928",
-      "meanMotion": 15.51039451,
+      "meanMotion": 15.51039452,
       "inclination": 53.0452
     },
     {
@@ -72,11 +72,11 @@
     }
   ],
   "iss": {
-    "latitude": 42.863693348819,
-    "longitude": -2.9410200360555,
-    "altitude": 428.56032330687,
-    "velocity": 27567.522317389,
-    "visibility": "daylight"
+    "latitude": 0.18196750929149,
+    "longitude": 122.11723470317,
+    "altitude": 420.46360348797,
+    "velocity": 27578.50916277,
+    "visibility": "eclipsed"
   },
-  "updated": "2026-04-01T11:58:27.142Z"
+  "updated": "2026-04-01T12:29:23.202Z"
 }
