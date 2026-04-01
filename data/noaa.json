@@ -365,13 +365,19 @@
       "Kp": 2,
       "a_running": 7,
       "station_count": 8
+    },
+    {
+      "time_tag": "2026-04-01T18:00:00",
+      "Kp": 1.67,
+      "a_running": 6,
+      "station_count": 8
     }
   ],
   "solarWind": [
-    "2026-04-01 20:58:00.000",
-    "9.86",
-    "416.3",
-    "105001"
+    "2026-04-01 21:20:00.000",
+    "6.98",
+    "397.4",
+    "62840"
   ],
   "solarFlares": [
     {
@@ -849,7 +855,21 @@
       "end_time": "2026-04-01T20:10:00Z",
       "end_class": "C4.3",
       "satellite": 18
+    },
+    {
+      "time_tag": "2026-04-01T20:54:00Z",
+      "begin_time": "2026-04-01T20:54:00Z",
+      "begin_class": "B8.6",
+      "max_time": "2026-04-01T21:02:00Z",
+      "max_class": "C1.4",
+      "max_xrlong": 0.0000014254285360948415,
+      "max_ratio": 0.1577759423863239,
+      "max_ratio_time": "2026-04-01T20:54:33Z",
+      "current_int_xrlong": 0.001544056343846023,
+      "end_time": "2026-04-01T21:14:00Z",
+      "end_class": "C1.1",
+      "satellite": 18
     }
   ],
-  "lastUpdated": "2026-04-01T21:00:28.905Z"
+  "lastUpdated": "2026-04-01T21:22:10.164Z"
 }
