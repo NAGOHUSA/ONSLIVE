@@ -1,11 +1,18 @@
 {
   "articles": [
     {
+      "title": "Artemis 2 fueling underway",
+      "link": "https://spacenews.com/artemis-2-fueling-underway/",
+      "source": "SpaceNews",
+      "date": "2026-04-01T12:42:36Z",
+      "summary": "\nFueling of the SLS is underway for an April 1 launch attempt of Artemis 2, the first mission to send humans toward the moon in more than 50 years.\nThe post Artemis 2 fueling underway appeared first on SpaceNews."
+    },
+    {
       "title": "From the Midwest to the Moon",
       "link": "https://spacenews.com/from-the-midwest-to-the-moon-sn-focus/",
       "source": "SpaceNews",
       "date": "2026-04-01T11:25:31Z",
-      "summary": "\nWhy space companies are betting on Ohio\nThe post From the Midwest to the Moon appeared first on SpaceNews."
+      "summary": "Why space companies are betting on Ohio\r\nThe post From the Midwest to the Moon appeared first on SpaceNews."
     },
     {
       "title": "The Florida Model for Sustainable Aerospace Growth",
@@ -19,7 +26,7 @@
       "link": "https://spacenews.com/after-three-years-artemis-2-astronauts-ready-to-launch/",
       "source": "SpaceNews",
       "date": "2026-04-01T10:47:18Z",
-      "summary": "\nEven after three years of public appearances as a crew, there can still be some surprises for the Artemis 2 astronauts.\nThe post After three years, Artemis 2 astronauts ready to launch appeared first on SpaceNews."
+      "summary": "Even after three years of public appearances as a crew, there can still be some surprises for the Artemis 2 astronauts.\r\nThe post After three years, Artemis 2 astronauts ready to launch appeared first on SpaceNews."
     },
     {
       "title": "Vantor wins intelligence agency contract to monitor space objects",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-04-01T09:30:00Z",
       "summary": "\nUnder NGA’s Luno program, the company will provide ‘insights on priority objects in low Earth orbit’\nThe post Vantor wins intelligence agency contract to monitor space objects appeared first on SpaceNews."
-    },
-    {
-      "title": "Chinese startup tests flexible robotic arm in space for on-orbit servicing",
-      "link": "https://spacenews.com/chinese-startup-tests-flexible-robotic-arm-in-space-for-on-orbit-servicing/",
-      "source": "SpaceNews",
-      "date": "2026-04-01T07:50:44Z",
-      "summary": "\nA Chinese commercial company has conducted an on-orbit demonstration of a flexible robotic arm, marking progress toward capabilities for satellite servicing, refueling and debris removal.\nThe post Chinese startup tests flexible robotic arm in space for on-orbit servicing appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-04-01T12:29:17.134Z"
+  "updated": "2026-04-01T12:52:22.605Z"
 }
