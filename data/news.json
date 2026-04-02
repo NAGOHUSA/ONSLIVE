@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Artemis II: Journey to the Moon begins",
+      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/04/Artemis_II_Journey_to_the_Moon_begins",
+      "source": "ESA",
+      "date": "2026-04-02T07:00:00Z",
+      "summary": "Artemis II launched on 2 April at 00:35 CEST, (18:35 local time on 1 April), sending astronauts around the Moon for the first time in over 50 years. At the heart of the mission is ESA's European Service Module, which powers, propels and sustains the Orion spacecraft and its crew on their journey around the Moon and safely back to Earth."
+    },
+    {
       "title": "Réunion Island Lava Reaches the Sea",
       "link": "https://science.nasa.gov/earth/earth-observatory/reunion-island-lava-reaches-the-sea/",
       "source": "NASA",
@@ -26,15 +33,8 @@
       "link": "https://spacenews.com/artemis-2-launches-on-first-mission-to-the-moon-in-more-than-50-years/",
       "source": "SpaceNews",
       "date": "2026-04-01T22:50:15Z",
-      "summary": "\nThe first human mission beyond Earth orbit in more than 50 years is underway with an April 1 launch of four astronauts on a flight around the moon.\nThe post Artemis 2 launches on first human mission to the moon in more than 50 years appeared first on SpaceNews."
-    },
-    {
-      "title": "Artemis II mission begins",
-      "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Artemis_II_mission_begins",
-      "source": "ESA",
-      "date": "2026-04-01T22:00:00Z",
-      "summary": "At 00:35 CEST today (18:35 local time on 1 April), NASA's Space Launch System rocket lifted off from the Kennedy Space Center in Florida, carrying four astronauts aboard the Orion spacecraft on Artemis II. At the heart of the mission is ESA's European Service Module, which powers, propels and sustains the Orion spacecraft and its crew on their journey around the Moon and safely back to Earth."
+      "summary": "The first human mission beyond Earth orbit in more than 50 years is underway with an April 1 launch of four astronauts on a flight around the moon.\r\nThe post Artemis 2 launches on first human mission to the moon in more than 50 years appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-04-02T07:08:01.798Z"
+  "updated": "2026-04-02T07:41:00.915Z"
 }
