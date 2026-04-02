@@ -1,6 +1,27 @@
 {
   "articles": [
     {
+      "title": "Moog Technology Successfully Steers Artemis II Launch",
+      "link": "https://spacenews.com/moog-technology-successfully-steers-artemis-ii-launch/",
+      "source": "SpaceNews",
+      "date": "2026-04-02T14:55:23Z",
+      "summary": "\nEast Aurora, NY — Moog Inc. (NYSE: MOG.A and MOG.B), a worldwide designer, manufacturer, and systems integrator of high-performance precision motion and fluid controls and control systems, provided the critical […]\nThe post Moog Technology Successfully Steers Artemis II Launch appeared first on SpaceNews."
+    },
+    {
+      "title": "Artemis II is unlikely to be the cultural touchstone Apollo 8 was, and that's OK",
+      "link": "https://arstechnica.com/space/2026/04/artemis-ii-is-unlikely-to-be-the-cultural-touchstone-apollo-8-was-and-thats-ok/",
+      "source": "Arstechnica",
+      "date": "2026-04-02T14:46:36Z",
+      "summary": "NASA has struggled to deal with the widespread sentiment that NASA has “been there, done that.\""
+    },
+    {
+      "title": "Carmel Ortiz on the evolving landscape of satellite communications",
+      "link": "https://spacenews.com/carmel-ortiz-on-the-evolving-landscape-of-satellite-communications/",
+      "source": "SpaceNews",
+      "date": "2026-04-02T14:42:23Z",
+      "summary": "\nIn this week’s episode of Space Minds, host Mike Gruss interviews Carmel Ortiz, senior vice president of medium-Earth-orbit constellation programs at SES. They discuss new technology to help satellites communicate […]\nThe post Carmel Ortiz on the evolving landscape of satellite communications appeared first on SpaceNews."
+    },
+    {
       "title": "Phantom Space buys thermal specialist to support orbital data center push",
       "link": "https://spacenews.com/phantom-space-buys-thermal-specialist-to-support-orbital-data-center-push/",
       "source": "SpaceNews",
@@ -8,33 +29,12 @@
       "summary": "\nPhantom Space has acquired satellite thermal hardware provider Thermal Management Technologies to bolster development of its planned Phantom Cloud orbital data center constellation.\nThe post Phantom Space buys thermal specialist to support orbital data center push appeared first on SpaceNews."
     },
     {
-      "title": "Five things Juice has revealed about Comet 3I/ATLAS",
-      "link": "https://www.esa.int/Science_Exploration/Space_Science/Juice/Five_things_Juice_has_revealed_about_Comet_3I_ATLAS",
-      "source": "ESA",
-      "date": "2026-04-02T13:00:00Z",
-      "summary": "‘Extreme but not exotic,’ – a glimpse at Comet 3I/ATLAS through the eyes of the European Space Agency’s Jupiter Icy Moons Explorer (Juice)."
-    },
-    {
       "title": "Five things Juice has revealed about Comet 3I/ATLAS already",
       "link": "https://www.esa.int/Science_Exploration/Space_Science/Juice/Five_things_Juice_has_revealed_about_Comet_3I_ATLAS_already",
       "source": "ESA",
       "date": "2026-04-02T13:00:00Z",
       "summary": "‘Extreme but not exotic,’ – a glimpse at Comet 3I/ATLAS through the eyes of the European Space Agency’s Jupiter Icy Moons Explorer (Juice)."
-    },
-    {
-      "title": "Relativity, Hermeus, Astrion and Divergent executives join Fortastra C-suite",
-      "link": "https://spacenews.com/relativity-hermeus-astrion-and-divergent-executives-join-fortastra-c-suite/",
-      "source": "SpaceNews",
-      "date": "2026-04-02T13:00:00Z",
-      "summary": "\nSAN FRANCISCO – Los Angeles startup Fortastra has hired veterans from Relativity Space, Hermeus, Astrion and Divergent Technologies to design and operate maneuverable spacecraft for on-orbit security. Josh Jetter, former Relativity senior director of avionics engineering and manufacturing, will be Fortastra’s chief technology officer. Sahil Desai, Fortastra’s vice president of product, was Divergent Technologies’ vice president […]\nThe post Relativity, Hermeus, Astrion and Divergent executives join Fortastra C-suite appeared first on SpaceNews."
-    },
-    {
-      "title": "A silicon chip that can do it all",
-      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/04/A_silicon_chip_that_can_do_it_all",
-      "source": "ESA",
-      "date": "2026-04-02T13:00:00Z",
-      "summary": "From the ESA Blogs."
     }
   ],
-  "updated": "2026-04-02T14:38:01.181Z"
+  "updated": "2026-04-02T15:02:51.158Z"
 }
