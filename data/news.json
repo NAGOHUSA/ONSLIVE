@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Artemis 2 crew blasts off on historic moon mission",
+      "link": "https://spaceflightnow.com/2026/04/02/artemis-2-crew-blasts-off-on-historic-moon-mission/",
+      "source": "Spaceflight Now",
+      "date": "2026-04-02T15:52:07Z",
+      "summary": "A three-man one-woman crew blasted off on a voyage to the moon Wednesday, riding atop the world's most powerful operational rocket as it roared away on a trail-blazing flight to help pave the way for upcoming lunar landings and an American moon base. "
+    },
+    {
       "title": "Artemis II Rises",
       "link": "https://www.spacescout.info/2026/04/artemis-ii-rises/",
       "source": "Space Scout",
@@ -27,14 +34,7 @@
       "source": "Arstechnica",
       "date": "2026-04-02T14:46:36Z",
       "summary": "NASA has struggled to deal with the widespread sentiment that NASA has “been there, done that.\""
-    },
-    {
-      "title": "Carmel Ortiz on the evolving landscape of satellite communications",
-      "link": "https://spacenews.com/carmel-ortiz-on-the-evolving-landscape-of-satellite-communications/",
-      "source": "SpaceNews",
-      "date": "2026-04-02T14:42:23Z",
-      "summary": "\nIn this week’s episode of Space Minds, host Mike Gruss interviews Carmel Ortiz, senior vice president of medium-Earth-orbit constellation programs at SES. They discuss new technology to help satellites communicate […]\nThe post Carmel Ortiz on the evolving landscape of satellite communications appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-04-02T15:53:20.156Z"
+  "updated": "2026-04-02T16:14:40.118Z"
 }
