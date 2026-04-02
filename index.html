@@ -829,11 +829,41 @@
                 </div>
             </div>
             
-            <div class="header-actions">
+                        <div class="header-actions">
                 <div style="color: var(--text-muted); display: flex; align-items: center; gap: 1rem;">
                     <span><i class="fas fa-clock"></i> Updated: <strong id="update-time">--:--</strong></span>
                     <span><i class="fas fa-sync-alt"></i> Auto: <strong>1 min</strong></span>
                 </div>
+               
+                <div class="controls">
+                    <!-- Buy Me a Coffee Button - Top -->
+                    <a href="https://buymeacoffee.com/ournightsky" 
+                       target="_blank" 
+                       rel="noopener noreferrer"
+                       class="btn" 
+                       style="background: linear-gradient(135deg, #ffdd00, #f5b800); color: #1a1605; border: none; font-weight: 700;">
+                        <i class="fas fa-coffee"></i> Buy Me a Coffee
+                    </a>
+
+                    <div class="layout-controls">
+                        <button class="layout-btn" onclick="saveLayout()" title="Save Layout">
+                            <i class="fas fa-save"></i> Save
+                        </button>
+                        <button class="layout-btn" onclick="resetLayout()" title="Reset to Default">
+                            <i class="fas fa-redo"></i> Reset
+                        </button>
+                        <button class="layout-btn" onclick="toggleLayoutHelp()" title="Layout Help">
+                            <i class="fas fa-question-circle"></i>
+                        </button>
+                    </div>
+                    <button id="refresh-btn" class="btn">
+                        <i class="fas fa-sync-alt"></i> Refresh
+                    </button>
+                    <button id="fullscreen-btn" class="btn btn-outline" title="Fullscreen">
+                        <i class="fas fa-expand"></i>
+                    </button>
+                </div>
+            </div>
                 
                 <div class="controls">
                     <div class="layout-controls">
@@ -1317,7 +1347,7 @@
         </div>
     </main>
 
-    <footer>
+        <footer>
         <div class="footer-logo">
             <i class="fas fa-star"></i>
         </div>
@@ -1327,6 +1357,16 @@
         </p>
         <p style="font-size: 0.8rem; margin-top: 0.5rem; color: var(--text-muted);">
             SOHO animations: NASA/ESA SOHO mission • Data from NOAA, NASA, SOHO, and space weather sources
+        </p>
+        
+        <!-- Buy Me a Coffee - Bottom -->
+        <p style="margin-top: 1.5rem;">
+            <a href="https://buymeacoffee.com/ournightsky" 
+               target="_blank" 
+               rel="noopener noreferrer"
+               style="color: #ffdd00; font-weight: 700; text-decoration: none; font-size: 1.05rem;">
+                ☕ Support Our Night Sky – Buy Me a Coffee
+            </a>
         </p>
     </footer>
 
