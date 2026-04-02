@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "How to follow the Smile launch live",
+      "link": "https://www.esa.int/Science_Exploration/Space_Science/Smile/How_to_follow_the_Smile_launch_live",
+      "source": "ESA",
+      "date": "2026-04-02T15:00:00Z",
+      "summary": "ESA will be broadcasting live as the European-Chinese Smile mission launches at 07:29 BST/08:29 CEST (03:29 local time) on 9 April 2026."
+    },
+    {
       "title": "Moog Technology Successfully Steers Artemis II Launch",
       "link": "https://spacenews.com/moog-technology-successfully-steers-artemis-ii-launch/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-04-02T13:06:18Z",
       "summary": "\nPhantom Space has acquired satellite thermal hardware provider Thermal Management Technologies to bolster development of its planned Phantom Cloud orbital data center constellation.\nThe post Phantom Space buys thermal specialist to support orbital data center push appeared first on SpaceNews."
-    },
-    {
-      "title": "Five things Juice has revealed about Comet 3I/ATLAS already",
-      "link": "https://www.esa.int/Science_Exploration/Space_Science/Juice/Five_things_Juice_has_revealed_about_Comet_3I_ATLAS_already",
-      "source": "ESA",
-      "date": "2026-04-02T13:00:00Z",
-      "summary": "‘Extreme but not exotic,’ – a glimpse at Comet 3I/ATLAS through the eyes of the European Space Agency’s Jupiter Icy Moons Explorer (Juice)."
     }
   ],
-  "updated": "2026-04-02T15:02:51.158Z"
+  "updated": "2026-04-02T15:30:26.214Z"
 }
