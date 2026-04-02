@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Artemis II Astronauts Launch to Moon",
+      "link": "https://www.nasa.gov/image-article/artemis-ii-astronauts-launch-to-moon/",
+      "source": "NASA",
+      "date": "2026-04-02T16:50:01Z",
+      "summary": "NASA’s Space Launch System rocket and Orion spacecraft lift off in this April 1, 2026, image. NASA’s Artemis II mission will take NASA astronauts Reid Wiseman, Victor Glover, and Christina Koch, and CSA (Canadian Space Agency) astronaut Jeremy on an approximately 10-day journey around the Moon and back aboard their Orion spacecraft. See more launch […]"
+    },
+    {
       "title": "Artemis 2 crew blasts off on historic moon mission",
       "link": "https://spaceflightnow.com/2026/04/02/artemis-2-crew-blasts-off-on-historic-moon-mission/",
       "source": "Spaceflight Now",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-04-02T14:55:23Z",
       "summary": "East Aurora, NY — Moog Inc. (NYSE: MOG.A and MOG.B), a worldwide designer, manufacturer, and systems integrator of high-performance precision motion and fluid controls and control systems, provided the critical […]\r\nThe post Moog Technology Successfully Steers Artemis II Launch appeared first on SpaceNews."
-    },
-    {
-      "title": "Artemis II is unlikely to be the cultural touchstone Apollo 8 was, and that's OK",
-      "link": "https://arstechnica.com/space/2026/04/artemis-ii-is-unlikely-to-be-the-cultural-touchstone-apollo-8-was-and-thats-ok/",
-      "source": "Arstechnica",
-      "date": "2026-04-02T14:46:36Z",
-      "summary": "NASA has struggled to deal with the widespread sentiment that NASA has “been there, done that.\""
     }
   ],
-  "updated": "2026-04-02T16:36:23.600Z"
+  "updated": "2026-04-02T16:59:59.930Z"
 }
