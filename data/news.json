@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Meet NASA’s New Artemis II Science Officers",
+      "link": "https://science.nasa.gov/missions/artemis/meet-nasas-new-artemis-ii-science-officers/",
+      "source": "NASA",
+      "date": "2026-04-03T17:35:44Z",
+      "summary": "NASA’s first Artemis II science officers—Kelsey Young, Trevor Graff, and Angela Garcia—are pioneering a new era of mission operations by integrating advanced lunar science directly into Mission Control. Their work will shape how future Artemis crews observe, analyze, and deepen our understanding of the Moon."
+    },
+    {
       "title": "Italy’s Argotec plans to scale Florida satellite facility to meet rising US demand",
       "link": "https://spacenews.com/italys-argotec-plans-to-scale-florida-satellite-facility-to-meet-rising-us-demand/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-04-03T15:15:01Z",
       "summary": "\nFor the second consecutive year, the White House is proposing a major budget cut for NASA that would significantly impact the agency’s science programs and the International Space Station.\nThe post White House again proposes steep NASA budget cuts appeared first on SpaceNews."
-    },
-    {
-      "title": "Trump FY2027 Budget Supports Moon Missions, But Cuts Everything Else",
-      "link": "https://spacepolicyonline.com/news/trump-fy2027-budget-supports-moon-missions-but-cuts-everything-else/",
-      "source": "SpacePolicyOnline.com",
-      "date": "2026-04-03T15:04:08Z",
-      "summary": "Like last year, the Trump Administration’s FY2027 budget request for NASA proposes deep cuts to everything other than human exploration. For FY2027, the agency would be cut 23 percent to […]"
     }
   ],
-  "updated": "2026-04-03T18:04:17.177Z"
+  "updated": "2026-04-03T18:22:44.995Z"
 }
