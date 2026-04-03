@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Barents Sea Tied to Low Arctic Sea Ice",
+      "link": "https://science.nasa.gov/earth/earth-observatory/barents-sea-tied-to-low-arctic-sea-ice/",
+      "source": "NASA",
+      "date": "2026-04-03T04:00:00Z",
+      "summary": "Patches of open water in the region contributed to low sea ice extent across the Arctic in March 2026, which tied with the lowest maximum observed in the satellite record."
+    },
+    {
+      "title": "Artemis II Orion performs TLI Burn — Now headed to the Moon",
+      "link": "https://www.nasaspaceflight.com/2026/04/artemis-ii-orion-performs-tli-headed-moon/",
+      "source": "NASASpaceflight",
+      "date": "2026-04-03T03:46:22Z",
+      "summary": "In a historic milestone more than 50 years in the making, NASA’s Orion spacecraft Integrity…\nThe post Artemis II Orion performs TLI Burn — Now headed to the Moon appeared first on NASASpaceFlight.com."
+    },
+    {
       "title": "NASA’s Artemis II Mission Leaves Earth Orbit for Flight around Moon",
       "link": "https://www.nasa.gov/news-release/nasas-artemis-ii-mission-leaves-earth-orbit-for-flight-around-moon/",
       "source": "NASA",
@@ -20,21 +34,7 @@
       "source": "Arstechnica",
       "date": "2026-04-03T02:17:37Z",
       "summary": "“I don’t think we could be more pleased.\""
-    },
-    {
-      "title": "Four Astronauts Headed to Moon After Successful TLI Burn",
-      "link": "https://spacepolicyonline.com/news/four-astronauts-headed-to-moon-after-successful-tli-burn/",
-      "source": "SpacePolicyOnline.com",
-      "date": "2026-04-03T02:03:08Z",
-      "summary": "After a day in earth orbit checking out systems on the Orion capsule, the Artemis II crew is headed to the Moon.  Earlier today the Mission Management Team gave them […]"
-    },
-    {
-      "title": "Swift spacecraft reorientation buys time for reboost mission",
-      "link": "https://spacenews.com/swift-spacecraft-reorientation-buys-time-for-reboost-mission/",
-      "source": "SpaceNews",
-      "date": "2026-04-02T23:35:06Z",
-      "summary": "\nNASA modified operations of an astrophysics spacecraft in a decaying orbit to buy more time for a mission later this year that will attempt to raise its orbit.\nThe post Swift spacecraft reorientation buys time for reboost mission appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-04-03T03:29:22.040Z"
+  "updated": "2026-04-03T04:22:04.660Z"
 }
