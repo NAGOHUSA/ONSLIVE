@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Earth from Space: Eyes on our Moon",
+      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/04/Earth_from_Space_Eyes_on_our_Moon",
+      "source": "ESA",
+      "date": "2026-04-03T08:00:00Z",
+      "summary": "From the ESA Blogs."
+    },
+    {
       "title": "A pair of planet-forming discs",
       "link": "https://www.esa.int/ESA_Multimedia/Images/2026/04/A_pair_of_planet-forming_discs",
       "source": "ESA",
@@ -8,11 +15,11 @@
       "summary": "From the ESA Blogs."
     },
     {
-      "title": "Earth from Space: Eyes on our Moon",
-      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/04/Earth_from_Space_Eyes_on_our_Moon",
-      "source": "ESA",
-      "date": "2026-04-03T08:00:00Z",
-      "summary": "From the ESA Blogs."
+      "title": "SpaceX Files FCC Complaint Over Ariane 64 Amazon LEO Launch",
+      "link": "https://europeanspaceflight.com/spacex-files-fcc-complaint-over-ariane-64-amazon-leo-launch/",
+      "source": "European Spaceflight",
+      "date": "2026-04-03T06:00:01Z",
+      "summary": "In a complaint filed with the FCC on 1 April, US launch services provider SpaceX accused Amazon and its launch partner, Arianespace, of deploying 32 satellites into a higher orbit than authorised during a February Ariane 64 launch. In response, Amazon has issued a statement expressing surprise that SpaceX did not raise any objections when […]\nThe post SpaceX Files FCC Complaint Over Ariane 64 Amazon LEO Launch appeared first on European Spaceflight."
     },
     {
       "title": "Barents Sea Tied to Low Arctic Sea Ice",
@@ -27,14 +34,7 @@
       "source": "NASASpaceflight",
       "date": "2026-04-03T03:46:22Z",
       "summary": "In a historic milestone more than 50 years in the making, NASA’s Orion spacecraft Integrity…\r\nThe post Artemis II Orion performs TLI Burn — Now headed to the Moon appeared first on NASASpaceFlight.com."
-    },
-    {
-      "title": "NASA’s Artemis II Mission Leaves Earth Orbit for Flight around Moon",
-      "link": "https://www.nasa.gov/news-release/nasas-artemis-ii-mission-leaves-earth-orbit-for-flight-around-moon/",
-      "source": "NASA",
-      "date": "2026-04-03T02:48:08Z",
-      "summary": "For the first time in more than 50 years, astronauts on a NASA mission are bound to fly around the Moon after successfully completing a key burn of Orion’s main engine. With the approximately six-minute firing of the spacecraft’s service module engine on Thursday, known as the translunar injection burn, Orion and its crew of […]"
     }
   ],
-  "updated": "2026-04-03T08:28:37.038Z"
+  "updated": "2026-04-03T08:50:12.622Z"
 }
