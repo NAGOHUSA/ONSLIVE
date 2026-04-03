@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "As Artemis II zooms to the Moon, everything seems to be going swimmingly",
+      "link": "https://arstechnica.com/space/2026/04/as-artemis-ii-zooms-to-the-moon-everything-seems-to-be-going-swimmingly/",
+      "source": "Arstechnica",
+      "date": "2026-04-03T22:20:19Z",
+      "summary": "The cabin was colder on Thursday, but the crew has been able to adjust the temperature."
+    },
+    {
+      "title": "Live coverage: ULA’s Atlas 5 rocket to launch its heaviest payload ever with next Amazon Leo mission",
+      "link": "https://spaceflightnow.com/2026/04/03/live-coverage-ulas-atlas-5-rocket-to-launch-its-heaviest-payload-ever-with-next-amazon-leo-mission/",
+      "source": "Spaceflight Now",
+      "date": "2026-04-03T22:10:24Z",
+      "summary": "Liftoff from pad 41 at Cape Canaveral Space Force Station is scheduled for Saturday at 1:45 a.m. EDT (0545 UTC), weather permitting. "
+    },
+    {
       "title": "NASA Sets Coverage for Northrop Grumman’s CRS-24 Resupply Launch",
       "link": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-northrop-grummans-crs-24-resupply-launch/",
       "source": "NASA",
@@ -20,21 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-04-03T17:33:12Z",
       "summary": "\nItaly’s Argotec has officially opened its first U.S. satellite production facility, cementing a foothold near Kennedy Space Center in Florida to join other foreign space firms pursuing growing demand from American programs.\nThe post Italy’s Argotec plans to scale Florida satellite facility to meet rising US demand appeared first on SpaceNews."
-    },
-    {
-      "title": "Virgil I. “Gus” Grissom",
-      "link": "https://www.nasa.gov/image-article/virgil-i-gus-grissom/",
-      "source": "NASA",
-      "date": "2026-04-03T16:27:09Z",
-      "summary": "Today marks the 100th anniversary of the birth of Virgil I. “Gus” Grissom, born April 3, 1926, in Mitchell, Indiana. As one of NASA’s first seven astronauts, he became America’s second astronaut to fly in space when he launched aboard the Liberty Bell 7 spacecraft on July 21, 1961, just weeks after Alan Shepard’s historic […]"
-    },
-    {
-      "title": "Artemis II Sets Course for Moon",
-      "link": "https://www.spacescout.info/2026/04/artemis-ii-sets-course-for-moon/",
-      "source": "Space Scout",
-      "date": "2026-04-03T15:22:26Z",
-      "summary": "After a picture-perfect launch Wednesday placed the crew of Artemis II into a highly elliptical Earth orbit, astronauts Reid Wiseman, Victor Glover, Jeremy Hansen, and Christina Koch are now officially on their way towards the Moon, the first humans to make such a journey since 1972."
     }
   ],
-  "updated": "2026-04-03T22:15:49.044Z"
+  "updated": "2026-04-03T22:30:32.050Z"
 }
