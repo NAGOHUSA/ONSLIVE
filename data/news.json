@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "SpaceX and Amazon spar over satellite deployments",
+      "link": "https://spacenews.com/spacex-and-amazon-spar-over-satellite-deployments/",
+      "source": "SpaceNews",
+      "date": "2026-04-03T11:41:46Z",
+      "summary": "\nAmazon says it will revise deployment plans for its broadband satellite constellation while denying claims from SpaceX that its current approach represents a space safety risk.\nThe post SpaceX and Amazon spar over satellite deployments appeared first on SpaceNews."
+    },
+    {
       "title": "Europe’s strategic autonomy in space will define its role in the ‘second space age’",
       "link": "https://spacenews.com/europes-strategic-autonomy-in-space-will-define-its-role-in-the-second-space-age/",
       "source": "SpaceNews",
@@ -15,13 +22,6 @@
       "summary": "\nThe first launch of the Tianlong-3 rocket from Chinese commercial firm Space Pioneer failed Saturday after suffering an anomaly in its ascent phase.\nThe post China’s commercial Tianlong-3 rocket fails on debut launch appeared first on SpaceNews."
     },
     {
-      "title": "A pair of planet-forming discs",
-      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/04/A_pair_of_planet-forming_discs",
-      "source": "ESA",
-      "date": "2026-04-03T08:00:00Z",
-      "summary": "From the ESA Blogs."
-    },
-    {
       "title": "Earth from Space: Eyes on our Moon",
       "link": "https://www.esa.int/ESA_Multimedia/Images/2026/04/Earth_from_Space_Eyes_on_our_Moon",
       "source": "ESA",
@@ -29,12 +29,12 @@
       "summary": "From the ESA Blogs."
     },
     {
-      "title": "SpaceX Files FCC Complaint Over Ariane 64 Amazon LEO Launch",
-      "link": "https://europeanspaceflight.com/spacex-files-fcc-complaint-over-ariane-64-amazon-leo-launch/",
-      "source": "European Spaceflight",
-      "date": "2026-04-03T06:00:01Z",
-      "summary": "In a complaint filed with the FCC on 1 April, US launch services provider SpaceX accused Amazon and its launch partner, Arianespace, of deploying 32 satellites into a higher orbit than authorised during a February Ariane 64 launch. In response, Amazon has issued a statement expressing surprise that SpaceX did not raise any objections when […]\nThe post SpaceX Files FCC Complaint Over Ariane 64 Amazon LEO Launch appeared first on European Spaceflight."
+      "title": "A pair of planet-forming discs",
+      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/04/A_pair_of_planet-forming_discs",
+      "source": "ESA",
+      "date": "2026-04-03T08:00:00Z",
+      "summary": "From the ESA Blogs."
     }
   ],
-  "updated": "2026-04-03T11:45:10.040Z"
+  "updated": "2026-04-03T11:59:18.061Z"
 }
