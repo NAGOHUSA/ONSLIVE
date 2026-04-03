@@ -1,6 +1,27 @@
 {
   "articles": [
     {
+      "title": "NASA’s Artemis II Mission Leaves Earth Orbit for Flight around Moon",
+      "link": "https://www.nasa.gov/news-release/nasas-artemis-ii-mission-leaves-earth-orbit-for-flight-around-moon/",
+      "source": "NASA",
+      "date": "2026-04-03T02:48:08Z",
+      "summary": "For the first time in more than 50 years, astronauts on a NASA mission are bound to fly around the Moon after successfully completing a key burn of Orion’s main engine. With the approximately six-minute firing of the spacecraft’s service module engine on Thursday, known as the translunar injection burn, Orion and its crew of […]"
+    },
+    {
+      "title": "Artemis 2 heads to the moon",
+      "link": "https://spacenews.com/artemis-2-heads-to-the-moon/",
+      "source": "SpaceNews",
+      "date": "2026-04-03T02:30:13Z",
+      "summary": "\nNASA’s Artemis 2 mission is on its way to the moon after a successful maneuver April 2.\nThe post Artemis 2 heads to the moon appeared first on SpaceNews."
+    },
+    {
+      "title": "Four astronauts are now inexorably bound for the Moon",
+      "link": "https://arstechnica.com/space/2026/04/four-astronauts-are-now-inexorably-bound-for-the-moon/",
+      "source": "Arstechnica",
+      "date": "2026-04-03T02:17:37Z",
+      "summary": "“I don’t think we could be more pleased.\""
+    },
+    {
       "title": "Four Astronauts Headed to Moon After Successful TLI Burn",
       "link": "https://spacepolicyonline.com/news/four-astronauts-headed-to-moon-after-successful-tli-burn/",
       "source": "SpacePolicyOnline.com",
@@ -13,28 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-04-02T23:35:06Z",
       "summary": "\nNASA modified operations of an astrophysics spacecraft in a decaying orbit to buy more time for a mission later this year that will attempt to raise its orbit.\nThe post Swift spacecraft reorientation buys time for reboost mission appeared first on SpaceNews."
-    },
-    {
-      "title": "Former Sierra Space CEO Tom Vice to lead Astrion",
-      "link": "https://spacenews.com/former-sierra-space-ceo-tom-vice-to-lead-astrion/",
-      "source": "SpaceNews",
-      "date": "2026-04-02T20:44:39Z",
-      "summary": "\nHuntsville-based defense contractor focuses on systems engineering and integration, and space mission assurance\nThe post Former Sierra Space CEO Tom Vice to lead Astrion  appeared first on SpaceNews."
-    },
-    {
-      "title": "Optical terminals still a bottleneck in Pentagon’s proliferated constellation",
-      "link": "https://spacenews.com/optical-terminals-still-a-bottleneck-in-pentagons-proliferated-constellation/",
-      "source": "SpaceNews",
-      "date": "2026-04-02T19:39:49Z",
-      "summary": "\nGP Sandhoo: ‘From an optical communications terminal perspective, we’re not there yet on how many we need’\nThe post Optical terminals still a bottleneck in Pentagon’s proliferated constellation appeared first on SpaceNews."
-    },
-    {
-      "title": "Pentagon awards Raytheon $45 million for GPS ground system as program future is reassessed",
-      "link": "https://spacenews.com/pentagon-awards-raytheon-45-million-for-gps-ground-system-as-program-future-is-reassessed/",
-      "source": "SpaceNews",
-      "date": "2026-04-02T17:17:43Z",
-      "summary": "\nThe ‘unpriced change order’ supports satellite launches while officials reassess long-delayed ground system\nThe post Pentagon awards Raytheon $45 million for GPS ground system as program future is reassessed appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-04-03T02:21:14.813Z"
+  "updated": "2026-04-03T03:29:22.040Z"
 }
