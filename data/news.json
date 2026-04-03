@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Artemis II Sets Course for Moon",
+      "link": "https://www.spacescout.info/2026/04/artemis-ii-sets-course-for-moon/",
+      "source": "Space Scout",
+      "date": "2026-04-03T15:22:26Z",
+      "summary": "After a picture-perfect launch Wednesday placed the crew of Artemis II into a highly elliptical Earth orbit, astronauts Reid Wiseman, Victor Glover, Jeremy Hansen, and Christina Koch are now officially on their way towards the Moon, the first humans to make such a journey since 1972."
+    },
+    {
       "title": "White House again proposes steep NASA budget cuts",
       "link": "https://spacenews.com/white-house-again-proposes-steep-nasa-budget-cuts/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "ESA",
       "date": "2026-04-03T13:10:00Z",
       "summary": "Week in images: 30 March - 03 April 2026"
-    },
-    {
-      "title": "SpaceX and Amazon spar over satellite deployments",
-      "link": "https://spacenews.com/spacex-and-amazon-spar-over-satellite-deployments/",
-      "source": "SpaceNews",
-      "date": "2026-04-03T11:41:46Z",
-      "summary": "\nAmazon says it will revise deployment plans for its broadband satellite constellation while denying claims from SpaceX that its current approach represents a space safety risk.\nThe post SpaceX and Amazon spar over satellite deployments appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-04-03T15:23:26.001Z"
+  "updated": "2026-04-03T15:40:40.027Z"
 }
