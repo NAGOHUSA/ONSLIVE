@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Virgil I. “Gus” Grissom",
+      "link": "https://www.nasa.gov/image-article/virgil-i-gus-grissom/",
+      "source": "NASA",
+      "date": "2026-04-03T16:27:09Z",
+      "summary": "Today marks the 100th anniversary of the birth of Virgil I. “Gus” Grissom, born April 3, 1926, in Mitchell, Indiana. As one of NASA’s first seven astronauts, he became America’s second astronaut to fly in space when he launched aboard the Liberty Bell 7 spacecraft on July 21, 1961, just weeks after Alan Shepard’s historic […]"
+    },
+    {
       "title": "Artemis II Sets Course for Moon",
       "link": "https://www.spacescout.info/2026/04/artemis-ii-sets-course-for-moon/",
       "source": "Space Scout",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-04-03T13:34:17Z",
       "summary": "NASA astronaut and Artemis II Commander Reid Wiseman took this picture of Earth from the Orion spacecraft’s window after completing the translunar injection burn. There are two auroras (top right and bottom left) and zodiacal light (bottom right) is visible as the Earth eclipses the Sun. This and another photo of Earth are the first […]"
-    },
-    {
-      "title": "Week in images: 30 March - 03 April 2026",
-      "link": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_30_March_-_03_April_2026",
-      "source": "ESA",
-      "date": "2026-04-03T13:10:00Z",
-      "summary": "Week in images: 30 March - 03 April 2026"
     }
   ],
-  "updated": "2026-04-03T16:26:50.617Z"
+  "updated": "2026-04-03T16:46:19.928Z"
 }
