@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "White House again proposes steep NASA budget cuts",
+      "link": "https://spacenews.com/white-house-again-proposes-steep-nasa-budget-cuts/",
+      "source": "SpaceNews",
+      "date": "2026-04-03T15:15:01Z",
+      "summary": "\nFor the second consecutive year, the White House is proposing a major budget cut for NASA that would significantly impact the agency’s science programs and the International Space Station.\nThe post White House again proposes steep NASA budget cuts appeared first on SpaceNews."
+    },
+    {
+      "title": "Trump FY2027 Budget Supports Moon Missions, But Cuts Everything Else",
+      "link": "https://spacepolicyonline.com/news/trump-fy2027-budget-supports-moon-missions-but-cuts-everything-else/",
+      "source": "SpacePolicyOnline.com",
+      "date": "2026-04-03T15:04:08Z",
+      "summary": "Like last year, the Trump Administration’s FY2027 budget request for NASA proposes deep cuts to everything other than human exploration. For FY2027, the agency would be cut 23 percent to […]"
+    },
+    {
       "title": "Hello, World",
       "link": "https://www.nasa.gov/image-article/hello-world/",
       "source": "NASA",
@@ -20,21 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-04-03T11:41:46Z",
       "summary": "\nAmazon says it will revise deployment plans for its broadband satellite constellation while denying claims from SpaceX that its current approach represents a space safety risk.\nThe post SpaceX and Amazon spar over satellite deployments appeared first on SpaceNews."
-    },
-    {
-      "title": "Europe’s strategic autonomy in space will define its role in the ‘second space age’",
-      "link": "https://spacenews.com/europes-strategic-autonomy-in-space-will-define-its-role-in-the-second-space-age/",
-      "source": "SpaceNews",
-      "date": "2026-04-03T11:00:00Z",
-      "summary": "\nEurope’s future in space really boils down to one question: can it stay ahead without relying on technology made somewhere else? As we step into what experts call the “second space age,” strategic autonomy is suddenly front and center for the European Union. And it is increasingly essential that Europe can get to, control and […]\nThe post Europe’s strategic autonomy in space will define its role in the ‘second space age’ appeared first on SpaceNews."
-    },
-    {
-      "title": "China’s commercial Tianlong-3 rocket fails on debut launch",
-      "link": "https://spacenews.com/chinas-commercial-tianlong-3-rocket-fails-on-debut-launch/",
-      "source": "SpaceNews",
-      "date": "2026-04-03T09:55:37Z",
-      "summary": "\nThe first launch of the Tianlong-3 rocket from Chinese commercial firm Space Pioneer failed Saturday after suffering an anomaly in its ascent phase.\nThe post China’s commercial Tianlong-3 rocket fails on debut launch appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-04-03T15:03:16.899Z"
+  "updated": "2026-04-03T15:23:26.001Z"
 }
