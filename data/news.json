@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Hello, World",
+      "link": "https://www.nasa.gov/image-article/hello-world/",
+      "source": "NASA",
+      "date": "2026-04-03T13:34:17Z",
+      "summary": "NASA astronaut and Artemis II Commander Reid Wiseman took this picture of Earth from the Orion spacecraft’s window after completing the translunar injection burn. There are two auroras (top right and bottom left) and zodiacal light (bottom right) is visible as the Earth eclipses the Sun. This and another photo of Earth are the first […]"
+    },
+    {
       "title": "SpaceX and Amazon spar over satellite deployments",
       "link": "https://spacenews.com/spacex-and-amazon-spar-over-satellite-deployments/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "ESA",
       "date": "2026-04-03T08:00:00Z",
       "summary": "From the ESA Blogs."
-    },
-    {
-      "title": "A pair of planet-forming discs",
-      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/04/A_pair_of_planet-forming_discs",
-      "source": "ESA",
-      "date": "2026-04-03T08:00:00Z",
-      "summary": "From the ESA Blogs."
     }
   ],
-  "updated": "2026-04-03T13:14:35.936Z"
+  "updated": "2026-04-03T13:42:40.029Z"
 }
