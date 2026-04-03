@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Four Astronauts Headed to Moon After Successful TLI Burn",
+      "link": "https://spacepolicyonline.com/news/four-astronauts-headed-to-moon-after-successful-tli-burn/",
+      "source": "SpacePolicyOnline.com",
+      "date": "2026-04-03T02:03:08Z",
+      "summary": "After a day in earth orbit checking out systems on the Orion capsule, the Artemis II crew is headed to the Moon.  Earlier today the Mission Management Team gave them […]"
+    },
+    {
       "title": "Swift spacecraft reorientation buys time for reboost mission",
       "link": "https://spacenews.com/swift-spacecraft-reorientation-buys-time-for-reboost-mission/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-04-02T17:17:43Z",
       "summary": "\nThe ‘unpriced change order’ supports satellite launches while officials reassess long-delayed ground system\nThe post Pentagon awards Raytheon $45 million for GPS ground system as program future is reassessed appeared first on SpaceNews."
-    },
-    {
-      "title": "Artemis II Astronauts Launch to Moon",
-      "link": "https://www.nasa.gov/image-article/artemis-ii-astronauts-launch-to-moon/",
-      "source": "NASA",
-      "date": "2026-04-02T16:50:01Z",
-      "summary": "NASA’s Space Launch System rocket and Orion spacecraft lift off in this April 1, 2026, image. NASA’s Artemis II mission will take NASA astronauts Reid Wiseman, Victor Glover, and Christina Koch, and CSA (Canadian Space Agency) astronaut Jeremy on an approximately 10-day journey around the Moon and back aboard their Orion spacecraft. See more launch […]"
     }
   ],
-  "updated": "2026-04-03T01:28:56.756Z"
+  "updated": "2026-04-03T02:21:14.813Z"
 }
