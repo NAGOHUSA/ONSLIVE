@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Italy’s Argotec plans to scale Florida satellite facility to meet rising US demand",
+      "link": "https://spacenews.com/italys-argotec-plans-to-scale-florida-satellite-facility-to-meet-rising-us-demand/",
+      "source": "SpaceNews",
+      "date": "2026-04-03T17:33:12Z",
+      "summary": "\nItaly’s Argotec has officially opened its first U.S. satellite production facility, cementing a foothold near Kennedy Space Center in Florida to join other foreign space firms pursuing growing demand from American programs.\nThe post Italy’s Argotec plans to scale Florida satellite facility to meet rising US demand appeared first on SpaceNews."
+    },
+    {
       "title": "Virgil I. “Gus” Grissom",
       "link": "https://www.nasa.gov/image-article/virgil-i-gus-grissom/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpacePolicyOnline.com",
       "date": "2026-04-03T15:04:08Z",
       "summary": "Like last year, the Trump Administration’s FY2027 budget request for NASA proposes deep cuts to everything other than human exploration. For FY2027, the agency would be cut 23 percent to […]"
-    },
-    {
-      "title": "Hello, World",
-      "link": "https://www.nasa.gov/image-article/hello-world/",
-      "source": "NASA",
-      "date": "2026-04-03T13:34:17Z",
-      "summary": "NASA astronaut and Artemis II Commander Reid Wiseman took this picture of Earth from the Orion spacecraft’s window after completing the translunar injection burn. There are two auroras (top right and bottom left) and zodiacal light (bottom right) is visible as the Earth eclipses the Sun. This and another photo of Earth are the first […]"
     }
   ],
-  "updated": "2026-04-03T17:33:04.513Z"
+  "updated": "2026-04-03T17:50:58.390Z"
 }
