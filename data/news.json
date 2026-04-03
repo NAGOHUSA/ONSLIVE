@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA Sets Coverage for Northrop Grumman’s CRS-24 Resupply Launch",
+      "link": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-northrop-grummans-crs-24-resupply-launch/",
+      "source": "NASA",
+      "date": "2026-04-03T22:01:31Z",
+      "summary": "NASA, Northrop Grumman, and SpaceX are targeting no earlier than 8:49 a.m. EDT on Wednesday, April 8, for the next launch delivering science investigations, supplies, and equipment to the International Space Station. Filled with approximately 11,000 pounds of cargo, the Northrop Grumman Cygnus XL spacecraft, aboard a SpaceX Falcon 9 rocket, will launch from Space […]"
+    },
+    {
       "title": "Meet NASA’s New Artemis II Science Officers",
       "link": "https://science.nasa.gov/missions/artemis/meet-nasas-new-artemis-ii-science-officers/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "Space Scout",
       "date": "2026-04-03T15:22:26Z",
       "summary": "After a picture-perfect launch Wednesday placed the crew of Artemis II into a highly elliptical Earth orbit, astronauts Reid Wiseman, Victor Glover, Jeremy Hansen, and Christina Koch are now officially on their way towards the Moon, the first humans to make such a journey since 1972."
-    },
-    {
-      "title": "White House again proposes steep NASA budget cuts",
-      "link": "https://spacenews.com/white-house-again-proposes-steep-nasa-budget-cuts/",
-      "source": "SpaceNews",
-      "date": "2026-04-03T15:15:01Z",
-      "summary": "\nFor the second consecutive year, the White House is proposing a major budget cut for NASA that would significantly impact the agency’s science programs and the International Space Station.\nThe post White House again proposes steep NASA budget cuts appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-04-03T22:01:12.629Z"
+  "updated": "2026-04-03T22:15:49.044Z"
 }
