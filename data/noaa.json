@@ -1,54 +1,6 @@
 {
   "kpIndex": [
     {
-      "time_tag": "2026-03-26T03:00:00",
-      "Kp": 1.67,
-      "a_running": 6,
-      "station_count": 8
-    },
-    {
-      "time_tag": "2026-03-26T06:00:00",
-      "Kp": 2.67,
-      "a_running": 12,
-      "station_count": 8
-    },
-    {
-      "time_tag": "2026-03-26T09:00:00",
-      "Kp": 2.33,
-      "a_running": 9,
-      "station_count": 8
-    },
-    {
-      "time_tag": "2026-03-26T12:00:00",
-      "Kp": 2.33,
-      "a_running": 9,
-      "station_count": 8
-    },
-    {
-      "time_tag": "2026-03-26T15:00:00",
-      "Kp": 3.33,
-      "a_running": 18,
-      "station_count": 8
-    },
-    {
-      "time_tag": "2026-03-26T18:00:00",
-      "Kp": 2,
-      "a_running": 7,
-      "station_count": 8
-    },
-    {
-      "time_tag": "2026-03-26T21:00:00",
-      "Kp": 2,
-      "a_running": 7,
-      "station_count": 8
-    },
-    {
-      "time_tag": "2026-03-27T00:00:00",
-      "Kp": 1.67,
-      "a_running": 6,
-      "station_count": 8
-    },
-    {
       "time_tag": "2026-03-27T03:00:00",
       "Kp": 2,
       "a_running": 7,
@@ -371,13 +323,19 @@
       "Kp": 4.67,
       "a_running": 39,
       "station_count": 8
+    },
+    {
+      "time_tag": "2026-04-02T21:00:00",
+      "Kp": 3.67,
+      "a_running": 22,
+      "station_count": 8
     }
   ],
   "solarWind": [
-    "2026-04-02 23:46:00.000",
-    "2.38",
-    "681.6",
-    "141956"
+    "2026-04-02 23:58:00.000",
+    "0.96",
+    "668.5",
+    "161285"
   ],
   "solarFlares": [
     {
@@ -927,5 +885,5 @@
       "satellite": 18
     }
   ],
-  "lastUpdated": "2026-04-02T23:49:44.262Z"
+  "lastUpdated": "2026-04-03T00:01:57.368Z"
 }
