@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Space Force budget would more than double in Trump’s $1.5 trillion defense plan",
+      "link": "https://spacenews.com/space-force-budget-would-more-than-double-in-trumps-1-5-trillion-defense-plan/",
+      "source": "SpaceNews",
+      "date": "2026-04-04T16:30:36Z",
+      "summary": "\n$71 billion request for the U.S. Space Force for fiscal year 2027 includes more than $60 billion for procurement, research and development\nThe post Space Force budget would more than double in Trump’s $1.5 trillion defense plan appeared first on SpaceNews."
+    },
+    {
       "title": "Illuminated in Orion",
       "link": "https://www.nasa.gov/image-article/illuminated-in-orion/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "Arstechnica",
       "date": "2026-04-03T22:20:19Z",
       "summary": "The cabin was colder on Thursday, but the crew has been able to adjust the temperature."
-    },
-    {
-      "title": "Live coverage: ULA’s Atlas 5 rocket to launch its heaviest payload ever with next Amazon Leo mission",
-      "link": "https://spaceflightnow.com/2026/04/03/live-coverage-ulas-atlas-5-rocket-to-launch-its-heaviest-payload-ever-with-next-amazon-leo-mission/",
-      "source": "Spaceflight Now",
-      "date": "2026-04-03T22:10:24Z",
-      "summary": "Liftoff from pad 41 at Cape Canaveral Space Force Station is scheduled for Saturday at 1:45 a.m. EDT (0545 UTC), weather permitting. "
     }
   ],
-  "updated": "2026-04-04T16:27:49.267Z"
+  "updated": "2026-04-04T16:46:20.557Z"
 }
