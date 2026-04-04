@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA Answers Your Most Pressing Artemis II Questions",
+      "link": "https://www.nasa.gov/missions/nasa-answers-your-most-pressing-artemis-ii-questions/",
+      "source": "NASA",
+      "date": "2026-04-04T19:44:31Z",
+      "summary": "The first crewed test flight under NASA’s Artemis program is underway. Four Artemis II astronauts are flying aboard NASA’s Orion spacecraft around the Moon and back, as they test how the spacecraft’s systems operate in a deep space environment. NASA astronauts Reid Wiseman, Victor Glover, and Christina Koch, and CSA (Canadian Space Agency) astronaut Jeremy […]"
+    },
+    {
       "title": "Space Force budget would more than double in Trump’s $1.5 trillion defense plan",
       "link": "https://spacenews.com/space-force-budget-would-more-than-double-in-trumps-1-5-trillion-defense-plan/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-04-04T01:18:26Z",
       "summary": "\nA day after lighting its engine to head to the moon, the Artemis 2 Orion spacecraft is performing well with only minor issues.\nThe post Artemis 2 in good shape cruising towards the moon appeared first on SpaceNews."
-    },
-    {
-      "title": "As Artemis II zooms to the Moon, everything seems to be going swimmingly",
-      "link": "https://arstechnica.com/space/2026/04/as-artemis-ii-zooms-to-the-moon-everything-seems-to-be-going-swimmingly/",
-      "source": "Arstechnica",
-      "date": "2026-04-03T22:20:19Z",
-      "summary": "The cabin was colder on Thursday, but the crew has been able to adjust the temperature."
     }
   ],
-  "updated": "2026-04-04T19:58:47.945Z"
+  "updated": "2026-04-04T20:12:36.630Z"
 }
