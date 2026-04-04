@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Atlas 5 launches Amazon Leo satellites",
+      "link": "https://spacenews.com/atlas-5-launches-amazon-leo-satellites/",
+      "source": "SpaceNews",
+      "date": "2026-04-04T20:27:36Z",
+      "summary": "\nAn Atlas 5 launched the latest set of satellites for Amazon’s broadband constellation April 4 as the company seeks to accelerate deployment of its spacecraft.\nThe post Atlas 5 launches Amazon Leo satellites appeared first on SpaceNews."
+    },
+    {
       "title": "NASA Answers Your Most Pressing Artemis II Questions",
       "link": "https://www.nasa.gov/missions/nasa-answers-your-most-pressing-artemis-ii-questions/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpacePolicyOnline.com",
       "date": "2026-04-04T03:20:13Z",
       "summary": "The Artemis II crew continues on a smooth course to the Moon today. NASA astronauts Reid Wiseman, Victor Glover and Christina Koch and Canadian astronaut Jeremy Hansen are now about […]"
-    },
-    {
-      "title": "Artemis 2 in good shape cruising towards the moon",
-      "link": "https://spacenews.com/artemis-2-in-good-shape-cruising-towards-the-moon/",
-      "source": "SpaceNews",
-      "date": "2026-04-04T01:18:26Z",
-      "summary": "\nA day after lighting its engine to head to the moon, the Artemis 2 Orion spacecraft is performing well with only minor issues.\nThe post Artemis 2 in good shape cruising towards the moon appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-04-04T20:26:00.433Z"
+  "updated": "2026-04-04T20:43:19.222Z"
 }
