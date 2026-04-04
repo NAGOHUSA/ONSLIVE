@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Illuminated in Orion",
+      "link": "https://www.nasa.gov/image-article/illuminated-in-orion/",
+      "source": "NASA",
+      "date": "2026-04-04T15:07:46Z",
+      "summary": "NASA astronaut Christina Koch reads on a tablet in the dimly lit Orion crew capsule in this April 3, 2026, photo. To the right of the image’s center, CSA (Canadian Space Agency) astronaut Jeremy Hansen is seen in profile peering out of one of Orion’s windows. Lights are turned off to avoid glare on the […]"
+    },
+    {
       "title": "Smooth Sailing for Artemis Crew So Far",
       "link": "https://spacepolicyonline.com/news/smooth-sailing-for-artemis-crew-so-far/",
       "source": "SpacePolicyOnline.com",
@@ -27,14 +34,7 @@
       "source": "Spaceflight Now",
       "date": "2026-04-03T22:10:24Z",
       "summary": "Liftoff from pad 41 at Cape Canaveral Space Force Station is scheduled for Saturday at 1:45 a.m. EDT (0545 UTC), weather permitting. "
-    },
-    {
-      "title": "NASA Sets Coverage for Northrop Grumman’s CRS-24 Resupply Launch",
-      "link": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-northrop-grummans-crs-24-resupply-launch/",
-      "source": "NASA",
-      "date": "2026-04-03T22:01:31Z",
-      "summary": "NASA, Northrop Grumman, and SpaceX are targeting no earlier than 8:49 a.m. EDT on Wednesday, April 8, for the next launch delivering science investigations, supplies, and equipment to the International Space Station. Filled with approximately 11,000 pounds of cargo, the Northrop Grumman Cygnus XL spacecraft, aboard a SpaceX Falcon 9 rocket, will launch from Space […]"
     }
   ],
-  "updated": "2026-04-04T15:04:33.355Z"
+  "updated": "2026-04-04T15:17:29.720Z"
 }
