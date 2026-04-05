@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "What’s Happening in Space Policy April 5-11, 2026",
+      "link": "https://spacepolicyonline.com/news/whats-happening-in-space-policy-april-5-11-2026/",
+      "source": "SpacePolicyOnline.com",
+      "date": "2026-04-05T19:34:43Z",
+      "summary": "Here is SpacePolicyOnline.com’s list of space policy events for the week of April 5-11, 2026 and any insight we can offer about them.  The House and Senate are in recess […]"
+    },
+    {
       "title": "Thinking of You, Earth",
       "link": "https://www.nasa.gov/image-article/thinking-of-you-earth/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "NASASpaceflight",
       "date": "2026-04-04T21:57:48Z",
       "summary": "As NASA’s Artemis II mission enters its critical mid-flight phase, the Orion spacecraft—carrying the first…\nThe post Orion Spacecraft Races Toward Historic Lunar Flyby in Artemis II Mission appeared first on NASASpaceFlight.com."
-    },
-    {
-      "title": "Atlas 5 launches Amazon Leo satellites",
-      "link": "https://spacenews.com/atlas-5-launches-amazon-leo-satellites/",
-      "source": "SpaceNews",
-      "date": "2026-04-04T20:27:36Z",
-      "summary": "\nAn Atlas 5 launched the latest set of satellites for Amazon’s broadband constellation April 4 as the company seeks to accelerate deployment of its spacecraft.\nThe post Atlas 5 launches Amazon Leo satellites appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-04-05T19:32:36.437Z"
+  "updated": "2026-04-05T19:48:27.657Z"
 }
