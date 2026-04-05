@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Thinking of You, Earth",
+      "link": "https://www.nasa.gov/image-article/thinking-of-you-earth/",
+      "source": "NASA",
+      "date": "2026-04-05T14:04:33Z",
+      "summary": "On April 4, 2026, NASA astronaut and Artemis II Commander Reid Wiseman peers out of one of the Orion spacecraft’s main cabin windows, looking back at Earth, as the crew travels towards the Moon. The Artemis II astronauts – Wiseman and fellow NASA astronauts Christina Koch and Victor Glover, and CSA (Canadian Space Agency) astronaut […]"
+    },
+    {
       "title": "NASA finalizes science plans for Artemis 2 lunar flyby",
       "link": "https://spacenews.com/nasa-finalizes-science-plans-for-artemis-2-lunar-flyby/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-04-04T20:27:36Z",
       "summary": "\nAn Atlas 5 launched the latest set of satellites for Amazon’s broadband constellation April 4 as the company seeks to accelerate deployment of its spacecraft.\nThe post Atlas 5 launches Amazon Leo satellites appeared first on SpaceNews."
-    },
-    {
-      "title": "NASA Answers Your Most Pressing Artemis II Questions",
-      "link": "https://www.nasa.gov/missions/nasa-answers-your-most-pressing-artemis-ii-questions/",
-      "source": "NASA",
-      "date": "2026-04-04T19:44:31Z",
-      "summary": "The first crewed test flight under NASA’s Artemis program is underway. Four Artemis II astronauts are flying aboard NASA’s Orion spacecraft around the Moon and back, as they test how the spacecraft’s systems operate in a deep space environment. NASA astronauts Reid Wiseman, Victor Glover, and Christina Koch, and CSA (Canadian Space Agency) astronaut Jeremy […]"
     }
   ],
-  "updated": "2026-04-05T13:57:13.613Z"
+  "updated": "2026-04-05T14:13:41.487Z"
 }
