@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA stops work on SLS Mobile Launcher 2",
+      "link": "https://spacenews.com/nasa-stops-work-on-sls-mobile-launcher-2/",
+      "source": "SpaceNews",
+      "date": "2026-04-05T20:29:48Z",
+      "summary": "\nNASA has stopped work on a second mobile launch platform intended for an upgraded version of the Space Launch System the agency no longer plans to develop.\nThe post NASA stops work on SLS Mobile Launcher 2 appeared first on SpaceNews."
+    },
+    {
       "title": "What’s Happening in Space Policy April 5-11, 2026",
       "link": "https://spacepolicyonline.com/news/whats-happening-in-space-policy-april-5-11-2026/",
       "source": "SpacePolicyOnline.com",
@@ -27,14 +34,7 @@
       "source": "Arstechnica",
       "date": "2026-04-05T00:12:45Z",
       "summary": "\"I think the fixation on the toilet is kind of human nature.\""
-    },
-    {
-      "title": "Orion Spacecraft Races Toward Historic Lunar Flyby in Artemis II Mission",
-      "link": "https://www.nasaspaceflight.com/2026/04/orion-toward-lunar-flyby-artemis-ii/",
-      "source": "NASASpaceflight",
-      "date": "2026-04-04T21:57:48Z",
-      "summary": "As NASA’s Artemis II mission enters its critical mid-flight phase, the Orion spacecraft—carrying the first…\nThe post Orion Spacecraft Races Toward Historic Lunar Flyby in Artemis II Mission appeared first on NASASpaceFlight.com."
     }
   ],
-  "updated": "2026-04-05T20:26:45.300Z"
+  "updated": "2026-04-05T20:44:40.664Z"
 }
