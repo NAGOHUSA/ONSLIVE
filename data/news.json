@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Isaacman defends NASA budget proposal despite steep cuts",
+      "link": "https://spacenews.com/isaacman-defends-nasa-budget-proposal-despite-steep-cuts/",
+      "source": "SpaceNews",
+      "date": "2026-04-05T22:20:09Z",
+      "summary": "\nNASA Administrator Jared Isaacman defended a fiscal year 2027 budget proposal that would cut the agency’s budget by nearly 25%.\nThe post Isaacman defends NASA budget proposal despite steep cuts appeared first on SpaceNews."
+    },
+    {
       "title": "NASA stops work on SLS Mobile Launcher 2",
       "link": "https://spacenews.com/nasa-stops-work-on-sls-mobile-launcher-2/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-04-05T03:29:58Z",
       "summary": "\nWASHINGTON — As Artemis 2 approaches the moon, a NASA science team is finalizing plans for the observations they want the astronauts to perform during their flyby. At an April 4 briefing, a representative of the mission’s science team said they were working to complete a plan of observations by the astronauts on April 6, […]\nThe post NASA finalizes science plans for Artemis 2 lunar flyby appeared first on SpaceNews."
-    },
-    {
-      "title": "Artemis II is going so well that we're left to talk about frozen urine",
-      "link": "https://arstechnica.com/space/2026/04/artemis-ii-is-going-so-well-that-were-left-to-talk-about-frozen-urine/",
-      "source": "Arstechnica",
-      "date": "2026-04-05T00:12:45Z",
-      "summary": "\"I think the fixation on the toilet is kind of human nature.\""
     }
   ],
-  "updated": "2026-04-05T22:14:30.808Z"
+  "updated": "2026-04-05T22:28:21.823Z"
 }
