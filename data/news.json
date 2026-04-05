@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA finalizes science plans for Artemis 2 lunar flyby",
+      "link": "https://spacenews.com/nasa-finalizes-science-plans-for-artemis-2-lunar-flyby/",
+      "source": "SpaceNews",
+      "date": "2026-04-05T03:29:58Z",
+      "summary": "\nWASHINGTON — As Artemis 2 approaches the moon, a NASA science team is finalizing plans for the observations they want the astronauts to perform during their flyby. At an April 4 briefing, a representative of the mission’s science team said they were working to complete a plan of observations by the astronauts on April 6, […]\nThe post NASA finalizes science plans for Artemis 2 lunar flyby appeared first on SpaceNews."
+    },
+    {
       "title": "Artemis II is going so well that we're left to talk about frozen urine",
       "link": "https://arstechnica.com/space/2026/04/artemis-ii-is-going-so-well-that-were-left-to-talk-about-frozen-urine/",
       "source": "Arstechnica",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-04-04T19:44:31Z",
       "summary": "The first crewed test flight under NASA’s Artemis program is underway. Four Artemis II astronauts are flying aboard NASA’s Orion spacecraft around the Moon and back, as they test how the spacecraft’s systems operate in a deep space environment. NASA astronauts Reid Wiseman, Victor Glover, and Christina Koch, and CSA (Canadian Space Agency) astronaut Jeremy […]"
-    },
-    {
-      "title": "Space Force budget would more than double in Trump’s $1.5 trillion defense plan",
-      "link": "https://spacenews.com/space-force-budget-would-more-than-double-in-trumps-1-5-trillion-defense-plan/",
-      "source": "SpaceNews",
-      "date": "2026-04-04T16:30:36Z",
-      "summary": "\n$71 billion request for the U.S. Space Force for fiscal year 2027 includes more than $60 billion for procurement, research and development\nThe post Space Force budget would more than double in Trump’s $1.5 trillion defense plan appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-04-05T03:14:36.047Z"
+  "updated": "2026-04-05T04:14:35.641Z"
 }
