@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Artemis II is going so well that we're left to talk about frozen urine",
+      "link": "https://arstechnica.com/space/2026/04/artemis-ii-is-going-so-well-that-were-left-to-talk-about-frozen-urine/",
+      "source": "Arstechnica",
+      "date": "2026-04-05T00:12:45Z",
+      "summary": "\"I think the fixation on the toilet is kind of human nature.\""
+    },
+    {
       "title": "Orion Spacecraft Races Toward Historic Lunar Flyby in Artemis II Mission",
       "link": "https://www.nasaspaceflight.com/2026/04/orion-toward-lunar-flyby-artemis-ii/",
       "source": "NASASpaceflight",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-04-04T16:30:36Z",
       "summary": "\n$71 billion request for the U.S. Space Force for fiscal year 2027 includes more than $60 billion for procurement, research and development\nThe post Space Force budget would more than double in Trump’s $1.5 trillion defense plan appeared first on SpaceNews."
-    },
-    {
-      "title": "Illuminated in Orion",
-      "link": "https://www.nasa.gov/image-article/illuminated-in-orion/",
-      "source": "NASA",
-      "date": "2026-04-04T15:07:46Z",
-      "summary": "NASA astronaut Christina Koch reads on a tablet in the dimly lit Orion crew capsule in this April 3, 2026, photo. To the right of the image’s center, CSA (Canadian Space Agency) astronaut Jeremy Hansen is seen in profile peering out of one of Orion’s windows. Lights are turned off to avoid glare on the […]"
     }
   ],
-  "updated": "2026-04-04T23:57:49.528Z"
+  "updated": "2026-04-05T00:44:19.621Z"
 }
