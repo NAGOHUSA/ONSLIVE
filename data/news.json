@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Military space programs confront hidden supply constraints",
+      "link": "https://spacenews.com/military-space-confronts-hidden-supplier-constraints/",
+      "source": "SpaceNews",
+      "date": "2026-04-06T11:30:00Z",
+      "summary": "\nIndustry report warns components – from optical links to valves – may become chokepoints\nThe post Military space programs confront hidden supply constraints appeared first on SpaceNews."
+    },
+    {
+      "title": "Artemis 2 ready to fly around the moon",
+      "link": "https://spacenews.com/artemis-2-ready-to-fly-around-the-moon/",
+      "source": "SpaceNews",
+      "date": "2026-04-06T11:21:26Z",
+      "summary": "\nThe Artemis 2 mission will swing around the moon April 6, setting a distance record as astronauts study part of the lunar farside.\nThe post Artemis 2 ready to fly around the moon appeared first on SpaceNews."
+    },
+    {
       "title": "Artemis astronauts send down Easter message, prep for lunar fly around Monday",
       "link": "https://spaceflightnow.com/2026/04/05/artemis-astronauts-send-down-easter-message-prep-for-lunar-fly-around-monday/",
       "source": "Spaceflight Now",
@@ -20,21 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-04-05T20:29:48Z",
       "summary": "NASA has stopped work on a second mobile launch platform intended for an upgraded version of the Space Launch System the agency no longer plans to develop.\r\nThe post NASA stops work on SLS Mobile Launcher 2 appeared first on SpaceNews."
-    },
-    {
-      "title": "What’s Happening in Space Policy April 5-11, 2026",
-      "link": "https://spacepolicyonline.com/news/whats-happening-in-space-policy-april-5-11-2026/",
-      "source": "SpacePolicyOnline.com",
-      "date": "2026-04-05T19:34:43Z",
-      "summary": "Here is SpacePolicyOnline.com’s list of space policy events for the week of April 5-11, 2026 and any insight we can offer about them.  The House and Senate are in recess […]"
-    },
-    {
-      "title": "Thinking of You, Earth",
-      "link": "https://www.nasa.gov/image-article/thinking-of-you-earth/",
-      "source": "NASA",
-      "date": "2026-04-05T14:04:33Z",
-      "summary": "On April 4, 2026, NASA astronaut and Artemis II Commander Reid Wiseman peers out of one of the Orion spacecraft’s main cabin windows, looking back at Earth, as the crew travels towards the Moon. The Artemis II astronauts – Wiseman and fellow NASA astronauts Christina Koch and Victor Glover, and CSA (Canadian Space Agency) astronaut […]"
     }
   ],
-  "updated": "2026-04-06T11:24:55.763Z"
+  "updated": "2026-04-06T11:44:24.310Z"
 }
