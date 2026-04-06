@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "The moon base has a hardware plan. It needs a software strategy, too.",
+      "link": "https://spacenews.com/the-moon-base-has-a-hardware-plan-it-needs-a-software-strategy-too/",
+      "source": "SpaceNews",
+      "date": "2026-04-06T13:00:00Z",
+      "summary": "\nEarly in my career at SpaceX, I was the only person dedicated to training the mission control team for Dragon. For three years, I built the training for the operations team. The documentation came second, always the thing I’d get to later, always the thing that felt like overhead against the actual work of getting […]\nThe post The moon base has a hardware plan. It needs a software strategy, too. appeared first on SpaceNews."
+    },
+    {
       "title": "Seagate Space Signs MOU with Firefly Aerospace to Collaborate on Offshore Launch Infrastructure for Alpha",
       "link": "https://spacenews.com/seagate-space-signs-mou-with-firefly-aerospace-to-collaborate-on-offshore-launch-infrastructure-for-alpha/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-04-06T11:21:26Z",
       "summary": "\nThe Artemis 2 mission will swing around the moon April 6, setting a distance record as astronauts study part of the lunar farside.\nThe post Artemis 2 ready to fly around the moon appeared first on SpaceNews."
-    },
-    {
-      "title": "Avio Delays SMILE Launch After Component Production Issue Identified",
-      "link": "https://europeanspaceflight.com/avio-delays-smile-launch-after-component-production-issue-identified/",
-      "source": "European Spaceflight",
-      "date": "2026-04-06T08:21:49Z",
-      "summary": "The Italian launch services provider Avio has postponed the launch of the European Space Agency’s (ESA) SMILE mission aboard a Vega C rocket after an issue was identified on the production line of a subsystem component. Avio began preparations for the launch of SMILE in mid-February with the transfer of the P120C first stage from […]\nThe post Avio Delays SMILE Launch After Component Production Issue Identified appeared first on European Spaceflight."
     }
   ],
-  "updated": "2026-04-06T12:53:49.740Z"
+  "updated": "2026-04-06T13:25:39.479Z"
 }
