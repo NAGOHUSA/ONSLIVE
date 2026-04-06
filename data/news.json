@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Launch Preview: Falcon 9 to loft Cygnus to ISS, Minotaur IV to launch from California",
+      "link": "https://www.nasaspaceflight.com/2026/04/launch-preview-040626/",
+      "source": "NASASpaceflight",
+      "date": "2026-04-06T22:06:24Z",
+      "summary": "As NASA’s Artemis II mission reaches its halfway point, the launch manifest on Earth continues…\nThe post Launch Preview: Falcon 9 to loft Cygnus to ISS, Minotaur IV to launch from California appeared first on NASASpaceFlight.com."
+    },
+    {
       "title": "NASA’s Artemis II Crew Eclipses Record for Farthest Human Spaceflight",
       "link": "https://www.nasa.gov/news-release/nasas-artemis-ii-crew-eclipses-record-for-farthest-human-spaceflight/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-04-06T18:57:46Z",
       "summary": "\nSpanish startup FOSSA Systems is pushing into Japan’s defense market after securing a local partner to expand its reach, building on a shift beyond tiny picosatellites used to connect low-power monitoring devices toward more capable spacecraft for broader government applications.\nThe post FOSSA targets Japan’s defense market as larger smallsats expand capabilities appeared first on SpaceNews."
-    },
-    {
-      "title": "NASA's Moon ship and rocket seem to be working well, so what about the landers?",
-      "link": "https://arstechnica.com/space/2026/04/nasas-moon-ship-and-rocket-seem-to-be-working-well-so-what-about-the-landers/",
-      "source": "Arstechnica",
-      "date": "2026-04-06T18:19:07Z",
-      "summary": "Lori Glaze: \"We have seen real commitment to try and do that... from both Blue and from SpaceX.\""
     }
   ],
-  "updated": "2026-04-06T22:06:39.947Z"
+  "updated": "2026-04-06T22:20:07.033Z"
 }
