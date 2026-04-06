@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "The Near Side of the Moon",
+      "link": "https://www.nasa.gov/image-article/the-near-side-of-the-moon/",
+      "source": "NASA",
+      "date": "2026-04-06T14:59:19Z",
+      "summary": "The astronauts aboard NASA’s Orion spacecraft captured this photo of the Moon’s near side on April 4, 2026. The image features dark patches at center and right; these are ancient lava flows, which are unique to this side of the Moon. The Artemis II astronauts – astronauts Victor Glover, Reid Wiseman, and Christina Koch of […]"
+    },
+    {
       "title": "The moon base has a hardware plan. It needs a software strategy, too.",
       "link": "https://spacenews.com/the-moon-base-has-a-hardware-plan-it-needs-a-software-strategy-too/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-04-06T11:30:00Z",
       "summary": "\nIndustry report warns components – from optical links to valves – may become chokepoints\nThe post Military space programs confront hidden supply constraints appeared first on SpaceNews."
-    },
-    {
-      "title": "Artemis 2 ready to fly around the moon",
-      "link": "https://spacenews.com/artemis-2-ready-to-fly-around-the-moon/",
-      "source": "SpaceNews",
-      "date": "2026-04-06T11:21:26Z",
-      "summary": "\nThe Artemis 2 mission will swing around the moon April 6, setting a distance record as astronauts study part of the lunar farside.\nThe post Artemis 2 ready to fly around the moon appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-04-06T14:59:36.873Z"
+  "updated": "2026-04-06T15:24:06.293Z"
 }
