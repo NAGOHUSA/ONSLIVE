@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "NASA's Moon ship and rocket seem to be working well, so what about the landers?",
+      "link": "https://arstechnica.com/space/2026/04/nasas-moon-ship-and-rocket-seem-to-be-working-well-so-what-about-the-landers/",
+      "source": "Arstechnica",
+      "date": "2026-04-06T18:19:07Z",
+      "summary": "Lori Glaze: \"We have seen real commitment to try and do that... from both Blue and from SpaceX.\""
+    },
+    {
       "title": "Night Sky Network Celebrates Artemis II",
       "link": "https://science.nasa.gov/solar-system/skywatching/night-sky-network/night-sky-network-celebrates-artemis-ii/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-04-06T12:15:00Z",
       "summary": "\nSt. Petersburg, FL — April 6, 2026 — Seagate Space Corporation announced today a Memorandum of Understanding (MOU) with Firefly Aerospace to collaborate on the development of an offshore launch platform […]\nThe post Seagate Space Signs MOU with Firefly Aerospace to Collaborate on Offshore Launch Infrastructure for Alpha appeared first on SpaceNews."
-    },
-    {
-      "title": "Today’s the Day! Artemis II Crew Ready for Lunar Flyby",
-      "link": "https://spacepolicyonline.com/news/todays-the-day-artemis-ii-crew-ready-for-lunar-flyby/",
-      "source": "SpacePolicyOnline.com",
-      "date": "2026-04-06T12:01:50Z",
-      "summary": "Today four astronauts will fly around the Moon for the first time since 1972. The crew of Artemis II is closing in on the Moon and around lunchtime will surpass […]"
     }
   ],
-  "updated": "2026-04-06T18:06:47.287Z"
+  "updated": "2026-04-06T18:30:46.896Z"
 }
