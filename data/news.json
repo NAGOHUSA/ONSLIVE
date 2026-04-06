@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "NASA’s Northrop Grumman CRS-24 Mission Overview",
+      "link": "https://www.nasa.gov/missions/station/nasas-northrop-grumman-crs-24-mission-overview/",
+      "source": "NASA",
+      "date": "2026-04-06T19:29:22Z",
+      "summary": "NASA’s Northrop Grumman Commercial Resupply Services 24 mission, or Northrop Grumman CRS-24, will deliver approximately 11,000 pounds of science and supplies to the International Space Station. This mission will be the second flight of the Cygnus XL, the larger, more cargo-capable version of the company’s solar-powered spacecraft."
+    },
+    {
+      "title": "Moog Highlights Growing Satellite Bus Capabilities with Full‑Scale METEOR Reveal at Space Symposium",
+      "link": "https://spacenews.com/moog-highlights-growing-satellite-bus-capabilities-with-full-scale-meteor-reveal-at-space-symposium/",
+      "source": "SpaceNews",
+      "date": "2026-04-06T19:19:49Z",
+      "summary": "\nEast Aurora, NY — Moog Inc. (NYSE: MOG.A and MOG.B), a worldwide designer, manufacturer and systems integrator of high-performance precision motion and fluid controls and control systems will highlight its […]\nThe post Moog Highlights Growing Satellite Bus Capabilities with Full‑Scale METEOR Reveal at Space Symposium appeared first on SpaceNews."
+    },
+    {
       "title": "FOSSA targets Japan’s defense market as larger smallsats expand capabilities",
       "link": "https://spacenews.com/fossa-targets-japans-defense-market-as-larger-smallsats-expand-capabilities/",
       "source": "SpaceNews",
@@ -20,21 +34,7 @@
       "source": "NASA",
       "date": "2026-04-06T15:29:14Z",
       "summary": "Today, the crew of Artemis II reaches a milestone, traveling farther than any humans in recorded history, as they orbit the far side of the Moon, roughly 4,000 miles above the lunar surface.  You can watch this historic broadcast on NASA’s YouTube channel today, April 6, 2026, at 10 AM Pacific (1 PM Eastern), or on NASA+. […]"
-    },
-    {
-      "title": "The Near Side of the Moon",
-      "link": "https://www.nasa.gov/image-article/the-near-side-of-the-moon/",
-      "source": "NASA",
-      "date": "2026-04-06T14:59:19Z",
-      "summary": "The astronauts aboard NASA’s Orion spacecraft captured this photo of the Moon’s near side on April 4, 2026. The image features dark patches at center and right; these are ancient lava flows, which are unique to this side of the Moon. The Artemis II astronauts – astronauts Victor Glover, Reid Wiseman, and Christina Koch of […]"
-    },
-    {
-      "title": "The moon base has a hardware plan. It needs a software strategy, too.",
-      "link": "https://spacenews.com/the-moon-base-has-a-hardware-plan-it-needs-a-software-strategy-too/",
-      "source": "SpaceNews",
-      "date": "2026-04-06T13:00:00Z",
-      "summary": "\nEarly in my career at SpaceX, I was the only person dedicated to training the mission control team for Dragon. For three years, I built the training for the operations team. The documentation came second, always the thing I’d get to later, always the thing that felt like overhead against the actual work of getting […]\nThe post The moon base has a hardware plan. It needs a software strategy, too. appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-04-06T19:19:11.083Z"
+  "updated": "2026-04-06T19:41:39.712Z"
 }
