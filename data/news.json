@@ -1,40 +1,4 @@
 {
-  "articles": [
-    {
-      "title": "Galileo goes to the Moon",
-      "link": "https://www.esa.int/Applications/Satellite_navigation/Galileo_goes_to_the_Moon",
-      "source": "ESA",
-      "date": "2026-04-07T08:45:00Z",
-      "summary": "Last year, history was made as a navigation receiver on the Moon determined its position in real time using signals from approximately 410 000 km away. The receiver, called the Lunar GNSS Receiver Experiment (LuGRE), acquired signals from four navigation satellites orbiting Earth: two Galileo satellites and two GPS satellites."
-    },
-    {
-      "title": "The Exploration Company Completes Nyx Test Model Pressure Tests",
-      "link": "https://europeanspaceflight.com/the-exploration-company-completes-nyx-test-model-pressure-tests/",
-      "source": "European Spaceflight",
-      "date": "2026-04-07T06:54:48Z",
-      "summary": "The Exploration Company has completed initial testing of the pressurised structure for its Nyx Structural Test Model (STM). The structure was manufactured by CNIM Systèmes Industriels in France and delivered to the company in mid-February. Founded in 2021, The Exploration Company is developing a modular space capsule called Nyx that will initially be used to […]\nThe post The Exploration Company Completes Nyx Test Model Pressure Tests appeared first on European Spaceflight."
-    },
-    {
-      "title": "Drought Parches Florida",
-      "link": "https://science.nasa.gov/earth/earth-observatory/drought-parches-florida/",
-      "source": "NASA",
-      "date": "2026-04-07T04:01:00Z",
-      "summary": "The state was unusually dry for much of 2025, but the intensity of the drought has ratcheted up since January 2026."
-    },
-    {
-      "title": "Artemis II Swings Around the Moon, Begins Trip Home with White House Congratulations",
-      "link": "https://spacepolicyonline.com/news/artemis-ii-swings-around-the-moon-begins-trip-home-with-white-house-congratulations/",
-      "source": "SpacePolicyOnline.com",
-      "date": "2026-04-07T03:49:33Z",
-      "summary": "The four Artemis II astronauts set a new record today for the furthest any humans have traveled from Earth, swinging around the Moon and then heading back towards Earth. Their […]"
-    },
-    {
-      "title": "Artemis II breaks record, conducts lunar flyby",
-      "link": "https://www.nasaspaceflight.com/2026/04/artemis-ii-breaks-record-lunar-flyby/",
-      "source": "NASASpaceflight",
-      "date": "2026-04-07T03:35:08Z",
-      "summary": "Orion spacecraft Integrity, carrying astronauts Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen, successfully…\r\nThe post Artemis II breaks record, conducts lunar flyby appeared first on NASASpaceFlight.com."
-    }
-  ],
-  "updated": "2026-04-07T09:03:59.366Z"
+  "articles": [],
+  "updated": "2026-04-07T09:34:21.168Z"
 }
