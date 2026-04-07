@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Graphene and lasers for space propulsion",
+      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/04/Graphene_and_lasers_for_space_propulsion",
+      "source": "ESA",
+      "date": "2026-04-07T10:00:00Z",
+      "summary": "An international research team boarded ESA’s 86th parabolic flight campaign in May 2025 with ultralight graphene aerogels, then hit them with light during zero gravity phases to observe their reaction under space-like conditions.  "
+    },
+    {
       "title": "Galileo goes to the Moon",
       "link": "https://www.esa.int/Applications/Satellite_navigation/Galileo_goes_to_the_Moon",
       "source": "ESA",
@@ -27,14 +34,7 @@
       "source": "SpacePolicyOnline.com",
       "date": "2026-04-07T03:49:33Z",
       "summary": "The four Artemis II astronauts set a new record today for the furthest any humans have traveled from Earth, swinging around the Moon and then heading back towards Earth. Their […]"
-    },
-    {
-      "title": "Artemis II breaks record, conducts lunar flyby",
-      "link": "https://www.nasaspaceflight.com/2026/04/artemis-ii-breaks-record-lunar-flyby/",
-      "source": "NASASpaceflight",
-      "date": "2026-04-07T03:35:08Z",
-      "summary": "Orion spacecraft Integrity, carrying astronauts Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen, successfully…\r\nThe post Artemis II breaks record, conducts lunar flyby appeared first on NASASpaceFlight.com."
     }
   ],
-  "updated": "2026-04-07T09:59:00.437Z"
+  "updated": "2026-04-07T10:29:33.475Z"
 }
