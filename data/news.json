@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Earthset",
+      "link": "https://www.nasa.gov/image-article/earthset/",
+      "source": "NASA",
+      "date": "2026-04-07T18:54:50Z",
+      "summary": "The Artemis II crew captured this view of Earth setting on April 6, 2026, as they flew around the Moon. As the astronauts flew over the Moon’s far side, the crew photographed and described terrain features including impact craters, ancient lava flows, and surface cracks and ridges formed as the Moon slowly evolved over time. […]"
+    },
+    {
       "title": "Experience the Rollout of SLS Hardware for Artemis III",
       "link": "https://www.nasa.gov/general/experience-the-rollout-of-sls-hardware-for-artemis-iii/",
       "source": "NASA",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-04-07T13:00:00Z",
       "summary": "\nWASHINGTON — Starfish Space has raised more than $100 million to scale up production of its satellite servicing spacecraft. Seattle-based Starfish announced April 7 it closed a Series B round led by Point72 Ventures, raising more than $100 million. Activate Capital and Shield Capital co-led the round, with major participation from Industrious Ventures and NightDragon. […]\nThe post Starfish Space raises more than $100 million appeared first on SpaceNews."
-    },
-    {
-      "title": "NASA’s new moon base project requires operational technology systems in space, but they are vulnerable.",
-      "link": "https://spacenews.com/nasas-new-moon-base-project-requires-operational-technology-systems-in-space-but-they-are-vulnerable/",
-      "source": "SpaceNews",
-      "date": "2026-04-07T13:00:00Z",
-      "summary": "\nNewly anointed NASA Administrator Jared Isaacman made a $20 billion announcement on March 24, 2026. To the delight of space enthusiasts everywhere, Isaacman said NASA was cancelling its project to deploy a space station in lunar orbit and would reorient to building a $20 billion base on the surface of the moon. The new base, […]\nThe post NASA’s new moon base project requires operational technology systems in space, but they are vulnerable. appeared first on SpaceNews."
     }
   ],
-  "updated": "2026-04-07T18:58:49.877Z"
+  "updated": "2026-04-07T19:31:07.147Z"
 }
