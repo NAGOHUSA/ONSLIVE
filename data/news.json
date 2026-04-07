@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Nominate space industry leaders for the 2026 SpaceNews Icon Awards",
+      "link": "https://spacenews.com/nominate-space-industry-leaders-for-the-2026-spacenews-icon-awards/",
+      "source": "SpaceNews",
+      "date": "2026-04-07T12:30:00Z",
+      "summary": "\nTell us about the innovators, collaborators and change-makers whose contributions have left a lasting mark on the sector\nThe post Nominate space industry leaders for the 2026 SpaceNews Icon Awards appeared first on SpaceNews."
+    },
+    {
       "title": "Earth observation operators push to deliver satellite images within minutes",
       "link": "https://spacenews.com/earth-observation-operators-push-to-deliver-satellite-images-within-minutes/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "ESA",
       "date": "2026-04-07T08:45:00Z",
       "summary": "Last year, history was made as a navigation receiver on the Moon determined its position in real time using signals from approximately 410 000 km away. The receiver, called the Lunar GNSS Receiver Experiment (LuGRE), acquired signals from four navigation satellites orbiting Earth: two Galileo satellites and two GPS satellites."
-    },
-    {
-      "title": "The Exploration Company Completes Nyx Test Model Pressure Tests",
-      "link": "https://europeanspaceflight.com/the-exploration-company-completes-nyx-test-model-pressure-tests/",
-      "source": "European Spaceflight",
-      "date": "2026-04-07T06:54:48Z",
-      "summary": "The Exploration Company has completed initial testing of the pressurised structure for its Nyx Structural Test Model (STM). The structure was manufactured by CNIM Systèmes Industriels in France and delivered to the company in mid-February. Founded in 2021, The Exploration Company is developing a modular space capsule called Nyx that will initially be used to […]\nThe post The Exploration Company Completes Nyx Test Model Pressure Tests appeared first on European Spaceflight."
     }
   ],
-  "updated": "2026-04-07T12:31:47.123Z"
+  "updated": "2026-04-07T12:55:49.894Z"
 }
