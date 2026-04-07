@@ -1,4 +1,40 @@
 {
-  "articles": [],
-  "updated": "2026-04-07T18:14:57.244Z"
+  "articles": [
+    {
+      "title": "Experience the Rollout of SLS Hardware for Artemis III",
+      "link": "https://www.nasa.gov/general/experience-the-rollout-of-sls-hardware-for-artemis-iii/",
+      "source": "NASA",
+      "date": "2026-04-07T17:52:09Z",
+      "summary": "Digital creators and social media users are invited to register to attend the rollout of the third SLS (Space Launch System) core stage as it is prepped to head from NASA’s Michoud Assembly Facility to NASA’s Kennedy Space Center. Are you passionate about social media and communications? Do you love to create content for an […]"
+    },
+    {
+      "title": "NASA to Host Media Call with Artemis II Crew on Way Home from Moon",
+      "link": "https://www.nasa.gov/news-release/nasa-to-host-media-call-with-artemis-ii-crew-on-way-home-from-moon/",
+      "source": "NASA",
+      "date": "2026-04-07T16:38:04Z",
+      "summary": "Media will have an opportunity at 9:45 p.m. EDT on Wednesday, April 8, to speak with NASA’s Artemis II crew members as they continue their journey toward Earth during their historic mission around the Moon. The 20-minute virtual news conference will take place with NASA astronauts Reid Wiseman, Victor Glover, and Christina Koch, and CSA […]"
+    },
+    {
+      "title": "The Artemis II mission sends back stunning images of the far side of the Moon",
+      "link": "https://arstechnica.com/space/2026/04/the-artemis-ii-mission-sends-back-stunning-images-of-the-far-side-of-the-moon/",
+      "source": "Arstechnica",
+      "date": "2026-04-07T15:54:54Z",
+      "summary": "The Moon, the Earth, and the Sun; oh what fun!"
+    },
+    {
+      "title": "Starfish Space raises more than $100 million",
+      "link": "https://spacenews.com/starfish-space-raises-more-than-100-million/",
+      "source": "SpaceNews",
+      "date": "2026-04-07T13:00:00Z",
+      "summary": "\nWASHINGTON — Starfish Space has raised more than $100 million to scale up production of its satellite servicing spacecraft. Seattle-based Starfish announced April 7 it closed a Series B round led by Point72 Ventures, raising more than $100 million. Activate Capital and Shield Capital co-led the round, with major participation from Industrious Ventures and NightDragon. […]\nThe post Starfish Space raises more than $100 million appeared first on SpaceNews."
+    },
+    {
+      "title": "NASA’s new moon base project requires operational technology systems in space, but they are vulnerable.",
+      "link": "https://spacenews.com/nasas-new-moon-base-project-requires-operational-technology-systems-in-space-but-they-are-vulnerable/",
+      "source": "SpaceNews",
+      "date": "2026-04-07T13:00:00Z",
+      "summary": "\nNewly anointed NASA Administrator Jared Isaacman made a $20 billion announcement on March 24, 2026. To the delight of space enthusiasts everywhere, Isaacman said NASA was cancelling its project to deploy a space station in lunar orbit and would reorient to building a $20 billion base on the surface of the moon. The new base, […]\nThe post NASA’s new moon base project requires operational technology systems in space, but they are vulnerable. appeared first on SpaceNews."
+    }
+  ],
+  "updated": "2026-04-07T18:34:35.571Z"
 }
