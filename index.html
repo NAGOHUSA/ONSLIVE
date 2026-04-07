@@ -3,1230 +3,1186 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Our Night Sky | Live Space Weather Dashboard</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<title>OurNightSky · Live Space Weather</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&family=Barlow+Condensed:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/suncalc@1.8.0/suncalc.min.js"></script>
 <style>
 :root {
-  --bg:#0c1220; --card:rgba(18,25,45,0.85); --border:rgba(80,150,255,0.2);
-  --text:#e6f1ff; --muted:#8ca3c2; --primary:#4d9fff; --accent:#00d4ff;
-  --moon:#e0e7ff; --sun:#ffb347; --aurora:#00ff9d;
-  --red:#ff6b6b; --green:#4ade80; --yellow:#fbbf24; --purple:#a855f7;
-  --shadow:0 10px 30px rgba(0,0,0,0.5); --radius:16px;
-  --glass:rgba(20,30,55,0.6);
+  --bg:#070910; --bg2:#0b0d18; --bg3:#0f121f;
+  --panel:#111422; --panel2:#161b2e;
+  --border:#1c2238; --border2:#243060;
+  --cyan:#00d4ff; --cyan2:#0088bb;
+  --green:#00e676; --green2:#00994d;
+  --amber:#ffb300; --amber2:#cc7700;
+  --purple:#b388ff; --purple2:#7b4fff;
+  --pink:#ff4081; --teal:#1de9b6;
+  --blue:#448aff; --red:#ff5252;
+  --text:#d8e0ff; --muted:#6070a0; --dim:#2d3a5a;
 }
-*{box-sizing:border-box;margin:0;padding:0}
-body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif;
-  min-height:100vh;color:var(--text);
-  background:linear-gradient(135deg,#0c1220 0%,#1a2745 50%,#0c1220 100%) fixed;
-  line-height:1.6;overflow-x:hidden}
-.container{max-width:1800px;margin:0 auto;padding:0 1rem}
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+html,body{width:100%;height:100%;overflow:hidden;background:var(--bg)}
+body{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--text);display:flex;flex-direction:column}
 
-/* ── HEADER ── */
-header{position:sticky;top:0;z-index:1000;backdrop-filter:blur(20px);
-  background:rgba(12,18,32,0.97);border-bottom:1px solid var(--border);
-  padding:.7rem 0;box-shadow:var(--shadow)}
-.header-inner{display:flex;align-items:center;justify-content:space-between;
-  gap:1rem;flex-wrap:wrap}
-.brand{display:flex;align-items:center;gap:.75rem}
-.brand-logo{width:38px;height:38px;background:linear-gradient(135deg,var(--primary),var(--accent));
-  border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.1rem}
-.brand h1{font-size:clamp(1.4rem,4vw,2rem);
-  background:linear-gradient(135deg,var(--primary),var(--accent));
-  -webkit-background-clip:text;background-clip:text;color:transparent}
-.brand-sub{font-size:.85rem;color:var(--muted)}
-.header-right{display:flex;align-items:center;gap:.8rem;flex-wrap:wrap}
-.live-badge{display:flex;align-items:center;gap:.4rem;font-size:.75rem;
-  color:var(--green);font-weight:700;letter-spacing:.08em}
-.live-dot{width:8px;height:8px;border-radius:50%;background:var(--green);
-  animation:pulse 1.6s ease infinite}
-@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(74,222,128,.7)}
-  70%{box-shadow:0 0 0 8px rgba(74,222,128,0)}100%{box-shadow:0 0 0 0 rgba(74,222,128,0)}}
-.btn{display:inline-flex;align-items:center;gap:5px;padding:.45rem 1rem;
-  border-radius:20px;border:none;cursor:pointer;font-weight:600;font-size:.85rem;
-  transition:all .25s;text-decoration:none}
-.btn-primary{background:linear-gradient(135deg,var(--primary),var(--accent));color:#fff}
-.btn-primary:hover{transform:translateY(-2px);box-shadow:0 5px 15px rgba(77,159,255,.35)}
-.btn-coffee{background:linear-gradient(135deg,#ffdd00,#f5b800);color:#1a1605;font-weight:700}
-.btn-outline{background:transparent;border:1px solid var(--border);color:var(--muted)}
-.btn-outline:hover{background:rgba(77,159,255,.1);border-color:var(--primary);color:var(--text)}
-#update-time{color:var(--accent);font-weight:700}
+/* ── TOPBAR ── */
+#topbar{flex-shrink:0;height:34px;background:var(--bg2);border-bottom:2px solid var(--border2);
+  display:flex;align-items:stretch;overflow:hidden}
+.tb-brand{display:flex;align-items:center;gap:8px;padding:0 14px;
+  border-right:1px solid var(--border2);text-decoration:none;flex-shrink:0}
+.tb-moon{font-size:1.05rem;filter:drop-shadow(0 0 8px var(--cyan))}
+.tb-title{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:.9rem;color:#fff;letter-spacing:.06em}
+.tb-title span{color:var(--cyan)}
+.tb-chip{display:flex;align-items:center;gap:4px;padding:0 11px;border-right:1px solid var(--border);flex-shrink:0}
+.tb-lbl{font-size:.46rem;letter-spacing:.14em;color:var(--muted);text-transform:uppercase}
+.tb-val{font-size:.68rem;font-weight:700;font-variant-numeric:tabular-nums}
+.v-cyan{color:var(--cyan)} .v-green{color:var(--green)} .v-amber{color:var(--amber)}
+.v-purple{color:var(--purple)} .v-teal{color:var(--teal)} .v-white{color:#fff}
+.v-pink{color:var(--pink)} .v-red{color:var(--red)}
+.tb-live{display:flex;align-items:center;gap:5px;padding:0 10px;font-size:.52rem;
+  letter-spacing:.14em;color:var(--green);font-weight:700}
+.pip{width:7px;height:7px;border-radius:50%;background:var(--green);
+  box-shadow:0 0 0 0 rgba(0,230,118,.7);animation:pip 1.6s ease infinite}
+@keyframes pip{0%{box-shadow:0 0 0 0 rgba(0,230,118,.7)}
+  70%{box-shadow:0 0 0 8px rgba(0,230,118,0)}100%{box-shadow:0 0 0 0 rgba(0,230,118,0)}}
+.ph-badge{padding:2px 7px;border-radius:2px;font-size:.48rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase}
+.ph-quiet {background:rgba(0,230,118,.15);color:var(--green);border:1px solid rgba(0,230,118,.3)}
+.ph-unset {background:rgba(68,138,255,.15);color:var(--blue);border:1px solid rgba(68,138,255,.3)}
+.ph-storm {background:rgba(255,179,0,.15);color:var(--amber);border:1px solid rgba(255,179,0,.3)}
+.ph-severe{background:rgba(255,82,82,.15);color:var(--red);border:1px solid rgba(255,82,82,.3)}
+.tb-sep{width:1px;background:var(--border);align-self:stretch}
+.tb-nav{display:flex;margin-left:auto;height:100%}
+.tb-tab{padding:0 12px;height:100%;border:none;background:transparent;color:var(--muted);
+  font-family:'JetBrains Mono',monospace;font-size:.54rem;letter-spacing:.1em;text-transform:uppercase;
+  cursor:pointer;border-bottom:2px solid transparent;transition:all .2s}
+.tb-tab:hover{color:var(--text)}
+.tb-tab.active{color:var(--cyan);border-bottom-color:var(--cyan);background:rgba(0,212,255,.04)}
 
-/* ── GRID ── */
-.dashboard{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;
-  margin-top:1.2rem;padding-bottom:2rem}
+/* ── STATUS BAR ── */
+#statusBar{flex-shrink:0;height:22px;background:var(--bg3);border-bottom:1px solid var(--border);
+  display:flex;align-items:center;padding:0 10px;gap:14px;overflow:hidden}
+.sb-item{display:flex;align-items:center;gap:4px;font-size:.44rem;color:var(--muted);white-space:nowrap}
+.sb-dot{width:5px;height:5px;border-radius:50%;flex-shrink:0}
+.sb-dot.ok{background:var(--green)}
+.sb-dot.warn{background:var(--amber)}
+.sb-dot.err{background:var(--red)}
+.sb-dot.load{background:var(--muted);animation:pip 1s ease infinite}
+.sb-val{font-weight:700;color:var(--text)}
 
-/* ── CARD ── */
-.card{background:var(--glass);border-radius:var(--radius);border:1px solid var(--border);
-  backdrop-filter:blur(12px);transition:transform .25s,border-color .25s;overflow:hidden;
-  position:relative}
-.card::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;
-  background:linear-gradient(90deg,transparent,rgba(255,255,255,.18),transparent)}
-.card:hover{transform:translateY(-4px);border-color:rgba(255,255,255,.25);
-  box-shadow:var(--shadow),0 0 20px rgba(255,255,255,.08)}
+/* ── MAIN 3-COL ── */
+#main{flex:1;min-height:0;display:grid;grid-template-columns:280px 1fr 270px;overflow:hidden}
 
-/* gradient tints per card */
-.card-hero    {background:linear-gradient(135deg,rgba(77,159,255,.18) 0%,rgba(0,212,255,.22) 100%)}
-.card-moon    {background:linear-gradient(135deg,rgba(224,231,255,.2) 0%,rgba(168,85,247,.15) 100%)}
-.card-solar   {background:linear-gradient(135deg,rgba(255,179,71,.2) 0%,rgba(255,107,107,.15) 100%)}
-.card-geo     {background:linear-gradient(135deg,rgba(96,165,250,.2) 0%,rgba(168,85,247,.15) 100%)}
-.card-aurora  {background:linear-gradient(135deg,rgba(0,255,157,.2) 0%,rgba(77,159,255,.15) 100%)}
-.card-amap    {background:linear-gradient(135deg,rgba(0,255,157,.15) 0%,rgba(34,197,94,.2) 100%)}
-.card-iss     {background:linear-gradient(135deg,rgba(77,159,255,.2) 0%,rgba(168,85,247,.15) 100%)}
-.card-soho    {background:linear-gradient(135deg,rgba(255,179,71,.18) 0%,rgba(251,191,36,.22) 100%)}
-.card-flares  {background:linear-gradient(135deg,rgba(255,107,107,.2) 0%,rgba(251,191,36,.15) 100%)}
-.card-weather {background:linear-gradient(135deg,rgba(96,165,250,.18) 0%,rgba(77,159,255,.22) 100%)}
-.card-meteor  {background:linear-gradient(135deg,rgba(168,85,247,.2) 0%,rgba(224,231,255,.15) 100%)}
-.card-comets  {background:linear-gradient(135deg,rgba(77,159,255,.15) 0%,rgba(224,231,255,.2) 100%)}
-.card-news    {background:linear-gradient(135deg,rgba(0,212,255,.2) 0%,rgba(96,165,250,.15) 100%)}
-.card-status  {background:linear-gradient(135deg,rgba(74,222,128,.2) 0%,rgba(96,165,250,.15) 100%)}
+/* ── PANEL SHARED ── */
+.p-hdr{padding:4px 10px;background:var(--bg2);border-bottom:1px solid var(--border2);
+  display:flex;align-items:center;justify-content:space-between;flex-shrink:0}
+.p-hdr-title{font-size:.48rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:700}
+.p-hdr-badge{font-size:.44rem;padding:1px 5px;border-radius:1px}
+.sec-hdr{padding:3px 10px;font-size:.44rem;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--muted);font-weight:700;background:var(--bg2);
+  border-top:1px solid var(--border);border-bottom:1px solid var(--border);
+  position:sticky;top:0;z-index:1}
 
-/* spans */
-.span-4{grid-column:1/-1}
-.span-2{grid-column:span 2}
+/* ── LEFT PANEL ── */
+#left{background:var(--panel);border-right:1px solid var(--border2);
+  display:flex;flex-direction:column;overflow:hidden}
+#mapCanvas{width:100%;height:180px;display:block;background:var(--bg);flex-shrink:0}
 
-.card-header{padding:.85rem 1.25rem;border-bottom:1px solid rgba(255,255,255,.08);
-  display:flex;justify-content:space-between;align-items:center;
-  background:rgba(0,0,0,.18)}
-.card-header h2{font-size:1rem;display:flex;align-items:center;gap:8px}
-.card-header h2 i{filter:drop-shadow(0 0 4px currentColor)}
-.card-body{padding:1.25rem}
+/* Kp gauge */
+#kpWrap{flex-shrink:0;border-top:1px solid var(--border2);background:var(--bg3);
+  padding:6px 10px;display:flex;align-items:center;gap:10px}
+#kpSvgWrap{position:relative;width:68px;height:68px;flex-shrink:0}
+#kpSvgWrap svg{transform:rotate(-90deg)}
+.kp-center{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  font-family:'Barlow Condensed',sans-serif;font-size:1.6rem;font-weight:800;color:var(--text)}
+.kp-grid{display:grid;grid-template-columns:1fr 1fr;gap:3px;flex:1}
+.kp-cell{background:var(--bg2);border:1px solid var(--border);padding:3px 6px;border-radius:1px}
+.kp-c-lbl{font-size:.42rem;color:var(--muted);letter-spacing:.08em;text-transform:uppercase;margin-bottom:1px}
+.kp-c-val{font-size:.64rem;font-weight:700;font-variant-numeric:tabular-nums}
 
-/* ── BADGE ── */
-.badge{display:inline-block;padding:.2rem .65rem;border-radius:20px;
-  font-size:.75rem;font-weight:700;backdrop-filter:blur(5px)}
-.badge-good   {background:rgba(74,222,128,.2);color:var(--green)}
-.badge-warn   {background:rgba(251,191,36,.2);color:var(--yellow)}
-.badge-alert  {background:rgba(255,107,107,.2);color:var(--red)}
-.badge-info   {background:rgba(77,159,255,.2);color:var(--primary)}
-.badge-moon   {background:rgba(224,231,255,.2);color:var(--moon)}
-.badge-aurora {background:rgba(0,255,157,.2);color:var(--aurora)}
+/* Scroll area */
+#leftScroll{flex:1;overflow-y:auto}
+#leftScroll::-webkit-scrollbar{width:3px}
+#leftScroll::-webkit-scrollbar-thumb{background:var(--dim)}
 
-/* ── GAUGE ── */
-.gauges-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:1.25rem}
-.gauge-item{display:flex;align-items:center;gap:1rem}
-.gauge-svg-wrap{position:relative;width:90px;height:90px;flex-shrink:0}
-.gauge-svg-wrap svg{transform:rotate(-90deg)}
-.gauge-center{position:absolute;inset:0;display:flex;align-items:center;
-  justify-content:center;font-size:1.4rem;font-weight:800}
-.gauge-label{font-size:.82rem;color:var(--muted);margin-bottom:.3rem}
-.gauge-sub{font-size:.72rem;color:var(--muted);margin-top:.3rem}
+/* Data rows */
+.t-row{display:flex;align-items:center;padding:4px 10px;border-bottom:1px solid rgba(28,34,56,.7);gap:5px}
+.t-lbl{font-size:.52rem;color:var(--muted);min-width:88px;flex-shrink:0}
+.t-arrow{font-size:.46rem;color:var(--cyan);flex-shrink:0;animation:arr .8s ease infinite alternate}
+@keyframes arr{from{opacity:.4;transform:translateX(-1px)}to{opacity:1;transform:translateX(1px)}}
+.t-bar-wrap{flex:1;display:flex;align-items:center;gap:3px}
+.t-bar-track{flex:1;height:2px;background:rgba(255,255,255,.05);border-radius:1px;overflow:hidden}
+.t-bar-fill{height:100%;border-radius:1px;transition:width .9s ease}
+.t-val{font-size:.6rem;font-weight:700;text-align:right;min-width:68px;font-variant-numeric:tabular-nums}
+.t-unit{font-size:.44rem;color:var(--muted);margin-left:1px}
 
-/* ── DATA LIST ── */
-.data-list{display:flex;flex-direction:column;gap:.65rem}
-.data-row{display:flex;justify-content:space-between;align-items:center;
-  padding:.65rem .85rem;background:rgba(255,255,255,.05);border-radius:10px;
-  border-left:4px solid var(--primary);transition:all .25s}
-.data-row:hover{background:rgba(255,255,255,.09);transform:translateX(4px)}
-.data-row.c-good  {border-left-color:var(--green)}
-.data-row.c-warn  {border-left-color:var(--yellow)}
-.data-row.c-alert {border-left-color:var(--red)}
-.data-row.c-info  {border-left-color:var(--primary)}
-.data-row.c-moon  {border-left-color:var(--moon)}
-.data-row.c-aurora{border-left-color:var(--aurora)}
-.data-row.c-sun   {border-left-color:var(--sun)}
-.data-row.c-purple{border-left-color:var(--purple)}
-.data-lbl{font-size:.82rem;color:var(--muted);font-weight:600}
-.data-val{font-size:1rem;font-weight:800}
+/* Moon phase canvas */
+#moonWrap{flex-shrink:0;border-top:1px solid var(--border2);padding:6px 10px;
+  display:flex;align-items:center;gap:10px;background:var(--bg3)}
+#moonCanvas{width:60px;height:60px;border-radius:50%;border:1px solid rgba(255,255,255,.12);flex-shrink:0}
+.moon-info{flex:1}
+.moon-phase-name{font-family:'Barlow Condensed',sans-serif;font-size:.85rem;font-weight:700;
+  color:var(--purple);line-height:1.2;margin-bottom:3px}
+.moon-sub-grid{display:grid;grid-template-columns:1fr 1fr;gap:2px}
+.moon-sub{font-size:.44rem;color:var(--muted)}
+.moon-sub span{color:var(--text);font-weight:700}
 
-/* ── MAP ── */
-.map-wrap{height:280px;border-radius:12px;overflow:hidden;
-  background:rgba(0,0,0,.25);border:1px solid rgba(255,255,255,.08)}
-#issMap,#auroraMap{height:100%;border-radius:8px}
+/* ── CENTER PANEL ── */
+#center{display:flex;flex-direction:column;overflow:hidden;background:var(--bg3)}
+#centerScroll{flex:1;overflow-y:auto}
+#centerScroll::-webkit-scrollbar{width:3px}
+#centerScroll::-webkit-scrollbar-thumb{background:var(--dim)}
 
-/* ── SOHO ── */
-.soho-wrap{height:240px;border-radius:12px;overflow:hidden;
-  background:#000;border:1px solid rgba(255,255,255,.08)}
-.soho-wrap img{width:100%;height:100%;object-fit:cover}
-.soho-footer{display:flex;justify-content:space-between;align-items:center;
-  margin-top:.6rem;font-size:.8rem;color:var(--muted);flex-wrap:wrap;gap:.4rem}
-.soho-btn{background:rgba(77,159,255,.1);border:1px solid var(--primary);
-  color:var(--primary);padding:.25rem .7rem;border-radius:20px;cursor:pointer;
-  font-size:.75rem;transition:all .25s}
-.soho-btn:hover{background:rgba(77,159,255,.22);transform:translateY(-1px)}
+/* Hero block */
+.hero-block{background:var(--panel);border-bottom:1px solid var(--border2);padding:8px 12px}
+.hero-top{display:flex;align-items:center;gap:7px;margin-bottom:4px}
+.hero-icon{font-size:.75rem}
+.hero-lbl{font-size:.46rem;letter-spacing:.15em;text-transform:uppercase;color:var(--muted);font-weight:700}
+.hero-name{font-family:'Barlow Condensed',sans-serif;font-size:1.4rem;font-weight:800;
+  color:#fff;line-height:1.1;letter-spacing:.01em;margin-bottom:2px}
+.hero-desc{font-size:.52rem;color:var(--muted);line-height:1.5;margin-bottom:6px}
+.hero-meta{display:grid;grid-template-columns:1fr 1fr 1fr;gap:2px 10px;margin-bottom:6px}
+.hero-meta-row{display:flex;justify-content:space-between;align-items:baseline;
+  padding:2px 0;border-bottom:1px solid var(--border)}
+.hero-meta-lbl{font-size:.44rem;color:var(--muted)}
+.hero-meta-val{font-size:.56rem;color:var(--text);font-weight:600}
+.hero-prog-track{height:3px;background:var(--bg);border-radius:2px;overflow:hidden}
+.hero-prog-fill{height:100%;border-radius:2px;transition:width .5s ease}
 
-/* ── MOON ── */
-.moon-center{text-align:center}
-.moon-canvas-wrap{width:110px;height:110px;margin:0 auto .8rem;border-radius:50%;
-  overflow:hidden;position:relative;border:2px solid rgba(255,255,255,.1);
-  box-shadow:0 0 18px rgba(224,231,255,.15)}
-#moonCanvas{width:110px;height:110px}
-.moon-name{color:var(--moon);font-size:1.05rem;font-weight:700;margin-bottom:.8rem}
+/* Forecast rows */
+.fc-row{display:flex;align-items:center;gap:6px;padding:4px 12px;
+  border-bottom:1px solid rgba(28,34,56,.7)}
+.fc-time{font-size:.44rem;color:var(--muted);min-width:52px;flex-shrink:0}
+.fc-bar-track{flex:1;height:6px;background:rgba(255,255,255,.05);border-radius:3px;overflow:hidden}
+.fc-bar-fill{height:100%;border-radius:3px;transition:width .5s ease}
+.fc-val{font-size:.58rem;font-weight:700;min-width:38px;text-align:right;font-variant-numeric:tabular-nums}
+.fc-lbl{font-size:.42rem;min-width:52px;flex-shrink:0}
 
-/* ── NEWS ── */
-.news-list{display:flex;flex-direction:column;gap:.6rem;max-height:240px;overflow-y:auto;
-  padding-right:4px}
-.news-list::-webkit-scrollbar{width:4px}
-.news-list::-webkit-scrollbar-thumb{background:var(--border);border-radius:2px}
-.news-item{padding:.7rem .85rem;background:rgba(255,255,255,.05);border-radius:10px;
-  border-left:4px solid var(--primary);transition:all .25s}
-.news-item:hover{background:rgba(255,255,255,.09)}
-.news-item a{display:block;font-weight:600;color:var(--text);text-decoration:none;
-  font-size:.88rem;margin-bottom:.25rem}
-.news-item a:hover{color:var(--accent)}
-.news-meta{font-size:.72rem;color:var(--muted)}
+/* News */
+.news-item{padding:6px 12px;border-bottom:1px solid rgba(28,34,56,.7);transition:background .15s}
+.news-item:hover{background:rgba(255,255,255,.02)}
+.news-link{display:block;font-size:.56rem;font-weight:700;color:var(--cyan);
+  text-decoration:none;line-height:1.4;margin-bottom:2px}
+.news-link:hover{color:var(--text)}
+.news-meta{font-size:.42rem;color:var(--muted);display:flex;gap:8px}
+.news-dot{display:inline-block;width:5px;height:5px;border-radius:50%;
+  background:var(--blue);margin-right:5px;vertical-align:middle}
 
-/* ── ALERTS ── */
-.alert-scroll{max-height:200px;overflow-y:auto}
-.alert-item{padding:.55rem .85rem;background:rgba(255,107,107,.08);border-radius:8px;
-  border-left:3px solid var(--red);margin-bottom:.5rem;font-size:.78rem;color:var(--muted)}
-.alert-item strong{color:var(--red)}
+/* Alerts */
+.alert-item{padding:5px 10px;border-bottom:1px solid rgba(28,34,56,.5)}
+.alert-time{font-size:.42rem;color:var(--muted)}
+.alert-msg{font-size:.5rem;color:var(--amber);line-height:1.4;margin-top:1px}
 
-/* ── STATUS GRID ── */
-.status-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:.65rem}
-.status-src{display:flex;align-items:center;gap:.5rem;padding:.6rem .85rem;
-  background:rgba(255,255,255,.05);border-radius:10px;font-size:.82rem}
-.src-dot{width:9px;height:9px;border-radius:50%;flex-shrink:0}
-.src-dot.ok {background:var(--green);box-shadow:0 0 6px rgba(74,222,128,.5)}
-.src-dot.err{background:var(--red);box-shadow:0 0 6px rgba(255,107,107,.5)}
-.src-dot.load{background:var(--yellow);animation:pulse 1s ease infinite}
+/* Flare list */
+.flare-item{display:flex;align-items:center;gap:6px;padding:4px 12px;
+  border-bottom:1px solid rgba(28,34,56,.7)}
+.flare-dot{width:7px;height:7px;border-radius:50%;flex-shrink:0}
+.flare-x{background:var(--red);box-shadow:0 0 5px var(--red)}
+.flare-m{background:var(--amber);box-shadow:0 0 5px var(--amber)}
+.flare-c{background:var(--green)}
+.flare-cls{font-size:.64rem;font-weight:700;min-width:36px}
+.flare-time{font-size:.44rem;color:var(--muted);flex:1}
+.flare-dur{font-size:.5rem;color:var(--muted)}
 
-/* ── LOADING ── */
-.loading-row{display:flex;align-items:center;gap:.5rem;color:var(--muted);
-  font-size:.82rem;padding:.65rem .85rem}
-.spinner{width:16px;height:16px;border:2px solid var(--border);
-  border-top-color:var(--primary);border-radius:50%;animation:spin 1s linear infinite;flex-shrink:0}
-@keyframes spin{to{transform:rotate(360deg)}}
+/* ISS map */
+#mapWrap2{position:relative;height:220px;flex-shrink:0;border-bottom:1px solid var(--border2)}
+#issMap{height:100%}
+.map-overlay{position:absolute;top:4px;left:4px;background:rgba(7,9,16,.8);
+  border:1px solid var(--border2);padding:3px 6px;font-size:.44rem;color:var(--cyan);z-index:500}
+
+/* Aurora map */
+#auroraMapWrap{position:relative;height:200px;flex-shrink:0;border-bottom:1px solid var(--border2)}
+#auroraMap{height:100%}
+
+/* SOHO */
+.soho-wrap{flex-shrink:0;border-bottom:1px solid var(--border2)}
+.soho-imgs{display:grid;grid-template-columns:1fr 1fr;gap:1px}
+.soho-img-box{position:relative;background:#000;overflow:hidden}
+.soho-img-box img{width:100%;height:120px;object-fit:cover;display:block}
+.soho-cap{position:absolute;bottom:0;left:0;right:0;background:rgba(7,9,16,.8);
+  font-size:.4rem;color:var(--muted);padding:2px 4px;letter-spacing:.06em;text-transform:uppercase}
+.soho-btn-row{display:flex;gap:4px;padding:4px 8px;background:var(--bg2);border-top:1px solid var(--border)}
+.soho-btn{background:rgba(0,212,255,.08);border:1px solid rgba(0,212,255,.25);color:var(--cyan);
+  font-size:.42rem;padding:1px 6px;cursor:pointer;font-family:'JetBrains Mono',monospace;
+  letter-spacing:.06em;text-transform:uppercase;border-radius:1px;transition:all .15s}
+.soho-btn:hover{background:rgba(0,212,255,.18)}
+
+/* Weather */
+.wx-conditions{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;padding:6px 10px}
+.wx-cell{background:var(--bg2);border:1px solid var(--border);padding:4px 6px;border-radius:1px;text-align:center}
+.wx-c-lbl{font-size:.42rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:2px}
+.wx-c-val{font-size:.72rem;font-weight:700;font-variant-numeric:tabular-nums}
+.seeing-bar{height:4px;border-radius:2px;margin-top:3px;transition:width .5s ease}
+
+/* ── RIGHT PANEL ── */
+#right{background:var(--panel);border-left:1px solid var(--border2);
+  display:flex;flex-direction:column;overflow:hidden}
+#rightScroll{flex:1;overflow-y:auto}
+#rightScroll::-webkit-scrollbar{width:3px}
+#rightScroll::-webkit-scrollbar-thumb{background:var(--dim)}
+
+/* Summary cards */
+.sum-card{padding:6px 10px;border-bottom:1px solid var(--border2)}
+.sum-name{font-family:'Barlow Condensed',sans-serif;font-size:1rem;font-weight:700;
+  color:#fff;margin-bottom:3px;line-height:1.2}
+.sum-rows{display:flex;flex-direction:column;gap:2px}
+.sum-row{display:flex;justify-content:space-between;font-size:.5rem}
+.sum-lbl{color:var(--muted)}
+.sum-val{color:var(--text);font-weight:600}
+
+/* Milestone list */
+.ms-item{display:flex;align-items:flex-start;gap:7px;padding:5px 10px;
+  border-bottom:1px solid rgba(28,34,56,.5);transition:background .15s}
+.ms-item:hover{background:rgba(255,255,255,.01)}
+.ms-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0;margin-top:2px;border:1px solid currentColor}
+.ms-dot.done{background:var(--green);border-color:var(--green);box-shadow:0 0 5px rgba(0,230,118,.4)}
+.ms-dot.warn{background:var(--amber);border-color:var(--amber);animation:mspulse 1.5s ease infinite}
+.ms-dot.fut {background:transparent;border-color:var(--dim)}
+@keyframes mspulse{0%,100%{box-shadow:0 0 6px rgba(255,179,0,.5)}50%{box-shadow:0 0 14px rgba(255,179,0,.9)}}
+.ms-nm{font-size:.56rem;font-weight:600;line-height:1.3;margin-bottom:1px}
+.ms-nm.done{color:var(--muted);text-decoration:line-through}
+.ms-nm.warn{color:var(--amber)}
+.ms-nm.fut {color:var(--text)}
+.ms-dd{font-size:.46rem;color:var(--muted);line-height:1.3}
+
+/* Meteor / comet */
+.event-item{display:flex;align-items:center;padding:5px 10px;
+  border-bottom:1px solid rgba(28,34,56,.5);gap:8px}
+.event-icon{font-size:.8rem;flex-shrink:0}
+.event-body{flex:1}
+.event-name{font-size:.56rem;font-weight:700;color:var(--text);margin-bottom:1px}
+.event-sub{font-size:.44rem;color:var(--muted)}
+.event-badge{font-size:.42rem;padding:1px 5px;border-radius:1px;font-weight:700;flex-shrink:0}
 
 /* ── FOOTER ── */
-footer{text-align:center;padding:2rem 1rem;color:var(--muted);
-  border-top:1px solid var(--border);background:rgba(0,0,0,.2);backdrop-filter:blur(10px)}
-footer a{color:var(--primary);text-decoration:none}
-
-/* ── RESPONSIVE ── */
-@media(max-width:1400px){
-  .dashboard{grid-template-columns:repeat(3,1fr)}
-  .span-4{grid-column:1/-1}
-}
-@media(max-width:1024px){
-  .dashboard{grid-template-columns:repeat(2,1fr)}
-  .span-4,.span-2{grid-column:1/-1}
-}
-@media(max-width:640px){
-  .dashboard{grid-template-columns:1fr}
-  .header-inner{flex-direction:column;text-align:center}
-  .gauges-row{grid-template-columns:1fr 1fr}
-}
-::-webkit-scrollbar{width:6px}
-::-webkit-scrollbar-thumb{background:var(--border);border-radius:3px}
+#footer{flex-shrink:0;height:22px;background:var(--bg2);border-top:1px solid var(--border2);
+  display:flex;align-items:center;justify-content:space-between;padding:0 12px;
+  font-size:.44rem;color:var(--dim)}
+#footer a{color:var(--dim);text-decoration:none;transition:color .2s}
+#footer a:hover{color:var(--cyan)}
+.footer-center{display:flex;align-items:center;gap:14px}
+.footer-right a{color:var(--amber)!important}
 </style>
 </head>
 <body>
 
-<!-- ══ HEADER ══ -->
-<header>
-  <div class="container header-inner">
-    <div class="brand">
-      <div class="brand-logo"><i class="fas fa-star"></i></div>
-      <div>
-        <h1>Our Night Sky <small style="font-size:.55em;color:var(--accent)">Live</small></h1>
-        <div class="brand-sub">by Nagoh Creative · ournightsky.us</div>
-      </div>
-    </div>
-    <div class="header-right">
-      <div class="live-badge"><div class="live-dot"></div>LIVE DATA</div>
-      <span style="font-size:.82rem;color:var(--muted)">Updated: <span id="update-time">--:--</span></span>
-      <a href="https://buymeacoffee.com/ournightsky" target="_blank" rel="noopener" class="btn btn-coffee">
-        <i class="fas fa-coffee"></i> Buy Me a Coffee
-      </a>
-      <button class="btn btn-primary" id="refreshBtn"><i class="fas fa-sync-alt"></i> Refresh</button>
-      <button class="btn btn-outline" id="fsBtn" title="Fullscreen"><i class="fas fa-expand"></i></button>
+<!-- ══ TOPBAR ══ -->
+<div id="topbar">
+  <a class="tb-brand" href="https://ournightsky.us" target="_blank" rel="noopener">
+    <span class="tb-moon">🌙</span>
+    <span class="tb-title">Our<span>NightSky</span></span>
+  </a>
+  <div class="tb-chip"><span class="tb-lbl">Dashboard</span><span class="tb-val v-white">SPACE WEATHER</span>
+    <span class="tb-live" style="margin-left:4px"><span class="pip"></span>LIVE</span></div>
+  <div class="tb-sep"></div>
+  <div class="tb-chip"><span class="tb-lbl">Kp Index</span><span class="tb-val v-cyan" id="tbKp">--</span></div>
+  <div class="tb-sep"></div>
+  <div class="tb-chip"><span class="tb-lbl">Storm</span><span class="ph-badge ph-quiet" id="tbStorm">Quiet</span></div>
+  <div class="tb-sep"></div>
+  <div class="tb-chip"><span class="tb-lbl">Solar Wind</span><span class="tb-val v-amber" id="tbWind">--</span><span style="font-size:.42rem;color:var(--muted);margin-left:2px">km/s</span></div>
+  <div class="tb-sep"></div>
+  <div class="tb-chip"><span class="tb-lbl">IMF Bz</span><span class="tb-val v-teal" id="tbBz">--</span><span style="font-size:.42rem;color:var(--muted);margin-left:2px">nT</span></div>
+  <div class="tb-sep"></div>
+  <div class="tb-chip"><span class="tb-lbl">Aurora</span><span class="tb-val v-green" id="tbAurora">--%</span></div>
+  <div class="tb-sep"></div>
+  <div class="tb-chip"><span class="tb-lbl">Moon</span><span class="tb-val v-purple" id="tbMoon">--%</span></div>
+  <div class="tb-sep"></div>
+  <div class="tb-chip"><span class="tb-lbl">Updated</span><span class="tb-val v-muted" id="tbUpdated">--:--</span></div>
+  <div class="tb-nav">
+    <button class="tb-tab active" onclick="showPanel('weather')">Weather</button>
+    <button class="tb-tab" onclick="showPanel('solar')">Solar</button>
+    <button class="tb-tab" onclick="showPanel('moon')">Moon</button>
+    <div class="tb-sep"></div>
+    <button class="tb-tab" id="refreshBtn" style="color:var(--teal)">↻ Refresh</button>
+    <div class="tb-sep"></div>
+    <div class="tb-chip" style="border-right:none">
+      <a href="https://buymeacoffee.com/ournightsky" target="_blank" rel="noopener"
+         style="color:var(--amber);text-decoration:none;font-size:.52rem;font-weight:700">☕ Support</a>
     </div>
   </div>
-</header>
+</div>
 
-<!-- ══ DASHBOARD ══ -->
-<main class="container">
-<div class="dashboard">
+<!-- ══ STATUS BAR ══ -->
+<div id="statusBar">
+  <div class="sb-item"><div class="sb-dot load" id="dot-kp"></div>NOAA Kp</div>
+  <div class="sb-item"><div class="sb-dot load" id="dot-wind"></div>DSCOVR Solar Wind</div>
+  <div class="sb-item"><div class="sb-dot load" id="dot-aurora"></div>OVATION Aurora</div>
+  <div class="sb-item"><div class="sb-dot load" id="dot-flares"></div>GOES X-Ray</div>
+  <div class="sb-item"><div class="sb-dot load" id="dot-alerts"></div>NOAA Alerts</div>
+  <div class="sb-item"><div class="sb-dot load" id="dot-iss"></div>ISS Tracking</div>
+  <div class="sb-item"><div class="sb-dot load" id="dot-news"></div>Spaceflight News</div>
+  <div class="sb-item"><div class="sb-dot load" id="dot-wx"></div>Open-Meteo</div>
+  <div class="sb-item"><div class="sb-dot ok"></div>SunCalc Moon</div>
+  <div class="sb-item" style="margin-left:auto;color:var(--muted)">Uptime: <span class="sb-val" id="uptime">00:00:00</span></div>
+  <div class="sb-item">📍 <span class="sb-val" id="locationLbl">Locating…</span></div>
+</div>
 
-  <!-- ① HERO — Overview gauges -->
-  <div class="card card-hero span-4">
-    <div class="card-header">
-      <h2><i class="fas fa-chart-line" style="color:var(--accent)"></i> Space Weather Overview</h2>
-      <div id="heroAlert" style="font-size:.82rem;color:var(--accent);font-weight:700"></div>
+<!-- ══ MAIN ══ -->
+<div id="main">
+
+  <!-- ── LEFT ── -->
+  <div id="left">
+    <div class="p-hdr">
+      <span class="p-hdr-title">Aurora Oval · OVATION Model</span>
+      <span class="p-hdr-badge ph-quiet" id="auroraIntBadge">Low</span>
     </div>
-    <div class="card-body">
-      <div class="gauges-row">
-        <!-- Kp -->
-        <div class="gauge-item">
-          <div class="gauge-svg-wrap">
-            <svg viewBox="0 0 90 90" width="90" height="90">
-              <circle cx="45" cy="45" r="38" fill="none" stroke="rgba(255,255,255,.1)" stroke-width="7"/>
-              <circle id="gKp" cx="45" cy="45" r="38" fill="none" stroke="var(--primary)"
-                stroke-width="7" stroke-linecap="round" stroke-dasharray="0 239"/>
-            </svg>
-            <div class="gauge-center" id="gKpVal">--</div>
-          </div>
-          <div>
-            <div class="gauge-label">Kp Index</div>
-            <div id="gKpBadge" class="badge badge-info">--</div>
-            <div class="gauge-sub">Geomagnetic Activity</div>
-          </div>
-        </div>
-        <!-- Solar Wind -->
-        <div class="gauge-item">
-          <div class="gauge-svg-wrap">
-            <svg viewBox="0 0 90 90" width="90" height="90">
-              <circle cx="45" cy="45" r="38" fill="none" stroke="rgba(255,255,255,.1)" stroke-width="7"/>
-              <circle id="gWind" cx="45" cy="45" r="38" fill="none" stroke="var(--sun)"
-                stroke-width="7" stroke-linecap="round" stroke-dasharray="0 239"/>
-            </svg>
-            <div class="gauge-center" id="gWindVal">--</div>
-          </div>
-          <div>
-            <div class="gauge-label">Solar Wind</div>
-            <div id="gWindBadge" class="badge badge-info">--</div>
-            <div class="gauge-sub">km/s</div>
-          </div>
-        </div>
-        <!-- Aurora -->
-        <div class="gauge-item">
-          <div class="gauge-svg-wrap">
-            <svg viewBox="0 0 90 90" width="90" height="90">
-              <circle cx="45" cy="45" r="38" fill="none" stroke="rgba(255,255,255,.1)" stroke-width="7"/>
-              <circle id="gAurora" cx="45" cy="45" r="38" fill="none" stroke="var(--aurora)"
-                stroke-width="7" stroke-linecap="round" stroke-dasharray="0 239"/>
-            </svg>
-            <div class="gauge-center" id="gAuroraVal">--%</div>
-          </div>
-          <div>
-            <div class="gauge-label">Aurora Chance</div>
-            <div id="gAuroraBadge" class="badge badge-info">--</div>
-            <div class="gauge-sub">24h Forecast</div>
-          </div>
-        </div>
-        <!-- Moon -->
-        <div class="gauge-item">
-          <div class="gauge-svg-wrap">
-            <svg viewBox="0 0 90 90" width="90" height="90">
-              <circle cx="45" cy="45" r="38" fill="none" stroke="rgba(255,255,255,.1)" stroke-width="7"/>
-              <circle id="gMoon" cx="45" cy="45" r="38" fill="none" stroke="var(--moon)"
-                stroke-width="7" stroke-linecap="round" stroke-dasharray="0 239"/>
-            </svg>
-            <div class="gauge-center" id="gMoonVal">--%</div>
-          </div>
-          <div>
-            <div class="gauge-label">Moon Phase</div>
-            <div id="gMoonBadge" class="badge badge-moon">--</div>
-            <div class="gauge-sub">Illumination</div>
-          </div>
-        </div>
-        <!-- Bt (IMF) -->
-        <div class="gauge-item">
-          <div class="gauge-svg-wrap">
-            <svg viewBox="0 0 90 90" width="90" height="90">
-              <circle cx="45" cy="45" r="38" fill="none" stroke="rgba(255,255,255,.1)" stroke-width="7"/>
-              <circle id="gBt" cx="45" cy="45" r="38" fill="none" stroke="var(--purple)"
-                stroke-width="7" stroke-linecap="round" stroke-dasharray="0 239"/>
-            </svg>
-            <div class="gauge-center" id="gBtVal">--</div>
-          </div>
-          <div>
-            <div class="gauge-label">IMF Bt</div>
-            <div id="gBtBadge" class="badge badge-info">--</div>
-            <div class="gauge-sub">nT · Interplanetary Field</div>
-          </div>
+    <div style="position:relative;height:180px;flex-shrink:0">
+      <div id="auroraMap" style="height:180px"></div>
+      <div class="map-overlay" id="auroraMapLabel">Kp --</div>
+    </div>
+
+    <!-- Kp gauge row -->
+    <div id="kpWrap">
+      <div id="kpSvgWrap">
+        <svg viewBox="0 0 68 68" width="68" height="68">
+          <circle cx="34" cy="34" r="28" fill="none" stroke="rgba(255,255,255,.08)" stroke-width="6"/>
+          <circle id="kpArc" cx="34" cy="34" r="28" fill="none" stroke="var(--cyan)"
+            stroke-width="6" stroke-linecap="round" stroke-dasharray="0 176"/>
+        </svg>
+        <div class="kp-center" id="kpBig">--</div>
+      </div>
+      <div class="kp-grid">
+        <div class="kp-cell"><div class="kp-c-lbl">24h Max</div><div class="kp-c-val v-amber" id="kpMax">--</div></div>
+        <div class="kp-cell"><div class="kp-c-lbl">Forecast</div><div class="kp-c-val v-cyan" id="kpFc">--</div></div>
+        <div class="kp-cell"><div class="kp-c-lbl">Aurora %</div><div class="kp-c-val v-green" id="kpProb">--%</div></div>
+        <div class="kp-cell"><div class="kp-c-lbl">G-Scale</div><div class="kp-c-val v-red" id="kpG">G0</div></div>
+      </div>
+    </div>
+
+    <!-- Moon phase -->
+    <div id="moonWrap">
+      <canvas id="moonCanvas" width="60" height="60"></canvas>
+      <div class="moon-info">
+        <div class="moon-phase-name" id="moonName">Loading…</div>
+        <div class="moon-sub-grid">
+          <div class="moon-sub">Illum: <span id="moonIllum">--%</span></div>
+          <div class="moon-sub">Age: <span id="moonAge">-- d</span></div>
+          <div class="moon-sub">Rise: <span id="moonRise">--</span></div>
+          <div class="moon-sub">Set: <span id="moonSet">--</span></div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- ② MOON PHASE -->
-  <div class="card card-moon">
-    <div class="card-header">
-      <h2><i class="fas fa-moon" style="color:var(--moon)"></i> Moon Phase</h2>
-      <span id="moonIllumBadge" class="badge badge-moon">--%</span>
+    <!-- Scrollable telemetry -->
+    <div id="leftScroll">
+      <div class="sec-hdr">Solar Wind · DSCOVR Real-Time</div>
+      <div class="t-row">
+        <span class="t-lbl">Wind Speed</span><span class="t-arrow">▶</span>
+        <div class="t-bar-wrap"><div class="t-bar-track"><div class="t-bar-fill" id="bWindSpd" style="background:var(--amber);width:0%"></div></div></div>
+        <span class="t-val v-amber" id="vWindSpd">-- <span class="t-unit">km/s</span></span>
+      </div>
+      <div class="t-row">
+        <span class="t-lbl">Wind Density</span><span class="t-arrow" style="color:var(--teal)">▶</span>
+        <div class="t-bar-wrap"><div class="t-bar-track"><div class="t-bar-fill" id="bWindDens" style="background:var(--teal);width:0%"></div></div></div>
+        <span class="t-val v-teal" id="vWindDens">-- <span class="t-unit">p/cm³</span></span>
+      </div>
+      <div class="t-row">
+        <span class="t-lbl">IMF Bz</span><span class="t-arrow" style="color:var(--pink)">▶</span>
+        <div class="t-bar-wrap"><div class="t-bar-track"><div class="t-bar-fill" id="bBz" style="background:var(--pink);width:0%"></div></div></div>
+        <span class="t-val v-pink" id="vBz">-- <span class="t-unit">nT</span></span>
+      </div>
+      <div class="t-row">
+        <span class="t-lbl">IMF Bt</span><span class="t-arrow" style="color:var(--purple)">▶</span>
+        <div class="t-bar-wrap"><div class="t-bar-track"><div class="t-bar-fill" id="bBt" style="background:var(--purple);width:0%"></div></div></div>
+        <span class="t-val v-purple" id="vBt">-- <span class="t-unit">nT</span></span>
+      </div>
+      <div class="t-row">
+        <span class="t-lbl">Wind Temp</span><span class="t-arrow">▶</span>
+        <div class="t-bar-wrap"><div class="t-bar-track"><div class="t-bar-fill" id="bWindT" style="background:var(--red);width:0%"></div></div></div>
+        <span class="t-val v-red" id="vWindT">-- <span class="t-unit">kK</span></span>
+      </div>
+
+      <div class="sec-hdr">Geomagnetic Indices</div>
+      <div class="t-row"><span class="t-lbl">Current Kp</span><div class="t-bar-wrap"></div><span class="t-val v-cyan" id="vCurKp">--</span></div>
+      <div class="t-row"><span class="t-lbl">24h Max Kp</span><div class="t-bar-wrap"></div><span class="t-val v-amber" id="vMaxKp">--</span></div>
+      <div class="t-row"><span class="t-lbl">Storm Level</span><div class="t-bar-wrap"></div><span class="t-val" id="vStorm">--</span></div>
+      <div class="t-row"><span class="t-lbl">Kp Forecast</span><div class="t-bar-wrap"></div><span class="t-val v-green" id="vKpFc">--</span></div>
+
+      <div class="sec-hdr">X-Ray / Flare Activity</div>
+      <div class="t-row"><span class="t-lbl">Current Flux</span><div class="t-bar-wrap"></div><span class="t-val v-cyan" id="vXrayFlux">--</span></div>
+      <div class="t-row"><span class="t-lbl">Latest Flare</span><div class="t-bar-wrap"></div><span class="t-val v-red" id="vLatestFlare">--</span></div>
+      <div class="t-row"><span class="t-lbl">Flare Count</span><div class="t-bar-wrap"></div><span class="t-val v-amber" id="vFlareCount">--</span></div>
+
+      <div class="sec-hdr">Local Observing Conditions</div>
+      <div class="t-row"><span class="t-lbl">Cloud Cover</span>
+        <div class="t-bar-wrap"><div class="t-bar-track"><div class="t-bar-fill" id="bCloud" style="background:var(--muted);width:0%"></div></div></div>
+        <span class="t-val" id="vCloud">--%</span></div>
+      <div class="t-row"><span class="t-lbl">Visibility</span><div class="t-bar-wrap"></div><span class="t-val v-cyan" id="vVis">-- km</span></div>
+      <div class="t-row"><span class="t-lbl">Humidity</span><div class="t-bar-wrap"></div><span class="t-val" id="vHumid">--%</span></div>
+      <div class="t-row"><span class="t-lbl">Temp</span><div class="t-bar-wrap"></div><span class="t-val v-amber" id="vTemp">-- °F</span></div>
+      <div class="t-row"><span class="t-lbl">Wind</span><div class="t-bar-wrap"></div><span class="t-val" id="vWind">-- mph</span></div>
+      <div class="t-row"><span class="t-lbl">Seeing</span><div class="t-bar-wrap"></div><span class="t-val v-green" id="vSeeing">--</span></div>
     </div>
-    <div class="card-body">
-      <div class="moon-center">
-        <div class="moon-canvas-wrap"><canvas id="moonCanvas" width="110" height="110"></canvas></div>
-        <div class="moon-name" id="moonName">Loading…</div>
-        <div class="data-list">
-          <div class="data-row c-moon"><span class="data-lbl">Illumination</span><span class="data-val" id="moonIllum">--%</span></div>
-          <div class="data-row c-moon"><span class="data-lbl">Age</span><span class="data-val" id="moonAge">-- days</span></div>
-          <div class="data-row c-moon"><span class="data-lbl">Next Full Moon</span><span class="data-val" id="moonNextFull">--</span></div>
-          <div class="data-row c-moon"><span class="data-lbl">Rise / Set</span><span class="data-val" id="moonRiseSet">--</span></div>
+  </div><!-- /left -->
+
+  <!-- ── CENTER ── -->
+  <div id="center">
+    <!-- Storm status hero -->
+    <div class="hero-block">
+      <div class="hero-top">
+        <span class="hero-icon">🌌</span>
+        <span class="hero-lbl">Space Weather Condition</span>
+        <span class="ph-badge ph-quiet" id="heroStormBadge" style="margin-left:auto">Quiet</span>
+      </div>
+      <div class="hero-name" id="heroStormName">Geomagnetically Quiet</div>
+      <div class="hero-desc" id="heroStormDesc">Solar wind nominal. No significant geomagnetic activity. Excellent conditions for aurora at high latitudes only.</div>
+      <div class="hero-meta">
+        <div class="hero-meta-row"><span class="hero-meta-lbl">Kp Now</span><span class="hero-meta-val" id="hKpNow">--</span></div>
+        <div class="hero-meta-row"><span class="hero-meta-lbl">Wind Speed</span><span class="hero-meta-val" id="hWindNow">-- km/s</span></div>
+        <div class="hero-meta-row"><span class="hero-meta-lbl">IMF Bz</span><span class="hero-meta-val" id="hBzNow">-- nT</span></div>
+        <div class="hero-meta-row"><span class="hero-meta-lbl">Aurora Prob.</span><span class="hero-meta-val" id="hAuroraProb">--%</span></div>
+        <div class="hero-meta-row"><span class="hero-meta-lbl">Best Viewing</span><span class="hero-meta-val" id="hViewing">--</span></div>
+        <div class="hero-meta-row"><span class="hero-meta-lbl">Moon Phase</span><span class="hero-meta-val" id="hMoonPhase">--</span></div>
+      </div>
+      <div class="hero-prog-track"><div class="hero-prog-fill" id="heroProgBar" style="width:0%;background:linear-gradient(90deg,var(--green2),var(--green))"></div></div>
+    </div>
+
+    <!-- Scrollable center -->
+    <div id="centerScroll">
+
+      <!-- ISS MAP -->
+      <div class="p-hdr">
+        <span class="p-hdr-title">🛰 ISS Live Position · Updates Every 10s</span>
+        <span class="p-hdr-badge ph-quiet" id="issBadge">Tracking</span>
+      </div>
+      <div id="mapWrap2">
+        <div id="issMap"></div>
+        <div class="map-overlay" id="issOverlay">ISS: -- / --</div>
+      </div>
+      <!-- ISS data row -->
+      <div style="display:grid;grid-template-columns:repeat(6,1fr);gap:1px;background:var(--border);flex-shrink:0">
+        <div style="background:var(--panel);padding:5px 8px;text-align:center">
+          <div style="font-size:.4rem;color:var(--muted);text-transform:uppercase;margin-bottom:1px">Latitude</div>
+          <div style="font-size:.64rem;font-weight:700;color:var(--cyan)" id="issLat">--°</div>
+        </div>
+        <div style="background:var(--panel);padding:5px 8px;text-align:center">
+          <div style="font-size:.4rem;color:var(--muted);text-transform:uppercase;margin-bottom:1px">Longitude</div>
+          <div style="font-size:.64rem;font-weight:700;color:var(--cyan)" id="issLon">--°</div>
+        </div>
+        <div style="background:var(--panel);padding:5px 8px;text-align:center">
+          <div style="font-size:.4rem;color:var(--muted);text-transform:uppercase;margin-bottom:1px">Altitude</div>
+          <div style="font-size:.64rem;font-weight:700;color:var(--green)" id="issAlt">-- km</div>
+        </div>
+        <div style="background:var(--panel);padding:5px 8px;text-align:center">
+          <div style="font-size:.4rem;color:var(--muted);text-transform:uppercase;margin-bottom:1px">Velocity</div>
+          <div style="font-size:.64rem;font-weight:700;color:var(--amber)" id="issSpd">-- km/h</div>
+        </div>
+        <div style="background:var(--panel);padding:5px 8px;text-align:center">
+          <div style="font-size:.4rem;color:var(--muted);text-transform:uppercase;margin-bottom:1px">Footprint</div>
+          <div style="font-size:.64rem;font-weight:700;color:var(--purple)" id="issFp">-- km</div>
+        </div>
+        <div style="background:var(--panel);padding:5px 8px;text-align:center">
+          <div style="font-size:.4rem;color:var(--muted);text-transform:uppercase;margin-bottom:1px">Daylight</div>
+          <div style="font-size:.64rem;font-weight:700;color:var(--teal)" id="issVis">--</div>
         </div>
       </div>
-    </div>
-  </div>
 
-  <!-- ③ SOLAR ACTIVITY -->
-  <div class="card card-solar">
-    <div class="card-header">
-      <h2><i class="fas fa-sun" style="color:var(--sun)"></i> Solar Activity</h2>
-      <span id="solarBadge" class="badge badge-good">Quiet</span>
-    </div>
-    <div class="card-body">
-      <div class="data-list">
-        <div class="data-row c-sun"><span class="data-lbl">Wind Speed</span><span class="data-val" id="windSpeed">-- km/s</span></div>
-        <div class="data-row c-sun"><span class="data-lbl">Wind Density</span><span class="data-val" id="windDensity">-- p/cm³</span></div>
-        <div class="data-row c-warn"><span class="data-lbl">IMF Bz</span><span class="data-val" id="imfBz">-- nT</span></div>
-        <div class="data-row c-info"><span class="data-lbl">IMF Bt</span><span class="data-val" id="imfBt">-- nT</span></div>
-        <div class="data-row c-alert"><span class="data-lbl">Latest Flare</span><span class="data-val" id="latestFlare">--</span></div>
-        <div class="data-row"><span class="data-lbl">X-ray Flux</span><span class="data-val" id="xrayFlux">--</span></div>
+      <!-- KP FORECAST CHART -->
+      <div class="p-hdr"><span class="p-hdr-title">📊 Kp Forecast · 18h</span><span class="p-hdr-badge ph-quiet" id="fcBadge">NOAA</span></div>
+      <div id="fcList" style="padding:4px 0"></div>
+
+      <!-- SOHO -->
+      <div class="p-hdr"><span class="p-hdr-title">☀️ SOHO LASCO Coronagraph</span>
+        <div style="display:flex;gap:4px">
+          <button class="soho-btn" onclick="refreshSOHO()">↻ Refresh</button>
+          <span class="p-hdr-badge" style="color:var(--amber);border:1px solid rgba(255,179,0,.25);font-size:.42rem;padding:1px 4px">NASA/ESA</span>
+        </div>
       </div>
-    </div>
-  </div>
-
-  <!-- ④ GEOMAGNETIC -->
-  <div class="card card-geo">
-    <div class="card-header">
-      <h2><i class="fas fa-magnet" style="color:var(--primary)"></i> Geomagnetic</h2>
-      <span id="geoBadge" class="badge badge-good">Stable</span>
-    </div>
-    <div class="card-body">
-      <div class="data-list">
-        <div class="data-row c-info"><span class="data-lbl">Current Kp</span><span class="data-val" id="curKp">--</span></div>
-        <div class="data-row c-warn"><span class="data-lbl">24h Max Kp</span><span class="data-val" id="maxKp">--</span></div>
-        <div class="data-row"><span class="data-lbl">Storm Level</span><span class="data-val" id="stormLevel">--</span></div>
-        <div class="data-row c-info"><span class="data-lbl">Kp Forecast</span><span class="data-val" id="kpForecast">--</span></div>
-        <div class="data-row c-moon"><span class="data-lbl">Dst Index</span><span class="data-val" id="dstIndex">-- nT</span></div>
-      </div>
-    </div>
-  </div>
-
-  <!-- ⑤ AURORA FORECAST -->
-  <div class="card card-aurora">
-    <div class="card-header">
-      <h2><i class="fas fa-cloud-moon" style="color:var(--aurora)"></i> Aurora Forecast</h2>
-      <span class="badge badge-aurora" id="auroraBadge">24h</span>
-    </div>
-    <div class="card-body">
-      <div class="data-list">
-        <div class="data-row c-aurora"><span class="data-lbl">Next 3h</span><span class="data-val" id="fc3h">--</span></div>
-        <div class="data-row c-aurora"><span class="data-lbl">Next 6h</span><span class="data-val" id="fc6h">--</span></div>
-        <div class="data-row c-aurora"><span class="data-lbl">Next 12h</span><span class="data-val" id="fc12h">--</span></div>
-        <div class="data-row c-aurora"><span class="data-lbl">Best Latitude</span><span class="data-val" id="fcLat">--</span></div>
-        <div class="data-row c-good"><span class="data-lbl">Viewing Window</span><span class="data-val" id="fcWindow">--</span></div>
-      </div>
-    </div>
-  </div>
-
-  <!-- ⑥ AURORA MAP -->
-  <div class="card card-amap span-2">
-    <div class="card-header">
-      <h2><i class="fas fa-globe-americas" style="color:var(--aurora)"></i> Aurora Oval (OVATION)</h2>
-      <span id="auroraIntensity" class="badge badge-info">Loading…</span>
-    </div>
-    <div class="card-body">
-      <div class="map-wrap"><div id="auroraMap"></div></div>
-      <div class="data-list" style="margin-top:.8rem;display:grid;grid-template-columns:1fr 1fr;gap:.5rem">
-        <div class="data-row c-info"><span class="data-lbl">Forecast Kp</span><span class="data-val" id="aMapKp">--</span></div>
-        <div class="data-row c-aurora"><span class="data-lbl">Max Probability</span><span class="data-val" id="aMapProb">--%</span></div>
-        <div class="data-row"><span class="data-lbl">Visibility</span><span class="data-val" id="aMapVis">--</span></div>
-        <div class="data-row c-good"><span class="data-lbl">Hemisphere</span><span class="data-val" id="aMapHemi">Both</span></div>
-      </div>
-    </div>
-  </div>
-
-  <!-- ⑦ ISS MAP -->
-  <div class="card card-iss span-2">
-    <div class="card-header">
-      <h2><i class="fas fa-satellite" style="color:var(--primary)"></i> ISS Live Tracking</h2>
-      <span class="badge badge-good">Live · 10s</span>
-    </div>
-    <div class="card-body">
-      <div class="map-wrap"><div id="issMap"></div></div>
-      <div class="data-list" style="margin-top:.8rem;display:grid;grid-template-columns:1fr 1fr 1fr;gap:.5rem">
-        <div class="data-row c-info"><span class="data-lbl">Lat</span><span class="data-val" id="issLat">--°</span></div>
-        <div class="data-row c-info"><span class="data-lbl">Lon</span><span class="data-val" id="issLon">--°</span></div>
-        <div class="data-row"><span class="data-lbl">Alt</span><span class="data-val" id="issAlt">-- km</span></div>
-        <div class="data-row c-sun"><span class="data-lbl">Speed</span><span class="data-val" id="issSpeed">-- km/h</span></div>
-        <div class="data-row"><span class="data-lbl">Footprint</span><span class="data-val" id="issFootprint">-- km</span></div>
-        <div class="data-row c-good"><span class="data-lbl">Daylight</span><span class="data-val" id="issDaylight">--</span></div>
-      </div>
-    </div>
-  </div>
-
-  <!-- ⑧ SOHO C2 -->
-  <div class="card card-soho span-2">
-    <div class="card-header">
-      <h2><i class="fas fa-solar-panel" style="color:var(--sun)"></i> SOHO LASCO C2</h2>
-      <span class="badge badge-info">NASA/ESA</span>
-    </div>
-    <div class="card-body">
       <div class="soho-wrap">
-        <img id="sohoC2" src="https://soho.nascom.nasa.gov/data/LATEST/current_c2.gif" alt="SOHO C2"
-          onerror="this.src='https://sohowww.nascom.nasa.gov/data/LATEST/current_c2.gif'">
+        <div class="soho-imgs">
+          <div class="soho-img-box">
+            <img id="sohoC2" src="https://soho.nascom.nasa.gov/data/LATEST/current_c2.gif" alt="C2"
+              onerror="this.src='https://sohowww.nascom.nasa.gov/data/LATEST/current_c2.gif'">
+            <div class="soho-cap">LASCO C2 · Inner Corona · 2–6 R☉</div>
+          </div>
+          <div class="soho-img-box">
+            <img id="sohoC3" src="https://soho.nascom.nasa.gov/data/LATEST/current_c3.gif" alt="C3"
+              onerror="this.src='https://sohowww.nascom.nasa.gov/data/LATEST/current_c3.gif'">
+            <div class="soho-cap">LASCO C3 · Outer Corona · 3.7–30 R☉</div>
+          </div>
+        </div>
       </div>
-      <div class="soho-footer">
-        <span>Inner corona · 2–6 solar radii</span>
-        <button class="soho-btn" onclick="refreshSOHO('C2')"><i class="fas fa-redo"></i> Refresh</button>
-      </div>
-    </div>
-  </div>
 
-  <!-- ⑨ SOHO C3 -->
-  <div class="card card-soho span-2">
-    <div class="card-header">
-      <h2><i class="fas fa-sun" style="color:var(--sun)"></i> SOHO LASCO C3</h2>
-      <span class="badge badge-info">NASA/ESA</span>
-    </div>
-    <div class="card-body">
-      <div class="soho-wrap">
-        <img id="sohoC3" src="https://soho.nascom.nasa.gov/data/LATEST/current_c3.gif" alt="SOHO C3"
-          onerror="this.src='https://sohowww.nascom.nasa.gov/data/LATEST/current_c3.gif'">
-      </div>
-      <div class="soho-footer">
-        <span>Outer corona · 3.7–30 solar radii</span>
-        <button class="soho-btn" onclick="refreshSOHO('C3')"><i class="fas fa-redo"></i> Refresh</button>
-      </div>
-    </div>
-  </div>
+      <!-- RECENT FLARES -->
+      <div class="p-hdr"><span class="p-hdr-title">🔥 Recent Solar Flares · GOES X-Ray</span><span class="p-hdr-badge ph-quiet" id="flareBadge">0</span></div>
+      <div id="flareList" style="padding:2px 0"></div>
 
-  <!-- ⑩ RECENT FLARES -->
-  <div class="card card-flares">
-    <div class="card-header">
-      <h2><i class="fas fa-fire" style="color:var(--red)"></i> Recent Solar Flares</h2>
-      <span id="flareCount" class="badge badge-info">0</span>
-    </div>
-    <div class="card-body">
-      <div id="flareList" class="data-list"><div class="loading-row"><div class="spinner"></div>Loading…</div></div>
-    </div>
-  </div>
+      <!-- NOAA ALERTS -->
+      <div class="p-hdr"><span class="p-hdr-title">🔔 NOAA Space Weather Alerts</span><span class="p-hdr-badge ph-storm" id="alertBadge">0</span></div>
+      <div id="alertList" style="padding:2px 0;max-height:160px;overflow-y:auto"></div>
 
-  <!-- ⑪ LOCAL WEATHER (Open-Meteo) -->
-  <div class="card card-weather">
-    <div class="card-header">
-      <h2><i class="fas fa-cloud-moon" style="color:var(--primary)"></i> Observing Conditions</h2>
-      <span id="wxBadge" class="badge badge-info">Forecast</span>
+      <!-- SPACE NEWS -->
+      <div class="p-hdr"><span class="p-hdr-title">📰 Space News</span><span class="p-hdr-badge" style="color:var(--cyan);border:1px solid rgba(0,212,255,.25);font-size:.42rem;padding:1px 4px" id="newsBadge">0</span></div>
+      <div id="newsList" style="padding:2px 0"></div>
+
+    </div><!-- /centerScroll -->
+  </div><!-- /center -->
+
+  <!-- ── RIGHT ── -->
+  <div id="right">
+    <div class="p-hdr">
+      <span class="p-hdr-title">Current Conditions</span>
+      <span class="ph-badge ph-quiet" id="rightBadge">Quiet</span>
     </div>
-    <div class="card-body">
-      <div style="font-size:.72rem;color:var(--muted);margin-bottom:.7rem">
-        📍 <span id="wxLocation">Detecting location…</span>
-      </div>
-      <div class="data-list">
-        <div class="data-row c-info"><span class="data-lbl">Cloud Cover</span><span class="data-val" id="wxCloud">--%</span></div>
-        <div class="data-row"><span class="data-lbl">Visibility</span><span class="data-val" id="wxVis">-- km</span></div>
-        <div class="data-row"><span class="data-lbl">Humidity</span><span class="data-val" id="wxHumid">--%</span></div>
-        <div class="data-row c-good"><span class="data-lbl">Seeing Estimate</span><span class="data-val" id="wxSeeing">--</span></div>
-        <div class="data-row c-moon"><span class="data-lbl">Temp</span><span class="data-val" id="wxTemp">-- °F</span></div>
-        <div class="data-row"><span class="data-lbl">Wind</span><span class="data-val" id="wxWind">-- mph</span></div>
+
+    <!-- Summary card -->
+    <div class="sum-card" id="sumCard">
+      <div class="sum-name" id="sumName">Geomagnetically Quiet</div>
+      <div class="sum-rows">
+        <div class="sum-row"><span class="sum-lbl">Storm Level</span><span class="sum-val" id="sumStorm">--</span></div>
+        <div class="sum-row"><span class="sum-lbl">Aurora Viewing</span><span class="sum-val" id="sumAurora">--</span></div>
+        <div class="sum-row"><span class="sum-lbl">Observing</span><span class="sum-val" id="sumObserving">--</span></div>
       </div>
     </div>
-  </div>
 
-  <!-- ⑫ METEOR SHOWERS -->
-  <div class="card card-meteor">
-    <div class="card-header">
-      <h2><i class="fas fa-meteor" style="color:var(--purple)"></i> Meteor Showers</h2>
-      <span id="meteorBadge" class="badge badge-info">--</span>
-    </div>
-    <div class="card-body">
-      <div id="meteorList" class="data-list"><div class="loading-row"><div class="spinner"></div>Loading…</div></div>
-    </div>
-  </div>
-
-  <!-- ⑬ NOTABLE COMETS -->
-  <div class="card card-comets">
-    <div class="card-header">
-      <h2><i class="fas fa-star" style="color:var(--accent)"></i> Notable Comets</h2>
-      <span id="cometBadge" class="badge badge-info">--</span>
-    </div>
-    <div class="card-body">
-      <div id="cometList" class="data-list"><div class="loading-row"><div class="spinner"></div>Loading…</div></div>
-    </div>
-  </div>
-
-  <!-- ⑭ SPACE NEWS -->
-  <div class="card card-news span-2">
-    <div class="card-header">
-      <h2><i class="fas fa-newspaper" style="color:var(--accent)"></i> Space News</h2>
-      <span id="newsBadge" class="badge badge-info">0</span>
-    </div>
-    <div class="card-body">
-      <div id="newsList" class="news-list"><div class="loading-row"><div class="spinner"></div>Loading…</div></div>
-    </div>
-  </div>
-
-  <!-- ⑮ NOAA ALERTS -->
-  <div class="card card-flares span-2">
-    <div class="card-header">
-      <h2><i class="fas fa-bell" style="color:var(--yellow)"></i> NOAA Space Weather Alerts</h2>
-      <span id="alertCount" class="badge badge-warn">0</span>
-    </div>
-    <div class="card-body">
-      <div id="alertList" class="alert-scroll"><div class="loading-row"><div class="spinner"></div>Loading…</div></div>
-    </div>
-  </div>
-
-  <!-- ⑯ SYSTEM STATUS -->
-  <div class="card card-status span-4">
-    <div class="card-header">
-      <h2><i class="fas fa-server" style="color:var(--green)"></i> Live Data Sources</h2>
-      <span id="systemBadge" class="badge badge-good">Online</span>
-    </div>
-    <div class="card-body">
-      <div class="status-grid" id="statusGrid">
-        <div class="status-src"><div class="src-dot load" id="dot-kp"></div>NOAA Kp Index</div>
-        <div class="status-src"><div class="src-dot load" id="dot-wind"></div>NOAA Solar Wind (DSCOVR)</div>
-        <div class="status-src"><div class="src-dot load" id="dot-aurora"></div>NOAA OVATION Aurora</div>
-        <div class="status-src"><div class="src-dot load" id="dot-flares"></div>NOAA Solar Flares</div>
-        <div class="status-src"><div class="src-dot load" id="dot-alerts"></div>NOAA Space Weather Alerts</div>
-        <div class="status-src"><div class="src-dot load" id="dot-iss"></div>ISS Tracking (wheretheiss.at)</div>
-        <div class="status-src"><div class="src-dot load" id="dot-news"></div>Spaceflight News API</div>
-        <div class="status-src"><div class="src-dot load" id="dot-wx"></div>Open-Meteo Weather</div>
-        <div class="status-src"><div class="src-dot load" id="dot-soho"></div>NASA/ESA SOHO</div>
-        <div class="status-src"><div class="src-dot ok"></div>SunCalc Moon (local)</div>
+    <!-- Weather tile -->
+    <div class="p-hdr"><span class="p-hdr-title">🌤 Observing Conditions · Local</span></div>
+    <div class="wx-conditions">
+      <div class="wx-cell">
+        <div class="wx-c-lbl">Cloud</div>
+        <div class="wx-c-val v-muted" id="wxCloud">--%</div>
+        <div class="seeing-bar" id="cloudBar" style="background:var(--muted);width:0%;margin:0 auto"></div>
       </div>
-      <div style="margin-top:.85rem;display:flex;justify-content:space-between;
-        font-size:.78rem;color:var(--muted);flex-wrap:wrap;gap:.4rem">
-        <span>Uptime: <strong id="uptime" style="color:var(--green)">00:00:00</strong></span>
-        <span>Last full refresh: <strong id="lastRefresh" style="color:var(--accent)">--</strong></span>
-        <span>Auto-refresh: <strong style="color:var(--primary)">60 seconds</strong></span>
+      <div class="wx-cell">
+        <div class="wx-c-lbl">Humidity</div>
+        <div class="wx-c-val v-cyan" id="wxHumid">--%</div>
+      </div>
+      <div class="wx-cell">
+        <div class="wx-c-lbl">Visibility</div>
+        <div class="wx-c-val v-green" id="wxVis">--</div>
+      </div>
+      <div class="wx-cell">
+        <div class="wx-c-lbl">Temp</div>
+        <div class="wx-c-val v-amber" id="wxTemp">--°F</div>
+      </div>
+      <div class="wx-cell">
+        <div class="wx-c-lbl">Wind</div>
+        <div class="wx-c-val v-purple" id="wxWind">--</div>
+      </div>
+      <div class="wx-cell">
+        <div class="wx-c-lbl">Seeing</div>
+        <div class="wx-c-val v-green" id="wxSeeing" style="font-size:.56rem">--</div>
       </div>
     </div>
+
+    <div id="rightScroll">
+      <!-- Upcoming events -->
+      <div class="sec-hdr">Upcoming Sky Events</div>
+      <div id="eventList"></div>
+
+      <!-- Meteor showers -->
+      <div class="sec-hdr">Meteor Showers</div>
+      <div id="meteorList"></div>
+
+      <!-- Notable comets -->
+      <div class="sec-hdr">Notable Comets · 2025–26</div>
+      <div id="cometList"></div>
+
+      <!-- Milestones / checklist -->
+      <div class="sec-hdr" style="display:flex;justify-content:space-between">
+        <span>Solar Cycle 25 Milestones</span>
+        <span id="msCt" style="color:var(--muted)">--</span>
+      </div>
+      <div id="msList"></div>
+    </div>
+  </div><!-- /right -->
+
+</div><!-- /main -->
+
+<!-- ══ FOOTER ══ -->
+<div id="footer">
+  <span>OURNIGHTSKY · LIVE SPACE WEATHER · DATA: NOAA SWPC · NASA/ESA SOHO · WHERETHEISS.AT · OPEN-METEO · NOT AFFILIATED WITH NASA</span>
+  <div class="footer-center">
+    <a href="https://ournightsky.us" target="_blank">OurNightSky.US</a>
+    <a href="https://nagohcreative.com" target="_blank">Nagoh Creative</a>
+    <a href="https://artemislive.ournightsky.us" target="_blank">Artemis Tracker</a>
+    <a href="https://comets.ournightsky.us" target="_blank">Comets</a>
+    <a href="https://live.ournightsky.us" target="_blank">Live Events</a>
   </div>
+  <div class="footer-right"><a href="https://buymeacoffee.com/ournightsky" target="_blank">☕ Support OurNightSky</a></div>
+</div>
 
-</div><!-- /dashboard -->
-</main>
-
-<footer class="container">
-  <p style="font-size:1.5rem;color:var(--primary);margin-bottom:.4rem">★</p>
-  <p>© 2025 Our Night Sky · ournightsky.us · by <a href="https://nagohcreative.com" target="_blank">Nagoh Creative</a></p>
-  <p style="font-size:.82rem;margin-top:.4rem">
-    Data: NOAA SWPC · NASA/ESA SOHO · wheretheiss.at · Spaceflight News API · Open-Meteo · SunCalc
-  </p>
-  <p style="margin-top:1.2rem">
-    <a href="https://buymeacoffee.com/ournightsky" target="_blank" rel="noopener"
-       style="color:#ffdd00;font-weight:700;font-size:1rem">
-      ☕ Support Our Night Sky – Buy Me a Coffee
-    </a>
-  </p>
-</footer>
-
-<!-- ══════════════════════════════════════════════
-     JAVASCRIPT — All live API, no JSON files
-══════════════════════════════════════════════ -->
+<!-- ══════════════════════════════════════════
+     JAVASCRIPT
+══════════════════════════════════════════ -->
 <script>
 'use strict';
 
-// ── API ENDPOINTS (all public, no key required) ───────────────────────────
+// ── API ENDPOINTS ─────────────────────────────────────────────────────────
 const API = {
-  kp:       'https://services.swpc.noaa.gov/products/noaa-planetary-k-index.json',
-  kpFc:     'https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json',
-  wind:     'https://services.swpc.noaa.gov/products/solar-wind/plasma-7-day.json',
-  imf:      'https://services.swpc.noaa.gov/products/solar-wind/mag-7-day.json',
-  aurora:   'https://services.swpc.noaa.gov/json/ovation_aurora_latest.json',
-  flares:   'https://services.swpc.noaa.gov/json/goes/primary/xrays-7-day.json',
-  alerts:   'https://services.swpc.noaa.gov/products/alerts.json',
-  iss:      'https://api.wheretheiss.at/v1/satellites/25544',
-  news:     'https://api.spaceflightnewsapi.net/v4/articles/?limit=10&ordering=-published_at',
-  // Open-Meteo built dynamically from geolocation
+  kp:     'https://services.swpc.noaa.gov/products/noaa-planetary-k-index.json',
+  kpFc:   'https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json',
+  wind:   'https://services.swpc.noaa.gov/products/solar-wind/plasma-7-day.json',
+  imf:    'https://services.swpc.noaa.gov/products/solar-wind/mag-7-day.json',
+  aurora: 'https://services.swpc.noaa.gov/json/ovation_aurora_latest.json',
+  flares: 'https://services.swpc.noaa.gov/json/goes/primary/xrays-7-day.json',
+  alerts: 'https://services.swpc.noaa.gov/products/alerts.json',
+  iss:    'https://api.wheretheiss.at/v1/satellites/25544',
+  news:   'https://api.spaceflightnewsapi.net/v4/articles/?limit=12&ordering=-published_at',
 };
 
-// ── STATE ─────────────────────────────────────────
+// ── STATE ──────────────────────────────────────────────────────────────────
 let issMap, auroraMap, issMarker, auroraLayer;
-let userLat = 40, userLon = -98; // default US center
+let userLat = 40, userLon = -98;
 let startTime = Date.now();
-let fetchStatus = {};
-
-// ── HELPERS ───────────────────────────────────────
 const $ = id => document.getElementById(id);
-const setDot = (key, state) => {
-  const el = $('dot-' + key);
-  if (!el) return;
-  el.className = 'src-dot ' + (state === 'ok' ? 'ok' : state === 'err' ? 'err' : 'load');
-};
-const setBadge = (el, text, cls) => {
-  if (!el) return;
-  el.textContent = text;
-  el.className = 'badge badge-' + cls;
-};
+const pad = n => String(n).padStart(2,'0');
 
-function setGauge(circleId, val, max) {
-  const el = $(circleId); if (!el) return;
-  const circ = 2 * Math.PI * 38;
-  const pct  = Math.min(Math.max(val / max, 0), 1);
-  el.style.strokeDasharray = `${(pct * circ).toFixed(1)} ${circ.toFixed(1)}`;
+// ── HELPERS ────────────────────────────────────────────────────────────────
+function setDot(key, state) {
+  const el = $('dot-' + key); if (!el) return;
+  el.className = 'sb-dot ' + (state==='ok'?'ok':state==='err'?'err':'load');
+}
+function setBar(id, pct) {
+  const el = $(id); if (el) el.style.width = Math.max(1,Math.min(100,pct))+'%';
+}
+function kpInfo(kp) {
+  if (kp >= 8) return {cls:'ph-severe', txt:'Extreme Storm', g:'G'+Math.min(5,Math.floor(kp-4)), color:'var(--red)'};
+  if (kp >= 6) return {cls:'ph-severe', txt:'Severe Storm',  g:'G'+Math.min(5,Math.floor(kp-4)), color:'var(--red)'};
+  if (kp >= 5) return {cls:'ph-storm',  txt:'Strong Storm',  g:'G'+Math.min(5,Math.floor(kp-4)), color:'var(--amber)'};
+  if (kp >= 4) return {cls:'ph-storm',  txt:'Minor Storm',   g:'G1', color:'var(--amber)'};
+  if (kp >= 3) return {cls:'ph-unset',  txt:'Unsettled',     g:'G0', color:'var(--blue)'};
+  return {cls:'ph-quiet', txt:'Quiet', g:'G0', color:'var(--green)'};
+}
+function windInfo(s) {
+  if (s >= 700) return 'ph-severe';
+  if (s >= 500) return 'ph-storm';
+  if (s >= 400) return 'ph-unset';
+  return 'ph-quiet';
 }
 
-function kpClass(kp) {
-  if (kp >= 7) return ['alert', 'Severe Storm'];
-  if (kp >= 5) return ['warn',  'Storm'];
-  if (kp >= 4) return ['warn',  'Minor Storm'];
-  if (kp >= 3) return ['info',  'Unsettled'];
-  return ['good', 'Quiet'];
+// ── UPTIME ─────────────────────────────────────────────────────────────────
+function tick() {
+  const d = Date.now() - startTime;
+  const h = Math.floor(d/3600000), m = Math.floor((d%3600000)/60000), s = Math.floor((d%60000)/1000);
+  $('uptime').textContent = `${pad(h)}:${pad(m)}:${pad(s)}`;
 }
 
-function probClass(p) {
-  if (p >= 70) return ['alert', 'High Chance'];
-  if (p >= 40) return ['warn',  'Moderate'];
-  if (p >= 20) return ['info',  'Low Chance'];
-  return ['good', 'Unlikely'];
-}
-
-function windClass(s) {
-  if (s >= 700) return ['alert', 'Fast Stream'];
-  if (s >= 500) return ['warn',  'Elevated'];
-  if (s >= 400) return ['info',  'Normal'];
-  return ['good', 'Slow'];
-}
-
-function loading(id) {
-  const el = $(id); if (el)
-    el.innerHTML = '<div class="loading-row"><div class="spinner"></div>Loading…</div>';
-}
-
-// ── MOON (SunCalc — no fetch needed) ─────────────────────────────────────
+// ── MOON ───────────────────────────────────────────────────────────────────
 function updateMoon() {
-  const now = new Date();
-  const mi  = SunCalc.getMoonIllumination(now);
-  const mt  = SunCalc.getMoonTimes(now, userLat, userLon);
+  const now  = new Date();
+  const mi   = SunCalc.getMoonIllumination(now);
+  const mt   = SunCalc.getMoonTimes(now, userLat, userLon);
   const illum = Math.round(mi.fraction * 100);
   const phase = mi.phase;
+  const age   = (phase * 29.53).toFixed(1);
 
-  const names = [
-    [0.01,'🌑 New Moon'],[0.24,'🌒 Waxing Crescent'],[0.26,'🌓 First Quarter'],
-    [0.49,'🌔 Waxing Gibbous'],[0.51,'🌕 Full Moon'],[0.74,'🌖 Waning Gibbous'],
-    [0.76,'🌗 Last Quarter'],[1,'🌘 Waning Crescent']
-  ];
-  const name = (names.find(([t]) => phase <= t) || names[names.length-1])[1];
+  const phases = [[.01,'🌑 New Moon'],[.24,'🌒 Waxing Crescent'],[.26,'🌓 First Quarter'],
+    [.49,'🌔 Waxing Gibbous'],[.51,'🌕 Full Moon'],[.74,'🌖 Waning Gibbous'],
+    [.76,'🌗 Last Quarter'],[1,'🌘 Waning Crescent']];
+  const name = (phases.find(([t])=>phase<=t)||phases[phases.length-1])[1];
 
-  const age = (phase * 29.53).toFixed(1);
+  const fmt = d => d ? d.toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'}) : '--';
 
-  // Next full moon
-  const known = new Date('2025-01-13T22:27Z');
-  const syn = 29.53058867;
-  const daysSince = (now - known) / 86400000;
-  const cyc = Math.floor(daysSince / syn);
-  const nextFull = new Date(known.getTime() + (cyc + 1) * syn * 86400000);
-
-  // Rise/set
-  let rs = '--';
-  if (mt.rise && mt.set) {
-    const r = mt.rise.toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'});
-    const s = mt.set.toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'});
-    rs = r + ' / ' + s;
-  }
-
-  $('moonName').textContent = name;
+  $('moonName').textContent  = name;
   $('moonIllum').textContent = illum + '%';
-  $('moonAge').textContent = age + ' days';
-  $('moonNextFull').textContent = nextFull.toLocaleDateString([],{month:'short',day:'numeric'});
-  $('moonRiseSet').textContent = rs;
-  setBadge($('moonIllumBadge'), illum + '%', 'moon');
-
-  setGauge('gMoon', illum, 100);
-  $('gMoonVal').textContent = illum + '%';
-  setBadge($('gMoonBadge'), name.split(' ').slice(1).join(' '), 'moon');
-
-  drawMoonCanvas(illum, phase);
+  $('moonAge').textContent   = age + 'd';
+  $('moonRise').textContent  = fmt(mt.rise);
+  $('moonSet').textContent   = fmt(mt.set);
+  $('tbMoon').textContent    = illum + '%';
+  $('hMoonPhase').textContent = name.replace(/^[^\s]+\s/,'');
+  drawMoon(illum, phase);
 }
 
-function drawMoonCanvas(illum, phase) {
-  const canvas = $('moonCanvas');
-  if (!canvas) return;
-  const ctx = canvas.getContext('2d');
-  const w = 110, r = 52, cx = w / 2, cy = w / 2;
-  ctx.clearRect(0, 0, w, w);
-
-  // Dark background circle
-  ctx.beginPath(); ctx.arc(cx, cy, r, 0, Math.PI * 2);
+function drawMoon(illum, phase) {
+  const c = $('moonCanvas'); if (!c) return;
+  const ctx = c.getContext('2d'), r = 28, cx = 30, cy = 30;
+  ctx.clearRect(0, 0, 60, 60);
+  ctx.beginPath(); ctx.arc(cx,cy,r,0,Math.PI*2);
   ctx.fillStyle = '#1a1f35'; ctx.fill();
-
-  // Illuminated part — simplified crescent/gibbous
   ctx.save();
-  ctx.beginPath(); ctx.arc(cx, cy, r, 0, Math.PI * 2); ctx.clip();
-
-  const frac = illum / 100;
-  if (phase <= 0.5) {
-    // waxing — lit on right
-    const xc = cx - (1 - frac * 2) * r;
+  ctx.beginPath(); ctx.arc(cx,cy,r,0,Math.PI*2); ctx.clip();
+  const frac = illum/100;
+  if (phase <= .5) {
+    const xc = cx - (1-frac*2)*r;
     ctx.beginPath();
-    ctx.arc(cx, cy, r, -Math.PI / 2, Math.PI / 2);
-    ctx.bezierCurveTo(xc, cy + r, xc, cy - r, cx, cy - r);
-    ctx.fillStyle = '#d4dcf7'; ctx.fill();
+    ctx.arc(cx,cy,r,-Math.PI/2,Math.PI/2);
+    ctx.bezierCurveTo(xc,cy+r,xc,cy-r,cx,cy-r);
+    ctx.fillStyle='#d4dcf7'; ctx.fill();
   } else {
-    // waning — lit on left
-    const xc = cx + (1 - (1 - frac) * 2) * r;
+    const xc = cx + (1-(1-frac)*2)*r;
     ctx.beginPath();
-    ctx.arc(cx, cy, r, Math.PI / 2, -Math.PI / 2);
-    ctx.bezierCurveTo(xc, cy - r, xc, cy + r, cx, cy + r);
-    ctx.fillStyle = '#d4dcf7'; ctx.fill();
+    ctx.arc(cx,cy,r,Math.PI/2,-Math.PI/2);
+    ctx.bezierCurveTo(xc,cy-r,xc,cy+r,cx,cy+r);
+    ctx.fillStyle='#d4dcf7'; ctx.fill();
   }
   ctx.restore();
-
-  // Rim
-  ctx.beginPath(); ctx.arc(cx, cy, r, 0, Math.PI * 2);
-  ctx.strokeStyle = 'rgba(224,231,255,.25)'; ctx.lineWidth = 2; ctx.stroke();
+  ctx.beginPath(); ctx.arc(cx,cy,r,0,Math.PI*2);
+  ctx.strokeStyle='rgba(224,231,255,.2)'; ctx.lineWidth=1.5; ctx.stroke();
 }
 
-// ── KP INDEX ──────────────────────────────────────
+// ── KP / GEOMAGNETIC ───────────────────────────────────────────────────────
 async function fetchKp() {
   try {
-    const [obs, fc] = await Promise.all([fetch(API.kp), fetch(API.kpFc)]);
-    const obsData = await obs.json();
-    const fcData  = await fc.json();
+    const [r1,r2] = await Promise.all([fetch(API.kp), fetch(API.kpFc)]);
+    const obs = await r1.json(), fc = await r2.json();
 
-    const rows = obsData.slice(1);
-    const latest = parseFloat(rows[rows.length - 1][1]);
-    const max24  = Math.max(...rows.slice(-8).map(r => parseFloat(r[1])));
+    const rows  = obs.slice(1);
+    const latest = parseFloat(rows[rows.length-1][1]);
+    const max24  = Math.max(...rows.slice(-8).map(r=>parseFloat(r[1])));
 
-    const [kpCls, kpTxt] = kpClass(latest);
-    $('gKpVal').textContent = latest.toFixed(1);
-    setGauge('gKp', latest, 9);
-    setBadge($('gKpBadge'), kpTxt, kpCls);
-    $('curKp').textContent = latest.toFixed(1);
-    $('maxKp').textContent = max24.toFixed(1);
-    $('stormLevel').textContent = kpTxt;
-    setBadge($('geoBadge'), kpTxt, kpCls);
-
-    // Forecast next few periods
-    const fcRows = fcData.slice(1).slice(0, 6);
-    const fcMax  = Math.max(...fcRows.map(r => parseFloat(r[1])));
-    $('kpForecast').textContent = `${fcMax.toFixed(1)} (max 18h)`;
-
-    // Aurora forecast based on Kp
-    const prob = Math.min(100, Math.round(fcMax / 9 * 100 * 1.5));
-    const [aCls, aTxt] = probClass(prob);
-    $('gAuroraVal').textContent = prob + '%';
-    setGauge('gAurora', prob, 100);
-    setBadge($('gAuroraBadge'), aTxt, aCls);
-    setBadge($('auroraBadge'), aTxt, aCls);
-
-    $('fc3h').textContent  = fcMax >= 5 ? 'Likely' : fcMax >= 3 ? 'Possible' : 'Unlikely';
-    $('fc6h').textContent  = fcMax >= 4 ? 'Possible' : 'Unlikely';
-    $('fc12h').textContent = fcMax >= 3 ? 'Possible' : 'Unlikely';
-    $('fcLat').textContent = fcMax >= 7 ? '<45°N' : fcMax >= 5 ? '50–55°N' : fcMax >= 3 ? '60–65°N' : '>65°N';
-    $('fcWindow').textContent = '2200–0200 local';
-
-    $('aMapKp').textContent  = fcMax.toFixed(1);
-    $('aMapProb').textContent = prob + '%';
-    $('aMapVis').textContent  = fcMax >= 5 ? 'Mid-latitudes' : fcMax >= 3 ? 'High-latitudes' : 'Polar only';
-    updateAuroraOval(fcMax);
-
-    // Hero alert
-    if (latest >= 5) {
-      $('heroAlert').textContent = `⚠️ G${Math.min(5,Math.floor(latest-4))} Geomagnetic Storm in Progress`;
-    } else {
-      $('heroAlert').textContent = '';
+    const info   = kpInfo(latest);
+    const prob   = Math.min(100, Math.round(latest/9*100*1.8));
+    const circ   = 2*Math.PI*28;
+    const arc    = $('kpArc');
+    if (arc) {
+      arc.style.stroke = info.color;
+      arc.style.strokeDasharray = `${(Math.min(latest/9,1)*circ).toFixed(1)} ${circ.toFixed(1)}`;
     }
+    $('kpBig').textContent = latest.toFixed(1);
+    $('kpBig').style.color = info.color;
+    $('kpMax').textContent = max24.toFixed(1);
+    $('kpProb').textContent = prob + '%';
+    $('kpG').textContent = info.g;
 
-    setDot('kp', 'ok');
-  } catch(e) {
-    console.error('Kp fetch failed:', e);
-    setDot('kp', 'err');
-  }
+    // Forecast rows
+    const fcRows = fc.slice(1).slice(0,8);
+    $('kpFc').textContent = Math.max(...fcRows.map(r=>parseFloat(r[1]))).toFixed(1);
+    renderFcList(fcRows);
+
+    // Topbar
+    $('tbKp').textContent = latest.toFixed(1);
+    const stEl = $('tbStorm');
+    stEl.textContent = info.txt; stEl.className = 'ph-badge ' + info.cls;
+
+    // Hero block
+    updateHero(latest, prob, info);
+
+    // Aurora forecast text
+    $('kpFc').textContent = Math.max(...fcRows.map(r=>parseFloat(r[1]))).toFixed(1);
+    $('fcBadge').textContent = info.txt;
+    $('fcBadge').className   = 'p-hdr-badge ' + info.cls;
+
+    // Right panel
+    $('rightBadge').textContent = info.txt;
+    $('rightBadge').className   = 'ph-badge ' + info.cls;
+    $('sumName').textContent    = info.txt + ' Conditions';
+    $('sumStorm').textContent   = info.g + ' · ' + info.txt;
+    $('sumAurora').textContent  = latest >= 5 ? 'Mid-latitudes' : latest >= 3 ? 'High-latitudes' : 'Polar only';
+    $('heroStormBadge').textContent = info.txt;
+    $('heroStormBadge').className   = 'ph-badge ' + info.cls;
+
+    // Left telemetry
+    $('vCurKp').textContent = latest.toFixed(1); $('vCurKp').style.color = info.color;
+    $('vMaxKp').textContent = max24.toFixed(1);
+    $('vStorm').textContent = info.txt; $('vStorm').style.color = info.color;
+    $('vKpFc').textContent  = fcRows.map(r=>parseFloat(r[1]).toFixed(1)).slice(0,3).join(' → ');
+
+    // Aurora map
+    $('auroraMapLabel').textContent = `Kp ${latest.toFixed(1)} · ${info.txt}`;
+    $('auroraIntBadge').textContent  = info.txt;
+    $('auroraIntBadge').className    = 'p-hdr-badge ' + info.cls;
+
+    setDot('kp','ok');
+  } catch(e) { console.error('Kp',e); setDot('kp','err'); }
 }
 
-// ── SOLAR WIND (DSCOVR) ───────────────────────────
-async function fetchSolarWind() {
+function renderFcList(rows) {
+  const el = $('fcList'); if (!el) return;
+  el.innerHTML = rows.map(r=>{
+    const kp = parseFloat(r[1]);
+    const info = kpInfo(kp);
+    const pct = (kp/9*100).toFixed(0);
+    const timeStr = r[0] ? r[0].slice(11,16)+' UTC' : '';
+    return `<div class="fc-row">
+      <span class="fc-time">${timeStr}</span>
+      <div class="fc-bar-track"><div class="fc-bar-fill" style="width:${pct}%;background:${info.color}"></div></div>
+      <span class="fc-val" style="color:${info.color}">${kp.toFixed(1)}</span>
+      <span class="fc-lbl" style="color:${info.color}">${info.g}</span>
+    </div>`;
+  }).join('');
+}
+
+function updateHero(kp, prob, info) {
+  const descs = {
+    'ph-quiet': 'Solar wind nominal. No significant geomagnetic activity. Best aurora viewing requires high latitudes (>60°N/S).',
+    'ph-unset': 'Slightly disturbed conditions. Aurora may be visible from high latitudes with a clear, dark sky.',
+    'ph-storm': `G${Math.min(5,Math.floor(kp-4))} geomagnetic storm in progress. Aurora possible at mid-latitudes. Elevated HF radio interference.`,
+    'ph-severe':`Severe G${Math.min(5,Math.floor(kp-4))} storm! Aurora visible at low latitudes. Potential power grid and GPS disruptions.`
+  };
+  $('heroStormName').textContent = info.txt + ' Space Weather';
+  $('heroStormDesc').textContent = descs[info.cls] || 'Data loading…';
+  $('hKpNow').textContent  = kp.toFixed(1);
+  $('hAuroraProb').textContent = prob + '%';
+  $('hViewing').textContent = kp >= 5 ? '<50°N/S' : kp >= 3 ? '<60°N/S' : 'Polar only';
+  $('heroProgBar').style.width = (kp/9*100).toFixed(0) + '%';
+  $('heroProgBar').style.background = `linear-gradient(90deg,${info.color}88,${info.color})`;
+}
+
+// ── SOLAR WIND ─────────────────────────────────────────────────────────────
+async function fetchWind() {
   try {
-    const [plasmaRes, imfRes] = await Promise.all([fetch(API.wind), fetch(API.imf)]);
-    const plasma = await plasmaRes.json();
-    const imf    = await imfRes.json();
+    const [r1,r2] = await Promise.all([fetch(API.wind),fetch(API.imf)]);
+    const plasma  = await r1.json(), imf = await r2.json();
+    const p = plasma[plasma.length-1], m = imf[imf.length-1];
 
-    const pRow = plasma[plasma.length - 1];
-    const iRow = imf[imf.length - 1];
+    const spd  = parseFloat(p[2])||0, dens = parseFloat(p[1])||0, temp = parseFloat(p[3])||0;
+    const bz   = parseFloat(m[3])||0, bt  = parseFloat(m[6])||0;
 
-    const speed   = parseFloat(pRow[2]) || 0;
-    const density = parseFloat(pRow[1]) || 0;
-    const bz      = parseFloat(iRow[3]) || 0;
-    const bt      = parseFloat(iRow[6]) || 0;
+    $('tbWind').textContent = spd.toFixed(0);
+    $('tbBz').textContent   = bz.toFixed(1);
+    $('tbBz').style.color   = bz < -5 ? 'var(--red)' : bz < 0 ? 'var(--amber)' : 'var(--teal)';
 
-    const [wCls, wTxt] = windClass(speed);
-    $('windSpeed').textContent   = speed.toFixed(0) + ' km/s';
-    $('windDensity').textContent = density.toFixed(1) + ' p/cm³';
-    $('imfBz').textContent       = bz.toFixed(1) + ' nT';
-    $('imfBt').textContent       = bt.toFixed(1) + ' nT';
-    setBadge($('solarBadge'), wTxt, wCls);
+    $('hWindNow').textContent = spd.toFixed(0) + ' km/s';
+    $('hBzNow').textContent   = bz.toFixed(1) + ' nT';
+    $('hBzNow').style.color   = bz < -5 ? 'var(--red)' : bz < 0 ? 'var(--amber)' : 'var(--teal)';
 
-    $('gWindVal').textContent = speed.toFixed(0);
-    setGauge('gWind', speed, 1000);
-    setBadge($('gWindBadge'), wTxt, wCls);
+    $('vWindSpd').innerHTML  = spd.toFixed(0)+'<span class="t-unit">km/s</span>';
+    $('vWindDens').innerHTML = dens.toFixed(1)+'<span class="t-unit">p/cm³</span>';
+    $('vBz').innerHTML = bz.toFixed(1)+'<span class="t-unit">nT</span>';
+    $('vBz').style.color = bz < -5 ? 'var(--red)' : bz < 0 ? 'var(--amber)' : 'var(--teal)';
+    $('vBt').innerHTML = bt.toFixed(1)+'<span class="t-unit">nT</span>';
+    $('vWindT').innerHTML = (temp/1000).toFixed(0)+'<span class="t-unit">kK</span>';
 
-    $('gBtVal').textContent = bt.toFixed(1);
-    setGauge('gBt', bt, 50);
-    setBadge($('gBtBadge'), bz < -5 ? 'Southward ⚡' : bz > 5 ? 'Northward' : 'Neutral', bz < -5 ? 'alert' : 'info');
+    setBar('bWindSpd', spd/1000*100);
+    setBar('bWindDens', dens/20*100);
+    setBar('bBz', Math.abs(bz)/50*100);
+    setBar('bBt', bt/50*100);
+    setBar('bWindT', Math.min(temp/500000*100,100));
 
-    // Bz coloring on the data row
-    const bzRow = $('imfBz').closest('.data-row');
-    if (bzRow) {
-      bzRow.className = 'data-row ' + (bz < -5 ? 'c-alert' : bz < 0 ? 'c-warn' : 'c-good');
-    }
-
-    setDot('wind', 'ok');
-  } catch(e) {
-    console.error('Solar wind fetch failed:', e);
-    setDot('wind', 'err');
-  }
+    setDot('wind','ok');
+  } catch(e) { console.error('Wind',e); setDot('wind','err'); }
 }
 
-// ── AURORA OVATION ────────────────────────────────
+// ── AURORA OVATION ─────────────────────────────────────────────────────────
 async function fetchAurora() {
   try {
     const res  = await fetch(API.aurora);
     const data = await res.json();
-    // Data format: {Forecast Time, coordinates:[lat,lon,aurora probability 0-100]}
     const coords = data.coordinates || [];
-    let maxProb = 0;
-    coords.forEach(c => { if (c[2] > maxProb) maxProb = c[2]; });
-    $('aMapProb').textContent = Math.round(maxProb) + '%';
-    plotAuroraHeatmap(coords);
-    setDot('aurora', 'ok');
-  } catch(e) {
-    console.error('Aurora fetch failed:', e);
-    setDot('aurora', 'err');
-  }
+    let maxP = 0;
+    coords.forEach(c=>{ if(c[2]>maxP) maxP=c[2]; });
+    const prob = Math.round(maxP);
+    $('kpProb').textContent  = prob + '%';
+    $('tbAurora').textContent = prob + '%';
+    $('hAuroraProb').textContent = prob + '%';
+    plotAurora(coords);
+    setDot('aurora','ok');
+  } catch(e) { console.error('Aurora',e); setDot('aurora','err'); }
 }
 
-function plotAuroraHeatmap(coords) {
+function plotAurora(coords) {
   if (!auroraMap) return;
   if (auroraLayer) auroraMap.removeLayer(auroraLayer);
-
-  const circles = [];
-  // Sample every Nth point to keep it fast
-  const step = Math.max(1, Math.floor(coords.length / 600));
-  coords.forEach((c, i) => {
-    if (i % step !== 0) return;
-    const [lon, lat, prob] = c;
+  const marks = [];
+  const step = Math.max(1, Math.floor(coords.length/500));
+  coords.forEach((c,i)=>{
+    if (i%step!==0) return;
+    const [lon,lat,prob] = c;
     if (prob < 5) return;
-    const color = prob > 60 ? '#ef4444' : prob > 30 ? '#f97316' : prob > 10 ? '#eab308' : '#22c55e';
-    circles.push(L.circleMarker([lat, lon], {
-      radius: 3, color, fillColor: color,
-      fillOpacity: Math.min(prob / 80, 0.85), weight: 0
-    }));
+    const col = prob>60?'#ef4444':prob>30?'#f97316':prob>10?'#eab308':'#22c55e';
+    marks.push(L.circleMarker([lat,lon],{radius:2.5,color:col,fillColor:col,
+      fillOpacity:Math.min(prob/80,.9),weight:0}));
   });
-  auroraLayer = L.layerGroup(circles).addTo(auroraMap);
+  auroraLayer = L.layerGroup(marks).addTo(auroraMap);
 }
 
-// ── SOLAR FLARES (GOES X-ray) ─────────────────────
+// ── FLARES ─────────────────────────────────────────────────────────────────
 async function fetchFlares() {
   try {
     const res  = await fetch(API.flares);
     const data = await res.json();
-    // each row: [time_tag, satellite, current_class, integrated_flux, beginTime, peakTime, endTime]
-    // Filter for events > C threshold
     const flares = [];
-    for (let i = data.length - 1; i >= 1 && flares.length < 8; i--) {
-      const row = data[i];
-      const cls = row[2]; // e.g. "C2.5"
-      if (!cls || cls === 'null') continue;
-      const letter = cls[0];
-      if ('MXB'.includes(letter) || (letter === 'C')) {
-        flares.push({ cls, time: row[0] });
-      }
+    for (let i=data.length-1; i>=1&&flares.length<10; i--) {
+      const row=data[i], cls=row[2];
+      if (!cls||cls==='null') continue;
+      const L=cls[0];
+      if ('MXB'.includes(L)||(L==='C')) flares.push({cls,time:row[0]});
     }
-    // Deduplicate by hour
-    const seen = new Set();
-    const uniq = flares.filter(f => {
-      const key = f.time.slice(0, 13);
-      if (seen.has(key)) return false;
-      seen.add(key); return true;
-    }).slice(0, 5);
+    const seen=new Set();
+    const uniq=flares.filter(f=>{
+      const k=f.time.slice(0,13); if(seen.has(k)) return false;
+      seen.add(k); return true;
+    }).slice(0,6);
 
-    $('flareCount').textContent = uniq.length;
-    $('latestFlare').textContent = uniq.length ? uniq[0].cls : 'None';
+    $('flareBadge').textContent = uniq.length;
+    $('vFlareCount').textContent = uniq.length;
+    $('vLatestFlare').textContent = uniq.length ? uniq[0].cls : 'None';
+
+    const classes = uniq.filter(f=>f.cls[0]==='X').length;
+    const mclasses= uniq.filter(f=>f.cls[0]==='M').length;
+    $('vXrayFlux').textContent = classes ? `${classes}× X-class` : mclasses ? `${mclasses}× M-class` : 'C or below';
 
     const el = $('flareList');
-    if (uniq.length === 0) {
-      el.innerHTML = '<div class="data-row c-good"><span class="data-lbl">No significant flares</span><span class="data-val">Quiet</span></div>';
+    if (!uniq.length) {
+      el.innerHTML='<div class="flare-item"><div class="flare-dot flare-c"></div><span class="flare-cls v-green">C-class</span><span class="flare-time">No significant events</span></div>';
     } else {
-      el.innerHTML = uniq.map(f => {
-        const l = f.cls[0];
-        const cls = l === 'X' ? 'c-alert' : l === 'M' ? 'c-warn' : 'c-good';
-        const dot = l === 'X' ? '🔴' : l === 'M' ? '🟡' : '🟢';
-        const t = f.time.slice(11, 16) + ' UTC ' + f.time.slice(5, 10);
-        return `<div class="data-row ${cls}">
-          <span class="data-lbl">${dot} ${f.cls}</span>
-          <span class="data-val" style="font-size:.78rem">${t}</span>
+      el.innerHTML = uniq.map(f=>{
+        const L=f.cls[0], dotCls=L==='X'?'flare-x':L==='M'?'flare-m':'flare-c';
+        const col=L==='X'?'var(--red)':L==='M'?'var(--amber)':'var(--green)';
+        const t=f.time.slice(11,16)+' '+f.time.slice(5,10);
+        return `<div class="flare-item">
+          <div class="flare-dot ${dotCls}"></div>
+          <span class="flare-cls" style="color:${col}">${f.cls}</span>
+          <span class="flare-time">${t} UTC</span>
         </div>`;
       }).join('');
     }
-
-    // X-ray class summary
-    const xClasses = flares.filter(f => f.cls[0] === 'X').length;
-    const mClasses = flares.filter(f => f.cls[0] === 'M').length;
-    $('xrayFlux').textContent = xClasses ? `${xClasses}× X-class` : mClasses ? `${mClasses}× M-class` : 'C-class or below';
-
-    setDot('flares', 'ok');
-  } catch(e) {
-    console.error('Flares fetch failed:', e);
-    setDot('flares', 'err');
-    $('flareList').innerHTML = '<div class="data-row c-warn"><span class="data-lbl">Data unavailable</span></div>';
-  }
+    setDot('flares','ok');
+  } catch(e) { console.error('Flares',e); setDot('flares','err'); }
 }
 
-// ── NOAA ALERTS ───────────────────────────────────
+// ── ALERTS ─────────────────────────────────────────────────────────────────
 async function fetchAlerts() {
   try {
     const res  = await fetch(API.alerts);
     const data = await res.json();
-    // data is array of alert objects
-    const recent = data.slice(0, 8);
-    $('alertCount').textContent = recent.length;
+    const recent = data.slice(0,6);
+    $('alertBadge').textContent = recent.length;
     const el = $('alertList');
     if (!recent.length) {
-      el.innerHTML = '<div class="alert-item" style="border-color:var(--green);background:rgba(74,222,128,.08)">No active space weather alerts</div>';
+      el.innerHTML='<div class="alert-item"><span class="alert-msg" style="color:var(--green)">No active space weather alerts</span></div>';
     } else {
-      el.innerHTML = recent.map(a => {
-        const msg = a.message || '';
-        const issue = a.issue_datetime ? a.issue_datetime.slice(0, 16).replace('T', ' ') + ' UTC' : '';
-        const firstLine = msg.split('\n').find(l => l.trim().length > 10 && !l.startsWith('#')) || msg.slice(0, 120);
+      el.innerHTML = recent.map(a=>{
+        const msg  = (a.message||'').split('\n').find(l=>l.trim().length>15&&!l.startsWith('#'))||'';
+        const time = (a.issue_datetime||'').slice(0,16).replace('T',' ');
         return `<div class="alert-item">
-          <strong>${issue}</strong><br>${firstLine.trim()}
+          <div class="alert-time">${time} UTC</div>
+          <div class="alert-msg">${msg.trim().slice(0,180)}</div>
         </div>`;
       }).join('');
     }
-    setDot('alerts', 'ok');
-  } catch(e) {
-    console.error('Alerts fetch failed:', e);
-    setDot('alerts', 'err');
-    $('alertList').innerHTML = '<div class="alert-item">Unable to load alerts</div>';
-  }
+    setDot('alerts','ok');
+  } catch(e) { console.error('Alerts',e); setDot('alerts','err'); }
 }
 
-// ── ISS TRACKING ──────────────────────────────────
-let issInterval;
+// ── ISS ────────────────────────────────────────────────────────────────────
 async function fetchISS() {
   try {
     const res  = await fetch(API.iss);
-    const data = await res.json();
-    const lat = data.latitude.toFixed(2);
-    const lon = data.longitude.toFixed(2);
-    const alt = data.altitude.toFixed(0);
-    const vel = (data.velocity * 1).toFixed(0);
-    const fp  = data.footprint ? data.footprint.toFixed(0) : '--';
-    const vis = data.visibility || '--';
-
-    $('issLat').textContent       = lat + '°';
-    $('issLon').textContent       = lon + '°';
-    $('issAlt').textContent       = alt + ' km';
-    $('issSpeed').textContent     = Math.round(data.velocity * 3.6) + ' km/h';
-    $('issFootprint').textContent = fp + ' km';
-    $('issDaylight').textContent  = vis === 'daylight' ? '☀️ Day' : '🌑 Night';
-
+    const d    = await res.json();
+    const lat  = d.latitude.toFixed(2), lon = d.longitude.toFixed(2);
+    $('issLat').textContent = lat+'°';
+    $('issLon').textContent = lon+'°';
+    $('issAlt').textContent = d.altitude.toFixed(0)+' km';
+    $('issSpd').textContent = Math.round(d.velocity*3.6).toLocaleString()+' km/h';
+    $('issFp').textContent  = (d.footprint||0).toFixed(0)+' km';
+    $('issVis').textContent = d.visibility==='daylight'?'☀️ Day':'🌑 Night';
+    $('issOverlay').textContent = `ISS: ${lat}° / ${lon}°`;
     if (issMarker && issMap) {
-      issMarker.setLatLng([data.latitude, data.longitude]);
-      issMap.panTo([data.latitude, data.longitude]);
+      issMarker.setLatLng([d.latitude,d.longitude]);
+      issMap.panTo([d.latitude,d.longitude]);
     }
-    setDot('iss', 'ok');
-  } catch(e) {
-    console.error('ISS fetch failed:', e);
-    setDot('iss', 'err');
-  }
+    setDot('iss','ok');
+  } catch(e) { console.error('ISS',e); setDot('iss','err'); }
 }
 
-// ── SPACE NEWS ────────────────────────────────────
+// ── NEWS ───────────────────────────────────────────────────────────────────
 async function fetchNews() {
   try {
     const res  = await fetch(API.news);
     const data = await res.json();
-    const articles = data.results || [];
-    $('newsBadge').textContent = articles.length;
-    const el = $('newsList');
-    el.innerHTML = articles.slice(0, 8).map(a => {
+    const arts = data.results||[];
+    $('newsBadge').textContent = arts.length;
+    $('newsList').innerHTML = arts.slice(0,10).map(a=>{
       const date = new Date(a.published_at).toLocaleDateString([],{month:'short',day:'numeric'});
       return `<div class="news-item">
-        <a href="${a.url}" target="_blank" rel="noopener">${a.title}</a>
+        <a class="news-link" href="${a.url}" target="_blank" rel="noopener">
+          <span class="news-dot"></span>${a.title}
+        </a>
         <div class="news-meta"><span>${a.news_site}</span><span>${date}</span></div>
       </div>`;
     }).join('');
-    setDot('news', 'ok');
-  } catch(e) {
-    console.error('News fetch failed:', e);
-    setDot('news', 'err');
-    $('newsList').innerHTML = '<div class="news-item"><a href="https://www.nasa.gov/news/" target="_blank">Visit NASA News ↗</a></div>';
-  }
+    setDot('news','ok');
+  } catch(e) { console.error('News',e); setDot('news','err'); }
 }
 
-// ── OPEN-METEO WEATHER ────────────────────────────
+// ── WEATHER ────────────────────────────────────────────────────────────────
 async function fetchWeather() {
   try {
-    const url = `https://api.open-meteo.com/v1/forecast?latitude=${userLat}&longitude=${userLon}` +
-      `&current=temperature_2m,relative_humidity_2m,cloud_cover,wind_speed_10m,visibility` +
+    const url = `https://api.open-meteo.com/v1/forecast?latitude=${userLat}&longitude=${userLon}`+
+      `&current=temperature_2m,relative_humidity_2m,cloud_cover,wind_speed_10m,visibility`+
       `&temperature_unit=fahrenheit&wind_speed_unit=mph&timezone=auto`;
-    const res  = await fetch(url);
-    const data = await res.json();
-    const c = data.current;
+    const res  = await fetch(url), d = await res.json(), c = d.current;
 
-    const cloud  = c.cloud_cover;
-    const vis    = (c.visibility / 1000).toFixed(1); // m → km
-    const humid  = c.relative_humidity_2m;
-    const temp   = c.temperature_2m.toFixed(0);
-    const wind   = c.wind_speed_10m.toFixed(0);
+    const cloud=c.cloud_cover, vis=(c.visibility/1000).toFixed(0),
+          humid=c.relative_humidity_2m, temp=c.temperature_2m.toFixed(0), wind=c.wind_speed_10m.toFixed(0);
+    const seeing = cloud<20?'Excellent':cloud<40?'Good':cloud<60?'Fair':cloud<80?'Poor':'Clouded Out';
+    const seeCls = cloud<20?'var(--green)':cloud<40?'var(--green)':cloud<60?'var(--amber)':'var(--red)';
 
-    const seeing = cloud < 20 ? 'Excellent' : cloud < 40 ? 'Good' :
-                   cloud < 60 ? 'Fair' : cloud < 80 ? 'Poor' : 'Clouded Out';
-    const seeCls = cloud < 20 ? 'good' : cloud < 40 ? 'good' : cloud < 60 ? 'warn' : 'alert';
-
-    $('wxCloud').textContent  = cloud + '%';
-    $('wxVis').textContent    = vis + ' km';
-    $('wxHumid').textContent  = humid + '%';
-    $('wxTemp').textContent   = temp + ' °F';
-    $('wxWind').textContent   = wind + ' mph';
+    // Right panel
+    $('wxCloud').textContent  = cloud+'%';
+    $('wxCloud').style.color  = cloud<20?'var(--green)':cloud<60?'var(--amber)':'var(--red)';
+    $('wxHumid').textContent  = humid+'%';
+    $('wxVis').textContent    = vis+' km';
+    $('wxTemp').textContent   = temp+'°F';
+    $('wxWind').textContent   = wind+' mph';
     $('wxSeeing').textContent = seeing;
-    setBadge($('wxBadge'), seeing, seeCls);
+    $('wxSeeing').style.color = seeCls;
+    $('cloudBar').style.width = cloud+'%';
+    $('cloudBar').style.background = cloud<40?'var(--green)':cloud<70?'var(--amber)':'var(--red)';
 
-    setDot('wx', 'ok');
-  } catch(e) {
-    console.error('Weather fetch failed:', e);
-    setDot('wx', 'err');
-  }
+    // Left telemetry
+    $('vCloud').textContent = cloud+'%'; $('vCloud').style.color = cloud<40?'var(--green)':cloud<70?'var(--amber)':'var(--red)';
+    $('vVis').textContent   = vis+' km';
+    $('vHumid').textContent = humid+'%';
+    $('vTemp').textContent  = temp+'°F';
+    $('vWind').textContent  = wind+' mph';
+    $('vSeeing').textContent = seeing; $('vSeeing').style.color = seeCls;
+    setBar('bCloud', cloud);
+    $('sumObserving').textContent = seeing;
+
+    setDot('wx','ok');
+  } catch(e) { console.error('Weather',e); setDot('wx','err'); }
 }
 
-// ── GEOLOCATION ───────────────────────────────────
+// ── METEORS / COMETS ───────────────────────────────────────────────────────
+function renderEvents() {
+  const now = new Date(), m = now.getMonth(), d = now.getDate();
+  const showers = [
+    {name:'Quadrantids',  peak:'Jan 3–4',   zhr:120, icon:'☄️', active:m===0&&d<=7},
+    {name:'Lyrids',       peak:'Apr 22–23', zhr:18,  icon:'✨', active:m===3&&d>=18&&d<=26},
+    {name:'Eta Aquariids',peak:'May 6–7',   zhr:50,  icon:'☄️', active:m===4&&d>=1&&d<=15},
+    {name:'Perseids',     peak:'Aug 12–13', zhr:100, icon:'☄️', active:m===7&&d>=5&&d<=20},
+    {name:'Orionids',     peak:'Oct 21–22', zhr:20,  icon:'✨', active:m===9&&d>=16&&d<=26},
+    {name:'Leonids',      peak:'Nov 17–18', zhr:15,  icon:'✨', active:m===10&&d>=12&&d<=22},
+    {name:'Geminids',     peak:'Dec 13–14', zhr:150, icon:'☄️', active:m===11&&d>=8&&d<=18},
+  ];
+  const active   = showers.filter(s=>s.active);
+  const upcoming = showers.filter(s=>!s.active).slice(0,3);
+  const el = $('meteorList');
+  let html = '';
+  [...active,...upcoming].forEach(s=>{
+    const color = s.active ? 'var(--aurora)' : 'var(--muted)';
+    const badge = s.active ? `<span class="event-badge" style="background:rgba(0,255,157,.12);color:var(--aurora);border:1px solid rgba(0,255,157,.3)">ACTIVE</span>`
+                            : `<span class="event-badge" style="background:rgba(96,112,160,.12);color:var(--muted);border:1px solid var(--border)">${s.peak}</span>`;
+    html += `<div class="event-item">
+      <div class="event-icon">${s.icon}</div>
+      <div class="event-body">
+        <div class="event-name" style="color:${color}">${s.name}</div>
+        <div class="event-sub">ZHR: ${s.zhr} · Peak: ${s.peak}</div>
+      </div>${badge}</div>`;
+  });
+  el.innerHTML = html || '<div class="event-item"><div class="event-body"><div class="event-name" style="color:var(--muted)">No active showers</div></div></div>';
+
+  const comets = [
+    {name:'C/2023 A3 Tsuchinshan',  mag:'~5',  note:'Fading · still observable',   icon:'🌟'},
+    {name:'C/2025 N1 ATLAS',         mag:'~8.5',note:'Binocular object',             icon:'☄️'},
+    {name:'12P/Pons-Brooks',          mag:'~10', note:'Post-perihelion',              icon:'💫'},
+    {name:'C/2024 G3 ATLAS',          mag:'~11', note:'Southern hemisphere',          icon:'✨'},
+  ];
+  $('cometList').innerHTML = comets.map(c=>`
+    <div class="event-item">
+      <div class="event-icon">${c.icon}</div>
+      <div class="event-body">
+        <div class="event-name">${c.name}</div>
+        <div class="event-sub">${c.note}</div>
+      </div>
+      <span class="event-badge" style="background:rgba(0,212,255,.12);color:var(--cyan);border:1px solid rgba(0,212,255,.3)">Mag ${c.mag}</span>
+    </div>`).join('');
+
+  // Upcoming sky events
+  const events = [
+    {name:'Next Full Moon', when: getNextFullMoon().toLocaleDateString([],{month:'short',day:'numeric'}), icon:'🌕'},
+    {name:'Spring Equinox 2026', when:'Mar 20', icon:'🌸'},
+    {name:'Total Solar Eclipse 2026', when:'Aug 12', icon:'🌑'},
+  ];
+  $('eventList').innerHTML = events.map(e=>`
+    <div class="event-item">
+      <div class="event-icon">${e.icon}</div>
+      <div class="event-body"><div class="event-name">${e.name}</div></div>
+      <span class="event-badge" style="background:rgba(255,179,0,.12);color:var(--amber);border:1px solid rgba(255,179,0,.3)">${e.when}</span>
+    </div>`).join('');
+
+  // Solar cycle milestones
+  const scMilestones = [
+    {n:'Solar Cycle 25 Begins',       d:'Dec 2019',  done:true},
+    {n:'Rising Phase',                d:'2020–2023', done:true},
+    {n:'Predicted Solar Maximum',     d:'Jul 2025',  done:true},
+    {n:'Strongest Storm Cycle 25',    d:'May 2024',  done:true},
+    {n:'Artemis II Mission',          d:'Apr 2026',  done:true},
+    {n:'Declining Phase Begins',      d:'Late 2025', done:false, warn:true},
+    {n:'Solar Cycle 26 Minimum',      d:'~2030',     done:false},
+    {n:'Solar Cycle 26 Begins',       d:'~2030',     done:false},
+  ];
+  const doneN = scMilestones.filter(s=>s.done).length;
+  $('msCt').textContent = `${doneN}/${scMilestones.length}`;
+  $('msList').innerHTML = scMilestones.map(ms=>{
+    const cls = ms.done?'done':ms.warn?'warn':'fut';
+    return `<div class="ms-item">
+      <div class="ms-dot ${cls}"></div>
+      <div>
+        <div class="ms-nm ${cls}">${ms.n}</div>
+        <div class="ms-dd">${ms.d}</div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function getNextFullMoon() {
+  const known = new Date('2025-01-13T22:27Z'), syn = 29.53058867, now = new Date();
+  const daysSince = (now-known)/86400000, cyc = Math.floor(daysSince/syn);
+  return new Date(known.getTime()+(cyc+1)*syn*86400000);
+}
+
+// ── SOHO ──────────────────────────────────────────────────────────────────
+function refreshSOHO() {
+  const ts = Date.now();
+  $('sohoC2').src = `https://soho.nascom.nasa.gov/data/LATEST/current_c2.gif?t=${ts}`;
+  $('sohoC3').src = `https://soho.nascom.nasa.gov/data/LATEST/current_c3.gif?t=${ts}`;
+  setDot('soho','ok');
+}
+
+// ── GEOLOCATION ───────────────────────────────────────────────────────────
 function geolocate() {
   if (!navigator.geolocation) return;
-  navigator.geolocation.getCurrentPosition(pos => {
-    userLat = pos.coords.latitude;
-    userLon = pos.coords.longitude;
-    $('wxLocation').textContent = `${userLat.toFixed(2)}°N, ${userLon.toFixed(2)}°`;
-    fetchWeather();
-    updateMoon(); // recalculate moon rise/set with real location
-  }, () => {
-    $('wxLocation').textContent = 'Using default location (US center)';
-  });
+  navigator.geolocation.getCurrentPosition(pos=>{
+    userLat = pos.coords.latitude; userLon = pos.coords.longitude;
+    $('locationLbl').textContent = `${userLat.toFixed(1)}°, ${userLon.toFixed(1)}°`;
+    fetchWeather(); updateMoon();
+  }, ()=>{ $('locationLbl').textContent = 'Default (US center)'; });
 }
 
-// ── METEOR SHOWERS (curated — no reliable free API) ───────────────────────
-function renderMeteors() {
-  const now = new Date();
-  const m = now.getMonth(), d = now.getDate();
-  const showers = [
-    { name:'Quadrantids',  peak:'Jan 3–4',   zhr:120, months:[0], active: m===0 && d<=7 },
-    { name:'Lyrids',       peak:'Apr 22–23',  zhr:18,  months:[3], active: m===3 && d>=18 && d<=26 },
-    { name:'Eta Aquariids',peak:'May 6–7',    zhr:50,  months:[4], active: m===4 && d>=1 && d<=15 },
-    { name:'Delta Aquariids',peak:'Jul 28–29',zhr:25,  months:[6], active: m===6 && d>=20 },
-    { name:'Perseids',     peak:'Aug 12–13',  zhr:100, months:[7], active: m===7 && d>=5 && d<=20 },
-    { name:'Orionids',     peak:'Oct 21–22',  zhr:20,  months:[9], active: m===9 && d>=16 && d<=26 },
-    { name:'Leonids',      peak:'Nov 17–18',  zhr:15,  months:[10],active: m===10 && d>=12 && d<=22 },
-    { name:'Geminids',     peak:'Dec 13–14',  zhr:150, months:[11],active: m===11 && d>=8 && d<=18 },
-    { name:'Ursids',       peak:'Dec 22–23',  zhr:10,  months:[11],active: m===11 && d>=20 && d<=26 },
-  ];
-
-  const active   = showers.filter(s => s.active);
-  const upcoming = showers.filter(s => !s.active).slice(0, 3);
-  const el = $('meteorList');
-  setBadge($('meteorBadge'), active.length ? `${active.length} Active` : 'None Active', active.length ? 'aurora' : 'info');
-
-  let html = '';
-  if (active.length) {
-    active.forEach(s => {
-      html += `<div class="data-row c-aurora">
-        <span class="data-lbl">★ ${s.name}</span>
-        <span class="data-val">ZHR: ${s.zhr}</span>
-      </div>`;
-    });
-  }
-  upcoming.forEach(s => {
-    html += `<div class="data-row c-purple">
-      <span class="data-lbl">${s.name}</span>
-      <span class="data-val" style="font-size:.8rem">${s.peak}</span>
-    </div>`;
-  });
-  el.innerHTML = html || '<div class="data-row"><span class="data-lbl">No active showers</span></div>';
-}
-
-// ── COMETS (curated 2025–2026) ────────────────────
-function renderComets() {
-  const comets = [
-    { name:'C/2023 A3 Tsuchinshan-ATLAS', mag:'~5.0', note:'Fading, still observable' },
-    { name:'C/2025 N1 ATLAS',             mag:'~8.5', note:'Binocular target' },
-    { name:'12P/Pons-Brooks',             mag:'~10',  note:'Post-perihelion' },
-    { name:'C/2024 G3 ATLAS',             mag:'~11',  note:'Southern sky' },
-  ];
-  setBadge($('cometBadge'), comets.length + '', 'info');
-  $('cometList').innerHTML = comets.map(c =>
-    `<div class="data-row c-info">
-      <span class="data-lbl" style="font-size:.76rem">${c.name}</span>
-      <span class="data-val" style="font-size:.8rem">Mag ${c.mag}</span>
-    </div>`
-  ).join('');
-}
-
-// ── AURORA OVAL (Leaflet) ─────────────────────────
-function updateAuroraOval(kp) {
-  if (!auroraMap) return;
-  const color = kp < 3 ? '#22c55e' : kp < 5 ? '#eab308' : kp < 7 ? '#f97316' : '#ef4444';
-  const text  = kp < 3 ? 'Low' : kp < 5 ? 'Moderate' : kp < 7 ? 'High' : 'Extreme';
-  setBadge($('auroraIntensity'), `Kp ${kp.toFixed(1)} — ${text}`, kp < 3 ? 'good' : kp < 5 ? 'warn' : 'alert');
-}
-
-// ── SOHO REFRESH ──────────────────────────────────
-function refreshSOHO(cam) {
-  const ts = Date.now();
-  if (cam === 'C2') $('sohoC2').src = `https://soho.nascom.nasa.gov/data/LATEST/current_c2.gif?t=${ts}`;
-  if (cam === 'C3') $('sohoC3').src = `https://soho.nascom.nasa.gov/data/LATEST/current_c3.gif?t=${ts}`;
-  setDot('soho', 'ok');
-}
-
-// ── UPTIME ────────────────────────────────────────
-function updateUptime() {
-  const d = Date.now() - startTime;
-  const h = Math.floor(d / 3600000).toString().padStart(2, '0');
-  const mn = Math.floor((d % 3600000) / 60000).toString().padStart(2, '0');
-  const s = Math.floor((d % 60000) / 1000).toString().padStart(2, '0');
-  $('uptime').textContent = `${h}:${mn}:${s}`;
-}
-
-// ── INIT MAPS ─────────────────────────────────────
+// ── MAPS ──────────────────────────────────────────────────────────────────
 function initMaps() {
-  const tileOpts = {
-    attribution: '©OpenStreetMap ©CartoDB',
-    maxZoom: 8, minZoom: 1
-  };
-  const tileUrl = 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png';
+  const tile = 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png';
+  const opts = {attribution:'©OSM ©CARTO',maxZoom:6,minZoom:1};
 
-  issMap = L.map('issMap', {zoomControl: false}).setView([0, 0], 1);
-  L.tileLayer(tileUrl, tileOpts).addTo(issMap);
-  issMarker = L.marker([0, 0], {
-    icon: L.divIcon({
-      className: '',
-      html: '<div style="width:14px;height:14px;background:var(--primary);border-radius:50%;border:2px solid #fff;box-shadow:0 0 10px var(--primary)"></div>',
-      iconSize: [14, 14], iconAnchor: [7, 7]
-    })
-  }).bindPopup('International Space Station').addTo(issMap);
+  auroraMap = L.map('auroraMap',{zoomControl:false,attributionControl:false}).setView([72,0],1);
+  L.tileLayer(tile,{...opts,maxZoom:4}).addTo(auroraMap);
 
-  auroraMap = L.map('auroraMap', {zoomControl: false}).setView([72, 0], 2);
-  L.tileLayer(tileUrl, {...tileOpts, maxZoom: 5}).addTo(auroraMap);
+  issMap = L.map('issMap',{zoomControl:false,attributionControl:false}).setView([0,0],1);
+  L.tileLayer(tile,opts).addTo(issMap);
+  issMarker = L.marker([0,0],{icon:L.divIcon({
+    className:'',
+    html:'<div style="width:13px;height:13px;background:var(--cyan);border-radius:50%;border:2px solid #fff;box-shadow:0 0 10px var(--cyan)"></div>',
+    iconSize:[13,13],iconAnchor:[6,6]
+  })}).bindPopup('International Space Station').addTo(issMap);
 }
 
-// ── MASTER REFRESH ────────────────────────────────
+// ── PANEL SWITCHING ───────────────────────────────────────────────────────
+function showPanel(name) {
+  document.querySelectorAll('.tb-tab').forEach((b,i)=>{
+    b.classList.toggle('active',['weather','solar','moon'][i]===name);
+  });
+}
+
+// ── MASTER REFRESH ────────────────────────────────────────────────────────
 async function refreshAll() {
   updateMoon();
+  renderEvents();
   await Promise.allSettled([
-    fetchKp(),
-    fetchSolarWind(),
-    fetchAurora(),
-    fetchFlares(),
-    fetchAlerts(),
-    fetchISS(),
-    fetchNews(),
-    fetchWeather(),
+    fetchKp(), fetchWind(), fetchAurora(),
+    fetchFlares(), fetchAlerts(), fetchISS(),
+    fetchNews(), fetchWeather()
   ]);
-  renderMeteors();
-  renderComets();
-  refreshSOHO('C2');
-  refreshSOHO('C3');
-  $('lastRefresh').textContent = new Date().toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'});
-  $('update-time').textContent = new Date().toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'});
+  refreshSOHO();
+  const t = new Date().toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'});
+  $('tbUpdated').textContent = t;
 }
 
-// ── BOOT ──────────────────────────────────────────
-document.addEventListener('DOMContentLoaded', () => {
+// ── BOOT ──────────────────────────────────────────────────────────────────
+document.addEventListener('DOMContentLoaded',()=>{
   initMaps();
   geolocate();
   refreshAll();
 
-  // ISS updates every 10 seconds
   setInterval(fetchISS, 10000);
-  // Full refresh every 60 seconds
   setInterval(refreshAll, 60000);
-  // SOHO every 5 minutes
-  setInterval(() => { refreshSOHO('C2'); refreshSOHO('C3'); }, 300000);
-  // Uptime every second
-  setInterval(updateUptime, 1000);
+  setInterval(()=>{refreshSOHO();}, 300000);
+  setInterval(tick, 1000);
 
   $('refreshBtn').addEventListener('click', refreshAll);
-  $('fsBtn').addEventListener('click', () => {
-    document.fullscreenElement ? document.exitFullscreen()
-      : document.documentElement.requestFullscreen();
-  });
 });
 </script>
 </body>
