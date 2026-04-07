@@ -1,11 +1,11 @@
 {
   "articles": [
     {
-      "title": "Starfish Space raises more than $100 million",
-      "link": "https://spacenews.com/starfish-space-raises-more-than-100-million/",
-      "source": "SpaceNews",
-      "date": "2026-04-07T13:00:00Z",
-      "summary": "\nWASHINGTON — Starfish Space has raised more than $100 million to scale up production of its satellite servicing spacecraft. Seattle-based Starfish announced April 7 it closed a Series B round led by Point72 Ventures, raising more than $100 million. Activate Capital and Shield Capital co-led the round, with major participation from Industrious Ventures and NightDragon. […]\nThe post Starfish Space raises more than $100 million appeared first on SpaceNews."
+      "title": "The Artemis II mission sends back stunning images of the far side of the Moon",
+      "link": "https://arstechnica.com/space/2026/04/the-artemis-ii-mission-sends-back-stunning-images-of-the-far-side-of-the-moon/",
+      "source": "Arstechnica",
+      "date": "2026-04-07T15:54:54Z",
+      "summary": "The Moon, the Earth, and the Sun; oh what fun!"
     },
     {
       "title": "NASA’s new moon base project requires operational technology systems in space, but they are vulnerable.",
@@ -13,6 +13,13 @@
       "source": "SpaceNews",
       "date": "2026-04-07T13:00:00Z",
       "summary": "\nNewly anointed NASA Administrator Jared Isaacman made a $20 billion announcement on March 24, 2026. To the delight of space enthusiasts everywhere, Isaacman said NASA was cancelling its project to deploy a space station in lunar orbit and would reorient to building a $20 billion base on the surface of the moon. The new base, […]\nThe post NASA’s new moon base project requires operational technology systems in space, but they are vulnerable. appeared first on SpaceNews."
+    },
+    {
+      "title": "Starfish Space raises more than $100 million",
+      "link": "https://spacenews.com/starfish-space-raises-more-than-100-million/",
+      "source": "SpaceNews",
+      "date": "2026-04-07T13:00:00Z",
+      "summary": "\nWASHINGTON — Starfish Space has raised more than $100 million to scale up production of its satellite servicing spacecraft. Seattle-based Starfish announced April 7 it closed a Series B round led by Point72 Ventures, raising more than $100 million. Activate Capital and Shield Capital co-led the round, with major participation from Industrious Ventures and NightDragon. […]\nThe post Starfish Space raises more than $100 million appeared first on SpaceNews."
     },
     {
       "title": "Nominate space industry leaders for the 2026 SpaceNews Icon Awards",
@@ -27,14 +34,7 @@
       "source": "SpaceNews",
       "date": "2026-04-07T11:00:00Z",
       "summary": "\nVantor employees were gathered for a sales kickoff in January, when an executive announced that a WorldView Legion satellite passing overhead would snap a photo of the California venue. Later, a buzzer sounded to alert the audience that the 30-centimeter-resolution image was available on the Vantor Hub portal. It had been 13 minutes. The demonstration […]\nThe post Earth observation operators push to deliver satellite images within minutes appeared first on SpaceNews."
-    },
-    {
-      "title": "Graphene and lasers for space propulsion",
-      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/04/Graphene_and_lasers_for_space_propulsion",
-      "source": "ESA",
-      "date": "2026-04-07T10:00:00Z",
-      "summary": "An international research team boarded ESA’s 86th parabolic flight campaign in May 2025 with ultralight graphene aerogels, then hit them with light during zero gravity phases to observe their reaction under space-like conditions.  "
     }
   ],
-  "updated": "2026-04-07T15:48:27.988Z"
+  "updated": "2026-04-07T16:16:03.459Z"
 }
