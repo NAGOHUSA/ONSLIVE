@@ -1184,6 +1184,96 @@ document.addEventListener('DOMContentLoaded',()=>{
 
   $('refreshBtn').addEventListener('click', refreshAll);
 });
+
+// ── SUPPORT POPUP ─────────────────────────────────────────────────────────
+(function(){
+  try { if (localStorage.getItem('sns-dismissed')) return; } catch(e) {}
+  setTimeout(function(){
+    const el = $('sns-overlay');
+    if (el) el.style.display = 'flex';
+  }, 30000);
+})();
+function snsClose() {
+  $('sns-overlay').style.display = 'none';
+}
+function snsDismiss() {
+  try { localStorage.setItem('sns-dismissed','1'); } catch(e) {}
+  $('sns-overlay').style.display = 'none';
+}
 </script>
+
+<!-- ══ SUPPORT POPUP ══ -->
+<div id="sns-overlay" style="display:none;position:fixed;inset:0;z-index:9999;background:rgba(7,9,16,.78);align-items:center;justify-content:center;font-family:'JetBrains Mono',monospace;">
+  <div style="background:#111422;border:1px solid #243060;max-width:390px;width:calc(100% - 32px);border-radius:3px;overflow:hidden;">
+
+    <!-- header -->
+    <div style="background:#0b0d18;border-bottom:1px solid #1c2238;padding:9px 13px;display:flex;align-items:center;gap:8px;">
+      <div style="width:7px;height:7px;border-radius:50%;background:#00e676;animation:pip 1.6s ease infinite;flex-shrink:0"></div>
+      <span style="font-size:.52rem;letter-spacing:.14em;text-transform:uppercase;color:#6070a0;font-weight:700;flex:1">OurNightSky · Support</span>
+      <button onclick="snsClose()" style="background:none;border:none;color:#6070a0;cursor:pointer;font-size:1.1rem;line-height:1;padding:0;transition:color .15s" onmouseover="this.style.color='#d8e0ff'" onmouseout="this.style.color='#6070a0'">×</button>
+    </div>
+
+    <!-- body -->
+    <div style="padding:18px 16px 14px">
+      <div style="font-size:1.5rem;margin-bottom:8px">🌙</div>
+      <div style="font-family:'Barlow Condensed',sans-serif;font-size:1.3rem;font-weight:800;color:#fff;line-height:1.15;margin-bottom:6px;letter-spacing:.01em">
+        Help keep the <span style="color:#00d4ff">sky lights on.</span>
+      </div>
+      <div style="font-size:.54rem;color:#6070a0;line-height:1.68;margin-bottom:14px">
+        This dashboard — and all our projects — runs on coffee and passion. No ads, no subscriptions, just humans who love space. Your support keeps future missions and tools like this one live.
+      </div>
+
+      <!-- project links -->
+      <div style="display:flex;flex-direction:column;gap:5px;margin-bottom:16px">
+        <a href="https://ournightsky.us" target="_blank" rel="noopener"
+           style="display:flex;align-items:center;gap:8px;text-decoration:none;background:#0b0d18;border:1px solid #1c2238;padding:7px 10px;border-radius:2px;transition:border-color .15s"
+           onmouseover="this.style.borderColor='rgba(0,212,255,.35)'" onmouseout="this.style.borderColor='#1c2238'">
+          <span style="font-size:.85rem">🌌</span>
+          <div><div style="font-size:.58rem;font-weight:700;color:#00d4ff">OurNightSky.us</div><div style="font-size:.44rem;color:#6070a0">Night sky news &amp; events hub</div></div>
+        </a>
+        <a href="https://artemislive.ournightsky.us" target="_blank" rel="noopener"
+           style="display:flex;align-items:center;gap:8px;text-decoration:none;background:#0b0d18;border:1px solid #1c2238;padding:7px 10px;border-radius:2px;transition:border-color .15s"
+           onmouseover="this.style.borderColor='rgba(0,212,255,.35)'" onmouseout="this.style.borderColor='#1c2238'">
+          <span style="font-size:.85rem">🚀</span>
+          <div><div style="font-size:.58rem;font-weight:700;color:#00d4ff">Artemis II Live Tracker</div><div style="font-size:.44rem;color:#6070a0">artemislive.ournightsky.us</div></div>
+        </a>
+        <a href="https://comets.ournightsky.us" target="_blank" rel="noopener"
+           style="display:flex;align-items:center;gap:8px;text-decoration:none;background:#0b0d18;border:1px solid #1c2238;padding:7px 10px;border-radius:2px;transition:border-color .15s"
+           onmouseover="this.style.borderColor='rgba(0,212,255,.35)'" onmouseout="this.style.borderColor='#1c2238'">
+          <span style="font-size:.85rem">☄️</span>
+          <div><div style="font-size:.58rem;font-weight:700;color:#00d4ff">Comets Tracker</div><div style="font-size:.44rem;color:#6070a0">comets.ournightsky.us</div></div>
+        </a>
+        <a href="https://live.ournightsky.us" target="_blank" rel="noopener"
+           style="display:flex;align-items:center;gap:8px;text-decoration:none;background:#0b0d18;border:1px solid #1c2238;padding:7px 10px;border-radius:2px;transition:border-color .15s"
+           onmouseover="this.style.borderColor='rgba(0,212,255,.35)'" onmouseout="this.style.borderColor='#1c2238'">
+          <span style="font-size:.85rem">📡</span>
+          <div><div style="font-size:.58rem;font-weight:700;color:#00d4ff">Live Sky Events</div><div style="font-size:.44rem;color:#6070a0">live.ournightsky.us</div></div>
+        </a>
+      </div>
+
+      <!-- CTA buttons -->
+      <div style="display:flex;gap:7px">
+        <a href="https://buymeacoffee.com/ournightsky" target="_blank" rel="noopener" onclick="snsClose()"
+           style="flex:1;background:#ffb300;border:none;color:#070910;padding:9px 12px;font-family:'JetBrains Mono',monospace;font-size:.58rem;font-weight:700;letter-spacing:.08em;cursor:pointer;border-radius:2px;text-decoration:none;display:flex;align-items:center;justify-content:center;gap:5px;transition:background .15s"
+           onmouseover="this.style.background='#ffc933'" onmouseout="this.style.background='#ffb300'">
+          ☕ Buy us a coffee
+        </a>
+        <button onclick="snsClose()"
+           style="flex:1;background:transparent;border:1px solid #1c2238;color:#6070a0;padding:9px 12px;font-family:'JetBrains Mono',monospace;font-size:.52rem;letter-spacing:.08em;cursor:pointer;border-radius:2px;transition:all .15s"
+           onmouseover="this.style.borderColor='#243060';this.style.color='#d8e0ff'" onmouseout="this.style.borderColor='#1c2238';this.style.color='#6070a0'">
+          Maybe later
+        </button>
+      </div>
+
+      <!-- dismiss -->
+      <div onclick="snsDismiss()"
+           style="font-size:.44rem;color:#2d3a5a;text-align:center;margin-top:10px;cursor:pointer;transition:color .15s"
+           onmouseover="this.style.color='#6070a0'" onmouseout="this.style.color='#2d3a5a'">
+        Don't show this again
+      </div>
+    </div>
+  </div>
+</div>
+
 </body>
 </html>
