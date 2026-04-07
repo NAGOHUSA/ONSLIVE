@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Artemis II Flies Around the Moon for All",
+      "link": "https://www.spacescout.info/2026/04/artemis-ii-flies-around-the-moon-for-all/",
+      "source": "Space Scout",
+      "date": "2026-04-07T20:26:59Z",
+      "summary": "On April 6th, 2026, humans visited the Moon for the first time in 54 years. Artemis II has completed its lunar flyby, achieving the literal and figurative apex of the mission as four people beheld parts of the surface never seen with human eyes."
+    },
+    {
       "title": "Hungary taps Northrop Grumman for first national geostationary communications satellite",
       "link": "https://spacenews.com/hungary-taps-northrop-grumman-for-first-national-geostationary-communications-satellite/",
       "source": "SpaceNews",
@@ -27,14 +34,7 @@
       "source": "NASA",
       "date": "2026-04-07T16:38:04Z",
       "summary": "Media will have an opportunity at 9:45 p.m. EDT on Wednesday, April 8, to speak with NASA’s Artemis II crew members as they continue their journey toward Earth during their historic mission around the Moon. The 20-minute virtual news conference will take place with NASA astronauts Reid Wiseman, Victor Glover, and Christina Koch, and CSA […]"
-    },
-    {
-      "title": "The Artemis II mission sends back stunning images of the far side of the Moon",
-      "link": "https://arstechnica.com/space/2026/04/the-artemis-ii-mission-sends-back-stunning-images-of-the-far-side-of-the-moon/",
-      "source": "Arstechnica",
-      "date": "2026-04-07T15:54:54Z",
-      "summary": "The Moon, the Earth, and the Sun; oh what fun!"
     }
   ],
-  "updated": "2026-04-07T20:24:49.711Z"
+  "updated": "2026-04-07T20:43:50.533Z"
 }
