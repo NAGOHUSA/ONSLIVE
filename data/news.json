@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Starfish Space raises more than $100 million",
+      "link": "https://spacenews.com/starfish-space-raises-more-than-100-million/",
+      "source": "SpaceNews",
+      "date": "2026-04-07T13:00:00Z",
+      "summary": "\nWASHINGTON — Starfish Space has raised more than $100 million to scale up production of its satellite servicing spacecraft. Seattle-based Starfish announced April 7 it closed a Series B round led by Point72 Ventures, raising more than $100 million. Activate Capital and Shield Capital co-led the round, with major participation from Industrious Ventures and NightDragon. […]\nThe post Starfish Space raises more than $100 million appeared first on SpaceNews."
+    },
+    {
+      "title": "NASA’s new moon base project requires operational technology systems in space, but they are vulnerable.",
+      "link": "https://spacenews.com/nasas-new-moon-base-project-requires-operational-technology-systems-in-space-but-they-are-vulnerable/",
+      "source": "SpaceNews",
+      "date": "2026-04-07T13:00:00Z",
+      "summary": "\nNewly anointed NASA Administrator Jared Isaacman made a $20 billion announcement on March 24, 2026. To the delight of space enthusiasts everywhere, Isaacman said NASA was cancelling its project to deploy a space station in lunar orbit and would reorient to building a $20 billion base on the surface of the moon. The new base, […]\nThe post NASA’s new moon base project requires operational technology systems in space, but they are vulnerable. appeared first on SpaceNews."
+    },
+    {
       "title": "Nominate space industry leaders for the 2026 SpaceNews Icon Awards",
       "link": "https://spacenews.com/nominate-space-industry-leaders-for-the-2026-spacenews-icon-awards/",
       "source": "SpaceNews",
@@ -20,21 +34,7 @@
       "source": "ESA",
       "date": "2026-04-07T10:00:00Z",
       "summary": "An international research team boarded ESA’s 86th parabolic flight campaign in May 2025 with ultralight graphene aerogels, then hit them with light during zero gravity phases to observe their reaction under space-like conditions.  "
-    },
-    {
-      "title": "Graphene and lasers for space propulsion",
-      "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Graphene_and_lasers_for_space_propulsion",
-      "source": "ESA",
-      "date": "2026-04-07T08:55:00Z",
-      "summary": "Lasers could one day steer solar sails and adjust a satellite’s position in outer space, thanks to graphene. An experiment on a gravity rollercoaster ride showed how this innovative material has the potential to revolutionise propulsion beyond Earth."
-    },
-    {
-      "title": "Galileo goes to the Moon",
-      "link": "https://www.esa.int/Applications/Satellite_navigation/Galileo_goes_to_the_Moon",
-      "source": "ESA",
-      "date": "2026-04-07T08:45:00Z",
-      "summary": "Last year, history was made as a navigation receiver on the Moon determined its position in real time using signals from approximately 410 000 km away. The receiver, called the Lunar GNSS Receiver Experiment (LuGRE), acquired signals from four navigation satellites orbiting Earth: two Galileo satellites and two GPS satellites."
     }
   ],
-  "updated": "2026-04-07T12:55:49.894Z"
+  "updated": "2026-04-07T13:30:24.822Z"
 }
